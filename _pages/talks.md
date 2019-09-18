@@ -19,5 +19,5 @@ SIAM UKIE Annual Meeting, Southampton, UK, 11 Jan 2018.
 * [Exact recovery for sparse signal via weighted $l_1$ minimization](https://doi.org/10.1093/imaiai/iaw002) <br>
 CMP2014, Luoyang, Henan Province, China, 12 May 2014. 
 
-* [New RIC bounds via $l_q$ minimization with $0<q\leg 1$ in compressed sensing](https://arxiv.org/abs/1308.0455) <br>
+* [New RIC bounds via $l_q$ minimization with $0<q\leq 1$ in compressed sensing](https://arxiv.org/abs/1308.0455) <br>
 The 9th ICNONLA, Changchun, China, 13 Sep 2013.
