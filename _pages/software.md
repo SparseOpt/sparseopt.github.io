@@ -19,9 +19,11 @@ Sparse optimization solvers
 Bilevel optimization toolbox
 ---
 
-* [BOLIB](https://github.com/ShenglongZhou/BOLIB), [bilevel optimization library of test problems](https://arxiv.org/abs/1812.00230). 
+* [BOLIB](https://github.com/ShenglongZhou/BOLIB), [BOLIB: bilevel optimization library of test problems](https://arxiv.org/abs/1812.00230).
 
-* [BiOpt](https://biopt.github.io/),  bilevel optimization toolbox including [BOLIB](https://github.com/ShenglongZhou/BOLIB), three solvers to solve bilevel optimization problems and sveral useful tools.
+* [BOLIBver2](https://biopt.github.io/bolib/), [BOLIB2019: bilevel optimization library of test problems version 2](https://biopt.github.io/bolib/). 
+
+* [BiOpt](https://biopt.github.io/),  bilevel optimization toolbox including 173 test examples from [BOLIBver2](https://biopt.github.io/bolib/), three solvers to solve bilevel optimization problems and sveral useful tools.
 
 Euclidean distance matrix optimization solvers
 ---
