@@ -10,9 +10,6 @@ Sparse optimization
 * S. Zhou, [N. Xiu](http://en.sci.njtu.edu.cn/Faculty/phdsupervisor/12002.htm) and [H. Qi](http://www.personal.soton.ac.uk/hdqi/), [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://arxiv.org/abs/1901.02763), 2019. (Matlab code: [NHTP](https://github.com/ShenglongZhou/NHTP))
 
 *  R. Wang, N. Xiu and S. Zhou, [Fast Newton Method for Sparse Logistic Regression](https://arxiv.org/abs/1901.02768), 2018.
-
-* X. Li, N. Xiu and S. Zhou, [Matrix Optimization Over Low-Rank Spectral Sets: Stationary Points, Local
- and Global Minimizers](https://www.researchgate.net/publication/327581904), 2019.
  
  * L. Pan, S. Zhou, N. Xiu and H. Qi, [A Convergent Iterative Hard Thresholding for Sparsity and Nonnegativity
 Constrained Optimization](https://www.researchgate.net/publication/299519906), Pacific Journal of Optimization, vol. 13(2): 325-353, 2017.
