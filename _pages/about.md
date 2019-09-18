@@ -11,13 +11,17 @@ redirect_from:
 Education and Work Experience
 ---
 
-* Research Fellow in [Operational Research](https://www.southampton.ac.uk/maths/research/groups/operational_research.page),  [School of Mathematics](https://www.southampton.ac.uk/maths), [University of Southampton](https://www.southampton.ac.uk/), UK, 2017-2019.
+* Research Fellow in [Operational Research](https://www.southampton.ac.uk/maths/research/groups/operational_research.page) <br>
+  [School of Mathematics](https://www.southampton.ac.uk/maths), [University of Southampton](https://www.southampton.ac.uk/), UK, 2017-2019.
   
-* Ph.D in Operational Research, School of Mathematics, University of Southampton, UK, 2014-2018.  
+* Ph.D in Operational Research <br>
+School of Mathematics, University of Southampton, UK, 2014-2018.  
 
-* M.S. in Operational Research, [Department of Mathematics](http://en.sci.njtu.edu.cn/Department/DepartmentofMathematics/index.htm), [Beijing Jiaotong University](http://en.njtu.edu.cn/), China,  2011-2014.
+* M.S. in Operational Research <br>
+[Department of Mathematics](http://en.sci.njtu.edu.cn/Department/DepartmentofMathematics/index.htm), [Beijing Jiaotong University](http://en.njtu.edu.cn/), China,  2011-2014.
   
-* B.S. in Information and Computing Sciences, Department of Mathematics, Beijing Jiaotong University, China, 2007-2011.
+* B.S. in Information and Computing Sciences<br>
+Department of Mathematics, Beijing Jiaotong University, China, 2007-2011.
  
   
 Research Interests
