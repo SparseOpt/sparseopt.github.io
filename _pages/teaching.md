@@ -9,8 +9,8 @@ redirect_from:
 
 ---
 
- * $Covex~ Analysis$ <br>
+ * <span style="color:blue">*Covex Analysis*</span>   <br>
  Postgraduate course, Beijing Jiaotong University, Beijing, China, 2013
  
-* $Theory~ and~ Algorithms~ on~ Nonlinear~ Programming$ <br>
+* <span style="color:blue">*Theory  and  Algorithms on Nonlinear  Programming*</span>   <br>
 Undergraduate course, Beijing Jiaotong University, Beijing, China, 2012
