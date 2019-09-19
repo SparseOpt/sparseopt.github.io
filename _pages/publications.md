@@ -7,6 +7,7 @@ redirect_from:
   - /resume
 ---
 
+
 <span style="color:grey">Sparse optimization</span>
 ---
 
