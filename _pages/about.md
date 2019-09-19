@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<span style="color:blue">Education and Work Experience</span>
+<span style="color:grey">Education and Work Experience</span>
 ---
 
 * Research Fellow in [Operational Research](https://www.southampton.ac.uk/maths/research/groups/operational_research.page) <br>
@@ -24,7 +24,7 @@ School of Mathematics, University of Southampton, UK, 2014-2018.
 Department of Mathematics, Beijing Jiaotong University, China, 2007-2011.
  
   
-<span style="color:blue">Research Interests</span>
+<span style="color:grey">Research Interests</span>
 ---
 My research interests are the theory and methods of optimization in the fields of sparse optimization, bilevel
 optimization and Euclidean distance matrix optimization. 
