@@ -1,8 +1,10 @@
 ---
-layout: archive
-title: ""   
-permalink: /publications/
+permalink: /
+title: ""
+excerpt: "publications"
 author_profile: true
+redirect_from: 
+  - /publications/
 ---
 
 <span style="color:grey">Sparse optimization</span>
