@@ -7,7 +7,6 @@ redirect_from:
   - /resume
 ---
 
----
  * <span style="color:orange">*Convex Analysis*</span>   <br>
  Postgraduate course, Beijing Jiaotong University, Beijing, China, 2013
  
