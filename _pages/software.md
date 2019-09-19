@@ -23,7 +23,7 @@ Bilevel optimization toolbox
 
 * [BOLIBver2](https://biopt.github.io/bolib/), the second verion of  the library providing 173 test examples. See [BOLIB2019: bilevel optimization library of test problems version 2](https://biopt.github.io/bolib/) for more information.
 
-* [BiOpt](https://biopt.github.io/),  bilevel optimization toolbox including 173 test examples from [BOLIBver2](https://biopt.github.io/bolib/), three solvers to solve bilevel optimization problems and sveral useful tools.
+* [BiOpt Toolbox](https://biopt.github.io/),  bilevel optimization toolbox including 173 test examples from [BOLIBver2](https://biopt.github.io/bolib/), three solvers to solve bilevel optimization problems and sveral useful tools.
 
 Euclidean distance matrix optimization solvers
 ---
