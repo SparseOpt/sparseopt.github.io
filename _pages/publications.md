@@ -1,11 +1,12 @@
 ---
-permalink: /
-title: ""
-excerpt: "publications"
+layout: archive
+title:  
+permalink: /publications/
 author_profile: true
-redirect_from: 
-  - /publications/
+redirect_from:
+  - /software/
 ---
+
 
 <span style="color:grey">Sparse optimization</span>
 ---
