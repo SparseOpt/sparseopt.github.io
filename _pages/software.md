@@ -4,7 +4,7 @@ title:
 permalink: /software/
 author_profile: true
 redirect_from:
-  - /resume
+  - /software/
 ---
 
 {% include base_path %}
