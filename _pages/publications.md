@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-<span style="color:orange">Sparse optimization</span>
+<span style="color:grey">Sparse optimization</span>
 ---
 * S. Zhou, [N. Xiu](http://en.sci.njtu.edu.cn/Faculty/phdsupervisor/12002.htm) and [H. Qi](http://www.personal.soton.ac.uk/hdqi/), [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://arxiv.org/abs/1901.02763), 2019. (Matlab code: [NHTP](https://github.com/ShenglongZhou/NHTP))
 
@@ -37,11 +37,11 @@ of LCPs](https://www.infona.pl/resource/bwmeta1.element.springer-doi-10_1007-S11
 * S. Zhou, L. Kong and N. Xiu, [New Bounds for RIC in Compressed Sensing](https://link.springer.com/article/10.1007/s40305-013-0013-z), Journal of the Operations Research Society of China, vol. 1(2): 227-237, 2013.
 
 
-<span style="color:orange">Bilevel optimization </span>
+<span style="color:grey">Bilevel optimization </span>
 ---
 * S. Zhou, [A. Zemkoho](http://www.southampton.ac.uk/~abz1e14/) and A. Tin, [BOLIB: Bilevel Optimization Library of Test Problems](https://arxiv.org/abs/1812.00230), 2018. (Matlab code: [BOLIB](https://github.com/ShenglongZhou/BOLIB))
 
-<span style="color:orange">Euclidean distance matrix optimization </span> 
+<span style="color:grey">Euclidean distance matrix optimization </span> 
 ---
 * S. Zhou, N. Xiu and H. Qi, [Robust Euclidean Embedding via EDM Optimisation, Mathematical
 Programming Computation](https://link.springer.com/article/10.1007/s12532-019-00168-0), 2019. (Matlab code: [PREEEDM](https://github.com/ShenglongZhou/PREEEDM))
