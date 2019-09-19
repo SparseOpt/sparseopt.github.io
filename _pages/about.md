@@ -22,10 +22,10 @@ School of Mathematics, University of Southampton, UK, 2014-2018.
   
 * B.S. in Information and Computing Sciences<br>
 Department of Mathematics, Beijing Jiaotong University, China, 2007-2011.
- 
   
 <span style="color:grey">Research Interests</span>
 ---
+
 My research interests are the theory and methods of optimization in the fields of sparse optimization, bilevel
 optimization and Euclidean distance matrix optimization. 
 
