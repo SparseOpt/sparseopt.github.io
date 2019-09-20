@@ -27,7 +27,7 @@ optimization and Euclidean distance matrix optimization.
 
 * <span style="color:orange">**Sparse  optimization**.</span> Two efficient first order methods [MIRL1](https://github.com/ShenglongZhou/MIRL1) and IIHT, and a powerful second order method [NHTP](https://github.com/ShenglongZhou/NHTP) have been proposed to solve the sparsity constrained optimization. 
 
-* <span style="color:orange">**Bilevel optimization**.</span> A Matlab-based [BiOpt Toolbox](https://biopt.github.io/) made up of a wide range collection of  bilevel optimization examples [BOLIB](https://biopt.github.io/bolib/), three efficient solvers and several useful tools has been created. 
+* <span style="color:orange">**Bilevel optimization**.</span> A Matlab-based [BiOpt Toolbox](https://biopt.github.io/) has been created, aiming at providing a platform on which users can test  a wide range collection of  bilevel optimization examples [BOLIB](https://biopt.github.io/bolib/) by using  three provided efficient solvers and several useful tools . 
 
 * <span style="color:orange">**Euclidean distance matrix optimization**.</span> This is the topic of my [PhD thesis](https://eprints.soton.ac.uk/429739/), where majorization techniques were adopted to design fast algorithms equipped with two powerful solvers [PREEEDM](https://github.com/ShenglongZhou/PREEEDM) and [SQREDM](https://github.com/ShenglongZhou/SQREDM).
 
