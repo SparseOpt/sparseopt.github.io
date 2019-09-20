@@ -25,7 +25,8 @@ B.S. in Information and Computing Sciences, 2007-2011 <br>
 My research interests are the theory and methods of optimization in the fields of sparse optimization, bilevel
 optimization and Euclidean distance matrix optimization. 
 
-* <span style="color:orange">**Sparse  optimization**.</span> Two efficient first order methods [MIRL1](https://github.com/ShenglongZhou/MIRL1) and IIHT, and a powerful second order method [NHTP](https://github.com/ShenglongZhou/NHTP) have been proposed to solve the sparsity constrained optimization. 
+* <span style="color:orange">**Sparse  optimization**.</span> We established the exact recovery theory for weighted $l_1$ minimization, 
+ kinds of optimality conditions as well as global and quadratic convergence properties of Newton method  for sparsity constrained optimization.  Two efficient first order methods [MIRL1](https://github.com/ShenglongZhou/MIRL1) and IIHT, and a powerful second order method [NHTP](https://github.com/ShenglongZhou/NHTP) have been proposed to solve the sparsity constrained optimization. 
 
 * <span style="color:orange">**Bilevel optimization**.</span> A Matlab-based [BiOpt Toolbox](https://biopt.github.io/) has been created, aiming at providing a platform on which users can test  a wide range collection of  bilevel optimization examples [BOLIB](https://biopt.github.io/bolib/) by using  three provided efficient solvers and several useful tools . 
 
