@@ -32,7 +32,7 @@ Medicine Syndrome Manifestation, *Pacific Journal of Optimization*, vol. 13(2): 
 * **S. Zhou**, N. Xiu, Z. Luo and L. Kong, [Sparse and Low-Rank Covariance Matrix Estimation](https://link.springer.com/article/10.1007/s40305-014-0058-7), *Journal of
 the Operations Research Society of China*, vol. 3(2): 231-250, 2015.
 
-* M., S. Zhou and N. Xiu, [Extragradient Thresholding Methods For Sparse Solutions of Co-coercive
+* M. Shang, *S. Zhou* and N. Xiu, [Extragradient Thresholding Methods For Sparse Solutions of Co-coercive
 NCPs](https://journalofinequalitiesandapplications.springeropen.com/articles/10.1186/s13660-015-0551-5), *Journal of Inequalities and Applications*, vol. 34, 2015.
 
 * M. Shang, C. Zhang, D. Peng and **. Zhou**, [A Half Thresholding Projection Algorithmfor Sparse Solutions
