@@ -16,7 +16,7 @@ redirect_from:
 *  R. Wang, N. Xiu and S. Zhou, [Fast Newton Method for Sparse Logistic Regression](https://arxiv.org/abs/1901.02768), 2018.
  
  * L. Pan, S. Zhou, N. Xiu and H. Qi, [A Convergent Iterative Hard Thresholding for Sparsity and Nonnegativity
-Constrained Optimization](https://www.researchgate.net/publication/299519906), *Pacific Journal of Optimization*, vol. 13(2): 325-353, 2017.
+Constrained Optimization](https://www.researchgate.net/publication/299519906), *Pacific Journal of Optimization*, vol. 13(2): 325-353, 2017. (Matlab code:  [IIHT](https://github.com/ShenglongZhou/IIHT))
 
 * L. Zhang, L. Kong and S. Zhou, [A Smoothing Iterative Method for Quantile Regression with Nonconvex
 $l_p$ Penalty](https://aimsciences.org/article/doi/10.3934/jimo.2016006), *Journal of Industrial and Management Optimization*, vol. 13 (1): 93 - 112, 2017.
@@ -36,7 +36,7 @@ the Operations Research Society of China*, vol. 3(2): 231-250, 2015.
 NCPs](https://journalofinequalitiesandapplications.springeropen.com/articles/10.1186/s13660-015-0551-5), *Journal of Inequalities and Applications*, vol. 34, 2015.
 
 * M. Shang, C. Zhang, D. Peng and S. Zhou, [A Half Thresholding Projection Algorithmfor Sparse Solutions
-of LCPs](https://www.infona.pl/resource/bwmeta1.element.springer-doi-10_1007-S11590-014-0834-7), *Optimization Letters*, vol. 9(6): 1231-1245, 2015.
+of LCPs](https://www.infona.pl/resource/bwmeta1.element.springer-doi-10_1007-S11590-014-0834-7), *Optimization Letters*, vol. 9(6): 1231-1245, 2015. (Matlab code:  [HTPCP](https://github.com/ShenglongZhou/HTPCP))
 
 * S. Zhou, L. Kong and N. Xiu, [New Bounds for RIC in Compressed Sensing](https://link.springer.com/article/10.1007/s40305-013-0013-z), *Journal of the Operations Research Society of China*, vol. 1(2): 227-237, 2013.
 
