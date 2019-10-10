@@ -30,7 +30,14 @@ Solvers
 CSL_1:&& \min_{x} \ 0.5\|Wx\|_1, \ 
 \mbox{s.t.},Ax=b
 \end{eqnarray}
-  
+
+* logistic regression:
+\begin{eqnarray}
+\min_{x}\  \frac{1}{m}\sum_{i=1}^{m}\left\{\ln(1+ e^{\langle\ba_i,\bx\rangle})-b_i\langle\ba_i,\bx\rangle\right\}+\mu\|\bx\|_2^2 , \ 
+\mbox{s.t.},\ \|x\|_0\leq s.
+\end{eqnarray}
+
+
 <span style="color:grey">Bilevel optimization toolbox</span> 
 ---
 
