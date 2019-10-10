@@ -19,7 +19,7 @@ redirect_from:
  
 * [HTPCP](https://github.com/ShenglongZhou/HTPCP), a matlab package aiming at solving the sparse linear/nonlinear complementarity problems . This is the code source for paper [A Half Thresholding Projection Algorithmfor Sparse Solutions of LCPs](https://link.springer.com/article/10.1007/s11590-014-0834-7). 
  
-<span style="color:orange">**Applications**</span> 
+Sparse optimization has wide range of applications, such as:
  
   * Sparsity  constrained optimization (**SCO**):
 \begin{eqnarray}
