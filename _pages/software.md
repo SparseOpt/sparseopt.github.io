@@ -64,20 +64,20 @@ We summarize which appliations can be solved by above mentioned solver in follow
         <td align="center"> </td> 
     </tr>
      <tr>
-    	  <td align="left"><span style="color:orange">CS</span></td>
+    	  <td align="left"><span style="color:orange">${\bf {\rm CS}}$</span></td>
         <td align="center">(\ref{CSS}) </td>
         <td align="center">(\ref{CSS}) </td>
         <td align="center">(\ref{CSL})</td>
         <td align="center"> </td> 
     </tr>
       <tr>
-    	  <td align="left"><span style="color:orange">SLR</span></td>
+    	  <td align="left"><span style="color:orange">${\bf {\rm SLR}}$</span></td>
         <td align="center">(\ref{SLR}) </td>
         <td align="center">(\ref{SLR}) </td>
         <td align="center"> </td><td align="center"> </td> 
     </tr>
       <tr>
-    	  <td align="left"><span style="color:orange">SLCP</span></td>
+    	  <td align="left"><span style="color:orange">${\bf {\rm SLCP}}$</span></td>
         <td align="center">(\ref{SLCP})</td>
         <td align="center">(\ref{SLCP})</td>
         <td align="center"> </td>
