@@ -23,6 +23,11 @@ redirect_from:
  
 <span style="color:orange">**Applications**</span> 
  
+  * Sparsity  constrained optimization (CSO):
+\begin{eqnarray}
+ \min_{x} && f(x), ~ {\rm s.t.}, ~ \Vert x \Vert_0\leq s.
+\end{eqnarray}
+ 
  * Compressed sensing (CS):
 \begin{eqnarray}
 \label{CSS}\min_{x} && \Vert Ax-b \Vert^2, ~ {\rm s.t.}, ~ \Vert x \Vert_0\leq s,  \\\\\\
