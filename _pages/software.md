@@ -53,7 +53,7 @@ where $M\in\mathbb{R}^{n\times n}$ and $q\in \mathbb{R}^{n}$.
  | `[NHTP](https://github.com/ShenglongZhou/NHTP)` | `[IIHT](https://github.com/ShenglongZhou/IIHT)` | `[MIRL1](https://github.com/ShenglongZhou/MIRL1)` | `[HTPCP](https://github.com/ShenglongZhou/HTPCP)`
 --- | --- | ---| --- | ---
 **SCO** | `(\ref{SCO})`  | `(\ref{SCO})`  |               | 
-**CS** | `(\ref{CSS})`  | `(\ref{CSS})`  | `(\ref{CSL})' | 
+**CS** | `(\ref{CSS})`  | `(\ref{CSS})`  | `(\ref{CSL})` | 
 **SLR** | `(\ref{SLR})`  | `(\ref{SLR})`  |               |  
 **SLCP**| `(\ref{SLCP})` | `(\ref{SLCP})` |               | `(\ref{SLCP})` 
 
