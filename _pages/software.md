@@ -23,26 +23,26 @@ redirect_from:
  
 <span style="color:orange">**Applications**</span> 
  
-  * Sparsity  constrained optimization (SCO):
+  * Sparsity  constrained optimization (**SCO**):
 \begin{eqnarray}
 \label{SCO} \min_{x} && f(x), ~ {\rm s.t.}, ~ \Vert x \Vert_0\leq s.
 \end{eqnarray}
  where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$, $s\ll n$ and $\Vert x \Vert_0$ is the so-called $\ell_0$ norm that counts the number of nonzero elements of $x$. 
  
- * Compressed sensing (CS):
+ * Compressed sensing (**CS**):
 \begin{eqnarray}
 \label{CSS}\min_{x} && \Vert Ax-b \Vert^2, ~ {\rm s.t.}, ~ \Vert x \Vert_0\leq s,  \\\\\\
 \label{CSL}\min_{x} && \Vert Wx \Vert_1, ~~~~~~~~ \mbox{s.t.},~ Ax=b, 
 \end{eqnarray}
 where $A\in\mathbb{R}^{m\times n}, b\in \mathbb{R}^{m}, W\in\mathbb{R}^{n\times n}$ is a diagonal matrix with $W_{ii}>0$ and $\Vert \cdot\Vert$ and $\Vert \cdot\Vert_1$ are the $\ell_2$ and $\ell_1$ norm. 
 
-* Sparse logistic regression (SLR):
+* Sparse logistic regression (**SLR**):
 \begin{eqnarray}
 \label{SLR} \min_{x}~  \frac{1}{m}\sum_{i=1}^{m}\left\lbrace \ln(1+ e^{\langle a_i, x\rangle})-b_i\langle a_i, x\rangle\right \rbrace+\mu\Vert x\Vert_2^2 , ~ ~ {\rm s.t.},~ \Vert x\Vert_0\leq s.
 \end{eqnarray}
 where $a_i\in\mathbb{R}^{n}, b_i\in \lbrace 0,1\rbrace$ and $\mu\geq0$.
 
-* Sparse linear complementarity problem (SLCP):
+* Sparse linear complementarity problem (**SLCP**):
 \begin{eqnarray}
 \label{SLCP} x \geq 0,~ Mx+q\geq 0,~ \langle x , Mx+q \rangle=0, ~ \Vert x\Vert_0\leq s.
 \end{eqnarray}
@@ -52,10 +52,10 @@ where $M\in\mathbb{R}^{n\times n}$ and $q\in \mathbb{R}^{n}$.
 
  | `[NHTP](https://github.com/ShenglongZhou/NHTP)' | `[IIHT](https://github.com/ShenglongZhou/IIHT)' | `[MIRL1](https://github.com/ShenglongZhou/MIRL1)' | `[HTPCP](https://github.com/ShenglongZhou/HTPCP)'
 --- | --- | ---| --- | ---
-SCO | `(\ref{SCO})'  | `(\ref{SCO})'  |               | 
-CS  | `(\ref{CSS})'  | `(\ref{CSS})'  | `(\ref{CSL})' | 
-SLR | `(\ref{SLR})'  | `(\ref{SLR})'  |               |  
-SLCP| `(\ref{SLCP})' | `(\ref{SLCP})' |               | `(\ref{SLCP})' 
+**SCO** | `(\ref{SCO})'  | `(\ref{SCO})'  |               | 
+**CS** | `(\ref{CSS})'  | `(\ref{CSS})'  | `(\ref{CSL})' | 
+**SLR** | `(\ref{SLR})'  | `(\ref{SLR})'  |               |  
+**SLCP**| `(\ref{SLCP})' | `(\ref{SLCP})' |               | `(\ref{SLCP})' 
 
  
 
