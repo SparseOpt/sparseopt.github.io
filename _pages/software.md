@@ -57,6 +57,10 @@ CS | (\ref{CSS}) | (\ref{CSS})  | (\ref{CSL}) |
 SLR| (\ref{SLR}) | (\ref{SLR})  |  |  
 SLCP| (\ref{SLCP}) | (\ref{SLCP})  |  |  (\ref{SLCP}) | (\ref{SLCP}) 
 
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
 
 <span style="color:grey">Bilevel optimization toolbox</span> 
 ---
