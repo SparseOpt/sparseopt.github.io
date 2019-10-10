@@ -58,20 +58,31 @@ We summarize which appliations can be solved by above mentioned solver in follow
       <td align="center"><a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></td>
     </tr>
     <tr>
-    	<td align="right"><span style="color:orange">SCO</span></td>
-      <td align="center">(\ref{SCO}) </td>
-      <td align="center">(\ref{SCO}) </td>
-      <td align="center"> </td>
-      <td align="center"> </td> 
+    	  <td align="left"><span style="color:orange">SCO</span></td>
+        <td align="center">(\ref{SCO}) </td>
+        <td align="center">(\ref{SCO}) </td>
+        <td align="center"> </td>
+        <td align="center"> </td> 
     </tr>
      <tr>
-    	<td align="right"><span style="color:orange">CS</span></td><td align="center">(\ref{CSS}) </td><td align="center">(\ref{CSS}) </td><td align="center">(\ref{CSL})</td><td align="center"> </td> 
+    	  <td align="left"><span style="color:orange">CS</span></td>
+        <td align="center">(\ref{CSS}) </td>
+        <td align="center">(\ref{CSS}) </td>
+        <td align="center">(\ref{CSL})</td>
+        <td align="center"> </td> 
     </tr>
       <tr>
-    	<td align="right"><span style="color:orange">SLR</span></td><td align="center">(\ref{SLR}) </td><td align="center">(\ref{SLR}) </td><td align="center"> </td><td align="center"> </td> 
+    	  <td align="left"><span style="color:orange">SLR</span></td>
+        <td align="center">(\ref{SLR}) </td>
+        <td align="center">(\ref{SLR}) </td>
+        <td align="center"> </td><td align="center"> </td> 
     </tr>
       <tr>
-    	<td align="right"><span style="color:orange">SLCP</span></td><td align="center">(\ref{SLCP})</td><td align="center">(\ref{SLCP})</td><td align="center"> </td><td align="center">(\ref{SLCP})</td> 
+    	  <td align="left"><span style="color:orange">SLCP</span></td>
+        <td align="center">(\ref{SLCP})</td>
+        <td align="center">(\ref{SLCP})</td>
+        <td align="center"> </td>
+        <td align="center">(\ref{SLCP})</td> 
     </tr>
     </table>
 
