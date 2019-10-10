@@ -10,7 +10,7 @@ redirect_from:
 <span style="color:grey">Sparse optimization solvers</span> 
 ---
 
-<span style="color:orange"> {\bf Solvers}</span> 
+<span style="color:orange"> **Solvers**</span> 
 
 * [NHTP](https://github.com/ShenglongZhou/NHTP), a matlab package aiming at solving the sparsity constrained optimization problems including compressed sensing, sparse logistic regression.  This is the code source for paper [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://shenglongzhou.github.io/publication/2019-01-01-Global-and-Quadratic-Convergence-of-Newton-Hard-Thresholding-Pursuit).
 
@@ -21,7 +21,7 @@ redirect_from:
  
 * [HTPCP](https://github.com/ShenglongZhou/HTPCP), a matlab package aiming at solving the sparse linear/nonlinear complementarity problems . This is the code source for paper [A Half Thresholding Projection Algorithmfor Sparse Solutions of LCPs](https://link.springer.com/article/10.1007/s11590-014-0834-7). 
  
-<span style="color:orange"> {\bf  Applications</span> 
+<span style="color:orange">**Applications**</span> 
  
  * Compressed sensing:
 \begin{eqnarray}
