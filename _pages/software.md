@@ -74,24 +74,6 @@ th:nth-of-type(4) {
 }
 </style> 
 
-<p align="center"></p>
-<table>
-    <thead>
-        <tr>
-            <th align="left">Column1</th>
-            <th align="center">Column2</th>
-            <th align="right">Column3</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td align="left">Column11</td>
-            <td align="center">Column12</td>
-            <td align="right">Column31</td>
-        </tr>
-    </tbody>
-</table>
-<p></p>
 
 <span style="color:grey">Bilevel optimization toolbox</span> 
 ---
