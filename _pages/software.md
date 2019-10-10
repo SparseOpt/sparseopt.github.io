@@ -57,8 +57,6 @@ $~$ | [NHTP](https://github.com/ShenglongZhou/NHTP)<!-- .element: style="text-al
 <span style="color:orange">**SLR**</span>  |  (\ref{SLR})<!-- .element: style="text-align:center;" -->  | (\ref{SLR})<!-- .element: style="text-align:center;" -->  |             |  
 <span style="color:orange">**SLCP**</span> |  (\ref{SLCP})<!-- .element: style="text-align:center;" --> | (\ref{SLCP})<!-- .element: style="text-align:center;" --> |             | (\ref{SLCP})<!-- .element: style="text-align:center;" -->
 
-
-  
 <style>
 table:nth-of-type(1) {
     display:table;
