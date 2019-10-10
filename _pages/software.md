@@ -62,23 +62,9 @@ $~$ | [NHTP](https://github.com/ShenglongZhou/NHTP)<!-- .element: style="text-al
 <style>
 table:nth-of-type(1) {
     display:table;
-    width:40%;
+    width:50%;
 }
 table:nth-of-type(1) 
-th:nth-of-type(2) {
-    width:40%;
-}
-  table:nth-of-type(1) 
-th:nth-of-type(3) {
-    width:40%;
-}
-  table:nth-of-type(1) 
-th:nth-of-type(4) {
-    width:40%;
-}
-    table:nth-of-type(1) 
-th:nth-of-type(5) {
-    width:40%;
 }
 </style> 
 
