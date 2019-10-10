@@ -46,12 +46,12 @@ where $a_i\in\mathbb{R}^{n}, b_i\in \lbrace 0,1\rbrace$ and $\mu\geq0$.
 \end{eqnarray}
 where $M\in\mathbb{R}^{n\times n}$ and $q\in \mathbb{R}^{n}$. 
 
-~ | [NHTP](https://github.com/ShenglongZhou/NHTP) | [IIHT](https://github.com/ShenglongZhou/IIHT) | [MIRL1](https://github.com/ShenglongZhou/MIRL1) | [HTPCP](https://github.com/ShenglongZhou/HTPCP)
+$~$ | [NHTP](https://github.com/ShenglongZhou/NHTP) | [IIHT](https://github.com/ShenglongZhou/IIHT) | [MIRL1](https://github.com/ShenglongZhou/MIRL1) | [HTPCP](https://github.com/ShenglongZhou/HTPCP)
 --- | --- | ---| --- | ---
-**SCO** | `(\ref{SCO})`  | `(\ref{SCO})`  |               | 
-**CS**  | `(\ref{CSS})`  | `(\ref{CSS})`  | `(\ref{CSL})` | 
-**SLR** | `(\ref{SLR})`  | `(\ref{SLR})`  |               |  
-**SLCP**| `(\ref{SLCP})` | `(\ref{SLCP})` |               | `(\ref{SLCP})` 
+**SCO** |  (\ref{SCO})  | (\ref{SCO})  |             | 
+**CS**  |  (\ref{CSS})  | (\ref{CSS})  | (\ref{CSL}) | 
+**SLR** |  (\ref{SLR})  | (\ref{SLR})  |             |  
+**SLCP**|  (\ref{SLCP}) | (\ref{SLCP}) |             | (\ref{SLCP})`
 
  
 
