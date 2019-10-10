@@ -50,7 +50,7 @@ We summarize which appliations can be solved by above mentioned solver in follow
 
  <table border="2" width="12cm">
     <tr>
-      <td align="center"> </td>
+      <td width="2" align="center"> </td>
       <td align="center"><a  href='https://github.com/ShenglongZhou/NHTP'>NHTP</a></td>
       <td align="center"><a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a></td>
       <td align="center"><a  href='https://github.com/ShenglongZhou/MIRL1'>MIRL1</a></td>
