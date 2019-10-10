@@ -24,7 +24,7 @@ $l_p$ Penalty](https://aimsciences.org/article/doi/10.3934/jimo.2016006), *Journ
 * Y. Liu, G. Liu, X. Xiu and S. Zhou, The $L_1$-penalized Quantile Regression for Traditional Chinese
 Medicine Syndrome Manifestation, *Pacific Journal of Optimization*, vol. 13(2): 279-300, 2017.
 
-* S. Zhou, N. Xiu, Y.Wang, L. Kong and H. Qi, [A Null-space-based Weighted $l_1$ Minimization Approach
+* S. Zhou, N. Xiu, Y.Wang, L. Kong and H. Qi, [A Null-space-based Weighted $\ell_1$ Minimization Approach
  to Compressed Sensing](https://academic.oup.com/imaiai/article/5/1/76/2357109), *Information and Inference: A Journal of the IMA*, vol. 5(1): 76-102, 2016. (Matlab code:  [MIRL1](https://github.com/ShenglongZhou/MIRL1))
 
 * L. Pan, N. Xiu and S. Zhou, [On Solutions of Sparsity Constrained Optimization](https://link.springer.com/article/10.1007/s40305-015-0101-3), Journal of the Operations Research Society of China, vol. 3(4): 421-439, 2015.
