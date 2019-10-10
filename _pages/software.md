@@ -55,7 +55,7 @@ where $M\in\mathbb{R}^{n\times n}$ and $q\in \mathbb{R}^{n}$.
 SCO | (\ref{SCO})  | (\ref{SCO})  |             | 
 CS  | (\ref{CSS})  | (\ref{CSS})  | (\ref{CSL}) | 
 SLR | (\ref{SLR})  | (\ref{SLR})  |             |  
-SLCP| (\ref{SLCP}) | (\ref{SLCP}) | | (\ref{SLCP}) 
+SLCP| (\ref{SLCP}) | (\ref{SLCP}) |             | (\ref{SLCP}) 
 
 Markdown | Less | Pretty
 --- | --- | ---
