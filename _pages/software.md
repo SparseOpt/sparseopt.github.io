@@ -50,11 +50,11 @@ We summarize which appliations can be solved by above mentioned solver in follow
 
  <table border="2" width="12cm">
     <tr>
-      <td width="2" align="center"> </td>
-      <td align="center"><a  href='https://github.com/ShenglongZhou/NHTP'>NHTP</a></td>
-      <td align="center"><a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a></td>
-      <td align="center"><a  href='https://github.com/ShenglongZhou/MIRL1'>MIRL1</a></td>
-      <td align="center"><a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></td>
+      <td width="3" align="center"> </td>
+      <td width="3" align="center"><a  href='https://github.com/ShenglongZhou/NHTP'>NHTP</a></td>
+      <td width="3" align="center"><a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a></td>
+      <td width="3" align="center"><a  href='https://github.com/ShenglongZhou/MIRL1'>MIRL1</a></td>
+      <td width="3" align="center"><a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></td>
     </tr>
     <tr>
     	  <td align="left"><span style="color:orange">${\bf {\rm SCO}}$</span></td>
