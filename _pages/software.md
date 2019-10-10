@@ -53,7 +53,15 @@ $~$ | [NHTP](https://github.com/ShenglongZhou/NHTP) | [IIHT](https://github.com/
 <span style="color:orange">**SLR**</span>  |  (\ref{SLR})  | (\ref{SLR})  |             |  
 <span style="color:orange">**SLCP**</span> |  (\ref{SLCP}) | (\ref{SLCP}) |             | (\ref{SLCP})
 
- 
+<style>
+table:nth-of-type(1) {
+    display:table;
+    width:100%;
+}
+table:nth-of-type(1) th:nth-of-type(2) {
+    width:10%;
+}
+</style> 
 
 <span style="color:grey">Bilevel optimization toolbox</span> 
 ---
