@@ -48,13 +48,15 @@ where $M\in\mathbb{R}^{n\times n}$ and $q\in \mathbb{R}^{n}$.
 
 We summarize which appliations can be solved by above mentioned solver in following table:
 
+<center>
 $~$ | [NHTP](https://github.com/ShenglongZhou/NHTP) | [IIHT](https://github.com/ShenglongZhou/IIHT) | [MIRL1](https://github.com/ShenglongZhou/MIRL1) | [HTPCP](https://github.com/ShenglongZhou/HTPCP)
 --- | --- | ---| --- | ---
 <span style="color:orange">**SCO**</span>  |  (\ref{SCO})  | (\ref{SCO})  |             | 
 <span style="color:orange">**CS**</span>   |  (\ref{CSS})  | (\ref{CSS})  | (\ref{CSL}) | 
 <span style="color:orange">**SLR**</span>  |  (\ref{SLR})  | (\ref{SLR})  |             |  
 <span style="color:orange">**SLCP**</span> |  (\ref{SLCP}) | (\ref{SLCP}) |             | (\ref{SLCP})
-
+</center>
+  
 <style>
 table:nth-of-type(1) {
     display:table;
@@ -74,17 +76,6 @@ th:nth-of-type(4) {
 }
 </style> 
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-0lax"></th>
-  </tr>
-</table>
 
 
 <span style="color:grey">Bilevel optimization toolbox</span> 
