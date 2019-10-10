@@ -51,7 +51,7 @@ $~$ | [NHTP](https://github.com/ShenglongZhou/NHTP) | [IIHT](https://github.com/
 **SCO** |  (\ref{SCO})  | (\ref{SCO})  |             | 
 **CS**  |  (\ref{CSS})  | (\ref{CSS})  | (\ref{CSL}) | 
 **SLR** |  (\ref{SLR})  | (\ref{SLR})  |             |  
-**SLCP**|  (\ref{SLCP}) | (\ref{SLCP}) |             | (\ref{SLCP})`
+**SLCP**|  (\ref{SLCP}) | (\ref{SLCP}) |             | (\ref{SLCP})
 
  
 
