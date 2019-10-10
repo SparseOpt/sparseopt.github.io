@@ -49,7 +49,7 @@ where $M\in\mathbb{R}^{n\times n}$ and $q\in \mathbb{R}^{n}$.
 We summarize which appliations can be solved by above mentioned solver in following table:
  
 $~$ | [NHTP](https://github.com/ShenglongZhou/NHTP)<!-- .element: style="text-align:center;" --> | [IIHT](https://github.com/ShenglongZhou/IIHT)<!-- .element: style="text-align:center;" --> | [MIRL1](https://github.com/ShenglongZhou/MIRL1)<!-- .element: style="text-align:center;" --> | [HTPCP](https://github.com/ShenglongZhou/HTPCP)<!-- .element: style="text-align:center;" -->
---- | --- | ---| --- | ---
+--- | --- | ----| --- | ---
 <span style="color:orange">**SCO**</span>  |  (\ref{SCO})<!-- .element: style="text-align:center;" -->  | (\ref{SCO})<!-- .element: style="text-align:center;" -->  |             | 
 <span style="color:orange">**CS**</span>   |  (\ref{CSS})<!-- .element: style="text-align:center;" -->  | (\ref{CSS})<!-- .element: style="text-align:center;" -->  | (\ref{CSL}) | 
 <span style="color:orange">**SLR**</span>  |  (\ref{SLR})<!-- .element: style="text-align:center;" -->  | (\ref{SLR})<!-- .element: style="text-align:center;" -->  |             |  
