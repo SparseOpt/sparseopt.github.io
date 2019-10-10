@@ -86,6 +86,7 @@ th:nth-of-type(4) {
   </tr>
 </table>
 
+
 <span style="color:grey">Bilevel optimization toolbox</span> 
 ---
 
