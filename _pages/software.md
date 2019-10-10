@@ -50,12 +50,12 @@ We summarize which appliations can be solved by above mentioned solver in follow
 
 
   
-$~$ | [NHTP](https://github.com/ShenglongZhou/NHTP) | [IIHT](https://github.com/ShenglongZhou/IIHT) | [MIRL1](https://github.com/ShenglongZhou/MIRL1) | [HTPCP](https://github.com/ShenglongZhou/HTPCP)
+$~$ | [NHTP](https://github.com/ShenglongZhou/NHTP)<!-- .element: style="text-align:center;" --> | [IIHT](https://github.com/ShenglongZhou/IIHT)<!-- .element: style="text-align:center;" --> | [MIRL1](https://github.com/ShenglongZhou/MIRL1)<!-- .element: style="text-align:center;" --> | [HTPCP](https://github.com/ShenglongZhou/HTPCP)<!-- .element: style="text-align:center;" -->
 --- | --- | ---| --- | ---
-<span style="color:orange">**SCO**</span>  |  (\ref{SCO})  | (\ref{SCO})  |             | 
-<span style="color:orange">**CS**</span>   |  (\ref{CSS})  | (\ref{CSS})  | (\ref{CSL}) | 
-<span style="color:orange">**SLR**</span>  |  (\ref{SLR})  | (\ref{SLR})  |             |  
-<span style="color:orange">**SLCP**</span> |  (\ref{SLCP}) | (\ref{SLCP}) |             | (\ref{SLCP})
+<span style="color:orange">**SCO**</span>  |  (\ref{SCO})<!-- .element: style="text-align:center;" -->  | (\ref{SCO})<!-- .element: style="text-align:center;" -->  |             | 
+<span style="color:orange">**CS**</span>   |  (\ref{CSS})<!-- .element: style="text-align:center;" -->  | (\ref{CSS})<!-- .element: style="text-align:center;" -->  | (\ref{CSL}) | 
+<span style="color:orange">**SLR**</span>  |  (\ref{SLR})<!-- .element: style="text-align:center;" -->  | (\ref{SLR})<!-- .element: style="text-align:center;" -->  |             |  
+<span style="color:orange">**SLCP**</span> |  (\ref{SLCP})<!-- .element: style="text-align:center;" --> | (\ref{SLCP})<!-- .element: style="text-align:center;" --> |             | (\ref{SLCP})<!-- .element: style="text-align:center;" -->
 
 
   
