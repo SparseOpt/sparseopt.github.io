@@ -67,7 +67,7 @@ table:nth-of-type(1)
 
  <table border="2" width="0">
     <tr>
-        <th></th><th>[NHTP](https://github.com/ShenglongZhou/NHTP)</th><th>[IIHT](https://github.com/ShenglongZhou/IIHT)</th><th>[MIRL1](https://github.com/ShenglongZhou/MIRL1)</th><th>[HTPCP](https://github.com/ShenglongZhou/HTPCP)</th>
+        <th></th><th><a  href='https://github.com/ShenglongZhou/NHTP'>NHTP</a></th><th>[IIHT](https://github.com/ShenglongZhou/IIHT)</th><th>[MIRL1](https://github.com/ShenglongZhou/MIRL1)</th><th>[HTPCP](https://github.com/ShenglongZhou/HTPCP)</th>
     </tr>
     <tr>
     	<td align="right"><span style="color:orange">**SCO**</span></td><td align="center">(\ref{SCO}) </td><td align="center">(\ref{SCO}) </td><td align="center"> </td><td align="center"> </td> 
