@@ -21,26 +21,26 @@ redirect_from:
  
 Sparse optimization has wide range of applications, such as:
  
-  * Sparsity  constrained optimization (<span style="color:orange">**SCO**</span> ):
+  * Sparsity  constrained optimization (<span style="color:orange">**SCO**</span>):
 \begin{eqnarray}
 \label{SCO} \min_{x} && f(x), ~ {\rm s.t.}, ~ \Vert x \Vert_0\leq s.
 \end{eqnarray}
  where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$, $s\ll n$ and $\Vert x \Vert_0$ is the so-called $\ell_0$ norm that counts the number of nonzero elements of $x$. 
  
- * Compressed sensing (<span style="color:orange">**CS**</span> ):
+ * Compressed sensing (<span style="color:orange">**CS**</span>):
 \begin{eqnarray}
 \label{CSS}\min_{x} && \Vert Ax-b \Vert^2, ~ {\rm s.t.}, ~ \Vert x \Vert_0\leq s,  \\\\\\
 \label{CSL}\min_{x} && \Vert Wx \Vert_1, ~~~~~~~ \mbox{s.t.},~ Ax=b, 
 \end{eqnarray}
 where $A\in\mathbb{R}^{m\times n}, b\in \mathbb{R}^{m}, W\in\mathbb{R}^{n\times n}$ is a diagonal matrix with $W_{ii}>0$ and $\Vert \cdot\Vert$ and $\Vert \cdot\Vert_1$ are the $\ell_2$ and $\ell_1$ norm. 
 
-* Sparse logistic regression (<span style="color:orange">**SLR**</span> ):
+* Sparse logistic regression (<span style="color:orange">**SLR**</span>):
 \begin{eqnarray}
 \label{SLR} \min_{x}~  \frac{1}{m}\sum_{i=1}^{m}\left\lbrace \ln(1+ e^{\langle a_i, x\rangle})-b_i\langle a_i, x\rangle\right \rbrace+\mu\Vert x\Vert_2^2 , ~ ~ {\rm s.t.},~ \Vert x\Vert_0\leq s.
 \end{eqnarray}
 where $a_i\in\mathbb{R}^{n}, b_i\in \lbrace 0,1\rbrace$ and $\mu\geq0$.
 
-* Sparse linear complementarity problem (<span style="color:orange">**SLCP**</span> ):
+* Sparse linear complementarity problem (<span style="color:orange">**SLCP**</span>):
 \begin{eqnarray}
 \label{SLCP} x \geq 0,~ Mx+q\geq 0,~ \langle x , Mx+q \rangle=0, ~ \Vert x\Vert_0\leq s.
 \end{eqnarray}
@@ -57,7 +57,7 @@ We summarize which appliations can be solved by above mentioned solver in follow
       <td style="width:10%" align="center"><a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></td>
     </tr>
     <tr>
-    	  <td style="width:10%"  align="left"><span style="color:orange">${\bf {\rm SCO}}$</span></td>
+    	  <td style="width:10%" align="left"><span style="color:orange">${\bf {\rm SCO}}$</span></td>
         <td style="width:10%" align="center">(\ref{SCO}) </td>
         <td style="width:10%" align="center">(\ref{SCO}) </td>
         <td style="width:10%" align="center"> </td>
