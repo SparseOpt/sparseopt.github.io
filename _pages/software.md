@@ -51,7 +51,7 @@ We summarize which appliations can be solved by above mentioned solver in follow
 
  <table border="2" width="0">
     <tr>
-        <th></th><th><a  href='https://github.com/ShenglongZhou/NHTP'>NHTP</a></th>
+        <th></th><th><td align="center", href='https://github.com/ShenglongZhou/NHTP'>NHTP</td></th>
                  <th><a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a></th>
                  <th><a  href='https://github.com/ShenglongZhou/NHTP'>MIRL1</a></th>
                  <th><a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></th>
@@ -63,7 +63,7 @@ We summarize which appliations can be solved by above mentioned solver in follow
     	<td align="right"><span style="color:orange">CS</span></td><td align="center">(\ref{CSS}) </td><td align="center">(\ref{CSS}) </td><td align="center">(\ref{CSL})</td><td align="center"> </td> 
     </tr>
       <tr>
-    	<td align="right"><span style="color:orange">**SLR**</span></td><td align="center">(\ref{SLR}) </td><td align="center">(\ref{SLR}) </td><td align="center"> </td><td align="center"> </td> 
+    	<td align="right"><span style="color:orange">SLR</span></td><td align="center">(\ref{SLR}) </td><td align="center">(\ref{SLR}) </td><td align="center"> </td><td align="center"> </td> 
     </tr>
       <tr>
     	<td align="right"><span style="color:orange">SLCP</span></td><td align="center">(\ref{SLCP})</td><td align="center">(\ref{SLCP})</td><td align="center"> </td><td align="center">(\ref{SLCP})</td> 
