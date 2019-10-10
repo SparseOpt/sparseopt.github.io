@@ -32,7 +32,7 @@ redirect_from:
  * Compressed sensing (**CS**):
 \begin{eqnarray}
 \label{CSS}\min_{x} && \Vert Ax-b \Vert^2, ~ {\rm s.t.}, ~ \Vert x \Vert_0\leq s,  \\\\\\
-\label{CSL}\min_{x} && \Vert Wx \Vert_1, ~~~~~~~~ \mbox{s.t.},~ Ax=b, 
+\label{CSL}\min_{x} && \Vert Wx \Vert_1, ~~~~~~~ \mbox{s.t.},~ Ax=b, 
 \end{eqnarray}
 where $A\in\mathbb{R}^{m\times n}, b\in \mathbb{R}^{m}, W\in\mathbb{R}^{n\times n}$ is a diagonal matrix with $W_{ii}>0$ and $\Vert \cdot\Vert$ and $\Vert \cdot\Vert_1$ are the $\ell_2$ and $\ell_1$ norm. 
 
