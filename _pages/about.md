@@ -21,7 +21,6 @@ B.S. in Information and Computing Sciences, 2007-2011 <br>
 
 <span style="color:grey">Research Interests</span>
 ---
-
 My research interests are the theory and methods of optimization in the fields of sparse optimization, bilevel
 optimization and Euclidean distance matrix optimization. 
 
