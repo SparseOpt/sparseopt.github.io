@@ -56,9 +56,18 @@ $~$ | [NHTP](https://github.com/ShenglongZhou/NHTP) | [IIHT](https://github.com/
 <style>
 table:nth-of-type(1) {
     display:table;
-    width:100%;
+    width:10%;
 }
-table:nth-of-type(1) th:nth-of-type(2) {
+table:nth-of-type(1) 
+th:nth-of-type(2) {
+    width:10%;
+}
+  table:nth-of-type(1) 
+th:nth-of-type(3) {
+    width:10%;
+}
+  table:nth-of-type(1) 
+th:nth-of-type(4) {
     width:10%;
 }
 </style> 
