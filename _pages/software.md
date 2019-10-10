@@ -51,7 +51,7 @@ We summarize which appliations can be solved by above mentioned solver in follow
 
  <table border="2" width="0">
     <tr>
-        <th></th><th><td align="center", href='https://github.com/ShenglongZhou/NHTP'>NHTP</td></th>
+        <th></th><th><td align="center"><a  href='https://github.com/ShenglongZhou/IIHT'>NHTP</a></td></th>
                  <th><a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a></th>
                  <th><a  href='https://github.com/ShenglongZhou/NHTP'>MIRL1</a></th>
                  <th><a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></th>
