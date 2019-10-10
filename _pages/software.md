@@ -50,39 +50,39 @@ We summarize which appliations can be solved by above mentioned solver in follow
 
  <table border="2" width="0.5">
     <tr>
-      <td width="2" align="center"> </td>
-      <td width="2" align="center"><a  href='https://github.com/ShenglongZhou/NHTP'>NHTP</a></td>
-      <td width="2" align="center"><a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a></td>
-      <td width="2" align="center"><a  href='https://github.com/ShenglongZhou/MIRL1'>MIRL1</a></td>
-      <td width="2" align="center"><a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></td>
+      <td style="width:10%" align="center"> </td>
+      <td style="width:10%" align="center"><a  href='https://github.com/ShenglongZhou/NHTP'>NHTP</a></td>
+      <td style="width:10%" align="center"><a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a></td>
+      <td style="width:10%" align="center"><a  href='https://github.com/ShenglongZhou/MIRL1'>MIRL1</a></td>
+      <td style="width:10%" align="center"><a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></td>
     </tr>
     <tr>
-    	  <td width="2"  align="left"><span style="color:orange">${\bf {\rm SCO}}$</span></td>
-        <td width="2" align="center">(\ref{SCO}) </td>
-        <td width="2" align="center">(\ref{SCO}) </td>
-        <td width="2" align="center"> </td>
-        <td width="2" align="center"> </td> 
+    	  <td style="width:10%"  align="left"><span style="color:orange">${\bf {\rm SCO}}$</span></td>
+        <td style="width:10%" align="center">(\ref{SCO}) </td>
+        <td style="width:10%" align="center">(\ref{SCO}) </td>
+        <td style="width:10%" align="center"> </td>
+        <td style="width:10%" align="center"> </td> 
     </tr>
      <tr>
-    	  <td width="2" width="2" width="2" width="2" width="2" align="left"><span style="color:orange">${\bf {\rm CS}}$</span></td>
-        <td width="2" width="2" width="2" width="2" align="center">(\ref{CSS}) </td>
-        <td width="2" width="2" width="2" align="center">(\ref{CSS}) </td>
-        <td width="2" width="2" align="center">(\ref{CSL})</td>
-        <td width="2" align="center"> </td> 
+    	  <td style="width:10%" align="left"><span style="color:orange">${\bf {\rm CS}}$</span></td>
+        <td style="width:10%" align="center">(\ref{CSS}) </td>
+        <td style="width:10%" align="center">(\ref{CSS}) </td>
+        <td style="width:10%" align="center">(\ref{CSL})</td>
+        <td style="width:10%" align="center"> </td> 
     </tr>
       <tr>
-    	  <td width="2" align="left"><span style="color:orange">${\bf {\rm SLR}}$</span></td>
-        <td width="2" align="center">(\ref{SLR}) </td>
-        <td width="2" align="center">(\ref{SLR}) </td>
-        <td width="2" align="center"> </td>
-        <td width="2" align="center"> </td> 
+    	  <td style="width:10%" align="left"><span style="color:orange">${\bf {\rm SLR}}$</span></td>
+        <td style="width:10%" align="center">(\ref{SLR}) </td>
+        <td style="width:10%" align="center">(\ref{SLR}) </td>
+        <td style="width:10%" align="center"> </td>
+        <td style="width:10%" align="center"> </td> 
     </tr>
       <tr>
-    	  <td width="2" align="left"><span style="color:orange">${\bf {\rm SLCP}}$</span></td>
-        <td width="2" align="center">(\ref{SLCP})</td>
-        <td width="2" align="center">(\ref{SLCP})</td>
-        <td width="2" align="center"> </td>
-        <td width="2" align="center">(\ref{SLCP})</td> 
+    	  <td style="width:10%" align="left"><span style="color:orange">${\bf {\rm SLCP}}$</span></td>
+        <td style="width:10%" align="center">(\ref{SLCP})</td>
+        <td style="width:10%" align="center">(\ref{SLCP})</td>
+        <td style="width:10%" align="center"> </td>
+        <td style="width:10%" align="center">(\ref{SLCP})</td> 
     </tr>
     </table>
 
