@@ -47,7 +47,7 @@ where $a_i\in\mathbb{R}^{n}, b_i\in \lbrace 0,1\rbrace$ and $\mu\geq0$.
 where $M\in\mathbb{R}^{n\times n}$ and $q\in \mathbb{R}^{n}$. 
 
 $~$ | [NHTP](https://github.com/ShenglongZhou/NHTP) | [IIHT](https://github.com/ShenglongZhou/IIHT) | [MIRL1](https://github.com/ShenglongZhou/MIRL1) | [HTPCP](https://github.com/ShenglongZhou/HTPCP)
-- | - | -| - | -
+--- | --- | ---| --- | ---
 <span style="color:orange">**SCO**</span>  |  (\ref{SCO})  | (\ref{SCO})  |             | 
 <span style="color:orange">**CS**</span>   |  (\ref{CSS})  | (\ref{CSS})  | (\ref{CSL}) | 
 <span style="color:orange">**SLR**</span>  |  (\ref{SLR})  | (\ref{SLR})  |             |  
@@ -56,22 +56,40 @@ $~$ | [NHTP](https://github.com/ShenglongZhou/NHTP) | [IIHT](https://github.com/
 <style>
 table:nth-of-type(1) {
     display:table;
-    width:10%;
+    width:20%;
 }
 table:nth-of-type(1) 
 th:nth-of-type(2) {
-    width:10%;
+    width:20%;
 }
   table:nth-of-type(1) 
 th:nth-of-type(3) {
-    width:10%;
+    width:20%;
 }
   table:nth-of-type(1) 
 th:nth-of-type(4) {
-    width:10%;
+    width:20%;
 }
 </style> 
 
+<p align="center"></p>
+<table>
+    <thead>
+        <tr>
+            <th align="left">Column1</th>
+            <th align="center">Column2</th>
+            <th align="right">Column3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="left">Column11</td>
+            <td align="center">Column12</td>
+            <td align="right">Column31</td>
+        </tr>
+    </tbody>
+</table>
+<p></p>
 
 <span style="color:grey">Bilevel optimization toolbox</span> 
 ---
