@@ -48,7 +48,7 @@ where $M\in\mathbb{R}^{n\times n}$ and $q\in \mathbb{R}^{n}$.
 
 We summarize which appliations can be solved by above mentioned solver in following table:
 
-<center>
+
   
 $~$ | [NHTP](https://github.com/ShenglongZhou/NHTP) | [IIHT](https://github.com/ShenglongZhou/IIHT) | [MIRL1](https://github.com/ShenglongZhou/MIRL1) | [HTPCP](https://github.com/ShenglongZhou/HTPCP)
 --- | --- | ---| --- | ---
@@ -57,7 +57,7 @@ $~$ | [NHTP](https://github.com/ShenglongZhou/NHTP) | [IIHT](https://github.com/
 <span style="color:orange">**SLR**</span>  |  (\ref{SLR})  | (\ref{SLR})  |             |  
 <span style="color:orange">**SLCP**</span> |  (\ref{SLCP}) | (\ref{SLCP}) |             | (\ref{SLCP})
 
-</center>
+
   
 <style>
 table:nth-of-type(1) {
