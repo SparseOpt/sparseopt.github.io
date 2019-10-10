@@ -23,17 +23,23 @@ redirect_from:
  
 <span style="color:orange">**Applications**</span> 
  
- * Compressed sensing:
+ * Compressed sensing (CS):
+ 
 \begin{eqnarray}
 CSS:   && \min_{x} ~ 0.5\Vert Ax-b \Vert^2, ~ {\rm s.t.}, ~ \Vert x\Vert _0\leq s,  \nonumber\\\\\\
 CSL_1: && \min_{x} ~ 0.5\Vert Wx \Vert_1, ~ \mbox{s.t.},~ Ax=b. \nonumber
 \end{eqnarray}
 
-* logistic regression:
+* Logistic regression (LR):
+
 \begin{eqnarray}
 \min_{x}~  \frac{1}{m}\sum_{i=1}^{m}\left\lbrace \ln(1+ e^{\langle a_i, x\rangle})-b_i\langle a_i, x\rangle\right \rbrace+\mu\Vert x\Vert_2^2 , ~ ~ {\rm s.t.},~ \Vert x\Vert_0\leq s.
 \end{eqnarray}
 
+* Linear complementarity problem (LCP):
+\begin{eqnarray}
+ x \geq 0,~ Mx+q\geq 0,~ \langle x , Mx+q \rangle=0, ~ \Vert x\Vert_0\leq s.
+\end{eqnarray}
 
 <span style="color:grey">Bilevel optimization toolbox</span> 
 ---
