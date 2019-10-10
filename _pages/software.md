@@ -57,7 +57,7 @@ We summarize which appliations can be solved by above mentioned solver in follow
       <td align="center"><a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></td>
     </tr>
     <tr>
-    	  <td align="left"><span style="color:orange">SCO</span></td>
+    	  <td align="left"><span style="color:orange">${\bf {\rm SCO}}$</span></td>
         <td align="center">(\ref{SCO}) </td>
         <td align="center">(\ref{SCO}) </td>
         <td align="center"> </td>
