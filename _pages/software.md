@@ -24,10 +24,9 @@ redirect_from:
 <span style="color:orange">**Applications**</span> 
  
  * Compressed sensing (CS):
- 
 \begin{eqnarray}
-CSS:   && \min_{x} ~ 0.5\Vert Ax-b \Vert^2, ~ {\rm s.t.}, ~ \Vert x\Vert _0\leq s,  \nonumber\\\\\\
-CSL_1: && \min_{x} ~ 0.5\Vert Wx \Vert_1, ~ \mbox{s.t.},~ Ax=b. \nonumber
+\label{CSS}\min_{x} && \Vert Ax-b \Vert^2, ~ {\rm s.t.}, ~ \Vert x \Vert_0\leq s,  \\\\\\
+\label{CSL}\min_{x} && \Vert Wx \Vert_1, ~ \mbox{s.t.},~ Ax=b. 
 \end{eqnarray}
 
 * Logistic regression (LR):
