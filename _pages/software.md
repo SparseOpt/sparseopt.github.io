@@ -48,7 +48,6 @@ where $M\in\mathbb{R}^{n\times n}$ and $q\in \mathbb{R}^{n}$.
 
 We summarize which appliations can be solved by above mentioned solver in following table:
 
-
  <table border="2" width="12cm">
     <tr>
       <td align="center"> </td>
