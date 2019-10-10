@@ -67,31 +67,19 @@ table:nth-of-type(1)
 
  <table border="2" width="0">
     <tr>
-        <th></th><th>Column Header One</th><th>Column Header Two</th><th>Column Header Three</th>
+        <th></th><th>[NHTP](https://github.com/ShenglongZhou/NHTP)</th><th>[IIHT](https://github.com/ShenglongZhou/IIHT)</th><th>[MIRL1](https://github.com/ShenglongZhou/MIRL1)</th><th>[HTPCP](https://github.com/ShenglongZhou/HTPCP)</th>
     </tr>
     <tr>
-    	<td align="right">Row Hdr 1</td><td align="left">Left Aligned</td><td align="center">Centre Aligned</td><td align="right">Right Aligned</td>
+    	<td align="right"><span style="color:orange">**SCO**</span></td><td align="center">(\ref{SCO}) </td><td align="center">(\ref{SCO}) </td><td align="center"> </td><td align="center"> </td> 
     </tr>
-    <tr>
-    	<td align="right">Row Hdr 2</td><td colspan="2" align="left">colspan the next cell</td><td align="right">Row 2, Col 3</td>
+     <tr>
+    	<td align="right"><span style="color:orange">**CS**</span></td><td align="center">(\ref{CSS}) </td><td align="center">(\ref{CSS}) </td><td align="center">(\ref{CSL})</td><td align="center"> </td> 
     </tr>
-    <tr>
-    	<td align="right">Row Hdr 3</td><td colspan="3" align="left">colspan the next two cells</td>
+      <tr>
+    	<td align="right"><span style="color:orange">**SLR**</span></td><td align="center">(\ref{SLR}) </td><td align="center">(\ref{SLR}) </td><td align="center"> </td><td align="center"> </td> 
     </tr>
-    <tr>
-    	<td align="right">Row Hdr 4</td><td rowspan="2" align="left">rowspan the next cell down</td><td align="center"></td><td align="right">Column 3</td>
-    </tr>
-    <tr>
-    	<td align="right">Row Hdr 5</td><td align="center">Column 2</td><td align="right">Column 3</td>
-    </tr>
-    <tr>
-    	<td align="right">Row Hdr 6</td><td rowspan="3" align="left">Merge Down 2</td><td colspan="2" align="center">Merge Right</td>
-    </tr>
-    <tr>
-    	<td align="right">Row Hdr 7</td><td align="right">Column 2</td><td align="left">Column 3</td>
-    </tr>
-    <tr>
-    	<td align="right">Row Hdr 8</td><td align="right">Column 2</td><td align="left">Column 3</td>
+      <tr>
+    	<td align="right"><span style="color:orange">**SLCP**</span></td><td align="center">(\ref{SLCP})</td><td align="center">(\ref{SLCP})</td><td align="center"> </td><td align="center">(\ref{SLCP})</td> 
     </tr>
     </table>
 
