@@ -57,31 +57,32 @@ We summarize which appliations can be solved by above mentioned solver in follow
       <td width="2" align="center"><a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></td>
     </tr>
     <tr>
-    	  <td align="left"><span style="color:orange">${\bf {\rm SCO}}$</span></td>
-        <td align="center">(\ref{SCO}) </td>
-        <td align="center">(\ref{SCO}) </td>
-        <td align="center"> </td>
-        <td align="center"> </td> 
+    	  <td width="2"  align="left"><span style="color:orange">${\bf {\rm SCO}}$</span></td>
+        <td width="2" align="center">(\ref{SCO}) </td>
+        <td width="2" align="center">(\ref{SCO}) </td>
+        <td width="2" align="center"> </td>
+        <td width="2" align="center"> </td> 
     </tr>
      <tr>
-    	  <td align="left"><span style="color:orange">${\bf {\rm CS}}$</span></td>
-        <td align="center">(\ref{CSS}) </td>
-        <td align="center">(\ref{CSS}) </td>
-        <td align="center">(\ref{CSL})</td>
-        <td align="center"> </td> 
+    	  <td width="2" width="2" width="2" width="2" width="2" align="left"><span style="color:orange">${\bf {\rm CS}}$</span></td>
+        <td width="2" width="2" width="2" width="2" align="center">(\ref{CSS}) </td>
+        <td width="2" width="2" width="2" align="center">(\ref{CSS}) </td>
+        <td width="2" width="2" align="center">(\ref{CSL})</td>
+        <td width="2" align="center"> </td> 
     </tr>
       <tr>
-    	  <td align="left"><span style="color:orange">${\bf {\rm SLR}}$</span></td>
-        <td align="center">(\ref{SLR}) </td>
-        <td align="center">(\ref{SLR}) </td>
-        <td align="center"> </td><td align="center"> </td> 
+    	  <td width="2" align="left"><span style="color:orange">${\bf {\rm SLR}}$</span></td>
+        <td width="2" align="center">(\ref{SLR}) </td>
+        <td width="2" align="center">(\ref{SLR}) </td>
+        <td width="2" align="center"> </td>
+        <td width="2" align="center"> </td> 
     </tr>
       <tr>
-    	  <td align="left"><span style="color:orange">${\bf {\rm SLCP}}$</span></td>
-        <td align="center">(\ref{SLCP})</td>
-        <td align="center">(\ref{SLCP})</td>
-        <td align="center"> </td>
-        <td align="center">(\ref{SLCP})</td> 
+    	  <td width="2" align="left"><span style="color:orange">${\bf {\rm SLCP}}$</span></td>
+        <td width="2" align="center">(\ref{SLCP})</td>
+        <td width="2" align="center">(\ref{SLCP})</td>
+        <td width="2" align="center"> </td>
+        <td width="2" align="center">(\ref{SLCP})</td> 
     </tr>
     </table>
 
