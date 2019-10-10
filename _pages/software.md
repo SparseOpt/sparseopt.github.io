@@ -54,11 +54,15 @@ We summarize which appliations can be solved by above mentioned solver in follow
       <th></th>
       <th><td align="center"><a  href='https://github.com/ShenglongZhou/NHTP'>NHTP</a></td></th>
       <th><td align="center"><a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a></td></th>
-      <th><td align="center"><a  href='https://github.com/ShenglongZhou/NHTP'>MIRL1</a></td></th>
+      <th><td align="center"><a  href='https://github.com/ShenglongZhou/MIRL1'>MIRL1</a></td></th>
       <th><td align="center"><a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></td></th>
     </tr>
     <tr>
-    	<td align="right"><span style="color:orange">SCO</span></td><td align="center">(\ref{SCO}) </td><td align="center">(\ref{SCO}) </td><td align="center"> </td><td align="center"> </td> 
+    	<td align="right"><span style="color:orange">SCO</span></td>
+      <td align="center">(\ref{SCO}) </td>
+      <td align="center">(\ref{SCO}) </td>
+      <td align="center"> </td>
+      <td align="center"> </td> 
     </tr>
      <tr>
     	<td align="right"><span style="color:orange">CS</span></td><td align="center">(\ref{CSS}) </td><td align="center">(\ref{CSS}) </td><td align="center">(\ref{CSL})</td><td align="center"> </td> 
