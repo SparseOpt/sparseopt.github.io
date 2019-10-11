@@ -87,16 +87,16 @@ We summarize which appliations can be solved by above mentioned solver in follow
     </table>
 
 \begin{eqnarray}
-\left[\begin{array}{lcccc}
+ \begin{array}{lcccc}
 &<a  href='https://github.com/ShenglongZhou/NHTP'>NHTP</a>&
 <a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a>&
 <a  href='https://github.com/ShenglongZhou/MIRL1'>MIRL1</a>&
-<a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a>\\  
-<span style="color:orange">{\bf {\rm SCO}}</span>&(\ref{SCO})&(\ref{SCO})&&\\
-<span style="color:orange">{\bf {\rm CS}}</span>&(\ref{CSS})&(\ref{CSS})&(\ref{CSL})&\\
-<span style="color:orange">{\bf {\rm SLR}}</span>&(\ref{SLR})&(\ref{SLR})&&\\
+<a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a>\\\\\\
+<span style="color:orange">{\bf {\rm SCO}}</span>&(\ref{SCO})&(\ref{SCO})&&\\\\\\
+<span style="color:orange">{\bf {\rm CS}}</span>&(\ref{CSS})&(\ref{CSS})&(\ref{CSL})&\\\\\\
+<span style="color:orange">{\bf {\rm SLR}}</span>&(\ref{SLR})&(\ref{SLR})&&\\\\\\
 <span style="color:orange">{\bf {\rm SLCP}}</span>&(\ref{SLCP})&(\ref{SLCP})&&(\ref{SLCP}) 
-\end{array}\right]
+\end{array} 
 \end{eqnarray}
 
 <span style="color:grey">Bilevel optimization toolbox</span> 
