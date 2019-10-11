@@ -87,7 +87,7 @@ We summarize which appliations can be solved by above mentioned solver in follow
     </table>
 
 \begin{eqnarray}
- \begin{array}{lcccc}
+\begin{array}{lcccc}
 &<a  href='https://github.com/ShenglongZhou/NHTP'>NHTP</a>&
 <a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a>&
 <a  href='https://github.com/ShenglongZhou/MIRL1'>MIRL1</a>&
