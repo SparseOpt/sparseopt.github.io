@@ -86,28 +86,6 @@ We summarize which appliations can be solved by above mentioned solver in follow
     </tr>
     </table>
 
-\begin{eqnarray}
-&<a  href='https://github.com/ShenglongZhou/NHTP'>NHTP</a>&
-<a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a> 
-<a  href='https://github.com/ShenglongZhou/MIRL1'>MIRL1</a> 
-<a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a>\nonumber\\\\\\
-<span style="color:orange">SCO</span>&(\ref{SCO})&(\ref{SCO}) \nonumber\\\\\\
-<span style="color:orange">CS</span>&(\ref{CSS})&(\ref{CSS}) (\ref{CSL}) \nonumber\\\\\\
-<span style="color:orange">SLR</span>&(\ref{SLR})&(\ref{SLR}) \nonumber\\\\\\
-<span style="color:orange">SLCP</span>&(\ref{SLCP})&(\ref{SLCP}) (\ref{SLCP}) \nonumber
-\end{eqnarray}
-
-\begin{align}
-&<a  href='https://github.com/ShenglongZhou/NHTP'>NHTP</a>&
-<a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a>&
-<a  href='https://github.com/ShenglongZhou/MIRL1'>MIRL1</a>&
-<a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a>\\
-<span style="color:orange">SCO</span>&(\ref{SCO})&(\ref{SCO})&&\\
-<span style="color:orange">CS</span>&(\ref{CSS})&(\ref{CSS})&(\ref{CSL})&\\
-<span style="color:orange">SLR</span>&(\ref{SLR})&(\ref{SLR})&&\\
-<span style="color:orange">SLCP</span>&(\ref{SLCP})&(\ref{SLCP})&&(\ref{SLCP}) 
-\end{align}
-
 <span style="color:grey">Bilevel optimization toolbox</span> 
 ---
 
