@@ -92,10 +92,10 @@ We summarize which appliations can be solved by above mentioned solver in follow
 <a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a>&
 <a  href='https://github.com/ShenglongZhou/MIRL1'>MIRL1</a>&
 <a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a>\\\\\\
-<span style="color:orange">SCO</span>&(\ref{SCO})&(\ref{SCO})&&\\\\\\
-<span style="color:orange">CS</span>&(\ref{CSS})&(\ref{CSS})&(\ref{CSL})&\\\\\\
-<span style="color:orange">SLR</span>&(\ref{SLR})&(\ref{SLR})&&\\\\\\
-<span style="color:orange">SLCP</span>&(\ref{SLCP})&(\ref{SLCP})&&(\ref{SLCP}) 
+{\bf <span style="color:orange">SCO</span>}&(\ref{SCO})&(\ref{SCO})&&\\\\\\
+{\bf<span style="color:orange">CS</span>}&(\ref{CSS})&(\ref{CSS})&(\ref{CSL})&\\\\\\
+{\bf<span style="color:orange">SLR</span>}&(\ref{SLR})&(\ref{SLR})&&\\\\\\
+{\bf<span style="color:orange">SLCP</span>}&(\ref{SLCP})&(\ref{SLCP})&&(\ref{SLCP}) 
 \end{array} 
 \end{eqnarray}
 
