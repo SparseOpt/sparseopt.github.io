@@ -86,6 +86,16 @@ We summarize which appliations can be solved by above mentioned solver in follow
     </tr>
     </table>
 
+\begin{eqnarray}
+\begin{array}{lcccc}
+&<a  href='https://github.com/ShenglongZhou/NHTP'>NHTP</a>&
+<a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a>&
+<a  href='https://github.com/ShenglongZhou/MIRL1'>MIRL1</a>&
+<a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a>\\  
+<span style="color:orange">{\bf {\rm SCO}}</span>&(\ref{SCO})&(\ref{SCO})&&\\
+\end{array}
+\end{eqnarray}
+
 <span style="color:grey">Bilevel optimization toolbox</span> 
 ---
 
