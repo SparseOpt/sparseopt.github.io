@@ -86,6 +86,7 @@ We summarize which appliations can be solved by above mentioned solver in follow
     </tr>
     </table>
 
+
 \begin{align*}
 &<a  href='https://github.com/ShenglongZhou/NHTP'>NHTP</a>&
 <a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a>&
