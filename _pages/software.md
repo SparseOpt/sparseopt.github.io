@@ -87,7 +87,7 @@ We summarize which appliations can be solved by above mentioned solver in follow
     </table>
 
 
-\begin{align*}
+\begin{align}
 &<a  href='https://github.com/ShenglongZhou/NHTP'>NHTP</a>&
 <a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a>&
 <a  href='https://github.com/ShenglongZhou/MIRL1'>MIRL1</a>&
@@ -96,7 +96,7 @@ We summarize which appliations can be solved by above mentioned solver in follow
 <span style="color:orange">CS</span>&(\ref{CSS})&(\ref{CSS})&(\ref{CSL})&\\\\
 <span style="color:orange">SLR</span>&(\ref{SLR})&(\ref{SLR})&&\\\\
 <span style="color:orange">SLCP</span>&(\ref{SLCP})&(\ref{SLCP})&&(\ref{SLCP}) 
-\end{align*}
+\end{align}
 
 <span style="color:grey">Bilevel optimization toolbox</span> 
 ---
