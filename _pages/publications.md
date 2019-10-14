@@ -21,8 +21,8 @@ Constrained Optimization](https://www.researchgate.net/publication/299519906), *
 * L. Zhang, L. Kong and S. Zhou, [A Smoothing Iterative Method for Quantile Regression with Nonconvex
 $\ell_p$ Penalty](https://aimsciences.org/article/doi/10.3934/jimo.2016006), *Journal of Industrial and Management Optimization*, vol. 13 (1): 93 - 112, 2017.
 
-* Y. Liu, G. Liu, X. Xiu and S. Zhou, The $L_1$-penalized Quantile Regression for Traditional Chinese
-Medicine Syndrome Manifestation, *Pacific Journal of Optimization*, vol. 13(2): 279-300, 2017.
+* Y. Liu, G. Liu, X. Xiu and S. Zhou, [The $L_1$-penalized Quantile Regression for Traditional Chinese
+Medicine Syndrome Manifestation](http://www.ybook.co.jp/online2/oppjo/vol13/p279.html), *Pacific Journal of Optimization*, vol. 13(2): 279-300, 2017.
 
 * S. Zhou, N. Xiu, Y.Wang, L. Kong and H. Qi, [A Null-space-based Weighted $\ell_1$ Minimization Approach
  to Compressed Sensing](https://academic.oup.com/imaiai/article/5/1/76/2357109), *Information and Inference: A Journal of the IMA*, vol. 5(1): 76-102, 2016. (Matlab code:  [MIRL1](https://github.com/ShenglongZhou/MIRL1))
