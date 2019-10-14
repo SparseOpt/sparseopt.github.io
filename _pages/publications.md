@@ -19,7 +19,7 @@ redirect_from:
 Constrained Optimization](https://www.researchgate.net/publication/299519906), *Pacific Journal of Optimization*, vol. 13(2): 325-353, 2017. (Matlab code:  [IIHT](https://github.com/ShenglongZhou/IIHT))
 
 * L. Zhang, L. Kong and S. Zhou, [A Smoothing Iterative Method for Quantile Regression with Nonconvex
-$l_p$ Penalty](https://aimsciences.org/article/doi/10.3934/jimo.2016006), *Journal of Industrial and Management Optimization*, vol. 13 (1): 93 - 112, 2017.
+$\ell_p$ Penalty](https://aimsciences.org/article/doi/10.3934/jimo.2016006), *Journal of Industrial and Management Optimization*, vol. 13 (1): 93 - 112, 2017.
 
 * Y. Liu, G. Liu, X. Xiu and S. Zhou, The $L_1$-penalized Quantile Regression for Traditional Chinese
 Medicine Syndrome Manifestation, *Pacific Journal of Optimization*, vol. 13(2): 279-300, 2017.
