@@ -69,6 +69,7 @@ We summarize which appliations can be solved by above mentioned solver in follow
     	  <td style="width:10%" align="left"><span style="color:orange">${\bf {\rm CS}}$</span></td>
         <td style="width:10%" align="center">(\ref{CSS}) </td>
         <td style="width:10%" align="center">(\ref{CSS}) </td>
+        <td style="width:10%" align="center">(\ref{CSS}) </td>
         <td style="width:10%" align="center">(\ref{CSL})</td>
         <td style="width:10%" align="center"> </td> 
     </tr>
