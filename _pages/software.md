@@ -10,7 +10,7 @@ redirect_from:
 <span style="color:grey">Sparse optimization solvers</span> 
 ---
 
-* [NHTP](https://github.com/ShenglongZhou/NHTP), a matlab package aiming at solving the sparsity constrained optimization problems including compressed sensing, sparse logistic regression.  This is the code source for paper [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://shenglongzhou.github.io/publication/2019-01-01-Global-and-Quadratic-Convergence-of-Newton-Hard-Thresholding-Pursuit).
+* [NHTP](https://github.com/ShenglongZhou/NHTP) or [NHTPver2](https://github.com/ShenglongZhou/NHTPver2), a matlab package aiming at solving the sparsity constrained optimization problems including compressed sensing, sparse logistic regression.  This is the code source for paper [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://shenglongzhou.github.io/publication/2019-01-01-Global-and-Quadratic-Convergence-of-Newton-Hard-Thresholding-Pursuit).
 
 * [IIHT](https://github.com/ShenglongZhou/IIHT), a matlab package aiming at solving the sparsity constrained optimization problems . This is the code source for paper [ A Convergent Iterative Hard Thresholding for Sparsity and Nonnegativity Constrained Optimization](http://www.ybook.co.jp/online2/oppjo/vol13/p325.html). 
 
@@ -51,7 +51,7 @@ We summarize which appliations can be solved by above mentioned solver in follow
  <table border="2" width="0.5">
     <tr>
       <td style="width:10%" align="center"> </td>
-      <td style="width:10%" align="center"><a  href='https://github.com/ShenglongZhou/NHTP'>NHTP</a></td>
+      <td style="width:10%" align="center"><a  href='https://github.com/ShenglongZhou/NHTPver2'>NHTPver2</a></td>
       <td style="width:10%" align="center"><a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a></td>
       <td style="width:10%" align="center"><a  href='https://github.com/ShenglongZhou/MIRL1'>MIRL1</a></td>
       <td style="width:10%" align="center"><a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></td>
