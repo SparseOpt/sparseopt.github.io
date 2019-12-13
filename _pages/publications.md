@@ -10,9 +10,11 @@ redirect_from:
 
 <span style="color:grey">Sparse optimization</span>
 ---
+* H. Wang, Y. Xiao, S. Zhou, C. Zhang and N. Xiu, [Support Vector Machine Classifier via $L_{0/1}$ Soft-Margin Loss](https://www.researchgate.net/publication/337924235), 2019. 
+
 * S. Zhou, L. Pan, M. Li and M. Shang, [Newton Hard Thresholding Pursuit for Sparse LCP via A New Merit Function](https://www.researchgate.net/publication/337227932), 2019. 
 
-* X.  Li, N.  Xiu and S. Zhou, [Matrix Optimization Over Low-Rank Spectral Sets: Stationary Points and Local and Global Minimizers](https://link.springer.com/article/10.1007%2Fs10957-019-01606-8), *Journal of Optimization Theory and Applications*, DOI:
+* X. Li, N. Xiu and S. Zhou, [Matrix Optimization Over Low-Rank Spectral Sets: Stationary Points and Local and Global Minimizers](https://link.springer.com/article/10.1007%2Fs10957-019-01606-8), *Journal of Optimization Theory and Applications*, DOI:
 [https://doi.org/10.1007/s10957-019-01606-8](https://doi.org/10.1007/s10957-019-01606-8), 2019. 
 
 * S. Zhou, [N. Xiu](http://en.sci.njtu.edu.cn/Faculty/phdsupervisor/12002.htm) and [H. Qi](http://www.personal.soton.ac.uk/hdqi/), [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://arxiv.org/abs/1901.02763), 2019. (Matlab code: [NHTP](https://github.com/ShenglongZhou/NHTP))
