@@ -10,7 +10,7 @@ redirect_from:
 
 <span style="color:grey">Sparse optimization</span>
 ---
-* H. Wang, Y. Shao, S. Zhou, C. Zhang and N. Xiu, [Support Vector Machine Classifier via $L_{0/1}$ Soft-Margin Loss](https://www.researchgate.net/publication/337924235), 2019. 
+* H. Wang, Y. Shao, S. Zhou, C. Zhang and N. Xiu, [Support Vector Machine Classifier via $L_{0/1}$ Soft-Margin Loss](https://www.researchgate.net/publication/337924335), 2019. 
 
 * S. Zhou, L. Pan, M. Li and M. Shang, [Newton Hard Thresholding Pursuit for Sparse LCP via A New Merit Function](https://www.researchgate.net/publication/337227932), 2019. 
 
