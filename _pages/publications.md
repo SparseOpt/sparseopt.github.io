@@ -7,7 +7,6 @@ redirect_from:
   - /resume
 ---
 
-
 <span style="color:grey">Sparse optimization</span>
 ---
 * H. Wang, Y. Shao, S. Zhou, C. Zhang and N. Xiu, [Support Vector Machine Classifier via $L_{0/1}$ Soft-Margin Loss](https://www.researchgate.net/publication/337924335_Support_Vector_Machine_Classifier_via_L_01_Soft-Margin_Loss), 2019. 
