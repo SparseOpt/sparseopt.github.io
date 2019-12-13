@@ -48,7 +48,7 @@ of LCPs](https://www.infona.pl/resource/bwmeta1.element.springer-doi-10_1007-S11
 <span style="color:grey">Bilevel optimization </span>
 ---
 * S. Zhou, [A. Zemkoho](http://www.southampton.ac.uk/~abz1e14/) and A. Tin, [BOLIB 2019: Bilevel Optimization LIBrary
-of test problems version 2](https://biopt.github.io/files/Paper.pdf), 2019. (Matlab code: [BOLIBver2](https://biopt.github.io/bolib/))
+of Test Problems Version 2](https://biopt.github.io/files/Paper.pdf), 2019. (Matlab code: [BOLIBver2](https://biopt.github.io/bolib/))
 
 * S. Zhou, A. Zemkoho and A. Tin, [BOLIB: Bilevel Optimization Library of Test Problems](https://arxiv.org/abs/1812.00230), 2018. (Matlab code: [BOLIB](https://github.com/ShenglongZhou/BOLIB))
 
