@@ -61,4 +61,3 @@ of Test Problems Version 2](https://biopt.github.io/files/Paper.pdf), 2019. (Mat
 
 * S. Zhou, N. Xiu and H. Qi, [A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization
 with Box Constraints](https://ieeexplore.ieee.org/document/8399531), *IEEE Transactions Signal Processing*, vol. 66(16): 4331-4346, 2018. (Matlab code: [SQREDM](https://github.com/ShenglongZhou/SQREDM))
-
