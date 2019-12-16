@@ -61,7 +61,7 @@ of Test Problems Version 2](https://biopt.github.io/files/Paper.pdf), 2019. (Mat
 <span style="color:grey">Euclidean distance matrix optimization </span> 
 ---
 
-* S. Zhou, N. Xiu and H. Qi, [Robust Euclidean Embedding via EDM Optimisation](https://link.springer.com/article/10.1007/s12532-019-00168-0), *Mathematical Programming Computation*, 2019. (Matlab code: [PREEEDM](https://github.com/ShenglongZhou/PREEEDM))
+* S. Zhou, N. Xiu and H. Qi, [Robust Euclidean Embedding via EDM Optimization](https://link.springer.com/article/10.1007/s12532-019-00168-0), *Mathematical Programming Computation*, 2019. (Matlab code: [PREEEDM](https://github.com/ShenglongZhou/PREEEDM))
 
 * S. Zhou, N. Xiu and H. Qi, [A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization
 with Box Constraints](https://ieeexplore.ieee.org/document/8399531), *IEEE Transactions Signal Processing*, vol. 66(16): 4331-4346, 2018. (Matlab code: [SQREDM](https://github.com/ShenglongZhou/SQREDM))
