@@ -12,7 +12,7 @@ redirect_from:
 
 * H. Wang, Y. Shao, S. Zhou, C. Zhang and N. Xiu, [Support Vector Machine Classifier via $L_{0/1}$ Soft-Margin Loss](https://www.researchgate.net/publication/337924335_Support_Vector_Machine_Classifier_via_L_01_Soft-Margin_Loss), 2019. 
 
-* S. Zhou, L. Pan, M. Li and M. Shang, [Newton Hard Thresholding Pursuit for Sparse LCP via A New Merit Function](https://www.researchgate.net/publication/337227932), 2019. 
+* S. Zhou, L. Pan, M. Li and M. Shang, [Newton Hard Thresholding Pursuit for Sparse LCP via A New Merit Function](https://www.researchgate.net/publication/337948990), 2019. 
 
 * X. Li, N. Xiu and S. Zhou, [Matrix Optimization Over Low-Rank Spectral Sets: Stationary Points and Local and Global Minimizers](https://link.springer.com/article/10.1007%2Fs10957-019-01606-8), *Journal of Optimization Theory and Applications*, DOI:
 [https://doi.org/10.1007/s10957-019-01606-8](https://doi.org/10.1007/s10957-019-01606-8), 2019. 
