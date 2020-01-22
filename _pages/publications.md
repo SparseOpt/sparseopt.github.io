@@ -36,7 +36,7 @@ Medicine Syndrome Manifestation](http://www.ybook.co.jp/online2/oppjo/vol13/p279
 * L. Pan, N. Xiu and S. Zhou, [On Solutions of Sparsity Constrained Optimization](https://link.springer.com/article/10.1007/s40305-015-0101-3), Journal of the Operations Research Society of China, vol. 3(4): 421-439, 2015.
 
 * S. Zhou, N. Xiu, Z. Luo and L. Kong, [Sparse and Low-Rank Covariance Matrix Estimation](https://link.springer.com/article/10.1007/s40305-014-0058-7), *Journal of
-the Operations Research Society of China*, vol. 3(2): 231-250, 2015.  (Matlab code:  [ADMM](files/Sparse-and-low-rank-covariance-matrix-estimation.zip))
+the Operations Research Society of China*, vol. 3(2): 231-250, 2015.  (Matlab code:  [ADMM](\files\parse-and-low-rank-covariance-matrix-estimation.zip))
 
 * M. Shang, S. Zhou and N. Xiu, [Extragradient Thresholding Methods For Sparse Solutions of Co-coercive
 NCPs](https://journalofinequalitiesandapplications.springeropen.com/articles/10.1186/s13660-015-0551-5), *Journal of Inequalities and Applications*, vol. 34, 2015.
