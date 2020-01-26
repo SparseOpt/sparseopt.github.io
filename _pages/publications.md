@@ -60,6 +60,7 @@ of Test Problems Version 2](https://biopt.github.io/files/Paper.pdf), 2019. (Mat
 
 <span style="color:grey">Euclidean distance matrix optimization </span> 
 ---
+* S. Zhou, N. Xiu and H. Qi, [Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization](https://eprints.soton.ac.uk/429739/), *PhD Thesis*, University of Southampton, 2018. 
 
 * S. Zhou, N. Xiu and H. Qi, [Robust Euclidean Embedding via EDM Optimization](https://link.springer.com/article/10.1007/s12532-019-00168-0), *Mathematical Programming Computation*, 2019. (Matlab code: [PREEEDM](https://github.com/ShenglongZhou/PREEEDM))
 
