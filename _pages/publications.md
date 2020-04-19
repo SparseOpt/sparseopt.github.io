@@ -11,16 +11,16 @@ redirect_from:
 ---
   * S. Zhou, L. Pan and N. Xiu, [Subspace Newton Method  for the $\ell_0$-Regularized Optimization](https://www.researchgate.net/publication/340563338),[arXiv:2004.05132](https://arxiv.org/abs/2004.05132), 2020. 
 
-* H. Wang, Y. Shao, S. Zhou, C. Zhang and N. Xiu, [Support Vector Machine Classifier via $L_{0/1}$ Soft-Margin Loss](https://www.researchgate.net/publication/338717629_Support_Vector_Machine_Classifier_via_L_01_Soft-Margin_Loss), 2019. 
+* H. Wang, Y. Shao, S. Zhou, C. Zhang and N. Xiu, [Support Vector Machine Classifier via $L_{0/1}$ Soft-Margin Loss](https://www.researchgate.net/publication/338717629_Support_Vector_Machine_Classifier_via_L_01_Soft-Margin_Loss), [arXiv:1912.07418](https://arxiv.org/abs/1912.07418) 2019. 
 
-* S. Zhou, L. Pan, M. Li and M. Shang, [Newton Hard Thresholding Pursuit for Sparse LCP via A New Merit Function](https://www.researchgate.net/publication/337948990), 2019. 
+* S. Zhou, L. Pan, M. Li and M. Shang, [Newton Hard Thresholding Pursuit for Sparse LCP via A New Merit Function](https://www.researchgate.net/publication/337948990), [arXiv:2004.02244](https://arxiv.org/abs/2004.02244), 2019. 
 
 * X. Li, N. Xiu and S. Zhou, [Matrix Optimization Over Low-Rank Spectral Sets: Stationary Points and Local and Global Minimizers](https://link.springer.com/article/10.1007%2Fs10957-019-01606-8), *Journal of Optimization Theory and Applications*, DOI:
 [https://doi.org/10.1007/s10957-019-01606-8](https://doi.org/10.1007/s10957-019-01606-8), 2019. 
 
 * S. Zhou, [N. Xiu](http://en.sci.njtu.edu.cn/Faculty/phdsupervisor/12002.htm) and [H. Qi](http://www.personal.soton.ac.uk/hdqi/), [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://arxiv.org/abs/1901.02763), Accepted by *Journal of Machine Learning Research*, 2020. (Matlab code: [NHTP](https://github.com/ShenglongZhou/NHTPver2))
 
-*  R. Wang, N. Xiu and S. Zhou, [Fast Newton Method for Sparse Logistic Regression](https://arxiv.org/abs/1901.02768), 2018.
+*  R. Wang, N. Xiu and S. Zhou, [Fast Newton Method for Sparse Logistic Regression](https://www.researchgate.net/publication/330224305), [arXiv:1901.02768](https://arxiv.org/abs/1901.02768), 2018.
  
  * L. Pan, S. Zhou, N. Xiu and H. Qi, [A Convergent Iterative Hard Thresholding for Sparsity and Nonnegativity
 Constrained Optimization](https://www.researchgate.net/publication/299519906), *Pacific Journal of Optimization*, vol. 13(2): 325-353, 2017. (Matlab code:  [IIHT](https://github.com/ShenglongZhou/IIHT))
