@@ -50,9 +50,9 @@ of LCPs](https://www.infona.pl/resource/bwmeta1.element.springer-doi-10_1007-S11
 
 <span style="color:grey">Bilevel optimization </span>
 ---
-A. Zemkoho and S. Zhou, [Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization](https://www.researchgate.net/publication/340769764), 2020.
+* A. Zemkoho and S. Zhou, [Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization](https://www.researchgate.net/publication/340769764), 2020.
 
-* A. Fischer, A. Zemkoho and S. Zhou, [Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments](https://www.researchgate.net/publication/337943979), 	[arXiv:1912.07079](https://arxiv.org/abs/1912.07079), December 2019. 
+* A. Fischer, A. Zemkoho and S. Zhou, [Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments](https://www.researchgate.net/publication/337943979), [*arXiv:1912.07079*](https://arxiv.org/abs/1912.07079), December 2019. 
 
 
 * S. Zhou, A. Zemkoho and A. Tin, [BOLIB 2019: Bilevel Optimization LIBrary
