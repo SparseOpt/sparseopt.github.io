@@ -16,7 +16,7 @@ redirect_from:
 * [A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization with Box Constraints](https://ieeexplore.ieee.org/document/8399531) <br>
 [*SIAM UKIE Annual Meeting*](https://www.southampton.ac.uk/maths/news/seminars/2018/01/11-siam-seminar.page), Southampton, UK, 11 Jan 2018.
  
-* [Exact Recovery for Sparse Signal via Wweighted $\ell_1$ Minimization](https://doi.org/10.1093/imaiai/iaw002) <br>
+* [Exact Recovery for Sparse Signal via Weighted $\ell_1$ Minimization](https://doi.org/10.1093/imaiai/iaw002) <br>
 *CMP2014*, Luoyang, Henan Province, China, 12 May 2014. 
 
 * [New RIC Bounds via $\ell_q$ Minimization in Compressed Sensing](https://arxiv.org/abs/1308.0455) <br>
