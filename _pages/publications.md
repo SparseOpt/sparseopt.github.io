@@ -10,7 +10,7 @@ redirect_from:
 <span style="color:grey">Sparse optimization</span>
 ---
 
-  * S. Zhou, [Subspace Newton Method for Sparse SVM](https://www.researchgate.net/publication/341680282), [*arXiv:2005.13771*](https://arxiv.org/abs/2005.13771), 2020. 
+  * S. Zhou, [Subspace Newton Method for Sparse SVM](https://www.researchgate.net/publication/341680282), [*arXiv:2005.13771*](https://arxiv.org/abs/2005.13771), 2020. (Matlab code: [SNASVM](https://github.com/ShenglongZhou/SNASVM))
   
   * S. Zhou, L. Pan and N. Xiu, [Subspace Newton Method  for the $\ell_0$-Regularized Optimization](https://www.researchgate.net/publication/340563338), [*arXiv:2004.05132*](https://arxiv.org/abs/2004.05132), 2020. 
 
