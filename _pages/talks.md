@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
- * [Bilevel Optimisation with Applications into Hyper-parameter Tuning into Machine Learning](Bilevel-optimisation-hyperparameter-tuning.pdf), [*Turing Optimisation
+ * [Bilevel Optimisation with Applications into Hyper-parameter Tuning into Machine Learning](files/Bilevel-optimisation-hyperparameter-tuning.pdf), [*Turing Optimisation
 Club Meeting*](https://turing-optimization.github.io/), The Alan Turing Institute, 11 Nov 2019.
 
  * [Globally and Quadratically Convergent Newton Method for Sparse Optimization](https://arxiv.org/abs/1901.02763) <br>
