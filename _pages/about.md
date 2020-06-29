@@ -11,8 +11,9 @@ redirect_from:
 <span style="color:grey">Education and Work Experience</span>
 ---
 
-* Research Fellow in [Operational Research](https://www.southampton.ac.uk/maths/research/groups/operational_research.page), 2017-2019 <br>
-Ph.D in Operational Research, 2014-2017 <br>
+* Teacing Fellow in [Operational Research](https://www.southampton.ac.uk/maths/research/groups/operational_research.page), 2019- <br>
+  Research Fellow in Operational Research, 2017-2019 <br>
+  Ph.D in Operational Research, 2014-2017 <br>
   [School of Mathematics](https://www.southampton.ac.uk/maths), [University of Southampton](https://www.southampton.ac.uk/), UK  
   
 * M.S. in Operational Research, 2011-2014 <br>
