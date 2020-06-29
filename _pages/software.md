@@ -10,16 +10,19 @@ redirect_from:
 <span style="color:grey">Sparse optimization solvers</span> 
 ---
 
-* [NHTP](https://github.com/ShenglongZhou/NHTP) or [NHTPver2](https://github.com/ShenglongZhou/NHTPver2), a matlab package aiming at solving the sparsity constrained optimization problems including compressed sensing, sparse logistic regression.  This is the code source for paper [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://shenglongzhou.github.io/publication/2019-01-01-Global-and-Quadratic-Convergence-of-Newton-Hard-Thresholding-Pursuit).
+* [NHTP](https://github.com/ShenglongZhou/NHTP) or [NHTPver2](https://github.com/ShenglongZhou/NHTPver2), a matlab package aiming at solving the sparsity constrained optimization problems including compressed sensing, sparse logistic regression.  Source codes for <tr>
+  [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://shenglongzhou.github.io/publication/2019-01-01-Global-and-Quadratic-Convergence-of-Newton-Hard-Thresholding-Pursuit).
 
-* [IIHT](https://github.com/ShenglongZhou/IIHT), a matlab package aiming at solving the sparsity constrained optimization problems . This is the code source for paper [ A Convergent Iterative Hard Thresholding for Sparsity and Nonnegativity Constrained Optimization](http://www.ybook.co.jp/online2/oppjo/vol13/p325.html). 
+* [IIHT](https://github.com/ShenglongZhou/IIHT), a matlab package aiming at solving the sparsity constrained optimization problems.  Source codes for <tr> [ A Convergent Iterative Hard Thresholding for Sparsity and Nonnegativity Constrained Optimization](http://www.ybook.co.jp/online2/oppjo/vol13/p325.html). 
 
-* [MIRL1](https://github.com/ShenglongZhou/MIRL1), a matlab package aiming at solving the reweighted $\ell_1$ minimization. This is the code source for paper [A Null-space-based Weighted $\ell_1$ Minimisation Approach to Compressed Sensing](https://shenglongzhou.github.io/publication/2016-01-01-A-Null-space-based-Weighted-l1-Minimisation-Approach-to-Compressed-Sensing).
+* [MIRL1](https://github.com/ShenglongZhou/MIRL1), a matlab package aiming at solving the reweighted $\ell_1$ minimization.  Source codes for <tr>
+  [A Null-space-based Weighted $\ell_1$ Minimisation Approach to Compressed Sensing](https://shenglongzhou.github.io/publication/2016-01-01-A-Null-space-based-Weighted-l1-Minimisation-Approach-to-Compressed-Sensing).
  
  
-* [HTPCP](https://github.com/ShenglongZhou/HTPCP), a matlab package aiming at solving the sparse linear/nonlinear complementarity problems . This is the code source for paper [A Half Thresholding Projection Algorithmfor Sparse Solutions of LCPs](https://link.springer.com/article/10.1007/s11590-014-0834-7). 
+* [HTPCP](https://github.com/ShenglongZhou/HTPCP), a matlab package aiming at solving the sparse linear/nonlinear complementarity problems.  Source codes for <tr>
+  [A Half Thresholding Projection Algorithmfor Sparse Solutions of LCPs](https://link.springer.com/article/10.1007/s11590-014-0834-7). 
  
-Sparse optimization has wide range of applications, such as:
+Sparse optimization has a wide range of applications including:
  
   * Sparsity  constrained optimization (<span style="color:orange">**SCO**</span>):
 \begin{eqnarray}
@@ -46,7 +49,7 @@ where $a_i\in\mathbb{R}^{n}, b_i\in \lbrace 0,1\rbrace, i=1,2,\cdots,m$ and $\mu
 \end{eqnarray}
 where $M\in\mathbb{R}^{n\times n}$ and $q\in \mathbb{R}^{n}$. 
 
-We summarize which appliations can be solved by above mentioned solver in following table:
+Appliations solved by the above mentioned solvers are summarized in following table:
 
  <table border="2" width="0.5">
     <tr>
@@ -104,7 +107,9 @@ We summarize which appliations can be solved by above mentioned solver in follow
 <span style="color:grey">Euclidean distance matrix optimization solvers</span> 
 ---
 
-* [SQREDM](https://github.com/ShenglongZhou/SQREDM), a matlab package aiming at solving Euclidean distance matrix optimization problems from multidimensional scaling including sensor network localization, molecular conformation.  This is the code source for paper [A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization with Box Constraints](https://shenglongzhou.github.io/publication/2018-07-28-A-Fast-Matrix-Majorization-Projection-Method-for-Penalized-Stress-Minimization-with-Box-Constraints).
+* [SQREDM](https://github.com/ShenglongZhou/SQREDM), a matlab package aiming at solving Euclidean distance matrix optimization problems from multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <tr>
+  [A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization with Box Constraints](https://shenglongzhou.github.io/publication/2018-07-28-A-Fast-Matrix-Majorization-Projection-Method-for-Penalized-Stress-Minimization-with-Box-Constraints).
 
-* [PREEEDM](https://github.com/ShenglongZhou/PREEEDM), a matlab package aiming at solving Euclidean distance matrix optimization problems from multidimensional scaling including sensor network localization, molecular conformation.  This is the code source for paper [Robust Euclidean Embedding via EDM Optimization](https://shenglongzhou.github.io/publication/2019-08-09-Robust-Euclidean-Embedding-via-EDM-Optimisation).
+* [PREEEDM](https://github.com/ShenglongZhou/PREEEDM), a matlab package aiming at solving Euclidean distance matrix optimization problems from multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <tr>
+  [Robust Euclidean Embedding via EDM Optimization](https://shenglongzhou.github.io/publication/2019-08-09-Robust-Euclidean-Embedding-via-EDM-Optimisation).
 
