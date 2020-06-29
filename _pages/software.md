@@ -10,17 +10,17 @@ redirect_from:
 <span style="color:grey">Sparse optimization solvers</span> 
 ---
 
-* [NHTP](https://github.com/ShenglongZhou/NHTP) or [NHTPver2](https://github.com/ShenglongZhou/NHTPver2), a matlab package aiming at solving the sparsity constrained optimization problems including compressed sensing, sparse logistic regression.  Source codes for <br>
+* [NHTP](https://github.com/ShenglongZhou/NHTP) or [NHTPver2](https://github.com/ShenglongZhou/NHTPver2), a matlab package solving the sparsity constrained optimization problems including compressed sensing, sparse logistic regression, sparse linear complementarity problems and so on.  Source codes for <br>
   [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://shenglongzhou.github.io/publication/2019-01-01-Global-and-Quadratic-Convergence-of-Newton-Hard-Thresholding-Pursuit).
 
-* [IIHT](https://github.com/ShenglongZhou/IIHT), a matlab package aiming at solving the sparsity constrained optimization problems.  Source codes for <br>
-[ A Convergent Iterative Hard Thresholding for Sparsity and Nonnegativity Constrained Optimization](http://www.ybook.co.jp/online2/oppjo/vol13/p325.html). 
+* [IIHT](https://github.com/ShenglongZhou/IIHT), a matlab package solving the sparsity constrained optimization problems.  Source codes for <br>
+[A Convergent Iterative Hard Thresholding for Sparsity and Nonnegativity Constrained Optimization](http://www.ybook.co.jp/online2/oppjo/vol13/p325.html). 
 
-* [MIRL1](https://github.com/ShenglongZhou/MIRL1), a matlab package aiming at solving the reweighted $\ell_1$ minimization.  Source codes for <br>
+* [MIRL1](https://github.com/ShenglongZhou/MIRL1), a matlab package solving the reweighted $\ell_1$ minimization.  Source codes for <br>
   [A Null-space-based Weighted $\ell_1$ Minimisation Approach to Compressed Sensing](https://shenglongzhou.github.io/publication/2016-01-01-A-Null-space-based-Weighted-l1-Minimisation-Approach-to-Compressed-Sensing).
  
  
-* [HTPCP](https://github.com/ShenglongZhou/HTPCP), a matlab package aiming at solving the sparse linear/nonlinear complementarity problems.  Source codes for <br>
+* [HTPCP](https://github.com/ShenglongZhou/HTPCP), a matlab package solving the sparse linear/nonlinear complementarity problems.  Source codes for <br>
   [A Half Thresholding Projection Algorithmfor Sparse Solutions of LCPs](https://link.springer.com/article/10.1007/s11590-014-0834-7). 
  
 Sparse optimization has a wide range of applications including:
@@ -50,7 +50,7 @@ where $a_i\in\mathbb{R}^{n}, b_i\in \lbrace 0,1\rbrace, i=1,2,\cdots,m$ and $\mu
 \end{eqnarray}
 where $M\in\mathbb{R}^{n\times n}$ and $q\in \mathbb{R}^{n}$. 
 
-Appliations solved by the above mentioned solvers are summarized in following table:
+Applications solved by the above mentioned solvers are summarized in following table:
 
  <table border="2" width="0.5">
     <tr>
