@@ -18,8 +18,7 @@ redirect_from:
 
 * S. Zhou, L. Pan, M. Li and M. Shang, [Newton Hard Thresholding Pursuit for Sparse LCP via A New Merit Function](https://www.researchgate.net/publication/337948990), [*arXiv:2004.02244*](https://arxiv.org/abs/2004.02244), 2019. 
 
-* X. Li, N. Xiu and S. Zhou, [Matrix Optimization Over Low-Rank Spectral Sets: Stationary Points and Local and Global Minimizers](https://link.springer.com/article/10.1007%2Fs10957-019-01606-8), *Journal of Optimization Theory and Applications*, DOI:
-[https://doi.org/10.1007/s10957-019-01606-8](https://doi.org/10.1007/s10957-019-01606-8), 2019. 
+* X. Li, N. Xiu and S. Zhou, [Matrix Optimization Over Low-Rank Spectral Sets: Stationary Points and Local and Global Minimizers](https://link.springer.com/article/10.1007%2Fs10957-019-01606-8), *Journal of Optimization Theory and Applications*, 184, 895–930, 2019. 
 
 * S. Zhou, [N. Xiu](http://en.sci.njtu.edu.cn/Faculty/phdsupervisor/12002.htm) and [H. Qi](http://www.personal.soton.ac.uk/hdqi/), [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://arxiv.org/abs/1901.02763), Accepted by *Journal of Machine Learning Research*, 2020. (Matlab code: [NHTP](https://github.com/ShenglongZhou/NHTPver2))
 
@@ -66,7 +65,7 @@ of Test Problems Version 2](https://biopt.github.io/files/Paper.pdf), 2019. (Mat
 ---
 * S. Zhou, N. Xiu and H. Qi, [Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization](https://eprints.soton.ac.uk/429739/), *PhD Thesis*, University of Southampton, 2018. 
 
-* S. Zhou, N. Xiu and H. Qi, [Robust Euclidean Embedding via EDM Optimization](https://link.springer.com/article/10.1007/s12532-019-00168-0), *Mathematical Programming Computation*, 2019. (Matlab code: [PREEEDM](https://github.com/ShenglongZhou/PREEEDM))
+* S. Zhou, N. Xiu and H. Qi, [Robust Euclidean Embedding via EDM Optimization](https://link.springer.com/article/10.1007/s12532-019-00168-0), *Mathematical Programming Computation*, 1-51, 2019. (Matlab code: [PREEEDM](https://github.com/ShenglongZhou/PREEEDM))
 
 * S. Zhou, N. Xiu and H. Qi, [A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization
 with Box Constraints](https://ieeexplore.ieee.org/document/8399531), *IEEE Transactions on Signal Processing*, vol. 66(16): 4331-4346, 2018. (Matlab code: [SQREDM](https://github.com/ShenglongZhou/SQREDM))
