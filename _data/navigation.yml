@@ -1,17 +1,17 @@
 # main links links
 main:
-  - title: "Home"
+  - title: "**Home**"
     url: /about/
     
-  - title: "Publications"
+  - title: "**Publications**"
     url: /publications/
     
-  - title: "Software"
+  - title: "**Software**"
     url: /software/
     
-  - title: "Talks"
+  - title: "**Talks**"
     url: /talks/    
 
-  - title: "Teaching"
+  - title: "**Teaching**"
     url: /teaching/    
     
