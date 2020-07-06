@@ -17,7 +17,7 @@ redirect_from:
 [A Convergent Iterative Hard Thresholding for Sparsity and Nonnegativity Constrained Optimization](http://www.ybook.co.jp/online2/oppjo/vol13/p325.html). 
 
 * [MIRL1](https://github.com/ShenglongZhou/MIRL1), a matlab package solving the reweighted $\ell_1$ minimization.  Source codes for <br>
-  [A Null-space-based Weighted $\ell_1$ Minimisation Approach to Compressed Sensing](https://shenglongzhou.github.io/publication/2016-01-01-A-Null-space-based-Weighted-l1-Minimisation-Approach-to-Compressed-Sensing).
+  [A Null-space-based Weighted $\ell_1$ Minimisation Approach to Compressed Sensing](https://doi.org/10.1093/imaiai/iaw002).
  
 * [HTPCP](https://github.com/ShenglongZhou/HTPCP), a matlab package solving the sparse linear/nonlinear complementarity problems.  Source codes for <br>
   [A Half Thresholding Projection Algorithmfor Sparse Solutions of LCPs](https://link.springer.com/article/10.1007/s11590-014-0834-7). 
