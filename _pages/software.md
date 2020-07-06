@@ -22,10 +22,10 @@ redirect_from:
 * [HTPCP](https://github.com/ShenglongZhou/HTPCP), a matlab package solving the sparse linear/nonlinear complementarity problems.  Source codes for <br>
   [A Half Thresholding Projection Algorithmfor Sparse Solutions of LCPs](https://link.springer.com/article/10.1007/s11590-014-0834-7). 
   
-  * [SNASVM](https://github.com/ShenglongZhou/SNASVM), a matlab package solving the sparse support vector machine.  Source codes for <br>
+* [SNASVM](https://github.com/ShenglongZhou/SNASVM), a matlab package solving the sparse support vector machine.  Source codes for <br>
   [Subspace Newton Method for Sparse SVM](https://arxiv.org/abs/2005.13771). 
   
-  * [ADMM](https://github.com/ShenglongZhou/ADMM), a matlab package solving the  sparse and low-rank covariance matrix recovery problem.  Source codes for <br>
+* [ADMM](https://github.com/ShenglongZhou/ADMM), a matlab package solving the  sparse and low-rank covariance matrix recovery problem.  Source codes for <br>
   [Sparse and Low-Rank Covariance Matrix Estimation](https://link.springer.com/article/10.1007/s40305-014-0058-7). 
  
 Sparse optimization has a wide range of applications including:
