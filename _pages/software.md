@@ -114,8 +114,8 @@ Applications solved by the above mentioned solvers are summarized in following t
 ---
 
 * [SQREDM](https://github.com/ShenglongZhou/SQREDM), a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <br>
-  [A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization with Box Constraints](https://shenglongzhou.github.io/publication/2018-07-28-A-Fast-Matrix-Majorization-Projection-Method-for-Penalized-Stress-Minimization-with-Box-Constraints).
+  [A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization with Box Constraints](https://ieeexplore.ieee.org/document/8399531).
 
 * [PREEEDM](https://github.com/ShenglongZhou/PREEEDM), a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <br>
-  [Robust Euclidean Embedding via EDM Optimization](https://shenglongzhou.github.io/publication/2019-08-09-Robust-Euclidean-Embedding-via-EDM-Optimisation).
+  [Robust Euclidean Embedding via EDM Optimization](https://doi.org/10.1007/s12532-019-00168-0).
 
