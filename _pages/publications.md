@@ -62,7 +62,7 @@ with Box Constraints](https://ieeexplore.ieee.org/document/8399531), *IEEE Trans
 
 <span style="color:grey">Bilevel optimization </span>
 ---
-* A. Zemkoho and S. Zhou, [Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization](https://www.researchgate.net/publication/340769764), [*arXiv:2004.10830*]( https://arxiv.org/abs/2004.10830), Accepted by *Computational Optimization and Application* 2020.
+* A. Zemkoho and S. Zhou, [Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization](https://www.researchgate.net/publication/340769764), [*arXiv:2004.10830*]( https://arxiv.org/abs/2004.10830), Accepted by *Computational Optimization and Application*, 2020.
 
 * A. Fischer, A. Zemkoho and S. Zhou, [Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments](https://www.researchgate.net/publication/337943979), [*arXiv:1912.07079*](https://arxiv.org/abs/1912.07079), December 2019. 
 
