@@ -50,17 +50,6 @@ of LCPs](https://www.infona.pl/resource/bwmeta1.element.springer-doi-10_1007-S11
 
 * S. Zhou, L. Kong and N. Xiu, [New Bounds for RIC in Compressed Sensing](https://link.springer.com/article/10.1007/s40305-013-0013-z), *Journal of the Operations Research Society of China*, vol. 1(2): 227-237, 2013.
 
-<span style="color:grey">Bilevel optimization </span>
----
-* A. Zemkoho and S. Zhou, [Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization](https://www.researchgate.net/publication/340769764), [*arXiv:2004.10830*]( https://arxiv.org/abs/2004.10830), 2020.
-
-* A. Fischer, A. Zemkoho and S. Zhou, [Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments](https://www.researchgate.net/publication/337943979), [*arXiv:1912.07079*](https://arxiv.org/abs/1912.07079), December 2019. 
-
-
-* S. Zhou, A. Zemkoho and A. Tin, [BOLIB 2019: Bilevel Optimization LIBrary
-of Test Problems Version 2](https://biopt.github.io/files/Paper.pdf), a chapter in the book [*Bilevel optimization: advances and next challenges*](https://www.springer.com/gp/book/9783030521189), 2019. (Matlab code: [BOLIBver2](https://biopt.github.io/bolib/))
-
-* S. Zhou, [A. Zemkoho](http://www.southampton.ac.uk/~abz1e14/)  and A. Tin, [BOLIB: Bilevel Optimization Library of Test Problems](https://arxiv.org/abs/1812.00230), 2018. (Matlab code: [BOLIB](https://github.com/ShenglongZhou/BOLIB))
 
 <span style="color:grey">Euclidean distance matrix optimization </span> 
 ---
@@ -71,4 +60,14 @@ of Test Problems Version 2](https://biopt.github.io/files/Paper.pdf), a chapter 
 * S. Zhou, N. Xiu and H. Qi, [A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization
 with Box Constraints](https://ieeexplore.ieee.org/document/8399531), *IEEE Transactions on Signal Processing*, vol. 66(16): 4331-4346, 2018. (Matlab code: [SQREDM](https://github.com/ShenglongZhou/SQREDM))
 
+<span style="color:grey">Bilevel optimization </span>
+---
+* A. Zemkoho and S. Zhou, [Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization](https://www.researchgate.net/publication/340769764), [*arXiv:2004.10830*]( https://arxiv.org/abs/2004.10830), Accepted by *Computational Optimization and Application* 2020.
 
+* A. Fischer, A. Zemkoho and S. Zhou, [Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments](https://www.researchgate.net/publication/337943979), [*arXiv:1912.07079*](https://arxiv.org/abs/1912.07079), December 2019. 
+
+
+* S. Zhou, A. Zemkoho and A. Tin, [BOLIB 2019: Bilevel Optimization LIBrary
+of Test Problems Version 2](https://biopt.github.io/files/Paper.pdf), a chapter in the book [*Bilevel optimization: advances and next challenges*](https://www.springer.com/gp/book/9783030521189), 2019. (Matlab code: [BOLIBver2](https://biopt.github.io/bolib/))
+
+* S. Zhou, [A. Zemkoho](http://www.southampton.ac.uk/~abz1e14/)  and A. Tin, [BOLIB: Bilevel Optimization Library of Test Problems](https://arxiv.org/abs/1812.00230), 2018. (Matlab code: [BOLIB](https://github.com/ShenglongZhou/BOLIB))
