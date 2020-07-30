@@ -9,7 +9,7 @@ redirect_from:
 
 <span style="color:grey">Sparse optimization</span>
 ---
-  * S. Zhou, L. Pan and N. Xiu, [Heaviside Step Optimization: Optimality and Newton Method](https://www.researchgate.net/publication/343318667), 2020.
+  * S. Zhou, L. Pan and N. Xiu, [Heaviside Set Constrained Optimization: Optimality and Newton Method](https://www.researchgate.net/publication/343318667), 2020.
   
   * S. Zhou, [Subspace Newton Method for Sparse SVM](https://www.researchgate.net/publication/341883040), [*arXiv:2005.13771*](https://arxiv.org/abs/2005.13771), 2020. (Matlab code: [SNASVM](https://github.com/ShenglongZhou/SNASVM))
   
