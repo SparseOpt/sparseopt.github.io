@@ -55,7 +55,7 @@ of LCPs](https://www.infona.pl/resource/bwmeta1.element.springer-doi-10_1007-S11
 ---
 * S. Zhou, N. Xiu and H. Qi, [Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization](https://eprints.soton.ac.uk/429739/), *PhD Thesis*, University of Southampton, 2018. 
 
-* S. Zhou, N. Xiu and H. Qi, [Robust Euclidean Embedding via EDM Optimization](https://link.springer.com/article/10.1007/s12532-019-00168-0), *Mathematical Programming Computation*, 1-51, 2019. (Matlab code: [PREEEDM](https://github.com/ShenglongZhou/PREEEDM))
+* S. Zhou, N. Xiu and H. Qi, [Robust Euclidean Embedding via EDM Optimization](https://link.springer.com/article/10.1007/s12532-019-00168-0), *Mathematical Programming Computation*, 12(3): 337–387, 2019. (Matlab code: [PREEEDM](https://github.com/ShenglongZhou/PREEEDM))
 
 * S. Zhou, N. Xiu and H. Qi, [A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization
 with Box Constraints](https://ieeexplore.ieee.org/document/8399531), *IEEE Transactions on Signal Processing*, vol. 66(16): 4331-4346, 2018. (Matlab code: [SQREDM](https://github.com/ShenglongZhou/SQREDM))
