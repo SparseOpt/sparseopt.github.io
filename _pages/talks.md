@@ -8,7 +8,7 @@ redirect_from:
 ---
 
  * Heaviside Optimisation: Optimality and Newton Method<br>
- *Department of Mathematics, Beijing Jiaotong University*, 18 Aug 2020.
+ Department of Mathematics, Beijing Jiaotong University, 18 Aug 2020.
 
  * [Bilevel Optimisation with Applications into Hyper-parameter Tuning into Machine Learning](/files/Bilevel-optimisation-hyperparameter-tuning.pdf) <br>
  [*Turing Optimisation
