@@ -22,9 +22,9 @@ B.S. in Information and Computing Sciences, 2007-2011 <br>
 <span style="color:grey">Research Interests</span>
 ---
 
-&nbsp&nbsp&nbsp&nbsp<div style="text-align:justify;"> 
- &nbsp&nbsp&nbsp&nbsp My research interests include the theory and methods of optimization in the fields of sparse optimization, bilevel
-optimization and Euclidean distance matrix optimization. </div>  
+<p><div style="text-align:justify;"> 
+My research interests include the theory and methods of optimization in the fields of sparse optimization, bilevel
+optimization and Euclidean distance matrix optimization. </div>  </p>
 
 <div style="text-align:justify"> 
   <span style="color:orange"> <b> Sparse  optimization.</b> </span>  Several first order methods <a href="https://github.com/ShenglongZhou/MIRL1">MIRL1</a>, <a href="https://github.com/ShenglongZhou/IIHT">IIHT</a> and <a href="https://github.com/ShenglongZhou/HTPCP">HTPCP</a>, and a second order method <a href="https://github.com/ShenglongZhou/NHTP">NHTP</a> or <a href="https://github.com/ShenglongZhou/NHTPver2">NHTPver2</a> have been developed to solve the compressed sensing, sparse logistic regression, sparse linear complementarity problems and so on.  
