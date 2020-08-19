@@ -11,12 +11,12 @@ redirect_from:
 <span style="color:grey">Education and Work Experience</span>
 ---
 
-* Teaching Fellow in Operational Research, 2019- <br>
-  Research Fellow in Operational Research, 2017-2019 <br>
-  PhD in  Operational Research, 2014-2017 <br>
-  [School of Mathematics](https://www.southampton.ac.uk/maths), [University of Southampton](https://www.southampton.ac.uk/), UK  
-
-* M.S. in Operational Research, 2011-2014 <br>
+Teaching Fellow in Operational Research, 2019- <br>
+Research Fellow in Operational Research, 2017-2019 <br>
+PhD in  Operational Research, 2014-2017 <br>
+[School of Mathematics](https://www.southampton.ac.uk/maths), [University of Southampton](https://www.southampton.ac.uk/), UK  <br>
+<br>
+M.S. in Operational Research, 2011-2014 <br>
 B.S. in Information and Computing Sciences, 2007-2011 <br>
 [Department of Mathematics](http://en.sci.njtu.edu.cn/Department/DepartmentofMathematics/index.htm), [Beijing Jiaotong University](http://en.njtu.edu.cn/), China 
 
