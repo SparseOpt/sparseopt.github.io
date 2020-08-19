@@ -14,7 +14,7 @@ redirect_from:
 * Teaching Fellow in Operational Research, 2019- <br>
   Research Fellow in Operational Research, 2017-2019 <br>
   PhD in  Operational Research, 2014-2017 <br>
-  <a class="link-gray-dark"  href="#url">link-gray-dark</a>
+  <a class="link-gray-dark"  href="https://www.southampton.ac.uk/maths">School of Mathematics</a>
   [School of Mathematics](https://www.southampton.ac.uk/maths), [University of Southampton](https://www.southampton.ac.uk/), UK  
   
 * M.S. in Operational Research, 2011-2014 <br>
