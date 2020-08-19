@@ -15,6 +15,10 @@ redirect_from:
   Research Fellow in Operational Research, 2017-2019 <br>
   PhD in  Operational Research, 2014-2017 <br>
   <a class="link-blue"  href="https://www.southampton.ac.uk/maths">School of Mathematics</a>
+  <a class="no-tufte-underline" href="https://www.southampton.ac.uk/maths" style="border:0;">
+     <img  alt="School of Mathematics" style="width:18px;height:18px;border:0;">
+</a>
+
   [School of Mathematics](https://www.southampton.ac.uk/maths), [University of Southampton](https://www.southampton.ac.uk/), UK  
   
 * M.S. in Operational Research, 2011-2014 <br>
