@@ -1,3 +1,10 @@
+<style type="text/css">
+#lp-pom-root .lp-pom-text a:link {text-decoration: none}
+#lp-pom-root .lp-pom-text a:visited {text-decoration: none}
+#lp-pom-root .lp-pom-text a:active {text-decoration: none}
+#lp-pom-root .lp-pom-text a:hover {text-decoration: none}
+</style>
+
 ---
 permalink: /
 title: ""
