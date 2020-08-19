@@ -16,7 +16,7 @@ redirect_from:
   PhD in  Operational Research, 2014-2017 <br>
   [School of Mathematics](https://www.southampton.ac.uk/maths), [University of Southampton](https://www.southampton.ac.uk/), UK  
   
-  <a class="muted-link" href="https://www.southampton.ac.uk/maths">School of Mathematicss</a>
+  <a class="text-gray-dark no-underline" href="https://www.southampton.ac.uk/maths">School of Mathematicss</a>
   
 * M.S. in Operational Research, 2011-2014 <br>
 B.S. in Information and Computing Sciences, 2007-2011 <br>
