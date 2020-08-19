@@ -17,7 +17,7 @@ redirect_from:
   <a class="link-blue"  href="https:\//www.southampton.ac.uk/maths">School of Mathematics</a>
   
   <a class="no-tufte-underline" href="https:\//www.southampton.ac.uk/maths" style="border:0;">
-     School of Mathematicsg
+     School of Mathematicsgl
 </a>
 
   [School of Mathematics](https://www.southampton.ac.uk/maths), [University of Southampton](https://www.southampton.ac.uk/), UK  
