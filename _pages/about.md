@@ -24,7 +24,7 @@ B.S. in Information and Computing Sciences, 2007-2011 <br>
 ---
 
 <div align="justify"> My research interests include the theory and methods of optimization in the fields of sparse optimization, bilevel
-optimization and Euclidean distance matrix optimization. </div>
+optimization and Euclidean distance matrix optimization. </div>{''}
 
 * <span style="color:orange">**Sparse  optimization**.</span> <div align="justify">{'We established the exact recovery theory between $\ell_0$ minimization and the weighted $\ell_1$ minimization, sorts of optimality conditions as well as global and quadratic convergence properties of subspace Newton method for sparse optimization, and proposed several efficient first order methods [MIRL1](https://github.com/ShenglongZhou/MIRL1), [IIHT](https://github.com/ShenglongZhou/IIHT) and [HTPCP](https://github.com/ShenglongZhou/HTPCP), and a second order method [NHTP](https://github.com/ShenglongZhou/NHTP) or [NHTPver2](https://github.com/ShenglongZhou/NHTPver2).'} </div>
 
