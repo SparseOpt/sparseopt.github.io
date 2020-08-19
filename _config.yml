@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Shenglong Zhou"
   avatar           : "zsl.jpg"
-  bio              : "Teaching Fellow at the <a style='color: blue;' class='no-underline' href='https://www.southampton.ac.uk/maths/research/groups/operational_research.page'>Operational Research</a><br />
-                      <a style='color: blue;' class='no-underline' href='http://www.southampton.ac.uk'>University of Southampton</a><br />"
+  bio              : "Teaching Fellow at the <a style='color: blue;' href='https://www.southampton.ac.uk/maths/research/groups/operational_research.page'>Operational Research</a><br />
+                      <a style='color: blue;' href='http://www.southampton.ac.uk'>University of Southampton</a><br />"
   location         : "Southampton, United Kingdom"
   employer         :
   pubmed           :  
