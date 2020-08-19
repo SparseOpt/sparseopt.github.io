@@ -23,14 +23,14 @@ B.S. in Information and Computing Sciences, 2007-2011 <br>
 <span style="color:grey">Research Interests</span>
 ---
 
-<p align="justify"> My research interests include the theory and methods of optimization in the fields of sparse optimization, bilevel
-optimization and Euclidean distance matrix optimization. </p>
+<div align="justify"> My research interests include the theory and methods of optimization in the fields of sparse optimization, bilevel
+optimization and Euclidean distance matrix optimization. </div>
 
-* <span style="color:orange">**Sparse  optimization**.</span> <p align="justify"> We established the exact recovery theory between $\ell_0$ minimization and the weighted $\ell_1$ minimization, sorts of optimality conditions as well as global and quadratic convergence properties of subspace Newton method for sparse optimization, and proposed several efficient first order methods [MIRL1](https://github.com/ShenglongZhou/MIRL1), [IIHT](https://github.com/ShenglongZhou/IIHT) and [HTPCP](https://github.com/ShenglongZhou/HTPCP), and a second order method [NHTP](https://github.com/ShenglongZhou/NHTP) or [NHTPver2](https://github.com/ShenglongZhou/NHTPver2). </p>
+* <span style="color:orange">**Sparse  optimization**.</span> <div align="justify"> We established the exact recovery theory between $\ell_0$ minimization and the weighted $\ell_1$ minimization, sorts of optimality conditions as well as global and quadratic convergence properties of subspace Newton method for sparse optimization, and proposed several efficient first order methods [MIRL1](https://github.com/ShenglongZhou/MIRL1), [IIHT](https://github.com/ShenglongZhou/IIHT) and [HTPCP](https://github.com/ShenglongZhou/HTPCP), and a second order method [NHTP](https://github.com/ShenglongZhou/NHTP) or [NHTPver2](https://github.com/ShenglongZhou/NHTPver2). </div>
 
-* <span style="color:orange">**Euclidean distance matrix optimization**.</span> <p align="justify"> This is the topic of my [PhD thesis](https://eprints.soton.ac.uk/429739/), in which majorization techniques were adopted to design competitively fast algorithms equipped with two powerful solvers [PREEEDM](https://github.com/ShenglongZhou/PREEEDM) and [SQREDM](https://github.com/ShenglongZhou/SQREDM). </p>
+* <span style="color:orange">**Euclidean distance matrix optimization**.</span> <div align="justify"> This is the topic of my [PhD thesis](https://eprints.soton.ac.uk/429739/), in which majorization techniques were adopted to design competitively fast algorithms equipped with two powerful solvers [PREEEDM](https://github.com/ShenglongZhou/PREEEDM) and [SQREDM](https://github.com/ShenglongZhou/SQREDM). </div>
 
-* <span style="color:orange">**Bilevel optimization**.</span>  <p align="justify"> A Matlab-based [BiOpt Toolbox](https://biopt.github.io/) has been created, aiming at providing a platform on which users can test a wide range collection of bilevel optimization examples from [BOLIBver2](https://biopt.github.io/bolib/) through three our provided efficient solvers and several useful tools. </p>
+* <span style="color:orange">**Bilevel optimization**.</span>  <div align="justify"> A Matlab-based [BiOpt Toolbox](https://biopt.github.io/) has been created, aiming at providing a platform on which users can test a wide range collection of bilevel optimization examples from [BOLIBver2](https://biopt.github.io/bolib/) through three our provided efficient solvers and several useful tools. </div>
 
 
 
