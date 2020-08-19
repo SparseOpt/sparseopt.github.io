@@ -29,7 +29,7 @@ optimization and Euclidean distance matrix optimization. </div>  <br>
 <br>
 <div style="text-align:justify">  <span style="color:orange"><b>Euclidean distance matrix optimization.</b></span> This is the topic of my <a href="https://eprints.soton.ac.uk/429739/">PhD thesis</a>, in which the majorization techniques were adopted to design competitively fast algorithms packaged into two solvers <a href="https://github.com/ShenglongZhou/PREEEDM">PREEEDM</a> and <a href="https://github.com/ShenglongZhou/SQREDM">SQREDM</a>. </div> 
 <br>
-<div style="text-align:justify">   <span style="color:orange"><b>Bilevel optimization.</b></span>   A Matlab-based <a href="https://biopt.github.io/">BiOpt Toolbox</a> has been created, aiming at providing a platform on which users can test a wide range collection of bilevel optimization examples from <a href="https://biopt.github.io/">BOLIBver2</a> through three our provided efficient solvers and several useful tools. </div>
+<div style="text-align:justify">   <span style="color:orange"><b>Bilevel optimization.</b></span>   A Matlab-based <a href="https://biopt.github.io/">BiOpt Toolbox</a> has been created, aiming at providing a platform on which users can test a wide range collection of bilevel optimization examples from <a href="https://biopt.github.io/">BOLIBver2</a> through three our provided solvers and several useful tools. </div>
 
 
 
