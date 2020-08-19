@@ -15,11 +15,7 @@ redirect_from:
   Research Fellow in Operational Research, 2017-2019 <br>
   PhD in  Operational Research, 2014-2017 <br>
   [School of Mathematics](https://www.southampton.ac.uk/maths), [University of Southampton](https://www.southampton.ac.uk/), UK  
-  
-  <a class="text-gray-dark no-underline" href="https://www.southampton.ac.uk/maths">
-  School of Mathematicss <span class="link-hover-blue">blue on hover</span>
-</a>
-  
+
 * M.S. in Operational Research, 2011-2014 <br>
 B.S. in Information and Computing Sciences, 2007-2011 <br>
 [Department of Mathematics](http://en.sci.njtu.edu.cn/Department/DepartmentofMathematics/index.htm), [Beijing Jiaotong University](http://en.njtu.edu.cn/), China 
