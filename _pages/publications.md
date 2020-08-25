@@ -11,7 +11,7 @@ redirect_from:
 ---
   * S. Zhou, L. Pan and N. Xiu, [Heaviside Set Constrained Optimization: Optimality and Newton Method](https://www.researchgate.net/publication/343318667), [*arXiv:2007.15737*](https://arxiv.org/abs/2007.15737), 2020.
   
-  * S. Zhou, [Subspace Newton Method for Sparse SVM](https://www.researchgate.net/publication/341883040), [*arXiv:2005.13771*](https://arxiv.org/abs/2005.13771), 2020. (Matlab code: [SNASVM](https://github.com/ShenglongZhou/SNASVM))
+  * S. Zhou, [Sparse SVM for Sufficient Data Reduction](https://www.researchgate.net/publication/341883040), [*arXiv:2005.13771*](https://arxiv.org/abs/2005.13771), 2020. (Matlab code: [NSSVM](https://github.com/ShenglongZhou/NSSVM))
   
   * S. Zhou, L. Pan and N. Xiu, [Newton Method  for $\ell_0$-Regularized Optimization](https://www.researchgate.net/publication/340563338), [*arXiv:2004.05132*](https://arxiv.org/abs/2004.05132), 2020. 
 
