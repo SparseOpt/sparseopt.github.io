@@ -1,11 +1,10 @@
 ---
-permalink: /
+layout: archive
 title: ""
-excerpt: "About me"
+permalink: /BiOpt Toolbox/
 author_profile: true
-redirect_from: 
-  - /BiOpt Toolbox/
-  - /BiOpt Toolbox.html
+redirect_from:
+  - /BiOpt Toolbox
 ---
 
 <span style="color:grey">Welcome to BiOpt Toolbox</span>
