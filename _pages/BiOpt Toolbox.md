@@ -11,5 +11,5 @@ redirect_from:
 ---
 
 <p><div style="text-align:justify;">  
-BiOpt toolbox, to help accelerate the development of numerical toolboxes for bilevel optimization, aims at providing a platform on which users can test a wide range of bilevel optimization examples from <a href="https://biopt.github.io/">BOLIBver2</a> through the provided solvers. More details can be found at <a href="https://biopt.github.io/">BiOpt Toolbox</a>
+To help accelerate the development of numerical toolboxes for bilevel optimization, BiOpt toolbox aims at providing a platform on which users can test a wide range of bilevel optimization examples from <a href="https://biopt.github.io/">BOLIBver2</a> through the provided solvers. More details can be found at <a href="https://biopt.github.io/">BiOpt Toolbox</a>
 </div>  </p>
