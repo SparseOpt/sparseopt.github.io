@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""
-permalink: /BiOpt Toolbox/
+permalink: /BiOptToolbox/
 author_profile: true
 redirect_from:
   - /resume
