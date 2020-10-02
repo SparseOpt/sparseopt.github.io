@@ -4,7 +4,7 @@ title: ""
 permalink: /BiOpt Toolbox/
 author_profile: true
 redirect_from:
-  - /BiOpt Toolbox
+  - /resume
 ---
 
 <span style="color:grey">Welcome to BiOpt Toolbox</span>
