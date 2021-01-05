@@ -7,6 +7,26 @@ redirect_from:
   - /resume
 ---
 
+<span style="color:grey">Bilevel optimization toolbox</span> 
+---
+
+* [BOLIB](https://github.com/ShenglongZhou/BOLIB), the first version of the library providing 124 test examples. See [BOLIB: bilevel optimization library of test problems](https://arxiv.org/abs/1812.00230) for more information.
+
+* [BOLIBver2](https://biopt.github.io/bolib/), the second version of  the library providing 173 test examples. See [BOLIB2019: bilevel optimization library of test problems version 2](https://www.researchgate.net/publication/338375731) for more information.
+
+* [BiOpt Toolbox](https://biopt.github.io/),  bilevel optimization toolbox including 173 test examples from [BOLIBver2](https://biopt.github.io/bolib/), three solvers to solve bilevel optimization problems and several useful tools.
+
+<span style="color:grey">Euclidean distance matrix optimization solvers</span> 
+---
+
+* [SQREDM](https://github.com/ShenglongZhou/SQREDM), a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <br>
+  [A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization with Box Constraints](https://ieeexplore.ieee.org/document/8399531).
+
+* [PREEEDM](https://github.com/ShenglongZhou/PREEEDM), a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <br>
+  [Robust Euclidean Embedding via EDM Optimization](https://doi.org/10.1007/s12532-019-00168-0).
+
+
+
 <span style="color:grey">Sparse optimization solvers</span> 
 ---
 
@@ -100,25 +120,7 @@ Applications solved by the above mentioned solvers are summarized in following t
     </tr>
     </table>
  
- <span style="color:grey">Bilevel optimization toolbox</span> 
----
-
-* [BOLIB](https://github.com/ShenglongZhou/BOLIB), the first version of the library providing 124 test examples. See [BOLIB: bilevel optimization library of test problems](https://arxiv.org/abs/1812.00230) for more information.
-
-* [BOLIBver2](https://biopt.github.io/bolib/), the second version of  the library providing 173 test examples. See [BOLIB2019: bilevel optimization library of test problems version 2](https://www.researchgate.net/publication/338375731) for more information.
-
-* [BiOpt Toolbox](https://biopt.github.io/),  bilevel optimization toolbox including 173 test examples from [BOLIBver2](https://biopt.github.io/bolib/), three solvers to solve bilevel optimization problems and several useful tools.
-
-<span style="color:grey">Euclidean distance matrix optimization solvers</span> 
----
-
-* [SQREDM](https://github.com/ShenglongZhou/SQREDM), a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <br>
-  [A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization with Box Constraints](https://ieeexplore.ieee.org/document/8399531).
-
-* [PREEEDM](https://github.com/ShenglongZhou/PREEEDM), a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <br>
-  [Robust Euclidean Embedding via EDM Optimization](https://doi.org/10.1007/s12532-019-00168-0).
-
-
+ 
 
 
 
