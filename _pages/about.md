@@ -23,9 +23,9 @@ B.S. in Information and Computing Sciences, 2007-2011 <br>
 ---
 
 <p><div style="text-align:justify;"> 
-My research interests include the theory and methods of optimization in the fields of sparse optimization, bilevel
-optimization and Euclidean distance matrix optimization. </div>  </p>
-<p><div style="text-align:justify">
+My research interests include the theory and methods of optimization in the fields of bilevel
+optimization,  Euclidean distance matrix optimization and sparse optimization. </div>  </p>
+ <p><div style="text-align:justify">
   <span style="color:orange"><b>Bilevel optimization.</b></span>   A Matlab-based <a href="https://biopt.github.io/">BiOpt Toolbox</a> has been created, aiming at providing a platform on which users can test a wide range collection of bilevel optimization examples from <a href="https://biopt.github.io/">BOLIBver2</a> through three our provided solvers and several useful tools. 
 </div><p>
 <div style="text-align:justify">
