@@ -27,7 +27,7 @@ redirect_from:
 
 
 
-<span style="color:grey">Sparse optimization solvers</span> 
+# <span style="color:grey">Sparse optimization solvers</span> 
 ---
 
 * [NHTP](https://github.com/ShenglongZhou/NHTP) or [NHTPver2](https://github.com/ShenglongZhou/NHTPver2), a matlab package solving the sparsity constrained optimization problems including compressed sensing, sparse logistic regression, sparse linear complementarity problems and so on.  Source codes for <br>
