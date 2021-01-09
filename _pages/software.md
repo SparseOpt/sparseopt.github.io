@@ -91,7 +91,7 @@ Applications solved by the above mentioned solvers are summarized in following t
  <table border="2" width="0.5">
     <tr>
       <td style="width:5%" align="center"> </td>
-      <td style="width:50%" align="center"><a  href='https://github.com/ShenglongZhou/NHTP'>NHTP</a></td>
+      <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/NHTP'>NHTP</a></td>
       <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/NHTPver2'>NHTPver2</a></td>
       <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/NL0R'>NL0R</a></td>
       <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a></td>
