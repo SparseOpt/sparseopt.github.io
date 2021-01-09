@@ -49,21 +49,23 @@ redirect_from:
 * [ADMM](https://github.com/ShenglongZhou/ADMM), a matlab package solving the  sparse and low-rank covariance matrix recovery problem.  Source codes for <br>
   [Sparse and Low-Rank Covariance Matrix Estimation](https://link.springer.com/article/10.1007/s40305-014-0058-7). 
  
-### Two general forms of Sparse optimization 
- 
-  * Sparsity  constrained optimization (<span style="color:orange">**SCO**</span>):
+### Two general forms of sparse optimization 
+ ---
+  * Sparsity  constrained optimization:
 \begin{eqnarray}
 \label{SCO} \min_{x} && f(x), ~ {\rm s.t.}, ~ \Vert x \Vert_0\leq s 
 \end{eqnarray}
  where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$, $s\ll n$ and $\Vert x \Vert_0$ is the so-called $\ell_0$ norm that counts the number of nonzero elements of $x$. 
  
- * $\ell_0$ regularized optimization (<span style="color:orange">**L0RO**</span>):
+ * $\ell_0$ regularized optimization:
 \begin{eqnarray}
 \label{L0RO} \min_{x} && f(x) +\lambda \Vert x \Vert_0 
 \end{eqnarray}
  where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$ and $\lambda>0$. 
  
-### Applications of Sparse optimization:  
+### Applications of sparse optimization:  
+---
+
  * Compressed sensing (<span style="color:orange">**CS**</span>):
 \begin{eqnarray}
 f(x) = (1/2) \Vert Ax-b \Vert^2
