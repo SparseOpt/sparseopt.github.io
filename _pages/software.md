@@ -59,6 +59,13 @@ Sparse optimization has a wide range of applications including:
 \end{eqnarray}
  where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$, $s\ll n$ and $\Vert x \Vert_0$ is the so-called $\ell_0$ norm that counts the number of nonzero elements of $x$. 
  
+ *  $\ell_0$ regularized optimization (<span style="color:orange">**L0RO**</span>):
+\begin{eqnarray}
+\label{L0RO} \min_{x} && f(x) +\lambda \Vert x \Vert_0\leq s.
+\end{eqnarray}
+ where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$, $\lambda>0$. 
+ 
+ 
  * Compressed sensing (<span style="color:orange">**CS**</span>):
 \begin{eqnarray}
 \label{CSS}\min_{x} && \Vert Ax-b \Vert^2, ~ {\rm s.t.}, ~ \Vert x \Vert_0\leq s,  \\\\\\
