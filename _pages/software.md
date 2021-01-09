@@ -59,7 +59,7 @@ redirect_from:
  
  *  $\ell_0$ regularized optimization (<span style="color:orange">**L0RO**</span>):
 \begin{eqnarray}
-\label{L0RO} \min_{x} && f(x) +\lambda \Vert x \Vert_0\leq s.
+\label{L0RO} \min_{x} && f(x) +\lambda \Vert x \Vert_0,
 \end{eqnarray}
  where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$, $\lambda>0$. 
  
@@ -67,10 +67,9 @@ redirect_from:
 It has a wide range of applications including:
  * Compressed sensing (<span style="color:orange">**CS**</span>):
 \begin{eqnarray}
-\label{CSS}\min_{x} && \Vert Ax-b \Vert^2, ~ {\rm s.t.}, ~ \Vert x \Vert_0\leq s,  \\\\\\
-\label{CSL}\min_{x} && \Vert Wx \Vert_1, ~~~~~~~ \mbox{s.t.},~ Ax=b, 
+f{x} = (1/2) \Vert Ax-b \Vert^2
 \end{eqnarray}
-where $A\in\mathbb{R}^{m\times n}, b\in \mathbb{R}^{m}, W\in\mathbb{R}^{n\times n}$ is a diagonal matrix with $W_{ii}>0$ and $\Vert \cdot\Vert$ and $\Vert \cdot\Vert_1$ are the $\ell_2$ and $\ell_1$ norm. 
+where $A\in\mathbb{R}^{m\times n}, b\in \mathbb{R}^{m}$. 
 
 * Sparse logistic regression (<span style="color:orange">**SLR**</span>):
 \begin{eqnarray}
