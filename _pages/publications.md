@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-<span style="color:grey">Bilevel optimization </span>
+## <span style="color:grey">Bilevel optimization </span>
 ---
 * A. Zemkoho and S. Zhou, [Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization](https://www.researchgate.net/publication/340769764), [*arXiv:2004.10830*]( https://arxiv.org/abs/2004.10830),  [*Computational Optimization and Application*](https://doi.org/10.1007/s10589-020-00250-7), 2020.
 
@@ -19,7 +19,13 @@ of Test Problems Version 2](https://biopt.github.io/files/Paper.pdf), a chapter 
 
 * S. Zhou, [A. Zemkoho](http://www.southampton.ac.uk/~abz1e14/)  and A. Tin, [BOLIB: Bilevel Optimization Library of Test Problems](https://arxiv.org/abs/1812.00230), 2018. (Matlab code: [BOLIB](https://github.com/ShenglongZhou/BOLIB))
 
-<span style="color:grey">Euclidean distance matrix optimization </span> 
+
+
+
+
+
+
+## <span style="color:grey">Euclidean distance matrix optimization </span> 
 ---
 * S. Zhou, N. Xiu and H. Qi, [Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization](https://eprints.soton.ac.uk/429739/), *PhD Thesis*, University of Southampton, 2018. 
 
@@ -29,7 +35,12 @@ of Test Problems Version 2](https://biopt.github.io/files/Paper.pdf), a chapter 
 with Box Constraints](https://ieeexplore.ieee.org/document/8399531), *IEEE Transactions on Signal Processing*, vol. 66(16): 4331-4346, 2018. (Matlab code: [SQREDM](https://github.com/ShenglongZhou/SQREDM))
 
 
-<span style="color:grey">Sparse optimization</span>
+
+
+
+
+
+## <span style="color:grey">Sparse optimization</span>
 ---
   * S. Zhou, L. Pan and N. Xiu, [Newton Method  for $\ell_0$-Regularized Optimization](https://www.researchgate.net/publication/340563338), [*arXiv:2004.05132*](https://arxiv.org/abs/2004.05132), Accepted by *Numerical Algorithms*, 2021. (Matlab code: [NL0R](https://github.com/ShenglongZhou/NL0R)) 
   
