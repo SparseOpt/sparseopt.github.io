@@ -67,21 +67,26 @@ redirect_from:
 It has a wide range of applications including:
  * Compressed sensing (<span style="color:orange">**CS**</span>):
 \begin{eqnarray}
-f{x} = (1/2) \Vert Ax-b \Vert^2
+f(x) = (1/2) \Vert Ax-b \Vert^2
 \end{eqnarray}
 where $A\in\mathbb{R}^{m\times n}, b\in \mathbb{R}^{m}$. 
 
 * Sparse logistic regression (<span style="color:orange">**SLR**</span>):
 \begin{eqnarray}
-\label{SLR} \min_{x}~  \frac{1}{m}\sum_{i=1}^{m}\left\lbrace \ln(1+ e^{\langle a_i, x\rangle})-b_i\langle a_i, x\rangle\right \rbrace+\mu\Vert x\Vert_2^2 , ~ ~ {\rm s.t.},~ \Vert x\Vert_0\leq s.
+f(x) =  \frac{1}{m}\sum_{i=1}^{m}\left\lbrace \ln(1+ e^{\langle a_i, x\rangle})-b_i\langle a_i, x\rangle\right \rbrace+\mu\Vert x\Vert_2^2, 
 \end{eqnarray}
 where $a_i\in\mathbb{R}^{n}, b_i\in \lbrace 0,1\rbrace, i=1,2,\cdots,m$ and $\mu\geq0$.
 
 * Sparse linear complementarity problem (<span style="color:orange">**SLCP**</span>):
 \begin{eqnarray}
+f(x) = \frac{1}{r}\left\lbrace\langle x_+^r, (Mx+q)_+^r\rangle +  \Vert (-x)_+\Vert_r^r +\Vert (-Mx-q)_+\Vert_r^r\right \rbrace.
+\end{eqnarray}
+where $M\in\mathbb{R}^{n\times n}, q\in \mathbb{R}^{n}, r\geq 2$, $x_+:=((x_1)_+,...(x_n)_+)^T, t_+:=\max\lbrace t,0\lbrace^r$ and $\Vert x\Vert_r^r = \sum |x_i|^r$. 
+Note that $f(x)=0$ if and only if the following system is satisfied,
+\begin{eqnarray}
 \label{SLCP} x \geq 0,~ Mx+q\geq 0,~ \langle x , Mx+q \rangle=0, ~ \Vert x\Vert_0\leq s.
 \end{eqnarray}
-where $M\in\mathbb{R}^{n\times n}$ and $q\in \mathbb{R}^{n}$. 
+
 
 Applications solved by the above mentioned solvers are summarized in following table:
 
