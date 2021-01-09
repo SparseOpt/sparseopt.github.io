@@ -61,7 +61,7 @@ redirect_from:
 \begin{eqnarray}
 \label{L0RO} \min_{x} && f(x) +\lambda \Vert x \Vert_0,
 \end{eqnarray}
- where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$, $\lambda>0$. 
+ where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$ and $\lambda>0$. 
  
 ### Applications of Sparse optimization:  
  * Compressed sensing (<span style="color:orange">**CS**</span>):
@@ -100,30 +100,30 @@ Applications solved by the above mentioned solvers are summarized in following t
     </tr>
      <tr>
     	  <td style="width:5%" align="left"><span style="color:orange">${\bf {\rm CS}}$</span></td>
-        <td style="width:5%" align="center">:heavy_check_mark:</td>
-        <td style="width:5%" align="center">:heavy_check_mark:</td>
-        <td style="width:5%" align="center">:heavy_check_mark:</td>
-        <td style="width:5%" align="center">:heavy_check_mark:</td>
-        <td style="width:5%" align="center">:heavy_check_mark:</td>
+        <td style="width:5%" align="center">$\surd$</td>
+        <td style="width:5%" align="center">$\surd$</td>
+        <td style="width:5%" align="center">$\surd$</td>
+        <td style="width:5%" align="center">$\surd$</td>
+        <td style="width:5%" align="center">$\surd$</td>
         <td style="width:5%" align="center"> </td> 
     </tr>
       <tr>
     	  <td style="width:5%" align="left"><span style="color:orange">${\bf {\rm SLR}}$</span></td>
-        <td style="width:5%" align="center">:heavy_check_mark:</td>
-        <td style="width:5%" align="center">:heavy_check_mark:</td>
-        <td style="width:5%" align="center">:heavy_check_mark:</td>
-        <td style="width:5%" align="center">:heavy_check_mark: </td>
+        <td style="width:5%" align="center">$\surd$</td>
+        <td style="width:5%" align="center">$\surd$</td>
+        <td style="width:5%" align="center">$\surd$</td>
+        <td style="width:5%" align="center">$\surd$</td>
         <td style="width:5%" align="center"> </td> 
         <td style="width:5%" align="center"> </td> 
     </tr>
       <tr>
     	  <td style="width:5%" align="left"><span style="color:orange">${\bf {\rm SLCP}}$</span></td>
         <td style="width:5%" align="center"> </td>
-        <td style="width:5%" align="center">:heavy_check_mark: </td>
-        <td style="width:5%" align="center">:heavy_check_mark: </td>
-        <td style="width:5%" align="center">:heavy_check_mark: </td>
+        <td style="width:5%" align="center">$\surd$</td>
+        <td style="width:5%" align="center">$\surd$</td>
+        <td style="width:5%" align="center">$\surd$</td>
         <td style="width:5%" align="center"> </td>
-        <td style="width:5%" align="center">:heavy_check_mark: </td> 
+        <td style="width:5%" align="center">$\surd$</td> 
     </tr>
     </table>
  
