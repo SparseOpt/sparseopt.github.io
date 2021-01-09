@@ -51,7 +51,7 @@ redirect_from:
 * [ADMM](https://github.com/ShenglongZhou/ADMM), a matlab package solving the  sparse and low-rank covariance matrix recovery problem.  Source codes for <br>
   [Sparse and Low-Rank Covariance Matrix Estimation](https://link.springer.com/article/10.1007/s40305-014-0058-7). 
  
-Sparse optimization has a wide range of applications including:
+# Sparse optimization has two general forms
  
   * Sparsity  constrained optimization (<span style="color:orange">**SCO**</span>):
 \begin{eqnarray}
@@ -65,7 +65,7 @@ Sparse optimization has a wide range of applications including:
 \end{eqnarray}
  where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$, $\lambda>0$. 
  
- 
+It has a wide range of applications including:
  * Compressed sensing (<span style="color:orange">**CS**</span>):
 \begin{eqnarray}
 \label{CSS}\min_{x} && \Vert Ax-b \Vert^2, ~ {\rm s.t.}, ~ \Vert x \Vert_0\leq s,  \\\\\\
