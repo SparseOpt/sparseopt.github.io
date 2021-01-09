@@ -88,7 +88,7 @@ Note that
  f(x)=0~~ \Longleftrightarrow~~ x \geq 0,~ Mx+q\geq 0,~ \langle x , Mx+q \rangle=0 \nonumber
 \end{eqnarray}
 
-Applications solved by the above mentioned solvers are summarized in following table:
+Applications solved by the aforementioned solvers are summarized in following table:
 
  <table border="2" width="0.5">
     <tr>
