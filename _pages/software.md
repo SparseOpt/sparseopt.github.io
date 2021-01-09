@@ -51,7 +51,7 @@ redirect_from:
 * [ADMM](https://github.com/ShenglongZhou/ADMM), a matlab package solving the  sparse and low-rank covariance matrix recovery problem.  Source codes for <br>
   [Sparse and Low-Rank Covariance Matrix Estimation](https://link.springer.com/article/10.1007/s40305-014-0058-7). 
  
-# Sparse optimization has two general forms
+## Sparse optimization has two general forms
  
   * Sparsity  constrained optimization (<span style="color:orange">**SCO**</span>):
 \begin{eqnarray}
