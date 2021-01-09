@@ -123,7 +123,7 @@ Applications solved by the above mentioned solvers are summarized in following t
         <td style="width:10%" align="center">:heavy_check_mark: </td>
         <td style="width:10%" align="center">:heavy_check_mark: </td>
         <td style="width:10%" align="center"> </td>
-        <td style="width:10%" align="center">(\ref{SLCP})</td> 
+        <td style="width:10%" align="center">:heavy_check_mark: </td> 
     </tr>
     </table>
  
