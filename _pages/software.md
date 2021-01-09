@@ -17,7 +17,6 @@ redirect_from:
 * [BiOpt Toolbox](https://biopt.github.io/),  bilevel optimization toolbox including 173 test examples from [BOLIBver2](https://biopt.github.io/bolib/), three solvers to solve bilevel optimization problems and several useful tools.
 
 # <span style="color:grey">Euclidean distance matrix optimization solvers</span> 
----
 
 * [SQREDM](https://github.com/ShenglongZhou/SQREDM), a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <br>
   [A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization with Box Constraints](https://ieeexplore.ieee.org/document/8399531).
@@ -28,7 +27,6 @@ redirect_from:
 
 
 # <span style="color:grey">Sparse optimization solvers</span> 
----
 
 * [NHTP](https://github.com/ShenglongZhou/NHTP) or [NHTPver2](https://github.com/ShenglongZhou/NHTPver2), a matlab package solving the sparsity constrained optimization problems including compressed sensing, sparse logistic regression, sparse linear complementarity problems and so on.  Source codes for <br>
   [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://arxiv.org/abs/1901.02763).
