@@ -79,14 +79,13 @@ where $a_i\in\mathbb{R}^{n}, b_i\in \lbrace 0,1\rbrace, i=1,2,\cdots,m$ and $\mu
 
 * Sparse linear complementarity problem (<span style="color:orange">**SLCP**</span>):
 \begin{eqnarray}
-f(x) = \frac{1}{r}\left\lbrace\langle x_+^r, (Mx+q)_+^r\rangle +  \Vert (-x)_+\Vert_r^r +\Vert (-Mx-q)_+\Vert_r^r\right \rbrace.
+f(x) = \frac{1}{r} \left\lbrace \langle x_+^r, (Mx+q)^r_{+}\rangle +  \Vert (-x)_{+} \Vert_r^r +\Vert (-Mx-q)_+\Vert_r^r \right \rbrace.
 \end{eqnarray}
-where $M\in\mathbb{R}^{n\times n}, q\in \mathbb{R}^{n}, r\geq 2$, $x_+:=((x_1)_+,...(x_n)_+)^T, t_+:=\max\lbrace t,0\lbrace^r$ and $\Vert x\Vert_r^r = \sum |x_i|^r$. 
+where $M\in\mathbb{R}^{n\times n}, q\in \mathbb{R}^{n}, r\geq 2$, $x_+:=((x_1)_+,...(x_n)_+)^T, t_+:=max \lbrace t,0\lbrace^r $ and $\Vert x\Vert_r^r = \sum |x_i|^r$. 
 Note that $f(x)=0$ if and only if the following system is satisfied,
 \begin{eqnarray}
 \label{SLCP} x \geq 0,~ Mx+q\geq 0,~ \langle x , Mx+q \rangle=0, ~ \Vert x\Vert_0\leq s.
 \end{eqnarray}
-
 
 Applications solved by the above mentioned solvers are summarized in following table:
 
