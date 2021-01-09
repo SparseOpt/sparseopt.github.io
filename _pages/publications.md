@@ -35,7 +35,7 @@ with Box Constraints](https://ieeexplore.ieee.org/document/8399531), *IEEE Trans
   
   * S. Zhou, [Sparse SVM for Sufficient Data Reduction](https://www.researchgate.net/publication/341883040), [*arXiv:2005.13771*](https://arxiv.org/abs/2005.13771), 2020. (Matlab code: [NSSVM](https://github.com/ShenglongZhou/NSSVM))
   
-  * S. Zhou, L. Pan and N. Xiu, [Newton Method  for $\ell_0$-Regularized Optimization](https://www.researchgate.net/publication/340563338), [*arXiv:2004.05132*](https://arxiv.org/abs/2004.05132), 2020. 
+  * S. Zhou, L. Pan and N. Xiu, [Newton Method  for $\ell_0$-Regularized Optimization](https://www.researchgate.net/publication/340563338), [*arXiv:2004.05132*](https://arxiv.org/abs/2004.05132), Accepted by *Numerical Algorithms*, 2021. (Matlab code: [NL0R](https://github.com/ShenglongZhou/NL0R))
 
 * H. Wang, Y. Shao, S. Zhou, C. Zhang and N. Xiu, [Support Vector Machine Classifier via $L_{0/1}$ Soft-Margin Loss](https://www.researchgate.net/publication/338717629_Support_Vector_Machine_Classifier_via_L_01_Soft-Margin_Loss), [*arXiv:1912.07418*](https://arxiv.org/abs/1912.07418), 2019. 
 
