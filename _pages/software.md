@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-<span style="color:grey">Bilevel optimization toolbox</span> 
+# <span style="color:grey">Bilevel optimization toolbox</span> 
 ---
 
 * [BOLIB](https://github.com/ShenglongZhou/BOLIB), the first version of the library providing 124 test examples. See [BOLIB: bilevel optimization library of test problems](https://arxiv.org/abs/1812.00230) for more information.
@@ -16,7 +16,7 @@ redirect_from:
 
 * [BiOpt Toolbox](https://biopt.github.io/),  bilevel optimization toolbox including 173 test examples from [BOLIBver2](https://biopt.github.io/bolib/), three solvers to solve bilevel optimization problems and several useful tools.
 
-<span style="color:grey">Euclidean distance matrix optimization solvers</span> 
+# <span style="color:grey">Euclidean distance matrix optimization solvers</span> 
 ---
 
 * [SQREDM](https://github.com/ShenglongZhou/SQREDM), a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <br>
