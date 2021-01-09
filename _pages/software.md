@@ -63,8 +63,7 @@ redirect_from:
 \end{eqnarray}
  where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$, $\lambda>0$. 
  
-### Applications of Sparse optimization  
-It has a wide range of applications including:
+### Applications of Sparse optimization:  
  * Compressed sensing (<span style="color:orange">**CS**</span>):
 \begin{eqnarray}
 f(x) = (1/2) \Vert Ax-b \Vert^2
@@ -94,39 +93,35 @@ Applications solved by the above mentioned solvers are summarized in following t
       <td style="width:10%" align="center"> </td>
       <td style="width:10%" align="center"><a  href='https://github.com/ShenglongZhou/NHTP'>NHTP</a></td>
       <td style="width:10%" align="center"><a  href='https://github.com/ShenglongZhou/NHTPver2'>NHTPver2</a></td>
+      <td style="width:10%" align="center"><a  href='https://github.com/ShenglongZhou/NL0R'>NL0R</a></td>
       <td style="width:10%" align="center"><a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a></td>
       <td style="width:10%" align="center"><a  href='https://github.com/ShenglongZhou/MIRL1'>MIRL1</a></td>
       <td style="width:10%" align="center"><a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></td>
     </tr>
-    <tr>
-    	  <td style="width:10%" align="left"><span style="color:orange">${\bf {\rm SCO}}$</span></td>
-        <td style="width:10%" align="center">(\ref{SCO}) </td>
-        <td style="width:10%" align="center">(\ref{SCO}) </td>
-        <td style="width:10%" align="center">(\ref{SCO}) </td>
-        <td style="width:10%" align="center"> </td>
-        <td style="width:10%" align="center"> </td> 
-    </tr>
      <tr>
     	  <td style="width:10%" align="left"><span style="color:orange">${\bf {\rm CS}}$</span></td>
-        <td style="width:10%" align="center">(\ref{CSS}) </td>
-        <td style="width:10%" align="center">(\ref{CSS}) </td>
-        <td style="width:10%" align="center">(\ref{CSS}) </td>
-        <td style="width:10%" align="center">(\ref{CSL})</td>
+        <td style="width:10%" align="center">:heavy_check_mark:</td>
+        <td style="width:10%" align="center">:heavy_check_mark:</td>
+        <td style="width:10%" align="center">:heavy_check_mark:</td>
+        <td style="width:10%" align="center">:heavy_check_mark:</td>
+        <td style="width:10%" align="center">:heavy_check_mark:</td>
         <td style="width:10%" align="center"> </td> 
     </tr>
       <tr>
     	  <td style="width:10%" align="left"><span style="color:orange">${\bf {\rm SLR}}$</span></td>
-        <td style="width:10%" align="center">(\ref{SLR}) </td>
-        <td style="width:10%" align="center">(\ref{SLR}) </td>
-        <td style="width:10%" align="center">(\ref{SLR}) </td>
-        <td style="width:10%" align="center"> </td>
+        <td style="width:10%" align="center">:heavy_check_mark:</td>
+        <td style="width:10%" align="center">:heavy_check_mark:</td>
+        <td style="width:10%" align="center">:heavy_check_mark:</td>
+        <td style="width:10%" align="center">:heavy_check_mark: </td>
+        <td style="width:10%" align="center"> </td> 
         <td style="width:10%" align="center"> </td> 
     </tr>
       <tr>
     	  <td style="width:10%" align="left"><span style="color:orange">${\bf {\rm SLCP}}$</span></td>
         <td style="width:10%" align="center"> </td>
-        <td style="width:10%" align="center">(\ref{SLCP})</td>
-        <td style="width:10%" align="center">(\ref{SLCP})</td>
+        <td style="width:10%" align="center">:heavy_check_mark: </td>
+        <td style="width:10%" align="center">:heavy_check_mark: </td>
+        <td style="width:10%" align="center">:heavy_check_mark: </td>
         <td style="width:10%" align="center"> </td>
         <td style="width:10%" align="center">(\ref{SLCP})</td> 
     </tr>
