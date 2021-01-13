@@ -43,7 +43,7 @@ with Box Constraints](https://ieeexplore.ieee.org/document/8399531), *IEEE Trans
 ## <span style="color:grey">Sparse optimization</span>
 ---
 
-  * S. Zhou, Z. Luo and N. Xiu, [Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization](https://www.researchgate.net/publication/348371863), 2021. (Matlab code: [GPSP](https://github.com/ShenglongZhou/GPSP)) 
+  * S. Zhou, Z. Luo and N. Xiu, [Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization](https://www.researchgate.net/publication/348371863), [*arXiv:2101.03599*](https://arxiv.org/abs/2101.03599),  2021. (Matlab code: [GPSP](https://github.com/ShenglongZhou/GPSP)) 
   
   * S. Zhou, L. Pan and N. Xiu, [Newton Method  for $\ell_0$-Regularized Optimization](https://www.researchgate.net/publication/340563338), [*arXiv:2004.05132*](https://arxiv.org/abs/2004.05132), Accepted by *Numerical Algorithms*, 2021. (Matlab code: [NL0R](https://github.com/ShenglongZhou/NL0R)) 
   
