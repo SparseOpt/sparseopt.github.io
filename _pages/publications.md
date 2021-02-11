@@ -7,41 +7,12 @@ redirect_from:
   - /resume
 ---
 
-## <span style="color:grey">Bilevel optimization </span>
----
-* A. Zemkoho and S. Zhou, [Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization](https://www.researchgate.net/publication/340769764), [*arXiv:2004.10830*]( https://arxiv.org/abs/2004.10830),  [*Computational Optimization and Application*](https://doi.org/10.1007/s10589-020-00250-7), 2020.
-
-* A. Fischer, A. Zemkoho and S. Zhou, [Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments](https://www.researchgate.net/publication/337943979), [*arXiv:1912.07079*](https://arxiv.org/abs/1912.07079), December 2019. 
-
-
-* S. Zhou, A. Zemkoho and A. Tin, [BOLIB 2019: Bilevel Optimization LIBrary
-of Test Problems Version 2](https://biopt.github.io/files/Paper.pdf), a chapter in the book [*Bilevel optimization: advances and next challenges*](https://www.springer.com/gp/book/9783030521189), 2019. (Matlab code: [BOLIBver2](https://biopt.github.io/bolib/))
-
-* S. Zhou, [A. Zemkoho](http://www.southampton.ac.uk/~abz1e14/)  and A. Tin, [BOLIB: Bilevel Optimization Library of Test Problems](https://arxiv.org/abs/1812.00230), 2018. (Matlab code: [BOLIB](https://github.com/ShenglongZhou/BOLIB))
-
-
-
-
-
-
-
-## <span style="color:grey">Euclidean distance matrix optimization </span> 
----
-* S. Zhou, N. Xiu and H. Qi, [Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization](https://eprints.soton.ac.uk/429739/), *PhD Thesis*, University of Southampton, 2018. 
-
-* S. Zhou, N. Xiu and H. Qi, [Robust Euclidean Embedding via EDM Optimization](https://link.springer.com/article/10.1007/s12532-019-00168-0), *Mathematical Programming Computation*, 12(3): 337–387, 2019. (Matlab code: [PREEEDM](https://github.com/ShenglongZhou/PREEEDM))
-
-* S. Zhou, N. Xiu and H. Qi, [A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization
-with Box Constraints](https://ieeexplore.ieee.org/document/8399531), *IEEE Transactions on Signal Processing*, vol. 66(16): 4331-4346, 2018. (Matlab code: [SQREDM](https://github.com/ShenglongZhou/SQREDM))
-
-
-
-
-
-
 
 ## <span style="color:grey">Sparse optimization</span>
 ---
+
+* S. Zhou, [N. Xiu](http://en.sci.njtu.edu.cn/Faculty/phdsupervisor/12002.htm) and [H. Qi](http://www.personal.soton.ac.uk/hdqi/), [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://jmlr.org/papers/v22/19-026.html),  Journal of Machine Learning Research, 22(12):1−45, 2021. (Matlab code: [NHTP](https://github.com/ShenglongZhou/NHTPver2))
+
 
   * S. Zhou, Z. Luo and N. Xiu, [Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization](https://www.researchgate.net/publication/348371863), [*arXiv:2101.03599*](https://arxiv.org/abs/2101.03599),  2021. (Matlab code: [GPSP](https://github.com/ShenglongZhou/GPSP)) 
   
@@ -58,7 +29,7 @@ with Box Constraints](https://ieeexplore.ieee.org/document/8399531), *IEEE Trans
 
 * X. Li, N. Xiu and S. Zhou, [Matrix Optimization Over Low-Rank Spectral Sets: Stationary Points and Local and Global Minimizers](https://link.springer.com/article/10.1007%2Fs10957-019-01606-8), *Journal of Optimization Theory and Applications*, 184, 895–930, 2019. 
 
-* S. Zhou, [N. Xiu](http://en.sci.njtu.edu.cn/Faculty/phdsupervisor/12002.htm) and [H. Qi](http://www.personal.soton.ac.uk/hdqi/), [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://arxiv.org/abs/1901.02763), Accepted by *Journal of Machine Learning Research*, 2020. (Matlab code: [NHTP](https://github.com/ShenglongZhou/NHTPver2))
+
 
 *  R. Wang, N. Xiu and S. Zhou, [Fast Newton Method for Sparse Logistic Regression](https://www.researchgate.net/publication/330224305), [*arXiv:1901.02768*](https://arxiv.org/abs/1901.02768), 2018.
  
@@ -85,4 +56,30 @@ NCPs](https://journalofinequalitiesandapplications.springeropen.com/articles/10.
 of LCPs](https://www.infona.pl/resource/bwmeta1.element.springer-doi-10_1007-S11590-014-0834-7), *Optimization Letters*, vol. 9(6): 1231-1245, 2015. (Matlab code:  [HTPCP](https://github.com/ShenglongZhou/HTPCP))
 
 * S. Zhou, L. Kong and N. Xiu, [New Bounds for RIC in Compressed Sensing](https://link.springer.com/article/10.1007/s40305-013-0013-z), *Journal of the Operations Research Society of China*, vol. 1(2): 227-237, 2013.
+
+
+
+
+## <span style="color:grey">Euclidean distance matrix optimization </span> 
+---
+* S. Zhou, N. Xiu and H. Qi, [Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization](https://eprints.soton.ac.uk/429739/), *PhD Thesis*, University of Southampton, 2018. 
+
+* S. Zhou, N. Xiu and H. Qi, [Robust Euclidean Embedding via EDM Optimization](https://link.springer.com/article/10.1007/s12532-019-00168-0), *Mathematical Programming Computation*, 12(3): 337–387, 2019. (Matlab code: [PREEEDM](https://github.com/ShenglongZhou/PREEEDM))
+
+* S. Zhou, N. Xiu and H. Qi, [A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization
+with Box Constraints](https://ieeexplore.ieee.org/document/8399531), *IEEE Transactions on Signal Processing*, vol. 66(16): 4331-4346, 2018. (Matlab code: [SQREDM](https://github.com/ShenglongZhou/SQREDM))
+
+
+
+## <span style="color:grey">Bilevel optimization </span>
+---
+* A. Zemkoho and S. Zhou, [Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization](https://www.researchgate.net/publication/340769764), [*arXiv:2004.10830*]( https://arxiv.org/abs/2004.10830),  [*Computational Optimization and Application*](https://doi.org/10.1007/s10589-020-00250-7), 2020.
+
+* A. Fischer, A. Zemkoho and S. Zhou, [Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments](https://www.researchgate.net/publication/337943979), [*arXiv:1912.07079*](https://arxiv.org/abs/1912.07079), December 2019. 
+
+
+* S. Zhou, A. Zemkoho and A. Tin, [BOLIB 2019: Bilevel Optimization LIBrary
+of Test Problems Version 2](https://biopt.github.io/files/Paper.pdf), a chapter in the book [*Bilevel optimization: advances and next challenges*](https://www.springer.com/gp/book/9783030521189), 2019. (Matlab code: [BOLIBver2](https://biopt.github.io/bolib/))
+
+* S. Zhou, [A. Zemkoho](http://www.southampton.ac.uk/~abz1e14/)  and A. Tin, [BOLIB: Bilevel Optimization Library of Test Problems](https://arxiv.org/abs/1812.00230), 2018. (Matlab code: [BOLIB](https://github.com/ShenglongZhou/BOLIB))
 
