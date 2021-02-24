@@ -22,16 +22,13 @@ redirect_from:
   
 * S. Zhou, [Sparse SVM for Sufficient Data Reduction](https://www.researchgate.net/publication/341883040), [*arXiv:2005.13771*](https://arxiv.org/abs/2005.13771), 2020. (Matlab code: [NSSVM](https://github.com/ShenglongZhou/NSSVM))
   
-
 * H. Wang, Y. Shao, S. Zhou, C. Zhang and N. Xiu, [Support Vector Machine Classifier via $L_{0/1}$ Soft-Margin Loss](https://www.researchgate.net/publication/338717629_Support_Vector_Machine_Classifier_via_L_01_Soft-Margin_Loss), [*arXiv:1912.07418*](https://arxiv.org/abs/1912.07418), 2019. 
 
 * S. Zhou, L. Pan, M. Li and M. Shang, [Newton Hard Thresholding Pursuit for Sparse LCP via A New Merit Function](https://www.researchgate.net/publication/337948990), [*arXiv:2004.02244*](https://arxiv.org/abs/2004.02244), Accepted by *SIAM Journal on Scientific Computing*, 2020. 
 
 * X. Li, N. Xiu and S. Zhou, [Matrix Optimization Over Low-Rank Spectral Sets: Stationary Points and Local and Global Minimizers](https://link.springer.com/article/10.1007%2Fs10957-019-01606-8), *Journal of Optimization Theory and Applications*, 184, 895–930, 2019. 
 
-
-
-*  R. Wang, N. Xiu and S. Zhou, [Fast Newton Method for Sparse Logistic Regression](https://www.researchgate.net/publication/330224305), [*arXiv:1901.02768*](https://arxiv.org/abs/1901.02768), 2018.
+*  R. Wang, N. Xiu and S. Zhou, [Newton Method for Sparse Logistic Regression: Quadratic Convergence and Extensive Simulations](https://www.researchgate.net/publication/330224305), [*arXiv:1901.02768*](https://arxiv.org/abs/1901.02768), 2021.
  
  * L. Pan, S. Zhou, N. Xiu and H. Qi, [A Convergent Iterative Hard Thresholding for Sparsity and Nonnegativity
 Constrained Optimization](https://www.researchgate.net/publication/299519906), *Pacific Journal of Optimization*, vol. 13(2): 325-353, 2017. (Matlab code:  [IIHT](https://github.com/ShenglongZhou/IIHT))
