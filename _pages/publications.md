@@ -12,7 +12,7 @@ redirect_from:
 ---
 
   * S. Zhou, [N. Xiu](http://en.sci.njtu.edu.cn/Faculty/phdsupervisor/12002.htm) and [H. Qi](http://www.personal.soton.ac.uk/hdqi/), [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://jmlr.org/papers/v22/19-026.html),  *Journal of Machine Learning Research*, 22(12):1−45, 2021. (Matlab code: [NHTP](https://github.com/ShenglongZhou/NHTPver2))
-  * 
+ 
 * S. Zhou, L. Pan, M. Li and M. Shang, [Newton Hard Thresholding Pursuit for Sparse LCP via A New Merit Function](https://doi.org/10.1137/19M1301539), [*arXiv:2004.02244*], *SIAM Journal on Scientific Computing*, 43(2), A772–A799, 2021. (Matlab code: [NHTP](https://github.com/ShenglongZhou/NHTPver2))
 
 * S. Zhou, Z. Luo and N. Xiu, [Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization](https://www.researchgate.net/publication/348371863), [*arXiv:2101.03599*](https://arxiv.org/abs/2101.03599),  2021. (Matlab code: [GPSP](https://github.com/ShenglongZhou/GPSP)) 
