@@ -12,7 +12,8 @@ redirect_from:
 ---
 
   * S. Zhou, [N. Xiu](http://en.sci.njtu.edu.cn/Faculty/phdsupervisor/12002.htm) and [H. Qi](http://www.personal.soton.ac.uk/hdqi/), [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://jmlr.org/papers/v22/19-026.html),  *Journal of Machine Learning Research*, 22(12):1−45, 2021. (Matlab code: [NHTP](https://github.com/ShenglongZhou/NHTPver2))
-
+  * 
+* S. Zhou, L. Pan, M. Li and M. Shang, [Newton Hard Thresholding Pursuit for Sparse LCP via A New Merit Function](https://doi.org/10.1137/19M1301539), [*arXiv:2004.02244*], *SIAM Journal on Scientific Computing*, 43(2), A772–A799, 2021. (Matlab code: [NHTP](https://github.com/ShenglongZhou/NHTPver2))
 
 * S. Zhou, Z. Luo and N. Xiu, [Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization](https://www.researchgate.net/publication/348371863), [*arXiv:2101.03599*](https://arxiv.org/abs/2101.03599),  2021. (Matlab code: [GPSP](https://github.com/ShenglongZhou/GPSP)) 
 
@@ -23,8 +24,6 @@ redirect_from:
 * S. Zhou, [Sparse SVM for Sufficient Data Reduction](https://www.researchgate.net/publication/341883040), [*arXiv:2005.13771*](https://arxiv.org/abs/2005.13771), 2020. (Matlab code: [NSSVM](https://github.com/ShenglongZhou/NSSVM))
   
 * H. Wang, Y. Shao, S. Zhou, C. Zhang and N. Xiu, [Support Vector Machine Classifier via $L_{0/1}$ Soft-Margin Loss](https://www.researchgate.net/publication/338717629_Support_Vector_Machine_Classifier_via_L_01_Soft-Margin_Loss), [*arXiv:1912.07418*](https://arxiv.org/abs/1912.07418), 2019. 
-
-* S. Zhou, L. Pan, M. Li and M. Shang, [Newton Hard Thresholding Pursuit for Sparse LCP via A New Merit Function](https://www.researchgate.net/publication/337948990), [*arXiv:2004.02244*](https://arxiv.org/abs/2004.02244), Accepted by *SIAM Journal on Scientific Computing*, 2020. 
 
 * X. Li, N. Xiu and S. Zhou, [Matrix Optimization Over Low-Rank Spectral Sets: Stationary Points and Local and Global Minimizers](https://link.springer.com/article/10.1007%2Fs10957-019-01606-8), *Journal of Optimization Theory and Applications*, 184, 895–930, 2019. 
 
