@@ -32,27 +32,22 @@ redirect_from:
 * H. Wang, Y. Shao, S. Zhou, C. Zhang and N. Xiu, [Support Vector Machine Classifier via $L_{0/1}$ Soft-Margin Loss](https://www.researchgate.net/publication/338717629)<br>
  [*arXiv:1912.07418*](https://arxiv.org/abs/1912.07418), 2019. 
 
-* X. Li, N. Xiu and S. Zhou, [Matrix Optimization Over Low-Rank Spectral Sets: Stationary Points and Local and Global Minimizers](https://www.researchgate.net/publication/327581904)<br>
- [*Journal of Optimization Theory and Applications*](https://link.springer.com/article/10.1007%2Fs10957-019-01606-8), 184, 895–930, 2019. 
+* X. Li, N. Xiu and S. Zhou, [Matrix Optimization Over Low-Rank Spectral Sets: Stationary Points and Local and Global Minimizers](https://www.researchgate.net/publication/327581904), [*Journal of Optimization Theory and Applications*](https://link.springer.com/article/10.1007%2Fs10957-019-01606-8), 184, 895–930, 2019. 
 
-*  R. Wang, N. Xiu and S. Zhou, [Newton Method for Sparse Logistic Regression: Quadratic Convergence and Extensive Simulations](https://www.researchgate.net/publication/330224305)<br>
- [*arXiv:1901.02768*](https://arxiv.org/abs/1901.02768), 2021.
+* R. Wang, N. Xiu and S. Zhou, [Newton Method for Sparse Logistic Regression: Quadratic Convergence and Extensive Simulations](https://www.researchgate.net/publication/330224305), [*arXiv:1901.02768*](https://arxiv.org/abs/1901.02768), 2021.
  
  * L. Pan, S. Zhou, N. Xiu and H. Qi, [A Convergent Iterative Hard Thresholding for Sparsity and Nonnegativity
-Constrained Optimization](https://www.researchgate.net/publication/299519906)<br>
- *Pacific Journal of Optimization*, vol. 13(2): 325-353, 2017. (Matlab code:  [IIHT](https://github.com/ShenglongZhou/IIHT))
+Constrained Optimization](https://www.researchgate.net/publication/299519906), *Pacific Journal of Optimization*, vol. 13(2): 325-353, 2017. (Matlab code:  [IIHT](https://github.com/ShenglongZhou/IIHT))
 
 * L. Zhang, L. Kong and S. Zhou, [A Smoothing Iterative Method for Quantile Regression with Nonconvex
 $\ell_p$ Penalty](https://aimsciences.org/article/doi/10.3934/jimo.2016006)<br>
  *Journal of Industrial and Management Optimization*, vol. 13 (1): 93 - 112, 2017.
 
 * Y. Liu, G. Liu, X. Xiu and S. Zhou, [The $L_1$-penalized Quantile Regression for Traditional Chinese
-Medicine Syndrome Manifestation](http://www.ybook.co.jp/online2/oppjo/vol13/p279.html)<br>
- *Pacific Journal of Optimization*, vol. 13(2): 279-300, 2017.
+Medicine Syndrome Manifestation](http://www.ybook.co.jp/online2/oppjo/vol13/p279.html), *Pacific Journal of Optimization*, vol. 13(2): 279-300, 2017.
 
 * S. Zhou, N. Xiu, Y.Wang, L. Kong and H. Qi, [A Null-space-based Weighted $\ell_1$ Minimization Approach
- to Compressed Sensing](https://academic.oup.com/imaiai/article/5/1/76/2357109)<br>
- *Information and Inference: A Journal of the IMA*, vol. 5(1): 76-102, 2016. (Matlab code:  [MIRL1](https://github.com/ShenglongZhou/MIRL1))
+ to Compressed Sensing](https://academic.oup.com/imaiai/article/5/1/76/2357109), *Information and Inference: A Journal of the IMA*, vol. 5(1): 76-102, 2016. (Matlab code:  [MIRL1](https://github.com/ShenglongZhou/MIRL1))
 
 * L. Pan, N. Xiu and S. Zhou, [On Solutions of Sparsity Constrained Optimization](https://link.springer.com/article/10.1007/s40305-015-0101-3)<br>
  *Journal of the Operations Research Society of China*, vol. 3(4): 421-439, 2015.
@@ -76,25 +71,22 @@ of LCPs](https://www.infona.pl/resource/bwmeta1.element.springer-doi-10_1007-S11
 
 ## <span style="color:grey">Euclidean distance matrix optimization </span> 
 ---
-* S. Zhou, N. Xiu and H. Qi, [Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization](https://eprints.soton.ac.uk/429739/)<br>
+* S. Zhou, N. Xiu and H. Qi, [Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization](https://eprints.soton.ac.uk/429739/), 
  *PhD Thesis*, University of Southampton, 2018. 
 
 * S. Zhou, N. Xiu and H. Qi, [Robust Euclidean Embedding via EDM Optimization](https://link.springer.com/article/10.1007/s12532-019-00168-0)<br>
  *Mathematical Programming Computation*, 12(3): 337–387, 2019. (Matlab code: [PREEEDM](https://github.com/ShenglongZhou/PREEEDM))
 
 * S. Zhou, N. Xiu and H. Qi, [A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization
-with Box Constraints](https://ieeexplore.ieee.org/document/8399531)<br>
- *IEEE Transactions on Signal Processing*, vol. 66(16): 4331-4346, 2018. (Matlab code: [SQREDM](https://github.com/ShenglongZhou/SQREDM))
+with Box Constraints](https://ieeexplore.ieee.org/document/8399531), *IEEE Transactions on Signal Processing*, vol. 66(16): 4331-4346, 2018. (Matlab code: [SQREDM](https://github.com/ShenglongZhou/SQREDM))
 
 
 
 ## <span style="color:grey">Bilevel optimization </span>
 ---
-* A. Zemkoho and S. Zhou, [Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization](https://www.researchgate.net/publication/340769764)<br>
- [*arXiv:2004.10830*]( https://arxiv.org/abs/2004.10830), [*Computational Optimization and Application*](https://doi.org/10.1007/s10589-020-00250-7), 78(2), 625-674, 2021.
+* A. Zemkoho and S. Zhou, [Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization](https://www.researchgate.net/publication/340769764), [*arXiv:2004.10830*]( https://arxiv.org/abs/2004.10830), [*Computational Optimization and Application*](https://doi.org/10.1007/s10589-020-00250-7), 78(2), 625-674, 2021.
 
-* A. Fischer, A. Zemkoho and S. Zhou, [Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments](https://www.researchgate.net/publication/337943979)<br>
- [*arXiv:1912.07079*](https://arxiv.org/abs/1912.07079), December 2019. 
+* A. Fischer, A. Zemkoho and S. Zhou, [Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments](https://www.researchgate.net/publication/337943979), [*arXiv:1912.07079*](https://arxiv.org/abs/1912.07079), December 2019. 
 
 
 * S. Zhou, A. Zemkoho and A. Tin, [BOLIB 2019: Bilevel Optimization LIBrary
