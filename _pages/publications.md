@@ -10,8 +10,8 @@ redirect_from:
 
 ## <span style="color:grey">Sparse optimization</span>
 ---
-<p><div style="text-align:justify;"> 
-* S. Zhou, [N. Xiu](http://en.sci.njtu.edu.cn/Faculty/phdsupervisor/12002.htm) and [H. Qi](http://www.personal.soton.ac.uk/hdqi/), [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://www.researchgate.net/publication/330224407) <br>
+
+* <p><div style="text-align:justify;"> S. Zhou, [N. Xiu](http://en.sci.njtu.edu.cn/Faculty/phdsupervisor/12002.htm) and [H. Qi](http://www.personal.soton.ac.uk/hdqi/), [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://www.researchgate.net/publication/330224407) <br>
 [*arXiv:2101.03599*](https://arxiv.org/abs/1901.02763), [*Journal of Machine Learning Research*](https://jmlr.org/papers/v22/19-026.html), 22(12):1−45, 2021. (Matlab code: [NHTP](https://github.com/ShenglongZhou/NHTPver2)) 
 </div></p> 
  
