@@ -55,7 +55,7 @@ Medicine Syndrome Manifestation](http://www.ybook.co.jp/online2/oppjo/vol13/p279
  *Information and Inference: A Journal of the IMA*, vol. 5(1): 76-102, 2016. (Matlab code:  [MIRL1](https://github.com/ShenglongZhou/MIRL1))
 
 * L. Pan, N. Xiu and S. Zhou, [On Solutions of Sparsity Constrained Optimization](https://link.springer.com/article/10.1007/s40305-015-0101-3)<br>
- Journal of the Operations Research Society of China, vol. 3(4): 421-439, 2015.
+ *Journal of the Operations Research Society of China*, vol. 3(4): 421-439, 2015.
 
 * S. Zhou, N. Xiu, Z. Luo and L. Kong, [Sparse and Low-Rank Covariance Matrix Estimation](https://link.springer.com/article/10.1007/s40305-014-0058-7)<br>
  *Journal of the Operations Research Society of China*, vol. 3(2): 231-250, 2015. (Matlab code:  [ADMM](https://github.com/ShenglongZhou/ADMM))
@@ -99,7 +99,7 @@ with Box Constraints](https://ieeexplore.ieee.org/document/8399531)<br>
 
 * S. Zhou, A. Zemkoho and A. Tin, [BOLIB 2019: Bilevel Optimization LIBrary
 of Test Problems Version 2](https://biopt.github.io/files/Paper.pdf)<br>
- a chapter in the book [*Bilevel optimization: advances and next challenges*](https://www.springer.com/gp/book/9783030521189), 2019. (Matlab code: [BOLIBver2](https://biopt.github.io/bolib/))
+[*Bilevel optimization: advances and next challenges*](https://www.springer.com/gp/book/9783030521189), 2019. (Matlab code: [BOLIBver2](https://biopt.github.io/bolib/))
 
 * S. Zhou, [A. Zemkoho](http://www.southampton.ac.uk/~abz1e14/)  and A. Tin, [BOLIB: Bilevel Optimization Library of Test Problems](https://arxiv.org/abs/1812.00230), 2018. (Matlab code: [BOLIB](https://github.com/ShenglongZhou/BOLIB))
 
