@@ -78,8 +78,7 @@ Applications solved by the aforementioned solvers are summarized in following ta
  <table border="2" width="0.5">
     <tr>
       <td style="width:5%" align="center"> </td>
-      <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/NHTP'>NHTP</a></td>
-      <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/NHTPver2'>NHTPver2</a></td>
+      <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/NHTPver2'>NHTP</a></td>
       <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/NL0R'>NL0R</a></td>
       <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a></td>
       <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/MIRL1'>MIRL1</a></td>
@@ -91,12 +90,10 @@ Applications solved by the aforementioned solvers are summarized in following ta
         <td style="width:5%" align="center">$\surd$</td>
         <td style="width:5%" align="center">$\surd$</td>
         <td style="width:5%" align="center">$\surd$</td>
-        <td style="width:5%" align="center">$\surd$</td>
         <td style="width:5%" align="center"> </td> 
     </tr>
       <tr>
     	  <td style="width:5%" align="left"><span style="color:orange">${\bf {\rm SLR}}$</span></td>
-        <td style="width:5%" align="center">$\surd$</td>
         <td style="width:5%" align="center">$\surd$</td>
         <td style="width:5%" align="center">$\surd$</td>
         <td style="width:5%" align="center">$\surd$</td>
@@ -105,7 +102,6 @@ Applications solved by the aforementioned solvers are summarized in following ta
     </tr>
       <tr>
     	  <td style="width:5%" align="left"><span style="color:orange">${\bf {\rm SLCP}}$</span></td>
-        <td style="width:5%" align="center"> </td>
         <td style="width:5%" align="center">$\surd$</td>
         <td style="width:5%" align="center">$\surd$</td>
         <td style="width:5%" align="center">$\surd$</td>
