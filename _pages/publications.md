@@ -134,7 +134,7 @@ redirect_from:
 * S. Zhou, A. Zemkoho and A. Tin, BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2, 
 *Bilevel optimization: advances and next challenges*, 2019. 
 [BiOpt](https://biopt.github.io/files/Paper.pdf), 
-[BOOK](https://www.springer.com/gp/book/9783030521189), 
+[Book](https://www.springer.com/gp/book/9783030521189), 
 [ResearchGate](https://www.researchgate.net/publication/338375731), 
 [ArXiv](https://arxiv.org/abs/1812.00230), 
 [Code](https://biopt.github.io/bolib/)
