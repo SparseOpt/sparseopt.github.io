@@ -12,10 +12,11 @@ redirect_from:
 ---
 
 * S. Zhou, N. Xiu and H. Qi, Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit,
-[*Journal of Machine Learning Research*](https://jmlr.org/papers/v22/19-026.html), 22(12):1−45, 2021. 
-[<img src="https://github.com/ShenglongZhou/shenglongzhou.github.io/blob/master/images/rg.png"  width="15" />](https://www.researchgate.net/publication/330224407) 
-[<img src="https://github.com/ShenglongZhou/shenglongzhou.github.io/blob/master/images/arxiv.gif"  width="15" />](https://arxiv.org/abs/1901.02763)
-(Matlab code: [NHTP](https://github.com/ShenglongZhou/NHTPver2)) 
+*Journal of Machine Learning Research*, 22(12):1−45, 2021. 
+[JMLR](https://jmlr.org/papers/v22/19-026.html) 
+[ResearchGate](https://www.researchgate.net/publication/330224407) 
+[ArXiv](https://arxiv.org/abs/1901.02763)
+[Code](https://github.com/ShenglongZhou/NHTPver2)
  
 * S. Zhou, L. Pan, M. Li and M. Shang, [Newton Hard Thresholding Pursuit for Sparse LCP via A New Merit Function](https://www.researchgate.net/publication/337948990), 
 [*SIAM Journal on Scientific Computing*](https://doi.org/10.1137/19M1301539), 43(2), A772–A799, 2021. (Matlab code: [NHTP](https://github.com/ShenglongZhou/NHTPver2))
