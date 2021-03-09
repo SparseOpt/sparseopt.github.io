@@ -75,7 +75,7 @@ redirect_from:
 * S. Zhou, N. Xiu, Y.Wang, L. Kong and H. Qi, A Null-space-based weighted $\ell_1$ minimization approach to compressed sensing, 
 *Information and Inference: A Journal of the IMA*, vol. 5(1): 76-102, 2016. 
 [INAIAI](https://academic.oup.com/imaiai/article/5/1/76/2357109),
-[ResearchGate](https://www.researchgate.net/publication/294109268),  
+[ResearchGate](https://www.researchgate.net/publication/294109268), 
 [Code](https://github.com/ShenglongZhou/MIRL1)
 
 * L. Pan, N. Xiu and S. Zhou, On Solutions of Sparsity Constrained Optimization, 
@@ -88,7 +88,7 @@ redirect_from:
 [Code](https://github.com/ShenglongZhou/ADMM)
 
 * M. Shang, S. Zhou and N. Xiu, Extragradient thresholding methods For sparse solutions of co-coercive NCPs, 
- *Journal of Inequalities and Applications*, vol. 34, 2015.
+*Journal of Inequalities and Applications*, vol. 34, 2015.
 [JIA](https://journalofinequalitiesandapplications.springeropen.com/articles/10.1186/s13660-015-0551-5) 
 
 * M. Shang, C. Zhang, D. Peng and S. Zhou, A half thresholding projection algorithm for sparse solutions of LCPs, 
@@ -127,8 +127,7 @@ redirect_from:
 [ResearchGate](https://www.researchgate.net/publication/340769764), 
 [ArXiv](https://arxiv.org/abs/2004.10830)
 
-
-* A. Fischer, A. Zemkoho and S. Zhou, Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments, 2019.  
+* A. Fischer, A. Zemkoho and S. Zhou, Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments, 2019. 
 [ResearchGate](https://www.researchgate.net/publication/337943979), 
 [ArXiv](https://arxiv.org/abs/1912.07079)
 
