@@ -10,14 +10,14 @@ redirect_from:
 
 ## <span style="color:grey">Sparse optimization</span>
 ---
-* <p align="justify">
-S. Zhou, N. Xiu and H. Qi, Global and quadratic convergence of Newton hard-thresholding pursuit,
+* <dt>justify</dt>
+ <dd>S. Zhou, N. Xiu and H. Qi, Global and quadratic convergence of Newton hard-thresholding pursuit,
 *Journal of Machine Learning Research*, 22(12):1−45, 2021. 
 [JMLR](https://jmlr.org/papers/v22/19-026.html), 
 [ResearchGate](https://www.researchgate.net/publication/330224407), 
 [ArXiv](https://arxiv.org/abs/1901.02763),
 [Code](https://github.com/ShenglongZhou/NHTPver2)
-</p>
+</dd>
 
 * S. Zhou, L. Pan, M. Li and M. Shang, Newton hard-thresholding pursuit for sparse LCP via a new merit function, 
 *SIAM Journal on Scientific Computing*, 43(2), A772–A799, 2021.
