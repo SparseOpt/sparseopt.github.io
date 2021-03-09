@@ -86,13 +86,13 @@ Pacific Journal of Optimization, vol. 13(2): 325-353, 2017.
 <p><div style="text-align:justify"> 
 L. Zhang, L. Kong and S. Zhou, A smoothing iterative method for quantile regression with nonconvex $\ell_p$ Penalty, 
 Journal of Industrial and Management Optimization, vol. 13 (1): 93 - 112, 2017.
-<a href="https://aimsciences.org/article/doi/10.3934/jimo.2016006">JIMO</a
+  <a href="https://aimsciences.org/article/doi/10.3934/jimo.2016006">JIMO</a>
 </div></p> 
 
 <p><div style="text-align:justify"> 
 Y. Liu, G. Liu, X. Xiu and S. Zhou, The $L_1$-penalized quantile regression for traditional Chinese medicine syndrome manifestation, 
 Pacific Journal of Optimization, vol. 13(2): 279-300, 2017.
-<a href="http://www.ybook.co.jp/online2/oppjo/vol13/p279.html">PJO</a
+  <a href="http://www.ybook.co.jp/online2/oppjo/vol13/p279.html">PJO</a>
 </div></p> 
 
 <p><div style="text-align:justify"> 
@@ -100,7 +100,7 @@ S. Zhou, N. Xiu, Y.Wang, L. Kong and H. Qi, A Null-space-based weighted $\ell_1$
 Information and Inference: A Journal of the IMA, vol. 5(1): 76-102, 2016. 
 <a href="https://academic.oup.com/imaiai/article/5/1/76/2357109">INAIAI</a>,
 <a href="https://www.researchgate.net/publication/294109268">ResearchGate</a>,
-<a href="https://github.com/ShenglongZhou/MIRL1">Code</a
+  <a href="https://github.com/ShenglongZhou/MIRL1">Code</a>
 </div></p> 
 
 <p><div style="text-align:justify"> 
