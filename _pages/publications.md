@@ -11,22 +11,25 @@ redirect_from:
 ## <span style="color:grey">Sparse optimization</span>
 ---
 
-* S. Zhou, N. Xiu and H. Qi, Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit,
+* S. Zhou, N. Xiu and H. Qi, Global and quadratic convergence of Newton hard-thresholding pursuit,
 *Journal of Machine Learning Research*, 22(12):1−45, 2021. 
 [JMLR](https://jmlr.org/papers/v22/19-026.html), 
 [ResearchGate](https://www.researchgate.net/publication/330224407), 
 [ArXiv](https://arxiv.org/abs/1901.02763),
 [Code](https://github.com/ShenglongZhou/NHTPver2)
  
-* S. Zhou, L. Pan, M. Li and M. Shang, Newton Hard Thresholding Pursuit for Sparse LCP via A New Merit Function, 
+* S. Zhou, L. Pan, M. Li and M. Shang, Newton hard-thresholding pursuit for sparse LCP via a new merit function, 
 *SIAM Journal on Scientific Computing*, 43(2), A772–A799, 2021.
 [SISC](https://doi.org/10.1137/19M1301539),
 [ResearchGate](https://www.researchgate.net/publication/337948990), 
 [ArXiv](https://arxiv.org/abs/2004.02244),
 [Code](https://github.com/ShenglongZhou/NHTPver2) 
 
-* S. Zhou, Z. Luo and N. Xiu, [Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization](https://www.researchgate.net/publication/348371863), 
- [*arXiv:2101.03599*](https://arxiv.org/abs/2101.03599),  2021. (Matlab code: [GPSP](https://github.com/ShenglongZhou/GPSP)) 
+* S. Zhou, Z. Luo and N. Xiu, Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization, 2021. 
+[ResearchGate](https://www.researchgate.net/publication/348371863), 
+[ArXiv](https://arxiv.org/abs/2101.03599),
+[Code](https://github.com/ShenglongZhou/GPSP) 
+
 
 * S. Zhou, L. Pan and N. Xiu, [Newton Method  for $\ell_0$-Regularized Optimization](https://www.researchgate.net/publication/340563338), 
  [*arXiv:2004.05132*](https://arxiv.org/abs/2004.05132), Accepted by *Numerical Algorithms*, 2021. (Matlab code: [NL0R](https://github.com/ShenglongZhou/NL0R)) 
