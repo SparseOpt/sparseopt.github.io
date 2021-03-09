@@ -100,7 +100,7 @@ Pacific Journal of Optimization, vol. 13(2): 279-300, 2017.
 <p><div style="text-align:justify"> 
  Shenglong Zhou, Naihua Xiu, YingnanWang, Lingchen Kong and Houduo Qi, A Null-space-based weighted $\ell_1$ minimization approach to compressed sensing, 
 Information and Inference: A Journal of the IMA, vol. 5(1): 76-102, 2016. 
-<a href="https://academic.oup.com/imaiai/article/5/1/76/2357109">INAIAI</a>,
+<a href="https://academic.oup.com/imaiai/article/5/1/76/2357109">IMAIAI</a>,
 <a href="https://www.researchgate.net/publication/294109268">ResearchGate</a>,
   <a href="https://github.com/ShenglongZhou/MIRL1">Code</a>
 </div></p> 
