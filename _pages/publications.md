@@ -25,20 +25,24 @@ redirect_from:
 [ArXiv](https://arxiv.org/abs/2004.02244),
 [Code](https://github.com/ShenglongZhou/NHTPver2) 
 
-* S. Zhou, Z. Luo and N. Xiu, Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization, 2021. 
+* S. Zhou, Z. Luo and N. Xiu, Computing one-bit compressive sensing via double-sparsity constrained optimization, 2021. 
 [ResearchGate](https://www.researchgate.net/publication/348371863), 
 [ArXiv](https://arxiv.org/abs/2101.03599),
 [Code](https://github.com/ShenglongZhou/GPSP) 
 
+* S. Zhou, L. Pan and N. Xiu, Newton method  for $\ell_0$-regularized optimization, *arXiv:2004.05132*, accepted by *Numerical Algorithms*, 2021.
+[ResearchGate](https://www.researchgate.net/publication/340563338), 
+[ArXiv](https://arxiv.org/abs/2004.05132),
+[Code](https://github.com/ShenglongZhou/NL0R)
 
-* S. Zhou, L. Pan and N. Xiu, [Newton Method  for $\ell_0$-Regularized Optimization](https://www.researchgate.net/publication/340563338), 
- [*arXiv:2004.05132*](https://arxiv.org/abs/2004.05132), Accepted by *Numerical Algorithms*, 2021. (Matlab code: [NL0R](https://github.com/ShenglongZhou/NL0R)) 
+* S. Zhou, L. Pan and N. Xiu, Heaviside set constrained optimization: optimality and Newton method, 2020.
+[ResearchGate](https://www.researchgate.net/publication/343362652), 
+[ArXiv](https://arxiv.org/abs/2007.15737)
   
-* S. Zhou, L. Pan and N. Xiu, [Heaviside Set Constrained Optimization: Optimality and Newton Method](https://www.researchgate.net/publication/343362652), 
- [*arXiv:2007.15737*](https://arxiv.org/abs/2007.15737), 2020.
-  
-* S. Zhou, [Sparse SVM for Sufficient Data Reduction](https://www.researchgate.net/publication/341883040), 
- [*arXiv:2005.13771*](https://arxiv.org/abs/2005.13771), 2020. (Matlab code: [NSSVM](https://github.com/ShenglongZhou/NSSVM))
+* S. Zhou, Sparse SVM for sufficient data reduction, 2020. 
+[ResearchGate](https://www.researchgate.net/publication/341883040), 
+[ArXiv](https://arxiv.org/abs/2005.13771),
+[Code](https://github.com/ShenglongZhou/NSSVM)
   
 * H. Wang, Y. Shao, S. Zhou, C. Zhang and N. Xiu, [Support Vector Machine Classifier via $L_{0/1}$ Soft-Margin Loss](https://www.researchgate.net/publication/338717629), 
  [*arXiv:1912.07418*](https://arxiv.org/abs/1912.07418), 2019. 
