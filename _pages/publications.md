@@ -156,7 +156,7 @@ Mathematical Programming Computation, 12(3): 337–387, 2019.
 <p><div style="text-align:justify"> 
 S. Zhou, N. Xiu and H. Qi, A fast matrix majorization-projection method for penalized stress minimization with box constraints,
 IEEE Transactions on Signal Processing, vol. 66(16): 4331-4346, 2018. 
-<a href="<a href="https://ieeexplore.ieee.org/document/8399531">TSP</a>,
+<a href="https://ieeexplore.ieee.org/document/8399531">TSP</a>,
 <a href="https://github.com/ShenglongZhou/SQREDM">Code</a>
 </div></p> 
 
