@@ -92,7 +92,7 @@ redirect_from:
 [JIA](https://journalofinequalitiesandapplications.springeropen.com/articles/10.1186/s13660-015-0551-5) 
 
 * M. Shang, C. Zhang, D. Peng and S. Zhou, A half thresholding projection algorithm for sparse solutions of LCPs, 
-*Optimization Letters*, vol. 9(6): 1231-1245, 2015.  
+*Optimization Letters*, vol. 9(6): 1231-1245, 2015. 
 [OPLE](https://www.infona.pl/resource/bwmeta1.element.springer-doi-10_1007-S11590-014-0834-7), 
 [Code](https://github.com/ShenglongZhou/HTPCP)
 
