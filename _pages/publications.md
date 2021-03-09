@@ -23,9 +23,9 @@ Journal of Machine Learning Research, 22(12):1−45, 2021.
 S. Zhou, L. Pan, M. Li and M. Shang, Newton hard-thresholding pursuit for sparse LCP via a new merit function, 
 SIAM Journal on Scientific Computing, 43(2), A772–A799, 2021.
 <a href="https://doi.org/10.1137/19M1301539">SISC</a>, 
-<a href=https://www.researchgate.net/publication/337948990">ResearchGate</a>,  
-<a href=https://arxiv.org/abs/2004.02244">ArXiv</a>,  
-<a href=https://github.com/ShenglongZhou/NHTPver2">Code</a>
+<a href="https://www.researchgate.net/publication/337948990">ResearchGate</a>, 
+<a href="https://arxiv.org/abs/2004.02244">ArXiv</a>,  
+<a href="https://github.com/ShenglongZhou/NHTPver2">Code</a>
 </div></p> 
 
 <p><div style="text-align:justify"> 
@@ -160,9 +160,9 @@ IEEE Transactions on Signal Processing, vol. 66(16): 4331-4346, 2018.
 <a href="https://github.com/ShenglongZhou/SQREDM">Code</a>
 </div></p> 
 
+
 ## <span style="color:grey">Bilevel optimization </span>
 ---
-
 <p><div style="text-align:justify"> 
 A. Zemkoho and S. Zhou, Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization, 
 Computational Optimization and Application, 78(2), 625-674, 2021.
