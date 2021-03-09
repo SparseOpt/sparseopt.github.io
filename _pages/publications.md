@@ -13,9 +13,9 @@ redirect_from:
 
 * S. Zhou, N. Xiu and H. Qi, Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit,
 *Journal of Machine Learning Research*, 22(12):1−45, 2021. 
-[JMLR](https://jmlr.org/papers/v22/19-026.html) 
-[ResearchGate](https://www.researchgate.net/publication/330224407) 
-[ArXiv](https://arxiv.org/abs/1901.02763)
+[JMLR](https://jmlr.org/papers/v22/19-026.html), 
+[ResearchGate](https://www.researchgate.net/publication/330224407), 
+[ArXiv](https://arxiv.org/abs/1901.02763),
 [Code](https://github.com/ShenglongZhou/NHTPver2)
  
 * S. Zhou, L. Pan, M. Li and M. Shang, [Newton Hard Thresholding Pursuit for Sparse LCP via A New Merit Function](https://www.researchgate.net/publication/337948990), 
