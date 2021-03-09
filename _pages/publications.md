@@ -7,6 +7,7 @@ redirect_from:
   - /resume
 ---
 
+<img src="images/rg.png" width="20">
 
 ## <span style="color:grey">Sparse optimization</span>
 ---
