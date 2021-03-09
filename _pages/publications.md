@@ -92,7 +92,7 @@ Journal of Industrial and Management Optimization, vol. 13 (1): 93 - 112, 2017.
 </div></p> 
 
 <p><div style="text-align:justify"> 
-anqing Liu, Guokai Liu, Xianchao Xiu and  Shenglong Zhou, The $L_1$-penalized quantile regression for traditional Chinese medicine syndrome manifestation, 
+Yanqing Liu, Guokai Liu, Xianchao Xiu and  Shenglong Zhou, The $L_1$-penalized quantile regression for traditional Chinese medicine syndrome manifestation, 
 Pacific Journal of Optimization, vol. 13(2): 279-300, 2017.
 <a href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p279.html">PJO</a>
 </div></p> 
