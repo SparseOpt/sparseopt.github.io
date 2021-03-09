@@ -15,7 +15,7 @@ S. Zhou, N. Xiu and H. Qi, Global and quadratic convergence of Newton hard-thres
 <a href="https://jmlr.org/papers/v22/19-026.html">JMLR</a>, 
 <a href="https://www.researchgate.net/publication/330224407">ResearchGate</a>, 
 <a href="https://arxiv.org/abs/1901.02763">ArXiv</a>, 
-<a href="https://github.com/ShenglongZhou/NHTPver2">Code</a>, 
+<a href="https://github.com/ShenglongZhou/NHTPver2">Code</a>
 </div></p>  
 
 <p><div style="text-align:justify"> 
@@ -23,83 +23,115 @@ S. Zhou, L. Pan, M. Li and M. Shang, Newton hard-thresholding pursuit for sparse
 <a href="https://doi.org/10.1137/19M1301539">SISC</a>, 
 <a href=https://www.researchgate.net/publication/337948990">ResearchGate</a>,  
 <a href=https://arxiv.org/abs/2004.02244">ArXiv</a>,  
-<a href=https://github.com/ShenglongZhou/NHTPver2">Code</a>,  
+<a href=https://github.com/ShenglongZhou/NHTPver2">Code</a>
 </div></p> 
 
-* S. Zhou, Z. Luo and N. Xiu, Computing one-bit compressive sensing via double-sparsity constrained optimization, 2021. 
-[ResearchGate](https://www.researchgate.net/publication/348371863), 
-[ArXiv](https://arxiv.org/abs/2101.03599),
-[Code](https://github.com/ShenglongZhou/GPSP) 
+<p><div style="text-align:justify"> 
+S. Zhou, Z. Luo and N. Xiu, Computing one-bit compressive sensing via double-sparsity constrained optimization, 2021. 
+<a href="https://www.researchgate.net/publication/348371863">ResearchGate</a>,  
+<a href="https://arxiv.org/abs/2101.03599">ArXiv</a>, 
+<a href="https://github.com/ShenglongZhou/GPSP">Code</a>
+</div></p> 
 
-* S. Zhou, L. Pan and N. Xiu, Newton method  for $\ell_0$-regularized optimization, accepted by *Numerical Algorithms*, 2021.
+<p><div style="text-align:justify"> 
+S. Zhou, L. Pan and N. Xiu, Newton method  for $\ell_0$-regularized optimization, accepted by *Numerical Algorithms*, 2021.
 [ResearchGate](https://www.researchgate.net/publication/340563338), 
 [ArXiv](https://arxiv.org/abs/2004.05132),
 [Code](https://github.com/ShenglongZhou/NL0R)
+</div></p> 
 
-* S. Zhou, L. Pan and N. Xiu, Heaviside set constrained optimization: optimality and Newton method, 2020.
+<p><div style="text-align:justify"> 
+S. Zhou, L. Pan and N. Xiu, Heaviside set constrained optimization: optimality and Newton method, 2020.
 [ResearchGate](https://www.researchgate.net/publication/343362652), 
 [ArXiv](https://arxiv.org/abs/2007.15737)
-  
-* S. Zhou, Sparse SVM for sufficient data reduction, 2020. 
+</div></p> 
+ 
+<p><div style="text-align:justify"> 
+S. Zhou, Sparse SVM for sufficient data reduction, 2020. 
 [ResearchGate](https://www.researchgate.net/publication/341883040), 
 [ArXiv](https://arxiv.org/abs/2005.13771),
 [Code](https://github.com/ShenglongZhou/NSSVM)
+</div></p> 
   
-* H. Wang, Y. Shao, S. Zhou, C. Zhang and N. Xiu, Support vector machine classifier via $L_{0/1}$ soft-margin loss, 2019. 
+<p><div style="text-align:justify"> 
+H. Wang, Y. Shao, S. Zhou, C. Zhang and N. Xiu, Support vector machine classifier via $L_{0/1}$ soft-margin loss, 2019. 
 [ResearchGate](https://www.researchgate.net/publication/338717629), 
 [ArXiv](https://arxiv.org/abs/1912.07418)
+</div></p> 
 
-* X. Li, N. Xiu and S. Zhou, Matrix optimization over low-rank spectral sets: stationary points, local and global minimizers,
+<p><div style="text-align:justify"> 
+X. Li, N. Xiu and S. Zhou, Matrix optimization over low-rank spectral sets: stationary points, local and global minimizers,
 *Journal of Optimization Theory and Applications*, 184, 895–930, 2019. 
 [JOTA](https://link.springer.com/article/10.1007%2Fs10957-019-01606-8),
 [ResearchGate](https://www.researchgate.net/publication/327581904)
+</div></p> 
 
-* R. Wang, N. Xiu and S. Zhou, Newton method for sparse logistic regression: quadratic convergence and extensive simulations], 2021.
+<p><div style="text-align:justify"> 
+R. Wang, N. Xiu and S. Zhou, Newton method for sparse logistic regression: quadratic convergence and extensive simulations], 2021.
 [ResearchGate](https://www.researchgate.net/publication/330224305), 
 [ArXiv](https://arxiv.org/abs/1901.02768),
 [Code](https://github.com/ShenglongZhou/NSLR) 
+</div></p> 
  
-* L. Pan, S. Zhou, N. Xiu and H. Qi, A convergent iterative hard thresholding for sparsity and nonnegativity constrained optimization, 
+<p><div style="text-align:justify"> 
+L. Pan, S. Zhou, N. Xiu and H. Qi, A convergent iterative hard thresholding for sparsity and nonnegativity constrained optimization, 
 *Pacific Journal of Optimization*, vol. 13(2): 325-353, 2017.
 [ResearchGate](https://www.researchgate.net/publication/299519906), 
 [ArXiv](https://arxiv.org/abs/1406.7178),
 [Code](https://github.com/ShenglongZhou/IIHT) 
+</div></p> 
 
-* L. Zhang, L. Kong and S. Zhou, A smoothing iterative method for quantile regression with nonconvex $\ell_p$ Penalty, 
+<p><div style="text-align:justify"> 
+L. Zhang, L. Kong and S. Zhou, A smoothing iterative method for quantile regression with nonconvex $\ell_p$ Penalty, 
 *Journal of Industrial and Management Optimization*, vol. 13 (1): 93 - 112, 2017.
  [JIMO](https://aimsciences.org/article/doi/10.3934/jimo.2016006)
+</div></p> 
 
-* Y. Liu, G. Liu, X. Xiu and S. Zhou, The $L_1$-penalized quantile regression for traditional Chinese medicine syndrome manifestation, 
+<p><div style="text-align:justify"> 
+Y. Liu, G. Liu, X. Xiu and S. Zhou, The $L_1$-penalized quantile regression for traditional Chinese medicine syndrome manifestation, 
 *Pacific Journal of Optimization*, vol. 13(2): 279-300, 2017.
 [PJO](http://www.ybook.co.jp/online2/oppjo/vol13/p279.html)
+</div></p> 
 
-* S. Zhou, N. Xiu, Y.Wang, L. Kong and H. Qi, A Null-space-based weighted $\ell_1$ minimization approach to compressed sensing, 
+<p><div style="text-align:justify"> 
+S. Zhou, N. Xiu, Y.Wang, L. Kong and H. Qi, A Null-space-based weighted $\ell_1$ minimization approach to compressed sensing, 
 *Information and Inference: A Journal of the IMA*, vol. 5(1): 76-102, 2016. 
 [INAIAI](https://academic.oup.com/imaiai/article/5/1/76/2357109),
 [ResearchGate](https://www.researchgate.net/publication/294109268), 
 [Code](https://github.com/ShenglongZhou/MIRL1)
+</div></p> 
 
-* L. Pan, N. Xiu and S. Zhou, On Solutions of Sparsity Constrained Optimization, 
+<p><div style="text-align:justify"> 
+L. Pan, N. Xiu and S. Zhou, On Solutions of Sparsity Constrained Optimization, 
 *Journal of the Operations Research Society of China*, vol. 3(4): 421-439, 2015.
 [JORSC](https://link.springer.com/article/10.1007/s40305-015-0101-3) 
+</div></p> 
 
-* S. Zhou, N. Xiu, Z. Luo and L. Kong, Sparse and low-rank covariance matrix estimation, 
+<p><div style="text-align:justify"> 
+S. Zhou, N. Xiu, Z. Luo and L. Kong, Sparse and low-rank covariance matrix estimation, 
  *Journal of the Operations Research Society of China*, vol. 3(2): 231-250, 2015. 
 [JORSC](https://link.springer.com/article/10.1007/s40305-014-0058-7), 
 [Code](https://github.com/ShenglongZhou/ADMM)
+</div></p> 
 
-* M. Shang, S. Zhou and N. Xiu, Extragradient thresholding methods For sparse solutions of co-coercive NCPs, 
+<p><div style="text-align:justify"> 
+M. Shang, S. Zhou and N. Xiu, Extragradient thresholding methods For sparse solutions of co-coercive NCPs, 
 *Journal of Inequalities and Applications*, vol. 34, 2015.
 [JIA](https://journalofinequalitiesandapplications.springeropen.com/articles/10.1186/s13660-015-0551-5) 
+</div></p> 
 
-* M. Shang, C. Zhang, D. Peng and S. Zhou, A half thresholding projection algorithm for sparse solutions of LCPs, 
+<p><div style="text-align:justify"> 
+M. Shang, C. Zhang, D. Peng and S. Zhou, A half thresholding projection algorithm for sparse solutions of LCPs, 
 *Optimization Letters*, vol. 9(6): 1231-1245, 2015. 
 [OPLE](https://www.infona.pl/resource/bwmeta1.element.springer-doi-10_1007-S11590-014-0834-7), 
 [Code](https://github.com/ShenglongZhou/HTPCP)
+</div></p> 
 
-* S. Zhou, L. Kong and N. Xiu, New bounds for RIC in compressed sensing, 
+<p><div style="text-align:justify"> 
+S. Zhou, L. Kong and N. Xiu, New bounds for RIC in compressed sensing, 
  *Journal of the Operations Research Society of China*, vol. 1(2): 227-237, 2013.
 [JORSC](https://link.springer.com/article/10.1007/s40305-013-0013-z) 
+</div></p> 
 
 
 
