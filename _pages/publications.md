@@ -11,7 +11,11 @@ redirect_from:
 ## <span style="color:grey">Sparse optimization</span>
 ---
 <p><div style="text-align:justify"> 
-S. Zhou, N. Xiu and H. Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, *Journal of Machine Learning Research*, 22(12):1−45, 2021. [JMLR](https://jmlr.org/papers/v22/19-026.html), [ResearchGate](https://www.researchgate.net/publication/330224407), [ArXiv](https://arxiv.org/abs/1901.02763), [Code](https://github.com/ShenglongZhou/NHTPver2)
+S. Zhou, N. Xiu and H. Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, *Journal of Machine Learning Research*, 22(12):1−45, 2021. 
+<a href="https://jmlr.org/papers/v22/19-026.html">JMLR</a>, 
+<a href="https://www.researchgate.net/publication/330224407">ResearchGate</a>, 
+<a href="https://arxiv.org/abs/1901.02763">ArXiv</a>, 
+<a href="https://github.com/ShenglongZhou/NHTPver2">Code</a>, 
 </div></p>  
 
 <p><div style="text-align:justify"> 
