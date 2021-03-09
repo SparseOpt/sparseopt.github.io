@@ -167,7 +167,7 @@ IEEE Transactions on Signal Processing, vol. 66(16): 4331-4346, 2018.
 A. Zemkoho and S. Zhou, Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization, 
 Computational Optimization and Application, 78(2), 625-674, 2021.
 <a href="https://doi.org/10.1007/s10589-020-00250-7">JCOA</a>,
-<a href="(https://www.researchgate.net/publication/340769764">ResearchGate</a>,
+<a href="https://www.researchgate.net/publication/340769764">ResearchGate</a>,
 <a href="https://arxiv.org/abs/2004.10830">ArXiv</a>
 </div></p> 
 
