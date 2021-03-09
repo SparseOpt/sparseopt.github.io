@@ -79,6 +79,7 @@ Rui Wang, Naihua Xiu and  Shenglong Zhou, Newton method for sparse logistic regr
 <p><div style="text-align:justify"> 
 Lili Pan,  Shenglong Zhou, Naihua Xiu and Houduo Qi, A convergent iterative hard thresholding for sparsity and nonnegativity constrained optimization, 
 Pacific Journal of Optimization, vol. 13(2): 325-353, 2017.
+<a href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p325.html">PJO</a>,
 <a href="https://www.researchgate.net/publication/299519906">ResearchGate</a>,
 <a href="https://arxiv.org/abs/1406.7178">ArXiv</a>,
 <a href="https://github.com/ShenglongZhou/IIHT">Code</a>
@@ -91,9 +92,9 @@ Journal of Industrial and Management Optimization, vol. 13 (1): 93 - 112, 2017.
 </div></p> 
 
 <p><div style="text-align:justify"> 
-Y. Liu, G. Liu, XianchaoXiu and  Shenglong Zhou, The $L_1$-penalized quantile regression for traditional Chinese medicine syndrome manifestation, 
+anqing Liu, Guokai Liu, Xianchao Xiu and  Shenglong Zhou, The $L_1$-penalized quantile regression for traditional Chinese medicine syndrome manifestation, 
 Pacific Journal of Optimization, vol. 13(2): 279-300, 2017.
-  <a href="http://www.ybook.co.jp/online2/oppjo/vol13/p279.html">PJO</a>
+<a href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p279.html">PJO</a>
 </div></p> 
 
 <p><div style="text-align:justify"> 
