@@ -70,7 +70,7 @@ Journal of Optimization Theory and Applications, 184, 895–930, 2019.
 </div></p> 
 
 <p><div style="text-align:justify"> 
-Rui Wang, Naihua Xiu and  Shenglong Zhou, Newton method for sparse logistic regression: quadratic convergence and extensive simulations], 2021.
+Rui Wang, Naihua Xiu and  Shenglong Zhou, Newton method for sparse logistic regression: quadratic convergence and extensive simulations, 2021.
 <a href="https://www.researchgate.net/publication/330224305">ResearchGate</a>,
 <a href="https://arxiv.org/abs/1901.02768">ArXiv</a>,
 <a href="https://github.com/ShenglongZhou/NSLR">Code</a>
