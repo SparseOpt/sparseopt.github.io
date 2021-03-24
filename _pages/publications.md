@@ -30,17 +30,18 @@ SIAM Journal on Scientific Computing, 43(2), A772–A799, 2021.
 </div></p> 
 
 <p><div style="text-align:justify"> 
+ Shenglong Zhou, Lili Pan and Naihua Xiu, Newton method  for $\ell_0$-regularized optimization, Numerical Algorithms, 2021.
+<a href="https://doi.org/10.1007/s11075-021-01085-x">NumAlg</a>, 
+<a href="https://www.researchgate.net/publication/340563338">ResearchGate</a>, 
+<a href="https://arxiv.org/abs/2004.05132">ArXiv</a>, 
+<a href="https://github.com/ShenglongZhou/NL0R">Code</a>
+</div></p> 
+
+<p><div style="text-align:justify"> 
  Shenglong Zhou, Ziyan Luo and Naihua Xiu, Computing one-bit compressive sensing via double-sparsity constrained optimization, 2021. 
 <a href="https://www.researchgate.net/publication/348371863">ResearchGate</a>,  
 <a href="https://arxiv.org/abs/2101.03599">ArXiv</a>, 
 <a href="https://github.com/ShenglongZhou/GPSP">Code</a>
-</div></p> 
-
-<p><div style="text-align:justify"> 
- Shenglong Zhou, Lili Pan and Naihua Xiu, Newton method  for $\ell_0$-regularized optimization, Numerical Algorithms, 2021.
-<a href="https://www.researchgate.net/publication/340563338">ResearchGate</a>, 
-<a href="https://arxiv.org/abs/2004.05132">ArXiv</a>, 
-<a href="https://github.com/ShenglongZhou/NL0R">Code</a>
 </div></p> 
 
 <p><div style="text-align:justify"> 
