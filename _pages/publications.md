@@ -158,6 +158,10 @@ Journal of the Operations Research Society of China, vol. 1(2): 227-237, 2013.
     </td>
  </tr>
   <tr>
+    <td><b style="font-size:30px"> <span style="color:grey">EDM optimization</span></b></td>
+    <td><b style="font-size:30px"> <span style="color:grey">Bilevel optimization </span></b></td>
+ </tr>
+  <tr>
     <td>
       <p><div style="text-align:justify"> 
  Shenglong Zhou, Naihua Xiu and Houduo Qi, Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization, 
