@@ -133,9 +133,8 @@ Applications solved by the aforementioned solvers are summarized in following ta
  
   <a href="https://github.com/ShenglongZhou/PREEEDM">PREEEDM</a>, a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <br>
   <a href="https://doi.org/10.1007/s12532-019-00168-0">Robust Euclidean Embedding via EDM Optimization</a>. 
-</details><br>
-
- 
+</details>
+<br>
 <details>
   <summary><span style="color:grey"><b style="font-size:25px">Bilevel Optimization Toolbox </b></span></summary><br>
  
