@@ -12,15 +12,13 @@ redirect_from:
 <tr>
 <td><b style="font-size:20px"> <span style="color:grey">0/1 loss optimization</span></b></td>
 <td><b style="font-size:20px"> <span style="color:grey">Sparse optimization</span></b></td>
-</tr>
-  
+</tr>  
 <tr>
 <td>
 <p><div style="text-align:justify"> 
 Shenglong Zhou, Lili Pan, Naihua Xiu and Houduo Qi, Quadratic convergence of Newton's method for 0/1 loss optimization, 2021. 
 <a href="https://www.researchgate.net/publication/350442413">ResearchGate</a>
 </div></p> 
-
 <p><div style="text-align:justify"> 
 Shenglong Zhou, Ziyan Luo and Naihua Xiu, Computing one-bit compressive sensing via double-sparsity constrained optimization, 2021. 
 <a href="https://www.researchgate.net/publication/348371863">ResearchGate</a>,  
@@ -156,13 +154,11 @@ Journal of the Operations Research Society of China, vol. 1(2): 227-237, 2013.
 
 </details>   
 </td>
-</tr>
- 
+</tr> 
 <tr>
 <td><b style="font-size:20px"> <span style="color:grey">EDM optimization</span></b></td>
 <td><b style="font-size:20px"> <span style="color:grey">Bilevel optimization </span></b></td>
-</tr>
- 
+</tr> 
 <tr>
 <td>
 <p><div style="text-align:justify"> 
@@ -184,8 +180,7 @@ IEEE Transactions on Signal Processing, vol. 66(16): 4331-4346, 2018.
 <a href="https://ieeexplore.ieee.org/document/8399531">TSP</a>,
 <a href="https://github.com/ShenglongZhou/SQREDM">Code</a>
 </div></p> 
-</td>  
-       
+</td>        
 <td>
 <p><div style="text-align:justify"> 
 Alain Zemkoho and  Shenglong Zhou, Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization, 
