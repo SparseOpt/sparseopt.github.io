@@ -40,10 +40,10 @@ redirect_from:
   <a href="https://arxiv.org/abs/2005.13771">Sparse SVM for Sufficient Data Reduction</a>. <br><br>
  
   <a href="https://github.com/ShenglongZhou/ADMM">ADMM</a>, a matlab package solving the  sparse and low-rank covariance matrix recovery problem.  Source codes for <br>
-  <a href="https://link.springer.com/article/10.1007/s40305-014-0058-7">Sparse and Low-Rank Covariance Matrix Estimation</a>. <br>
+  <a href="https://link.springer.com/article/10.1007/s40305-014-0058-7">Sparse and Low-Rank Covariance Matrix Estimation</a>. <br><br>
  
 
-<b> Two general forms of sparse optimization </b> <br>
+<b> Two general forms of sparse optimization </b> <br><br>
 
 Sparsity  constrained optimization:
 \begin{eqnarray}
@@ -51,7 +51,7 @@ Sparsity  constrained optimization:
 \end{eqnarray}
  where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$, $s\ll n$ and $\Vert x \Vert_0$ is the so-called $\ell_0$ norm that counts the number of nonzero elements of $x$. 
  
-<br> 
+<br> <br>
 $\ell_0$ regularized optimization:
 \begin{eqnarray}
 \label{L0RO} \min_{x} && f(x) +\lambda \Vert x \Vert_0 
@@ -66,14 +66,14 @@ Compressed sensing (<span style="color:orange"><b>CS</b></span>):
 \begin{eqnarray}
 f(x) = (1/2) \Vert Ax-b \Vert^2
 \end{eqnarray}
-where $A\in\mathbb{R}^{m\times n}, b\in \mathbb{R}^{m}$. <br>
+where $A\in\mathbb{R}^{m\times n}, b\in \mathbb{R}^{m}$. <br><br>
 
  
 Sparse logistic regression (<span style="color:orange"><b>SLR</b></span>):
 \begin{eqnarray}
 f(x) =  \frac{1}{m}\sum_{i=1}^{m}\left\lbrace \ln(1+ e^{\langle a_i, x\rangle})-b_i\langle a_i, x\rangle\right \rbrace+\mu\Vert x\Vert_2^2  
 \end{eqnarray}
-where $a_i\in\mathbb{R}^{n}, b_i\in \lbrace 0,1\rbrace, i=1,2,\cdots,m$ and $\mu\geq0$.<br>
+where $a_i\in\mathbb{R}^{n}, b_i\in \lbrace 0,1\rbrace, i=1,2,\cdots,m$ and $\mu\geq0$.<br><br>
 
  
 Sparse linear complementarity problem (<span style="color:orange"><b>SLCP</b></span>):
@@ -85,7 +85,7 @@ Note that
 \begin{eqnarray}
  f(x)=0~~ \Longleftrightarrow~~ x \geq 0,~ Mx+q\geq 0,~ \langle x , Mx+q \rangle=0 \nonumber
 \end{eqnarray}
-<br><br>
+<br> 
 
 Applications solved by the aforementioned solvers are summarized in following table:<br>
  
@@ -145,7 +145,7 @@ Applications solved by the aforementioned solvers are summarized in following ta
   <a href="https://biopt.github.io/bolib/">BOLIBver2</a>, the second version of  the library providing 173 test examples. See <br>
   <a href="https://www.researchgate.net/publication/338375731">BOLIB2019: bilevel optimization library of test problems version 2</a> for more information.<br><br>
  
-  <a href="https://biopt.github.io/">[BiOpt Toolbox</a>,  bilevel optimization toolbox including 173 test examples from <a href="https://biopt.github.io/bolib/">BOLIBver2</a>, three solvers to solve bilevel optimization problems and several useful tools. 
+  <a href="https://biopt.github.io/">BiOpt Toolbox</a>,  bilevel optimization toolbox including 173 test examples from <a href="https://biopt.github.io/bolib/">BOLIBver2</a>, three solvers to solve bilevel optimization problems and several useful tools. 
 </details>
 
 
