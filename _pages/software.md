@@ -133,23 +133,22 @@ Applications solved by the aforementioned solvers are summarized in following ta
 <details>
   <summary><span style="color:grey"><b style="font-size:25px">EDM Optimization Solvers</b></span></summary>
  
-* [SQREDM](https://github.com/ShenglongZhou/SQREDM), a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <br>
-  [A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization with Box Constraints](https://ieeexplore.ieee.org/document/8399531).
+  <a href="https://github.com/ShenglongZhou/SQREDM">SQREDM</a>, a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <br>
+   <a href="https://ieeexplore.ieee.org/document/8399531">A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization with Box Constraints</a>.
 
-* [PREEEDM](https://github.com/ShenglongZhou/PREEEDM), a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <br>
-  [Robust Euclidean Embedding via EDM Optimization](https://doi.org/10.1007/s12532-019-00168-0).
+  <a href="https://github.com/ShenglongZhou/PREEEDM">PREEEDM</a>, a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <br>
+  <a href="https://doi.org/10.1007/s12532-019-00168-0">Robust Euclidean Embedding via EDM Optimization</a>.
 </details>
 
  
 <details>
   <summary><span style="color:grey"><b style="font-size:25px">Bilevel Optimization Toolbox </b></span></summary>
   
+  <a href="https://github.com/ShenglongZhou/BOLIB">BOLIB</a>, the first version of the library providing 124 test examples. See <a href="https://arxiv.org/abs/1812.00230">BOLIB: bilevel optimization library of test problems</a> for more information.
 
-* [BOLIB](https://github.com/ShenglongZhou/BOLIB), the first version of the library providing 124 test examples. See [BOLIB: bilevel optimization library of test problems](https://arxiv.org/abs/1812.00230) for more information.
+  <a href="https://biopt.github.io/bolib/">BOLIBver2</a>, the second version of  the library providing 173 test examples. See <a href="https://www.researchgate.net/publication/338375731">BOLIB2019: bilevel optimization library of test problems version 2</a> for more information.
 
-* [BOLIBver2](https://biopt.github.io/bolib/), the second version of  the library providing 173 test examples. See [BOLIB2019: bilevel optimization library of test problems version 2](https://www.researchgate.net/publication/338375731) for more information.
-
-* [BiOpt Toolbox](https://biopt.github.io/),  bilevel optimization toolbox including 173 test examples from [BOLIBver2](https://biopt.github.io/bolib/), three solvers to solve bilevel optimization problems and several useful tools.
+  <a href="https://biopt.github.io/">[BiOpt Toolbox</a>,  bilevel optimization toolbox including 173 test examples from <a href="https://biopt.github.io/bolib/">BOLIBver2</a>, three solvers to solve bilevel optimization problems and several useful tools.
 </details>
 
 
