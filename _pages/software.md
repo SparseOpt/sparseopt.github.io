@@ -60,7 +60,7 @@ $\ell_0$ regularized optimization:
  
  
 
-<b> Applications of sparse optimization </b>  <br>
+<b> Applications of sparse optimization </b>  <br><br>
  
 Compressed sensing (<span style="color:orange"><b>CS</b></span>):
 \begin{eqnarray}
@@ -123,7 +123,7 @@ Applications solved by the aforementioned solvers are summarized in following ta
         <td style="width:5%" align="center">$\surd$</td> 
     </tr>
     </table>
-</details>
+</details><br>
 
 <details>
   <summary><span style="color:grey"><b style="font-size:25px">EDM Optimization Solvers</b></span></summary> <br>
@@ -133,7 +133,7 @@ Applications solved by the aforementioned solvers are summarized in following ta
  
   <a href="https://github.com/ShenglongZhou/PREEEDM">PREEEDM</a>, a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <br>
   <a href="https://doi.org/10.1007/s12532-019-00168-0">Robust Euclidean Embedding via EDM Optimization</a>.<br>
-</details>
+</details><br>
 
  
 <details>
