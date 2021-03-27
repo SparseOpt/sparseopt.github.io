@@ -7,7 +7,18 @@ redirect_from:
   - /resume
 ---
 
- 
+
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">0/1 loss optimization</b></td>
+    <td><b style="font-size:30px">0/1 loss optimization</b></td>
+ </tr>
+ <tr>
+    <td>Lorem ipsum ...</td>
+    <td>Lorem ipsum ...</td>
+ </tr>
+</table>
+
 
 ## <span style="color:grey">0/1 loss optimization</span>
 ---
