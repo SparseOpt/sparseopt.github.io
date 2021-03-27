@@ -42,7 +42,7 @@ redirect_from:
   [Sparse and Low-Rank Covariance Matrix Estimation](https://link.springer.com/article/10.1007/s40305-014-0058-7). 
  
 
-### Two general forms of sparse optimization 
+#### Two general forms of sparse optimization 
  ---
   * Sparsity  constrained optimization:
 \begin{eqnarray}
@@ -56,7 +56,7 @@ redirect_from:
 \end{eqnarray}
  where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$ and $\lambda>0$. 
  
-### Applications of sparse optimization:  
+#### Applications of sparse optimization:  
 ---
 
  * Compressed sensing (<span style="color:orange">**CS**</span>):
