@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
+<p>
 <details>
   <summary><span style="color:grey"><b style="font-size:25px">0/1 Loss Optimization</b></span></summary>  
   
@@ -35,8 +35,9 @@ redirect_from:
   <a href="https://github.com/Huajun-Wang/L01ADMM">Code</a>
   </div></p> 
 </details> 
-<br>
- 
+</p>
+
+<p>
 <details>
   <summary><span style="color:grey"><b style="font-size:25px">Sparse Optimization</b></span></summary>  
  
@@ -149,8 +150,9 @@ redirect_from:
   </div></p> 
 
 </details> 
-<br>
+</p>
 
+<p>
 <details>
   <summary><span style="color:grey"><b style="font-size:25px">EDM Optimization</b></span></summary> 
  
@@ -173,8 +175,10 @@ redirect_from:
   <a href="https://ieeexplore.ieee.org/document/8399531">TSP</a>,
   <a href="https://github.com/ShenglongZhou/SQREDM">Code</a>
   </div></p> 
-</details> <br>
- 
+</details>
+</p>
+
+<p>
 <details>
   <summary><span style="color:grey"><b style="font-size:25px">Bilevel Optimization</b></span></summary> 
  
@@ -202,4 +206,4 @@ redirect_from:
   <a href="https://biopt.github.io/bolib/">Code</a>
   </div></p>
 </details> 
- 
+ </p> 
