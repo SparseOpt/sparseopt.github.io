@@ -6,9 +6,10 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-aa|bb|cc
---|--|--
-ee|ff|gg 
+
+aa| cc
+:--| :--
+ee|ff 
  
  
 ## <span style="color:grey">0/1 loss optimization</span>
