@@ -17,36 +17,6 @@ redirect_from:
 
 <details>
   <summary><span style="color:#1589F0"> Click for more papers </span></summary>
-  
-  <p><div style="text-align:justify"> 
-  Shenglong Zhou, Ziyan Luo and Naihua Xiu, Computing one-bit compressive sensing via double-sparsity constrained optimization, 2021. 
-  <a href="https://www.researchgate.net/publication/348371863">ResearchGate</a>,  
-  <a href="https://arxiv.org/abs/2101.03599">ArXiv</a>, 
-  <a href="https://github.com/ShenglongZhou/GPSP">Code</a>
-  </div></p> 
-
-  <p><div style="text-align:justify"> 
-  Shenglong Zhou, Lili Pan and Naihua Xiu, Heaviside set constrained optimization: optimality and Newton method, 2020.
-  <a href="https://www.researchgate.net/publication/343362652">ResearchGate</a>, 
-  <a href="https://arxiv.org/abs/2007.15737">ArXiv</a>
-  </div></p> 
-
-  <p><div style="text-align:justify"> 
-  Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, Support vector machine classifier via $L_{0/1}$ soft-margin loss, 2019. 
-  <a href="https://www.researchgate.net/publication/338717629">ResearchGate</a>,
-  <a href="https://arxiv.org/abs/1912.07418">ArXiv</a>,
-  <a href="https://github.com/Huajun-Wang/L01ADMM">Code</a>
-  </div></p>  
-
-</details> 
- 
-## <span style="color:grey">0/1 loss optimization</span>
----
-
-<p><div style="text-align:justify"> 
- Shenglong Zhou, Lili Pan, Naihua Xiu and Houduo Qi, Quadratic convergence of Newton's method for 0/1 loss optimization, 2021. 
-<a href="https://www.researchgate.net/publication/350442413">ResearchGate</a>
-</div></p> 
 
 <p><div style="text-align:justify"> 
 Shenglong Zhou, Ziyan Luo and Naihua Xiu, Computing one-bit compressive sensing via double-sparsity constrained optimization, 2021. 
@@ -66,7 +36,12 @@ Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, Support vec
 <a href="https://www.researchgate.net/publication/338717629">ResearchGate</a>,
 <a href="https://arxiv.org/abs/1912.07418">ArXiv</a>,
 <a href="https://github.com/Huajun-Wang/L01ADMM">Code</a>
-</div></p>  
+</div></p> 
+
+</details> 
+ 
+ 
+ 
 
 
 ## <span style="color:grey">Sparse optimization</span>
@@ -96,7 +71,10 @@ SIAM Journal on Scientific Computing, 43(2), A772–A799, 2021.
 <a href="https://arxiv.org/abs/2004.05132">ArXiv</a>, 
 <a href="https://github.com/ShenglongZhou/NL0R">Code</a>
 </div></p> 
- 
+
+<details>
+  <summary><span style="color:#1589F0"> Click for more papers </span></summary>
+  
 <p><div style="text-align:justify"> 
  Shenglong Zhou, Sparse SVM for sufficient data reduction, 2020. 
 <a href="https://www.researchgate.net/publication/341883040">ResearchGate</a>, 
@@ -179,7 +157,7 @@ Journal of the Operations Research Society of China, vol. 1(2): 227-237, 2013.
 <a href="https://link.springer.com/article/10.1007/s40305-013-0013-z">JORSC</a>
 </div></p> 
 
-
+</details> 
 
 ## <span style="color:grey">Euclidean distance matrix optimization </span> 
 ---
