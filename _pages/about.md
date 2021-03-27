@@ -11,12 +11,13 @@ redirect_from:
 <span style="color:grey">Education and Work Experience</span>
 ---
 Research Fellow in Computer Science, 2021- <br>
-[School of Electronics and Computer Science](https://www.ecs.soton.ac.uk/), [University of Southampton](https://www.southampton.ac.uk/), UK  <br>
+[School of Electronics and Computer Science](https://www.ecs.soton.ac.uk/),  University of Southampton
+, UK  <br>
 <br>
 Teaching Fellow in Operational Research, 2020-2021 <br>
 Research Fellow in Operational Research, 2017-2020<br>
 PhD in  Operational Research, 2014-2017 <br>
-[School of Mathematics](https://www.southampton.ac.uk/maths), University of Southampton, UK  <br>
+[School of Mathematics](https://www.southampton.ac.uk/maths), [University of Southampton](https://www.southampton.ac.uk/), UK  <br>
 <br>
 M.S. in Operational Research, 2011-2014 <br>
 B.S. in Information and Computing Sciences, 2007-2011 <br>
