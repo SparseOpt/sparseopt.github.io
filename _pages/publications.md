@@ -7,7 +7,6 @@ redirect_from:
   - /resume
 ---
 
-
 <table border="0">
 <tr>
 <td><b style="font-size:20px"> <span style="color:grey">0/1 loss optimization</span></b></td>
