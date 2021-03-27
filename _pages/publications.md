@@ -155,15 +155,17 @@ Journal of the Operations Research Society of China, vol. 1(2): 227-237, 2013.
 </div></p> 
 
 </details>   
-    </td>
- </tr>
-  <tr>
-    <td><b style="font-size:30px"> <span style="color:grey">EDM optimization</span></b></td>
-    <td><b style="font-size:30px"> <span style="color:grey">Bilevel optimization </span></b></td>
- </tr>
-  <tr>
-    <td>
-      <p><div style="text-align:justify"> 
+</td>
+</tr>
+ 
+<tr>
+<td><b style="font-size:30px"> <span style="color:grey">EDM optimization</span></b></td>
+<td><b style="font-size:30px"> <span style="color:grey">Bilevel optimization </span></b></td>
+</tr>
+ 
+<tr>
+<td>
+<p><div style="text-align:justify"> 
  Shenglong Zhou, Naihua Xiu and Houduo Qi, Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization, 
 PhD Thesis, University of Southampton, 2018. 
 <a href="https://eprints.soton.ac.uk/429739/">Soton</a>
@@ -182,8 +184,10 @@ IEEE Transactions on Signal Processing, vol. 66(16): 4331-4346, 2018.
 <a href="https://ieeexplore.ieee.org/document/8399531">TSP</a>,
 <a href="https://github.com/ShenglongZhou/SQREDM">Code</a>
 </div></p> 
-    </td>  
-    <td>
+</td>  
+    
+    
+<td>
 <p><div style="text-align:justify"> 
 Alain Zemkoho and  Shenglong Zhou, Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization, 
 Computational Optimization and Application, 78(2), 625-674, 2021.
@@ -206,8 +210,9 @@ Bilevel optimization: advances and next challenges, 2019.
 <a href="https://www.researchgate.net/publication/338375731">ResearchGate</a>,
 <a href="https://arxiv.org/abs/1812.00230">ArXiv</a>,
 <a href="https://biopt.github.io/bolib/">Code</a>    
-    </td>    
- </tr>  
+</td> 
+    
+</tr>  
 </table>
 
 
