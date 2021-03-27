@@ -8,7 +8,8 @@ redirect_from:
 ---
 <details>
   <summary><span style="color:grey"><b style="font-size:25px">0/1 Loss Optimization Solvers</b></span></summary>
-
+  <br> 
+  <br>
   <a href="https://github.com/ShenglongZhou/GPSP">GPSP</a>, a matlab package solving the one-bit compressive sensing problems.  Source codes for <br>
   <a href="https://www.researchgate.net/publication/348371863">Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization</a>.
   <br> 
@@ -20,7 +21,8 @@ redirect_from:
 
 <details>
   <summary><span style="color:grey"><b style="font-size:25px">Sparse  Optimization Solvers</b></span></summary>
- 
+  <br> 
+  <br>
   <a href="https://github.com/ShenglongZhou/NHTPver2">NHTP</a>, a matlab package solving the sparsity constrained optimization problems including compressed sensing, sparse logistic regression, sparse linear complementarity problems and so on.  Source codes for <br>
   <a href="https://arxiv.org/abs/1901.02763">Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit</a>.
   <br> 
@@ -132,10 +134,12 @@ Applications solved by the aforementioned solvers are summarized in following ta
 
 <details>
   <summary><span style="color:grey"><b style="font-size:25px">EDM Optimization Solvers</b></span></summary>
- 
+  <br> 
+  <br>
   <a href="https://github.com/ShenglongZhou/SQREDM">SQREDM</a>, a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <br>
-   <a href="https://ieeexplore.ieee.org/document/8399531">A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization with Box Constraints</a>.
-
+  <a href="https://ieeexplore.ieee.org/document/8399531">A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization with Box Constraints</a>.
+  <br> 
+  <br>
   <a href="https://github.com/ShenglongZhou/PREEEDM">PREEEDM</a>, a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <br>
   <a href="https://doi.org/10.1007/s12532-019-00168-0">Robust Euclidean Embedding via EDM Optimization</a>.
 </details>
@@ -143,11 +147,14 @@ Applications solved by the aforementioned solvers are summarized in following ta
  
 <details>
   <summary><span style="color:grey"><b style="font-size:25px">Bilevel Optimization Toolbox </b></span></summary>
-  
+  <br> 
+  <br>  
   <a href="https://github.com/ShenglongZhou/BOLIB">BOLIB</a>, the first version of the library providing 124 test examples. See <a href="https://arxiv.org/abs/1812.00230">BOLIB: bilevel optimization library of test problems</a> for more information.
-
+  <br> 
+  <br>
   <a href="https://biopt.github.io/bolib/">BOLIBver2</a>, the second version of  the library providing 173 test examples. See <a href="https://www.researchgate.net/publication/338375731">BOLIB2019: bilevel optimization library of test problems version 2</a> for more information.
-
+  <br> 
+  <br>
   <a href="https://biopt.github.io/">[BiOpt Toolbox</a>,  bilevel optimization toolbox including 173 test examples from <a href="https://biopt.github.io/bolib/">BOLIBver2</a>, three solvers to solve bilevel optimization problems and several useful tools.
 </details>
 
