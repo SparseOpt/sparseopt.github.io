@@ -161,13 +161,13 @@ Journal of the Operations Research Society of China, vol. 1(2): 227-237, 2013.
 ---
 
 <p><div style="text-align:justify"> 
- Shenglong Zhou, Naihua Xiu and Houduo Qi, Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization, 
+Shenglong Zhou, Naihua Xiu and Houduo Qi, Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization, 
 PhD Thesis, University of Southampton, 2018. 
 <a href="https://eprints.soton.ac.uk/429739/">Soton</a>
 </div></p> 
 
 <p><div style="text-align:justify"> 
- Shenglong Zhou, Naihua Xiu and Houduo Qi, Robust euclidean embedding via EDM optimization,, 
+Shenglong Zhou, Naihua Xiu and Houduo Qi, Robust euclidean embedding via EDM optimization, 
 Mathematical Programming Computation, 12(3): 337–387, 2019.
 <a href="https://link.springer.com/article/10.1007/s12532-019-00168-0">MPC</a>,
 <a href="https://github.com/ShenglongZhou/PREEEDM">Code</a>
@@ -179,7 +179,6 @@ IEEE Transactions on Signal Processing, vol. 66(16): 4331-4346, 2018.
 <a href="https://ieeexplore.ieee.org/document/8399531">TSP</a>,
 <a href="https://github.com/ShenglongZhou/SQREDM">Code</a>
 </div></p> 
-
 
 ## <span style="color:grey">Bilevel optimization </span>
 ---
