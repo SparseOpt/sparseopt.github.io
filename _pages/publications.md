@@ -89,17 +89,17 @@ redirect_from:
             <a href="https://github.com/ShenglongZhou/IIHT">Code</a>
             </div></p> 
             <p><div style="text-align:justify"> 
-            Lianjun Zhang, Lingchen Kong and  Shenglong Zhou, A smoothing iterative method for quantile regression with nonconvex $\ell_p$ Penalty, 
+            Lianjun Zhang, Lingchen Kong and  Shenglong Zhou, A smoothing iterative method for quantile regression with nonconvex L_p Penalty, 
             Journal of Industrial and Management Optimization, vol. 13 (1): 93 - 112, 2017.
             <a href="https://aimsciences.org/article/doi/10.3934/jimo.2016006">JIMO</a>
             </div></p> 
             <p><div style="text-align:justify"> 
-            Yanqing Liu, Guokai Liu, Xianchao Xiu and  Shenglong Zhou, The $L_1$-penalized quantile regression for traditional Chinese medicine syndrome manifestation, 
+            Yanqing Liu, Guokai Liu, Xianchao Xiu and  Shenglong Zhou, The L_1-penalized quantile regression for traditional Chinese medicine syndrome manifestation, 
             Pacific Journal of Optimization, vol. 13(2): 279-300, 2017.
             <a href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p279.html">PJO</a>
             </div></p> 
             <p><div style="text-align:justify"> 
-            Shenglong Zhou, Naihua Xiu, YingnanWang, Lingchen Kong and Houduo Qi, A Null-space-based weighted $\ell_1$ minimization approach to compressed sensing, 
+            Shenglong Zhou, Naihua Xiu, YingnanWang, Lingchen Kong and Houduo Qi, A Null-space-based weighted L_1 minimization approach to compressed sensing, 
             Information and Inference: A Journal of the IMA, vol. 5(1): 76-102, 2016. 
             <a href="https://academic.oup.com/imaiai/article/5/1/76/2357109">IMAIAI</a>,
             <a href="https://www.researchgate.net/publication/294109268">ResearchGate</a>,
