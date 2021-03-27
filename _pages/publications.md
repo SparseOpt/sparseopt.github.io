@@ -154,8 +154,7 @@ Journal of the Operations Research Society of China, vol. 1(2): 227-237, 2013.
 <a href="https://link.springer.com/article/10.1007/s40305-013-0013-z">JORSC</a>
 </div></p> 
 
-</details> 
-   
+</details>   
     </td>
  </tr>
 </table>
