@@ -16,7 +16,7 @@ redirect_from:
   <a href="https://github.com/Huajun-Wang/L01ADMM">L01ADMM</a>, a matlab package solving the support vector machine.  Source codes for <br>
   <a href="https://arxiv.org/abs/1912.07418">Support vector machine classifier via  $L_{0/1}$ soft-margin loss</a>.  <br>
   
-</details> 
+</details> <br>
 
 <details>
   <summary><span style="color:grey"><b style="font-size:25px">Sparse  Optimization Solvers</b></span></summary>
