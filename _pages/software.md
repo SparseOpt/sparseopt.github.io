@@ -6,15 +6,22 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
 <details>
-  <summary><span style="color:grey"><b style="font-size:25px">Sparse optimization solvers</b></span></summary>
- 
-* [NHTP](https://github.com/ShenglongZhou/NHTPver2), a matlab package solving the sparsity constrained optimization problems including compressed sensing, sparse logistic regression, sparse linear complementarity problems and so on.  Source codes for <br>
-  [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://arxiv.org/abs/1901.02763).
+  <summary><span style="color:grey"><b style="font-size:25px">0/1 Loss Optimization Solvers</b></span></summary>
 
 * [GPSP](https://github.com/ShenglongZhou/GPSP), a matlab package solving the one-bit compressive sensing problems.  Source codes for <br>
   [Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization](https://www.researchgate.net/publication/348371863).
+  
+* [L01ADMM](https://github.com/Huajun-Wang/L01ADMM), a matlab package solving the support vector machine.  Source codes for <br>
+  [Support vector machine classifier via  $L_{0/1}$ soft-margin loss](https://arxiv.org/abs/1912.07418).  
+  
+</details> 
+
+<details>
+  <summary><span style="color:grey"><b style="font-size:25px">Sparse  Optimization Solvers</b></span></summary>
+ 
+* [NHTP](https://github.com/ShenglongZhou/NHTPver2), a matlab package solving the sparsity constrained optimization problems including compressed sensing, sparse logistic regression, sparse linear complementarity problems and so on.  Source codes for <br>
+  [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://arxiv.org/abs/1901.02763).
   
 * [NL0R](https://github.com/ShenglongZhou/NL0R), a matlab package solving the $\ell_0$ regularized optimization problems including compressed sensing, sparse logistic regression, sparse linear complementarity problems.  Source codes for <br>
   [Newton Method for $\ell_0$-Regularized Optimization](https://arxiv.org/abs/2004.05132).
@@ -34,7 +41,6 @@ redirect_from:
 * [ADMM](https://github.com/ShenglongZhou/ADMM), a matlab package solving the  sparse and low-rank covariance matrix recovery problem.  Source codes for <br>
   [Sparse and Low-Rank Covariance Matrix Estimation](https://link.springer.com/article/10.1007/s40305-014-0058-7). 
  
-</details>
 
 ### Two general forms of sparse optimization 
  ---
@@ -111,26 +117,29 @@ Applications solved by the aforementioned solvers are summarized in following ta
         <td style="width:5%" align="center">$\surd$</td> 
     </tr>
     </table>
+</details>
+
+<details>
+  <summary><span style="color:grey"><b style="font-size:25px">EDM Optimization Solvers</b></span></summary>
  
-## <span style="color:grey">Euclidean distance matrix optimization solvers</span> 
----
 * [SQREDM](https://github.com/ShenglongZhou/SQREDM), a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <br>
   [A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization with Box Constraints](https://ieeexplore.ieee.org/document/8399531).
 
 * [PREEEDM](https://github.com/ShenglongZhou/PREEEDM), a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <br>
   [Robust Euclidean Embedding via EDM Optimization](https://doi.org/10.1007/s12532-019-00168-0).
-
+</details>
 
  
-## <span style="color:grey">Bilevel optimization toolbox</span> 
- ---
+<details>
+  <summary><span style="color:grey"><b style="font-size:25px">Bilevel Optimization Toolbox </b></span></summary>
+  
 
 * [BOLIB](https://github.com/ShenglongZhou/BOLIB), the first version of the library providing 124 test examples. See [BOLIB: bilevel optimization library of test problems](https://arxiv.org/abs/1812.00230) for more information.
 
 * [BOLIBver2](https://biopt.github.io/bolib/), the second version of  the library providing 173 test examples. See [BOLIB2019: bilevel optimization library of test problems version 2](https://www.researchgate.net/publication/338375731) for more information.
 
 * [BiOpt Toolbox](https://biopt.github.io/),  bilevel optimization toolbox including 173 test examples from [BOLIBver2](https://biopt.github.io/bolib/), three solvers to solve bilevel optimization problems and several useful tools.
-
+</details>
 
 
 
