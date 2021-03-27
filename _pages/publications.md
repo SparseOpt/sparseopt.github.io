@@ -14,10 +14,8 @@ redirect_from:
     </tr>
     <tr>
         <td align="left">
-            <p><div style="text-align:justify"> 
             Shenglong Zhou, Lili Pan, Naihua Xiu and Houduo Qi, Quadratic convergence of Newton's method for 0/1 loss optimization, 2021. 
             <a href="https://www.researchgate.net/publication/350442413">ResearchGate</a>
-            </div></p> 
             <p><div style="text-align:justify"> 
             Shenglong Zhou, Ziyan Luo and Naihua Xiu, Computing one-bit compressive sensing via double-sparsity constrained optimization, 2021. 
             <a href="https://www.researchgate.net/publication/348371863">ResearchGate</a>,  
