@@ -9,7 +9,7 @@ redirect_from:
 
 <table align="center">
     <tr>
-        <td align="top"><img src="docs/img1.png?raw=true" alt="some text"></td>
+        <td align="top">Some other text</td>
         <td align="center">Some other text</td>
         <td align="center">More text</td>
     </tr>
