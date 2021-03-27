@@ -48,7 +48,8 @@ redirect_from:
   <a href="https://github.com/ShenglongZhou/ADMM">ADMM</a>, a matlab package solving the  sparse and low-rank covariance matrix recovery problem.  Source codes for <br>
   <a href="https://link.springer.com/article/10.1007/s40305-014-0058-7">Sparse and Low-Rank Covariance Matrix Estimation</a>. 
  
-
+<br> 
+<br>
 <b> Two general forms of sparse optimization </b>
 ---
  
@@ -64,6 +65,8 @@ redirect_from:
 \end{eqnarray}
  where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$ and $\lambda>0$. 
  
+<br> 
+<br>
 <b> Applications of sparse optimization </b> 
 ---
 
