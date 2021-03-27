@@ -10,8 +10,8 @@ redirect_from:
 
 <table border="0">
 <tr>
-<td><b style="font-size:30px"> <span style="color:grey">0/1 loss optimization</span></b></td>
-<td><b style="font-size:30px"> <span style="color:grey">Sparse optimization</span></b></td>
+<td><b style="font-size:20px"> <span style="color:grey">0/1 loss optimization</span></b></td>
+<td><b style="font-size:20px"> <span style="color:grey">Sparse optimization</span></b></td>
 </tr>
   
 <tr>
@@ -159,8 +159,8 @@ Journal of the Operations Research Society of China, vol. 1(2): 227-237, 2013.
 </tr>
  
 <tr>
-<td><b style="font-size:30px"> <span style="color:grey">EDM optimization</span></b></td>
-<td><b style="font-size:30px"> <span style="color:grey">Bilevel optimization </span></b></td>
+<td><b style="font-size:20px"> <span style="color:grey">EDM optimization</span></b></td>
+<td><b style="font-size:20px"> <span style="color:grey">Bilevel optimization </span></b></td>
 </tr>
  
 <tr>
