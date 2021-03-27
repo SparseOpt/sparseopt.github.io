@@ -209,10 +209,7 @@ Bilevel optimization: advances and next challenges, 2019.
 <a href="https://www.researchgate.net/publication/338375731">ResearchGate</a>,
 <a href="https://arxiv.org/abs/1812.00230">ArXiv</a>,
 <a href="https://biopt.github.io/bolib/">Code</a>    
-</td> 
-    
-</tr>  
-</table>
+ 
 
 
 
