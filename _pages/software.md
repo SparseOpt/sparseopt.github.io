@@ -50,23 +50,24 @@ redirect_from:
  
 
 <b> Two general forms of sparse optimization </b>
+---
  
-  * Sparsity  constrained optimization:
+* Sparsity  constrained optimization:
 \begin{eqnarray}
 \label{SCO} \min_{x} && f(x), ~ {\rm s.t.}, ~ \Vert x \Vert_0\leq s 
 \end{eqnarray}
  where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$, $s\ll n$ and $\Vert x \Vert_0$ is the so-called $\ell_0$ norm that counts the number of nonzero elements of $x$. 
  
- * $\ell_0$ regularized optimization:
+* $\ell_0$ regularized optimization:
 \begin{eqnarray}
 \label{L0RO} \min_{x} && f(x) +\lambda \Vert x \Vert_0 
 \end{eqnarray}
  where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$ and $\lambda>0$. 
  
-#### Applications of sparse optimization:  
+<b> Applications of sparse optimization </b> 
 ---
 
- * Compressed sensing (<span style="color:orange">**CS**</span>):
+* Compressed sensing (<span style="color:orange">**CS**</span>):
 \begin{eqnarray}
 f(x) = (1/2) \Vert Ax-b \Vert^2
 \end{eqnarray}
