@@ -6,6 +6,8 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+ 
+<p>
 <details>
   <summary><span style="color:grey"><b style="font-size:25px">0/1 Loss Optimization Solvers</b></span></summary>
   <br>
@@ -17,7 +19,9 @@ redirect_from:
   <a href="https://arxiv.org/abs/1912.07418">Support vector machine classifier via  $L_{0/1}$ soft-margin loss</a>.   
   
 </details>  
-<br>
+</p>
+
+<p>
 <details>
   <summary><span style="color:grey"><b style="font-size:25px">Sparse  Optimization Solvers</b></span></summary>
   <br> 
@@ -123,8 +127,10 @@ Applications solved by the aforementioned solvers are summarized in following ta
         <td style="width:5%" align="center">$\surd$</td> 
     </tr>
     </table>
-</details><br>
+</details> 
+</p>
 
+<p>
 <details>
   <summary><span style="color:grey"><b style="font-size:25px">EDM Optimization Solvers</b></span></summary> <br>
  
@@ -133,8 +139,10 @@ Applications solved by the aforementioned solvers are summarized in following ta
  
   <a href="https://github.com/ShenglongZhou/PREEEDM">PREEEDM</a>, a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <br>
   <a href="https://doi.org/10.1007/s12532-019-00168-0">Robust Euclidean Embedding via EDM Optimization</a>. 
-</details><br>
- 
+</details> 
+</p>
+
+<p> 
 <details>
   <summary><span style="color:grey"><b style="font-size:25px">Bilevel Optimization Toolbox </b></span></summary><br>
  
@@ -146,7 +154,7 @@ Applications solved by the aforementioned solvers are summarized in following ta
  
   <a href="https://biopt.github.io/">BiOpt Toolbox</a>,  bilevel optimization toolbox including 173 test examples from <a href="https://biopt.github.io/bolib/">BOLIBver2</a>, three solvers to solve bilevel optimization problems and several useful tools. 
 </details>
-
-
+</p>
+ 
 
 
