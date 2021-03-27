@@ -9,14 +9,15 @@ redirect_from:
 
 
 <table border="0">
- <tr>
-    <td><b style="font-size:30px"> <span style="color:grey">0/1 loss optimization</span></b></td>
-    <td><b style="font-size:30px"> <span style="color:grey">Sparse optimization</span></b></td>
- </tr>
- <tr>
-    <td>
-   <p><div style="text-align:justify"> 
- Shenglong Zhou, Lili Pan, Naihua Xiu and Houduo Qi, Quadratic convergence of Newton's method for 0/1 loss optimization, 2021. 
+<tr>
+<td><b style="font-size:30px"> <span style="color:grey">0/1 loss optimization</span></b></td>
+<td><b style="font-size:30px"> <span style="color:grey">Sparse optimization</span></b></td>
+</tr>
+  
+<tr>
+<td>
+<p><div style="text-align:justify"> 
+Shenglong Zhou, Lili Pan, Naihua Xiu and Houduo Qi, Quadratic convergence of Newton's method for 0/1 loss optimization, 2021. 
 <a href="https://www.researchgate.net/publication/350442413"><span style="color:#0070C0">ResearchGate</span></a>
 </div></p> 
 
@@ -39,9 +40,9 @@ Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, Support vec
 <a href="https://arxiv.org/abs/1912.07418">ArXiv</a>,
 <a href="https://github.com/Huajun-Wang/L01ADMM">Code</a>
 </div></p> 
-    </td>
+</td>
     
-    <td>
+<td>
  <p><div style="text-align:justify"> 
  Shenglong Zhou, Naihua Xiu and Houduo Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, 
 Journal of Machine Learning Research, 22(12):1−45, 2021. 
@@ -75,7 +76,6 @@ SIAM Journal on Scientific Computing, 43(2), A772–A799, 2021.
 <a href="https://github.com/ShenglongZhou/NSSVM">Code</a>
 </div></p> 
 
-
 <details>
   <summary><span style="color:#0070C0"> Click for more papers </span></summary>
   
@@ -105,7 +105,7 @@ Pacific Journal of Optimization, vol. 13(2): 325-353, 2017.
 <p><div style="text-align:justify"> 
 Lianjun Zhang, Lingchen Kong and  Shenglong Zhou, A smoothing iterative method for quantile regression with nonconvex $\ell_p$ Penalty, 
 Journal of Industrial and Management Optimization, vol. 13 (1): 93 - 112, 2017.
-  <a href="https://aimsciences.org/article/doi/10.3934/jimo.2016006">JIMO</a>
+<a href="https://aimsciences.org/article/doi/10.3934/jimo.2016006">JIMO</a>
 </div></p> 
 
 <p><div style="text-align:justify"> 
@@ -119,7 +119,7 @@ Pacific Journal of Optimization, vol. 13(2): 279-300, 2017.
 Information and Inference: A Journal of the IMA, vol. 5(1): 76-102, 2016. 
 <a href="https://academic.oup.com/imaiai/article/5/1/76/2357109">IMAIAI</a>,
 <a href="https://www.researchgate.net/publication/294109268">ResearchGate</a>,
-  <a href="https://github.com/ShenglongZhou/MIRL1">Code</a>
+<a href="https://github.com/ShenglongZhou/MIRL1">Code</a>
 </div></p> 
 
 <p><div style="text-align:justify"> 
@@ -185,8 +185,7 @@ IEEE Transactions on Signal Processing, vol. 66(16): 4331-4346, 2018.
 <a href="https://github.com/ShenglongZhou/SQREDM">Code</a>
 </div></p> 
 </td>  
-    
-    
+       
 <td>
 <p><div style="text-align:justify"> 
 Alain Zemkoho and  Shenglong Zhou, Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization, 
@@ -203,7 +202,7 @@ Andreas Fischer, Alain Zemkoho and  Shenglong Zhou, Semismooth Newton-type metho
 </div></p> 
 
 <p><div style="text-align:justify"> 
- Shenglong Zhou, Alain Zemkoho and Andrey Tin, BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2, 
+Shenglong Zhou, Alain Zemkoho and Andrey Tin, BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2, 
 Bilevel optimization: advances and next challenges, 2019. 
 <a href="https://biopt.github.io/files/Paper.pdf">BiOpt</a>,
 <a href="https://www.springer.com/gp/book/9783030521189">Book</a>, 
