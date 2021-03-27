@@ -7,9 +7,9 @@ redirect_from:
   - /resume
 ---
 
-
-## <span style="color:grey">Sparse optimization solvers</span> 
----
+<details>
+  <summary><span style="color:grey"><b style="font-size:25px">Sparse optimization solvers</b></span></summary>
+ 
 * [NHTP](https://github.com/ShenglongZhou/NHTPver2), a matlab package solving the sparsity constrained optimization problems including compressed sensing, sparse logistic regression, sparse linear complementarity problems and so on.  Source codes for <br>
   [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://arxiv.org/abs/1901.02763).
 
@@ -34,6 +34,8 @@ redirect_from:
 * [ADMM](https://github.com/ShenglongZhou/ADMM), a matlab package solving the  sparse and low-rank covariance matrix recovery problem.  Source codes for <br>
   [Sparse and Low-Rank Covariance Matrix Estimation](https://link.springer.com/article/10.1007/s40305-014-0058-7). 
  
+</details>
+
 ### Two general forms of sparse optimization 
  ---
   * Sparsity  constrained optimization:
