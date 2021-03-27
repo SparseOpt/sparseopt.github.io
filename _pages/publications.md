@@ -7,6 +7,16 @@ redirect_from:
   - /resume
 ---
 
+<div class="row">
+  <div class="col-md-8" markdown="1">
+  Some text.
+  </div>
+  <div class="col-md-4" markdown="1">
+  <!-- ![Alt Text](../img/folder/blah.jpg) -->
+  <img height="600px" class="center-block" src="../img/folder/blah.jpg">
+  </div>
+</div>
+
 <table border="0">
 <tr>
 <td><b style="font-size:20px"> <span style="color:grey">0/1 loss optimization</span></b></td>
