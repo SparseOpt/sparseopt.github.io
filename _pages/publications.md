@@ -8,6 +8,36 @@ redirect_from:
 ---
  
 ## <span style="color:grey">0/1 loss optimization</span>
+<p><div style="text-align:justify"> 
+ Shenglong Zhou, Lili Pan, Naihua Xiu and Houduo Qi, Quadratic convergence of Newton's method for 0/1 loss optimization, 2021. 
+<a href="https://www.researchgate.net/publication/350442413">ResearchGate</a>
+</div></p> 
+<details>
+  <summary>Click for more papers</summary>
+  
+  <p><div style="text-align:justify"> 
+Shenglong Zhou, Ziyan Luo and Naihua Xiu, Computing one-bit compressive sensing via double-sparsity constrained optimization, 2021. 
+<a href="https://www.researchgate.net/publication/348371863">ResearchGate</a>,  
+<a href="https://arxiv.org/abs/2101.03599">ArXiv</a>, 
+<a href="https://github.com/ShenglongZhou/GPSP">Code</a>
+</div></p> 
+
+<p><div style="text-align:justify"> 
+ Shenglong Zhou, Lili Pan and Naihua Xiu, Heaviside set constrained optimization: optimality and Newton method, 2020.
+<a href="https://www.researchgate.net/publication/343362652">ResearchGate</a>, 
+<a href="https://arxiv.org/abs/2007.15737">ArXiv</a>
+</div></p> 
+
+<p><div style="text-align:justify"> 
+Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, Support vector machine classifier via $L_{0/1}$ soft-margin loss, 2019. 
+<a href="https://www.researchgate.net/publication/338717629">ResearchGate</a>,
+<a href="https://arxiv.org/abs/1912.07418">ArXiv</a>,
+<a href="https://github.com/Huajun-Wang/L01ADMM">Code</a>
+</div></p>  
+
+</details> 
+ 
+## <span style="color:grey">0/1 loss optimization</span>
 ---
 
 <p><div style="text-align:justify"> 
@@ -16,7 +46,7 @@ redirect_from:
 </div></p> 
 
 <p><div style="text-align:justify"> 
- Shenglong Zhou, Ziyan Luo and Naihua Xiu, Computing one-bit compressive sensing via double-sparsity constrained optimization, 2021. 
+Shenglong Zhou, Ziyan Luo and Naihua Xiu, Computing one-bit compressive sensing via double-sparsity constrained optimization, 2021. 
 <a href="https://www.researchgate.net/publication/348371863">ResearchGate</a>,  
 <a href="https://arxiv.org/abs/2101.03599">ArXiv</a>, 
 <a href="https://github.com/ShenglongZhou/GPSP">Code</a>
