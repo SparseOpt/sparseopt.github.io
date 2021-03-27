@@ -13,7 +13,7 @@ redirect_from:
   <a href="https://www.researchgate.net/publication/348371863">Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization</a>.
   <br> 
   <br>
-  <a href="https://github.com/Huajun-Wang/L01ADMM">L01ADMM</a>,a matlab package solving the support vector machine.  Source codes for <br>
+  <a href="https://github.com/Huajun-Wang/L01ADMM">L01ADMM</a>, a matlab package solving the support vector machine.  Source codes for <br>
   <a href="https://arxiv.org/abs/1912.07418">Support vector machine classifier via  $L_{0/1}$ soft-margin loss</a>.  
   
 </details> 
@@ -21,26 +21,26 @@ redirect_from:
 <details>
   <summary><span style="color:grey"><b style="font-size:25px">Sparse  Optimization Solvers</b></span></summary>
  
-* [NHTP](https://github.com/ShenglongZhou/NHTPver2), a matlab package solving the sparsity constrained optimization problems including compressed sensing, sparse logistic regression, sparse linear complementarity problems and so on.  Source codes for <br>
-  [Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit](https://arxiv.org/abs/1901.02763).
+  <a href="https://github.com/ShenglongZhou/NHTPver2">NHTP</a>, a matlab package solving the sparsity constrained optimization problems including compressed sensing, sparse logistic regression, sparse linear complementarity problems and so on.  Source codes for <br>
+  <a href="https://arxiv.org/abs/1901.02763">Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit</a>.
   
-* [NL0R](https://github.com/ShenglongZhou/NL0R), a matlab package solving the $\ell_0$ regularized optimization problems including compressed sensing, sparse logistic regression, sparse linear complementarity problems.  Source codes for <br>
-  [Newton Method for $\ell_0$-Regularized Optimization](https://arxiv.org/abs/2004.05132).
+  <a href="https://github.com/ShenglongZhou/NL0R">NL0R</a>, a matlab package solving the $\ell_0$ regularized optimization problems including compressed sensing, sparse logistic regression, sparse linear complementarity problems.  Source codes for <br>
+  <a href="https://arxiv.org/abs/2004.05132"Newton Method for $\ell_0$-Regularized Optimization</a>>.
 
-* [IIHT](https://github.com/ShenglongZhou/IIHT), a matlab package solving the sparsity constrained optimization problems.  Source codes for <br>
-[A Convergent Iterative Hard Thresholding for Sparsity and Nonnegativity Constrained Optimization](http://www.ybook.co.jp/online2/oppjo/vol13/p325.html). 
+  <a href="https://github.com/ShenglongZhou/IIHT">IIHT</a>, a matlab package solving the sparsity constrained optimization problems.  Source codes for <br>
+  <a href="http://www.ybook.co.jp/online2/oppjo/vol13/p325.html">A Convergent Iterative Hard Thresholding for Sparsity and Nonnegativity Constrained Optimization</a>. 
 
-* [MIRL1](https://github.com/ShenglongZhou/MIRL1), a matlab package solving the reweighted $\ell_1$ minimization.  Source codes for <br>
-  [A Null-space-based Weighted $\ell_1$ Minimisation Approach to Compressed Sensing](https://doi.org/10.1093/imaiai/iaw002).
- 
-* [HTPCP](https://github.com/ShenglongZhou/HTPCP), a matlab package solving the sparse linear/nonlinear complementarity problems.  Source codes for <br>
-  [A Half Thresholding Projection Algorithmfor Sparse Solutions of LCPs](https://link.springer.com/article/10.1007/s11590-014-0834-7). 
-  
-* [NSSVM](https://github.com/ShenglongZhou/NSSVM), a matlab package solving the sparse support vector machine.  Source codes for <br>
-  [Sparse SVM for Sufficient Data Reduction](https://arxiv.org/abs/2005.13771). 
-  
-* [ADMM](https://github.com/ShenglongZhou/ADMM), a matlab package solving the  sparse and low-rank covariance matrix recovery problem.  Source codes for <br>
-  [Sparse and Low-Rank Covariance Matrix Estimation](https://link.springer.com/article/10.1007/s40305-014-0058-7). 
+  <a href="https://github.com/ShenglongZhou/MIRL1">MIRL1</a>, a matlab package solving the reweighted $\ell_1$ minimization.  Source codes for <br>
+   <a href="https://doi.org/10.1093/imaiai/iaw002">A Null-space-based Weighted $\ell_1$ Minimisation Approach to Compressed Sensing</a>.
+
+  <a href="https://github.com/ShenglongZhou/HTPCP">HTPCP</a>, a matlab package solving the sparse linear/nonlinear complementarity problems.  Source codes for <br>
+  <a href="https://link.springer.com/article/10.1007/s11590-014-0834-7">A Half Thresholding Projection Algorithmfor Sparse Solutions of LCPs</a>. 
+
+  <a href="https://github.com/ShenglongZhou/NSSVM">NSSVM</a>, a matlab package solving the sparse support vector machine.  Source codes for <br>
+  <a href="https://arxiv.org/abs/2005.13771">Sparse SVM for Sufficient Data Reduction</a>. 
+
+  <a href="https://github.com/ShenglongZhou/ADMM">ADMM</a>, a matlab package solving the  sparse and low-rank covariance matrix recovery problem.  Source codes for <br>
+  <a href="https://link.springer.com/article/10.1007/s40305-014-0058-7">Sparse and Low-Rank Covariance Matrix Estimation</a>. 
  
 
 #### Two general forms of sparse optimization 
