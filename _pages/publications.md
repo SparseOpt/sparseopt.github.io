@@ -34,7 +34,7 @@ redirect_from:
   <a href="https://arxiv.org/abs/1912.07418">ArXiv</a>,
   <a href="https://github.com/Huajun-Wang/L01ADMM">Code</a>
   </div></p> 
-</details>
+</details> <br>
 
 <details>
   <summary><span style="color:grey"><b style="font-size:25px">Sparse Optimization</b></span></summary>  
@@ -147,7 +147,7 @@ redirect_from:
   <a href="https://link.springer.com/article/10.1007/s40305-013-0013-z">JORSC</a>
   </div></p> 
 
-</details> 
+</details> <br>
 
 
 
@@ -173,7 +173,7 @@ redirect_from:
   <a href="https://ieeexplore.ieee.org/document/8399531">TSP</a>,
   <a href="https://github.com/ShenglongZhou/SQREDM">Code</a>
   </div></p> 
-</details> 
+</details> <br>
 
 
 
