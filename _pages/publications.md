@@ -16,7 +16,7 @@ redirect_from:
 </div></p> 
 
 <details>
-  <summary><span style="color:#1589F0"> Click for more papers </span></summary>
+  <summary><span style="color:#0070C0"> Click for more papers </span></summary>
 
 <p><div style="text-align:justify"> 
 Shenglong Zhou, Ziyan Luo and Naihua Xiu, Computing one-bit compressive sensing via double-sparsity constrained optimization, 2021. 
@@ -73,7 +73,7 @@ SIAM Journal on Scientific Computing, 43(2), A772–A799, 2021.
 </div></p> 
 
 <details>
-  <summary><span style="color:#1589F0"> Click for more papers </span></summary>
+  <summary><span style="color:#0070C0"> Click for more papers </span></summary>
   
 <p><div style="text-align:justify"> 
  Shenglong Zhou, Sparse SVM for sufficient data reduction, 2020. 
