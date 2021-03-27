@@ -8,9 +8,6 @@ redirect_from:
 ---
  
 
-
-
-
 ## <span style="color:grey">0/1 loss optimization</span>
 ---
 
