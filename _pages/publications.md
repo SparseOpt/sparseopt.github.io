@@ -7,7 +7,6 @@ redirect_from:
   - /resume
 ---
  
-
 ## <span style="color:grey">0/1 loss optimization</span>
 ---
 
@@ -36,8 +35,7 @@ Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, Support vec
 <a href="https://github.com/Huajun-Wang/L01ADMM">Code</a>
 </div></p> 
 
- 
- 
+
 ## <span style="color:grey">Sparse optimization</span>
 ---
 <p><div style="text-align:justify"> 
