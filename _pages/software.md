@@ -9,11 +9,11 @@ redirect_from:
 <details>
   <summary><span style="color:grey"><b style="font-size:25px">0/1 Loss Optimization Solvers</b></span></summary>
 
-* [GPSP](https://github.com/ShenglongZhou/GPSP), a matlab package solving the one-bit compressive sensing problems.  Source codes for <br>
-  [Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization](https://www.researchgate.net/publication/348371863).
-  
-* [L01ADMM](https://github.com/Huajun-Wang/L01ADMM), a matlab package solving the support vector machine.  Source codes for <br>
-  [Support vector machine classifier via  $L_{0/1}$ soft-margin loss](https://arxiv.org/abs/1912.07418).  
+[GPSP](https://github.com/ShenglongZhou/GPSP), a matlab package solving the one-bit compressive sensing problems.  Source codes for <br>
+[Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization](https://www.researchgate.net/publication/348371863).
+<br>  
+[L01ADMM](https://github.com/Huajun-Wang/L01ADMM), a matlab package solving the support vector machine.  Source codes for <br>
+[Support vector machine classifier via  $L_{0/1}$ soft-margin loss](https://arxiv.org/abs/1912.07418).  
   
 </details> 
 
