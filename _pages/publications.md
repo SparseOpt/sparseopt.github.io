@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <details>
-  <summary><span style="color:#0070C0"><b style="font-size:25px">0/1 Loss Optimization</b></span></summary>  
+  <summary><span style="color:gray"><b style="font-size:25px">0/1 Loss Optimization</b></span></summary>  
   
   <p><div style="text-align:justify"> 
   Shenglong Zhou, Lili Pan, Naihua Xiu and Houduo Qi, Quadratic convergence of Newton's method for 0/1 loss optimization, 2021. 
@@ -37,7 +37,7 @@ redirect_from:
 </details>
 
 <details>
-  <summary><span style="color:#0070C0"><b style="font-size:25px">Sparse Optimization</b></span></summary>  
+  <summary><span style="color:gray"><b style="font-size:25px">Sparse Optimization</b></span></summary>  
  
   <p><div style="text-align:justify"> 
   Shenglong Zhou, Naihua Xiu and Houduo Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, 
@@ -152,7 +152,7 @@ redirect_from:
 
 
 <details>
-  <summary><span style="color:#0070C0"><b style="font-size:25px">EDM Optimization</b></span></summary> 
+  <summary><span style="color:gray"><b style="font-size:25px">EDM Optimization</b></span></summary> 
  
   <p><div style="text-align:justify"> 
   Shenglong Zhou, Naihua Xiu and Houduo Qi, Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization, 
@@ -178,7 +178,7 @@ redirect_from:
 
 
 <details>
-  <summary><span style="color:#0070C0"><b style="font-size:25px">Bilevel Optimization</b></span></summary> 
+  <summary><span style="color:gray"><b style="font-size:25px">Bilevel Optimization</b></span></summary> 
  
   <p><div style="text-align:justify"> 
   Alain Zemkoho and  Shenglong Zhou, Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization, 
