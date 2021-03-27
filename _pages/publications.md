@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-builder.appendFactory(Link.class, (configuration, props) -> new RemoveUnderlineSpan());
+ 
 
 ## <span style="color:grey">0/1 loss optimization</span>
 ---
