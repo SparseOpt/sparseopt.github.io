@@ -182,8 +182,7 @@ IEEE Transactions on Signal Processing, vol. 66(16): 4331-4346, 2018.
 <a href="https://ieeexplore.ieee.org/document/8399531">TSP</a>,
 <a href="https://github.com/ShenglongZhou/SQREDM">Code</a>
 </div></p> 
-    </td>
-  
+    </td>  
     <td>
 <p><div style="text-align:justify"> 
 Alain Zemkoho and  Shenglong Zhou, Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization, 
@@ -207,8 +206,7 @@ Bilevel optimization: advances and next challenges, 2019.
 <a href="https://www.researchgate.net/publication/338375731">ResearchGate</a>,
 <a href="https://arxiv.org/abs/1812.00230">ArXiv</a>,
 <a href="https://biopt.github.io/bolib/">Code</a>    
-    </td>
-    
+    </td>    
  </tr>  
 </table>
 
