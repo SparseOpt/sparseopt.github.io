@@ -23,4 +23,4 @@ redirect_from:
 CMP2014, Luoyang, Henan Province, China, 12 May 2014. 
 
 * <a style="text-decoration:none; color:#225675" href='https://arxiv.org/abs/1308.0455'>New RIC Bounds via lq Minimization in Compressed Sensing</a><br>
-<a style="text-decoration:none; color:#225675" href='http://lsec.cc.ac.cn/~icnonla13/index.htm'>The 9th ICNONLA<a>, Changchun, China, 13 Sep 2013.
+<a style="text-decoration:none; color:#225675" href='http://lsec.cc.ac.cn/~icnonla13/index.htm'>The 9th ICNONLA</a>, Changchun, China, 13 Sep 2013.
