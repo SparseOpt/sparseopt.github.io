@@ -19,9 +19,9 @@ redirect_from:
 * <font size=3> Shenglong Zhou, Lili Pan and Naihua Xiu, 2020 <br>
   <i>Heaviside set constrained optimization: optimality and Newton method</i><br>
   <a href="https://www.researchgate.net/publication/343362652">ResearchGate</a>,
-  <a href="https://arxiv.org/abs/2007.15737">ArXiv</a> 
+  <a href="https://arxiv.org/abs/2007.15737">ArXiv</a> <br> 
   </font>
-  <br> 
+  
   <details markdown="1"> 
   <summary><b style="font-size:10px">Click for more papers</b></summary> 
     
