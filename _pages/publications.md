@@ -157,14 +157,14 @@ redirect_from:
 ---
 
 * <font size=3> Alain Zemkoho and  Shenglong Zhou, Computational Optimization and Application, 78(2), 625-674, 2021 <br>
-  <i>Theoretical and numerical comparison of the KKT and value function reformulations in bilevel optimization</i>,
+  <i>Theoretical and numerical comparison of the KKT and value function reformulations in bilevel optimization</i><br> 
   <a href="https://doi.org/10.1007/s10589-020-00250-7">JCOA</a>,
   <a href="https://www.researchgate.net/publication/340769764">ResearchGate</a>,
   <a href="https://arxiv.org/abs/2004.10830">ArXiv</a></font>
  
   
 * <font size=3>Shenglong Zhou, Alain Zemkoho and Andrey Tin, Bilevel optimization: advances and next challenges, 2019 <br> 
-  <i>BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2</i> <br>
+  <i>BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2</i>,
   <a href="https://biopt.github.io/files/Paper.pdf">BiOpt</a>,
   <a href="https://www.springer.com/gp/book/9783030521189">Book</a>, 
   <a href="https://www.researchgate.net/publication/338375731">ResearchGate</a>,
