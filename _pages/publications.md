@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 # A collapsible section with markdown
-<details>
+<details markdown="1">
   <summary>Click to expand!</summary>
   
 - [ ] test
