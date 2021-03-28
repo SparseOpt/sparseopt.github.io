@@ -6,12 +6,13 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+
 # A collapsible section with markdown
 <details>
   <summary>Click to expand!</summary>
   
-* [ ] test
-* [ ] test2
+- [ ] test
+- [ ] test2
 </details>
 
 ## 0/1 Loss Optimization 
