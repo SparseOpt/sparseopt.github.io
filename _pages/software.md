@@ -16,7 +16,7 @@ redirect_from:
   <a style="text-decoration:none; color:#225675" href="https://www.researchgate.net/publication/348371863">Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization</a>. <br> <br>
   
   <a style="text-decoration:none; color:#225675" href="https://github.com/Huajun-Wang/L01ADMM">L01ADMM</a> solves the support vector machine. <br>
-  <a style="text-decoration:none; color:#225675" href="https://arxiv.org/abs/1912.07418">Support vector machine classifier via  $L_{0/1}$ soft-margin loss</a>. 
+  <a style="text-decoration:none; color:#225675" href="https://arxiv.org/abs/1912.07418">Support vector machine classifier via  L0/1 soft-margin loss</a>. 
       
   </font>
 
