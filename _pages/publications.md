@@ -19,7 +19,7 @@ redirect_from:
   [ResearchGate](https://www.researchgate.net/publication/343362652),  [ArXiv](https://arxiv.org/abs/2007.15737)
    
   <details markdown="1"> 
-  <summary> Click for more papers </summary> 
+  <summary><b style="font-size:10px">Click for more papers</b></summary> 
     
   * Shenglong Zhou, Ziyan Luo and Naihua Xiu, 2021 <br> 
     *Computing one-bit compressive sensing via double-sparsity constrained optimization* <br> 
