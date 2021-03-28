@@ -27,14 +27,13 @@ redirect_from:
   [Code](https://github.com/ShenglongZhou/GPSP) <br>
   *Computing one-bit compressive sensing via double-sparsity constrained optimization* 
     
-  <p><div style="text-align:justify"> 
-  Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, Support vector machine classifier via $L_{0/1}$ soft-margin loss, 2019. 
-  <a href="https://www.researchgate.net/publication/338717629">ResearchGate</a>,
-  <a href="https://arxiv.org/abs/1912.07418">ArXiv</a>,
-  <a href="https://github.com/Huajun-Wang/L01ADMM">Code</a>
-  </div></p> 
+  - Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, 2019, 
+  [ResearchGate](https://www.researchgate.net/publication/338717629), 
+  [ArXiv](https://arxiv.org/abs/1912.07418), 
+  [Code](https://github.com/Huajun-Wang/L01ADMM) <br>
+  Support vector machine classifier via $L_{0/1}$ soft-margin loss, 
   </details> 
-  </font>
+ 
 
 <span style="color:grey"><b style="font-size:20px">Sparse Optimization</b></span>
 --
