@@ -12,14 +12,14 @@ redirect_from:
 
 <font size=3>S.L. Zhou, L.L. Pan, N.H. Xiu and H.D. Qi, 2021 <br>
 <i>Quadratic convergence of Newton's method for 0/1 loss optimization</i>,
-<a style="text-decoration:none; color:#225675" href="https://www.researchgate.net/publication/350442413">ResearchGate</a></font>
-<br>
-<br>
+<a style="text-decoration:none; color:#225675" href="https://www.researchgate.net/publication/350442413">ResearchGate</a><br></font>
+
+ 
 <font size=3>S.L. Zhou, L.L. Pan and N.H. Xiu, 2020 <br>
 <i>Heaviside set constrained optimization: optimality and Newton method</i>,
 <a style="text-decoration:none; color:#225675" href="https://www.researchgate.net/publication/343362652">ResearchGate</a>,
 <a style="text-decoration:none; color:#225675" href="https://arxiv.org/abs/2007.15737">ArXiv</a><br></font> 
-<br>
+ 
 
 <details markdown="1"> 
 <summary><span style="color:#225675"><b style="font-size:15px">Click for more papers</b></span> </summary> 
@@ -28,9 +28,8 @@ redirect_from:
 <i>Computing one-bit compressive sensing via double-sparsity constrained optimization</i>,
 <a style="text-decoration:none; color:#225675" href="https://www.researchgate.net/publication/348371863">ResearchGate</a>,
 <a style="text-decoration:none; color:#225675" href="https://arxiv.org/abs/2101.03599">ArXiv</a>,
-<a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/GPSP">Code</a></font>
-<br>
-<br>
+<a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/GPSP">Code</a><br></font>
+ 
 <font size=3>H.J. Wang, Y.H. Shao, S.L. Zhou, C. Zhang and N.H. Xiu, 2019 <br>
 <i>Support vector machine classifier via L0/1 soft-margin loss</i>,
 <a style="text-decoration:none; color:#225675" href="https://www.researchgate.net/publication/338717629">ResearchGate</a>,
@@ -49,24 +48,22 @@ redirect_from:
   <a style="text-decoration:none; color:#225675" href="https://jmlr.org/papers/v22/19-026.html">JMLR</a>, 
   <a style="text-decoration:none; color:#225675" href="https://www.researchgate.net/publication/330224407">ResearchGate</a>, 
   <a style="text-decoration:none; color:#225675" href="https://arxiv.org/abs/1901.02763">ArXiv</a>, 
-  <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/NHTPver2">Code</a></font>
-<br>
-<br>  
+  <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/NHTPver2">Code</a><br></font>
+ 
 <font size=3> S.L. Zhou, L.L. Pan and N.H. Xiu,  Numerical Algorithms, 2021 <br>
   <i>Newton method  for L0-regularized optimization</i>,
   <a style="text-decoration:none; color:#225675" href="https://doi.org/10.1007/s11075-021-01085-x">NumAlg</a>, 
   <a style="text-decoration:none; color:#225675" href="https://www.researchgate.net/publication/340563338">ResearchGate</a>, 
   <a style="text-decoration:none; color:#225675" href="https://arxiv.org/abs/2004.05132">ArXiv</a>, 
-  <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/NL0R">Code</a></font>
-<br>
-<br>  
+  <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/NL0R">Code</a><br></font>
+ 
 <font size=3>S.L. Zhou, L.L. Pan, M. Li and M.J. Shang, SIAM Journal on Scientific Computing, 43(2), A772–A799, 2021 <br>
   <i>Newton hard-thresholding pursuit for sparse LCP via a new merit function</i>,
   <a style="text-decoration:none; color:#225675" href="https://doi.org/10.1137/19M1301539">SISC</a>, 
   <a style="text-decoration:none; color:#225675" href="https://www.researchgate.net/publication/337948990">ResearchGate</a>,
   <a style="text-decoration:none; color:#225675" href="https://arxiv.org/abs/2004.02244">ArXiv</a>,
   <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/NHTPver2">Code</a><br></font> 
-<br>
+ 
 
 <details markdown="1"> 
   <summary><span style="color:#225675"><b style="font-size:15px">Click for more papers</b></span> </summary> 
