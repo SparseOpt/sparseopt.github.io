@@ -3,7 +3,7 @@ main:
   - title: <span style="color:#009999"><b>Home</b></span>
     url: /about/
     
-  - title: <span style="color:#009999"><b>Publications</b></span>
+  - title: <span style="color:#0070C0"><b>Publications</b></span>
     url: /publications/
     
   - title: <span style="color:#009999"><b>Software</b></span>
