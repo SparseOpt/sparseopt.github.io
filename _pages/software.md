@@ -142,10 +142,12 @@ redirect_from:
   
   <font size=3> 
 
-  <a href="https://github.com/ShenglongZhou/SQREDM">SQREDM</a>, a matlab package solving EDM optimization problems for multidimensional scaling <br>         including sensor network localization, molecular conformation.    <br>
+  <a href="https://github.com/ShenglongZhou/SQREDM">SQREDM</a> solves EDM optimization for multidimensional scaling,
+  e.g.,  sensor network localization and molecular conformation.    <br>
   <a href="https://ieeexplore.ieee.org/document/8399531">A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization with Box Constraints</a>.<br><br>
  
-  <a href="https://github.com/ShenglongZhou/PREEEDM">PREEEDM</a>, a matlab package solving EDM optimization problems for multidimensional scaling including <br> sensor network localization, molecular conformation.  <br>
+  <a href="https://github.com/ShenglongZhou/PREEEDM">PREEEDM</a> solves EDM optimization for multidimensional scaling ,
+  e.g.,  sensor network localization and molecular conformation.    <br>
   <a href="https://doi.org/10.1007/s12532-019-00168-0">Robust Euclidean Embedding via EDM Optimization</a>. 
   </font>
 
@@ -162,7 +164,7 @@ redirect_from:
   <a href="https://biopt.github.io/bolib/">BOLIBver2</a>, the second version of  the library providing 173 test examples. <br>
   <a href="https://www.researchgate.net/publication/338375731">BOLIB2019: bilevel optimization library of test problems version 2</a>.<br><br>
  
-  <a href="https://biopt.github.io/">BiOpt Toolbox</a>,  bilevel optimization toolbox including 173 test examples from <a href="https://biopt.github.io/bolib/">BOLIBver2</a>, three solvers and several useful tools. 
+  <a href="https://biopt.github.io/">BiOpt Toolbox</a>,  bilevel optimization toolbox including <a href="https://biopt.github.io/bolib/">BOLIBver2</a>, three solvers and several useful tools. 
   </font>
 
 
