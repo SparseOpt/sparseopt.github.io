@@ -38,7 +38,7 @@ redirect_from:
 </details> 
  
 <span style="color:grey"><b style="font-size:20px">Sparse Optimization</b></span>
---
+---
 
   * Shenglong Zhou, Naihua Xiu and Houduo Qi, Journal of Machine Learning Research, 22(12):1−45, 2021<br>
   *Global and quadratic convergence of Newton hard-thresholding pursuit* <br>
@@ -154,41 +154,35 @@ redirect_from:
 
 
 <span style="color:grey"><b style="font-size:20px">EDM Optimization</b></span>
---
+---
 
-  <font size=3>
-  <p><div style="text-align:justify"> 
-  Shenglong Zhou, Naihua Xiu and Houduo Qi, Robust euclidean embedding via EDM optimization, 
-  Mathematical Programming Computation, 12(3): 337–387, 2019.
+  * Shenglong Zhou, Naihua Xiu and Houduo Qi, Mathematical Programming Computation, 12(3): 337–387, 2019<br>
+  *Robust euclidean embedding via EDM optimization<br> 
   <a href="https://link.springer.com/article/10.1007/s12532-019-00168-0">MPC</a>,
   <a href="https://github.com/ShenglongZhou/PREEEDM">Code</a>
-  </div></p> 
+ 
 
-  <p><div style="text-align:justify"> 
-   Shenglong Zhou, Naihua Xiu and Houduo Qi, A fast matrix majorization-projection method for penalized stress minimization with box constraints,
-  IEEE Transactions on Signal Processing, vol. 66(16): 4331-4346, 2018. 
+  * Shenglong Zhou, Naihua Xiu and Houduo Qi, IEEE Transactions on Signal Processing, vol. 66(16): 4331-4346, 2018<br> 
+  *A fast matrix majorization-projection method for penalized stress minimization with box constraints*<br>
   <a href="https://ieeexplore.ieee.org/document/8399531">TSP</a>,
   <a href="https://github.com/ShenglongZhou/SQREDM">Code</a>
-  </div></p> 
   
   
-  <details>
+  
+<details markdown="1">
   <summary><span style="color:grey"><b style="font-size:10px">Click for more papers</b></span></summary> 
  
-  <p><div style="text-align:justify"> 
-  Shenglong Zhou, Naihua Xiu and Houduo Qi, Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization, 
-  PhD Thesis, University of Southampton, 2018. 
-  <a href="https://eprints.soton.ac.uk/429739/">Soton</a>
-  </div></p> 
-  </details>
-  
-  </font>
+  * Shenglong Zhou, Naihua Xiu and Houduo Qi, PhD Thesis, University of Southampton, 2018, <a href="https://eprints.soton.ac.uk/429739/">Soton</a><br>
+  *Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization* 
+    
+</details>
+
 
 
 
 
 <span style="color:grey"><b style="font-size:20px">Bilevel Optimization</b></span>
---
+---
 
   * Alain Zemkoho and  Shenglong Zhou,   Computational Optimization and Application, 78(2), 625-674, 2021 <br>
   *Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization* <br> 
