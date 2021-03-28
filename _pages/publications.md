@@ -21,12 +21,11 @@ redirect_from:
   <details>
   <summary><span style="color:grey"><b style="font-size:10px">Click for more papers</b></span></summary>  
     
-  <p><div style="text-align:justify"> 
-  Shenglong Zhou, Ziyan Luo and Naihua Xiu, Computing one-bit compressive sensing via double-sparsity constrained optimization, 2021. 
-  <a href="https://www.researchgate.net/publication/348371863">ResearchGate</a>,  
-  <a href="https://arxiv.org/abs/2101.03599">ArXiv</a>, 
-  <a href="https://github.com/ShenglongZhou/GPSP">Code</a>
-  </div></p> 
+  * Shenglong Zhou, Ziyan Luo and Naihua Xiu, 2021, 
+  [ResearchGate](https://www.researchgate.net/publication/348371863),  
+  [ArXiv](https://arxiv.org/abs/2101.03599), 
+  [Code](https://github.com/ShenglongZhou/GPSP) <br>
+  *Computing one-bit compressive sensing via double-sparsity constrained optimization* 
     
   <p><div style="text-align:justify"> 
   Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, Support vector machine classifier via $L_{0/1}$ soft-margin loss, 2019. 
