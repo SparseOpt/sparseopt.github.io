@@ -10,31 +10,31 @@ redirect_from:
 ## <span style="color:grey"><b style="font-size:20px"> 0/1 Loss Optimization</b></span> 
 ---
 
-* <font size=3>S.L. Zhou, L.L. Pan, N.H. Xiu and H.D. Qi, 2021 <br>
-  <i>Quadratic convergence of Newton's method for 0/1 loss optimization</i>,
-  <a href="https://www.researchgate.net/publication/350442413">ResearchGate</a></font>
+<font size=3>S.L. Zhou, L.L. Pan, N.H. Xiu and H.D. Qi, 2021 <br>
+<i>Quadratic convergence of Newton's method for 0/1 loss optimization</i>,
+<a href="https://www.researchgate.net/publication/350442413">ResearchGate</a></font> <br>
   
-* <font size=3>S.L. Zhou, L.L. Pan and N.H. Xiu, 2020 <br>
-  <i>Heaviside set constrained optimization: optimality and Newton method</i>,
-  <a href="https://www.researchgate.net/publication/343362652">ResearchGate</a>,
-  <a href="https://arxiv.org/abs/2007.15737">ArXiv</a></font> 
+<font size=3>S.L. Zhou, L.L. Pan and N.H. Xiu, 2020 <br>
+<i>Heaviside set constrained optimization: optimality and Newton method</i>,
+<a href="https://www.researchgate.net/publication/343362652">ResearchGate</a>,
+<a href="https://arxiv.org/abs/2007.15737">ArXiv</a></font> 
   
-  <details markdown="1"> 
-  <summary><span style="color:grey"><b style="font-size:15px">Click for more papers</b></span> </summary> 
+<details markdown="1"> 
+<summary><span style="color:grey"><b style="font-size:15px">Click for more papers</b></span> </summary> 
     
-  * <font size=3>S.L. Zhou, Z.Y. Luo and N.H. Xiu, 2021 <br> 
-    <i>Computing one-bit compressive sensing via double-sparsity constrained optimization</i>,
-    <a href="https://www.researchgate.net/publication/348371863">ResearchGate</a>,
-    <a href="https://arxiv.org/abs/2101.03599">ArXiv</a>,
-    <a href="https://github.com/ShenglongZhou/GPSP">Code</a></font>
+* <font size=3>S.L. Zhou, Z.Y. Luo and N.H. Xiu, 2021 <br> 
+  <i>Computing one-bit compressive sensing via double-sparsity constrained optimization</i>,
+  <a href="https://www.researchgate.net/publication/348371863">ResearchGate</a>,
+  <a href="https://arxiv.org/abs/2101.03599">ArXiv</a>,
+  <a href="https://github.com/ShenglongZhou/GPSP">Code</a></font>
 
-  * <font size=3>H.J. Wang, Y.H. Shao, S.L. Zhou, C. Zhang and N.H. Xiu, 2019 <br>
-    <i>Support vector machine classifier via L0/1 soft-margin loss</i>,
-    <a href="https://www.researchgate.net/publication/338717629">ResearchGate</a>,
-    <a href="https://arxiv.org/abs/1912.07418">ArXiv</a>,
-    <a href="https://github.com/Huajun-Wang/L01ADMM">Code</a></font>
+* <font size=3>H.J. Wang, Y.H. Shao, S.L. Zhou, C. Zhang and N.H. Xiu, 2019 <br>
+  <i>Support vector machine classifier via L0/1 soft-margin loss</i>,
+  <a href="https://www.researchgate.net/publication/338717629">ResearchGate</a>,
+  <a href="https://arxiv.org/abs/1912.07418">ArXiv</a>,
+  <a href="https://github.com/Huajun-Wang/L01ADMM">Code</a></font>
      
-  </details> 
+</details> 
  
 
 
