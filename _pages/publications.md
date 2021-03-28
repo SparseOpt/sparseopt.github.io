@@ -9,10 +9,12 @@ redirect_from:
  
 ## 0/1 Loss Optimization 
 ---
-<font size =3> 
-* Shenglong Zhou, Lili Pan, Naihua Xiu and Houduo Qi, 2021 <br>
+
+* <font size =3>
+  Shenglong Zhou, Lili Pan, Naihua Xiu and Houduo Qi, 2021 <br>
   *Quadratic convergence of Newton's method for 0/1 loss optimization* <br>
-  [ResearchGate](https://www.researchgate.net/publication/350442413)
+  [ResearchGate](https://www.researchgate.net/publication/350442413) 
+  </font>
   
 * Shenglong Zhou, Lili Pan and Naihua Xiu, 2020 <br>
   *Heaviside set constrained optimization: optimality and Newton method* <br>
@@ -34,5 +36,5 @@ redirect_from:
     [Code](https://github.com/Huajun-Wang/L01ADMM) <br> 
      
   </details> 
- </font>
+ 
  
