@@ -20,9 +20,8 @@ redirect_from:
   <a href="https://www.researchgate.net/publication/343362652">ResearchGate</a>, 
   <a href="https://arxiv.org/abs/2007.15737">ArXiv</a>
   </div></p> 
-  </span>
-<p>
-<details>
+ 
+  <details>
   <summary><span style="color:grey"><b style="font-size:10px">Click for more papers</b></span></summary>  
   
   
@@ -39,10 +38,11 @@ redirect_from:
   <a href="https://arxiv.org/abs/1912.07418">ArXiv</a>,
   <a href="https://github.com/Huajun-Wang/L01ADMM">Code</a>
   </div></p> 
-</details> 
-</p>
+  </details> 
+  </span>
 
-<p>
+<span style="color:grey"><b style="font-size:20px">Sparse Optimization</b></span>
+--
 <details>
   <summary><span style="color:grey"><b style="font-size:20px">Sparse Optimization</b></span></summary>  
  
