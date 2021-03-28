@@ -139,7 +139,7 @@ redirect_from:
 * <font size=3> S.L. Zhou, N.H. Xiu and H.D. Qi, IEEE Transactions on Signal Processing,  66(16): 4331-4346, 2018<br> 
   <i>A fast matrix majorization-projection method for penalized stress minimization with box constraints</i>,
   <a href="https://ieeexplore.ieee.org/document/8399531">TSP</a>,
-  <a href="https://github.com/ShenglongZhou/SQREDM">Code</a></font> 
+  <a href="https://github.com/ShenglongZhou/SQREDM">Code</a><br></font> 
   
   <details markdown="1"> 
   <summary><span style="color:grey"><b style="font-size:15px">Click for more papers</b></span> </summary>  
@@ -168,7 +168,7 @@ redirect_from:
   <a href="https://www.springer.com/gp/book/9783030521189">Book</a>, 
   <a href="https://www.researchgate.net/publication/338375731">ResearchGate</a>,
   <a href="https://arxiv.org/abs/1812.00230">ArXiv</a>,
-  <a href="https://biopt.github.io/bolib/">Code</a></font> 
+  <a href="https://biopt.github.io/bolib/">Code</a><br></font> 
   
   <details markdown="1"> 
   <summary><span style="color:grey"><b style="font-size:15px">Click for more papers</b></span> </summary> 
