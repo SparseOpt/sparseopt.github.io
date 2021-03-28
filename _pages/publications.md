@@ -19,27 +19,27 @@ redirect_from:
 * <font size=3> Shenglong Zhou, Lili Pan and Naihua Xiu, 2020 <br>
   <i>Heaviside set constrained optimization: optimality and Newton method</i>,
   <a href="https://www.researchgate.net/publication/343362652">ResearchGate</a>,
-  <a href="https://arxiv.org/abs/2007.15737">ArXiv</a> <br> 
+  <a href="https://arxiv.org/abs/2007.15737">ArXiv</a>
   </font>
   
-  <details markdown="1"> 
+<details markdown="1"> 
   <summary><b style="font-size:10px">Click for more papers</b></summary> 
     
-  * <font size=3>Shenglong Zhou, Ziyan Luo and Naihua Xiu, 2021 <br> 
-    <i>Computing one-bit compressive sensing via double-sparsity constrained optimization</i>,
-    <a href="https://www.researchgate.net/publication/348371863">ResearchGate</a>,
-    <a href="https://arxiv.org/abs/2101.03599">ArXiv</a>,
-    <a href="https://github.com/ShenglongZhou/GPSP">Code</a> 
-    </font>
+* <font size=3>Shenglong Zhou, Ziyan Luo and Naihua Xiu, 2021 <br> 
+  <i>Computing one-bit compressive sensing via double-sparsity constrained optimization</i>,
+  <a href="https://www.researchgate.net/publication/348371863">ResearchGate</a>,
+  <a href="https://arxiv.org/abs/2101.03599">ArXiv</a>,
+  <a href="https://github.com/ShenglongZhou/GPSP">Code</a> 
+  </font>
 
-  * <font size=3>Huajun Wang, Yuanhai Shao, Shenglong Zhou, Ce Zhang and Naihua Xiu, 2019 <br>
-    <i>Support vector machine classifier via L0/1 soft-margin loss</i>,
-    <a href="https://www.researchgate.net/publication/338717629">ResearchGate</a>,
-    <a href="https://arxiv.org/abs/1912.07418">ArXiv</a>,
-    <a href="https://github.com/Huajun-Wang/L01ADMM">Code</a> 
-    </font>
+* <font size=3>Huajun Wang, Yuanhai Shao, Shenglong Zhou, Ce Zhang and Naihua Xiu, 2019 <br>
+  <i>Support vector machine classifier via L0/1 soft-margin loss</i>,
+  <a href="https://www.researchgate.net/publication/338717629">ResearchGate</a>,
+  <a href="https://arxiv.org/abs/1912.07418">ArXiv</a>,
+  <a href="https://github.com/Huajun-Wang/L01ADMM">Code</a> 
+  </font>
      
-  </details> 
+</details> 
  
 
 
