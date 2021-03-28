@@ -16,8 +16,9 @@ redirect_from:
   <a href="https://www.researchgate.net/publication/348371863">Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization</a>. <br>
   It solves the one-bit compressive sensing problems.  <br><br>
   
-  <a href="https://github.com/Huajun-Wang/L01ADMM">L01ADMM</a>, a matlab package solving the support vector machine.   <br>
-  <a href="https://arxiv.org/abs/1912.07418">Support vector machine classifier via  $L_{0/1}$ soft-margin loss</a>.     
+  <a href="https://github.com/Huajun-Wang/L01ADMM">L01ADMM</a>, source code for 
+  <a href="https://arxiv.org/abs/1912.07418">Support vector machine classifier via  $L_{0/1}$ soft-margin loss</a>. <br>
+  It solves the support vector machine.        
   </font>
 
 
