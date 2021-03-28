@@ -41,7 +41,7 @@ redirect_from:
 ## <span style="color:#3D8C95"><b style="font-size:20px">Sparse Optimization</b></span>
 ---
 
-* <font size=3> S.L. Zhou, N.H. Xiu and H.D. Qi, Journal of Machine Learning Research, 22(12):1−45, 2021<br>
+<font size=3> S.L. Zhou, N.H. Xiu and H.D. Qi, Journal of Machine Learning Research, 22(12):1−45, 2021<br>
   <i>Global and quadratic convergence of Newton hard-thresholding pursuit</i>,
   <a style="text-decoration:none; color:#225675" href="https://jmlr.org/papers/v22/19-026.html">JMLR</a>, 
   <a style="text-decoration:none; color:#225675" href="https://www.researchgate.net/publication/330224407">ResearchGate</a>, 
