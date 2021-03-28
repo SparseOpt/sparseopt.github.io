@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Shenglong Zhou"
+title                    : <span style="color:#225675">Shenglong Zhou</span>
 title_separator          : "-"
 name                     : &name "Shenglong Zhou"
 description              : &description "Research Fellow at the University of Southampton"
