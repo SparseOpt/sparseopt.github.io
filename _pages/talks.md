@@ -14,7 +14,7 @@ redirect_from:
  <a style="text-decoration:none; color:#225675" href='https://turing-optimization.github.io/'>Turing Optimisation
 Club Meeting<a>, The Alan Turing Institute, 11 Nov 2019.
 
- * <a style="text-decoration:none; color:#225675" href='https://arxiv.org/abs/1901.02763'>Globally and Quadratically Convergent Newton Method for Sparse Optimization<a><br>
+ * <a style="text-decoration:none; color:#225675" href='https://jmlr.org/papers/v22/19-026.html'>Globally and Quadratically Convergent Newton Method for Sparse Optimization<a><br>
 <a style="text-decoration:none; color:#225675" href='https://www.southampton.ac.uk/maths/news/seminars/2018/12/13-cormsis-seminar.page'>Cormsis Seminar<a>, University of Southampton, Southampton, UK, 12 Dec 2018.
 
 * <a style="text-decoration:none; color:#225675" href='https://ieeexplore.ieee.org/document/8399531'>A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization with Box Constraints<a><br>
