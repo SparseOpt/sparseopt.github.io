@@ -149,51 +149,55 @@ S.L. Zhou, L.C. Kong and N.H. Xiu, Journal of the Operations Research Society of
 ## <span style="color:#3D8C95"><b style="font-size:20px">EDM Optimization</b></span>
 ---
 
-* <font size=3> S.L. Zhou, N.H. Xiu and H.D. Qi, Mathematical Programming Computation, 12(3): 337–387, 2019<br>
+<font size=3> 
+S.L. Zhou, N.H. Xiu and H.D. Qi, Mathematical Programming Computation, 12(3): 337–387, 2019<br>
   <i>Robust euclidean embedding via EDM optimization</i>, 
   <a style="text-decoration:none; color:#225675" href="https://link.springer.com/article/10.1007/s12532-019-00168-0">MPC</a>,
-  <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/PREEEDM">Code</a></font>
- 
-* <font size=3> S.L. Zhou, N.H. Xiu and H.D. Qi, IEEE Transactions on Signal Processing,  66(16): 4331-4346, 2018<br> 
+  <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/PREEEDM">Code</a> 
+<br>
+<br>
+S.L. Zhou, N.H. Xiu and H.D. Qi, IEEE Transactions on Signal Processing,  66(16): 4331-4346, 2018<br> 
   <i>A fast matrix majorization-projection method for penalized stress minimization with box constraints</i>,
   <a style="text-decoration:none; color:#225675" href="https://ieeexplore.ieee.org/document/8399531">TSP</a>,
-  <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/SQREDM">Code</a><br></font> 
-  
-  <details markdown="1"> 
+  <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/SQREDM">Code</a><br> 
+<br>
+<br>
+<details markdown="1"> 
   <summary><span style="color:#225675"><b style="font-size:15px">Click for more papers</b></span> </summary>  
   
-  * <font size=3> S.L. Zhou, N.H. Xiu and H.D. Qi, PhD Thesis, University of Southampton, 2018<br>
+S.L. Zhou, N.H. Xiu and H.D. Qi, PhD Thesis, University of Southampton, 2018<br>
     <i>Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization</i>,
-    <a style="text-decoration:none; color:#225675" href="https://eprints.soton.ac.uk/429739/">Soton</a></font>
-  
+    <a style="text-decoration:none; color:#225675" href="https://eprints.soton.ac.uk/429739/">Soton</a>  
 </details> 
-
+</font>
 
 
 ## <span style="color:#3D8C95"><b style="font-size:20px">Bilevel Optimization</b></span>
 ---
 
-* <font size=3> A. Zemkoho and  S.L. Zhou, Computational Optimization and Application, 78(2), 625-674, 2021 <br>
+<font size=3> 
+A. Zemkoho and  S.L. Zhou, Computational Optimization and Application, 78(2), 625-674, 2021 <br>
   <i>Theoretical and numerical comparison of the KKT and value function reformulations in bilevel optimization</i><br> 
   <a style="text-decoration:none; color:#225675" href="https://doi.org/10.1007/s10589-020-00250-7">JCOA</a>,
   <a style="text-decoration:none; color:#225675" href="https://www.researchgate.net/publication/340769764">ResearchGate</a>,
-  <a style="text-decoration:none; color:#225675" href="https://arxiv.org/abs/2004.10830">ArXiv</a></font>
- 
-  
-* <font size=3>S.L. Zhou, A. Zemkoho and A. Tin, Bilevel optimization: advances and next challenges, 2019 <br> 
+  <a style="text-decoration:none; color:#225675" href="https://arxiv.org/abs/2004.10830">ArXiv</a> 
+<br>
+<br>  
+S.L. Zhou, A. Zemkoho and A. Tin, Bilevel optimization: advances and next challenges, 2019 <br> 
   <i>BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2</i>,
   <a style="text-decoration:none; color:#225675" href="https://biopt.github.io/files/Paper.pdf">BiOpt</a>,
   <a style="text-decoration:none; color:#225675" href="https://www.springer.com/gp/book/9783030521189">Book</a>, 
   <a style="text-decoration:none; color:#225675" href="https://www.researchgate.net/publication/338375731">ResearchGate</a>,
   <a style="text-decoration:none; color:#225675" href="https://arxiv.org/abs/1812.00230">ArXiv</a>,
-  <a style="text-decoration:none; color:#225675" href="https://biopt.github.io/bolib/">Code</a><br></font> 
-  
-  <details markdown="1"> 
+  <a style="text-decoration:none; color:#225675" href="https://biopt.github.io/bolib/">Code</a> 
+<br>
+<br>
+<details markdown="1"> 
   <summary><span style="color:#225675"><b style="font-size:15px">Click for more papers</b></span> </summary> 
   
-   * <font size=3> A. Fischer, A. Zemkoho and  S.L. Zhou, 2019 <br>
+A. Fischer, A. Zemkoho and  S.L. Zhou, 2019 <br>
      <i>Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments</i>,
      <a style="text-decoration:none; color:#225675" href="https://www.researchgate.net/publication/337943979">ResearchGate</a>,
-     <a style="text-decoration:none; color:#225675" href="https://arxiv.org/abs/1912.07079">ArXiv</a></font>
-  
-    </details> 
+     <a style="text-decoration:none; color:#225675" href="https://arxiv.org/abs/1912.07079">ArXiv</a>  
+</details> 
+</font>
