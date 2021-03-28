@@ -8,7 +8,7 @@ redirect_from:
 ---
  
  
-## <span style="color:grey">0/1 Loss Optimization Solvers</span>
+## <span style="color:grey"><b style="font-size:20px">0/1 Loss Optimization Solvers</b></span>
 ---
 
   <font size=3> 
@@ -21,8 +21,8 @@ redirect_from:
 
 
 
-<span style="color:grey"><b style="font-size:25px">Sparse  Optimization Solvers</b></span>
---
+## <span style="color:grey"><b style="font-size:20px">Sparse  Optimization Solvers</b></span>
+---
 
   <font size=3> 
   <a href="https://github.com/ShenglongZhou/NHTPver2">NHTP</a>, a matlab package solving the sparsity constrained optimization problems including compressed sensing, sparse logistic regression, sparse linear complementarity problems and so on.  Source codes for <br>
@@ -135,7 +135,7 @@ redirect_from:
 
 
 ## <span style="color:grey"><b style="font-size:25px">EDM Optimization Solvers</b></span>
---
+---
   
   <font size=3> 
 
@@ -149,7 +149,7 @@ redirect_from:
 
 
 ## <span style="color:grey"><b style="font-size:25px">Bilevel Optimization Toolbox </b></span>
---
+---
 
   <font size=3>
  
