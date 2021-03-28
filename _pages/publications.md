@@ -124,7 +124,7 @@ redirect_from:
 
 * <font size=3>Shenglong Zhou, Lingchen Kong and Naihua Xiu, Journal of the Operations Research Society of China, vol. 1(2): 227-237, 2013 <br>
   <i>New bounds for RIC in compressed sensing</i>,
-  <a href="https://link.springer.com/article/10.1007/s40305-013-0013-z">JORSC</a></a></font>
+  <a href="https://link.springer.com/article/10.1007/s40305-013-0013-z">JORSC</a></font>
      
 </details> 
 
@@ -147,6 +147,7 @@ redirect_from:
   
 <details markdown="1"> 
   <summary><b style="font-size:10px">Click for more papers</b></summary>  
+  
   * Shenglong Zhou, Naihua Xiu and Houduo Qi, PhD Thesis, University of Southampton, 2018<br>
   <i>Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization</i>,
   <a href="https://eprints.soton.ac.uk/429739/">Soton</a></font>
