@@ -31,7 +31,7 @@ redirect_from:
   <a style="text-decoration:none; color:#0070C0" href="https://arxiv.org/abs/2004.05132">Newton Method for $\ell_0$-Regularized Optimization</a>.<br>  <br> 
   
   <details>
-  <summary><span style="color:grey"><b style="font-size:15px">Click for more solvers</b></span></summary>
+  <summary><span style="color:#0070C0"><b style="font-size:15px">Click for more solvers</b></span></summary>
   <br> 
 
   <a style="text-decoration:none; color:#0070C0" href="https://github.com/ShenglongZhou/IIHT">IIHT</a> solves the sparsity constrained optimization including CS, LR, LCP and etc.   <br>
@@ -89,11 +89,11 @@ redirect_from:
    <table border="2" width="0.5">
       <tr>
         <td style="width:8%" align="center"> </td>
-        <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/NHTPver2'>NHTP</a></td>
-        <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/NL0R'>NL0R</a></td>
-        <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a></td>
-        <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/MIRL1'>MIRL1</a></td>
-        <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></td>
+        <td style="width:5%" align="center"><a style="text-decoration:none; color:#0070C0"  href='https://github.com/ShenglongZhou/NHTPver2'>NHTP</a></td>
+        <td style="width:5%" align="center"><a style="text-decoration:none; color:#0070C0"  href='https://github.com/ShenglongZhou/NL0R'>NL0R</a></td>
+        <td style="width:5%" align="center"><a style="text-decoration:none; color:#0070C0"  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a></td>
+        <td style="width:5%" align="center"><a style="text-decoration:none; color:#0070C0" href='https://github.com/ShenglongZhou/MIRL1'>MIRL1</a></td>
+        <td style="width:5%" align="center"><a style="text-decoration:none; color:#0070C0"  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></td>
       </tr>
        <tr>
           <td style="width:8%" align="left"><b>Compressed sensing (<span style="color:orange">CS</span>)</b></td>
