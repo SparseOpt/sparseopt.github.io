@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
  
-## 0/1 Loss Optimization 
+## <span style="color:grey"><b style="font-size:20px"> 0/1 Loss Optimization</b></span> 
 ---
 
 * <font size=3>
