@@ -7,7 +7,6 @@ redirect_from:
   - /resume
 ---
  
-
 ## 0/1 Loss Optimization 
 ---
  
