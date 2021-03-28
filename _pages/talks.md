@@ -10,9 +10,9 @@ redirect_from:
  * Heaviside Optimisation: Optimality and Newton Method<br>
  Department of Mathematics, Beijing Jiaotong University, 18 Aug 2020.
 
- * [Bilevel Optimisation with Applications into Hyper-parameter Tuning into Machine Learning](/files/Bilevel-optimisation-hyperparameter-tuning.pdf) <br>
- [*Turing Optimisation
-Club Meeting*](https://turing-optimization.github.io/), The Alan Turing Institute, 11 Nov 2019.
+ * <a style="text-decoration:none; color:#225675" href='https://shenglongzhou.github.io/files/Bilevel-optimisation-hyperparameter-tuning.pdf'>Bilevel Optimisation with Applications into Hyper-parameter Tuning into Machine Learning<a> <br>
+ <a style="text-decoration:none; color:#225675" href='https://turing-optimization.github.io/'>Turing Optimisation
+Club Meeting<a>, The Alan Turing Institute, 11 Nov 2019.
 
  * [Globally and Quadratically Convergent Newton Method for Sparse Optimization](https://arxiv.org/abs/1901.02763) <br>
 [*Cormsis Seminar*](https://www.southampton.ac.uk/maths/news/seminars/2018/12/13-cormsis-seminar.page), University of Southampton, Southampton, UK, 12 Dec 2018.
