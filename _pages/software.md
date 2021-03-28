@@ -8,46 +8,46 @@ redirect_from:
 ---
  
  
-## <span style="color:#009999"><b style="font-size:20px">0/1 Loss Optimization Solvers</b></span>
+## <span style="color:#3D8C95"><b style="font-size:20px">0/1 Loss Optimization Solvers</b></span>
 ---
 
   <font size=3> 
-  <a style="text-decoration:none; color:#0070C0" href="https://github.com/ShenglongZhou/GPSP">GPSP</a> solves the one-bit compressive sensing problems. <br>
-  <a style="text-decoration:none; color:#0070C0" href="https://www.researchgate.net/publication/348371863">Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization</a>. <br> <br>
+  <a style="text-decoration:none; color:#3D8C95" href="https://github.com/ShenglongZhou/GPSP">GPSP</a> solves the one-bit compressive sensing problems. <br>
+  <a style="text-decoration:none; color:#3D8C95" href="https://www.researchgate.net/publication/348371863">Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization</a>. <br> <br>
   
-  <a style="text-decoration:none; color:#0070C0" href="https://github.com/Huajun-Wang/L01ADMM">L01ADMM</a> solves the support vector machine. <br>
-  <a style="text-decoration:none; color:#0070C0" href="https://arxiv.org/abs/1912.07418">Support vector machine classifier via  $L_{0/1}$ soft-margin loss</a>. 
+  <a style="text-decoration:none; color:#3D8C95" href="https://github.com/Huajun-Wang/L01ADMM">L01ADMM</a> solves the support vector machine. <br>
+  <a style="text-decoration:none; color:#3D8C95" href="https://arxiv.org/abs/1912.07418">Support vector machine classifier via  $L_{0/1}$ soft-margin loss</a>. 
       
   </font>
 
-## <span style="color:#009999"><b style="font-size:20px">Sparse  Optimization Solvers</b></span>
+## <span style="color:#3D8C95"><b style="font-size:20px">Sparse  Optimization Solvers</b></span>
 ---
 
   <font size=3> 
-  <a style="text-decoration:none; color:#0070C0" href="https://github.com/ShenglongZhou/NHTPver2">NHTP</a> solves the sparsity constrained optimization including CS, LR, LCP and etc.   <br> 
-  <a style="text-decoration:none; color:#0070C0" href="https://arxiv.org/abs/1901.02763">Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit</a>. <br> <br>
+  <a style="text-decoration:none; color:#3D8C95" href="https://github.com/ShenglongZhou/NHTPver2">NHTP</a> solves the sparsity constrained optimization including CS, LR, LCP and etc.   <br> 
+  <a style="text-decoration:none; color:#3D8C95" href="https://arxiv.org/abs/1901.02763">Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit</a>. <br> <br>
     
-  <a style="text-decoration:none; color:#0070C0" href="https://github.com/ShenglongZhou/NL0R">NL0R</a> solves the $\ell_0$ regularized optimization problems including CS, LR and LCP.   <br> 
-  <a style="text-decoration:none; color:#0070C0" href="https://arxiv.org/abs/2004.05132">Newton Method for $\ell_0$-Regularized Optimization</a>.<br>  <br> 
+  <a style="text-decoration:none; color:#3D8C95" href="https://github.com/ShenglongZhou/NL0R">NL0R</a> solves the $\ell_0$ regularized optimization problems including CS, LR and LCP.   <br> 
+  <a style="text-decoration:none; color:#3D8C95" href="https://arxiv.org/abs/2004.05132">Newton Method for $\ell_0$-Regularized Optimization</a>.<br>  <br> 
   
   <details>
-  <summary><span style="color:#0070C0"><b style="font-size:15px">Click for more solvers</b></span></summary>
+  <summary><span style="color:#3D8C95"><b style="font-size:15px">Click for more solvers</b></span></summary>
   <br> 
 
-  <a style="text-decoration:none; color:#0070C0" href="https://github.com/ShenglongZhou/IIHT">IIHT</a> solves the sparsity constrained optimization including CS, LR, LCP and etc.   <br>
-  <a style="text-decoration:none; color:#0070C0" href="http://www.ybook.co.jp/online2/oppjo/vol13/p325.html">A Convergent Iterative Hard Thresholding for Sparsity and Nonnegativity Constrained Optimization</a>. <br><br>
+  <a style="text-decoration:none; color:#3D8C95" href="https://github.com/ShenglongZhou/IIHT">IIHT</a> solves the sparsity constrained optimization including CS, LR, LCP and etc.   <br>
+  <a style="text-decoration:none; color:#3D8C95" href="http://www.ybook.co.jp/online2/oppjo/vol13/p325.html">A Convergent Iterative Hard Thresholding for Sparsity and Nonnegativity Constrained Optimization</a>. <br><br>
  
-  <a style="text-decoration:none; color:#0070C0" href="https://github.com/ShenglongZhou/MIRL1">MIRL1</a> solves the reweighted $\ell_1$ minimization.    <br>
-  <a style="text-decoration:none; color:#0070C0" href="https://doi.org/10.1093/imaiai/iaw002">A Null-space-based Weighted $\ell_1$ Minimisation Approach to Compressed Sensing</a>.<br><br>
+  <a style="text-decoration:none; color:#3D8C95" href="https://github.com/ShenglongZhou/MIRL1">MIRL1</a> solves the reweighted $\ell_1$ minimization.    <br>
+  <a style="text-decoration:none; color:#3D8C95" href="https://doi.org/10.1093/imaiai/iaw002">A Null-space-based Weighted $\ell_1$ Minimisation Approach to Compressed Sensing</a>.<br><br>
  
-  <a style="text-decoration:none; color:#0070C0" href="https://github.com/ShenglongZhou/HTPCP">HTPCP</a> solves the sparse linear/nonlinear complementarity problems.   <br>
-  <a style="text-decoration:none; color:#0070C0" href="https://link.springer.com/article/10.1007/s11590-014-0834-7">A Half Thresholding Projection Algorithmfor Sparse Solutions of LCPs</a>. <br><br>
+  <a style="text-decoration:none; color:#3D8C95" href="https://github.com/ShenglongZhou/HTPCP">HTPCP</a> solves the sparse linear/nonlinear complementarity problems.   <br>
+  <a style="text-decoration:none; color:#3D8C95" href="https://link.springer.com/article/10.1007/s11590-014-0834-7">A Half Thresholding Projection Algorithmfor Sparse Solutions of LCPs</a>. <br><br>
  
-  <a style="text-decoration:none; color:#0070C0" href="https://github.com/ShenglongZhou/NSSVM">NSSVM</a> solves the sparse support vector machine.  Source codes for <br>
-  <a style="text-decoration:none; color:#0070C0" href="https://arxiv.org/abs/2005.13771">Sparse SVM for Sufficient Data Reduction</a>. <br><br>
+  <a style="text-decoration:none; color:#3D8C95" href="https://github.com/ShenglongZhou/NSSVM">NSSVM</a> solves the sparse support vector machine.  Source codes for <br>
+  <a style="text-decoration:none; color:#3D8C95" href="https://arxiv.org/abs/2005.13771">Sparse SVM for Sufficient Data Reduction</a>. <br><br>
  
-  <a style="text-decoration:none; color:#0070C0" href="https://github.com/ShenglongZhou/ADMM">ADMM</a> solves the sparse and low-rank covariance matrix recovery problem.   <br>
-  <a style="text-decoration:none; color:#0070C0" href="https://link.springer.com/article/10.1007/s40305-014-0058-7">Sparse and Low-Rank Covariance Matrix Estimation</a>. <br><br>
+  <a style="text-decoration:none; color:#3D8C95" href="https://github.com/ShenglongZhou/ADMM">ADMM</a> solves the sparse and low-rank covariance matrix recovery problem.   <br>
+  <a style="text-decoration:none; color:#3D8C95" href="https://link.springer.com/article/10.1007/s40305-014-0058-7">Sparse and Low-Rank Covariance Matrix Estimation</a>. <br><br>
  
 
   <b> Two general forms of sparse optimization: </b> 
@@ -89,11 +89,11 @@ redirect_from:
    <table border="2" width="0.5">
       <tr>
         <td style="width:8%" align="center"> </td>
-        <td style="width:5%" align="center"><a style="text-decoration:none; color:#0070C0"  href='https://github.com/ShenglongZhou/NHTPver2'>NHTP</a></td>
-        <td style="width:5%" align="center"><a style="text-decoration:none; color:#0070C0"  href='https://github.com/ShenglongZhou/NL0R'>NL0R</a></td>
-        <td style="width:5%" align="center"><a style="text-decoration:none; color:#0070C0"  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a></td>
-        <td style="width:5%" align="center"><a style="text-decoration:none; color:#0070C0" href='https://github.com/ShenglongZhou/MIRL1'>MIRL1</a></td>
-        <td style="width:5%" align="center"><a style="text-decoration:none; color:#0070C0"  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></td>
+        <td style="width:5%" align="center"><a style="text-decoration:none; color:#3D8C95"  href='https://github.com/ShenglongZhou/NHTPver2'>NHTP</a></td>
+        <td style="width:5%" align="center"><a style="text-decoration:none; color:#3D8C95"  href='https://github.com/ShenglongZhou/NL0R'>NL0R</a></td>
+        <td style="width:5%" align="center"><a style="text-decoration:none; color:#3D8C95"  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a></td>
+        <td style="width:5%" align="center"><a style="text-decoration:none; color:#3D8C95" href='https://github.com/ShenglongZhou/MIRL1'>MIRL1</a></td>
+        <td style="width:5%" align="center"><a style="text-decoration:none; color:#3D8C95"  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></td>
       </tr>
        <tr>
           <td style="width:8%" align="left"><b>Compressed sensing (<span style="color:orange">CS</span>)</b></td>
@@ -124,39 +124,39 @@ redirect_from:
   </font>
 
 
-## <span style="color:#009999"><b style="font-size:20px">EDM Optimization Solvers</b></span>
+## <span style="color:#3D8C95"><b style="font-size:20px">EDM Optimization Solvers</b></span>
 ---
   
   <font size=3> 
 
-  <a style="text-decoration:none; color:#0070C0" href="https://github.com/ShenglongZhou/SQREDM">SQREDM</a> solves the EDM optimization for multidimensional scaling,
+  <a style="text-decoration:none; color:#3D8C95" href="https://github.com/ShenglongZhou/SQREDM">SQREDM</a> solves the EDM optimization for multidimensional scaling,
   e.g.,  sensor network localization and molecular conformation.    <br>
-  <a style="text-decoration:none; color:#0070C0" href="https://ieeexplore.ieee.org/document/8399531">A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization with Box Constraints</a>.<br><br>
+  <a style="text-decoration:none; color:#3D8C95" href="https://ieeexplore.ieee.org/document/8399531">A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization with Box Constraints</a>.<br><br>
  
-  <a style="text-decoration:none; color:#0070C0" href="https://github.com/ShenglongZhou/PREEEDM">PREEEDM</a> solves the EDM optimization for multidimensional scaling ,
+  <a style="text-decoration:none; color:#3D8C95" href="https://github.com/ShenglongZhou/PREEEDM">PREEEDM</a> solves the EDM optimization for multidimensional scaling ,
   e.g.,  sensor network localization and molecular conformation.    <br>
-  <a style="text-decoration:none; color:#0070C0" href="https://doi.org/10.1007/s12532-019-00168-0">Robust Euclidean Embedding via EDM Optimization</a>. 
+  <a style="text-decoration:none; color:#3D8C95" href="https://doi.org/10.1007/s12532-019-00168-0">Robust Euclidean Embedding via EDM Optimization</a>. 
   </font>
 
 
 
-## <span style="color:#009999"><b style="font-size:20px">Bilevel Optimization Toolbox </b></span>
+## <span style="color:#3D8C95"><b style="font-size:20px">Bilevel Optimization Toolbox </b></span>
 ---
 
   <font size=3>
  
-  <a style="text-decoration:none; color:#0070C0" href="https://biopt.github.io/bolib/">BOLIBver2</a>, the second version of  the library providing 173 test examples. <br>
-  <a style="text-decoration:none; color:#0070C0" href="https://www.researchgate.net/publication/338375731">BOLIB2019: bilevel optimization library of test problems version 2</a>.<br><br>
+  <a style="text-decoration:none; color:#3D8C95" href="https://biopt.github.io/bolib/">BOLIBver2</a>, the second version of  the library providing 173 test examples. <br>
+  <a style="text-decoration:none; color:#3D8C95" href="https://www.researchgate.net/publication/338375731">BOLIB2019: bilevel optimization library of test problems version 2</a>.<br><br>
  
-  <a style="text-decoration:none; color:#0070C0" href="https://biopt.github.io/">BiOpt Toolbox</a>,  bilevel optimization toolbox including <a style="text-decoration:none; color:#0070C0" href="https://biopt.github.io/bolib/">BOLIBver2</a>, 
-  <a style="text-decoration:none; color:#0070C0" href="https://biopt.github.io/solvers/">three solvers</a> and several useful tools. <br>  <br> 
+  <a style="text-decoration:none; color:#3D8C95" href="https://biopt.github.io/">BiOpt Toolbox</a>,  bilevel optimization toolbox including <a style="text-decoration:none; color:#3D8C95" href="https://biopt.github.io/bolib/">BOLIBver2</a>, 
+  <a style="text-decoration:none; color:#3D8C95" href="https://biopt.github.io/solvers/">three solvers</a> and several useful tools. <br>  <br> 
   
   <details>
   <summary><span style="color:grey"><b style="font-size:15px">Click for more solvers</b></span></summary>
   <br> 
   
-  <a style="text-decoration:none; color:#0070C0" href="https://github.com/ShenglongZhou/BOLIB">BOLIB</a>, the first version of the library providing 124 test examples.  <br>
-  <a style="text-decoration:none; color:#0070C0" href="https://arxiv.org/abs/1812.00230">BOLIB: bilevel optimization library of test problems</a>.<br><br> 
+  <a style="text-decoration:none; color:#3D8C95" href="https://github.com/ShenglongZhou/BOLIB">BOLIB</a>, the first version of the library providing 124 test examples.  <br>
+  <a style="text-decoration:none; color:#3D8C95" href="https://arxiv.org/abs/1812.00230">BOLIB: bilevel optimization library of test problems</a>.<br><br> 
   </details>
   </font>
 
