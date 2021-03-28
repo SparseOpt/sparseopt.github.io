@@ -96,7 +96,7 @@ redirect_from:
         <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></td>
       </tr>
        <tr>
-          <td style="width:5%" align="left"> Compressed sensing(<span style="color:orange"><b>CS</b></span>)</td>
+          <td style="width:5%" align="left"><b>Compressed sensing (<span style="color:orange">CS</span>)</b></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
@@ -104,7 +104,7 @@ redirect_from:
           <td style="width:5%" align="center"> </td> 
       </tr>
         <tr>
-          <td style="width:5%" align="left">Logistic regression(<span style="color:orange"><b></b></span>)</td>
+          <td style="width:5%" align="left"><b>Logistic regression (<span style="color:orange">LR</span>)</b></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
@@ -112,7 +112,7 @@ redirect_from:
           <td style="width:5%" align="center"> </td> 
       </tr>
         <tr>
-          <td style="width:5%" align="left">Linear complementarity problem(<span style="color:orange"><b>LCP</b></span>)</td>
+          <td style="width:5%" align="left"><b>Linear complementarity problem (<span style="color:orange">LCP</span>)</b></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
