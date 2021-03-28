@@ -152,7 +152,7 @@ redirect_from:
   <a style="text-decoration:none; color:#225675" href="https://biopt.github.io/solvers/">three solvers</a> and several useful tools. <br>  <br> 
   
   <details>
-  <summary><span style="color:grey"><b style="font-size:15px">Click for more solvers</b></span></summary>
+  <summary><span style="color:#225675"><b style="font-size:15px">Click for more solvers</b></span></summary>
   <br> 
   
   <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/BOLIB">BOLIB</a>, the first version of the library providing 124 test examples.  <br>
