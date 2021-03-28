@@ -12,7 +12,7 @@ redirect_from:
 
 <font size=3>S.L. Zhou, L.L. Pan, N.H. Xiu and H.D. Qi, 2021 <br>
 <i>Quadratic convergence of Newton's method for 0/1 loss optimization</i>,
-<a href="https://www.researchgate.net/publication/350442413">ResearchGate</a></font> <br>
+<a href="https://www.researchgate.net/publication/350442413">ResearchGate</a></font>
   
 <font size=3>S.L. Zhou, L.L. Pan and N.H. Xiu, 2020 <br>
 <i>Heaviside set constrained optimization: optimality and Newton method</i>,
