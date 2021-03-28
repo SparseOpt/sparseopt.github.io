@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-## <span style="color:#225675"><b style="font-size:20px"> 0/1 Loss Optimization</b></span> 
+## <span style="color:#3D8C95"><b style="font-size:20px"> 0/1 Loss Optimization</b></span> 
 ---
 
 * <font size=3>S.L. Zhou, L.L. Pan, N.H. Xiu and H.D. Qi, 2021 <br>
@@ -38,7 +38,7 @@ redirect_from:
  
 
 
-## <span style="color:#225675"><b style="font-size:20px">Sparse Optimization</b></span>
+## <span style="color:#3D8C95"><b style="font-size:20px">Sparse Optimization</b></span>
 ---
 
 * <font size=3> S.L. Zhou, N.H. Xiu and H.D. Qi, Journal of Machine Learning Research, 22(12):1−45, 2021<br>
@@ -128,7 +128,7 @@ redirect_from:
   </details> 
 
 
-## <span style="color:#225675"><b style="font-size:20px">EDM Optimization</b></span>
+## <span style="color:#3D8C95"><b style="font-size:20px">EDM Optimization</b></span>
 ---
 
 * <font size=3> S.L. Zhou, N.H. Xiu and H.D. Qi, Mathematical Programming Computation, 12(3): 337–387, 2019<br>
@@ -152,7 +152,7 @@ redirect_from:
 
 
 
-## <span style="color:#225675"><b style="font-size:20px">Bilevel Optimization</b></span>
+## <span style="color:#3D8C95"><b style="font-size:20px">Bilevel Optimization</b></span>
 ---
 
 * <font size=3> A. Zemkoho and  S.L. Zhou, Computational Optimization and Application, 78(2), 625-674, 2021 <br>
