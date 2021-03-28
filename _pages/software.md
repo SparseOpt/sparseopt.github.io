@@ -8,7 +8,7 @@ redirect_from:
 ---
  
  
-<span style="color:grey"><b style="font-size:20px">0/1 Loss Optimization Solvers</b></span>
+## <span style="color:grey">0/1 Loss Optimization Solvers</span>
 --
 
   <font size=3> 
