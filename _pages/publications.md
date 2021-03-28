@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-## <span style="color:#009999"><b style="font-size:20px"> 0/1 Loss Optimization</b></span> 
+## <span style="color:#0070C0"><b style="font-size:20px"> 0/1 Loss Optimization</b></span> 
 ---
 
 * <font size=3>S.L. Zhou, L.L. Pan, N.H. Xiu and H.D. Qi, 2021 <br>
@@ -38,7 +38,7 @@ redirect_from:
  
 
 
-## <span style="color:#009999"><b style="font-size:20px">Sparse Optimization</b></span>
+## <span style="color:#0070C0"><b style="font-size:20px">Sparse Optimization</b></span>
 ---
 
 * <font size=3> S.L. Zhou, N.H. Xiu and H.D. Qi, Journal of Machine Learning Research, 22(12):1−45, 2021<br>
