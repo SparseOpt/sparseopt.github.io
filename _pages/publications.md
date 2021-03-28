@@ -33,7 +33,6 @@ redirect_from:
     *Support vector machine classifier via $L_{0/1}$ soft-margin loss* 
    </details> 
  
-
 <span style="color:grey"><b style="font-size:20px">Sparse Optimization</b></span>
 --
 
