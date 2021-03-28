@@ -55,7 +55,7 @@ redirect_from:
  
 
   ### <b> Two general forms of sparse optimization </b> <br><br>
-
+  ---
   * Sparsity  constrained optimization:
   \begin{eqnarray}
   \label{SCO} \min_{x} && f(x), ~ {\rm s.t.}, ~ \Vert x \Vert_0\leq s 
