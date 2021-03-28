@@ -133,7 +133,7 @@ redirect_from:
   e.g.,  sensor network localization and molecular conformation.    <br>
   <a style="text-decoration:none; color:#225675" href="https://ieeexplore.ieee.org/document/8399531">A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization with Box Constraints</a>.<br><br>
  
-  <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/PREEEDM">PREEEDM</a> solves applications from multidimensional scaling ,
+  <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/PREEEDM">PREEEDM</a> solves applications from multidimensional scaling,
   e.g.,  sensor network localization and molecular conformation.    <br>
   <a style="text-decoration:none; color:#225675" href="https://doi.org/10.1007/s12532-019-00168-0">Robust Euclidean Embedding via EDM Optimization</a>. 
   </font>
