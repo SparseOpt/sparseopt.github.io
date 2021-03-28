@@ -9,7 +9,7 @@ redirect_from:
  
  
 ## <span style="color:grey">0/1 Loss Optimization Solvers</span>
---
+---
 
   <font size=3> 
   <a href="https://github.com/ShenglongZhou/GPSP">GPSP</a>, a matlab package solving the one-bit compressive sensing problems.  Source codes for <br>
