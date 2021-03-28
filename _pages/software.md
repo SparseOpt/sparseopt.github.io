@@ -11,7 +11,7 @@ redirect_from:
 ## <span style="color:#3D8C95"><b style="font-size:20px">0/1 Loss Optimization Solvers</b></span>
 ---
 
-  <font size=4> 
+  <font size=3.5> 
   <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/GPSP">GPSP</a> solves the one-bit compressive sensing problems. <br>
   <a style="text-decoration:none; color:#225675" href="https://www.researchgate.net/publication/348371863">Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization</a>. <br> <br>
   
@@ -23,7 +23,7 @@ redirect_from:
 ## <span style="color:#3D8C95"><b style="font-size:20px">Sparse  Optimization Solvers</b></span>
 ---
 
-  <font size=4> 
+  <font size=3.5> 
   <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/NHTPver2">NHTP</a> solves the sparsity constrained optimization including CS, LR, LCP and etc.   <br> 
   <a style="text-decoration:none; color:#225675" href="https://arxiv.org/abs/1901.02763">Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit</a>. <br> <br>
     
