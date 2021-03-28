@@ -159,7 +159,7 @@ redirect_from:
   <a href="https://biopt.github.io/bolib/">BOLIBver2</a>, the second version of  the library providing 173 test examples. See <br>
   <a href="https://www.researchgate.net/publication/338375731">BOLIB2019: bilevel optimization library of test problems version 2</a> for more information.<br><br>
  
-  <a href="https://biopt.github.io/">BiOpt Toolbox</a>,  bilevel optimization toolbox including 173 test examples from <a href="https://biopt.github.io/bolib/">BOLIBver2</a>, three solvers to solve bilevel optimization problems and several useful tools. 
+  <a href="https://biopt.github.io/">BiOpt Toolbox</a>,  bilevel optimization toolbox including 173 test examples from <a href="https://biopt.github.io/bolib/">BOLIBver2</a>, three solvers and several useful tools. 
   </font>
 
 
