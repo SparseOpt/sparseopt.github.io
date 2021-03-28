@@ -36,7 +36,7 @@ redirect_from:
 <span style="color:grey"><b style="font-size:20px">Sparse Optimization</b></span>
 --
 
-  * Shenglong Zhou, Naihua Xiu and Houduo Qi, Journal of Machine Learning Research, 22(12):1−45, 2021<br>  
+  * Shenglong Zhou, Naihua Xiu and Houduo Qi, Journal of Machine Learning Research, 22(12):1−45, 2021<br>
   *Global and quadratic convergence of Newton hard-thresholding pursuit*,
   <a href="https://jmlr.org/papers/v22/19-026.html">JMLR</a>, 
   <a href="https://www.researchgate.net/publication/330224407">ResearchGate</a>, 
