@@ -147,14 +147,19 @@ redirect_from:
 
   <font size=3>
  
-  <a href="https://github.com/ShenglongZhou/BOLIB">BOLIB</a>, the first version of the library providing 124 test examples.  <br>
-  <a href="https://arxiv.org/abs/1812.00230">BOLIB: bilevel optimization library of test problems</a>.<br><br>
- 
   <a href="https://biopt.github.io/bolib/">BOLIBver2</a>, the second version of  the library providing 173 test examples. <br>
   <a href="https://www.researchgate.net/publication/338375731">BOLIB2019: bilevel optimization library of test problems version 2</a>.<br><br>
  
   <a href="https://biopt.github.io/">BiOpt Toolbox</a>,  bilevel optimization toolbox including <a href="https://biopt.github.io/bolib/">BOLIBver2</a>, 
   <a href="https://biopt.github.io/solvers/">three solvers</a> and several useful tools. 
+  
+  <details>
+  <summary><span style="color:grey"><b style="font-size:15px">Click for more solvers</b></span></summary>
+  <br> 
+  
+  <a href="https://github.com/ShenglongZhou/BOLIB">BOLIB</a>, the first version of the library providing 124 test examples.  <br>
+  <a href="https://arxiv.org/abs/1812.00230">BOLIB: bilevel optimization library of test problems</a>.<br><br> 
+  </details>
   </font>
 
 
