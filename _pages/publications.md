@@ -10,8 +10,8 @@ redirect_from:
 <details>
   <summary>Click to expand!</summary>
   
-- [ ] test
-- [ ] test2
+* [ ] test
+* [ ] test2
 </details>
 
 ## 0/1 Loss Optimization 
