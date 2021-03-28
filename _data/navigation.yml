@@ -6,14 +6,14 @@ main:
   - title: <span style="color:#009999"><b>Publications</b></span>
     url: /publications/
     
-  - title: <span style="background-color:grey"><b>Software</b></span>
+  - title: <span style="color:#009999"><b>Software</b></span>
     url: /software/
     
-  - title: <span style="background-color:grey"><b>Talks</b></span>
+  - title: <span style="color:#009999"><b>Talks</b></span>
     url: /talks/    
 
-  - title: <span style="background-color:grey"><b>Teaching</b></span>
+  - title: <span style="color:#009999"><b>Teaching</b></span>
     url: /teaching/    
     
-  - title: <span style="background-color:grey"><b>BiOpt Toolbox</b></span>
+  - title: <span style="color:#009999"><b>BiOpt Toolbox</b></span>
     url: /BiOptToolbox/    
