@@ -9,7 +9,7 @@ redirect_from:
 
 <span style="color:grey"><b style="font-size:20px">0/1 Loss Optimization</b></span>
 --
-  <font size=10> 
+  <font size=4> 
   <p><div style="text-align:justify"> 
   Shenglong Zhou, Lili Pan, Naihua Xiu and Houduo Qi, Quadratic convergence of Newton's method for 0/1 loss optimization, 2021. 
   <a href="https://www.researchgate.net/publication/350442413">ResearchGate</a>
@@ -42,6 +42,8 @@ redirect_from:
 
 <span style="color:grey"><b style="font-size:20px">Sparse Optimization</b></span>
 --
+
+  <font size=4> 
   <p><div style="text-align:justify"> 
   Shenglong Zhou, Naihua Xiu and Houduo Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, 
   Journal of Machine Learning Research, 22(12):1−45, 2021. 
@@ -152,20 +154,15 @@ redirect_from:
   Journal of the Operations Research Society of China, vol. 1(2): 227-237, 2013.
   <a href="https://link.springer.com/article/10.1007/s40305-013-0013-z">JORSC</a>
   </div></p> 
+  </details> 
+  </font>
 
-</details> 
-</p>
 
-<p>
-<details>
-  <summary><span style="color:grey"><b style="font-size:20px">EDM Optimization</b></span></summary> 
- 
-  <p><div style="text-align:justify"> 
-  Shenglong Zhou, Naihua Xiu and Houduo Qi, Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization, 
-  PhD Thesis, University of Southampton, 2018. 
-  <a href="https://eprints.soton.ac.uk/429739/">Soton</a>
-  </div></p> 
 
+<span style="color:grey"><b style="font-size:20px">EDM Optimization</b></span>
+--
+
+  <font size=4>
   <p><div style="text-align:justify"> 
   Shenglong Zhou, Naihua Xiu and Houduo Qi, Robust euclidean embedding via EDM optimization, 
   Mathematical Programming Computation, 12(3): 337–387, 2019.
@@ -179,13 +176,28 @@ redirect_from:
   <a href="https://ieeexplore.ieee.org/document/8399531">TSP</a>,
   <a href="https://github.com/ShenglongZhou/SQREDM">Code</a>
   </div></p> 
-</details>
-</p>
-
-<p>
-<details>
-  <summary><span style="color:grey"><b style="font-size:20px">Bilevel Optimization</b></span></summary> 
+  
+  
+  <details>
+  <summary><span style="color:grey"><b style="font-size:20px">EDM Optimization</b></span></summary> 
  
+  <p><div style="text-align:justify"> 
+  Shenglong Zhou, Naihua Xiu and Houduo Qi, Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization, 
+  PhD Thesis, University of Southampton, 2018. 
+  <a href="https://eprints.soton.ac.uk/429739/">Soton</a>
+  </div></p> 
+  </details>
+  
+  </font>
+
+
+
+
+<span style="color:grey"><b style="font-size:20px">Bilevel Optimization</b></span>
+--
+
+  <font size=4>
+  
   <p><div style="text-align:justify"> 
   Alain Zemkoho and  Shenglong Zhou, Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization, 
   Computational Optimization and Application, 78(2), 625-674, 2021.
@@ -193,13 +205,7 @@ redirect_from:
   <a href="https://www.researchgate.net/publication/340769764">ResearchGate</a>,
   <a href="https://arxiv.org/abs/2004.10830">ArXiv</a>
   </div></p> 
-
-  <p><div style="text-align:justify"> 
-  Andreas Fischer, Alain Zemkoho and  Shenglong Zhou, Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments, 2019. 
-  <a href="https://www.researchgate.net/publication/337943979">ResearchGate</a>,
-  <a href="https://arxiv.org/abs/1912.07079">ArXiv</a>
-  </div></p> 
-
+  
   <p><div style="text-align:justify"> 
   Shenglong Zhou, Alain Zemkoho and Andrey Tin, BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2, 
   Bilevel optimization: advances and next challenges, 2019. 
@@ -208,6 +214,16 @@ redirect_from:
   <a href="https://www.researchgate.net/publication/338375731">ResearchGate</a>,
   <a href="https://arxiv.org/abs/1812.00230">ArXiv</a>,
   <a href="https://biopt.github.io/bolib/">Code</a>
-  </div></p>
-</details> 
- </p> 
+  </div></p>  
+  
+  <details>
+  <summary><span style="color:grey"><b style="font-size:20px">Bilevel Optimization</b></span></summary> 
+
+  <p><div style="text-align:justify"> 
+  Andreas Fischer, Alain Zemkoho and  Shenglong Zhou, Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments, 2019. 
+  <a href="https://www.researchgate.net/publication/337943979">ResearchGate</a>,
+  <a href="https://arxiv.org/abs/1912.07079">ArXiv</a>
+  </div></p> 
+  </details> 
+  
+  </font>
