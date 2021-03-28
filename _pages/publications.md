@@ -164,7 +164,7 @@ redirect_from:
  
   
 * <font size=3>Shenglong Zhou, Alain Zemkoho and Andrey Tin, Bilevel optimization: advances and next challenges, 2019 <br> 
-  <i>BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2</i>,
+  <i>BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2</i> <br>
   <a href="https://biopt.github.io/files/Paper.pdf">BiOpt</a>,
   <a href="https://www.springer.com/gp/book/9783030521189">Book</a>, 
   <a href="https://www.researchgate.net/publication/338375731">ResearchGate</a>,
