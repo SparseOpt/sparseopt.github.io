@@ -157,7 +157,7 @@ redirect_from:
 ---
 
   * Shenglong Zhou, Naihua Xiu and Houduo Qi, Mathematical Programming Computation, 12(3): 337–387, 2019<br>
-  *Robust euclidean embedding via EDM optimization<br> 
+  *Robust euclidean embedding via EDM optimization*<br> 
   <a href="https://link.springer.com/article/10.1007/s12532-019-00168-0">MPC</a>,
   <a href="https://github.com/ShenglongZhou/PREEEDM">Code</a>
  
@@ -166,9 +166,7 @@ redirect_from:
   *A fast matrix majorization-projection method for penalized stress minimization with box constraints*<br>
   <a href="https://ieeexplore.ieee.org/document/8399531">TSP</a>,
   <a href="https://github.com/ShenglongZhou/SQREDM">Code</a>
-  
-  
-  
+   
 <details markdown="1">
   <summary><span style="color:grey"><b style="font-size:10px">Click for more papers</b></span></summary> 
  
@@ -176,9 +174,6 @@ redirect_from:
   *Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization* 
     
 </details>
-
-
-
 
 
 <span style="color:grey"><b style="font-size:20px">Bilevel Optimization</b></span>
