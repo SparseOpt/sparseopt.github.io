@@ -21,12 +21,12 @@ redirect_from:
    <details markdown="1"> 
     <summary><span style="color:grey"><b style="font-size:10px"> Click for more papers</b></span></summary> 
     
-    * Shenglong Zhou, Ziyan Luo and Naihua Xiu, 2021, [ResearchGate](https://www.researchgate.net/publication/348371863),
+* Shenglong Zhou, Ziyan Luo and Naihua Xiu, 2021, [ResearchGate](https://www.researchgate.net/publication/348371863),
     [ArXiv](https://arxiv.org/abs/2101.03599),
     [Code](https://github.com/ShenglongZhou/GPSP)<br>
     *Computing one-bit compressive sensing via double-sparsity constrained optimization* 
 
-    * Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, 2019, 
+* Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, 2019, 
     [ResearchGate](https://www.researchgate.net/publication/338717629), 
     [ArXiv](https://arxiv.org/abs/1912.07418), 
     [Code](https://github.com/Huajun-Wang/L01ADMM) <br> 
