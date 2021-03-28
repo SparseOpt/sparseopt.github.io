@@ -19,7 +19,7 @@ redirect_from:
   <a href="https://www.researchgate.net/publication/343362652">ResearchGate</a>,
   <a href="https://arxiv.org/abs/2007.15737">ArXiv</a></font>
   
-* <details markdown="1"> 
+  <details markdown="1"> 
   <summary><b style="font-size:10px">Click for more papers</b></summary> 
     
   * <font size=3>S.L. Zhou, Z.Y. Luo and N.H. Xiu, 2021 <br> 
@@ -62,7 +62,7 @@ redirect_from:
   <a href="https://arxiv.org/abs/2004.02244">ArXiv</a>,
   <a href="https://github.com/ShenglongZhou/NHTPver2">Code</a></font>  
     
-* <details markdown="1"> 
+  <details markdown="1"> 
   <summary><b style="font-size:10px">Click for more papers</b></summary> 
     
   * <font size=3>S.L. Zhou, 2020 <br>
@@ -141,7 +141,7 @@ redirect_from:
   <a href="https://ieeexplore.ieee.org/document/8399531">TSP</a>,
   <a href="https://github.com/ShenglongZhou/SQREDM">Code</a></font>
   
-* <details markdown="1"> 
+  <details markdown="1"> 
   <summary><b style="font-size:10px">Click for more papers</b></summary>  
   
   * <font size=3> S.L. Zhou, N.H. Xiu and H.D. Qi, PhD Thesis, University of Southampton, 2018<br>
@@ -170,7 +170,7 @@ redirect_from:
   <a href="https://arxiv.org/abs/1812.00230">ArXiv</a>,
   <a href="https://biopt.github.io/bolib/">Code</a></font>
 
- * <details markdown="1"> 
+  <details markdown="1"> 
    <summary><b style="font-size:10px">Click for more papers</b></summary> 
   
    * <font size=3> A. Fischer, A. Zemkoho and  S.L. Zhou, 2019 <br>
