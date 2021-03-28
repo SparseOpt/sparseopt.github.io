@@ -27,7 +27,6 @@ redirect_from:
   [ArXiv](https://arxiv.org/abs/2101.03599),
   [Code](https://github.com/ShenglongZhou/GPSP)<br>
     
-
 * Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, 2019 <br>
   *Support vector machine classifier via $L_{0/1}$ soft-margin loss* <br>
   [ResearchGate](https://www.researchgate.net/publication/338717629), 
