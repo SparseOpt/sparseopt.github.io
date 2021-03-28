@@ -11,7 +11,7 @@ redirect_from:
 <span style="color:grey">Education and Work Experience</span>
 ---
 Research Fellow in Computer Science, 2021- <br>
-<a style='color:#39CCCC' href='https://www.ecs.soton.ac.uk/'>School of Electronics and Computer Science</a><br>
+<a style="text-decoration:none; color:#39CCCC' href='https://www.ecs.soton.ac.uk/'>School of Electronics and Computer Science</a><br>
 University of Southampton, UK  <br>
 <br>
 Teaching Fellow in Operational Research, 2020-2021 <br>
