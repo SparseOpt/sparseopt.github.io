@@ -88,7 +88,7 @@ redirect_from:
 
    <table border="2" width="0.5">
       <tr>
-        <td style="width:5%" align="center"> </td>
+        <td style="width:8%" align="center"> </td>
         <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/NHTPver2'>NHTP</a></td>
         <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/NL0R'>NL0R</a></td>
         <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/IIHT'>IIHT</a></td>
@@ -96,7 +96,7 @@ redirect_from:
         <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></td>
       </tr>
        <tr>
-          <td style="width:5%" align="left"><b>Compressed sensing (<span style="color:orange">CS</span>)</b></td>
+          <td style="width:8%" align="left"><b>Compressed sensing (<span style="color:orange">CS</span>)</b></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
@@ -104,7 +104,7 @@ redirect_from:
           <td style="width:5%" align="center"> </td> 
       </tr>
         <tr>
-          <td style="width:5%" align="left"><b>Logistic regression (<span style="color:orange">LR</span>)</b></td>
+          <td style="width:8%" align="left"><b>Logistic regression (<span style="color:orange">LR</span>)</b></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
@@ -112,7 +112,7 @@ redirect_from:
           <td style="width:5%" align="center"> </td> 
       </tr>
         <tr>
-          <td style="width:5%" align="left"><b>Linear complementarity problem (<span style="color:orange">LCP</span>)</b></td>
+          <td style="width:8%" align="left"><b>Linear complementarity problem (<span style="color:orange">LCP</span>)</b></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
