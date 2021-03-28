@@ -20,7 +20,7 @@ redirect_from:
   <a href="https://arxiv.org/abs/2007.15737">ArXiv</a><br></font> 
   
   <details markdown="1"> 
-  <summary><span style="color:#E6873C"><b style="font-size:15px">Click for more papers</b></span> </summary> 
+  <summary><span style="color:#3AAFA9"><b style="font-size:15px">Click for more papers</b></span> </summary> 
 
   * <font size=3>S.L. Zhou, Z.Y. Luo and N.H. Xiu, 2021 <br> 
     <i>Computing one-bit compressive sensing via double-sparsity constrained optimization</i>,
@@ -63,7 +63,7 @@ redirect_from:
   <a href="https://github.com/ShenglongZhou/NHTPver2">Code</a><br></font> 
   
   <details markdown="1"> 
-  <summary><span style="color:#E6873C"><b style="font-size:15px">Click for more papers</b></span> </summary> 
+  <summary><span style="color:#3AAFA9"><b style="font-size:15px">Click for more papers</b></span> </summary> 
     
   * <font size=3>S.L. Zhou, 2020 <br>
     <i>Sparse SVM for sufficient data reduction</i>,
@@ -142,7 +142,7 @@ redirect_from:
   <a href="https://github.com/ShenglongZhou/SQREDM">Code</a><br></font> 
   
   <details markdown="1"> 
-  <summary><span style="color:grey"><b style="font-size:15px">Click for more papers</b></span> </summary>  
+  <summary><span style="color:#3AAFA9"><b style="font-size:15px">Click for more papers</b></span> </summary>  
   
   * <font size=3> S.L. Zhou, N.H. Xiu and H.D. Qi, PhD Thesis, University of Southampton, 2018<br>
     <i>Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization</i>,
@@ -171,7 +171,7 @@ redirect_from:
   <a href="https://biopt.github.io/bolib/">Code</a><br></font> 
   
   <details markdown="1"> 
-  <summary><span style="color:grey"><b style="font-size:15px">Click for more papers</b></span> </summary> 
+  <summary><span style="color:#3AAFA9"><b style="font-size:15px">Click for more papers</b></span> </summary> 
   
    * <font size=3> A. Fischer, A. Zemkoho and  S.L. Zhou, 2019 <br>
      <i>Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments</i>,
