@@ -31,7 +31,7 @@ redirect_from:
   [ResearchGate](https://www.researchgate.net/publication/338717629), 
   [ArXiv](https://arxiv.org/abs/1912.07418), 
   [Code](https://github.com/Huajun-Wang/L01ADMM) <br>
-  Support vector machine classifier via $L_{0/1}$ soft-margin loss, 
+  *Support vector machine classifier via $L_{0/1}$ soft-margin loss* 
   </details> 
  
 
