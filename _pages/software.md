@@ -124,7 +124,7 @@ redirect_from:
   </font>
 
 
-## <span style="color:grey"><b style="font-size:25px">EDM Optimization Solvers</b></span>
+## <span style="color:grey"><b style="font-size:20px">EDM Optimization Solvers</b></span>
 ---
   
   <font size=3> 
@@ -140,7 +140,7 @@ redirect_from:
 
 
 
-## <span style="color:grey"><b style="font-size:25px">Bilevel Optimization Toolbox </b></span>
+## <span style="color:grey"><b style="font-size:20px">Bilevel Optimization Toolbox </b></span>
 ---
 
   <font size=3>
