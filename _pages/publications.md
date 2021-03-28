@@ -17,10 +17,10 @@ redirect_from:
 * <font size=3>S.L. Zhou, L.L. Pan and N.H. Xiu, 2020 <br>
   <i>Heaviside set constrained optimization: optimality and Newton method</i>,
   <a href="https://www.researchgate.net/publication/343362652">ResearchGate</a>,
-  <a href="https://arxiv.org/abs/2007.15737">ArXiv</a></font>
+  <a href="https://arxiv.org/abs/2007.15737">ArXiv</a></font><br>
   
   <details markdown="1"> 
-  <summary><b style="font-size:10px">Click for more papers</b></summary> 
+  <summary><span style="color:grey"><b style="font-size:10px">Click for more papers</b></span> </summary> 
     
   * <font size=3>S.L. Zhou, Z.Y. Luo and N.H. Xiu, 2021 <br> 
     <i>Computing one-bit compressive sensing via double-sparsity constrained optimization</i>,
