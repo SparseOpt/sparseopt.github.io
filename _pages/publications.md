@@ -190,34 +190,29 @@ redirect_from:
 <span style="color:grey"><b style="font-size:20px">Bilevel Optimization</b></span>
 --
 
-  <font size=3>
-  
-  <p><div style="text-align:justify"> 
-  Alain Zemkoho and  Shenglong Zhou, Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization, 
-  Computational Optimization and Application, 78(2), 625-674, 2021.
+  * Alain Zemkoho and  Shenglong Zhou,   Computational Optimization and Application, 78(2), 625-674, 2021 <br>
+  *Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization* <br> 
   <a href="https://doi.org/10.1007/s10589-020-00250-7">JCOA</a>,
   <a href="https://www.researchgate.net/publication/340769764">ResearchGate</a>,
   <a href="https://arxiv.org/abs/2004.10830">ArXiv</a>
-  </div></p> 
+ 
   
-  <p><div style="text-align:justify"> 
-  Shenglong Zhou, Alain Zemkoho and Andrey Tin, BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2, 
-  Bilevel optimization: advances and next challenges, 2019. 
+  * Shenglong Zhou, Alain Zemkoho and Andrey Tin, Bilevel optimization: advances and next challenges, 2019 <br> 
+  *BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2* <br> 
   <a href="https://biopt.github.io/files/Paper.pdf">BiOpt</a>,
   <a href="https://www.springer.com/gp/book/9783030521189">Book</a>, 
   <a href="https://www.researchgate.net/publication/338375731">ResearchGate</a>,
   <a href="https://arxiv.org/abs/1812.00230">ArXiv</a>,
   <a href="https://biopt.github.io/bolib/">Code</a>
-  </div></p>  
+
   
-  <details>
+<details markdown="1">
   <summary><span style="color:grey"><b style="font-size:10px">Click for more papers</b></span></summary> 
 
-  <p><div style="text-align:justify"> 
-  Andreas Fischer, Alain Zemkoho and  Shenglong Zhou, Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments, 2019. 
+  * Andreas Fischer, Alain Zemkoho and  Shenglong Zhou, 2019 <br>
+  *Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments* <br> 
   <a href="https://www.researchgate.net/publication/337943979">ResearchGate</a>,
   <a href="https://arxiv.org/abs/1912.07079">ArXiv</a>
-  </div></p> 
-  </details> 
-  
-  </font>
+ 
+</details> 
+
