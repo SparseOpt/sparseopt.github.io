@@ -25,11 +25,11 @@ redirect_from:
 
   <font size=3> 
   <a href="https://github.com/ShenglongZhou/NHTPver2">NHTP</a> solves the sparsity constrained optimization, 
-  e.g., compressed sensing, logistic regression, linear complementarity problems and etc.   <br> 
+  e.g., CS, LR, LCP and etc.   <br> 
   <a href="https://arxiv.org/abs/1901.02763">Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit</a>. <br> <br>
     
   <a href="https://github.com/ShenglongZhou/NL0R">NL0R</a> solves the $\ell_0$ regularized optimization problems,
-  e.g., compressed sensing, logistic regression,  linear complementarity problems.   <br> 
+  e.g., CS, LR and LCP.   <br> 
   <a href="https://arxiv.org/abs/2004.05132">Newton Method for $\ell_0$-Regularized Optimization</a>.<br>  <br> 
   
   <details>
@@ -98,7 +98,7 @@ redirect_from:
         <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></td>
       </tr>
        <tr>
-          <td style="width:5%" align="left"><span style="color:orange"><b> Compressed sensing </b></span></td>
+          <td style="width:5%" align="left"> Compressed sensing(<span style="color:orange"><b>CS</b></span>)</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
@@ -106,7 +106,7 @@ redirect_from:
           <td style="width:5%" align="center"> </td> 
       </tr>
         <tr>
-          <td style="width:5%" align="left"><span style="color:orange"><b>Logistic regression</b></span></td>
+          <td style="width:5%" align="left">Logistic regression(<span style="color:orange"><b></b></span>)</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
@@ -114,7 +114,7 @@ redirect_from:
           <td style="width:5%" align="center"> </td> 
       </tr>
         <tr>
-          <td style="width:5%" align="left"><span style="color:orange"><b>Linear complementarity problem</b></span></td>
+          <td style="width:5%" align="left">Linear complementarity problem(<span style="color:orange"><b>LCP</b></span>)</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
