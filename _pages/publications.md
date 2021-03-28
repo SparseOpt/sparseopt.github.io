@@ -35,7 +35,7 @@ redirect_from:
   * <font size=3>Huajun Wang, Yuanhai Shao, Shenglong Zhou, Ce Zhang and Naihua Xiu, 2019 <br>
     <i>Support vector machine classifier via L0/1 soft-margin loss</i><br>
     <a href="https://www.researchgate.net/publication/338717629">ResearchGate</a>,
-    <a href="https://arxiv.org/abs/1912.07418">ArXiv</a> 
+    <a href="https://arxiv.org/abs/1912.07418">ArXiv</a>,
     <a href="https://github.com/Huajun-Wang/L01ADMM">Code</a> 
     </font>
      
