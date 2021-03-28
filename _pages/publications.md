@@ -9,7 +9,7 @@ redirect_from:
 
 <span style="color:grey"><b style="font-size:20px">0/1 Loss Optimization</b></span>
 --
-  <font size=4> 
+  <font size=3> 
   <p><div style="text-align:justify"> 
   Shenglong Zhou, Lili Pan, Naihua Xiu and Houduo Qi, Quadratic convergence of Newton's method for 0/1 loss optimization, 2021. 
   <a href="https://www.researchgate.net/publication/350442413">ResearchGate</a>
@@ -43,7 +43,7 @@ redirect_from:
 <span style="color:grey"><b style="font-size:20px">Sparse Optimization</b></span>
 --
 
-  <font size=4> 
+  <font size=3> 
   <p><div style="text-align:justify"> 
   Shenglong Zhou, Naihua Xiu and Houduo Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, 
   Journal of Machine Learning Research, 22(12):1−45, 2021. 
@@ -162,7 +162,7 @@ redirect_from:
 <span style="color:grey"><b style="font-size:20px">EDM Optimization</b></span>
 --
 
-  <font size=4>
+  <font size=3>
   <p><div style="text-align:justify"> 
   Shenglong Zhou, Naihua Xiu and Houduo Qi, Robust euclidean embedding via EDM optimization, 
   Mathematical Programming Computation, 12(3): 337–387, 2019.
@@ -196,7 +196,7 @@ redirect_from:
 <span style="color:grey"><b style="font-size:20px">Bilevel Optimization</b></span>
 --
 
-  <font size=4>
+  <font size=3>
   
   <p><div style="text-align:justify"> 
   Alain Zemkoho and  Shenglong Zhou, Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization, 
