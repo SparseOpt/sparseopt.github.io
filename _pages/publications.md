@@ -41,4 +41,25 @@ redirect_from:
      
   </details> 
  
- 
+
+
+## <span style="color:grey"><b style="font-size:20px">Sparse Optimization</b></span>
+---
+
+  * <font size=3>
+  Shenglong Zhou, Naihua Xiu and Houduo Qi, Journal of Machine Learning Research, 22(12):1−45, 2021<br>
+  <i>Global and quadratic convergence of Newton hard-thresholding pursuit</i><br>
+  <a href="https://jmlr.org/papers/v22/19-026.html">JMLR</a>, 
+  <a href="https://www.researchgate.net/publication/330224407">ResearchGate</a>, 
+  <a href="https://arxiv.org/abs/1901.02763">ArXiv</a>, 
+  <a href="https://github.com/ShenglongZhou/NHTPver2">Code</a>
+  </font>
+  
+  * <font size=3>
+  Shenglong Zhou, Lili Pan and Naihua Xiu,  Numerical Algorithms, 2021 <br>
+  <i>Newton method  for $\ell_0$-regularized optimization</i><br>
+  <a href="https://doi.org/10.1007/s11075-021-01085-x">NumAlg</a>, 
+  <a href="https://www.researchgate.net/publication/340563338">ResearchGate</a>, 
+  <a href="https://arxiv.org/abs/2004.05132">ArXiv</a>, 
+  <a href="https://github.com/ShenglongZhou/NL0R">Code</a>
+  </font>
