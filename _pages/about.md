@@ -17,11 +17,11 @@ University of Southampton, UK  <br>
 Teaching Fellow in Operational Research, 2020-2021 <br>
 Research Fellow in Operational Research, 2017-2020<br>
 PhD in  Operational Research, 2014-2017 <br>
-<a style="text-decoration:none; color:#CAEBF2" href='https://www.southampton.ac.uk/maths'>School of Mathematics</a>, <a style="text-decoration:none; color:#CAEBF2" href='https://www.southampton.ac.uk/'>University of Southampton</a>, UK <br>
+<a style="text-decoration:none; color:#0070C0" href='https://www.southampton.ac.uk/maths'>School of Mathematics</a>, <a style="text-decoration:none; color:#CAEBF2" href='https://www.southampton.ac.uk/'>University of Southampton</a>, UK <br>
 <br>
 M.S. in Operational Research, 2011-2014 <br>
 B.S. in Information and Computing Sciences, 2007-2011 <br>
-<a style="text-decoration:none; color:#3AAFA9" href='http://en.sci.njtu.edu.cn/Department/DepartmentofMathematics/index.htm'>Department of Mathematics</a>, <a style="text-decoration:none; color:#3AAFA9" href='http://en.njtu.edu.cn/'>Beijing Jiaotong University</a>, China 
+<a style="text-decoration:none; color:#0070C0" href='http://en.sci.njtu.edu.cn/Department/DepartmentofMathematics/index.htm'>Department of Mathematics</a>, <a style="text-decoration:none; color:#0070C0" href='http://en.njtu.edu.cn/'>Beijing Jiaotong University</a>, China 
 
 <span style="color:#A9A9A9">Research Interests</span>
 ---
@@ -31,11 +31,11 @@ My research interests include the theory and methods of optimization in the fiel
   optimization. </div></p> 
   
 <p><div style="text-align:justify"> 
-  <span style="color:#FF3B3F"> <b> Sparse  optimization.</b> </span>  Several first-order methods <a style="text-decoration:none; color:#3AAFA9" href="https://github.com/ShenglongZhou/MIRL1">MIRL1</a>, <a style="text-decoration:none; color:#3AAFA9" href="https://github.com/ShenglongZhou/IIHT">IIHT</a> and <a style="text-decoration:none; color:#3AAFA9" href="https://github.com/ShenglongZhou/HTPCP">HTPCP</a>, and second-order methods  <a style="text-decoration:none; color:#3AAFA9" href="https://github.com/ShenglongZhou/NHTPver2">NHTP</a>, <a style="text-decoration:none; color:#3AAFA9" href="https://github.com/ShenglongZhou/NHTPver2">NL0R</a> and <a style="text-decoration:none; color:#3AAFA9" href="https://github.com/ShenglongZhou/NHTPver2">NSSVM</a>, have been developed to solve the compressed sensing, sparse logistic regression, sparse linear complementarity problems, support vector machines, and so on.  
+  <span style="color:#FF3B3F"> <b> Sparse  optimization.</b> </span>  Several first-order methods <a style="text-decoration:none; color:#0070C0" href="https://github.com/ShenglongZhou/MIRL1">MIRL1</a>, <a style="text-decoration:none; color:#0070C0" href="https://github.com/ShenglongZhou/IIHT">IIHT</a> and <a style="text-decoration:none; color:#0070C0" href="https://github.com/ShenglongZhou/HTPCP">HTPCP</a>, and second-order methods  <a style="text-decoration:none; color:#0070C0" href="https://github.com/ShenglongZhou/NHTPver2">NHTP</a>, <a style="text-decoration:none; color:#0070C0" href="https://github.com/ShenglongZhou/NHTPver2">NL0R</a> and <a style="text-decoration:none; color:#0070C0" href="https://github.com/ShenglongZhou/NHTPver2">NSSVM</a>, have been developed to solve the compressed sensing, sparse logistic regression, sparse linear complementarity problems, support vector machines, and so on.  
 </div></p>
 
 <p><div style="text-align:justify">
-  <span style="color:#FF3B3F"><b>Euclidean distance matrix optimization.</b></span> This is the topic of my <a style="text-decoration:none; color:#3AAFA9" href="https://eprints.soton.ac.uk/429739/">PhD thesis</a>, in which the majorization techniques were adopted to design competitively fast algorithms packaged into two solvers <a style="text-decoration:none; color:#3AAFA9" href="https://github.com/ShenglongZhou/PREEEDM">PREEEDM</a> and <a style="text-decoration:none; color:#3AAFA9" href="https://github.com/ShenglongZhou/SQREDM">SQREDM</a>. 
+  <span style="color:#FF3B3F"><b>Euclidean distance matrix optimization.</b></span> This is the topic of my <a style="text-decoration:none; color:#0070C0" href="https://eprints.soton.ac.uk/429739/">PhD thesis</a>, in which the majorization techniques were adopted to design competitively fast algorithms packaged into two solvers <a style="text-decoration:none; color:#0070C0" href="https://github.com/ShenglongZhou/PREEEDM">PREEEDM</a> and <a style="text-decoration:none; color:#0070C0" href="https://github.com/ShenglongZhou/SQREDM">SQREDM</a>. 
 </div></p>
 
  <p><div style="text-align:justify">
