@@ -24,19 +24,17 @@ redirect_from:
 ---
 
   <font size=3> 
-  <a href="https://github.com/ShenglongZhou/NHTPver2">NHTP</a> solves the sparsity constrained optimization, 
-  e.g., CS, LR, LCP and etc.   <br> 
+  <a href="https://github.com/ShenglongZhou/NHTPver2">NHTP</a> solves the sparsity constrained optimization including CS, LR, LCP and etc.   <br> 
   <a href="https://arxiv.org/abs/1901.02763">Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit</a>. <br> <br>
     
-  <a href="https://github.com/ShenglongZhou/NL0R">NL0R</a> solves the $\ell_0$ regularized optimization problems,
-  e.g., CS, LR and LCP.   <br> 
+  <a href="https://github.com/ShenglongZhou/NL0R">NL0R</a> solves the $\ell_0$ regularized optimization problems including CS, LR and LCP.   <br> 
   <a href="https://arxiv.org/abs/2004.05132">Newton Method for $\ell_0$-Regularized Optimization</a>.<br>  <br> 
   
   <details>
   <summary><span style="color:grey"><b style="font-size:15px">Click for more solvers</b></span></summary>
   <br> 
 
-  <a href="https://github.com/ShenglongZhou/IIHT">IIHT</a> solves the sparsity constrained optimization problems.   <br>
+  <a href="https://github.com/ShenglongZhou/IIHT">IIHT</a> solves the sparsity constrained optimization including CS, LR, LCP and etc.   <br>
   <a href="http://www.ybook.co.jp/online2/oppjo/vol13/p325.html">A Convergent Iterative Hard Thresholding for Sparsity and Nonnegativity Constrained Optimization</a>. <br><br>
  
   <a href="https://github.com/ShenglongZhou/MIRL1">MIRL1</a> solves the reweighted $\ell_1$ minimization.    <br>
