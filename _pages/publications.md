@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-## <span style="color:grey"><b style="font-size:20px">0/1 Loss Optimization</b></span>
+## 0/1 Loss Optimization 
 ---
  
   * Shenglong Zhou, Lili Pan, Naihua Xiu and Houduo Qi, 2021, [ResearchGate](https://www.researchgate.net/publication/350442413) <br>
