@@ -60,10 +60,10 @@ redirect_from:
   <a href="https://doi.org/10.1137/19M1301539">SISC</a>, 
   <a href="https://www.researchgate.net/publication/337948990">ResearchGate</a>,
   <a href="https://arxiv.org/abs/2004.02244">ArXiv</a>,
-  <a href="https://github.com/ShenglongZhou/NHTPver2">Code</a></font>  
-    
+  <a href="https://github.com/ShenglongZhou/NHTPver2">Code</a></font><br>
+  
   <details markdown="1"> 
-  <summary><b style="font-size:10px">Click for more papers</b></summary> 
+  <summary><span style="color:grey"><b style="font-size:10px">Click for more papers</b></span> </summary> 
     
   * <font size=3>S.L. Zhou, 2020 <br>
     <i>Sparse SVM for sufficient data reduction</i>,
@@ -139,10 +139,10 @@ redirect_from:
 * <font size=3> S.L. Zhou, N.H. Xiu and H.D. Qi, IEEE Transactions on Signal Processing,  66(16): 4331-4346, 2018<br> 
   <i>A fast matrix majorization-projection method for penalized stress minimization with box constraints</i>,
   <a href="https://ieeexplore.ieee.org/document/8399531">TSP</a>,
-  <a href="https://github.com/ShenglongZhou/SQREDM">Code</a></font>
+  <a href="https://github.com/ShenglongZhou/SQREDM">Code</a></font><br>
   
   <details markdown="1"> 
-  <summary><b style="font-size:10px">Click for more papers</b></summary>  
+  <summary><span style="color:grey"><b style="font-size:10px">Click for more papers</b></span> </summary>  
   
   * <font size=3> S.L. Zhou, N.H. Xiu and H.D. Qi, PhD Thesis, University of Southampton, 2018<br>
     <i>Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization</i>,
@@ -168,10 +168,10 @@ redirect_from:
   <a href="https://www.springer.com/gp/book/9783030521189">Book</a>, 
   <a href="https://www.researchgate.net/publication/338375731">ResearchGate</a>,
   <a href="https://arxiv.org/abs/1812.00230">ArXiv</a>,
-  <a href="https://biopt.github.io/bolib/">Code</a></font>
-
+  <a href="https://biopt.github.io/bolib/">Code</a></font><br>
+  
   <details markdown="1"> 
-   <summary><b style="font-size:10px">Click for more papers</b></summary> 
+  <summary><span style="color:grey"><b style="font-size:10px">Click for more papers</b></span> </summary> 
   
    * <font size=3> A. Fischer, A. Zemkoho and  S.L. Zhou, 2019 <br>
      <i>Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments</i>,
