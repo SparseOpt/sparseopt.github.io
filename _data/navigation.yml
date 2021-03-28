@@ -1,18 +1,18 @@
 # main links links
 main:
-  - title: <span style="color:#3D8C95"><b>Home</b></span>
+  - title: <span style="color:#225675"><b>Home</b></span>
     url: /about/
     
   - title: <span style="color:#225675"><b>Publications</b></span>
     url: /publications/
     
-  - title: <span style="color:#3D8C95"><b>Software</b></span>
+  - title: <span style="color:#225675"><b>Software</b></span>
     url: /software/
     
   - title: <span style="color:#225675"><b>Talks</b></span>
     url: /talks/    
 
-  - title: <span style="color:#3D8C95"><b>Teaching</b></span>
+  - title: <span style="color:#225675"><b>Teaching</b></span>
     url: /teaching/    
     
   - title: <span style="color:#225675"><b>BiOpt Toolbox</b></span>
