@@ -21,8 +21,8 @@ redirect_from:
   <a href="https://www.researchgate.net/publication/343362652">ResearchGate</a>,
   <a href="https://arxiv.org/abs/2007.15737">ArXiv</a> 
   </font>
-  
-* <details markdown="1"> 
+  <br> 
+  <details markdown="1"> 
   <summary><b style="font-size:10px">Click for more papers</b></summary> 
     
   * <font size=3>Shenglong Zhou, Ziyan Luo and Naihua Xiu, 2021 <br> 
