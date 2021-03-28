@@ -39,7 +39,7 @@ My research interests include the theory and methods of optimization in the fiel
 </div></p>
 
  <p><div style="text-align:justify">
-  <span style="color:#F9A828"><b>Bilevel optimization.</b></span>   A Matlab-based <a style="text-decoration:none; color:#3AAFA9" href="https://biopt.github.io/">BiOpt Toolbox</a> has been created, aiming at providing a platform on which users can test a wide range collection of bilevel optimization examples from <a style="text-decoration:none; color:#3AAFA9" href="https://biopt.github.io/">BOLIBver2</a> through three our provided solvers and several useful tools. 
+  <span style="color:#F9A828"><b>Bilevel optimization.</b></span>   A Matlab-based <a style="text-decoration:none; color:#3AAFA9" href="https://biopt.github.io/">BiOpt Toolbox</a> has been created, aiming at providing a platform on which users can test a wide range collection of bilevel optimization examples from <a style="text-decoration:none; color:#F9A828" href="https://biopt.github.io/">BOLIBver2</a> through three our provided solvers and several useful tools. 
 </div></p>
 
 
