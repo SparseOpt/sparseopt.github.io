@@ -23,7 +23,7 @@ M.S. in Operational Research, 2011-2014 <br>
 B.S. in Information and Computing Sciences, 2007-2011 <br>
 [Department of Mathematics](http://en.sci.njtu.edu.cn/Department/DepartmentofMathematics/index.htm), [Beijing Jiaotong University](http://en.njtu.edu.cn/), China 
 
-<span style="color:#225675">Research Interests</span>
+<span style="color:#007D93">Research Interests</span>
 ---
 
 <p><div style="text-align:justify;"> 
