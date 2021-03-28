@@ -52,7 +52,7 @@ redirect_from:
   <a href="https://link.springer.com/article/10.1007/s40305-014-0058-7">Sparse and Low-Rank Covariance Matrix Estimation</a>. <br><br>
  
 
-  <b> Two general forms of sparse optimization </b> <br><br>
+  <b> Two general forms of sparse optimization </b> 
   
    \begin{eqnarray*}
    \begin{array}{lll}
