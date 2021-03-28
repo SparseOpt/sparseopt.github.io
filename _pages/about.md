@@ -31,15 +31,15 @@ My research interests include the theory and methods of optimization in the fiel
   optimization. </div></p> 
   
 <p><div style="text-align:justify"> 
-  <span style="color:#E6873C"> <b> Sparse  optimization.</b> </span>  Several first-order methods <a href="https://github.com/ShenglongZhou/MIRL1">MIRL1</a>, <a href="https://github.com/ShenglongZhou/IIHT">IIHT</a> and <a href="https://github.com/ShenglongZhou/HTPCP">HTPCP</a>, and second-order methods  <a href="https://github.com/ShenglongZhou/NHTPver2">NHTP</a>, <a href="https://github.com/ShenglongZhou/NHTPver2">NL0R</a> and <a href="https://github.com/ShenglongZhou/NHTPver2">NSSVM</a>, have been developed to solve the compressed sensing, sparse logistic regression, sparse linear complementarity problems, support vector machines, and so on.  
+  <span style="color:#E6873C"> <b> Sparse  optimization.</b> </span>  Several first-order methods <a style="text-decoration:none; color:#3AAFA9" href="https://github.com/ShenglongZhou/MIRL1">MIRL1</a>, <a style="text-decoration:none; color:#3AAFA9" href="https://github.com/ShenglongZhou/IIHT">IIHT</a> and <a style="text-decoration:none; color:#3AAFA9" href="https://github.com/ShenglongZhou/HTPCP">HTPCP</a>, and second-order methods  <a style="text-decoration:none; color:#3AAFA9" href="https://github.com/ShenglongZhou/NHTPver2">NHTP</a>, <a style="text-decoration:none; color:#3AAFA9" href="https://github.com/ShenglongZhou/NHTPver2">NL0R</a> and <a style="text-decoration:none; color:#3AAFA9" href="https://github.com/ShenglongZhou/NHTPver2">NSSVM</a>, have been developed to solve the compressed sensing, sparse logistic regression, sparse linear complementarity problems, support vector machines, and so on.  
 </div></p>
 
 <p><div style="text-align:justify">
-  <span style="color:#E6873C"><b>Euclidean distance matrix optimization.</b></span> This is the topic of my <a href="https://eprints.soton.ac.uk/429739/">PhD thesis</a>, in which the majorization techniques were adopted to design competitively fast algorithms packaged into two solvers <a href="https://github.com/ShenglongZhou/PREEEDM">PREEEDM</a> and <a href="https://github.com/ShenglongZhou/SQREDM">SQREDM</a>. 
+  <span style="color:#E6873C"><b>Euclidean distance matrix optimization.</b></span> This is the topic of my <a style="text-decoration:none; color:#3AAFA9" href="https://eprints.soton.ac.uk/429739/">PhD thesis</a>, in which the majorization techniques were adopted to design competitively fast algorithms packaged into two solvers <a style="text-decoration:none; color:#3AAFA9" href="https://github.com/ShenglongZhou/PREEEDM">PREEEDM</a> and <a style="text-decoration:none; color:#3AAFA9" href="https://github.com/ShenglongZhou/SQREDM">SQREDM</a>. 
 </div></p>
 
  <p><div style="text-align:justify">
-  <span style="color:#E6873C"><b>Bilevel optimization.</b></span>   A Matlab-based <a href="https://biopt.github.io/">BiOpt Toolbox</a> has been created, aiming at providing a platform on which users can test a wide range collection of bilevel optimization examples from <a href="https://biopt.github.io/">BOLIBver2</a> through three our provided solvers and several useful tools. 
+  <span style="color:#E6873C"><b>Bilevel optimization.</b></span>   A Matlab-based <a style="text-decoration:none; color:#3AAFA9" href="https://biopt.github.io/">BiOpt Toolbox</a> has been created, aiming at providing a platform on which users can test a wide range collection of bilevel optimization examples from <a style="text-decoration:none; color:#3AAFA9" href="https://biopt.github.io/">BOLIBver2</a> through three our provided solvers and several useful tools. 
 </div></p>
 
 
