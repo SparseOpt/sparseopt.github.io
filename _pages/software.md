@@ -60,7 +60,7 @@ redirect_from:
    \text{L0 regularized optimization:} &~\min_{x}&~f(x) +\lambda \Vert x \Vert_0,
    \end{array}
    \end{eqnarray*}
-   where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$, $s\ll n, \lambda>0$and $\Vert x \Vert_0$ is the so-called $\ell_0$ norm that counts the number of nonzero elements of $x$.    <br><br>
+   where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$, $s\ll n, \lambda>0$ and $\Vert x \Vert_0$ is the so-called $\ell_0$ norm that counts the number of nonzero elements of $x$.    <br><br>
  
  
   <!---### <b> Applications of sparse optimization </b>  <br><br>
