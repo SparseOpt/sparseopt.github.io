@@ -12,10 +12,10 @@ redirect_from:
 ---
 
   <font size=3> 
-  <a href="https://github.com/ShenglongZhou/GPSP">GPSP</a>, a matlab package solving the one-bit compressive sensing problems.  Source codes for <br>
+  <a href="https://github.com/ShenglongZhou/GPSP">GPSP</a>, a matlab package solving the one-bit compressive sensing problems.  <br>
   <a href="https://www.researchgate.net/publication/348371863">Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization</a>. <br><br>
   
-  <a href="https://github.com/Huajun-Wang/L01ADMM">L01ADMM</a>, a matlab package solving the support vector machine.  Source codes for <br>
+  <a href="https://github.com/Huajun-Wang/L01ADMM">L01ADMM</a>, a matlab package solving the support vector machine.   <br>
   <a href="https://arxiv.org/abs/1912.07418">Support vector machine classifier via  $L_{0/1}$ soft-margin loss</a>.     
   </font>
 
@@ -25,29 +25,29 @@ redirect_from:
 ---
 
   <font size=3> 
-  <a href="https://github.com/ShenglongZhou/NHTPver2">NHTP</a>, a matlab package solving the sparsity constrained optimization problems including compressed sensing, sparse logistic regression, sparse linear complementarity problems and so on.  Source codes for <br>
+  <a href="https://github.com/ShenglongZhou/NHTPver2">NHTP</a>, a matlab package solving the sparsity constrained optimization problems including compressed sensing, sparse logistic regression, sparse linear complementarity problems and so on.   <br>
   <a href="https://arxiv.org/abs/1901.02763">Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit</a>. <br><br>
     
-  <a href="https://github.com/ShenglongZhou/NL0R">NL0R</a>, a matlab package solving the $\ell_0$ regularized optimization problems including compressed sensing, sparse logistic regression, sparse linear complementarity problems.  Source codes for <br>
+  <a href="https://github.com/ShenglongZhou/NL0R">NL0R</a>, a matlab package solving the $\ell_0$ regularized optimization problems including compressed sensing, sparse logistic regression, sparse linear complementarity problems.   <br>
   <a href="https://arxiv.org/abs/2004.05132">Newton Method for $\ell_0$-Regularized Optimization</a>.<br> <br> 
   
   <details>
   <summary><span style="color:grey"><b style="font-size:10px">Click for more solvers</b></span></summary>
   <br> 
 
-  <a href="https://github.com/ShenglongZhou/IIHT">IIHT</a>, a matlab package solving the sparsity constrained optimization problems.  Source codes for <br>
+  <a href="https://github.com/ShenglongZhou/IIHT">IIHT</a>, a matlab package solving the sparsity constrained optimization problems.   <br>
   <a href="http://www.ybook.co.jp/online2/oppjo/vol13/p325.html">A Convergent Iterative Hard Thresholding for Sparsity and Nonnegativity Constrained Optimization</a>. <br><br>
  
-  <a href="https://github.com/ShenglongZhou/MIRL1">MIRL1</a>, a matlab package solving the reweighted $\ell_1$ minimization.  Source codes for <br>
+  <a href="https://github.com/ShenglongZhou/MIRL1">MIRL1</a>, a matlab package solving the reweighted $\ell_1$ minimization.    <br>
   <a href="https://doi.org/10.1093/imaiai/iaw002">A Null-space-based Weighted $\ell_1$ Minimisation Approach to Compressed Sensing</a>.<br><br>
  
-  <a href="https://github.com/ShenglongZhou/HTPCP">HTPCP</a>, a matlab package solving the sparse linear/nonlinear complementarity problems.  Source codes for <br>
+  <a href="https://github.com/ShenglongZhou/HTPCP">HTPCP</a>, a matlab package solving the sparse linear/nonlinear complementarity problems.   <br>
   <a href="https://link.springer.com/article/10.1007/s11590-014-0834-7">A Half Thresholding Projection Algorithmfor Sparse Solutions of LCPs</a>. <br><br>
  
   <a href="https://github.com/ShenglongZhou/NSSVM">NSSVM</a>, a matlab package solving the sparse support vector machine.  Source codes for <br>
   <a href="https://arxiv.org/abs/2005.13771">Sparse SVM for Sufficient Data Reduction</a>. <br><br>
  
-  <a href="https://github.com/ShenglongZhou/ADMM">ADMM</a>, a matlab package solving the  sparse and low-rank covariance matrix recovery problem.  Source codes for <br>
+  <a href="https://github.com/ShenglongZhou/ADMM">ADMM</a>, a matlab package solving the  sparse and low-rank covariance matrix recovery problem.   <br>
   <a href="https://link.springer.com/article/10.1007/s40305-014-0058-7">Sparse and Low-Rank Covariance Matrix Estimation</a>. <br><br>
  
 
@@ -139,10 +139,10 @@ redirect_from:
   
   <font size=3> 
 
-  <a href="https://github.com/ShenglongZhou/SQREDM">SQREDM</a>, a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <br>
+  <a href="https://github.com/ShenglongZhou/SQREDM">SQREDM</a>, a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.    <br>
   <a href="https://ieeexplore.ieee.org/document/8399531">A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization with Box Constraints</a>.<br><br>
  
-  <a href="https://github.com/ShenglongZhou/PREEEDM">PREEEDM</a>, a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.   Source codes for <br>
+  <a href="https://github.com/ShenglongZhou/PREEEDM">PREEEDM</a>, a matlab package solving Euclidean distance matrix optimization problems for multidimensional scaling including sensor network localization, molecular conformation.  <br>
   <a href="https://doi.org/10.1007/s12532-019-00168-0">Robust Euclidean Embedding via EDM Optimization</a>. 
   </font>
 
@@ -153,10 +153,10 @@ redirect_from:
 
   <font size=3>
  
-  <a href="https://github.com/ShenglongZhou/BOLIB">BOLIB</a>, the first version of the library providing 124 test examples. See <br>
+  <a href="https://github.com/ShenglongZhou/BOLIB">BOLIB</a>, the first version of the library providing 124 test examples.  <br>
   <a href="https://arxiv.org/abs/1812.00230">BOLIB: bilevel optimization library of test problems</a> for more information.<br><br>
  
-  <a href="https://biopt.github.io/bolib/">BOLIBver2</a>, the second version of  the library providing 173 test examples. See <br>
+  <a href="https://biopt.github.io/bolib/">BOLIBver2</a>, the second version of  the library providing 173 test examples. <br>
   <a href="https://www.researchgate.net/publication/338375731">BOLIB2019: bilevel optimization library of test problems version 2</a> for more information.<br><br>
  
   <a href="https://biopt.github.io/">BiOpt Toolbox</a>,  bilevel optimization toolbox including 173 test examples from <a href="https://biopt.github.io/bolib/">BOLIBver2</a>, three solvers and several useful tools. 
