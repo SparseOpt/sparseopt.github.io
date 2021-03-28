@@ -27,8 +27,8 @@ redirect_from:
   <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/NHTPver2">NHTP</a> solves the sparsity constrained optimization including CS, LR, LCP and etc.   <br> 
   <a style="text-decoration:none; color:#225675" href="https://arxiv.org/abs/1901.02763">Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit</a>. <br> <br>
     
-  <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/NL0R">NL0R</a> solves the $\ell_0$ regularized optimization problems including CS, LR and LCP.   <br> 
-  <a style="text-decoration:none; color:#225675" href="https://arxiv.org/abs/2004.05132">Newton Method for $\ell_0$-Regularized Optimization</a>.<br>  <br> 
+  <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/NL0R">NL0R</a> solves the L0 regularized optimization problems including CS, LR and LCP.   <br> 
+  <a style="text-decoration:none; color:#225675" href="https://arxiv.org/abs/2004.05132">Newton Method for L0-Regularized Optimization</a>.<br>  <br> 
   
   <details>
   <summary><span style="color:#225675"><b style="font-size:15px">Click for more solvers</b></span></summary>
@@ -37,8 +37,8 @@ redirect_from:
   <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/IIHT">IIHT</a> solves the sparsity constrained optimization including CS, LR, LCP and etc.   <br>
   <a style="text-decoration:none; color:#225675" href="http://www.ybook.co.jp/online2/oppjo/vol13/p325.html">A Convergent Iterative Hard Thresholding for Sparsity and Nonnegativity Constrained Optimization</a>. <br><br>
  
-  <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/MIRL1">MIRL1</a> solves the reweighted $\ell_1$ minimization.    <br>
-  <a style="text-decoration:none; color:#225675" href="https://doi.org/10.1093/imaiai/iaw002">A Null-space-based Weighted $\ell_1$ Minimisation Approach to Compressed Sensing</a>.<br><br>
+  <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/MIRL1">MIRL1</a> solves the reweighted L1 minimization.    <br>
+  <a style="text-decoration:none; color:#225675" href="https://doi.org/10.1093/imaiai/iaw002">A Null-space-based Weighted L1 Minimisation Approach to Compressed Sensing</a>.<br><br>
  
   <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/HTPCP">HTPCP</a> solves the sparse linear/nonlinear complementarity problems.   <br>
   <a style="text-decoration:none; color:#225675" href="https://link.springer.com/article/10.1007/s11590-014-0834-7">A Half Thresholding Projection Algorithmfor Sparse Solutions of LCPs</a>. <br><br>
