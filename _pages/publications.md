@@ -17,7 +17,7 @@ redirect_from:
 * <font size=3>S.L. Zhou, L.L. Pan and N.H. Xiu, 2020 <br>
   <i>Heaviside set constrained optimization: optimality and Newton method</i>,
   <a href="https://www.researchgate.net/publication/343362652">ResearchGate</a>,
-  <a href="https://arxiv.org/abs/2007.15737">ArXiv</a></font> 
+  <a href="https://arxiv.org/abs/2007.15737">ArXiv</a><br></font> 
   
   <details markdown="1"> 
   <summary><span style="color:grey"><b style="font-size:15px">Click for more papers</b></span> </summary> 
@@ -60,7 +60,7 @@ redirect_from:
   <a href="https://doi.org/10.1137/19M1301539">SISC</a>, 
   <a href="https://www.researchgate.net/publication/337948990">ResearchGate</a>,
   <a href="https://arxiv.org/abs/2004.02244">ArXiv</a>,
-  <a href="https://github.com/ShenglongZhou/NHTPver2">Code</a></font> 
+  <a href="https://github.com/ShenglongZhou/NHTPver2">Code</a><br></font> 
   
   <details markdown="1"> 
   <summary><span style="color:grey"><b style="font-size:15px">Click for more papers</b></span> </summary> 
