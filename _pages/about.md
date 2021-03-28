@@ -17,11 +17,11 @@ University of Southampton, UK  <br>
 Teaching Fellow in Operational Research, 2020-2021 <br>
 Research Fellow in Operational Research, 2017-2020<br>
 PhD in  Operational Research, 2014-2017 <br>
-<a style="text-decoration:none; color:#3D8C95" href='https://www.southampton.ac.uk/maths'>School of Mathematics</a>,<a style="text-decoration:none; color:#39CCCC" href='https://www.southampton.ac.uk/'>University of Southampton</a>, UK <br>
+<a style="text-decoration:none; color:#3D8C95" href='https://www.southampton.ac.uk/maths'>School of Mathematics</a>, <a style="text-decoration:none; color:#39CCCC" href='https://www.southampton.ac.uk/'>University of Southampton</a>, UK <br>
 <br>
 M.S. in Operational Research, 2011-2014 <br>
 B.S. in Information and Computing Sciences, 2007-2011 <br>
-[Department of Mathematics](http://en.sci.njtu.edu.cn/Department/DepartmentofMathematics/index.htm), [Beijing Jiaotong University](http://en.njtu.edu.cn/), China 
+<a style="text-decoration:none; color:#3D8C95" href='http://en.sci.njtu.edu.cn/Department/DepartmentofMathematics/index.htm'>Department of Mathematics</a>, <a style="text-decoration:none; color:#3D8C95" href='http://en.njtu.edu.cn/'>Beijing Jiaotong University</a>, China 
 
 <span style="color:#225675">Research Interests</span>
 ---
