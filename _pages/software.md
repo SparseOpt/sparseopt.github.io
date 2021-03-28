@@ -86,7 +86,7 @@ redirect_from:
   <br>
   --->
 
-  ### Applications solved by the aforementioned solvers are summarized in following table:<br>
+   Applications solved by the aforementioned solvers are summarized in following table:<br>
 
    <table border="2" width="0.5">
       <tr>
