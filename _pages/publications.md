@@ -10,13 +10,12 @@ redirect_from:
 ## <span style="color:grey"><b style="font-size:20px"> 0/1 Loss Optimization</b></span> 
 ---
 
-* <font size=3>
-  Shenglong Zhou, Lili Pan, Naihua Xiu and Houduo Qi, 2021 <br>
+* <font size=3>Shenglong Zhou, Lili Pan, Naihua Xiu and Houduo Qi, 2021 <br>
   <i>Quadratic convergence of Newton's method for 0/1 loss optimization</i>,
   <a href="https://www.researchgate.net/publication/350442413">ResearchGate</a> 
   </font>
   
-* <font size=3> Shenglong Zhou, Lili Pan and Naihua Xiu, 2020 <br>
+* <font size=3>Shenglong Zhou, Lili Pan and Naihua Xiu, 2020 <br>
   <i>Heaviside set constrained optimization: optimality and Newton method</i>,
   <a href="https://www.researchgate.net/publication/343362652">ResearchGate</a>,
   <a href="https://arxiv.org/abs/2007.15737">ArXiv</a>
@@ -51,13 +50,11 @@ redirect_from:
   <a href="https://jmlr.org/papers/v22/19-026.html">JMLR</a>, 
   <a href="https://www.researchgate.net/publication/330224407">ResearchGate</a>, 
   <a href="https://arxiv.org/abs/1901.02763">ArXiv</a>, 
-  <a href="https://github.com/ShenglongZhou/NHTPver2">Code</a>
-  </font>
+  <a href="https://github.com/ShenglongZhou/NHTPver2">Code</a></font>
   
   * <font size=3> Shenglong Zhou, Lili Pan and Naihua Xiu,  Numerical Algorithms, 2021 <br>
   <i>Newton method  for $\ell_0$-regularized optimization</i>,
   <a href="https://doi.org/10.1007/s11075-021-01085-x">NumAlg</a>, 
   <a href="https://www.researchgate.net/publication/340563338">ResearchGate</a>, 
   <a href="https://arxiv.org/abs/2004.05132">ArXiv</a>, 
-  <a href="https://github.com/ShenglongZhou/NL0R">Code</a>
-  </font>
+  <a href="https://github.com/ShenglongZhou/NL0R">Code</a></font>
