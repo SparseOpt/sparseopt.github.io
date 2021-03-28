@@ -127,7 +127,7 @@ redirect_from:
 ## <span style="color:#3D8C95"><b style="font-size:20px">EDM Optimization Solvers</b></span>
 ---
   
-  <font size=4> 
+  <font size=3.5> 
 
   <a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/SQREDM">SQREDM</a> solves the EDM optimization for multidimensional scaling,
   e.g.,  sensor network localization and molecular conformation.    <br>
@@ -143,7 +143,7 @@ redirect_from:
 ## <span style="color:#3D8C95"><b style="font-size:20px">Bilevel Optimization Toolbox </b></span>
 ---
 
-  <font size=4>
+  <font size=3.5>
  
   <a style="text-decoration:none; color:#225675" href="https://biopt.github.io/bolib/">BOLIBver2</a>, the second version of  the library providing 173 test examples. <br>
   <a style="text-decoration:none; color:#225675" href="https://www.researchgate.net/publication/338375731">BOLIB2019: bilevel optimization library of test problems version 2</a>.<br><br>
