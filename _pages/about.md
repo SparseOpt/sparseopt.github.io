@@ -44,5 +44,3 @@ My research interests include the theory and methods of optimization in the fiel
 
 
 
-
-
