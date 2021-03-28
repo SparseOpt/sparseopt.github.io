@@ -8,7 +8,7 @@ redirect_from:
 ---
  
 
-<span style="color:grey"><b style="font-size:20px">0/1 Loss Optimization</b></span> 
+## <font size=6><span style="color:grey">0/1 Loss Optimization</span> </font> 
 ---
  
   * Shenglong Zhou, Lili Pan, Naihua Xiu and Houduo Qi, 2021 <br>
