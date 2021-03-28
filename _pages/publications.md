@@ -42,9 +42,6 @@ redirect_from:
 
 <span style="color:grey"><b style="font-size:20px">Sparse Optimization</b></span>
 --
-<details>
-  <summary><span style="color:grey"><b style="font-size:20px">Sparse Optimization</b></span></summary>  
- 
   <p><div style="text-align:justify"> 
   Shenglong Zhou, Naihua Xiu and Houduo Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, 
   Journal of Machine Learning Research, 22(12):1−45, 2021. 
@@ -53,7 +50,18 @@ redirect_from:
   <a href="https://arxiv.org/abs/1901.02763">ArXiv</a>, 
   <a href="https://github.com/ShenglongZhou/NHTPver2">Code</a>
   </div></p>  
-
+  
+  <p><div style="text-align:justify"> 
+  Shenglong Zhou, Lili Pan and Naihua Xiu, Newton method  for $\ell_0$-regularized optimization, Numerical Algorithms, 2021.
+  <a href="https://doi.org/10.1007/s11075-021-01085-x">NumAlg</a>, 
+  <a href="https://www.researchgate.net/publication/340563338">ResearchGate</a>, 
+  <a href="https://arxiv.org/abs/2004.05132">ArXiv</a>, 
+  <a href="https://github.com/ShenglongZhou/NL0R">Code</a>
+  </div></p> 
+  
+  <details>
+  <summary><span style="color:grey"><b style="font-size:10px">Click for more papers</b></span></summary>  
+ 
   <p><div style="text-align:justify"> 
   Shenglong Zhou, Lili Pan, Mu Li and Meijuan Shang, Newton hard-thresholding pursuit for sparse LCP via a new merit function, 
   SIAM Journal on Scientific Computing, 43(2), A772–A799, 2021.
@@ -61,14 +69,6 @@ redirect_from:
   <a href="https://www.researchgate.net/publication/337948990">ResearchGate</a>, 
   <a href="https://arxiv.org/abs/2004.02244">ArXiv</a>,  
   <a href="https://github.com/ShenglongZhou/NHTPver2">Code</a>
-  </div></p> 
-
-  <p><div style="text-align:justify"> 
-   Shenglong Zhou, Lili Pan and Naihua Xiu, Newton method  for $\ell_0$-regularized optimization, Numerical Algorithms, 2021.
-  <a href="https://doi.org/10.1007/s11075-021-01085-x">NumAlg</a>, 
-  <a href="https://www.researchgate.net/publication/340563338">ResearchGate</a>, 
-  <a href="https://arxiv.org/abs/2004.05132">ArXiv</a>, 
-  <a href="https://github.com/ShenglongZhou/NL0R">Code</a>
   </div></p> 
 
   <p><div style="text-align:justify"> 
