@@ -10,34 +10,35 @@ redirect_from:
 ## <span style="color:#3D8C95"><b style="font-size:20px"> 0/1 Loss Optimization</b></span> 
 ---
 
-<font size=3>S.L. Zhou, L.L. Pan, N.H. Xiu and H.D. Qi, 2021 <br>
+<font size=3>
+S.L. Zhou, L.L. Pan, N.H. Xiu and H.D. Qi, 2021 <br>
 <i>Quadratic convergence of Newton's method for 0/1 loss optimization</i>,
-<a style="text-decoration:none; color:#225675" href="https://www.researchgate.net/publication/350442413">ResearchGate</a><br></font>
+<a style="text-decoration:none; color:#225675" href="https://www.researchgate.net/publication/350442413">ResearchGate</a> <br> <br> 
 
  
-<font size=3>S.L. Zhou, L.L. Pan and N.H. Xiu, 2020 <br>
+S.L. Zhou, L.L. Pan and N.H. Xiu, 2020 <br>
 <i>Heaviside set constrained optimization: optimality and Newton method</i>,
 <a style="text-decoration:none; color:#225675" href="https://www.researchgate.net/publication/343362652">ResearchGate</a>,
-<a style="text-decoration:none; color:#225675" href="https://arxiv.org/abs/2007.15737">ArXiv</a><br></font> 
+<a style="text-decoration:none; color:#225675" href="https://arxiv.org/abs/2007.15737">ArXiv</a> <br> <br> 
  
 
 <details markdown="1"> 
 <summary><span style="color:#225675"><b style="font-size:15px">Click for more papers</b></span> </summary> 
 
-<font size=3>S.L. Zhou, Z.Y. Luo and N.H. Xiu, 2021 <br> 
+S.L. Zhou, Z.Y. Luo and N.H. Xiu, 2021 <br> 
 <i>Computing one-bit compressive sensing via double-sparsity constrained optimization</i>,
 <a style="text-decoration:none; color:#225675" href="https://www.researchgate.net/publication/348371863">ResearchGate</a>,
 <a style="text-decoration:none; color:#225675" href="https://arxiv.org/abs/2101.03599">ArXiv</a>,
-<a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/GPSP">Code</a><br></font>
+<a style="text-decoration:none; color:#225675" href="https://github.com/ShenglongZhou/GPSP">Code</a><br><br> 
  
-<font size=3>H.J. Wang, Y.H. Shao, S.L. Zhou, C. Zhang and N.H. Xiu, 2019 <br>
+H.J. Wang, Y.H. Shao, S.L. Zhou, C. Zhang and N.H. Xiu, 2019 <br>
 <i>Support vector machine classifier via L0/1 soft-margin loss</i>,
 <a style="text-decoration:none; color:#225675" href="https://www.researchgate.net/publication/338717629">ResearchGate</a>,
 <a style="text-decoration:none; color:#225675" href="https://arxiv.org/abs/1912.07418">ArXiv</a>,
-<a style="text-decoration:none; color:#225675" href="https://github.com/Huajun-Wang/L01ADMM">Code</a></font>
+<a style="text-decoration:none; color:#225675" href="https://github.com/Huajun-Wang/L01ADMM">Code</a><br> 
 
 </details> 
- 
+</font> 
 
 
 ## <span style="color:#3D8C95"><b style="font-size:20px">Sparse Optimization</b></span>
