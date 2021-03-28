@@ -49,7 +49,7 @@ redirect_from:
   <a href="https://github.com/ShenglongZhou/NHTPver2">Code</a></font>
   
   * <font size=3> Shenglong Zhou, Lili Pan and Naihua Xiu,  Numerical Algorithms, 2021 <br>
-  <i>Newton method  for $\ell_0$-regularized optimization</i>,
+  <i>Newton method  for L0-regularized optimization</i>,
   <a href="https://doi.org/10.1007/s11075-021-01085-x">NumAlg</a>, 
   <a href="https://www.researchgate.net/publication/340563338">ResearchGate</a>, 
   <a href="https://arxiv.org/abs/2004.05132">ArXiv</a>, 
@@ -91,15 +91,15 @@ redirect_from:
   <a href="https://github.com/ShenglongZhou/IIHT">Code</a></font>
 
 * <font size=3>Lianjun Zhang, Lingchen Kong and  Shenglong Zhou,Journal of Industrial and Management Optimization, vol. 13 (1): 93 - 112, 2017 <br>
-  <i>A smoothing iterative method for quantile regression with nonconvex $\ell_p$ Penalty</i>,
+  <i>A smoothing iterative method for quantile regression with nonconvex lp Penalty</i>,
   <a href="https://aimsciences.org/article/doi/10.3934/jimo.2016006">JIMO</a></font>
 
 * <font size=3>Yanqing Liu, Guokai Liu, Xianchao Xiu and  Shenglong Zhou,Pacific Journal of Optimization, vol. 13(2): 279-300, 2017 <br>
   <i>The $L_1$-penalized quantile regression for traditional Chinese medicine syndrome manifestation</i>,
   <a href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p279.html">PJO</a></font>
 
-* <font size=3>Shenglong Zhou, Naihua Xiu, YingnanWang, Lingchen Kong and Houduo Qi, Information and Inference: A Journal of the IMA, vol. 5(1): 76-102, 2016 <br>
-  <i>A Null-space-based weighted $\ell_1$ minimization approach to compressed sensing</i>,
+* <font size=3>Shenglong Zhou, Naihua Xiu, YingnanWang, Lingchen Kong and Houduo Qi, Information and Inference, vol. 5(1): 76-102, 2016 <br>
+  <i>A Null-space-based weighted l1 minimization approach to compressed sensing</i>,
   <a href="https://academic.oup.com/imaiai/article/5/1/76/2357109">IMAIAI</a>,
   <a href="https://www.researchgate.net/publication/294109268">ResearchGate</a>,
   <a href="https://github.com/ShenglongZhou/MIRL1">Code</a></font>
