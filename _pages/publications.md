@@ -25,7 +25,7 @@ redirect_from:
    [ResearchGate](https://www.researchgate.net/publication/343362652),  [ArXiv](https://arxiv.org/abs/2007.15737) <br>
    *Heaviside set constrained optimization: optimality and Newton method*
    
-<details> 
+<details markdown="1"> 
   <summary> Click for more papers </summary> 
   
   ### heads
