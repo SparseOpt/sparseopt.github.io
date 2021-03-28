@@ -18,7 +18,7 @@ redirect_from:
   *Heaviside set constrained optimization: optimality and Newton method* <br>
   [ResearchGate](https://www.researchgate.net/publication/343362652),  [ArXiv](https://arxiv.org/abs/2007.15737)
    
-<details markdown="1">
+* <details markdown="1">
   <summary> Click for more papers </summary> 
     
 * Shenglong Zhou, Ziyan Luo and Naihua Xiu, 2021 <br> 
@@ -33,6 +33,6 @@ redirect_from:
   [ArXiv](https://arxiv.org/abs/1912.07418), 
   [Code](https://github.com/Huajun-Wang/L01ADMM) <br> 
      
-</details> 
+  </details> 
  
  
