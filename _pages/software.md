@@ -54,37 +54,32 @@ redirect_from:
   <a href="https://link.springer.com/article/10.1007/s40305-014-0058-7">Sparse and Low-Rank Covariance Matrix Estimation</a>. <br><br>
  
 
-  ### <b> Two general forms of sparse optimization </b> <br><br>
-  ---
-    * Sparsity  constrained optimization:
-    \begin{eqnarray}
-    \label{SCO} \min_{x} && f(x), ~ {\rm s.t.}, ~ \Vert x \Vert_0\leq s 
-    \end{eqnarray}
-     where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$, $s\ll n$ and $\Vert x \Vert_0$ is the so-called $\ell_0$ norm that counts the number of nonzero elements of $x$. <br><br>
+  <b> Two general forms of sparse optimization </b> <br><br>
 
-    * $\ell_0$ regularized optimization:
-    \begin{eqnarray}
-    \label{L0RO} \min_{x} && f(x) +\lambda \Vert x \Vert_0 
-    \end{eqnarray}
-     where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$ and $\lambda>0$.  <br><br>
+   Sparsity  constrained optimization:
+   \begin{eqnarray}
+   \label{SCO} \min_{x} && f(x), ~ {\rm s.t.}, ~ \Vert x \Vert_0\leq s 
+   \end{eqnarray}
+   where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$, $s\ll n$ and $\Vert x \Vert_0$ is the so-called $\ell_0$ norm that counts the number of nonzero elements of $x$. <br><br>
+
+   $\ell_0$ regularized optimization:
+   \begin{eqnarray}
+   \label{L0RO} \min_{x} && f(x) +\lambda \Vert x \Vert_0 
+   \end{eqnarray}
+   where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$ and $\lambda>0$.  <br><br>
  
  
-  ### <b> Applications of sparse optimization </b>  <br><br>
- 
+  <!---### <b> Applications of sparse optimization </b>  <br><br>
   * Compressed sensing (<span style="color:orange"><b>CS</b></span>):
   \begin{eqnarray}
   f(x) = (1/2) \Vert Ax-b \Vert^2
   \end{eqnarray}
-  where $A\in\mathbb{R}^{m\times n}, b\in \mathbb{R}^{m}$. <br><br>
-
- 
+  where $A\in\mathbb{R}^{m\times n}, b\in \mathbb{R}^{m}$. <br><br> 
   * Sparse logistic regression (<span style="color:orange"><b>SLR</b></span>):
   \begin{eqnarray}
   f(x) =  \frac{1}{m}\sum_{i=1}^{m}\left\lbrace \ln(1+ e^{\langle a_i, x\rangle})-b_i\langle a_i, x\rangle\right \rbrace+\mu\Vert x\Vert_2^2  
   \end{eqnarray}
   where $a_i\in\mathbb{R}^{n}, b_i\in \lbrace 0,1\rbrace, i=1,2,\cdots,m$ and $\mu\geq0$.<br><br>
-
-
   * Sparse linear complementarity problem (<span style="color:orange"><b>SLCP</b></span>):
   \begin{eqnarray}
   f(x) = \frac{1}{r}\sum_{i=1}^{m}\left\lbrace   (x_i)^r_{+}(M_ix+q_i)^r_{+}  +   (-x_i)^r_{+}   +  (-M_ix-q_i)^r_+ \right \rbrace 
@@ -94,7 +89,8 @@ redirect_from:
   \begin{eqnarray}
    f(x)=0~~ \Longleftrightarrow~~ x \geq 0,~ Mx+q\geq 0,~ \langle x , Mx+q \rangle=0 \nonumber
   \end{eqnarray}
-  <br> 
+  <br>
+  --->
 
   ### Applications solved by the aforementioned solvers are summarized in following table:<br>
 
@@ -108,7 +104,7 @@ redirect_from:
         <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></td>
       </tr>
        <tr>
-          <td style="width:5%" align="left"><span style="color:orange"><b>CS</b></span></td>
+          <td style="width:5%" align="left"><span style="color:orange"><b> Compressed sensing </b></span></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
@@ -116,7 +112,7 @@ redirect_from:
           <td style="width:5%" align="center"> </td> 
       </tr>
         <tr>
-          <td style="width:5%" align="left"><span style="color:orange"><b>SLR</b></span></td>
+          <td style="width:5%" align="left"><span style="color:orange"><b>Logistic regression</b></span></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
@@ -124,7 +120,7 @@ redirect_from:
           <td style="width:5%" align="center"> </td> 
       </tr>
         <tr>
-          <td style="width:5%" align="left"><span style="color:orange"><b>SLCP</b></span></td>
+          <td style="width:5%" align="left"><span style="color:orange"><b>Linear complementarity problem</b></span></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
