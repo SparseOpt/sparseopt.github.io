@@ -56,17 +56,17 @@ redirect_from:
 
   ### <b> Two general forms of sparse optimization </b> <br><br>
   ---
-  * Sparsity  constrained optimization:
-  \begin{eqnarray}
-  \label{SCO} \min_{x} && f(x), ~ {\rm s.t.}, ~ \Vert x \Vert_0\leq s 
-  \end{eqnarray}
-   where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$, $s\ll n$ and $\Vert x \Vert_0$ is the so-called $\ell_0$ norm that counts the number of nonzero elements of $x$. 
+    * Sparsity  constrained optimization:
+    \begin{eqnarray}
+    \label{SCO} \min_{x} && f(x), ~ {\rm s.t.}, ~ \Vert x \Vert_0\leq s 
+    \end{eqnarray}
+     where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$, $s\ll n$ and $\Vert x \Vert_0$ is the so-called $\ell_0$ norm that counts the number of nonzero elements of $x$. <br><br>
 
-  * $\ell_0$ regularized optimization:
-  \begin{eqnarray}
-  \label{L0RO} \min_{x} && f(x) +\lambda \Vert x \Vert_0 
-  \end{eqnarray}
-   where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$ and $\lambda>0$.  <br><br>
+    * $\ell_0$ regularized optimization:
+    \begin{eqnarray}
+    \label{L0RO} \min_{x} && f(x) +\lambda \Vert x \Vert_0 
+    \end{eqnarray}
+     where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$ and $\lambda>0$.  <br><br>
  
  
   ### <b> Applications of sparse optimization </b>  <br><br>
