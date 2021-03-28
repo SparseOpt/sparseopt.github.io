@@ -11,40 +11,44 @@ redirect_from:
 <span style="color:grey"><b style="font-size:20px">0/1 Loss Optimization</b></span> 
 ---
  
-  * Shenglong Zhou, Lili Pan, Naihua Xiu and Houduo Qi, 2021, [ResearchGate](https://www.researchgate.net/publication/350442413) <br>
-  *Quadratic convergence of Newton's method for 0/1 loss optimization*  
+  * Shenglong Zhou, Lili Pan, Naihua Xiu and Houduo Qi, 2021 <br>
+  *Quadratic convergence of Newton's method for 0/1 loss optimization* <br>
+   [ResearchGate](https://www.researchgate.net/publication/350442413)
   
-  * Shenglong Zhou, Lili Pan and Naihua Xiu, 2020, 
-   [ResearchGate](https://www.researchgate.net/publication/343362652),  [ArXiv](https://arxiv.org/abs/2007.15737) <br>
-   *Heaviside set constrained optimization: optimality and Newton method*
+  * Shenglong Zhou, Lili Pan and Naihua Xiu, 2020 <br>
+   *Heaviside set constrained optimization: optimality and Newton method* <br>
+   [ResearchGate](https://www.researchgate.net/publication/343362652),  [ArXiv](https://arxiv.org/abs/2007.15737)
    
 <details markdown="1">
   <summary><span style="color:blue"><b style="font-size:10px"> Click for more papers</b></span></summary> 
     
-  * Shenglong Zhou, Ziyan Luo and Naihua Xiu, 2021, [ResearchGate](https://www.researchgate.net/publication/348371863),
-    [ArXiv](https://arxiv.org/abs/2101.03599),
-    [Code](https://github.com/ShenglongZhou/GPSP)<br>
-    *Computing one-bit compressive sensing via double-sparsity constrained optimization* 
+  * Shenglong Zhou, Ziyan Luo and Naihua Xiu, 2021 <br> 
+  *Computing one-bit compressive sensing via double-sparsity constrained optimization* <br> 
+  [ResearchGate](https://www.researchgate.net/publication/348371863),
+  [ArXiv](https://arxiv.org/abs/2101.03599),
+  [Code](https://github.com/ShenglongZhou/GPSP)<br>
+    
 
-  * Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, 2019, 
-    [ResearchGate](https://www.researchgate.net/publication/338717629), 
-    [ArXiv](https://arxiv.org/abs/1912.07418), 
-    [Code](https://github.com/Huajun-Wang/L01ADMM) <br> 
-    *Support vector machine classifier via $L_{0/1}$ soft-margin loss* 
+  * Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, 2019 <br>
+  *Support vector machine classifier via $L_{0/1}$ soft-margin loss* <br>
+  [ResearchGate](https://www.researchgate.net/publication/338717629), 
+  [ArXiv](https://arxiv.org/abs/1912.07418), 
+  [Code](https://github.com/Huajun-Wang/L01ADMM) <br> 
+     
 </details> 
  
 <span style="color:grey"><b style="font-size:20px">Sparse Optimization</b></span>
 --
 
   * Shenglong Zhou, Naihua Xiu and Houduo Qi, Journal of Machine Learning Research, 22(12):1−45, 2021<br>
-  *Global and quadratic convergence of Newton hard-thresholding pursuit*,
+  *Global and quadratic convergence of Newton hard-thresholding pursuit* <br>
   <a href="https://jmlr.org/papers/v22/19-026.html">JMLR</a>, 
   <a href="https://www.researchgate.net/publication/330224407">ResearchGate</a>, 
   <a href="https://arxiv.org/abs/1901.02763">ArXiv</a>, 
   <a href="https://github.com/ShenglongZhou/NHTPver2">Code</a>
   
-  * Shenglong Zhou, Lili Pan and Naihua Xiu,  Numerical Algorithms, 2021.<br>
-  *Newton method  for $\ell_0$-regularized optimization*,
+  * Shenglong Zhou, Lili Pan and Naihua Xiu,  Numerical Algorithms, 2021 <br>
+  *Newton method  for $\ell_0$-regularized optimization* <br>
   <a href="https://doi.org/10.1007/s11075-021-01085-x">NumAlg</a>, 
   <a href="https://www.researchgate.net/publication/340563338">ResearchGate</a>, 
   <a href="https://arxiv.org/abs/2004.05132">ArXiv</a>, 
