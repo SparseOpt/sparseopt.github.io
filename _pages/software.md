@@ -14,7 +14,7 @@ redirect_from:
   <font size=3> 
   <a href="https://github.com/ShenglongZhou/GPSP">GPSP</a>, source code for 
   <a href="https://www.researchgate.net/publication/348371863">Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization</a>. <br>
-  This matlab package solves the one-bit compressive sensing problems.  <br><br>
+  It solves the one-bit compressive sensing problems.  <br><br>
   
   <a href="https://github.com/Huajun-Wang/L01ADMM">L01ADMM</a>, a matlab package solving the support vector machine.   <br>
   <a href="https://arxiv.org/abs/1912.07418">Support vector machine classifier via  $L_{0/1}$ soft-margin loss</a>.     
@@ -27,8 +27,7 @@ redirect_from:
 
   <font size=3> 
   <a href="https://github.com/ShenglongZhou/NHTPver2">NHTP</a>, source code for <a href="https://arxiv.org/abs/1901.02763">Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit</a>. <br>
-  This matlab package solves the sparsity constrained optimization problems including <br>
-  compressed sensing, sparse logistic regression, sparse linear complementarity problems and so on.   <br> <br>
+  It solves the sparsity constrained optimization including  compressed sensing, sparse logistic regression, sparse linear complementarity problems and etc.   <br> <br>
     
   <a href="https://github.com/ShenglongZhou/NL0R">NL0R</a>, a matlab package solving the $\ell_0$ regularized optimization problems including <br>
   compressed sensing, sparse logistic regression, sparse linear complementarity problems.   <br>
