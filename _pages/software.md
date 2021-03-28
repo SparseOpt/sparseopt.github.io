@@ -8,7 +8,7 @@ redirect_from:
 ---
  
  
-## <span style="color:#225675"><b style="font-size:20px">0/1 Loss Optimization Solvers</b></span>
+## <span style="color:#3D8C95"><b style="font-size:20px">0/1 Loss Optimization Solvers</b></span>
 ---
 
   <font size=3> 
@@ -20,7 +20,7 @@ redirect_from:
       
   </font>
 
-## <span style="color:#225675"><b style="font-size:20px">Sparse  Optimization Solvers</b></span>
+## <span style="color:#3D8C95"><b style="font-size:20px">Sparse  Optimization Solvers</b></span>
 ---
 
   <font size=3> 
@@ -96,7 +96,7 @@ redirect_from:
         <td style="width:5%" align="center"><a style="text-decoration:none; color:#225675"  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></td>
       </tr>
        <tr>
-          <td style="width:8%" align="left"><b>Compressed sensing (<span style="color:orange">CS</span>)</b></td>
+          <td style="width:8%" align="left"><b>Compressed sensing (<span style="color:#225675">CS</span>)</b></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
@@ -104,7 +104,7 @@ redirect_from:
           <td style="width:5%" align="center"> </td> 
       </tr>
         <tr>
-          <td style="width:8%" align="left"><b>Logistic regression (<span style="color:orange">LR</span>)</b></td>
+          <td style="width:8%" align="left"><b>Logistic regression (<span style="color:#225675">LR</span>)</b></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
@@ -112,7 +112,7 @@ redirect_from:
           <td style="width:5%" align="center"> </td> 
       </tr>
         <tr>
-          <td style="width:8%" align="left"><b>Linear complementarity problem (<span style="color:orange">LCP</span>)</b></td>
+          <td style="width:8%" align="left"><b>Linear complementarity problem (<span style="color:#225675">LCP</span>)</b></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
@@ -124,7 +124,7 @@ redirect_from:
   </font>
 
 
-## <span style="color:#225675"><b style="font-size:20px">EDM Optimization Solvers</b></span>
+## <span style="color:#3D8C95"><b style="font-size:20px">EDM Optimization Solvers</b></span>
 ---
   
   <font size=3> 
@@ -140,7 +140,7 @@ redirect_from:
 
 
 
-## <span style="color:#225675"><b style="font-size:20px">Bilevel Optimization Toolbox </b></span>
+## <span style="color:#3D8C95"><b style="font-size:20px">Bilevel Optimization Toolbox </b></span>
 ---
 
   <font size=3>
