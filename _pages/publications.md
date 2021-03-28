@@ -43,13 +43,13 @@ redirect_from:
   <a href="https://arxiv.org/abs/1901.02763">ArXiv</a>, 
   <a href="https://github.com/ShenglongZhou/NHTPver2">Code</a>
   
-  <p><div style="text-align:justify"> 
-  Shenglong Zhou, Lili Pan and Naihua Xiu, Newton method  for $\ell_0$-regularized optimization, Numerical Algorithms, 2021.
+  * Shenglong Zhou, Lili Pan and Naihua Xiu,  Numerical Algorithms, 2021.<br>
+  *Newton method  for $\ell_0$-regularized optimization*,
   <a href="https://doi.org/10.1007/s11075-021-01085-x">NumAlg</a>, 
   <a href="https://www.researchgate.net/publication/340563338">ResearchGate</a>, 
   <a href="https://arxiv.org/abs/2004.05132">ArXiv</a>, 
   <a href="https://github.com/ShenglongZhou/NL0R">Code</a>
-  </div></p> 
+ 
   
   <details>
   <summary><span style="color:grey"><b style="font-size:10px">Click for more papers</b></span></summary>  
