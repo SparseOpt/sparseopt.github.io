@@ -106,7 +106,7 @@ redirect_from:
         <td style="width:5%" align="center"><a  href='https://github.com/ShenglongZhou/HTPCP'>HTPCP</a></td>
       </tr>
        <tr>
-          <td style="width:5%" align="left"><span style="color:orange">${\bf {\rm CS}}$</span></td>
+          <td style="width:5%" align="left"><span style="color:orange"><b>CS</b></span></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
@@ -114,7 +114,7 @@ redirect_from:
           <td style="width:5%" align="center"> </td> 
       </tr>
         <tr>
-          <td style="width:5%" align="left"><span style="color:orange">${\bf {\rm SLR}}$</span></td>
+          <td style="width:5%" align="left"><span style="color:orange"><b>SLR</b></span></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
@@ -122,7 +122,7 @@ redirect_from:
           <td style="width:5%" align="center"> </td> 
       </tr>
         <tr>
-          <td style="width:5%" align="left"><span style="color:orange">${\bf {\rm SLCP}}$</span></td>
+          <td style="width:5%" align="left"><span style="color:orange"><b>SLCP</b></span></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
