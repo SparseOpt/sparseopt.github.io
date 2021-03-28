@@ -26,13 +26,13 @@ redirect_from:
 ---
 
   <font size=3> 
-  <a href="https://github.com/ShenglongZhou/NHTPver2">NHTP</a>, source code for 
-  <a href="https://arxiv.org/abs/1901.02763">Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit</a>. <br>
-  It solves the sparsity constrained optimization including compressed sensing,  logistic regression, linear complementarity problems and etc.   <br> <br>
+  <a href="https://github.com/ShenglongZhou/NHTPver2">NHTP</a> solves the sparsity constrained optimization, 
+  e.g., compressed sensing, logistic regression, linear complementarity problems and etc.   <br> 
+  <a href="https://arxiv.org/abs/1901.02763">Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit</a>. <br> <br>
     
-  <a href="https://github.com/ShenglongZhou/NL0R">NL0R</a>, source code for
-  <a href="https://arxiv.org/abs/2004.05132">Newton Method for $\ell_0$-Regularized Optimization</a>.<br>
-  It solves the $\ell_0$ regularized optimization problems including compressed sensing, logistic regression,  linear complementarity problems.   <br> <br> 
+  <a href="https://github.com/ShenglongZhou/NL0R">NL0R</a> solves the $\ell_0$ regularized optimization problems,
+  e.g., compressed sensing, logistic regression,  linear complementarity problems.   <br> 
+  <a href="https://arxiv.org/abs/2004.05132">Newton Method for $\ell_0$-Regularized Optimization</a>.<br>  <br> 
   
   <details>
   <summary><span style="color:grey"><b style="font-size:10px">Click for more solvers</b></span></summary>
