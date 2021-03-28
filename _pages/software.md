@@ -12,13 +12,12 @@ redirect_from:
 ---
 
   <font size=3> 
-  <a href="https://github.com/ShenglongZhou/GPSP">GPSP</a>, source code for 
-  <a href="https://www.researchgate.net/publication/348371863">Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization</a>. <br>
-  It solves the one-bit compressive sensing problems.  <br><br>
+  <a href="https://github.com/ShenglongZhou/GPSP">GPSP</a> solves the one-bit compressive sensing problems. <br>
+  <a href="https://www.researchgate.net/publication/348371863">Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization</a>. <br> <br>
   
-  <a href="https://github.com/Huajun-Wang/L01ADMM">L01ADMM</a>, source code for 
-  <a href="https://arxiv.org/abs/1912.07418">Support vector machine classifier via  $L_{0/1}$ soft-margin loss</a>. <br>
-  It solves the support vector machine.        
+  <a href="https://github.com/Huajun-Wang/L01ADMM">L01ADMM</a> solves the support vector machine. <br>
+  <a href="https://arxiv.org/abs/1912.07418">Support vector machine classifier via  $L_{0/1}$ soft-margin loss</a>. <br> <br>
+      
   </font>
 
 
