@@ -179,7 +179,7 @@ redirect_from:
   
   
   <details>
-  <summary><span style="color:grey"><b style="font-size:20px">EDM Optimization</b></span></summary> 
+  <summary><span style="color:grey"><b style="font-size:10px">Click for more papers</b></span></summary> 
  
   <p><div style="text-align:justify"> 
   Shenglong Zhou, Naihua Xiu and Houduo Qi, Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization, 
@@ -217,7 +217,7 @@ redirect_from:
   </div></p>  
   
   <details>
-  <summary><span style="color:grey"><b style="font-size:20px">Bilevel Optimization</b></span></summary> 
+  <summary><span style="color:grey"><b style="font-size:10px">Click for more papers</b></span></summary> 
 
   <p><div style="text-align:justify"> 
   Andreas Fischer, Alain Zemkoho and  Shenglong Zhou, Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments, 2019. 
