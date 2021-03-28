@@ -19,9 +19,9 @@ redirect_from:
     
  
   <details>
-  <summary><span style="color:grey"><b style="font-size:10px">Click for more papers</b></span></summary>  
+  <summary> Click for more papers </summary>  
     
-  * Shenglong Zhou, Ziyan Luo and Naihua Xiu, 2021, 
+  - Shenglong Zhou, Ziyan Luo and Naihua Xiu, 2021, 
   [ResearchGate](https://www.researchgate.net/publication/348371863), 
   [ArXiv](https://arxiv.org/abs/2101.03599), 
   [Code](https://github.com/ShenglongZhou/GPSP) <br>
