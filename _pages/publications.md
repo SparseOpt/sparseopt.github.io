@@ -11,23 +11,23 @@ redirect_from:
 ## 0/1 Loss Optimization 
 ---
  
-  - [] Shenglong Zhou, Lili Pan, Naihua Xiu and Houduo Qi, 2021, [ResearchGate](https://www.researchgate.net/publication/350442413) <br>
+  * Shenglong Zhou, Lili Pan, Naihua Xiu and Houduo Qi, 2021, [ResearchGate](https://www.researchgate.net/publication/350442413) <br>
   *Quadratic convergence of Newton's method for 0/1 loss optimization*  
   
-  - [] Shenglong Zhou, Lili Pan and Naihua Xiu, 2020, 
+  * Shenglong Zhou, Lili Pan and Naihua Xiu, 2020, 
    [ResearchGate](https://www.researchgate.net/publication/343362652),  [ArXiv](https://arxiv.org/abs/2007.15737) <br>
    *Heaviside set constrained optimization: optimality and Newton method*
    
 <details markdown="1"> 
   <summary> Click for more papers </summary> 
     
-  - [] Shenglong Zhou, Ziyan Luo and Naihua Xiu, 2021, 
+  * Shenglong Zhou, Ziyan Luo and Naihua Xiu, 2021, 
   [ResearchGate](https://www.researchgate.net/publication/348371863), 
   [ArXiv](https://arxiv.org/abs/2101.03599), 
   [Code](https://github.com/ShenglongZhou/GPSP) <br>  
   *Computing one-bit compressive sensing via double-sparsity constrained optimization* 
     
-  - [] Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, 2019, 
+  * Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, 2019, 
   [ResearchGate](https://www.researchgate.net/publication/338717629), 
   [ArXiv](https://arxiv.org/abs/1912.07418), 
   [Code](https://github.com/Huajun-Wang/L01ADMM) <br> 
