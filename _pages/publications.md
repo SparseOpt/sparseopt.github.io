@@ -39,6 +39,6 @@ redirect_from:
     <a href="https://github.com/Huajun-Wang/L01ADMM">Code</a> 
     </font>
      
- </details> 
+  </details> 
  
  
