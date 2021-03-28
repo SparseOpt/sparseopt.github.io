@@ -33,7 +33,7 @@ redirect_from:
   <a href="https://arxiv.org/abs/2004.05132">Newton Method for $\ell_0$-Regularized Optimization</a>.<br>  <br> 
   
   <details>
-  <summary><span style="color:grey"><b style="font-size:10px">Click for more solvers</b></span></summary>
+  <summary><span style="color:grey"><b style="font-size:15px">Click for more solvers</b></span></summary>
   <br> 
 
   <a href="https://github.com/ShenglongZhou/IIHT">IIHT</a> solves the sparsity constrained optimization problems.   <br>
@@ -52,7 +52,7 @@ redirect_from:
   <a href="https://link.springer.com/article/10.1007/s40305-014-0058-7">Sparse and Low-Rank Covariance Matrix Estimation</a>. <br><br>
  
 
-  <b> Two general forms of sparse optimization </b> 
+  <b> Two general forms of sparse optimization: </b> 
   
    \begin{eqnarray*}
    \begin{array}{lll}
@@ -60,7 +60,7 @@ redirect_from:
    \text{L0 regularized optimization:} &~\min_{x}&~f(x) +\lambda \Vert x \Vert_0,
    \end{array}
    \end{eqnarray*}
-   where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$, $s\ll n, \lambda>0$ and $\Vert x \Vert_0$ is the so-called $\ell_0$ norm that counts the number of nonzero elements of $x$.    <br><br>
+   where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$, $s\ll n, \lambda>0$ and $\Vert x \Vert_0$ is the so-called $\ell_0$ norm that counts the number of nonzero elements of $x$.  <br><br>
  
  
   <!---### <b> Applications of sparse optimization </b>  <br><br>
