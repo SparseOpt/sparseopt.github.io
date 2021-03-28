@@ -55,17 +55,16 @@ redirect_from:
   <a href="https://arxiv.org/abs/2004.05132">ArXiv</a>, 
   <a href="https://github.com/ShenglongZhou/NL0R">Code</a></font>
   
+* <font size=3>S.L. Zhou, L.L. Pan, M. Li and M.J. Shang, SIAM Journal on Scientific Computing, 43(2), A772–A799, 2021 <br>
+  <i>Newton hard-thresholding pursuit for sparse LCP via a new merit function</i>,
+  <a href="https://doi.org/10.1137/19M1301539">SISC</a>, 
+  <a href="https://www.researchgate.net/publication/337948990">ResearchGate</a>,
+  <a href="https://arxiv.org/abs/2004.02244">ArXiv</a>,
+  <a href="https://github.com/ShenglongZhou/NHTPver2">Code</a></font>  
+    
 * <details markdown="1"> 
   <summary><b style="font-size:10px">Click for more papers</b></summary> 
     
-  * <font size=3>S.L. Zhou, L.L. Pan, M. Li and M.J. Shang, SIAM Journal on Scientific Computing, 43(2), A772–A799, 2021 <br>
-    <i>Newton hard-thresholding pursuit for sparse LCP via a new merit function</i>,
-    <a href="https://doi.org/10.1137/19M1301539">SISC</a>, 
-    <a href="https://www.researchgate.net/publication/337948990">ResearchGate</a>,
-    <a href="https://arxiv.org/abs/2004.02244">ArXiv</a>,
-    <a href="https://github.com/ShenglongZhou/NHTPver2">Code</a></font>
-
-
   * <font size=3>S.L. Zhou, 2020 <br>
     <i>Sparse SVM for sufficient data reduction</i>,
     <a href="https://www.researchgate.net/publication/341883040">ResearchGate</a>,
