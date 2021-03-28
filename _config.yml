@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Shenglong Zhou"
 title_separator          : "-"
 name                     : &name "Shenglong Zhou"
-description              : &description "Teaching Fellow at the University of Southampton"
+description              : &description "Research Fellow at the University of Southampton"
 url                      : https://shenglongzhou.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/shenglongzhou.github.io"
@@ -83,7 +83,7 @@ author:
   name             : "Shenglong Zhou"
   avatar           : "zsl-new.jpg"
   bio              : "Research Fellow at the <a style='color:#07617D' href='http://www.southampton.ac.uk'>University of Southampton</a><br />"
-  location         : "Southampton, United Kingdom"
+  location         : "Southampton, UK"
   employer         :
   pubmed           :  
   googlescholar    : 
