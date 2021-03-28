@@ -28,7 +28,7 @@ redirect_from:
     <a href="https://arxiv.org/abs/2101.03599">ArXiv</a>,
     <a href="https://github.com/ShenglongZhou/GPSP">Code</a></font>
 
-  * <font size=3>Huajun Wang, Yuanhai Shao, <b>S.L. Zhou</b>, Ce Zhang and N.H. Xiu, 2019 <br>
+  * <font size=3>H.J. Wang, Y.H. Shao, <b>S.L. Zhou</b>, C. Zhang and N.H. Xiu, 2019 <br>
     <i>Support vector machine classifier via L0/1 soft-margin loss</i>,
     <a href="https://www.researchgate.net/publication/338717629">ResearchGate</a>,
     <a href="https://arxiv.org/abs/1912.07418">ArXiv</a>,
@@ -58,7 +58,7 @@ redirect_from:
 * <details markdown="1"> 
   <summary><b style="font-size:10px">Click for more papers</b></summary> 
     
-  * <font size=3><b>S.L. Zhou</b>, L.L. Pan, Mu Li and M.J. Shang, SIAM Journal on Scientific Computing, 43(2), A772–A799, 2021 <br>
+  * <font size=3><b>S.L. Zhou</b>, L.L. Pan, M. Li and M.J. Shang, SIAM Journal on Scientific Computing, 43(2), A772–A799, 2021 <br>
     <i>Newton hard-thresholding pursuit for sparse LCP via a new merit function</i>,
     <a href="https://doi.org/10.1137/19M1301539">SISC</a>, 
     <a href="https://www.researchgate.net/publication/337948990">ResearchGate</a>,
@@ -72,12 +72,12 @@ redirect_from:
     <a href="https://arxiv.org/abs/2005.13771">ArXiv</a>,
     <a href="https://github.com/ShenglongZhou/NSSVM">Code</a></font>
 
-  * <font size=3>Xinrong Li, N.H. Xiu and  <b>S.L. Zhou</b>, Journal of Optimization Theory and Applications, 184, 895–930, 2019 <br>
+  * <font size=3>X.R. Li, N.H. Xiu and  <b>S.L. Zhou</b>, Journal of Optimization Theory and Applications, 184, 895–930, 2019 <br>
     <i>Matrix optimization over low-rank spectral sets: stationary points, local and global minimizers</i>,
     <a href="https://link.springer.com/article/10.1007%2Fs10957-019-01606-8">JOTA</a>,
     <a href="https://www.researchgate.net/publication/327581904">ResearchGate</a></font>
 
-  * <font size=3>Rui Wang, N.H. Xiu and  <b>S.L. Zhou</b>, 2021 <br>
+  * <font size=3>R. Wang, N.H. Xiu and  <b>S.L. Zhou</b>, 2021 <br>
     <i>Newton method for sparse logistic regression: quadratic convergence and extensive simulations</i>,
     <a href="https://www.researchgate.net/publication/330224305">ResearchGate</a>,
     <a href="https://arxiv.org/abs/1901.02768">ArXiv</a>,
@@ -90,11 +90,11 @@ redirect_from:
     <a href="https://arxiv.org/abs/1406.7178">ArXiv</a>,
     <a href="https://github.com/ShenglongZhou/IIHT">Code</a></font>
 
-  * <font size=3>Lianjun Zhang, Lingchen Kong and  <b>S.L. Zhou</b>, Journal of Industrial and Management Optimization,   13 (1): 93 - 112, 2017 <br>
+  * <font size=3>L.J. Zhang, L.C. Kong and  <b>S.L. Zhou</b>, Journal of Industrial and Management Optimization,   13 (1): 93 - 112, 2017 <br>
     <i>A smoothing iterative method for quantile regression with nonconvex lp Penalty</i>,
     <a href="https://aimsciences.org/article/doi/10.3934/jimo.2016006">JIMO</a></font>
 
-  * <font size=3>Yanqing Liu, Guokai Liu, Xianchao Xiu and  <b>S.L. Zhou</b>, Pacific Journal of Optimization,   13(2): 279-300, 2017 <br>
+  * <font size=3>Y.Q. Liu, G.K. Liu, X.C. Xiu and  <b>S.L. Zhou</b>, Pacific Journal of Optimization,   13(2): 279-300, 2017 <br>
     <i>The $L_1$-penalized quantile regression for traditional Chinese medicine syndrome manifestation</i>,
     <a href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p279.html">PJO</a></font>
 
@@ -108,7 +108,7 @@ redirect_from:
     <i>On Solutions of Sparsity Constrained Optimization</i>,
     <a href="https://link.springer.com/article/10.1007/s40305-015-0101-3">JORSC</a></font>
 
-  * <font size=3><b>S.L. Zhou</b>, N.H. Xiu, Z.Y. Luo and Lingchen Kong, Journal of the Operations Research Society of China,  3(2): 231-250, 2015 <br>
+  * <font size=3><b>S.L. Zhou</b>, N.H. Xiu, Z.Y. Luo and L.C. Kong, Journal of the Operations Research Society of China,  3(2): 231-250, 2015 <br>
     <i>Sparse and low-rank covariance matrix estimation</i>,
     <a href="https://link.springer.com/article/10.1007/s40305-014-0058-7">JORSC</a>,
     <a href="https://github.com/ShenglongZhou/ADMM">Code</a></font>
@@ -117,12 +117,12 @@ redirect_from:
     <i>Extragradient thresholding methods For sparse solutions of co-coercive NCPs</i>,
     <a href="https://journalofinequalitiesandapplications.springeropen.com/articles/10.1186/s13660-015-0551-5">JIA</a></font>
 
-  * <font size=3>M.J. Shang, Chao Zhang, Dingtao Peng and  <b>S.L. Zhou</b>, Optimization Letters,  9(6): 1231-1245, 2015 <br>
+  * <font size=3>M.J. Shang, C. Zhang, D.T. Peng and  <b>S.L. Zhou</b>, Optimization Letters,  9(6): 1231-1245, 2015 <br>
     <i>A half thresholding projection algorithm for sparse solutions of LCPs</i>,
     <a href="https://www.infona.pl/resource/bwmeta1.element.springer-doi-10_1007-S11590-014-0834-7">OPLE</a>,
     <a href="https://github.com/ShenglongZhou/HTPCP">Code</a></font>
 
-  * <font size=3><b>S.L. Zhou</b>, Lingchen Kong and N.H. Xiu, Journal of the Operations Research Society of China,  1(2): 227-237, 2013 <br>
+  * <font size=3><b>S.L. Zhou</b>, L.C. Kong and N.H. Xiu, Journal of the Operations Research Society of China,  1(2): 227-237, 2013 <br>
     <i>New bounds for RIC in compressed sensing</i>,
     <a href="https://link.springer.com/article/10.1007/s40305-013-0013-z">JORSC</a></font>
 
@@ -163,7 +163,7 @@ redirect_from:
   <a href="https://arxiv.org/abs/2004.10830">ArXiv</a></font>
  
   
-* <font size=3><b>S.L. Zhou</b>, A. Zemkoho and Andrey Tin, Bilevel optimization: advances and next challenges, 2019 <br> 
+* <font size=3><b>S.L. Zhou</b>, A. Zemkoho and A. Tin, Bilevel optimization: advances and next challenges, 2019 <br> 
   <i>BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2</i>,
   <a href="https://biopt.github.io/files/Paper.pdf">BiOpt</a>,
   <a href="https://www.springer.com/gp/book/9783030521189">Book</a>, 
@@ -174,7 +174,7 @@ redirect_from:
  * <details markdown="1"> 
    <summary><b style="font-size:10px">Click for more papers</b></summary> 
   
-   * <font size=3> Andreas Fischer, A. Zemkoho and  <b>S.L. Zhou</b>, 2019 <br>
+   * <font size=3> A. Fischer, A. Zemkoho and  <b>S.L. Zhou</b>, 2019 <br>
      <i>Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments</i>,
      <a href="https://www.researchgate.net/publication/337943979">ResearchGate</a>,
      <a href="https://arxiv.org/abs/1912.07079">ArXiv</a></font>
