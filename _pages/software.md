@@ -38,19 +38,19 @@ redirect_from:
   <summary><span style="color:grey"><b style="font-size:10px">Click for more solvers</b></span></summary>
   <br> 
 
-  <a href="https://github.com/ShenglongZhou/IIHT">IIHT</a>, a matlab package solving the sparsity constrained optimization problems.   <br>
+  <a href="https://github.com/ShenglongZhou/IIHT">IIHT</a> solves the sparsity constrained optimization problems.   <br>
   <a href="http://www.ybook.co.jp/online2/oppjo/vol13/p325.html">A Convergent Iterative Hard Thresholding for Sparsity and Nonnegativity Constrained Optimization</a>. <br><br>
  
-  <a href="https://github.com/ShenglongZhou/MIRL1">MIRL1</a>, a matlab package solving the reweighted $\ell_1$ minimization.    <br>
+  <a href="https://github.com/ShenglongZhou/MIRL1">MIRL1</a> solves the reweighted $\ell_1$ minimization.    <br>
   <a href="https://doi.org/10.1093/imaiai/iaw002">A Null-space-based Weighted $\ell_1$ Minimisation Approach to Compressed Sensing</a>.<br><br>
  
-  <a href="https://github.com/ShenglongZhou/HTPCP">HTPCP</a>, a matlab package solving the sparse linear/nonlinear complementarity problems.   <br>
+  <a href="https://github.com/ShenglongZhou/HTPCP">HTPCP</a> solves the sparse linear/nonlinear complementarity problems.   <br>
   <a href="https://link.springer.com/article/10.1007/s11590-014-0834-7">A Half Thresholding Projection Algorithmfor Sparse Solutions of LCPs</a>. <br><br>
  
-  <a href="https://github.com/ShenglongZhou/NSSVM">NSSVM</a>, a matlab package solving the sparse support vector machine.  Source codes for <br>
+  <a href="https://github.com/ShenglongZhou/NSSVM">NSSVM</a> solves the sparse support vector machine.  Source codes for <br>
   <a href="https://arxiv.org/abs/2005.13771">Sparse SVM for Sufficient Data Reduction</a>. <br><br>
  
-  <a href="https://github.com/ShenglongZhou/ADMM">ADMM</a>, a matlab package solving the  sparse and low-rank covariance matrix recovery problem.   <br>
+  <a href="https://github.com/ShenglongZhou/ADMM">ADMM</a> solves the sparse and low-rank covariance matrix recovery problem.   <br>
   <a href="https://link.springer.com/article/10.1007/s40305-014-0058-7">Sparse and Low-Rank Covariance Matrix Estimation</a>. <br><br>
  
 
@@ -142,11 +142,11 @@ redirect_from:
   
   <font size=3> 
 
-  <a href="https://github.com/ShenglongZhou/SQREDM">SQREDM</a> solves EDM optimization for multidimensional scaling,
+  <a href="https://github.com/ShenglongZhou/SQREDM">SQREDM</a> solves the EDM optimization for multidimensional scaling,
   e.g.,  sensor network localization and molecular conformation.    <br>
   <a href="https://ieeexplore.ieee.org/document/8399531">A Fast Matrix Majorization-Projection Method for Penalized Stress Minimization with Box Constraints</a>.<br><br>
  
-  <a href="https://github.com/ShenglongZhou/PREEEDM">PREEEDM</a> solves EDM optimization for multidimensional scaling ,
+  <a href="https://github.com/ShenglongZhou/PREEEDM">PREEEDM</a> solves the EDM optimization for multidimensional scaling ,
   e.g.,  sensor network localization and molecular conformation.    <br>
   <a href="https://doi.org/10.1007/s12532-019-00168-0">Robust Euclidean Embedding via EDM Optimization</a>. 
   </font>
