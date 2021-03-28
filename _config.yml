@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "<span style="color:#225675">Shenglong Zhou</span>"
+  name             : <span style="color:#225675">Shenglong Zhou</span>
   avatar           : "zsl-new.jpg"
   bio              : "Research Fellow at the University of Southampton <br />"
   location         : "Southampton, UK"
