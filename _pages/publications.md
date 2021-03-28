@@ -150,7 +150,7 @@ S.L. Zhou, L.C. Kong and N.H. Xiu, Journal of the Operations Research Society of
 ## <span style="color:#3D8C95"><b style="font-size:20px">EDM Optimization</b></span>
 ---
 
-<font size=3> 
+<font size=4> 
 S.L. Zhou, N.H. Xiu and H.D. Qi, Mathematical Programming Computation, 12(3): 337–387, 2019<br>
   <i>Robust euclidean embedding via EDM optimization</i>, 
   <a style="text-decoration:none; color:#225675" href="https://link.springer.com/article/10.1007/s12532-019-00168-0">MPC</a>,
@@ -176,7 +176,7 @@ S.L. Zhou, N.H. Xiu and H.D. Qi, PhD Thesis, University of Southampton, 2018<br>
 ## <span style="color:#3D8C95"><b style="font-size:20px">Bilevel Optimization</b></span>
 ---
 
-<font size=3> 
+<font size=4> 
 A. Zemkoho and  S.L. Zhou, Computational Optimization and Application, 78(2), 625-674, 2021 <br>
   <i>Theoretical and numerical comparison of the KKT and value function reformulations in bilevel optimization</i><br> 
   <a style="text-decoration:none; color:#225675" href="https://doi.org/10.1007/s10589-020-00250-7">JCOA</a>,
