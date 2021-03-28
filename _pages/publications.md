@@ -25,17 +25,19 @@ redirect_from:
   <details markdown="1"> 
   <summary><b style="font-size:10px">Click for more papers</b></summary> 
     
-  * Shenglong Zhou, Ziyan Luo and Naihua Xiu, 2021 <br> 
-    *Computing one-bit compressive sensing via double-sparsity constrained optimization* <br> 
-    [ResearchGate](https://www.researchgate.net/publication/348371863),
-    [ArXiv](https://arxiv.org/abs/2101.03599),
-    [Code](https://github.com/ShenglongZhou/GPSP)<br>
+  * <font size=3>Shenglong Zhou, Ziyan Luo and Naihua Xiu, 2021 <br> 
+    <i>Computing one-bit compressive sensing via double-sparsity constrained optimization</i><br>
+    <a href="https://www.researchgate.net/publication/348371863">ResearchGate</a>,
+    <a href="https://arxiv.org/abs/2101.03599">ArXiv</a>,
+    <a href="https://github.com/ShenglongZhou/GPSP">Code</a> 
+    </font>
 
-  * Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, 2019 <br>
-    *Support vector machine classifier via $L_{0/1}$ soft-margin loss* <br>
-    [ResearchGate](https://www.researchgate.net/publication/338717629), 
-    [ArXiv](https://arxiv.org/abs/1912.07418), 
-    [Code](https://github.com/Huajun-Wang/L01ADMM) <br> 
+  * <font size=3>Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, 2019 <br>
+    <i>Support vector machine classifier via $L_{0/1}$ soft-margin loss</i><br>
+    <a href="https://www.researchgate.net/publication/338717629">ResearchGate</a>,
+    <a href="https://arxiv.org/abs/1912.07418">ArXiv</a> 
+    [Code](https://github.com/Huajun-Wang/L01ADMM)
+    </font>
      
   </details> 
  
