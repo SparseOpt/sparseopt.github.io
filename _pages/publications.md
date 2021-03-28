@@ -137,7 +137,7 @@ redirect_from:
   <a href="https://link.springer.com/article/10.1007/s12532-019-00168-0">MPC</a>,
   <a href="https://github.com/ShenglongZhou/PREEEDM">Code</a></font>
  
-* Shenglong Zhou, Naihua Xiu and Houduo Qi, IEEE Transactions on Signal Processing,  66(16): 4331-4346, 2018<br> 
+* <font size=3> Shenglong Zhou, Naihua Xiu and Houduo Qi, IEEE Transactions on Signal Processing,  66(16): 4331-4346, 2018<br> 
   <i>A fast matrix majorization-projection method for penalized stress minimization with box constraints</i>,
   <a href="https://ieeexplore.ieee.org/document/8399531">TSP</a>,
   <a href="https://github.com/ShenglongZhou/SQREDM">Code</a></font>
@@ -145,7 +145,7 @@ redirect_from:
 * <details markdown="1"> 
   <summary><b style="font-size:10px">Click for more papers</b></summary>  
   
-  * Shenglong Zhou, Naihua Xiu and Houduo Qi, PhD Thesis, University of Southampton, 2018<br>
+  * <font size=3> Shenglong Zhou, Naihua Xiu and Houduo Qi, PhD Thesis, University of Southampton, 2018<br>
     <i>Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization</i>,
     <a href="https://eprints.soton.ac.uk/429739/">Soton</a></font>
   
