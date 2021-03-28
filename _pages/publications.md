@@ -11,8 +11,9 @@ redirect_from:
 --
   <font size=3> 
   <p><div style="text-align:justify"> 
-  Shenglong Zhou, Lili Pan, Naihua Xiu and Houduo Qi, Quadratic convergence of Newton's method for 0/1 loss optimization, 2021. 
-  <a href="https://www.researchgate.net/publication/350442413">ResearchGate</a>
+  Shenglong Zhou, Lili Pan, Naihua Xiu and Houduo Qi, 2021, 
+  <a href="https://www.researchgate.net/publication/350442413">ResearchGate</a> <br>
+  Quadratic convergence of Newton's method for 0/1 loss optimization,
   </div></p>   
   
   <p><div style="text-align:justify"> 
