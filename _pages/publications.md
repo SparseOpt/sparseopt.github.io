@@ -134,23 +134,23 @@ redirect_from:
 ## <span style="color:grey"><b style="font-size:20px">EDM Optimization</b></span>
 ---
 
-  * <font size=3> Shenglong Zhou, Naihua Xiu and Houduo Qi, Mathematical Programming Computation, 12(3): 337–387, 2019<br>
-  <i>Robust euclidean embedding via EDM optimization</i>, 
-  <a href="https://link.springer.com/article/10.1007/s12532-019-00168-0">MPC</a>,
-  <a href="https://github.com/ShenglongZhou/PREEEDM">Code</a></font>
+ * <font size=3> Shenglong Zhou, Naihua Xiu and Houduo Qi, Mathematical Programming Computation, 12(3): 337–387, 2019<br>
+   <i>Robust euclidean embedding via EDM optimization</i>, 
+   <a href="https://link.springer.com/article/10.1007/s12532-019-00168-0">MPC</a>,
+   <a href="https://github.com/ShenglongZhou/PREEEDM">Code</a></font>
  
 
-  * Shenglong Zhou, Naihua Xiu and Houduo Qi, IEEE Transactions on Signal Processing, vol. 66(16): 4331-4346, 2018<br> 
-  <i>A fast matrix majorization-projection method for penalized stress minimization with box constraints</i>,
-  <a href="https://ieeexplore.ieee.org/document/8399531">TSP</a>,
-  <a href="https://github.com/ShenglongZhou/SQREDM">Code</a></font>
+ * Shenglong Zhou, Naihua Xiu and Houduo Qi, IEEE Transactions on Signal Processing, vol. 66(16): 4331-4346, 2018<br> 
+   <i>A fast matrix majorization-projection method for penalized stress minimization with box constraints</i>,
+   <a href="https://ieeexplore.ieee.org/document/8399531">TSP</a>,
+   <a href="https://github.com/ShenglongZhou/SQREDM">Code</a></font>
   
 <details markdown="1"> 
   <summary><b style="font-size:10px">Click for more papers</b></summary>  
   
-  * Shenglong Zhou, Naihua Xiu and Houduo Qi, PhD Thesis, University of Southampton, 2018<br>
-  <i>Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization</i>,
-  <a href="https://eprints.soton.ac.uk/429739/">Soton</a></font>
+ * Shenglong Zhou, Naihua Xiu and Houduo Qi, PhD Thesis, University of Southampton, 2018<br>
+   <i>Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization</i>,
+   <a href="https://eprints.soton.ac.uk/429739/">Soton</a></font>
   
 </details> 
 
@@ -159,27 +159,27 @@ redirect_from:
 ## <span style="color:grey"><b style="font-size:20px">Bilevel Optimization</b></span>
 ---
 
-  * <font size=3> Alain Zemkoho and  Shenglong Zhou, Computational Optimization and Application, 78(2), 625-674, 2021 <br>
-  <i>Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization</i>,
-  <a href="https://doi.org/10.1007/s10589-020-00250-7">JCOA</a>,
-  <a href="https://www.researchgate.net/publication/340769764">ResearchGate</a>,
-  <a href="https://arxiv.org/abs/2004.10830">ArXiv</a></font>
+ * <font size=3> Alain Zemkoho and  Shenglong Zhou, Computational Optimization and Application, 78(2), 625-674, 2021 <br>
+   <i>Theoretical and numerical comparison of the Karush-Kuhn-Tucker and value function reformulations in bilevel optimization</i>,
+   <a href="https://doi.org/10.1007/s10589-020-00250-7">JCOA</a>,
+   <a href="https://www.researchgate.net/publication/340769764">ResearchGate</a>,
+   <a href="https://arxiv.org/abs/2004.10830">ArXiv</a></font>
  
   
-  * Shenglong Zhou, Alain Zemkoho and Andrey Tin, Bilevel optimization: advances and next challenges, 2019 <br> 
-  <i>BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2</i>,
-  <a href="https://biopt.github.io/files/Paper.pdf">BiOpt</a>,
-  <a href="https://www.springer.com/gp/book/9783030521189">Book</a>, 
-  <a href="https://www.researchgate.net/publication/338375731">ResearchGate</a>,
-  <a href="https://arxiv.org/abs/1812.00230">ArXiv</a>,
-  <a href="https://biopt.github.io/bolib/">Code</a></font>
+ * Shenglong Zhou, Alain Zemkoho and Andrey Tin, Bilevel optimization: advances and next challenges, 2019 <br> 
+   <i>BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2</i>,
+   <a href="https://biopt.github.io/files/Paper.pdf">BiOpt</a>,
+   <a href="https://www.springer.com/gp/book/9783030521189">Book</a>, 
+   <a href="https://www.researchgate.net/publication/338375731">ResearchGate</a>,
+   <a href="https://arxiv.org/abs/1812.00230">ArXiv</a>,
+   <a href="https://biopt.github.io/bolib/">Code</a></font>
   
 <details markdown="1"> 
   <summary><b style="font-size:10px">Click for more papers</b></summary> 
   
-  * <font size=3> Andreas Fischer, Alain Zemkoho and  Shenglong Zhou, 2019 <br>
-  <i>Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments</i>,
-  <a href="https://www.researchgate.net/publication/337943979">ResearchGate</a>,
-  <a href="https://arxiv.org/abs/1912.07079">ArXiv</a></font>
+ * <font size=3> Andreas Fischer, Alain Zemkoho and  Shenglong Zhou, 2019 <br>
+   <i>Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments</i>,
+   <a href="https://www.researchgate.net/publication/337943979">ResearchGate</a>,
+   <a href="https://arxiv.org/abs/1912.07079">ArXiv</a></font>
   
 </details> 
