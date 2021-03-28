@@ -59,21 +59,21 @@ redirect_from:
   <summary><b style="font-size:10px">Click for more papers</b></summary> 
     
 * <font size=3>Shenglong Zhou, Lili Pan, Mu Li and Meijuan Shang, SIAM Journal on Scientific Computing, 43(2), A772–A799, 2021 <br>
-  <i>Newton hard-thresholding pursuit for sparse LCP via a new merit function</i>, 
+  <i>Newton hard-thresholding pursuit for sparse LCP via a new merit function</i>,
   <a href="https://doi.org/10.1137/19M1301539">SISC</a>, 
-  <a href="https://www.researchgate.net/publication/337948990">ResearchGate</a>, 
-  <a href="https://arxiv.org/abs/2004.02244">ArXiv</a>,  
+  <a href="https://www.researchgate.net/publication/337948990">ResearchGate</a>,
+  <a href="https://arxiv.org/abs/2004.02244">ArXiv</a>,
   <a href="https://github.com/ShenglongZhou/NHTPver2">Code</a></font>
  
 
-* <font size=3>Shenglong Zhou, 2020 <br>  
+* <font size=3>Shenglong Zhou, 2020 <br>
   <i>Sparse SVM for sufficient data reduction</i>,
-  <a href="https://www.researchgate.net/publication/341883040">ResearchGate</a>, 
+  <a href="https://www.researchgate.net/publication/341883040">ResearchGate</a>,
   <a href="https://arxiv.org/abs/2005.13771">ArXiv</a>,
   <a href="https://github.com/ShenglongZhou/NSSVM">Code</a></font>
 
-* <font size=3>Xinrong Li, Naihua Xiu and  Shenglong Zhou, Journal of Optimization Theory and Applications, 184, 895–930, 2019 <br> 
-  <i>Matrix optimization over low-rank spectral sets: stationary points, local and global minimizers</i>,  
+* <font size=3>Xinrong Li, Naihua Xiu and  Shenglong Zhou, Journal of Optimization Theory and Applications, 184, 895–930, 2019 <br>
+  <i>Matrix optimization over low-rank spectral sets: stationary points, local and global minimizers</i>,
   <a href="https://link.springer.com/article/10.1007%2Fs10957-019-01606-8">JOTA</a>,
   <a href="https://www.researchgate.net/publication/327581904">ResearchGate</a></font>
 
@@ -84,46 +84,46 @@ redirect_from:
   <a href="https://github.com/ShenglongZhou/NSLR">Code</a></font>
 
 * <font size=3>Lili Pan,  Shenglong Zhou, Naihua Xiu and Houduo Qi,Pacific Journal of Optimization, vol. 13(2): 325-353, 2017 <br>
-  <i>A convergent iterative hard thresholding for sparsity and nonnegativity constrained optimization</i>, 
+  <i>A convergent iterative hard thresholding for sparsity and nonnegativity constrained optimization</i>,
   <a href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p325.html">PJO</a>,
   <a href="https://www.researchgate.net/publication/299519906">ResearchGate</a>,
   <a href="https://arxiv.org/abs/1406.7178">ArXiv</a>,
   <a href="https://github.com/ShenglongZhou/IIHT">Code</a></font>
 
 * <font size=3>Lianjun Zhang, Lingchen Kong and  Shenglong Zhou,Journal of Industrial and Management Optimization, vol. 13 (1): 93 - 112, 2017 <br>
-  <i>A smoothing iterative method for quantile regression with nonconvex $\ell_p$ Penalty</i>, 
+  <i>A smoothing iterative method for quantile regression with nonconvex $\ell_p$ Penalty</i>,
   <a href="https://aimsciences.org/article/doi/10.3934/jimo.2016006">JIMO</a></font>
 
 * <font size=3>Yanqing Liu, Guokai Liu, Xianchao Xiu and  Shenglong Zhou,Pacific Journal of Optimization, vol. 13(2): 279-300, 2017 <br>
-  <i>The $L_1$-penalized quantile regression for traditional Chinese medicine syndrome manifestation</i>,   
+  <i>The $L_1$-penalized quantile regression for traditional Chinese medicine syndrome manifestation</i>,
   <a href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p279.html">PJO</a></font>
 
 * <font size=3>Shenglong Zhou, Naihua Xiu, YingnanWang, Lingchen Kong and Houduo Qi, Information and Inference: A Journal of the IMA, vol. 5(1): 76-102, 2016 <br>
-  <i>A Null-space-based weighted $\ell_1$ minimization approach to compressed sensing</i>,  
+  <i>A Null-space-based weighted $\ell_1$ minimization approach to compressed sensing</i>,
   <a href="https://academic.oup.com/imaiai/article/5/1/76/2357109">IMAIAI</a>,
   <a href="https://www.researchgate.net/publication/294109268">ResearchGate</a>,
   <a href="https://github.com/ShenglongZhou/MIRL1">Code</a></font>
 
 * <font size=3>Lili Pan, Naihua Xiu and  Shenglong Zhou, Journal of the Operations Research Society of China, vol. 3(4): 421-439, 2015 <br>
-  <i>On Solutions of Sparsity Constrained Optimization</i>,  
+  <i>On Solutions of Sparsity Constrained Optimization</i>,
   <a href="https://link.springer.com/article/10.1007/s40305-015-0101-3">JORSC</a></font>
 
 * <font size=3>Shenglong Zhou, Naihua Xiu, Ziyan Luo and Lingchen Kong, Journal of the Operations Research Society of China, vol. 3(2): 231-250, 2015 <br>
-  <i>Sparse and low-rank covariance matrix estimation</i>,  
+  <i>Sparse and low-rank covariance matrix estimation</i>,
   <a href="https://link.springer.com/article/10.1007/s40305-014-0058-7">JORSC</a>,
   <a href="https://github.com/ShenglongZhou/ADMM">Code</a></font>
 
 * <font size=3>Meijuan Shang, Shenglong Zhou and Naihua Xiu, Journal of Inequalities and Applications, vol. 34, 2015 <br>
-  <i>Extragradient thresholding methods For sparse solutions of co-coercive NCPs</i>, 
+  <i>Extragradient thresholding methods For sparse solutions of co-coercive NCPs</i>,
   <a href="https://journalofinequalitiesandapplications.springeropen.com/articles/10.1186/s13660-015-0551-5">JIA</a></font>
 
-* <font size=3>Meijuan Shang, Chao Zhang, Dingtao Peng and  Shenglong Zhou,Optimization Letters, vol. 9(6): 1231-1245, 2015 <br> 
-  <i>A half thresholding projection algorithm for sparse solutions of LCPs</i>, 
+* <font size=3>Meijuan Shang, Chao Zhang, Dingtao Peng and  Shenglong Zhou,Optimization Letters, vol. 9(6): 1231-1245, 2015 <br>
+  <i>A half thresholding projection algorithm for sparse solutions of LCPs</i>,
   <a href="https://www.infona.pl/resource/bwmeta1.element.springer-doi-10_1007-S11590-014-0834-7">OPLE</a>,
   <a href="https://github.com/ShenglongZhou/HTPCP">Code</a></font>
 
 * <font size=3>Shenglong Zhou, Lingchen Kong and Naihua Xiu,Journal of the Operations Research Society of China, vol. 1(2): 227-237, 2013 <br>
-  <i>New bounds for RIC in compressed sensing</i>, 
+  <i>New bounds for RIC in compressed sensing</i>,
   <a href="https://link.springer.com/article/10.1007/s40305-013-0013-z">JORSC</a></a></font>
      
 </details> 
