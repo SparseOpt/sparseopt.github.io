@@ -33,7 +33,7 @@ a:active {
   <a style="font-size: 17px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/GPSP" target="_blank">GPSP</a> solves the one-bit compressive sensing problems. <br>
   <a style="color:#007D98" href="https://www.researchgate.net/publication/348371863" target="_blank"><i>Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization</i></a>. <br> <br>
   
-  <a style="font-size: 17px; font-weight: bold; color:#007D98" href="https://github.com/Huajun-Wang/L01ADMM" target="_blank">L01ADMM</a> solves the support vector machine. <br>
+  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/Huajun-Wang/L01ADMM" target="_blank">L01ADMM</a> solves the support vector machine. <br>
   <a style="color:#007D98" href="https://arxiv.org/abs/1912.07418" target="_blank"><i>Support vector machine classifier via  L0/1 soft-margin loss</i></a>. 
       
   </font>
@@ -42,10 +42,10 @@ a:active {
 ---
 
   <font size=4> 
-  <a style="color:#007D98" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">NHTP</a> solves the sparsity constrained optimization including CS, LR, LCP and etc.   <br> 
+  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">NHTP</a> solves the sparsity constrained optimization including CS, LR, LCP and etc.   <br> 
   <a style="color:#007D98" href="https://arxiv.org/abs/1901.02763" target="_blank"><i>Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit</i></a>. <br> <br>
     
-  <a style="color:#007D98" href="https://github.com/ShenglongZhou/NL0R" target="_blank">NL0R</a> solves the L0 regularized optimization problems including CS, LR and LCP.   <br> 
+  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/NL0R" target="_blank">NL0R</a> solves the L0 regularized optimization problems including CS, LR and LCP.   <br> 
   <a style="color:#007D98" href="https://arxiv.org/abs/2004.05132" target="_blank"><i>Newton Method for L0-Regularized Optimization</i></a>.<br>  <br> 
   
   <details>
