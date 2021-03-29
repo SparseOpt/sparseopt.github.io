@@ -42,4 +42,4 @@ a:active {
 <font style="font-size: 16px; font-weight: bold; color:#007D98; text-decoration: none">CMP2014</font>, Luoyang, Henan Province, China, 12 May 2014. 
 
 * <a style="color:#225675" href='https://arxiv.org/abs/1308.0455' target="_blank"><i>New RIC Bounds via lq Minimization in Compressed Sensing</i></a><br>
-<a style="font-size: 16px; font-weight: bold; color:#007D98" href='http://lsec.cc.ac.cn/~icnonla13/index.htm' target="_blank">The 9th ICNONLA</a>, Changchun, China, 13 Sep 2013.
+<a style="font-size: 16px; font-weight: bold; color:#007D98" href='http://lsec.cc.ac.cn/~icnonla13/index.htm' target="_blank">ICNONLA2013</a>, Changchun, China, 13 Sep 2013.
