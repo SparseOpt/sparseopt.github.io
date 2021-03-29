@@ -1,6 +1,6 @@
 # main links links
 main:
-  - title: <span style="font-weight: bold; color:#225675">Home</span>
+  - title: <span style="font-weight: bold;  color:#225675">Home</span>
     url: /about/
     
   - title: <span style="font-weight: bold; color:#225675">Publications</span>
