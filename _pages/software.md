@@ -30,7 +30,7 @@ a:active {
 ---
 
   <font size=4> 
-  <a style="font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/GPSP" target="_blank">GPSP</a> solves the one-bit compressive sensing problems. <br>
+  <a style="font-size: 17px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/GPSP" target="_blank">GPSP</a> solves the one-bit compressive sensing problems. <br>
   <a style="color:#007D98" href="https://www.researchgate.net/publication/348371863" target="_blank"><i>Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization</i></a>. <br> <br>
   
   <a style="font-weight: bold; color:#007D98" href="https://github.com/Huajun-Wang/L01ADMM" target="_blank">L01ADMM</a> solves the support vector machine. <br>
