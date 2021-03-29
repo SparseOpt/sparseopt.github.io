@@ -13,12 +13,12 @@ redirect_from:
 <font size=4>
 S.L. Zhou, L.L. Pan, N.H. Xiu and H.D. Qi, 2021 <br>
 <i>Quadratic convergence of Newton's method for 0/1 loss optimization</i>,
-<a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/350442413">ResearchGate</a>
+<a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/350442413">RG</a>
 <br>
 <br>
 S.L. Zhou, L.L. Pan and N.H. Xiu, 2020 <br>
 <i>Heaviside set constrained optimization: optimality and Newton method</i>,
-<a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/343362652">ResearchGate</a>,
+<a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/343362652">RG</a>,
 <a style="text-decoration:none; color:#007D98" href="https://arxiv.org/abs/2007.15737">ArXiv</a>
 <br>
 <br>
@@ -28,14 +28,14 @@ S.L. Zhou, L.L. Pan and N.H. Xiu, 2020 <br>
 
 S.L. Zhou, Z.Y. Luo and N.H. Xiu, 2021 <br> 
 <i>Computing one-bit compressive sensing via double-sparsity constrained optimization</i>,
-<a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/348371863">ResearchGate</a>,
+<a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/348371863">RG</a>,
 <a style="text-decoration:none; color:#007D98" href="https://arxiv.org/abs/2101.03599">ArXiv</a>,
 <a style="text-decoration:none; color:#007D98" href="https://github.com/ShenglongZhou/GPSP">Code</a> 
 <br>
 <br>
 H.J. Wang, Y.H. Shao, S.L. Zhou, C. Zhang and N.H. Xiu, 2019 <br>
 <i>Support vector machine classifier via L0/1 soft-margin loss</i>,
-<a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/338717629">ResearchGate</a>,
+<a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/338717629">RG</a>,
 <a style="text-decoration:none; color:#007D98" href="https://arxiv.org/abs/1912.07418">ArXiv</a>,
 <a style="text-decoration:none; color:#007D98" href="https://github.com/Huajun-Wang/L01ADMM">Code</a>
 </details> 
@@ -49,7 +49,7 @@ H.J. Wang, Y.H. Shao, S.L. Zhou, C. Zhang and N.H. Xiu, 2019 <br>
 S.L. Zhou, N.H. Xiu and H.D. Qi, Journal of Machine Learning Research, 22(12):1−45, 2021<br>
   <i>Global and quadratic convergence of Newton hard-thresholding pursuit</i>,
   <a style="text-decoration:none; color:#007D98" href="https://jmlr.org/papers/v22/19-026.html">JMLR</a>, 
-  <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/330224407">ResearchGate</a>, 
+  <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/330224407">RG</a>, 
   <a style="text-decoration:none; color:#007D98" href="https://arxiv.org/abs/1901.02763">ArXiv</a>, 
   <a style="text-decoration:none; color:#007D98" href="https://github.com/ShenglongZhou/NHTPver2">Code</a>
 <br>
@@ -57,7 +57,7 @@ S.L. Zhou, N.H. Xiu and H.D. Qi, Journal of Machine Learning Research, 22(12):1�
 S.L. Zhou, L.L. Pan and N.H. Xiu,  Numerical Algorithms, 2021 <br>
   <i>Newton method  for L0-regularized optimization</i>,
   <a style="text-decoration:none; color:#007D98" href="https://doi.org/10.1007/s11075-021-01085-x">NumAlg</a>, 
-  <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/340563338">ResearchGate</a>, 
+  <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/340563338">RG</a>, 
   <a style="text-decoration:none; color:#007D98" href="https://arxiv.org/abs/2004.05132">ArXiv</a>, 
   <a style="text-decoration:none; color:#007D98" href="https://github.com/ShenglongZhou/NL0R">Code</a> 
 <br>
@@ -65,7 +65,7 @@ S.L. Zhou, L.L. Pan and N.H. Xiu,  Numerical Algorithms, 2021 <br>
 S.L. Zhou, L.L. Pan, M. Li and M.J. Shang, SIAM Journal on Scientific Computing, 43(2), A772–A799, 2021 <br>
   <i>Newton hard-thresholding pursuit for sparse LCP via a new merit function</i>,
   <a style="text-decoration:none; color:#007D98" href="https://doi.org/10.1137/19M1301539">SISC</a>, 
-  <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/337948990">ResearchGate</a>,
+  <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/337948990">RG</a>,
   <a style="text-decoration:none; color:#007D98" href="https://arxiv.org/abs/2004.02244">ArXiv</a>,
   <a style="text-decoration:none; color:#007D98" href="https://github.com/ShenglongZhou/NHTPver2">Code</a> 
 <br>
@@ -76,7 +76,7 @@ S.L. Zhou, L.L. Pan, M. Li and M.J. Shang, SIAM Journal on Scientific Computing,
     
 S.L. Zhou, 2020 <br>
     <i>Sparse SVM for sufficient data reduction</i>,
-    <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/341883040">ResearchGate</a>,
+    <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/341883040">RG</a>,
     <a style="text-decoration:none; color:#007D98" href="https://arxiv.org/abs/2005.13771">ArXiv</a>,
     <a style="text-decoration:none; color:#007D98" href="https://github.com/ShenglongZhou/NSSVM">Code</a> 
 <br>
@@ -84,12 +84,12 @@ S.L. Zhou, 2020 <br>
 X.R. Li, N.H. Xiu and  S.L. Zhou, Journal of Optimization Theory and Applications, 184, 895–930, 2019 <br>
     <i>Matrix optimization over low-rank spectral sets: stationary points, local and global minimizers</i>,
     <a style="text-decoration:none; color:#007D98" href="https://link.springer.com/article/10.1007%2Fs10957-019-01606-8">JOTA</a>,
-    <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/327581904">ResearchGate</a> 
+    <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/327581904">RG</a> 
 <br>
 <br>
 R. Wang, N.H. Xiu and  S.L. Zhou, 2021 <br>
     <i>Newton method for sparse logistic regression: quadratic convergence and extensive simulations</i>,
-    <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/330224305">ResearchGate</a>,
+    <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/330224305">RG</a>,
     <a style="text-decoration:none; color:#007D98" href="https://arxiv.org/abs/1901.02768">ArXiv</a>,
     <a style="text-decoration:none; color:#007D98" href="https://github.com/ShenglongZhou/NSLR">Code</a> 
 <br>
@@ -97,7 +97,7 @@ R. Wang, N.H. Xiu and  S.L. Zhou, 2021 <br>
 L.L. Pan,  S.L. Zhou, N.H. Xiu and H.D. Qi, Pacific Journal of Optimization,  13(2): 325-353, 2017 <br>
     <i>A convergent iterative hard thresholding for sparsity and nonnegativity constrained optimization</i>,
     <a style="text-decoration:none; color:#007D98" href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p325.html">PJO</a>,
-    <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/299519906">ResearchGate</a>,
+    <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/299519906">RG</a>,
     <a style="text-decoration:none; color:#007D98" href="https://github.com/ShenglongZhou/IIHT">Code</a> 
 <br>
 <br>
@@ -114,7 +114,7 @@ Y.Q. Liu, G.K. Liu, X.C. Xiu and  S.L. Zhou, Pacific Journal of Optimization,   
 S.L. Zhou, N.H. Xiu, Y.N. Wang, L.C. Kong and H.D. Qi, Information and Inference,  5(1): 76-102, 2016 <br>
     <i>A Null-space-based weighted l1 minimization approach to compressed sensing</i>,
     <a style="text-decoration:none; color:#007D98" href="https://academic.oup.com/imaiai/article/5/1/76/2357109">IMAIAI</a>,
-    <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/294109268">ResearchGate</a>,
+    <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/294109268">RG</a>,
     <a style="text-decoration:none; color:#007D98" href="https://github.com/ShenglongZhou/MIRL1">Code</a> 
 <br>
 <br>
@@ -179,7 +179,7 @@ S.L. Zhou, N.H. Xiu and H.D. Qi, PhD Thesis, University of Southampton, 2018<br>
 A. Zemkoho and  S.L. Zhou, Computational Optimization and Application, 78(2), 625-674, 2021 <br>
   <i>Theoretical and numerical comparison of the KKT and value function reformulations in bilevel optimization</i><br> 
   <a style="text-decoration:none; color:#007D98" href="https://doi.org/10.1007/s10589-020-00250-7">JCOA</a>,
-  <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/340769764">ResearchGate</a>,
+  <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/340769764">RG</a>,
   <a style="text-decoration:none; color:#007D98" href="https://arxiv.org/abs/2004.10830">ArXiv</a> 
 <br>
 <br>  
@@ -187,7 +187,7 @@ S.L. Zhou, A. Zemkoho and A. Tin, Bilevel optimization: advances and next challe
   <i>BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2</i>,
   <a style="text-decoration:none; color:#007D98" href="https://biopt.github.io/files/Paper.pdf">BiOpt</a>,
   <a style="text-decoration:none; color:#007D98" href="https://www.springer.com/gp/book/9783030521189">Book</a>, 
-  <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/338375731">ResearchGate</a>,
+  <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/338375731">RG</a>,
   <a style="text-decoration:none; color:#007D98" href="https://arxiv.org/abs/1812.00230">ArXiv</a>,
   <a style="text-decoration:none; color:#007D98" href="https://biopt.github.io/bolib/">Code</a> 
 <br>
@@ -197,7 +197,7 @@ S.L. Zhou, A. Zemkoho and A. Tin, Bilevel optimization: advances and next challe
   
 A. Fischer, A. Zemkoho and  S.L. Zhou, 2019 <br>
      <i>Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments</i>,
-     <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/337943979">ResearchGate</a>,
+     <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/337943979">RG</a>,
      <a style="text-decoration:none; color:#007D98" href="https://arxiv.org/abs/1912.07079">ArXiv</a>  
 </details> 
 </font>
