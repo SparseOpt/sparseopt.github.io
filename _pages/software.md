@@ -26,17 +26,7 @@ a:active {
 </style>
 
 
-## <span style="color:#225675"><b style="font-size:20px">0/1 Loss Optimization Solvers</b></span>
----
 
-  <font size=4> 
-  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/GPSP" target="_blank">GPSP</a> solves the one-bit compressive sensing problems. <br>
-  <a style="color:#225675" href="https://www.researchgate.net/publication/348371863" target="_blank"><i>Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization</i></a>. <br> <br>
-  
-  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/Huajun-Wang/L01ADMM" target="_blank">L01ADMM</a> solves the support vector machine. <br>
-  <a style="color:#225675" href="https://arxiv.org/abs/1912.07418" target="_blank"><i>Support vector machine classifier via  L0/1 soft-margin loss</i></a>. 
-      
-  </font>
 
 ## <span style="color:#225675"><b style="font-size:20px">Sparse  Optimization Solvers</b></span>
 ---
@@ -47,9 +37,12 @@ a:active {
     
   <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/NL0R" target="_blank">NL0R</a> solves the L0 regularized optimization problems including CS, LR and LCP.   <br> 
   <a style="color:#225675" href="https://arxiv.org/abs/2004.05132" target="_blank"><i>Newton Method for L0-Regularized Optimization</i></a>.<br>  <br> 
+ 
+   <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/NSSVM" target="_blank">NSSVM</a> solves the sparse support vector machine.  Source codes for <br>
+  <a style="color:#225675" href="https://arxiv.org/abs/2005.13771" target="_blank"><i>Sparse SVM for Sufficient Data Reduction</i></a>. <br><br>
   
   <details>
-  <summary><span style="color:#007D98"><b style="font-size:15px">Click for more solvers</b></span></summary>
+  <summary><span style="color:#007D98"><b style="font-size:16px">Click for more solvers</b></span></summary>
   <br> 
 
   <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/IIHT" target="_blank">IIHT</a> solves the sparsity constrained optimization including CS, LR, LCP and etc.   <br>
@@ -60,9 +53,6 @@ a:active {
  
   <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/HTPCP" target="_blank">HTPCP</a> solves the sparse linear/nonlinear complementarity problems.   <br>
   <a style="color:#225675" href="https://link.springer.com/article/10.1007/s11590-014-0834-7" target="_blank"><i>A Half Thresholding Projection Algorithmfor Sparse Solutions of LCPs</i></a>. <br><br>
- 
-  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/NSSVM" target="_blank">NSSVM</a> solves the sparse support vector machine.  Source codes for <br>
-  <a style="color:#225675" href="https://arxiv.org/abs/2005.13771" target="_blank"><i>Sparse SVM for Sufficient Data Reduction</i></a>. <br><br>
  
   <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/ADMM" target="_blank">ADMM</a> solves the sparse and low-rank covariance matrix recovery problem.   <br>
   <a style="color:#225675" href="https://link.springer.com/article/10.1007/s40305-014-0058-7" target="_blank"><i>Sparse and Low-Rank Covariance Matrix Estimation</i></a>. <br><br>
@@ -141,6 +131,18 @@ a:active {
   </details> 
   </font>
 
+## <span style="color:#225675"><b style="font-size:20px">0/1 Loss Optimization Solvers</b></span>
+---
+
+  <font size=4> 
+  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/GPSP" target="_blank">GPSP</a> solves the one-bit compressive sensing problems. <br>
+  <a style="color:#225675" href="https://www.researchgate.net/publication/348371863" target="_blank"><i>Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization</i></a>. <br> <br>
+  
+  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/Huajun-Wang/L01ADMM" target="_blank">L01ADMM</a> solves the support vector machine. <br>
+  <a style="color:#225675" href="https://arxiv.org/abs/1912.07418" target="_blank"><i>Support vector machine classifier via  L0/1 soft-margin loss</i></a>. 
+      
+  </font>
+  
 
 ## <span style="color:#225675"><b style="font-size:20px">EDM Optimization Solvers</b></span>
 ---
