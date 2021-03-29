@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-<head>
 <style>
 a:link {
   text-decoration: none;
@@ -26,7 +25,7 @@ a:active {
   text-decoration: underline;
 }
 </style>
-</head>
+
 
 <span style="color:#225675">Education and Work Experience</span>
 ---
