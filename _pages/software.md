@@ -139,7 +139,7 @@ a:active {
   <a style="color:#225675" href="https://www.researchgate.net/publication/348371863" target="_blank"><i>Computing One-bit Compressive Sensing via Double-Sparsity Constrained Optimization</i></a>. <br> <br>
   
   <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/Huajun-Wang/L01ADMM" target="_blank">L01ADMM</a> solves the support vector machine. <br>
-  <a style="color:#225675" href="https://arxiv.org/abs/1912.07418" target="_blank"><i>Support vector machine classifier via  L0/1 soft-margin loss</i></a>. 
+  <a style="color:#225675" href="https://arxiv.org/abs/1912.07418" target="_blank"><i>Support Vector Machine Classifier via  L0/1 Soft-margin Loss</i></a>. 
       
   </font>
   
