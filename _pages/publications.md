@@ -98,7 +98,6 @@ L.L. Pan,  S.L. Zhou, N.H. Xiu and H.D. Qi, Pacific Journal of Optimization,  13
     <i>A convergent iterative hard thresholding for sparsity and nonnegativity constrained optimization</i>,
     <a style="text-decoration:none; color:#007D98" href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p325.html">PJO</a>,
     <a style="text-decoration:none; color:#007D98" href="https://www.researchgate.net/publication/299519906">ResearchGate</a>,
-    <a style="text-decoration:none; color:#007D98" href="https://arxiv.org/abs/1406.7178">ArXiv</a>,
     <a style="text-decoration:none; color:#007D98" href="https://github.com/ShenglongZhou/IIHT">Code</a> 
 <br>
 <br>
