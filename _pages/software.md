@@ -7,7 +7,25 @@ redirect_from:
   - /resume
 ---
  
- 
+<style>
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+</style>
+
+
 ## <span style="color:#225675"><b style="font-size:20px">0/1 Loss Optimization Solvers</b></span>
 ---
 
