@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<span style="color:#225675">Education and Work Experience</span>
+<span style="color:#007D98">Education and Work Experience</span>
 ---
 Research Fellow in Computer Science, 2021- <br>
 <a style="text-decoration:none; color:#6DC3CC" href='https://www.ecs.soton.ac.uk/'>School of Electronics and Computer Science</a><br>
@@ -23,7 +23,7 @@ M.S. in Operational Research, 2011-2014 <br>
 B.S. in Information and Computing Sciences, 2007-2011 <br>
 <a style="text-decoration:none; color:#6DC3CC" href='http://en.sci.njtu.edu.cn/Department/DepartmentofMathematics/index.htm'>Department of Mathematics</a>, <a style="text-decoration:none; color:#6DC3CC" href='http://en.njtu.edu.cn/'>Beijing Jiaotong University</a>, China 
 
-<span style="color:#225675">Research Interests</span>
+<span style="color:#007D98">Research Interests</span>
 ---
 
 <p><div style="text-align:justify;"> 
