@@ -38,7 +38,7 @@ a:active {
   <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/NL0R" target="_blank">NL0R</a> solves the L0 regularized optimization problems including CS, LR and LCP.   <br> 
   <a style="color:#225675" href="https://arxiv.org/abs/2004.05132" target="_blank"><i>Newton Method for L0-Regularized Optimization</i></a>.<br>  <br> 
  
-   <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/NSSVM" target="_blank">NSSVM</a> solves the sparse support vector machine.  Source codes for <br>
+   <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/NSSVM" target="_blank">NSSVM</a> solves the sparse support vector machine.  <br>
   <a style="color:#225675" href="https://arxiv.org/abs/2005.13771" target="_blank"><i>Sparse SVM for Sufficient Data Reduction</i></a>. <br><br>
   
   <details>
