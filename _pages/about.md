@@ -8,6 +8,26 @@ redirect_from:
   - /about.html
 ---
 
+<head>
+<style>
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+</style>
+</head>
+
 <span style="color:#225675">Education and Work Experience</span>
 ---
 Research Fellow in Computer Science, 2021- <br>
