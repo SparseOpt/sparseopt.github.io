@@ -86,15 +86,15 @@ author:
   location         : "Southampton, UK"
   employer         :
   pubmed           :  
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=ecRgB8YAAAAJ&hl=en"
   email            : "shenglong.zhou@soton.ac.uk"
-  researchgate     :  "https://www.researchgate.net/profile/Shenglong_Zhou"
+  researchgate     : "https://www.researchgate.net/profile/Shenglong_Zhou"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "https://www.facebook.com/profile.php?id=100004949741578"
   foursquare       :
   github           : "ShenglongZhou"
   google_plus      :
@@ -103,7 +103,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : #"http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0003-2843-1614"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
