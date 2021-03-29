@@ -166,7 +166,7 @@ a:active {
   <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://biopt.github.io/bolib/" target="_blank">BOLIBver2</a>, the second version of  the library providing 173 test examples. <br>
   <a style="color:#225675" href="https://www.researchgate.net/publication/338375731" target="_blank"><i>BOLIB2019: bilevel optimization library of test problems version 2</i></a>.<br><br>
  
-  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://biopt.github.io/" target="_blank">BiOpt Toolbox</a>,  bilevel optimization toolbox including <a style="color:#007D98" href="https://biopt.github.io/bolib/" target="_blank">BOLIBver2</a>, 
-  <a style="color:#225675" href="https://biopt.github.io/solvers/" target="_blank">three solvers</a> and several useful tools. 
+  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://biopt.github.io/" target="_blank">BiOpt Toolbox</a>,  bilevel optimization toolbox including <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://biopt.github.io/bolib/" target="_blank">BOLIBver2</a>, 
+  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://biopt.github.io/solvers/" target="_blank">three solvers</a> and several useful tools. 
   
   </font>
