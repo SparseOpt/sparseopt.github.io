@@ -36,31 +36,27 @@ S.L. Zhou, N.H. Xiu and H.D. Qi, Journal of Machine Learning Research, 22(12):1â
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://www.researchgate.net/publication/330224407" target="_blank">RG</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://arxiv.org/abs/1901.02763" target="_blank">ArXiv</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">Code</a>
-<br>
-<br>
+<p style="line-height: 1;"></p>
 S.L. Zhou, L.L. Pan and N.H. Xiu,  Numerical Algorithms, 2021 <br>
 <i>Newton method  for L0-regularized optimization</i>,
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://doi.org/10.1007/s11075-021-01085-x" target="_blank">NumAlg</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://www.researchgate.net/publication/340563338" target="_blank">RG</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://arxiv.org/abs/2004.05132" target="_blank">ArXiv</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://github.com/ShenglongZhou/NL0R" target="_blank">Code</a> 
-<br>
-<br>
+<p style="line-height: 1;"></p>
 S.L. Zhou, L.L. Pan, M. Li and M.J. Shang, SIAM Journal on Scientific Computing, 43(2), A772â€“A799, 2021 <br>
 <i>Newton hard-thresholding pursuit for sparse LCP via a new merit function</i>,
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://doi.org/10.1137/19M1301539" target="_blank">SISC</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://www.researchgate.net/publication/337948990" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://arxiv.org/abs/2004.02244" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">Code</a> 
-<br>
-<br>
+<p style="line-height: 1;"></p>
 S.L. Zhou, 2020 <br>
 <i>Sparse SVM for sufficient data reduction</i>,
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://www.researchgate.net/publication/341883040" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://arxiv.org/abs/2005.13771" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://github.com/ShenglongZhou/NSSVM" target="_blank">Code</a> 
-<br>
-<br>
+<p style="line-height: 1;"></p>
   
 <details markdown="1" > 
   <summary><span style="color:#007D98"><b style="font-size:16px">Click for more papers</b></span> </summary> 
