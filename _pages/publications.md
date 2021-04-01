@@ -195,9 +195,9 @@ A. Zemkoho and  S.L. Zhou, Computational Optimization and Application, 78(2), 62
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://www.researchgate.net/publication/340769764" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://arxiv.org/abs/2004.10830" target="_blank">ArXiv</a> 
 <br>
-<i>Theoretical and numerical comparison of the KKT and value function reformulations in bilevel optimization</i><br> 
+<i>Theoretical and numerical comparison of the KKT and value function reformulations in bilevel optimization</i> 
 
-<p style="line-height: 0.5;"></p>
+<p style="line-height: 1;"></p>
 
 S.L. Zhou, A. Zemkoho and A. Tin, Bilevel optimization: advances and next challenges, 2019 <br> 
 <i>BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2</i>,
