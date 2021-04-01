@@ -190,12 +190,14 @@ S.L. Zhou, N.H. Xiu and H.D. Qi, PhD Thesis, University of Southampton, 2018<br>
 ---
 
 <font size=4> 
-A. Zemkoho and  S.L. Zhou, Computational Optimization and Application, 78(2), 625-674, 2021 <br>
-<i>Theoretical and numerical comparison of the KKT and value function reformulations in bilevel optimization</i><br> 
+A. Zemkoho and  S.L. Zhou, Computational Optimization and Application, 78(2), 625-674, 2021, 
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://doi.org/10.1007/s10589-020-00250-7" target="_blank">JCOA</a>,
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://www.researchgate.net/publication/340769764" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://arxiv.org/abs/2004.10830" target="_blank">ArXiv</a> 
-<p style="line-height: 1;"></p>
+<br>
+<i>Theoretical and numerical comparison of the KKT and value function reformulations in bilevel optimization</i><br> 
+
+<p style="line-height: 0.5;"></p>
 
 S.L. Zhou, A. Zemkoho and A. Tin, Bilevel optimization: advances and next challenges, 2019 <br> 
 <i>BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2</i>,
@@ -206,8 +208,9 @@ S.L. Zhou, A. Zemkoho and A. Tin, Bilevel optimization: advances and next challe
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://biopt.github.io/bolib/" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
 
-A. Fischer, A. Zemkoho and  S.L. Zhou, 2019 <br>
-<i>Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments</i>,
+A. Fischer, A. Zemkoho and  S.L. Zhou, 2019, 
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://www.researchgate.net/publication/337943979" target="_blank">RG</a>,
-<a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://arxiv.org/abs/1912.07079" target="_blank">ArXiv</a>  
+<a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://arxiv.org/abs/1912.07079" target="_blank">ArXiv</a>  <br>
+<i>Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments</i> 
+
 </font>
