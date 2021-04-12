@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Shenglong Zhou"
   avatar           : "zsl-new.jpg"
-  bio              : #"Research Fellow at the University of Southampton <br />"
-  location         : "Southampton, UK"
+  bio              : " <br />"
+  location         : #"Southampton, UK"
   employer         :
   pubmed           :  
   email            : "shenglong.zhou@soton.ac.uk"
