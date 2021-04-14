@@ -32,6 +32,9 @@ a:active {
 ---
 
   <font size=4> 
+  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/CSpack" target="_blank">CSpack</a> offers four solvers to solve the compressive sensing problems.
+  <p style="line-height: 1;"></p>
+  
   <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">NHTP</a> solves the sparsity constrained optimization including CS, LR, LCP and etc.   <br> 
   <a style="color:#225675" href="https://arxiv.org/abs/1901.02763" target="_blank"><i>Global and quadratic convergence of Newton hard-thresholding pursuit</i></a>.
   <p style="line-height: 1;"></p>
