@@ -26,11 +26,11 @@ a:active {
 </style>
 
 
-* <p><div style="text-align:justify;">  
+* <div style="text-align:justify;">  
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://biopt.github.io/" target="_blank">BiOpt Toolbox</a> provides 173 test examples, three solvers and several useful tools for bilevel optimization .  
-</div> </p>
+</div>  
 
 
-* <p><div style="text-align:justify;">  
+* <div style="text-align:justify;">  
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://github.com/ShenglongZhou/CSpack" target="_blank">CSpack</a> provides four solvers to solve the compressive sensing problems.
-</div> </p>
+</div> 
