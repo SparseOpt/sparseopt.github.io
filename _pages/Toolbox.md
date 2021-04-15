@@ -33,7 +33,7 @@ To help accelerate the development of numerical toolboxes for bilevel optimizati
 </div> </p>
 
 
-<span style="color:#225675" href="https://github.com/ShenglongZhou/CSpack" target="_blank">>CSpack</span>
+<span style="color:#225675" href="https://github.com/ShenglongZhou/CSpack" target="_blank">CSpack</span>
 ---
 
 <p><div style="text-align:justify;">  
