@@ -105,7 +105,7 @@ a:active {
 
    <table border="2" width="0.5">
       <tr>
-        <td style="width:8%" align="center"> </td>
+        <td style="width:9%" align="center"> </td>
         <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#007D98"  href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">NHTP</a></td>
         <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#007D98"  href="https://github.com/ShenglongZhou/NL0R" target="_blank">NL0R</a></td>
         <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#007D98"  href="https://github.com/ShenglongZhou/IIHT" target="_blank">IIHT</a></td>
@@ -113,7 +113,7 @@ a:active {
         <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#007D98"  href="https://github.com/ShenglongZhou/HTPCP" target="_blank">HTPCP</a></td>
       </tr>
        <tr>
-          <td style="width:8%" align="left"><b>Compressed sensing (<span style="color:#007D98">CS</span>)</b></td>
+          <td style="width:9%" align="left"><b>Compressed sensing (<span style="color:#007D98">CS</span>)</b></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
@@ -121,7 +121,7 @@ a:active {
           <td style="width:5%" align="center"> </td> 
       </tr>
         <tr>
-          <td style="width:8%" align="left"><b>Logistic regression (<span style="color:#007D98">LR</span>)</b></td>
+          <td style="width:9%" align="left"><b>Logistic regression (<span style="color:#007D98">LR</span>)</b></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
@@ -129,7 +129,7 @@ a:active {
           <td style="width:5%" align="center"> </td> 
       </tr>
         <tr>
-          <td style="width:8%" align="left"><b>Linear complementarity problem (<span style="color:#007D98">LCP</span>)</b></td>
+          <td style="width:9%" align="left"><b>Linear complementarity problem (<span style="color:#007D98">LCP</span>)</b></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
