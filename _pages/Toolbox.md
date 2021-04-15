@@ -25,15 +25,15 @@ a:active {
 }
 </style>
 
-<span style="color:#225675" href="https://biopt.github.io/" target="_blank">BiOpt Toolbox</span>
+## <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://biopt.github.io/" target="_blank">BiOpt Toolbox</a>
 ---
 
 <p><div style="text-align:justify;">  
-BiOpt toolbox provides a platform on which users can test a wide range of bilevel optimization examples through the provided solvers.  
+BiOpt toolbox provides 173 test examples, three solvers and several useful tools for bilevel optimization .  
 </div> </p>
 
 
-<span style="color:#225675" href="https://github.com/ShenglongZhou/CSpack" target="_blank">CSpack</span>
+## <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://github.com/ShenglongZhou/CSpack" target="_blank">CSpack</a>
 ---
 
 <p><div style="text-align:justify;">  
