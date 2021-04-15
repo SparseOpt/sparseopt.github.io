@@ -29,7 +29,7 @@ a:active {
 ---
 
 <p><div style="text-align:justify;">  
-BiOpt toolbox aims at providing a platform on which users can test a wide range of bilevel optimization examples through the provided solvers.  
+BiOpt toolbox provides a platform on which users can test a wide range of bilevel optimization examples through the provided solvers.  
 </div> </p>
 
 
@@ -37,5 +37,5 @@ BiOpt toolbox aims at providing a platform on which users can test a wide range 
 ---
 
 <p><div style="text-align:justify;">  
-CSpack offers four solvers to solve the compressive sensing problems.
+CSpack provides four solvers to solve the compressive sensing problems.
 </div> </p>
