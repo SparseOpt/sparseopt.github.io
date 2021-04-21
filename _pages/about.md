@@ -29,10 +29,11 @@ a:active {
 
 <span style="color:#225675">Education and Work Experience</span>
 ---
-<!---Research Fellow in Computer Science, 2021- <br>
-<a style="color:#007D98" href='https://www.ecs.soton.ac.uk/' target="_blank">School of Electronics and Computer Science</a><br>
-University of Southampton, UK  <br>
-<br>--->
+Research Associate, 2021-present <br>
+<a style="color:#007D98" href='https://www.imperial.ac.uk/electrical-engineering' target="_blank">Department of Electrical and Electronic Engineering</a><br>
+ <a style="color:#007D98" href='https://www.imperial.ac.uk/' target="_blank">Imperial College London</a>, UK <br>
+<br>
+<br>
 Teaching Fellow in Operational Research, 2020-2021 <br>
 Research Fellow in Operational Research, 2017-2020<br>
 PhD in  Operational Research, 2014-2017 <br>
