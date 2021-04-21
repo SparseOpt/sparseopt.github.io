@@ -30,6 +30,13 @@ a:active {
 ---
 
 <font size=4> 
+S.L. Zhou, 2020 <br>
+<i>Sparse SVM for sufficient data reduction</i>, IEEE Transactions on Pattern Analysis and Machine Intelligence, 2021 <br>
+<a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://www.researchgate.net/publication/351035522" target="_blank">RG</a>,
+<a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://arxiv.org/abs/2005.13771" target="_blank">ArXiv</a>,
+<a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://github.com/ShenglongZhou/NSSVM" target="_blank">Code</a> 
+<p style="line-height: 1;"></p>
+  
 S.L. Zhou, N.H. Xiu and H.D. Qi, Journal of Machine Learning Research, 22(12):1−45, 2021<br>
 <i>Global and quadratic convergence of Newton hard-thresholding pursuit</i>,
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://jmlr.org/papers/v22/19-026.html" target="_blank">JMLR</a>, 
@@ -54,12 +61,7 @@ S.L. Zhou, L.L. Pan, M. Li and M.J. Shang, SIAM Journal on Scientific Computing,
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
   
-S.L. Zhou, 2020 <br>
-<i>Sparse SVM for sufficient data reduction</i>,
-<a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://www.researchgate.net/publication/341883040" target="_blank">RG</a>,
-<a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://arxiv.org/abs/2005.13771" target="_blank">ArXiv</a>,
-<a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://github.com/ShenglongZhou/NSSVM" target="_blank">Code</a> 
-<p style="line-height: 1;"></p>
+
   
 <details markdown="1" > 
   <summary><span style="color:#007D98"><b style="font-size:16px">Click for more papers</b></span> </summary> 
