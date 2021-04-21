@@ -31,8 +31,7 @@ a:active {
 ---
 Research Associate, 2021-present <br>
 <a style="color:#007D98" href='https://www.imperial.ac.uk/electrical-engineering' target="_blank">Department of Electrical and Electronic Engineering</a><br>
- <a style="color:#007D98" href='https://www.imperial.ac.uk/' target="_blank">Imperial College London</a>, UK <br>
-<br>
+<a style="color:#007D98" href='https://www.imperial.ac.uk/' target="_blank">Imperial College London</a>, UK <br>
 <br>
 Teaching Fellow in Operational Research, 2020-2021 <br>
 Research Fellow in Operational Research, 2017-2020<br>
