@@ -30,8 +30,9 @@ a:active {
 ---
 
 <font size=4> 
-S.L. Zhou, IEEE Transactions on Pattern Analysis and Machine Intelligence, 2021 <br>
+S.L. Zhou, IEEE Transactions on Pattern Analysis and Machine Intelligence, doi: 10.1109/TPAMI.2021.3075339, 2021 <br>
 <i>Sparse SVM for sufficient data reduction</i>,
+<a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://ieeexplore.ieee.org/document/9415153" target="_blank">TPAMI</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://www.researchgate.net/publication/351035522" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://arxiv.org/abs/2005.13771" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://github.com/ShenglongZhou/NSSVM" target="_blank">Code</a> 
@@ -45,7 +46,7 @@ S.L. Zhou, N.H. Xiu and H.D. Qi, Journal of Machine Learning Research, 22(12):1â
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
   
-S.L. Zhou, L.L. Pan and N.H. Xiu,  Numerical Algorithms, 2021 <br>
+S.L. Zhou, L.L. Pan and N.H. Xiu,  Numerical Algorithms, doi: 10.1007/s11075-021-01085-x, 2021 <br>
 <i>Newton method  for L0-regularized optimization</i>,
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://doi.org/10.1007/s11075-021-01085-x" target="_blank">NumAlg</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://www.researchgate.net/publication/340563338" target="_blank">RG</a>, 
