@@ -73,8 +73,8 @@ X.R. Li, N.H. Xiu and  S.L. Zhou, Journal of Optimization Theory and Application
     <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://www.researchgate.net/publication/327581904" target="_blank">RG</a> 
 <p style="line-height: 1;"></p>
 
-R. Wang, N.H. Xiu and  S.L. Zhou, 2021 <br>
-    <i>Newton method for sparse logistic regression: quadratic convergence and extensive simulations</i>,
+R. Wang, N.H. Xiu and  S.L. Zhou, 2021, Journal of Computational and Applied Mathematics <br>
+    <i>An xxtended Newton-type algorithm for L2-regularized sparse logistic regression and its efficiency for classifying large-scale datasets</i>,
     <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://www.researchgate.net/publication/330224305" target="_blank">RG</a>,
     <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://arxiv.org/abs/1901.02768" target="_blank">ArXiv</a>,
     <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://github.com/ShenglongZhou/NSLR" target="_blank">Code</a> 
