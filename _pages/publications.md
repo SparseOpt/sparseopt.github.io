@@ -73,11 +73,11 @@ X.R. Li, N.H. Xiu and  S.L. Zhou, Journal of Optimization Theory and Application
     <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://www.researchgate.net/publication/327581904" target="_blank">RG</a> 
 <p style="line-height: 1;"></p>
 
-R. Wang, N.H. Xiu and  S.L. Zhou, Journal of Computational and Applied Mathematics, 2021 <br>
-    <i>An xxtended Newton-type algorithm for L2-regularized sparse logistic regression and its efficiency for classifying large-scale datasets</i>,
+R. Wang, N.H. Xiu and  S.L. Zhou, Journal of Computational and Applied Mathematics, 2021,     
     <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://www.researchgate.net/publication/330224305" target="_blank">RG</a>,
     <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://arxiv.org/abs/1901.02768" target="_blank">ArXiv</a>,
-    <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://github.com/ShenglongZhou/NSLR" target="_blank">Code</a> 
+    <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://github.com/ShenglongZhou/NSLR" target="_blank">Code</a> <br>
+    <i>An extended Newton-type algorithm for L2-regularized sparse logistic regression and its efficiency for classifying large-scale datasets</i>
 <p style="line-height: 1;"></p>
 
 L.L. Pan,  S.L. Zhou, N.H. Xiu and H.D. Qi, Pacific Journal of Optimization,  13(2): 325-353, 2017 <br>
