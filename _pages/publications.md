@@ -75,6 +75,7 @@ X.R. Li, N.H. Xiu and  S.L. Zhou, Journal of Optimization Theory and Application
 
 R. Wang, N.H. Xiu and  S.L. Zhou, Journal of Computational and Applied Mathematics, 2021 <br>
     <i>An extended Newton-type algorithm for L2-regularized sparse logistic regression and its efficiency for classifying large-scale datasets</i>,
+  <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://doi.org/10.1016/j.cam.2021.113656" target="_blank">JCAM</a>, 
     <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://www.researchgate.net/publication/330224305" target="_blank">RG</a>,
     <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://arxiv.org/abs/1901.02768" target="_blank">ArXiv</a>,
     <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://github.com/ShenglongZhou/NSLR" target="_blank">Code</a>
