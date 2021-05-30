@@ -67,7 +67,11 @@ S.L. Zhou, L.L. Pan, M. Li and M.J. Shang, SIAM Journal on Scientific Computing,
  <!---<details markdown="1" > 
   <summary><span style="color:#007D98"><b style="font-size:16px">Click for more papers</b></span> </summary> --->
     
-
+J. Sun, L.C. Kong and  S.L. Zhou, 2021 <br>
+    <i>Gradient Projection Newton Algorithm for Sparse Collaborative Learnings</i>,
+    <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://www.researchgate.net/publication/351985058" target="_blank">RG</a>
+<p style="line-height: 1;"></p>
+  
 R. Wang, N.H. Xiu and  S.L. Zhou, Journal of Computational and Applied Mathematics, 2021 <br>
     <i>An extended Newton-type algorithm for L2-regularized sparse logistic regression and its efficiency for classifying large-scale datasets</i>,
   <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://doi.org/10.1016/j.cam.2021.113656" target="_blank">JCAM</a>, 
