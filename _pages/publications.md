@@ -64,14 +64,9 @@ S.L. Zhou, L.L. Pan, M. Li and M.J. Shang, SIAM Journal on Scientific Computing,
   
 
   
-<details markdown="1" > 
-  <summary><span style="color:#007D98"><b style="font-size:16px">Click for more papers</b></span> </summary> 
+ <!---<details markdown="1" > 
+  <summary><span style="color:#007D98"><b style="font-size:16px">Click for more papers</b></span> </summary> --->
     
-X.R. Li, N.H. Xiu and  S.L. Zhou, Journal of Optimization Theory and Applications, 184, 895–930, 2019 <br>
-    <i>Matrix optimization over low-rank spectral sets: stationary points, local and global minimizers</i>,
-    <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://link.springer.com/article/10.1007%2Fs10957-019-01606-8" target="_blank">JOTA</a>,
-    <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://www.researchgate.net/publication/327581904" target="_blank">RG</a> 
-<p style="line-height: 1;"></p>
 
 R. Wang, N.H. Xiu and  S.L. Zhou, Journal of Computational and Applied Mathematics, 2021 <br>
     <i>An extended Newton-type algorithm for L2-regularized sparse logistic regression and its efficiency for classifying large-scale datasets</i>,
@@ -79,6 +74,12 @@ R. Wang, N.H. Xiu and  S.L. Zhou, Journal of Computational and Applied Mathemati
     <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://www.researchgate.net/publication/330224305" target="_blank">RG</a>,
     <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://arxiv.org/abs/1901.02768" target="_blank">ArXiv</a>,
     <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://github.com/ShenglongZhou/NSLR" target="_blank">Code</a>
+<p style="line-height: 1;"></p>
+  
+ X.R. Li, N.H. Xiu and  S.L. Zhou, Journal of Optimization Theory and Applications, 184, 895–930, 2019 <br>
+    <i>Matrix optimization over low-rank spectral sets: stationary points, local and global minimizers</i>,
+    <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://link.springer.com/article/10.1007%2Fs10957-019-01606-8" target="_blank">JOTA</a>,
+    <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://www.researchgate.net/publication/327581904" target="_blank">RG</a> 
 <p style="line-height: 1;"></p>
 
 L.L. Pan,  S.L. Zhou, N.H. Xiu and H.D. Qi, Pacific Journal of Optimization,  13(2): 325-353, 2017 <br>
@@ -130,8 +131,9 @@ M.J. Shang, C. Zhang, D.T. Peng and  S.L. Zhou, Optimization Letters,  9(6): 123
 S.L. Zhou, L.C. Kong and N.H. Xiu, Journal of the Operations Research Society of China,  1(2): 227-237, 2013 <br>
     <i>New bounds for RIC in compressed sensing</i>,
     <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://link.springer.com/article/10.1007/s40305-013-0013-z" target="_blank">JORSC</a>
-</details> 
-</font>
+
+  <!---</details> 
+</font>--->
 
 
 
