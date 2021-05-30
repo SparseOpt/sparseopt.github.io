@@ -62,9 +62,7 @@ S.L. Zhou, L.L. Pan, M. Li and M.J. Shang, SIAM Journal on Scientific Computing,
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
   
-
-  
- <!---<details markdown="1" >  <summary><span style="color:#007D98"><b style="font-size:16px">Click for more papers</b></span> </summary> --->
+<!---<details markdown="1" >  <summary><span style="color:#007D98"><b style="font-size:16px">Click for more papers</b></span> </summary> --->
     
 J. Sun, L.C. Kong and  S.L. Zhou, 2021 <br>
 <i>Gradient Projection Newton Algorithm for Sparse Collaborative Learnings</i>,
@@ -135,7 +133,8 @@ S.L. Zhou, L.C. Kong and N.H. Xiu, Journal of the Operations Research Society of
 <i>New bounds for RIC in compressed sensing</i>,
 <a style="font-size: 16px; font-weight: bold;color:#007D98" href="https://link.springer.com/article/10.1007/s40305-013-0013-z" target="_blank">JORSC</a>
 
-  <!---</details>  </font>--->
+<!---</details>--->
+</font>
 
 
 
