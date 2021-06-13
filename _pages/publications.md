@@ -26,7 +26,7 @@ a:active {
 
 
 
-## <span style="color:#225675"><b style="font-size:20px">Sparse Optimization</b></span>
+## <span style="color:white"><b style="font-size:20px">Sparse Optimization</b></span>
 ---
 
 <font size=4> 
@@ -138,7 +138,7 @@ S.L. Zhou, L.C. Kong and N.H. Xiu, Journal of the Operations Research Society of
 
 
 
-## <span style="color:#225675"><b style="font-size:20px"> 0/1 Loss Optimization</b></span> 
+## <span style="color:white"><b style="font-size:20px"> 0/1 Loss Optimization</b></span> 
 ---
 
 <font size=4>
@@ -171,7 +171,7 @@ H.J. Wang, Y.H. Shao, S.L. Zhou, C. Zhang and N.H. Xiu, 2019 <br>
 
 
 
-## <span style="color:#225675"><b style="font-size:20px">EDM Optimization</b></span>
+## <span style="color:white"><b style="font-size:20px">EDM Optimization</b></span>
 ---
 
 <font size=4> 
@@ -193,7 +193,7 @@ S.L. Zhou, N.H. Xiu and H.D. Qi, PhD Thesis, University of Southampton, 2018<br>
 </font>
 
 
-## <span style="color:#225675"><b style="font-size:20px">Bilevel Optimization</b></span>
+## <span style="color:white"><b style="font-size:20px">Bilevel Optimization</b></span>
 ---
 
 <font size=4> 
