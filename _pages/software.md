@@ -139,7 +139,8 @@ a:active {
       </table>
  <!---  </details> --->
   </font>
-</p>
+
+<br>
 ## <b style="font-size:20px">0/1 Loss Optimization Solvers</b>
 ---
 
@@ -153,7 +154,7 @@ a:active {
       
   </font>
   
-</p>
+<br>
 ## <b style="font-size:20px">EDM Optimization Solvers</b>
 ---
   
@@ -170,7 +171,7 @@ a:active {
   </font>
 
 
-</p>
+<br>
 ## <b style="font-size:20px">Bilevel Optimization Toolbox </b>
 ---
 
