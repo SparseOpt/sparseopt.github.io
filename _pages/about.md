@@ -27,10 +27,10 @@ a:active {
 </style>
 
 
-<span style="color:cyan">Education and Work Experience</span>
+<span style="color:#225675">Education and Work Experience</span>
 ---
 Research Associate, 2021-present <br>
-<a style="color:cyan" href='https://www.imperial.ac.uk/electrical-engineering' target="_blank">Department of EEE</a>,
+<a style="color:#225675" href='https://www.imperial.ac.uk/electrical-engineering' target="_blank">Department of EEE</a>,
 <a style="color:#225675" href='https://www.imperial.ac.uk/' target="_blank">Imperial College London</a>, UK <br>
 <br>
 Teaching Fellow, 2020-2021 <br>
