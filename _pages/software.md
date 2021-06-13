@@ -47,9 +47,9 @@ a:active {
   <a style="color:#225675" href="https://arxiv.org/abs/2005.13771" target="_blank"><i>Sparse SVM for sufficient data reduction</i></a>.
   <p style="line-height: 1;"></p>
   
-  <details>
+  <!--- <details>
   <summary><span style="color:#007D98"><b style="font-size:16px">Click for more solvers</b></span></summary>
-  <br> 
+  <br> --->
 
   <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/IIHT" target="_blank">IIHT</a> solves the sparsity constrained optimization including CS, LR, LCP and etc.   <br>
   <a style="color:#225675" href="http://www.ybook.co.jp/online2/oppjo/vol13/p325.html" target="_blank"><i>A Convergent iterative hard thresholding for sparsity and nonnegativity constrained optimization</i></a>. 
@@ -137,7 +137,7 @@ a:active {
           <td style="width:5%" align="center">$\surd$</td> 
       </tr>
       </table>
-  </details> 
+ <!---  </details> --->
   </font>
 
 ## <span style="color:#225675"><b style="font-size:20px">0/1 Loss Optimization Solvers</b></span>
