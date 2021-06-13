@@ -28,7 +28,7 @@ a:active {
 
 
 
-## Sparse  Optimization Solvers
+## <b style="font-size:20px">Sparse  Optimization Solvers</b>
 ---
 
   <font size=4> 
@@ -140,7 +140,7 @@ a:active {
  <!---  </details> --->
   </font>
 
-## 0/1 Loss Optimization Solvers
+## <b style="font-size:20px">0/1 Loss Optimization Solvers</b>
 ---
 
   <font size=4> 
