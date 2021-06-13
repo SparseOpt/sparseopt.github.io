@@ -66,7 +66,7 @@ a:active {
   <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/ADMM" target="_blank">ADMM</a> solves the sparse and low-rank covariance matrix recovery problem.   <br>
   <a style="color:#225675" href="https://link.springer.com/article/10.1007/s40305-014-0058-7" target="_blank"><i>Sparse and low-rank covariance matrix estimation</i></a>. <br><br>
  
-
+   <!---
   <b> Two general forms of sparse optimization: </b> 
   
    \begin{eqnarray*}
@@ -75,7 +75,7 @@ a:active {
    \text{L0 regularized optimization:} &~\min_{x}&~f(x) +\lambda \Vert x \Vert_0,
    \end{array}
    \end{eqnarray*}
-   where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$, $s\ll n, \lambda>0$ and $\Vert x \Vert_0$ is the so-called $\ell_0$ norm that counts the number of nonzero elements of $x$.  <br><br>
+   where $f: \mathbb{R}^{ n}\rightarrow  \mathbb{R}$, $s\ll n, \lambda>0$ and $\Vert x \Vert_0$ is the so-called $\ell_0$ norm that counts the number of nonzero elements of $x$.  <br><br> --->
  
  
   <!---### <b> Applications of sparse optimization </b>  <br><br>
