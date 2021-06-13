@@ -27,7 +27,7 @@ a:active {
 </style>
 
 
-<b style="font-size:20px">Education and Work Experience</b>
+<b style="font-size:20px">Employment History</b>
 ---
 Research Associate, 2021-present <br>
 <a href='https://www.imperial.ac.uk/electrical-engineering' target="_blank">Department of EEE</a>,
@@ -36,9 +36,13 @@ Research Associate, 2021-present <br>
 Teaching Fellow, 2020-2021 <br>
 Research Fellow, 2017-2020 <br>
 School of Mathematics, University of Southampton, UK <br>
-<br>
+
+
+<b style="font-size:20px">Education Background</b>
+---
 PhD in  Operational Research, 2014-2017 <br>
 <a style="color:#8cd2d5" href='https://www.southampton.ac.uk/maths' target="_blank">School of Mathematics</a>, <a style="color:#8cd2d5" href='https://www.southampton.ac.uk/' target="_blank">University of Southampton</a>, UK <br>
+<br>
 M.S. in Operational Research, 2011-2014 <br>
 B.S. in Information and Computing Sciences, 2007-2011 <br>
 <a style="color:#8cd2d5" href='http://en.sci.njtu.edu.cn/Department/DepartmentofMathematics/index.htm' target="_blank">Department of Mathematics</a>, <a style="color:#8cd2d5" href='http://en.njtu.edu.cn/' target="_blank">Beijing Jiaotong University</a>, China 
