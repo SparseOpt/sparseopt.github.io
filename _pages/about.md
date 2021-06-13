@@ -27,7 +27,7 @@ a:active {
 </style>
 
 
-<b style="font-size:20px; color:#90a4ae">Education and Work Experience</b>
+<b style="font-size:20px; color:#e8c8cb">Education and Work Experience</b>
 ---
 Research Associate, 2021-present <br>
 <a href='https://www.imperial.ac.uk/electrical-engineering' target="_blank">Department of EEE</a>,
