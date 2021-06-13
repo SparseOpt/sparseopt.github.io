@@ -27,7 +27,7 @@ a:active {
 </style>
 
 
-<span style="color:#225675">Education and Work Experience</span>
+Education and Work Experience
 ---
 Research Associate, 2021-present <br>
 <a href='https://www.imperial.ac.uk/electrical-engineering' target="_blank">Department of EEE</a>,
@@ -43,7 +43,7 @@ M.S. in Operational Research, 2011-2014 <br>
 B.S. in Information and Computing Sciences, 2007-2011 <br>
 <a style="color:#225675" href='http://en.sci.njtu.edu.cn/Department/DepartmentofMathematics/index.htm' target="_blank">Department of Mathematics</a>, <a style="color:#225675" href='http://en.njtu.edu.cn/' target="_blank">Beijing Jiaotong University</a>, China 
 
-<span style="color:#225675">Research Interests</span>
+Research Interests
 ---
 
 <p><div style="text-align:justify;"> 
