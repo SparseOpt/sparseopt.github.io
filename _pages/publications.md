@@ -26,7 +26,7 @@ a:active {
 
 
 
-## <span style="color:#e8c8cb"><b style="font-size:20px">Sparse Optimization</b></span>
+## <span style="color:#3097bf"><b style="font-size:20px">Sparse Optimization</b></span>
 ---
 
 <font size=4> 
