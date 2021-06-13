@@ -28,7 +28,7 @@ a:active {
 
 
 
-Sparse  Optimization Solvers
+## Sparse  Optimization Solvers
 ---
 
   <font size=4> 
@@ -140,7 +140,7 @@ Sparse  Optimization Solvers
  <!---  </details> --->
   </font>
 
-0/1 Loss Optimization Solvers
+## 0/1 Loss Optimization Solvers
 ---
 
   <font size=4> 
@@ -154,7 +154,7 @@ Sparse  Optimization Solvers
   </font>
   
 
-<b style="font-size:20px">EDM Optimization Solvers</b>
+## <b style="font-size:20px">EDM Optimization Solvers</b>
 ---
   
   <font size=4> 
