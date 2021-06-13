@@ -7,14 +7,14 @@ redirect_from:
   - /resume
 ---
 
- * <span style="color:#225675">*Introduction to Python*</span> <br>
+ * *Introduction to Python* <br>
 School of Mathematics, University of Southampton, UK, 2020
 
- * <span style="color:#225675">*Operational Research and Mathematical Computing*</span> <br>
+ * *Operational Research and Mathematical Computing* <br>
 School of Mathematics, University of Southampton, UK, 2019
 
- * <span style="color:#225675">*Convex Analysis*</span>  <br>
+ * *Convex Analysis*<br>
  Department of Mathematics,  Beijing Jiaotong University, China, 2013
  
-* <span style="color:#225675">*Theory and Algorithms on Nonlinear  Programming*</span>   <br>
+* *Theory and Algorithms on Nonlinear  Programming* <br>
  Department of Mathematics, Beijing Jiaotong University, China, 2012
