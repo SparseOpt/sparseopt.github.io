@@ -32,38 +32,38 @@ a:active {
 ---
 
   <font size=4> 
-  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/CSpack" target="_blank">CSpack</a> offers four solvers to solve the compressive sensing problems.
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/CSpack" target="_blank">CSpack</a> offers four solvers to solve the compressive sensing problems.
   <p style="line-height: 1;"></p>
   
-  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">NHTP</a> solves the sparsity constrained optimization including CS, LR, LCP and etc.   <br> 
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">NHTP</a> solves the sparsity constrained optimization including CS, LR, LCP and etc.   <br> 
   <a style="color:#225675" href="https://arxiv.org/abs/1901.02763" target="_blank"><i>Global and quadratic convergence of Newton hard-thresholding pursuit</i></a>.
   <p style="line-height: 1;"></p>
     
-  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/NL0R" target="_blank">NL0R</a> solves the L0 regularized optimization problems including CS, LR and LCP.   <br> 
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NL0R" target="_blank">NL0R</a> solves the L0 regularized optimization problems including CS, LR and LCP.   <br> 
   <a style="color:#225675" href="https://arxiv.org/abs/2004.05132" target="_blank"><i>Newton method for L0-regularized optimization</i></a>.
   <p style="line-height: 1;"></p>
 
-   <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/NSSVM" target="_blank">NSSVM</a> solves the sparse support vector machine.  <br>
+   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NSSVM" target="_blank">NSSVM</a> solves the sparse support vector machine.  <br>
   <a style="color:#225675" href="https://arxiv.org/abs/2005.13771" target="_blank"><i>Sparse SVM for sufficient data reduction</i></a>.
   <p style="line-height: 1;"></p>
   
   <!--- <details>
-  <summary><span style="color:#007D98"><b style="font-size:16px">Click for more solvers</b></span></summary>
+  <summary><span style="color:#8cd2d5"><b style="font-size:16px">Click for more solvers</b></span></summary>
   <br> --->
 
-  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/IIHT" target="_blank">IIHT</a> solves the sparsity constrained optimization including CS, LR, LCP and etc.   <br>
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/IIHT" target="_blank">IIHT</a> solves the sparsity constrained optimization including CS, LR, LCP and etc.   <br>
   <a style="color:#225675" href="http://www.ybook.co.jp/online2/oppjo/vol13/p325.html" target="_blank"><i>A Convergent iterative hard thresholding for sparsity and nonnegativity constrained optimization</i></a>. 
   <p style="line-height: 1;"></p>
  
-  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/MIRL1" target="_blank">MIRL1</a> solves the reweighted L1 minimization.    <br>
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/MIRL1" target="_blank">MIRL1</a> solves the reweighted L1 minimization.    <br>
   <a style="color:#225675" href="https://doi.org/10.1093/imaiai/iaw002" target="_blank"><i>A Null-space-based weighted L1 minimisation qpproach to compressed sensing</i></a>.
   <p style="line-height: 1;"></p>
  
-  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/HTPCP" target="_blank">HTPCP</a> solves the sparse linear/nonlinear complementarity problems.   <br>
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/HTPCP" target="_blank">HTPCP</a> solves the sparse linear/nonlinear complementarity problems.   <br>
   <a style="color:#225675" href="https://link.springer.com/article/10.1007/s11590-014-0834-7" target="_blank"><i>A half thresholding projection algorithmfor sparse solutions of LCPs</i></a>. 
   <p style="line-height: 1;"></p>
 
-  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/ADMM" target="_blank">ADMM</a> solves the sparse and low-rank covariance matrix recovery problem.   <br>
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/ADMM" target="_blank">ADMM</a> solves the sparse and low-rank covariance matrix recovery problem.   <br>
   <a style="color:#225675" href="https://link.springer.com/article/10.1007/s40305-014-0058-7" target="_blank"><i>Sparse and low-rank covariance matrix estimation</i></a>. <br><br>
  
    <!---
@@ -106,14 +106,14 @@ a:active {
    <table border="2" width="0.5">
       <tr>
         <td style="width:9%" align="center"> </td>
-        <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#007D98"  href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">NHTP</a></td>
-        <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#007D98"  href="https://github.com/ShenglongZhou/NL0R" target="_blank">NL0R</a></td>
-        <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#007D98"  href="https://github.com/ShenglongZhou/IIHT" target="_blank">IIHT</a></td>
-        <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/MIRL1" target="_blank">MIRL1</a></td>
-        <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#007D98"  href="https://github.com/ShenglongZhou/HTPCP" target="_blank">HTPCP</a></td>
+        <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">NHTP</a></td>
+        <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://github.com/ShenglongZhou/NL0R" target="_blank">NL0R</a></td>
+        <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://github.com/ShenglongZhou/IIHT" target="_blank">IIHT</a></td>
+        <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/MIRL1" target="_blank">MIRL1</a></td>
+        <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://github.com/ShenglongZhou/HTPCP" target="_blank">HTPCP</a></td>
       </tr>
        <tr>
-          <td style="width:9%" align="left"><b>Compressed sensing (<span style="color:#007D98">CS</span>)</b></td>
+          <td style="width:9%" align="left"><b>Compressed sensing (<span style="color:#8cd2d5">CS</span>)</b></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
@@ -121,7 +121,7 @@ a:active {
           <td style="width:5%" align="center"> </td> 
       </tr>
         <tr>
-          <td style="width:9%" align="left"><b>Logistic regression (<span style="color:#007D98">LR</span>)</b></td>
+          <td style="width:9%" align="left"><b>Logistic regression (<span style="color:#8cd2d5">LR</span>)</b></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
@@ -129,7 +129,7 @@ a:active {
           <td style="width:5%" align="center"> </td> 
       </tr>
         <tr>
-          <td style="width:9%" align="left"><b>Linear complementarity problem (<span style="color:#007D98">LCP</span>)</b></td>
+          <td style="width:9%" align="left"><b>Linear complementarity problem (<span style="color:#8cd2d5">LCP</span>)</b></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
@@ -144,11 +144,11 @@ a:active {
 ---
 
   <font size=4> 
-  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/GPSP" target="_blank">GPSP</a> solves the one-bit compressive sensing problems. <br>
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/GPSP" target="_blank">GPSP</a> solves the one-bit compressive sensing problems. <br>
   <a style="color:#225675" href="https://www.researchgate.net/publication/348371863" target="_blank"><i>Computing one-bit compressive sensing via double-sparsity constrained optimization</i></a>. 
   <p style="line-height: 1;"></p>
 
-  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/Huajun-Wang/L01ADMM" target="_blank">L01ADMM</a> solves the support vector machine. <br>
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/Huajun-Wang/L01ADMM" target="_blank">L01ADMM</a> solves the support vector machine. <br>
   <a style="color:#225675" href="https://arxiv.org/abs/1912.07418" target="_blank"><i>Support vector machine classifier via  L0/1 soft-margin loss</i></a>. 
       
   </font>
@@ -159,12 +159,12 @@ a:active {
   
   <font size=4> 
 
-  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/SQREDM" target="_blank">SQREDM</a> solves applications from multidimensional scaling,
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/SQREDM" target="_blank">SQREDM</a> solves applications from multidimensional scaling,
   e.g.,  sensor network localization and molecular conformation.    <br>
   <a style="color:#225675" href="https://ieeexplore.ieee.org/document/8399531" target="_blank"><i>A fast matrix majorization-projection method for penalized stress minimization with box constraints</i></a>.
   <p style="line-height: 1;"></p>
 
-  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://github.com/ShenglongZhou/PREEEDM" target="_blank">PREEEDM</a> solves applications from multidimensional scaling,
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/PREEEDM" target="_blank">PREEEDM</a> solves applications from multidimensional scaling,
   e.g.,  sensor network localization and molecular conformation.    <br>
   <a style="color:#225675" href="https://doi.org/10.1007/s12532-019-00168-0" target="_blank"><i>Robust Euclidean embedding via EDM optimization</i></a>. 
   </font>
@@ -176,11 +176,11 @@ a:active {
 
   <font size=4>
  
-  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://biopt.github.io/bolib/" target="_blank">BOLIBver2</a>, the second version of  the library providing 173 test examples. <br>
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://biopt.github.io/bolib/" target="_blank">BOLIBver2</a>, the second version of  the library providing 173 test examples. <br>
   <a style="color:#225675" href="https://www.researchgate.net/publication/338375731" target="_blank"><i>BOLIB2019: bilevel optimization library of test problems version 2</i></a>.
   <p style="line-height: 1;"></p>
 
-  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://biopt.github.io/" target="_blank">BiOpt Toolbox</a>,  bilevel optimization toolbox including <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://biopt.github.io/bolib/" target="_blank">BOLIBver2</a>, 
-  <a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://biopt.github.io/solvers/" target="_blank">three solvers</a> and several useful tools. 
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://biopt.github.io/" target="_blank">BiOpt Toolbox</a>,  bilevel optimization toolbox including <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://biopt.github.io/bolib/" target="_blank">BOLIBver2</a>, 
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://biopt.github.io/solvers/" target="_blank">three solvers</a> and several useful tools. 
   
   </font>
