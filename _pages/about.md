@@ -59,7 +59,7 @@ My research interests include the theory and methods of optimization in the fiel
 </div></p>
 
 <p><div style="text-align:justify">
- For Euclidean distance matrix optimization, the majorization techniques were adopted to design competitively fast algorithms packaged into two solvers <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/PREEEDM" target="_blank">PREEEDM</a> and <a style="font-size: 16px; font-weight: bold;  color:#8cd2d5" href="https://github.com/ShenglongZhou/SQREDM" target="_blank">SQREDM</a>. 
+For Euclidean distance matrix optimization, the majorization techniques were adopted to design competitively fast algorithms packaged into two solvers <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/PREEEDM" target="_blank">PREEEDM</a> and <a style="font-size: 16px; font-weight: bold;  color:#8cd2d5" href="https://github.com/ShenglongZhou/SQREDM" target="_blank">SQREDM</a>. 
 </div></p>
 
  <p><div style="text-align:justify">
