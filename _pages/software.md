@@ -28,7 +28,7 @@ a:active {
 
 
 
-## <b style="font-size:20px; color:#8cd2d5">Sparse  Optimization Solvers</b>
+## <b style="font-size:20px">Sparse  Optimization Solvers</b>
 ---
 
   <font size=4> 
@@ -139,8 +139,8 @@ a:active {
       </table>
  <!---  </details> --->
   </font>
-
-## <b style="font-size:20px; color:#8cd2d5">0/1 Loss Optimization Solvers</b>
+</p>
+## <b style="font-size:20px">0/1 Loss Optimization Solvers</b>
 ---
 
   <font size=4> 
@@ -153,8 +153,8 @@ a:active {
       
   </font>
   
-
-## <b style="font-size:20px; color:#8cd2d5">EDM Optimization Solvers</b>
+</p>
+## <b style="font-size:20px">EDM Optimization Solvers</b>
 ---
   
   <font size=4> 
@@ -170,8 +170,8 @@ a:active {
   </font>
 
 
-
-## <b style="font-size:20px; color:#8cd2d5">Bilevel Optimization Toolbox </b>
+</p>
+## <b style="font-size:20px">Bilevel Optimization Toolbox </b>
 ---
 
   <font size=4>
