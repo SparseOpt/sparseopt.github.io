@@ -59,77 +59,65 @@ S.L. Zhou, L.L. Pan, M. Li and M.J. Shang, Newton hard-thresholding pursuit for 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
       
-J. Sun, L.C. Kong and  S.L. Zhou, 
-Gradient Projection Newton Algorithm for Sparse Collaborative Learnings, 2021 
+J. Sun, L.C. Kong and  S.L. Zhou, Gradient Projection Newton Algorithm for Sparse Collaborative Learnings, 2021 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/351985058" target="_blank">RG</a>
 <p style="line-height: 1;"></p>
   
-R. Wang, N.H. Xiu and  S.L. Zhou, Journal of Computational and Applied Mathematics, 397, 1-17, 2021 <br>
-<i>An extended Newton-type algorithm for L2-regularized sparse logistic regression and its efficiency for classifying large-scale datasets</i>,
-<a style="font-style: italic; color:#8cd2d5"  href="https://doi.org/10.1016/j.cam.2021.113656" target="_blank">JCAM</a>, 
+R. Wang, N.H. Xiu and  S.L. Zhou, An extended Newton-type algorithm for L2-regularized sparse logistic regression and its efficiency for classifying large-scale datasets,
+<a style="font-style: italic; color:#8cd2d5"  href="https://doi.org/10.1016/j.cam.2021.113656" target="_blank">Journal of Computational and Applied Mathematics</a>,  397, 1-17, 2021.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/330224305" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/1901.02768" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/NSLR" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
   
- X.R. Li, N.H. Xiu and  S.L. Zhou, Journal of Optimization Theory and Applications, 184, 895–930, 2019 <br>
-<i>Matrix optimization over low-rank spectral sets: stationary points, local and global minimizers</i>,
-<a style="font-style: italic; color:#8cd2d5" href="https://link.springer.com/article/10.1007%2Fs10957-019-01606-8" target="_blank">JOTA</a>,
+ X.R. Li, N.H. Xiu and  S.L. Zhou, Matrix optimization over low-rank spectral sets: stationary points, local and global minimizers,
+<a style="font-style: italic; color:#8cd2d5" href="https://link.springer.com/article/10.1007%2Fs10957-019-01606-8" target="_blank">Journal of Optimization Theory and Applications</a>, 184, 895–930, 2019.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/327581904" target="_blank">RG</a> 
 <p style="line-height: 1;"></p>
 
-L.L. Pan,  S.L. Zhou, N.H. Xiu and H.D. Qi, Pacific Journal of Optimization,  13(2): 325-353, 2017 <br>
-<i>A convergent iterative hard thresholding for sparsity and nonnegativity constrained optimization</i>,
-<a style="font-style: italic; color:#8cd2d5"  href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p325.html" target="_blank">PJO</a>,
+L.L. Pan,  S.L. Zhou, N.H. Xiu and H.D. Qi, A convergent iterative hard thresholding for sparsity and nonnegativity constrained optimization,
+<a style="font-style: italic; color:#8cd2d5"  href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p325.html" target="_blank">Pacific Journal of Optimization</a>,13(2): 325-353, 2017.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/299519906" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/IIHT" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
 
-L.J. Zhang, L.C. Kong and  S.L. Zhou, Journal of Industrial and Management Optimization,   13 (1): 93 - 112, 2017 <br>
-<i>A smoothing iterative method for quantile regression with nonconvex lp Penalty</i>,
-<a style="font-style: italic; color:#8cd2d5" href="https://aimsciences.org/article/doi/10.3934/jimo.2016006" target="_blank">JIMO</a> 
+L.J. Zhang, L.C. Kong and  S.L. Zhou, A smoothing iterative method for quantile regression with nonconvex lp Penalty,
+<a style="font-style: italic; color:#8cd2d5" href="https://aimsciences.org/article/doi/10.3934/jimo.2016006" target="_blank">Journal of Industrial and Management Optimization</a>, 13 (1): 93 - 112, 2017.
 <p style="line-height: 1;"></p>
 
-Y.Q. Liu, G.K. Liu, X.C. Xiu and  S.L. Zhou, Pacific Journal of Optimization,   13(2): 279-300, 2017 <br>
-<i>The L1-penalized quantile regression for traditional Chinese medicine syndrome manifestation</i>,
-<a style="font-style: italic; color:#8cd2d5" href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p279.html" target="_blank">PJO</a> 
+Y.Q. Liu, G.K. Liu, X.C. Xiu and  S.L. Zhou, The L1-penalized quantile regression for traditional Chinese medicine syndrome manifestation,
+<a style="font-style: italic; color:#8cd2d5" href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p279.html" target="_blank">Pacific Journal of Optimization</a>, 13(2): 279-300, 2017.
 <p style="line-height: 1;"></p>
 
-S.L. Zhou, N.H. Xiu, Y.N. Wang, L.C. Kong and H.D. Qi, Information and Inference,  5(1): 76-102, 2016 <br>
-<i>A Null-space-based weighted l1 minimization approach to compressed sensing</i>,
-<a style="font-style: italic; color:#8cd2d5"  href="https://academic.oup.com/imaiai/article/5/1/76/2357109" target="_blank">IMAIAI</a>,
+S.L. Zhou, N.H. Xiu, Y.N. Wang, L.C. Kong and H.D. Qi, A Null-space-based weighted l1 minimization approach to compressed sensing,
+<a style="font-style: italic; color:#8cd2d5"  href="https://academic.oup.com/imaiai/article/5/1/76/2357109" target="_blank">A Journal of the IMA: Information and Inference</a>,  5(1): 76-102, 2016. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/294109268" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/MIRL1" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
 
-L.L. Pan, N.H. Xiu and  S.L. Zhou, Journal of the Operations Research Society of China,  3(4): 421-439, 2015 <br>
-<i>On Solutions of Sparsity Constrained Optimization</i>,
-<a style="font-style: italic; color:#8cd2d5" href="https://link.springer.com/article/10.1007/s40305-015-0101-3" target="_blank">JORSC</a> 
+L.L. Pan, N.H. Xiu and  S.L. Zhou,  On Solutions of Sparsity Constrained Optimization,
+<a style="font-style: italic; color:#8cd2d5" href="https://link.springer.com/article/10.1007/s40305-015-0101-3" target="_blank">Journal of the Operations Research Society of China</a>, 3(4): 421-439, 2015. 
 <p style="line-height: 1;"></p>
 
-S.L. Zhou, N.H. Xiu, Z.Y. Luo and L.C. Kong, Journal of the Operations Research Society of China,  3(2): 231-250, 2015 <br>
-<i>Sparse and low-rank covariance matrix estimation</i>,
-<a style="font-style: italic; color:#8cd2d5"  href="https://link.springer.com/article/10.1007/s40305-014-0058-7" target="_blank">JORSC</a>,
+S.L. Zhou, N.H. Xiu, Z.Y. Luo and L.C. Kong, Sparse and low-rank covariance matrix estimation,
+<a style="font-style: italic; color:#8cd2d5"  href="https://link.springer.com/article/10.1007/s40305-014-0058-7" target="_blank">Journal of the Operations Research Society of China</a>,  3(2): 231-250, 2015.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/ADMM" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
 
-M.J. Shang, S.L. Zhou and N.H. Xiu, Journal of Inequalities and Applications,  34, 2015 <br>
-<i>Extragradient thresholding methods For sparse solutions of co-coercive NCPs</i>,
-<a style="font-style: italic; color:#8cd2d5"  href="https://journalofinequalitiesandapplications.springeropen.com/articles/10.1186/s13660-015-0551-5" target="_blank">JIA</a> 
+M.J. Shang, S.L. Zhou and N.H. Xiu,  Extragradient thresholding methods For sparse solutions of co-coercive NCPs,
+<a style="font-style: italic; color:#8cd2d5"  href="https://journalofinequalitiesandapplications.springeropen.com/articles/10.1186/s13660-015-0551-5" target="_blank">Journal of Inequalities and Applications</a>, 34, 2015.
 <p style="line-height: 1;"></p>
 
-M.J. Shang, C. Zhang, D.T. Peng and  S.L. Zhou, Optimization Letters,  9(6): 1231-1245, 2015 <br>
-<i>A half thresholding projection algorithm for sparse solutions of LCPs</i>,
-<a style="font-style: italic; color:#8cd2d5"  href="https://www.infona.pl/resource/bwmeta1.element.springer-doi-10_1007-S11590-014-0834-7" target="_blank">OPLE</a>,
+M.J. Shang, C. Zhang, D.T. Peng and  S.L. Zhou, A half thresholding projection algorithm for sparse solutions of LCPs,
+<a style="font-style: italic; color:#8cd2d5"  href="https://www.infona.pl/resource/bwmeta1.element.springer-doi-10_1007-S11590-014-0834-7" target="_blank">Optimization Letters</a>,   9(6): 1231-1245, 2015.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/HTPCP" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
 
-S.L. Zhou, L.C. Kong and N.H. Xiu, Journal of the Operations Research Society of China,  1(2): 227-237, 2013 <br>
-<i>New bounds for RIC in compressed sensing</i>,
-<a style="font-style: italic; color:#8cd2d5" href="https://link.springer.com/article/10.1007/s40305-013-0013-z" target="_blank">JORSC</a>
+S.L. Zhou, L.C. Kong and N.H. Xiu,  New bounds for RIC in compressed sensing,
+<a style="font-style: italic; color:#8cd2d5" href="https://link.springer.com/article/10.1007/s40305-013-0013-z" target="_blank">Journal of the Operations Research Society of China</a>,  1(2): 227-237, 2013.
 
  </div>
-<!---</details>--->
+ 
 </font>
 
 
