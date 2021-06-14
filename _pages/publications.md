@@ -125,7 +125,7 @@ S.L. Zhou, L.C. Kong and N.H. Xiu,  New bounds for RIC in compressed sensing,
 ## <b style="font-size:20px"> 0/1 Loss Optimization</b>
 ---
 
-<font size=4>
+<font size=2>
 <div style="text-align:justify"> 
 S.L. Zhou, L.L. Pan, N.H. Xiu and H.D. Qi, Quadratic convergence of Newton's method for 0/1 loss optimization, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/350442413" target="_blank">RG</a>,
