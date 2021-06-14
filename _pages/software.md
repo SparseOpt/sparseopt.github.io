@@ -54,7 +54,7 @@ a:active {
   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/MIRL1" target="_blank">MIRL1</a> solves the reweighted L1 minimization.    <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://doi.org/10.1093/imaiai/iaw002" target="_blank">Article</a> 
   <p style="line-height: 1;"></p>
  
-  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/HTPCP" target="_blank">HTPCP</a> solves the sparse linear/nonlinear complementarity problems.<a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://link.springer.com/article/10.1007/s11590-014-0834-7" target="_blank">Article</a>  
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/HTPCP" target="_blank">HTPCP</a> solves the sparse linear/nonlinear complementarity problems. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://link.springer.com/article/10.1007/s11590-014-0834-7" target="_blank">Article</a>  
   <p style="line-height: 1;"></p>
 
   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/ADMM" target="_blank">ADMM</a> solves the sparse and low-rank covariance matrix recovery problem.  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://link.springer.com/article/10.1007/s40305-014-0058-7" target="_blank">Article</a> <br><br>
