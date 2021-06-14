@@ -48,7 +48,7 @@ a:active {
   <summary><span style="color:#8cd2d5"><b style="font-size:16px">Click for more solvers</b></span></summary>
   <br> --->
 
-  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/IIHT" target="_blank">IIHT</a> solves the sparsity constrained optimization including CS, LR, LCP and etc. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="http://www.ybook.co.jp/online2/oppjo/vol13/p325.html" target="_blank">Article</a>  
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/IIHT" target="_blank">IIHT</a> solves the sparsity constrained optimization including CS, LR, LCP and etc. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p325.html" target="_blank">Article</a>  
   <p style="line-height: 1;"></p>
  
   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/MIRL1" target="_blank">MIRL1</a> solves the reweighted L1 minimization.    <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://doi.org/10.1093/imaiai/iaw002" target="_blank">Article</a> 
