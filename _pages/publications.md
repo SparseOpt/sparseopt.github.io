@@ -90,7 +90,7 @@ Y.Q. Liu, G.K. Liu, X.C. Xiu and  S.L. Zhou, The L1-penalized quantile regressio
 <p style="line-height: 1;"></p>
 
 S.L. Zhou, N.H. Xiu, Y.N. Wang, L.C. Kong and H.D. Qi, A Null-space-based weighted l1 minimization approach to compressed sensing,
-<a style="font-style: italic; color:#8cd2d5"  href="https://academic.oup.com/imaiai/article/5/1/76/2357109" target="_blank">A Journal of the IMA: Information and Inference</a>,  5(1): 76-102, 2016. 
+<a style="font-style: italic; color:#8cd2d5"  href="https://academic.oup.com/imaiai/article/5/1/76/2357109" target="_blank">Information and Inference: A Journal of the IMA </a>,  5(1): 76-102, 2016. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/294109268" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/MIRL1" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
