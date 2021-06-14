@@ -29,7 +29,7 @@ a:active {
 ## <b style="font-size:20px">Sparse Optimization</b>
 ---
 
-<font size=4> 
+<font size=3> 
 <div style="text-align:justify"> 
 S.L. Zhou, Sparse SVM for sufficient data reduction, 
 <a style="font-style: italic; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/9415153" target="_blank">IEEE Transactions on Pattern Analysis and Machine Intelligence</a>, 2021. 
