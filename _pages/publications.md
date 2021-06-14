@@ -126,30 +126,28 @@ S.L. Zhou, L.C. Kong and N.H. Xiu,  New bounds for RIC in compressed sensing,
 ---
 
 <font size=4>
-S.L. Zhou, L.L. Pan, N.H. Xiu and H.D. Qi, 2021 <br>
-<i>Quadratic convergence of Newton's method for 0/1 loss optimization</i>,
+<div style="text-align:justify"> 
+S.L. Zhou, L.L. Pan, N.H. Xiu and H.D. Qi, Quadratic convergence of Newton's method for 0/1 loss optimization, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/350442413" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2103.14987" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p>
 
-S.L. Zhou, L.L. Pan and N.H. Xiu, 2020 <br>
-<i>Heaviside set constrained optimization: optimality and Newton method</i>,
+S.L. Zhou, L.L. Pan and N.H. Xiu, Heaviside set constrained optimization: optimality and Newton method, 2020.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/343362652" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2007.15737" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p>
 
-S.L. Zhou, Z.Y. Luo and N.H. Xiu, 2021 <br> 
-<i>Computing one-bit compressive sensing via double-sparsity constrained optimization</i>,
+S.L. Zhou, Z.Y. Luo and N.H. Xiu, Computing one-bit compressive sensing via double-sparsity constrained optimization, 2021.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/348371863" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2101.03599" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/GPSP" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
 
-H.J. Wang, Y.H. Shao, S.L. Zhou, C. Zhang and N.H. Xiu, 2019 <br>
-<i>Support vector machine classifier via L0/1 soft-margin loss</i>,
+H.J. Wang, Y.H. Shao, S.L. Zhou, C. Zhang and N.H. Xiu, Support vector machine classifier via L0/1 soft-margin loss, 2019.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/338717629" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/1912.07418" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/Huajun-Wang/L01ADMM" target="_blank">Code</a>
+</div>
 </font> 
 
 
@@ -159,52 +157,46 @@ H.J. Wang, Y.H. Shao, S.L. Zhou, C. Zhang and N.H. Xiu, 2019 <br>
 ---
 
 <font size=4> 
-S.L. Zhou, N.H. Xiu and H.D. Qi, Mathematical Programming Computation, 12(3): 337–387, 2019<br>
-<i>Robust euclidean embedding via EDM optimization</i>, 
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://link.springer.com/article/10.1007/s12532-019-00168-0" target="_blank">MPC</a>,
+<div style="text-align:justify">   
+S.L. Zhou, N.H. Xiu and H.D. Qi, Robust euclidean embedding via EDM optimization,
+<a style="font-style: italic; color:#8cd2d5"  href="https://link.springer.com/article/10.1007/s12532-019-00168-0" target="_blank">Mathematical Programming Computation</a>, 12(3): 337–387, 2019. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/PREEEDM" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
 
-S.L. Zhou, N.H. Xiu and H.D. Qi, IEEE Transactions on Signal Processing,  66(16): 4331-4346, 2018<br> 
-<i>A fast matrix majorization-projection method for penalized stress minimization with box constraints</i>,
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://ieeexplore.ieee.org/document/8399531" target="_blank">TSP</a>,
+S.L. Zhou, N.H. Xiu and H.D. Qi, A fast matrix majorization-projection method for penalized stress minimization with box constraints, 
+<a style="font-style: italic; color:#8cd2d5"   href="https://ieeexplore.ieee.org/document/8399531" target="_blank">IEEE Transactions on Signal Processing</a>, 66(16): 4331-4346, 2018. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/SQREDM" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
 
-S.L. Zhou, N.H. Xiu and H.D. Qi, PhD Thesis, University of Southampton, 2018<br>
-<i>Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization</i>,
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://eprints.soton.ac.uk/429739/" target="_blank">Soton</a>  
-</font>
+S.L. Zhou, Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization,
+<a style="font-style: italic; color:#8cd2d5"  href="https://eprints.soton.ac.uk/429739/" target="_blank">PhD Thesis</a>,  University of Southampton, 2018. 
+</div></font>
 
 
 ## <b style="font-size:20px">Bilevel Optimization</b>
 ---
 
 <font size=4> 
-A. Zemkoho and  S.L. Zhou, Computational Optimization and Application, 78(2), 625-674, 2021, 
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://doi.org/10.1007/s10589-020-00250-7" target="_blank">JCOA</a>,
+<div style="text-align:justify"> 
+A. Zemkoho and  S.L. Zhou, Theoretical and numerical comparison of the KKT and value function reformulations in bilevel optimization,  
+<a style="font-style: italic; color:#8cd2d5"   href="https://doi.org/10.1007/s10589-020-00250-7" target="_blank"> Computational Optimization and Application</a>, 78(2), 625-674, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/340769764" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2004.10830" target="_blank">ArXiv</a> 
-<br>
-<i>Theoretical and numerical comparison of the KKT and value function reformulations in bilevel optimization</i> 
+</p> 
 
-<p style="line-height: 1;"></p>
-
-S.L. Zhou, A. Zemkoho and A. Tin, Bilevel optimization: advances and next challenges, 2019 <br> 
-<i>BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2</i>,
+S.L. Zhou, A. Zemkoho and A. Tin,  BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2, 2019
+<a style="font-style: italic; color:#8cd2d5"   href="https://www.springer.com/gp/book/9783030521189" target="_blank">Bilevel optimization: advances and next challenges</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://biopt.github.io/files/Paper.pdf" target="_blank">BiOpt</a>,
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.springer.com/gp/book/9783030521189" target="_blank">Book</a>, 
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/338375731" target="_blank">RG</a>,
+  <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/338375731" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/1812.00230" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://biopt.github.io/bolib/" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
 
-A. Fischer, A. Zemkoho and  S.L. Zhou, 2019, 
+A. Fischer, A. Zemkoho and  S.L. Zhou, Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments, 2019. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/337943979" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/1912.07079" target="_blank">ArXiv</a>  <br>
-<i>Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments</i> 
 
-</font>
+</div></font>
 
 
 
