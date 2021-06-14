@@ -40,9 +40,9 @@ S.L. Zhou, Sparse SVM for sufficient data reduction,
   
 S.L. Zhou, N.H. Xiu and H.D. Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, 
 <a style="font-style: italic; color:#8cd2d5" href="https://jmlr.org/papers/v22/19-026.html" target="_blank">Journal of Machine Learning Research</a>, 22(12):1−45, 2021. 
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/330224407" target="_blank">RG</a>, 
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/1901.02763" target="_blank">ArXiv</a>, 
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">Code</a>
+<a style="font-size: 16px; font-weight: normal;color:#8cd2d5" href="https://www.researchgate.net/publication/330224407" target="_blank">RG</a>, 
+<a style="font-size: 16px; font-weight: normal;color:#8cd2d5" href="https://arxiv.org/abs/1901.02763" target="_blank">ArXiv</a>, 
+<a style="font-size: 16px; font-weight: normal;color:#8cd2d5" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
   
 S.L. Zhou, L.L. Pan and N.H. Xiu, Newton method  for L0-regularized optimization,
