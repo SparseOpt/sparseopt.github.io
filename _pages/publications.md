@@ -30,6 +30,7 @@ a:active {
 ---
 
 <font size=4> 
+<div style="text-align:justify"> 
 S.L. Zhou, IEEE Transactions on Pattern Analysis and Machine Intelligence, 2021 <br>
 <i>Sparse SVM for sufficient data reduction</i>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://ieeexplore.ieee.org/document/9415153" target="_blank">TPAMI</a>, 
@@ -133,6 +134,7 @@ S.L. Zhou, L.C. Kong and N.H. Xiu, Journal of the Operations Research Society of
 <i>New bounds for RIC in compressed sensing</i>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://link.springer.com/article/10.1007/s40305-013-0013-z" target="_blank">JORSC</a>
 
+ </div>
 <!---</details>--->
 </font>
 
