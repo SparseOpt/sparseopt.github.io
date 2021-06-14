@@ -59,7 +59,7 @@ S.L. Zhou, L.L. Pan, M. Li and M.J. Shang, Newton hard-thresholding pursuit for 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
       
-J. Sun, L.C. Kong and  S.L. Zhou, Gradient Projection Newton Algorithm for Sparse Collaborative Learnings, 2021 
+J. Sun, L.C. Kong and  S.L. Zhou, Gradient Projection Newton Algorithm for Sparse Collaborative Learnings, 2021.  
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/351985058" target="_blank">RG</a>
 <p style="line-height: 1;"></p>
   
@@ -76,7 +76,7 @@ R. Wang, N.H. Xiu and  S.L. Zhou, An extended Newton-type algorithm for L2-regul
 <p style="line-height: 1;"></p>
 
 L.L. Pan,  S.L. Zhou, N.H. Xiu and H.D. Qi, A convergent iterative hard thresholding for sparsity and nonnegativity constrained optimization,
-<a style="font-style: italic; color:#8cd2d5"  href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p325.html" target="_blank">Pacific Journal of Optimization</a>,13(2): 325-353, 2017.
+<a style="font-style: italic; color:#8cd2d5"  href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p325.html" target="_blank">Pacific Journal of Optimization</a>, 13(2): 325-353, 2017.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/299519906" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/IIHT" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
