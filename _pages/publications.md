@@ -156,7 +156,7 @@ H.J. Wang, Y.H. Shao, S.L. Zhou, C. Zhang and N.H. Xiu, Support vector machine c
 ## <b style="font-size:20px">EDM Optimization</b>
 ---
 
-<font size=4> 
+<font size=3> 
 <div style="text-align:justify">   
 S.L. Zhou, N.H. Xiu and H.D. Qi, Robust euclidean embedding via EDM optimization,
 <a style="font-style: italic; color:#8cd2d5"  href="https://link.springer.com/article/10.1007/s12532-019-00168-0" target="_blank">Mathematical Programming Computation</a>, 12(3): 337–387, 2019. 
@@ -176,7 +176,7 @@ S.L. Zhou, Majorization-projection methods for multidimensional scaling via Eucl
 ## <b style="font-size:20px">Bilevel Optimization</b>
 ---
 
-<font size=4> 
+<font size=3> 
 <div style="text-align:justify"> 
 A. Zemkoho and  S.L. Zhou, Theoretical and numerical comparison of the KKT and value function reformulations in bilevel optimization,  
 <a style="font-style: italic; color:#8cd2d5" href="https://doi.org/10.1007/s10589-020-00250-7" target="_blank"> Computational Optimization and Application</a>, 78(2), 625-674, 2021. 
