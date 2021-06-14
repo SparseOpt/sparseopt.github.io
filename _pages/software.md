@@ -35,7 +35,7 @@ a:active {
   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/CSpack" target="_blank">CSpack</a> offers four solvers to solve the compressive sensing problems.
   <p style="line-height: 1;"></p>
   
-  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">NHTP</a> solves the sparsity constrained optimization including CS, LR, LCP and etc. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://arxiv.org/abs/1901.02763" target="_blank">Article</a> 
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">NHTP</a> solves the sparsity constrained optimization including CS, LR, LCP and etc. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://www.jmlr.org/papers/volume22/19-026/19-026.pdf" target="_blank">Article</a> 
   <p style="line-height: 1;"></p>
     
   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NL0R" target="_blank">NL0R</a> solves the L0 regularized optimization problems including CS, LR and LCP. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://arxiv.org/abs/2004.05132" target="_blank">Article</a> 
