@@ -58,11 +58,9 @@ S.L. Zhou, L.L. Pan, M. Li and M.J. Shang, Newton hard-thresholding pursuit for 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2004.02244" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
-  
-<!---<details markdown="1" >  <summary><span style="color:#8cd2d5"><b style="font-size:16px">Click for more papers</b></span> </summary> --->
-    
-J. Sun, L.C. Kong and  S.L. Zhou, 2021 <br>
-<i>Gradient Projection Newton Algorithm for Sparse Collaborative Learnings</i>,
+      
+J. Sun, L.C. Kong and  S.L. Zhou, 
+Gradient Projection Newton Algorithm for Sparse Collaborative Learnings, 2021 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/351985058" target="_blank">RG</a>
 <p style="line-height: 1;"></p>
   
