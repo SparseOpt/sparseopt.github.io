@@ -179,15 +179,14 @@ S.L. Zhou, Majorization-projection methods for multidimensional scaling via Eucl
 <font size=4> 
 <div style="text-align:justify"> 
 A. Zemkoho and  S.L. Zhou, Theoretical and numerical comparison of the KKT and value function reformulations in bilevel optimization,  
-<a style="font-style: italic; color:#8cd2d5"   href="https://doi.org/10.1007/s10589-020-00250-7" target="_blank"> Computational Optimization and Application</a>, 78(2), 625-674, 2021. 
+<a style="font-style: italic; color:#8cd2d5" href="https://doi.org/10.1007/s10589-020-00250-7" target="_blank"> Computational Optimization and Application</a>, 78(2), 625-674, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/340769764" target="_blank">RG</a>,
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2004.10830" target="_blank">ArXiv</a> 
-</p> 
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2004.10830" target="_blank">ArXiv</a></p> 
 
-S.L. Zhou, A. Zemkoho and A. Tin,  BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2, 2019
+S.L. Zhou, A. Zemkoho and A. Tin,  BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2, 2019. 
 <a style="font-style: italic; color:#8cd2d5"   href="https://www.springer.com/gp/book/9783030521189" target="_blank">Bilevel optimization: advances and next challenges</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://biopt.github.io/files/Paper.pdf" target="_blank">BiOpt</a>,
-  <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/338375731" target="_blank">RG</a>,
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/338375731" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/1812.00230" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://biopt.github.io/bolib/" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
