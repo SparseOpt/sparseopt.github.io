@@ -104,7 +104,7 @@ Lili Pan, Naihua Xiu and   Shenglong Zhou,  On Solutions of Sparsity Constrained
 <p style="line-height: 1;"></p>
 
 Meijuan Shang,  Shenglong Zhou and Naihua Xiu,  Extragradient thresholding methods For sparse solutions of co-coercive NCPs,
-<a style="font-style: italic; color:#8cd2d5"  href="https://journalofinequalitiesandapplications.springeropen.com/articles/10.1186/s13660-015-0551-5" target="_blank">Journal of Inequalities and Applications</a>, 34, 2015.
+<a style="font-style: italic; color:#8cd2d5"  href="https://journalofinequalitiesandapplications.springeropen.com/articles/10.1186/s13660-015-0551-5" target="_blank">Journal of Inequalities and Applications</a>, 34, 2015. <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="files/ETA.zip" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
 
 Meijuan Shang, Chao Zhang, Dingtao Peng and   Shenglong Zhou, A half thresholding projection algorithm for sparse solutions of LCPs,
