@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: archive
 title:  
 permalink: /presentations/
 author_profile: true
