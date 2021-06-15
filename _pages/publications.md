@@ -27,7 +27,6 @@ a:active {
 
 
 ## <b style="font-size:20px">Sparse Optimization</b>
----
 
 <font size=4> 
 <div style="text-align:justify"> 
@@ -123,7 +122,6 @@ S.L. Zhou, L.C. Kong and N.H. Xiu,  New bounds for RIC in compressed sensing,
 
 
 ## <b style="font-size:20px"> 0/1 Loss Optimization</b>
----
 
 <font size=4>
 <div style="text-align:justify"> 
@@ -154,7 +152,6 @@ H.J. Wang, Y.H. Shao, S.L. Zhou, C. Zhang and N.H. Xiu, Support vector machine c
 
 
 ## <b style="font-size:20px">EDM Optimization</b>
----
 
 <font size=4> 
 <div style="text-align:justify">   
@@ -174,7 +171,6 @@ S.L. Zhou, Majorization-projection methods for multidimensional scaling via Eucl
 
 
 ## <b style="font-size:20px">Bilevel Optimization</b>
----
 
 <font size=4> 
 <div style="text-align:justify"> 
