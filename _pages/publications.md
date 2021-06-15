@@ -107,7 +107,7 @@ Meijuan Shang,  Shenglong Zhou and Naihua Xiu,  Extragradient thresholding metho
 <a style="font-style: italic; color:#8cd2d5"  href="https://journalofinequalitiesandapplications.springeropen.com/articles/10.1186/s13660-015-0551-5" target="_blank">Journal of Inequalities and Applications</a>, 34, 2015.
 <p style="line-height: 1;"></p>
 
-Meijuan Shang, C. Zhang, Dingtao Peng and   Shenglong Zhou, A half thresholding projection algorithm for sparse solutions of LCPs,
+Meijuan Shang, Chao Zhang, Dingtao Peng and   Shenglong Zhou, A half thresholding projection algorithm for sparse solutions of LCPs,
 <a style="font-style: italic; color:#8cd2d5"  href="https://www.infona.pl/resource/bwmeta1.element.springer-doi-10_1007-S11590-014-0834-7" target="_blank">Optimization Letters</a>,   9, 1231-1245, 2015.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/HTPCP" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
