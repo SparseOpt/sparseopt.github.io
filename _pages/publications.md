@@ -29,16 +29,16 @@ a:active {
 ## <b style="font-size:20px">Sparse Optimization</b>
 
 <font size=4> 
-<div style="text-align:justify"> 
+<div style="text-align:justify";  markdown="1">
   
-Shenglong Zhou, Sparse SVM for sufficient data reduction, 
+* Shenglong Zhou, Sparse SVM for sufficient data reduction, 
 <a style="font-style: italic; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/9415153" target="_blank">IEEE Transactions on Pattern Analysis and Machine Intelligence</a>, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/351035522" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2005.13771" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/NSSVM" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
   
-Shenglong Zhou, Naihua Xiu and Huoduo Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, 
+* Shenglong Zhou, Naihua Xiu and Huoduo Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, 
 <a style="font-style: italic; color:#8cd2d5" href="https://jmlr.org/papers/v22/19-026.html" target="_blank">Journal of Machine Learning Research</a>, 22, 1−45, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/330224407" target="_blank">RG</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/1901.02763" target="_blank">ArXiv</a>, 
@@ -52,7 +52,7 @@ Shenglong Zhou, Lili Pan and Naihua Xiu, Newton method  for L0-regularized optim
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/NL0R" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
   
- Shenglong Zhou, Lili Pan, Mu Li and Meijuan Shang, Newton hard-thresholding pursuit for sparse LCP via a new merit function,
+ * Shenglong Zhou, Lili Pan, Mu Li and Meijuan Shang, Newton hard-thresholding pursuit for sparse LCP via a new merit function,
 <a style="font-style: italic; color:#8cd2d5" href="https://doi.org/10.1137/19M1301539" target="_blank">SIAM Journal on Scientific Computing</a>, 43, A772–A799, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/337948990" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2004.02244" target="_blank">ArXiv</a>,
