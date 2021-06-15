@@ -185,7 +185,7 @@ Andreas Fischer, Alain Zemkoho and   Shenglong Zhou, Semismooth Newton-type meth
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/1912.07079" target="_blank">ArXiv</a> 
 <p style="line-height: 1;"></p>
     
- Shenglong Zhou, Alain Zemkoho and A. Tin,  BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2, 2019. 
+ Shenglong Zhou, Alain Zemkoho and Andrey Tin,  BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2, 2019. 
 <a style="font-style: italic; color:#8cd2d5"   href="https://www.springer.com/gp/book/9783030521189" target="_blank">Bilevel optimization: advances and next challenges</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://biopt.github.io/files/Paper.pdf" target="_blank">BiOpt</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/338375731" target="_blank">RG</a>,
