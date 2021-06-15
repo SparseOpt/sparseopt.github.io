@@ -81,7 +81,7 @@ Lili Pan,   Shenglong Zhou, Naihua Xiu and Huoduo Qi, A convergent iterative har
 <p style="line-height: 1;"></p>
 
 Lianjun Zhang, Lingchen Kong and   Shenglong Zhou, A smoothing iterative method for quantile regression with nonconvex lp Penalty,
-<a style="font-style: italic; color:#8cd2d5" href="https://aimsciences.org/article/doi/10.3934/jimo.2016006" target="_blank">Journal of Industrial and Management Optimization</a>, 13, 93 - 112, 2017.
+<a style="font-style: italic; color:#8cd2d5" href="https://aimsciences.org/article/doi/10.3934/jimo.2016006" target="_blank">Journal of Industrial and Management Optimization</a>, 13, 93-112, 2017.
 <p style="line-height: 1;"></p>
 
 Yanqing Liu, Guokai Liu, Xianchao Xiu and   Shenglong Zhou, The L1-penalized quantile regression for traditional Chinese medicine syndrome manifestation,
