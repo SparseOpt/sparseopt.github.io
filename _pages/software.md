@@ -133,6 +133,6 @@ a:active {
   <p style="line-height: 1;"></p>
 
   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://biopt.github.io/" target="_blank">BiOpt Toolbox</a>,  bilevel optimization toolbox including <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://biopt.github.io/bolib/" target="_blank">BOLIBver2</a>, 
-  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://biopt.github.io/solvers/" target="_blank">three solvers</a> and several useful tools. 
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://biopt.github.io/solvers/" target="_blank">Solvers</a> and several tools. 
   
   </div> </font>
