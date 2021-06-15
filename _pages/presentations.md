@@ -29,6 +29,8 @@ a:active {
 ## <b style="font-size:20px">Talks</b>
 ---
 
+<div style="text-align:justify">
+  
  * <a style="color:#eceff1" href='https://arxiv.org/abs/2007.15737' target="_blank"><i>Heaviside optimisation: optimality and Newton method</i></a><br>
  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href='http://en.sci.njtu.edu.cn/Department/DepartmentofMathematics/index.htm' target="_blank">Department of Mathematics</a>, Beijing Jiaotong University, 18 Aug 2020.
 
@@ -47,6 +49,8 @@ a:active {
 * <a style="color:#eceff1"   href='https://arxiv.org/abs/1308.0455' target="_blank"><i>New RIC bounds via lq minimization in compressed sensing</i></a><br>
 <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href='http://lsec.cc.ac.cn/~icnonla13/index.htm' target="_blank">ICNONLA2013</a>, Changchun, China, 13 Sep 2013.
 
+</div>  
+  
 ## <b style="font-size:20px">Teaching</b>
 ---
 
