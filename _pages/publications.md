@@ -127,7 +127,8 @@ Meijuan Shang, Chao Zhang, Dingtao Peng and   Shenglong Zhou, A half thresholdin
 <font size=4>
 <div style="text-align:justify"> 
   
-Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, Support vector machine classifier via L0/1 soft-margin loss, IEEE Transactions on Pattern Analysis and Machine Intelligence</a>, 2021. 
+Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, Support vector machine classifier via L0/1 soft-margin loss, 
+<a style="font-style: italic; color:#8cd2d5">IEEE Transactions on Pattern Analysis and Machine Intelligence</a>, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/338717629" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/1912.07418" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/Huajun-Wang/L01ADMM" target="_blank">Code</a>
