@@ -58,7 +58,10 @@ Shenglong Zhou, Lili Pan, Mu Li and Meijuan Shang, Newton hard-thresholding purs
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2004.02244" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
-      
+
+<details>
+  <summary><span style="color:#8cd2d5"><b style="font-size:16px">Click for more solvers</b></span></summary>
+  
 Jun Sun, Lingchen Kong and   Shenglong Zhou, Gradient Projection Newton Algorithm for Sparse Collaborative Learnings, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/351985058" target="_blank">RG</a>
 <p style="line-height: 1;"></p>
@@ -116,6 +119,8 @@ Meijuan Shang, Chao Zhang, Dingtao Peng and   Shenglong Zhou, A half thresholdin
  Shenglong Zhou, Lingchen Kong and Naihua Xiu,  New bounds for RIC in compressed sensing,
 <a style="font-style: italic; color:#8cd2d5" href="https://link.springer.com/article/10.1007/s40305-013-0013-z" target="_blank">Journal of the Operations Research Society of China</a>,  1, 227-237, 2013.
 
+ </details>
+  
  </div>
  
 </font>
