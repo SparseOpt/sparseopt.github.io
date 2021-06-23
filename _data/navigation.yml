@@ -23,7 +23,7 @@ main:
   - title: <a style="font-weight: bold; color:#8cd2d5"  target="_blank">Home</a>
     url: /about/
     
-  - title: <a style="font-weight: bold; color:#8cd2d5"  target="_blank">Publications</a>
+  - title: <a style="font-weight: bold; color:#8cd2d5">Publications</a>
     url: /publications/
     
   - title: <span style="color:#8cd2d5" target="_blank"><b>Software</b></span>
