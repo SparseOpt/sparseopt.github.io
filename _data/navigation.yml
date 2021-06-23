@@ -20,7 +20,7 @@ a:active {
 
 
 main:
-  - title: <a style="font-weight: bold; color:#8cd2d5"  target="_blank"> Home</a>
+  - title: <a style="font-weight: bold; color:#8cd2d5"  target="_blank">Home</a>
     url: /about/
     
   - title: <span style="color:#8cd2d5" target="_blank"><b>Publications</b></span>
