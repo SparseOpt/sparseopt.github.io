@@ -21,7 +21,7 @@ a:active {
 
 
 main:
-  - title: <a style="font-weight: bold; color:#8cd2d5"  target="_blank">Home</a>
+  - title: <a style="font-weight: bold; color:#8cd2d5">Home</a>
     url: /about/
     
   - title: <a style="font-weight: bold; color:#8cd2d5">Publications</a>
