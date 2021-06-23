@@ -27,17 +27,19 @@ main:
   - title: <a style="font-weight: bold; color:#8cd2d5">Publications</a>
     url: /publications/
     
-  - title: <span style="color:#8cd2d5"><b>Software</b></span>
+  - title: <a style="font-weight: bold; color:#8cd2d5">Software</a>
     url: /software/
     
-  - title: <span style="color:#8cd2d5"><b>Presentations</b></span>
+  - title: <a style="font-weight: bold; color:#8cd2d5">Presentations</a>
     url: /presentations/  
-
+    
+  - title: <a style="font-weight: bold; color:#8cd2d5">Toolboxes</a>
+    url: /Toolbox/  
+    
  # - title: <span style="color:#8cd2d5"><b>Talks</b></span>
  #   url: /talks/    
 
  # - title: <span style="color:#8cd2d5"><b>Teaching</b></span>
  #   url: /teaching/    
    
-  - title: <span style="color:#8cd2d5"><b>Toolboxes</b></span>
-    url: /Toolbox/    
+  
