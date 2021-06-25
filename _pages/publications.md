@@ -93,7 +93,7 @@ Yanqing Liu, Guokai Liu, Xianchao Xiu and   Shenglong Zhou, The L1-penalized qua
 <a style="font-style: italic; color:#8cd2d5" href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p279.html" target="_blank">Pacific Journal of Optimization</a>, 13, 279-300, 2017.
 <p style="line-height: 1;"></p>
 
- Shenglong Zhou, Naihua Xiu, Yingnan Wang, Lingchen Kong and Huoduo Qi, A Null-space-based weighted l1 minimization approach to compressed sensing,
+Shenglong Zhou, Naihua Xiu, Yingnan Wang, Lingchen Kong and Huoduo Qi, A Null-space-based weighted l1 minimization approach to compressed sensing,
 <a style="font-style: italic; color:#8cd2d5"  href="https://academic.oup.com/imaiai/article/5/1/76/2357109" target="_blank">Information and Inference: A Journal of the IMA </a>,  5, 76-102, 2016. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/294109268" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/MIRL1" target="_blank">Code</a> 
@@ -103,7 +103,7 @@ Lili Pan, Naihua Xiu and   Shenglong Zhou,  On Solutions of Sparsity Constrained
 <a style="font-style: italic; color:#8cd2d5" href="https://link.springer.com/article/10.1007/s40305-015-0101-3" target="_blank">Journal of the Operations Research Society of China</a>, 3, 421-439, 2015. 
 <p style="line-height: 1;"></p>
 
- Shenglong Zhou, Naihua Xiu, Ziyan Luo and Lingchen Kong, Sparse and low-rank covariance matrix estimation,
+Shenglong Zhou, Naihua Xiu, Ziyan Luo and Lingchen Kong, Sparse and low-rank covariance matrix estimation,
 <a style="font-style: italic; color:#8cd2d5"  href="https://link.springer.com/article/10.1007/s40305-014-0058-7" target="_blank">Journal of the Operations Research Society of China</a>,  3, 231-250, 2015.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/ADMM" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
@@ -117,7 +117,7 @@ Meijuan Shang, Chao Zhang, Dingtao Peng and   Shenglong Zhou, A half thresholdin
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/HTPCP" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
 
- Shenglong Zhou, Lingchen Kong and Naihua Xiu,  New bounds for RIC in compressed sensing,
+Shenglong Zhou, Lingchen Kong and Naihua Xiu,  New bounds for RIC in compressed sensing,
 <a style="font-style: italic; color:#8cd2d5" href="https://link.springer.com/article/10.1007/s40305-013-0013-z" target="_blank">Journal of the Operations Research Society of China</a>,  1, 227-237, 2013.
 
 </details>
