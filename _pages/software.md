@@ -107,7 +107,7 @@ a:active {
   <p style="line-height: 1;"></p>
 
   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/Huajun-Wang/L01ADMM" target="_blank">L01ADMM</a> solves the support vector machine. 
-  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://arxiv.org/abs/1912.07418" target="_blank">Article</a> 
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/9464733" target="_blank">Article</a> 
   </div> </font>
   
 
