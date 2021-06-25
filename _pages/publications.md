@@ -45,14 +45,14 @@ Shenglong Zhou, Naihua Xiu and Huoduo Qi, Global and quadratic convergence of Ne
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
   
-Shenglong Zhou, Lili Pan and Naihua Xiu, Newton method  for L0-regularized optimization,
+Shenglong Zhou, Lili Pan and Naihua Xiu, Newton method for L0-regularized optimization,
 <a style="font-style: italic; color:#8cd2d5" href="https://doi.org/10.1007/s11075-021-01085-x" target="_blank">Numerical Algorithms</a>, 2021.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/340563338" target="_blank">RG</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2004.05132" target="_blank">ArXiv</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/NL0R" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
   
-Shenglong Zhou, Lili Pan, Mu Li and Meijuan Shang, Newton hard-thresholding pursuit for sparse linear complementarity problem via a new merit function,
+Shenglong Zhou, Lili Pan, Mu Li and Meijuan Shang, Newton hard-thresholding pursuit for sparse linear complementarity problem via a new merit function, 
 <a style="font-style: italic; color:#8cd2d5" href="https://doi.org/10.1137/19M1301539" target="_blank">SIAM Journal on Scientific Computing</a>, 43, A772–A799, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/337948990" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2004.02244" target="_blank">ArXiv</a>,
