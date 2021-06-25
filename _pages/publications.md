@@ -63,7 +63,7 @@ Shenglong Zhou, Lili Pan, Mu Li and Meijuan Shang, Newton hard-thresholding purs
 <summary><span style="color:#8cd2d5"><b style="font-size:16px">Click for more papers</b></span></summary>
 <p style="line-height: 1;"></p>
   
-Jun Sun, Lingchen Kong and   Shenglong Zhou, Gradient Projection Newton Algorithm for Sparse Collaborative Learnings, 2021. 
+Jun Sun, Lingchen Kong and Shenglong Zhou, Gradient projection Newton algorithm for sparse collaborative learning, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/351985058" target="_blank">RG</a>
 <p style="line-height: 1;"></p>
   
