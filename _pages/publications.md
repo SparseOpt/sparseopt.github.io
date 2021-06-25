@@ -120,9 +120,9 @@ Meijuan Shang, Chao Zhang, Dingtao Peng and   Shenglong Zhou, A half thresholdin
  Shenglong Zhou, Lingchen Kong and Naihua Xiu,  New bounds for RIC in compressed sensing,
 <a style="font-style: italic; color:#8cd2d5" href="https://link.springer.com/article/10.1007/s40305-013-0013-z" target="_blank">Journal of the Operations Research Society of China</a>,  1, 227-237, 2013.
 
- </details>
+</details>
   
- </div>
+</div>
  
 </font>
 
