@@ -162,7 +162,6 @@ Shenglong Zhou, Ziyan Luo and Naihua Xiu, Computing one-bit compressive sensing 
 
 
 
-
 ## <b style="font-size:20px">EDM Optimization</b>
 
 <font size=4> 
