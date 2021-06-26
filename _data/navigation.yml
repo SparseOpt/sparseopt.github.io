@@ -1,39 +1,19 @@
 # main links links
 
-<style>
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:active {
-  text-decoration: none;
-}
-</style>
-
-
-
 main:
-  - title: <a style="font-weight: bold; color:#8cd2d5">Home</a>
+  - title: <span style="color:#8cd2d5"><b>Home</b></span>
     url: /about/
     
-  - title: <a style="font-weight: bold; color:#8cd2d5">Publications</a>
+  - title: <span style="color:#8cd2d5"><b>Publications</b></span>
     url: /publications/
     
-  - title: <a style="font-weight: bold; color:#8cd2d5">Software</a>
+  - title: <span style="color:#8cd2d5"><b>Software</b></span>
     url: /software/
     
-  - title: <a style="font-weight: bold; color:#8cd2d5">Presentations</a>
+  - title: <span style="color:#8cd2d5"><b>Presentations</b></span>
     url: /presentations/  
     
-  - title: <a style="font-weight: bold; color:#8cd2d5">Toolboxes</a>
+  - title: <span style="color:#8cd2d5"><b>Toolboxes</b></span>
     url: /Toolbox/  
     
  # - title: <span style="color:#8cd2d5"><b>Talks</b></span>
