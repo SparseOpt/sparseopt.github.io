@@ -30,7 +30,7 @@ a:active {
 ---
   
  * <a style="color:#eceff1" href='https://arxiv.org/abs/2007.15737' target="_blank"><i>Heaviside optimisation: optimality and Newton method</i></a><br>
- <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href='http://en.sci.njtu.edu.cn/Department/DepartmentofMathematics/index.htm' target="_blank">Department of Mathematics</a>, Beijing Jiaotong University, 18 Aug 2020.
+ <a style="font-size: 16px; font-weight: normal; color:#8cd2d5" href='http://en.sci.njtu.edu.cn/Department/DepartmentofMathematics/index.htm' target="_blank">Department of Mathematics</a>, Beijing Jiaotong University, 18 Aug 2020.
 
  * <a style="color:#eceff1"  href='https://shenglongzhou.github.io/files/Bilevel-optimisation-hyperparameter-tuning.pdf' target="_blank"><i>Bilevel optimisation with applications into hyper-parameter tuning in machine learning</i></a> <br>
  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href='https://turing-optimization.github.io/' target="_blank">Turing Optimisation Club Meeting</a>, The Alan Turing Institute, Lodon, 11 Nov 2019.
