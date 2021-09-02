@@ -134,6 +134,14 @@ Shenglong Zhou, Lingchen Kong and Naihua Xiu,  New bounds for RIC in compressed 
 <font size=4>
 <div style="text-align:justify"> 
   
+  
+ Shenglong Zhou, Lili Pan, Naihua Xiu and Huoduo Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, 
+ accepted by SIAM Journal on Optimization, 2021. 
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/350442413" target="_blank">RG</a>,
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2103.14987" target="_blank">ArXiv</a>,
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/NM01" target="_blank">Code</a>
+<p style="line-height: 1;"></p>
+  
 Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, Support vector machine classifier via L0/1 soft-margin loss, 
  <a style="font-style: italic; color:#8cd2d5" href="https://doi.org/10.1109/TPAMI.2021.3092177" target="_blank">IEEE Transactions on Pattern Analysis and Machine Intelligence</a>, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/338717629" target="_blank">RG</a>,
@@ -141,11 +149,7 @@ Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, Support vec
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/Huajun-Wang/L01ADMM" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
   
-Shenglong Zhou, Lili Pan, Naihua Xiu and Huoduo Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, 2021. 
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/350442413" target="_blank">RG</a>,
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2103.14987" target="_blank">ArXiv</a>,
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/NM01" target="_blank">Code</a>
-<p style="line-height: 1;"></p>
+
 
  Shenglong Zhou, Lili Pan and Naihua Xiu, Heaviside set constrained optimization: optimality and Newton method, 2020.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/343362652" target="_blank">RG</a>,
