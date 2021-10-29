@@ -187,6 +187,21 @@ Shenglong Zhou, Lingchen Kong and Naihua Xiu,  New bounds for RIC in compressed 
 </div></font>
 
 
+## <b style="font-size:20px"> Machine Learning Related Optimization</b>
+
+<font size=4>
+<div style="text-align:justify"> 
+  
+  
+ Shenglong Zhou and Geoffrey Ye Li, Communication-Efficient ADMM-based Federated Learning, 2021.  
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2110.15318" target="_blank">ArXiv</a>, 
+<p style="line-height: 1;"></p>
+  
+
+</div>
+</font> 
+
+
 ## <b style="font-size:20px">Bilevel Optimization</b>
 
 <font size=4> 
