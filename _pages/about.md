@@ -53,7 +53,7 @@ BSc in Information and Computing Sciences, 2007-2011 <br>
 ---
 
 <p><div style="text-align:justify;"> 
-My research interests include the theory and methods of optimization in the fields of sparse optimization,  Low-rank matrix optimization, 0/1 loss optimisation, bilevel
+My research interests include the theory and methods of optimization in the fields of sparse optimization,  low-rank matrix optimization, 0/1 loss optimisation, bilevel
   optimization, and machine learning related optimisation. </div></p> 
 
 
