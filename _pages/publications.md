@@ -82,7 +82,7 @@ Shenglong Zhou, Naihua Xiu and Huoduo Qi, Global and quadratic convergence of Ne
 <p style="line-height: 1;"></p>
   
 Shenglong Zhou, Lili Pan and Naihua Xiu, Newton method for L0-regularized optimization,
-<a style="font-style: italic; color:#8cd2d5" href="https://doi.org/10.1007/s11075-021-01085-x" target="_blank">Numerical Algorithms</a>, 2021.
+<a style="font-style: italic; color:#8cd2d5" href="https://doi.org/10.1007/s11075-021-01085-x" target="_blank">Numerical Algorithms</a>, 88, 1541–1570, 2021.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/340563338" target="_blank">RG</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2004.05132" target="_blank">ArXiv</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/NL0R" target="_blank">Code</a> 
