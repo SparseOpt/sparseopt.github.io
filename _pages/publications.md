@@ -32,7 +32,7 @@ a:active {
   
   
  Shenglong Zhou, Lili Pan, Naihua Xiu and Huoduo Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, 
- to appear SIAM Journal on Optimization, doi: 10.1137/21M1409445, 2021. 
+ SIAM Journal on Optimization, doi: 10.1137/21M1409445, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/350442413" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2103.14987" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/NM01" target="_blank">Code</a>
@@ -45,6 +45,11 @@ Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, Support vec
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/Huajun-Wang/L01ADMM" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
   
+Shenglong Zhou, Ziyan Luo, Naihua Xiu and Geoffrey Ye Li, Computing one-bit compressive sensing via double-sparsity constrained optimization (revised), 2021.
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/348371863" target="_blank">RG</a>,
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2101.03599" target="_blank">ArXiv</a>,
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/GPSP" target="_blank">Code</a> 
+<p style="line-height: 1;"></p>
 
 
  Shenglong Zhou, Lili Pan and Naihua Xiu, Heaviside set constrained optimization: optimality and Newton method, 2020.
@@ -52,11 +57,6 @@ Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, Support vec
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2007.15737" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p>
 
-Shenglong Zhou, Ziyan Luo and Naihua Xiu, Computing one-bit compressive sensing via double-sparsity constrained optimization, 2021.
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/348371863" target="_blank">RG</a>,
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2101.03599" target="_blank">ArXiv</a>,
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/GPSP" target="_blank">Code</a> 
-<p style="line-height: 1;"></p>
 
 
 </div>
