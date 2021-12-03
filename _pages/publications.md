@@ -216,7 +216,7 @@ Alain Zemkoho and   Shenglong Zhou, Theoretical and numerical comparison of the 
 <p style="line-height: 1;"></p>
 
 Andreas Fischer, Alain Zemkoho and   Shenglong Zhou, Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments, 
- Optimization Methods and Software, 2021. 
+<a style="font-style: italic; color:#8cd2d5" href="https://www.tandfonline.com/doi/full/10.1080/10556788.2021.1977810" target="_blank"> Optimization Methods and Software</a>, 1-35, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/337943979" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/1912.07079" target="_blank">ArXiv</a> 
 <p style="line-height: 1;"></p>
@@ -229,18 +229,6 @@ Andreas Fischer, Alain Zemkoho and   Shenglong Zhou, Semismooth Newton-type meth
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://biopt.github.io/bolib/" target="_blank">Code</a> 
 
 </div></font>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
