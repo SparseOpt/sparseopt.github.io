@@ -32,7 +32,7 @@ a:active {
   
   
  Shenglong Zhou, Lili Pan, Naihua Xiu and Huoduo Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, 
-<a style="font-style: italic; color:#8cd2d5" href="https://epubs.siam.org/doi/abs/10.1137/21M1409445" target="_blank">SIAM Journal on Optimization</a>, 2021. 
+<a style="font-style: italic; color:#8cd2d5" href="https://epubs.siam.org/doi/abs/10.1137/21M1409445" target="_blank">SIAM Journal on Optimization</a>, 31(4), 3184–3211, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/350442413" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2103.14987" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/NM01" target="_blank">Code</a>
