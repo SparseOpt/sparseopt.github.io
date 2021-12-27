@@ -104,7 +104,7 @@ a:active {
   <font size=4> 
   <div style="text-align:justify"> 
     
-  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NM01" target="_blank">NM01</a> solves 0/1-loss regularized optimization problems including SVM and one-bit CS.  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://www.researchgate.net/publication/350442413" target="_blank">Article</a>  
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NM01" target="_blank">NM01</a> solves 0/1-loss regularized optimization problems including SVM and one-bit CS.  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://www.researchgate.net/publication/354744779" target="_blank">Article</a>  
   <p style="line-height: 1;"></p>
     
     
