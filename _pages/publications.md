@@ -59,7 +59,6 @@ Shenglong Zhou, Ziyan Luo, Naihua Xiu and Geoffrey Ye Li, Computing one-bit comp
 <p style="line-height: 1;"></p>
 
 
-
 </div>
 </font> 
 
