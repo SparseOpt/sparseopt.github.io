@@ -31,7 +31,7 @@ a:active {
 <div style="text-align:justify"> 
   
 Shenglong Zhou, Ziyan Luo, Naihua Xiu and Geoffrey Ye Li, Computing one-bit compressive sensing via double-sparsity constrained optimization, 
-<a style="font-style: italic; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/9729395" target="_blank">IEEE Transactions on Signal Processing</a>, 2022.
+<a style="font-style: italic; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/9729395" target="_blank">IEEE Transactions on Signal Processing</a>, 70, 1593-1608, 2022.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/348371863" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2101.03599" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/GPSP" target="_blank">Code</a> 
