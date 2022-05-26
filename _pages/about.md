@@ -57,7 +57,8 @@ My research interests include the theory and methods of optimization in the fiel
   optimization, and machine learning related optimization. </div></p> 
 
 
-<b style="font-size:20px">Selected Publications</b> (Full list can be found <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://shenglongzhou.github.io/publications/" target="_blank">here</a>)
+<b style="font-size:20px">Selected Publications</b>
+<span style="color:#8cd2d5"><b style="font-size:16px">(Full list can be found here)</b></span>
 ---
 
 <font size=4>
