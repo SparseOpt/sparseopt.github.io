@@ -108,7 +108,7 @@ Shenglong Zhou, Naihua Xiu and Huoduo Qi, A fast matrix majorization-projection 
 <p style="line-height: 1;"></p>
   
 
-<a style="font-style: italic; font-size:16px; color:#8cd2d5"   href="https://shenglongzhou.github.io/publications/" target="_blank"></a>
+<a style="font-size: 16px; color:#8cd2d5"   href="https://shenglongzhou.github.io/publications/" target="_blank"></a>
   
 </div>
 </font> 
