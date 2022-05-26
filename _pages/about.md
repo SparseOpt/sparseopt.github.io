@@ -58,7 +58,6 @@ My research interests include the theory and methods of optimization in the fiel
 
 
 <b style="font-size:20px">Selected Publications</b>
-<span style="color:#8cd2d5"><b style="font-size:16px">(Full list can be found here)</b></span>
 ---
 
 <font size=4>
@@ -108,6 +107,8 @@ Shenglong Zhou, Naihua Xiu and Huoduo Qi, A fast matrix majorization-projection 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/SQREDM" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
   
+
+<a style="font-style: italic; font-size:16px; color:#8cd2d5"   href="https://shenglongzhou.github.io/publications/" target="_blank"></a>
   
 </div>
 </font> 
