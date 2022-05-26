@@ -29,7 +29,7 @@ a:active {
 
 <b style="font-size:20px">Employment History</b>
 ---
-Research Associate, 2021-present <br>
+Research Fellow, 2021-present <br>
 <a href='https://www.imperial.ac.uk/electrical-engineering' target="_blank">Department of EEE</a>,
 <a style="color:#8cd2d5" href='https://www.imperial.ac.uk/' target="_blank">Imperial College London</a>, UK <br>
 <br>
