@@ -104,11 +104,11 @@ a:active {
   <font size=4> 
   <div style="text-align:justify"> 
     
-  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NM01" target="_blank">NM01</a> solves 0/1-loss regularized optimization problems including SVM and one-bit CS.  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://www.researchgate.net/publication/354744779" target="_blank">Article</a>  
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NM01" target="_blank">NM01</a> solves 0/1-loss regularized optimization problems including SVM and one-bit CS.  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://epubs.siam.org/doi/10.1137/21M1409445" target="_blank">Article</a>  
   <p style="line-height: 1;"></p>
     
     
-  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/GPSP" target="_blank">GPSP</a> solves the one-bit compressive sensing problems.  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://www.researchgate.net/publication/348371863" target="_blank">Article</a>  
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/GPSP" target="_blank">GPSP</a> solves the one-bit compressive sensing problems.  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/9729395" target="_blank">Article</a>  
   <p style="line-height: 1;"></p>
 
   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/Huajun-Wang/L01ADMM" target="_blank">L01ADMM</a> solves the support vector machine. 
