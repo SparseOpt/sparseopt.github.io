@@ -64,7 +64,7 @@ Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang and Naihua Xiu, Support vec
 <font size=4> 
 <div style="text-align:justify">
 
-Shenglong Zhou, gradient projection newton pursuit for sparsity constrained optimization, 
+Shenglong Zhou, Gradient projection newton pursuit for sparsity constrained optimization, 
 accepted by Applied and Computational Harmonic Analysis,  2022. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/360476606" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2205.04580" target="_blank">ArXiv</a>,
