@@ -30,6 +30,11 @@ a:active {
 <font size=4>
 <div style="text-align:justify"> 
   
+ Hui Zhang, Shenglong Zhou, Naihua Xiu and Geoffrey Ye Li, 0/1 Deep Neural Networks via Block Coordinate Descent, 2022.
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/348371863" target="_blank">RG</a>,
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2206.09379" target="_blank">ArXiv</a>
+<p style="line-height: 1;"></p> 
+  
 Shenglong Zhou, Ziyan Luo, Naihua Xiu and Geoffrey Ye Li, Computing one-bit compressive sensing via double-sparsity constrained optimization, 
 <a style="font-style: italic; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/9729395" target="_blank">IEEE Transactions on Signal Processing</a>, 70, 1593-1608, 2022.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/348371863" target="_blank">RG</a>,
@@ -165,9 +170,6 @@ Shenglong Zhou, Lingchen Kong and Naihua Xiu,  New bounds for RIC in compressed 
 </div>
  
 </font>
-
-
-
 
 
 
