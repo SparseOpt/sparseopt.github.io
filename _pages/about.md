@@ -26,6 +26,7 @@ a:active {
 }
 </style>
 
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=GITHUB-USERNAME&label=Profile%20views&color=ce9927&style=flat" alt="GITHUB-USERNAME" /> </p>
 
 <b style="font-size:20px">Employment History</b>
 ---
