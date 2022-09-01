@@ -196,7 +196,7 @@ Shenglong Zhou, Lingchen Kong and Naihua Xiu,  New bounds for RIC in compressed 
   
 Shenglong Zhou and Geoffrey Ye Li, Exact Penalty Method for Federated Learning, 2022. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2208.11231" target="_blank">ArXiv</a>, 
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/362932026" target="_blank">RG</a>
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/362932026" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/FedEPM" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
   
@@ -207,7 +207,7 @@ Shenglong Zhou and Geoffrey Ye Li, Exact Penalty Method for Federated Learning, 
   
 Shenglong Zhou and Geoffrey Ye Li, Federated Learning via Inexact ADMM, 2022. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2204.10607" target="_blank">ArXiv</a>, 
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/360164168" target="_blank">RG</a>
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/360164168" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/FedADMM" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
  
