@@ -212,7 +212,8 @@ Shenglong Zhou and Geoffrey Ye Li, Federated Learning via Inexact ADMM, 2022.
 <p style="line-height: 1;"></p>
  
 Shenglong Zhou and Geoffrey Ye Li, Efficient and Convergent Federated Learning, 2022. 
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2205.01438" target="_blank">ArXiv</a>
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2205.01438" target="_blank">ArXiv</a>,
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/360353524" target="_blank">RG</a>,
 <p style="line-height: 1;"></p>
   
 Shenglong Zhou and Geoffrey Ye Li, Communication-efficient ADMM-based federated learning, 2021. 
