@@ -235,7 +235,7 @@ Xinyu Wei, Biing-Hwang Fred Juang, Ouya Wang, Shenglong Zhou and Geoffrey Ye Li,
 
 <font size=4> 
 <div style="text-align:justify"> 
-Joydeep Dutta, Lafhim Lahoussine, Alain B. Zemkoho, and Shenglong Zhou, Nonconvex quasi-variational inequalities: stability analysis and application to numerical optimization, 2022
+Joydeep Dutta, Lafhim Lahoussine, Alain B. Zemkoho, and Shenglong Zhou, Nonconvex quasi-variational inequalities: stability analysis and application to numerical optimization, 2022.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2111.10857" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/340769764" target="_blank">RG</a>
 <p style="line-height: 1;"></p> 
