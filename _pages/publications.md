@@ -235,7 +235,13 @@ Xinyu Wei, Biing-Hwang Fred Juang, Ouya Wang, Shenglong Zhou and Geoffrey Ye Li,
 
 <font size=4> 
 <div style="text-align:justify"> 
-Alain Zemkoho and   Shenglong Zhou, Theoretical and numerical comparison of the KKT and value function reformulations in bilevel optimization,  
+Joydeep Dutta, Lafhim Lahoussine, Alain B. Zemkoho, and Shenglong Zhou, Nonconvex quasi-variational inequalities: stability analysis and application to numerical optimization, 2022
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2111.10857" target="_blank">ArXiv</a>,
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/340769764" target="_blank">RG</a>
+<p style="line-height: 1;"></p> 
+  
+
+  Alain Zemkoho and   Shenglong Zhou, Theoretical and numerical comparison of the KKT and value function reformulations in bilevel optimization,  
 <a style="font-style: italic; color:#8cd2d5" href="https://doi.org/10.1007/s10589-020-00250-7" target="_blank"> Computational Optimization and Application</a>, 78, 625-674, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/340769764" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2004.10830" target="_blank">ArXiv</a>
