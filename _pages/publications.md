@@ -104,7 +104,7 @@ a:active {
 <summary><span style="color:#8cd2d5"><b style="font-size:16px">Click for more papers</b></span></summary>
 <p style="line-height: 1;"></p> --->
   
-[12] Jun Sun, Lingchen Kong, and Shenglong Zhou, Gradient projection Newton algorithm for sparse collaborative learning, 2021. 
+[12] Jun Sun, Lingchen Kong, and Shenglong Zhou, Gradient projection Newton algorithm for sparse collaborative learning, Journal of Computational and Applied Mathematics, 2022. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/351985058" target="_blank">RG</a>,
  <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2108.06605" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p>
