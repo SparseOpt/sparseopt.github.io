@@ -104,62 +104,62 @@ Shenglong Zhou, Lili Pan, Mu Li, and Meijuan Shang, Newton hard-thresholding pur
 <summary><span style="color:#8cd2d5"><b style="font-size:16px">Click for more papers</b></span></summary>
 <p style="line-height: 1;"></p> --->
   
-Jun Sun, Lingchen Kong, and Shenglong Zhou, Gradient projection Newton algorithm for sparse collaborative learning, 2021. 
+[12] Jun Sun, Lingchen Kong, and Shenglong Zhou, Gradient projection Newton algorithm for sparse collaborative learning, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/351985058" target="_blank">RG</a>,
  <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2108.06605" target="_blank">ArXiv</a>,
 <p style="line-height: 1;"></p>
   
-Rui Wang, Naihua Xiu, and  Shenglong Zhou, An extended Newton-type algorithm for L2-regularized sparse logistic regression and its efficiency for classifying large-scale datasets,
+[11] Rui Wang, Naihua Xiu, and  Shenglong Zhou, An extended Newton-type algorithm for L2-regularized sparse logistic regression and its efficiency for classifying large-scale datasets,
 <a style="font-style: italic; color:#8cd2d5"  href="https://doi.org/10.1016/j.cam.2021.113656" target="_blank">Journal of Computational and Applied Mathematics</a>,  397, 1-17, 2021.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/330224305" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/1901.02768" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/NSLR" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
   
- Xinrong Li, Naihua Xiu, and   Shenglong Zhou, Matrix optimization over low-rank spectral sets: stationary points, local and global minimizers,
+[10] Xinrong Li, Naihua Xiu, and   Shenglong Zhou, Matrix optimization over low-rank spectral sets: stationary points, local and global minimizers,
 <a style="font-style: italic; color:#8cd2d5" href="https://link.springer.com/article/10.1007%2Fs10957-019-01606-8" target="_blank">Journal of Optimization Theory and Applications</a>, 184, 895–930, 2019.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/327581904" target="_blank">RG</a> 
 <p style="line-height: 1;"></p>
 
-Lili Pan,   Shenglong Zhou, Naihua Xiu, and Huoduo Qi, A convergent iterative hard thresholding for sparsity and nonnegativity constrained optimization,
+[9] Lili Pan,   Shenglong Zhou, Naihua Xiu, and Huoduo Qi, A convergent iterative hard thresholding for sparsity and nonnegativity constrained optimization,
 <a style="font-style: italic; color:#8cd2d5"  href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p325.html" target="_blank">Pacific Journal of Optimization</a>, 13,  325-353, 2017.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/299519906" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/IIHT" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
 
-Lianjun Zhang, Lingchen Kong, and   Shenglong Zhou, A smoothing iterative method for quantile regression with nonconvex lp Penalty,
+[8] Lianjun Zhang, Lingchen Kong, and   Shenglong Zhou, A smoothing iterative method for quantile regression with nonconvex lp Penalty,
 <a style="font-style: italic; color:#8cd2d5" href="https://aimsciences.org/article/doi/10.3934/jimo.2016006" target="_blank">Journal of Industrial and Management Optimization</a>, 13, 93-112, 2017.
 <p style="line-height: 1;"></p>
 
-Yanqing Liu, Guokai Liu, Xianchao Xiu, and   Shenglong Zhou, The L1-penalized quantile regression for traditional Chinese medicine syndrome manifestation,
+[7] Yanqing Liu, Guokai Liu, Xianchao Xiu, and   Shenglong Zhou, The L1-penalized quantile regression for traditional Chinese medicine syndrome manifestation,
 <a style="font-style: italic; color:#8cd2d5" href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p279.html" target="_blank">Pacific Journal of Optimization</a>, 13, 279-300, 2017.
 <p style="line-height: 1;"></p>
 
-Shenglong Zhou, Naihua Xiu, Yingnan Wang, Lingchen Kong, and Huoduo Qi, A Null-space-based weighted l1 minimization approach to compressed sensing,
+[6] Shenglong Zhou, Naihua Xiu, Yingnan Wang, Lingchen Kong, and Huoduo Qi, A Null-space-based weighted l1 minimization approach to compressed sensing,
 <a style="font-style: italic; color:#8cd2d5"  href="https://academic.oup.com/imaiai/article/5/1/76/2357109" target="_blank">Information and Inference: A Journal of the IMA </a>,  5, 76-102, 2016. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/294109268" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/MIRL1" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
 
-Lili Pan, Naihua Xiu, and   Shenglong Zhou,  On Solutions of Sparsity Constrained Optimization,
+[5] Lili Pan, Naihua Xiu, and   Shenglong Zhou,  On Solutions of Sparsity Constrained Optimization,
 <a style="font-style: italic; color:#8cd2d5" href="https://link.springer.com/article/10.1007/s40305-015-0101-3" target="_blank">Journal of the Operations Research Society of China</a>, 3, 421-439, 2015. 
 <p style="line-height: 1;"></p>
 
-Shenglong Zhou, Naihua Xiu, Ziyan Luo, and Lingchen Kong, Sparse and low-rank covariance matrix estimation,
+[4] Shenglong Zhou, Naihua Xiu, Ziyan Luo, and Lingchen Kong, Sparse and low-rank covariance matrix estimation,
 <a style="font-style: italic; color:#8cd2d5"  href="https://link.springer.com/article/10.1007/s40305-014-0058-7" target="_blank">Journal of the Operations Research Society of China</a>,  3, 231-250, 2015.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/ADMM" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
 
-Meijuan Shang,  Shenglong Zhou, and Naihua Xiu,  Extragradient thresholding methods For sparse solutions of co-coercive NCPs,
+[3] Meijuan Shang,  Shenglong Zhou, and Naihua Xiu,  Extragradient thresholding methods For sparse solutions of co-coercive NCPs,
 <a style="font-style: italic; color:#8cd2d5"  href="https://journalofinequalitiesandapplications.springeropen.com/articles/10.1186/s13660-015-0551-5" target="_blank">Journal of Inequalities and Applications</a>, 34, 2015. <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="\files\ETA.zip" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
 
-Meijuan Shang, Chao Zhang, Dingtao Peng, and   Shenglong Zhou, A half thresholding projection algorithm for sparse solutions of LCPs,
+[2] Meijuan Shang, Chao Zhang, Dingtao Peng, and   Shenglong Zhou, A half thresholding projection algorithm for sparse solutions of LCPs,
 <a style="font-style: italic; color:#8cd2d5"  href="https://www.infona.pl/resource/bwmeta1.element.springer-doi-10_1007-S11590-014-0834-7" target="_blank">Optimization Letters</a>,   9, 1231-1245, 2015.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/HTPCP" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
 
-Shenglong Zhou, Lingchen Kong, and Naihua Xiu,  New bounds for RIC in compressed sensing,
+[1] Shenglong Zhou, Lingchen Kong, and Naihua Xiu,  New bounds for RIC in compressed sensing,
 <a style="font-style: italic; color:#8cd2d5" href="https://link.springer.com/article/10.1007/s40305-013-0013-z" target="_blank">Journal of the Operations Research Society of China</a>,  1, 227-237, 2013.
 
 <!--- </details> --->
@@ -174,17 +174,17 @@ Shenglong Zhou, Lingchen Kong, and Naihua Xiu,  New bounds for RIC in compressed
 
 <font size=4> 
 <div style="text-align:justify">   
- Shenglong Zhou, Naihua Xiu, and Huoduo Qi, Robust euclidean embedding via EDM optimization,
+[3] Shenglong Zhou, Naihua Xiu, and Huoduo Qi, Robust euclidean embedding via EDM optimization,
 <a style="font-style: italic; color:#8cd2d5"  href="https://link.springer.com/article/10.1007/s12532-019-00168-0" target="_blank">Mathematical Programming Computation</a>, 12, 337–387, 2019. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/PREEEDM" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
 
- Shenglong Zhou, Naihua Xiu, and Huoduo Qi, A fast matrix majorization-projection method for penalized stress minimization with box constraints, 
+[2] Shenglong Zhou, Naihua Xiu, and Huoduo Qi, A fast matrix majorization-projection method for penalized stress minimization with box constraints, 
 <a style="font-style: italic; color:#8cd2d5"   href="https://ieeexplore.ieee.org/document/8399531" target="_blank">IEEE Transactions on Signal Processing</a>, 66, 4331-4346, 2018. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/SQREDM" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
 
- Shenglong Zhou, Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization,
+[1] Shenglong Zhou, Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization,
 <a style="font-style: italic; color:#8cd2d5"  href="https://eprints.soton.ac.uk/429739/" target="_blank">PhD Thesis</a>,  University of Southampton, 2018. 
 </div></font>
 
@@ -194,35 +194,35 @@ Shenglong Zhou, Lingchen Kong, and Naihua Xiu,  New bounds for RIC in compressed
 <font size=4>
 <div style="text-align:justify"> 
   
-Shenglong Zhou and Geoffrey Ye Li, Exact Penalty Method for Federated Learning, 2022. 
+[6] Shenglong Zhou and Geoffrey Ye Li, Exact Penalty Method for Federated Learning, 2022. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2208.11231" target="_blank">ArXiv</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/362932026" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/FedEPM" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
   
- Hui Zhang, Shenglong Zhou, Naihua Xiu, and Geoffrey Ye Li, 0/1 Deep neural networks via block coordinate descent, 2022.
+[5] Hui Zhang, Shenglong Zhou, Naihua Xiu, and Geoffrey Ye Li, 0/1 Deep neural networks via block coordinate descent, 2022.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/348371863" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2206.09379" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p> 
   
-Shenglong Zhou and Geoffrey Ye Li, Federated Learning via Inexact ADMM, 2022. 
+[4] Shenglong Zhou and Geoffrey Ye Li, Federated Learning via Inexact ADMM, 2022. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2204.10607" target="_blank">ArXiv</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/360164168" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/FedADMM" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
  
-Shenglong Zhou and Geoffrey Ye Li, Efficient and Convergent Federated Learning, 2022. 
+[3] Shenglong Zhou and Geoffrey Ye Li, Efficient and Convergent Federated Learning, 2022. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2205.01438" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/360353524" target="_blank">RG</a>,
 <p style="line-height: 1;"></p>
   
-Shenglong Zhou and Geoffrey Ye Li, Communication-efficient ADMM-based federated learning, 2021. 
+[2] Shenglong Zhou and Geoffrey Ye Li, Communication-efficient ADMM-based federated learning, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2110.15318" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/355730311" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/ICEADMM" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
   
-Xinyu Wei, Biing-Hwang Fred Juang, Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, Accretionary learning with deep neural networks, 2021. 
+[1] Xinyu Wei, Biing-Hwang Fred Juang, Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, Accretionary learning with deep neural networks, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2111.10857" target="_blank">ArXiv</a>,
  <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/340769764" target="_blank">RG</a>
 <p style="line-height: 1;"></p>
