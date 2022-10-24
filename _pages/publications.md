@@ -30,7 +30,7 @@ a:active {
 <font size=4>
 <div style="text-align:justify"> 
   
-[5] Shenglong Zhou, Lili Pan, Naihua Xiu, and Geoffrey Ye Li, 0/1 Constrained Optimization Solving Sample Average Approximation for Chance Constrained Programming, 
+[5] Shenglong Zhou, Lili Pan, Naihua Xiu, and Geoffrey Ye Li, 0/1 constrained optimization solving sample average approximation for chance constrained programming, 
 2022. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/364588009" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2210.11889" target="_blank">ArXiv</a>
