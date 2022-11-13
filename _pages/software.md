@@ -34,6 +34,9 @@ a:active {
   <div style="text-align:justify"> 
   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/CSpack" target="_blank">CSpack</a> offers four solvers to solve the compressive sensing problems.
   <p style="line-height: 1;"></p>
+    
+    <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/GPNP" target="_blank">GPNP</a> solves the sparsity constrained optimization including CS, Quadratic CS and etc. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://www.sciencedirect.com/science/article/abs/pii/S1063520322000458?via%3Dihub" target="_blank">Article</a> 
+  <p style="line-height: 1;"></p>  
   
   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">NHTP</a> solves the sparsity constrained optimization including CS, LR, LCP and etc. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://www.jmlr.org/papers/volume22/19-026/19-026.pdf" target="_blank">Article</a> 
   <p style="line-height: 1;"></p>
@@ -65,6 +68,7 @@ a:active {
       <tr>
         <td style="width:20%" align="center"> </td>
         <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">NHTP</a></td>
+          <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://github.com/ShenglongZhou/GPNP" target="_blank">GPNP</a></td>
         <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://github.com/ShenglongZhou/NL0R" target="_blank">NL0R</a></td>
         <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://github.com/ShenglongZhou/IIHT" target="_blank">IIHT</a></td>
         <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/MIRL1" target="_blank">MIRL1</a></td>
@@ -76,11 +80,13 @@ a:active {
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
+          <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center"> </td> 
       </tr>
         <tr>
           <td style="width:20%" align="left"><b>Logistic regression (LR)</b></td>
           <td style="width:5%" align="center">$\surd$</td>
+          <td style="width:5%" align="center"> </td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center"> </td> 
@@ -89,6 +95,7 @@ a:active {
         <tr>
           <td style="width:20%" align="left"><b>Linear complementarity problem (LCP)</b></td>
           <td style="width:5%" align="center">$\surd$</td>
+          <td style="width:5%" align="center"> </td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center"> </td>
