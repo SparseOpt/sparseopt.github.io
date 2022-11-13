@@ -35,7 +35,7 @@ a:active {
   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/CSpack" target="_blank">CSpack</a> offers four solvers to solve the compressive sensing problems.
   <p style="line-height: 1;"></p>
     
-    <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/GPNP" target="_blank">GPNP</a> solves the sparsity constrained optimization including CS, Quadratic CS and etc. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://www.sciencedirect.com/science/article/abs/pii/S1063520322000458?via%3Dihub" target="_blank">Article</a> 
+   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/GPNP" target="_blank">GPNP</a> solves the sparsity constrained optimization including CS, Quadratic CS and etc. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://doi.org/10.1016/j.acha.2022.06.002" target="_blank">Article</a> 
   <p style="line-height: 1;"></p>  
   
   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">NHTP</a> solves the sparsity constrained optimization including CS, LR, LCP and etc. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://www.jmlr.org/papers/volume22/19-026/19-026.pdf" target="_blank">Article</a> 
