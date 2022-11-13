@@ -145,6 +145,20 @@ a:active {
   </div></font>
 
 
+## <b style="font-size:20px">Machine Learning Related Optimization Solvers</b>
+  
+  <font size=4> 
+  <div style="text-align:justify"> 
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/FedEPM" target="_blank">FedEPM</a> solves problems in federated learning.  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://arxiv.org/abs/2208.11231" target="_blank">Article</a> 
+  <p style="line-height: 1;"></p>
+
+ <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/FedADMM" target="_blank">FedADMM</a> solves problems in federated learning.  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://arxiv.org/abs/2204.10607" target="_blank">Article</a> 
+  <p style="line-height: 1;"></p>
+    
+    <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/FedGiA" target="_blank">FedGiA</a> solves problems in federated learning.  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://arxiv.org/abs/2205.01438" target="_blank">Article</a> 
+  <p style="line-height: 1;"></p>
+    
+  </div></font>
 
 
 ## <b style="font-size:20px">Bilevel Optimization Toolbox </b>
