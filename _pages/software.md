@@ -83,6 +83,15 @@ a:active {
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center"> </td> 
       </tr>
+      <tr>
+          <td style="width:20%" align="left"><b>Quadratic CS</b></td>
+          <td style="width:5%" align="center"></td>
+          <td style="width:5%" align="center">$\surd$</td>
+          <td style="width:5%" align="center"></td>
+          <td style="width:5%" align="center"></td>
+          <td style="width:5%" align="center"></td>
+          <td style="width:5%" align="center"> </td> 
+      </tr>
         <tr>
           <td style="width:20%" align="left"><b>Logistic regression (LR)</b></td>
           <td style="width:5%" align="center">$\surd$</td>
