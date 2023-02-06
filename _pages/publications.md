@@ -210,7 +210,7 @@ a:active {
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2206.09379" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p> 
   
-[4] Shenglong Zhou and Geoffrey Ye Li, Federated learning via inexact ADMM, 2022. 
+[4] Shenglong Zhou and Geoffrey Ye Li, Federated learning via inexact ADMM, IEEE Transactions on Pattern Analysis and Machine Intelligence, 2022. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2204.10607" target="_blank">ArXiv</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/360164168" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/FedADMM" target="_blank">Code</a>
