@@ -248,20 +248,20 @@ a:active {
 <p style="line-height: 1;"></p> 
   
 
-[3] Alain Zemkoho and   Shenglong Zhou, Theoretical and numerical comparison of the KKT and value function reformulations in bilevel optimization,  
+[3] Alain Zemkoho and   Shenglong Zhou, Theoretical and numerical comparison of the KKT and value function reformulations in bilevel optimization,
 <a style="font-style: italic; color:#8cd2d5" href="https://doi.org/10.1007/s10589-020-00250-7" target="_blank"> Computational Optimization and Application</a>, 78, 625-674, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/340769764" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2004.10830" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p>
 
-[2] Andreas Fischer, Alain Zemkoho, and   Shenglong Zhou, Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments, 
+[2] Andreas Fischer, Alain Zemkoho, and   Shenglong Zhou, Semismooth Newton-type method for bilevel optimization: Global convergence and extensive numerical experiments,
 <a style="font-style: italic; color:#8cd2d5" href="https://www.tandfonline.com/doi/full/10.1080/10556788.2021.1977810" target="_blank"> Optimization Methods and Software</a>, 1-35, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/337943979" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/1912.07079" target="_blank">ArXiv</a> 
 <p style="line-height: 1;"></p>
     
 [1] Shenglong Zhou, Alain Zemkoho, and Andrey Tin,  BOLIB 2019: Bilevel Optimization LIBrary of Test Problems Version 2, 2019. 
-<a style="font-style: italic; color:#8cd2d5"   href="https://www.springer.com/gp/book/9783030521189" target="_blank">Bilevel optimization: advances and next challenges</a>, 
+<a style="font-style: italic; color:#8cd2d5"   href="https://www.springer.com/gp/book/9783030521189" target="_blank">Bilevel optimization: advances and next challenges</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://biopt.github.io/files/Paper.pdf" target="_blank">BiOpt</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/338375731" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/1812.00230" target="_blank">ArXiv</a>,
