@@ -210,8 +210,7 @@ a:active {
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/360353524" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2205.01438" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/FedGiA" target="_blank">Code</a>
-<p style="line-height: 1;"></p>
-  
+<p style="line-height: 1;"></p>  
   
 [4] Shenglong Zhou and Geoffrey Ye Li, Exact penalty method for federated learning, 2022. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/362932026" target="_blank">RG</a>,
@@ -225,14 +224,14 @@ a:active {
 <p style="line-height: 1;"></p> 
  
 [2] Shenglong Zhou and Geoffrey Ye Li, Communication-efficient ADMM-based federated learning, 2021. 
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2110.15318" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/355730311" target="_blank">RG</a>,
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2110.15318" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/ICEADMM" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
   
 [1] Xinyu Wei, Biing-Hwang Fred Juang, Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, Accretionary learning with deep neural networks, 2021. 
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2111.10857" target="_blank">ArXiv</a>,
- <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/340769764" target="_blank">RG</a>
+ <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/340769764" target="_blank">RG</a>,
+ <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2111.10857" target="_blank">ArXiv</a>,
 <p style="line-height: 1;"></p>
 
 </div>
@@ -244,8 +243,8 @@ a:active {
 <font size=4> 
 <div style="text-align:justify"> 
 [4] Joydeep Dutta, Lafhim Lahoussine, Alain B. Zemkoho, and Shenglong Zhou, Nonconvex quasi-variational inequalities: stability analysis and application to numerical optimization, 2022.
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/363835556" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2210.02531" target="_blank">ArXiv</a>,
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/363835556" target="_blank">RG</a>
 <p style="line-height: 1;"></p> 
   
 
