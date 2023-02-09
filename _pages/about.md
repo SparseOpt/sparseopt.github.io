@@ -63,6 +63,12 @@ My research interests include the theory and methods of optimization in the fiel
 <font size=4>
 <div style="text-align:justify"> 
   
+Shenglong Zhou and Geoffrey Ye Li, Federated learning via inexact ADMM,
+<a style="font-style: italic; color:#8cd2d5"  href="https://ieeexplore.ieee.org/document/10040221" target="_blank">IEEE Transactions on Pattern Analysis and Machine Intelligence</a>, 2023. 
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2204.10607" target="_blank">ArXiv</a>, 
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/360164168" target="_blank">RG</a>,
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/FedADMM" target="_blank">Code</a>
+  
 Shenglong Zhou, Sparse SVM for sufficient data reduction, 
 <a style="font-style: italic; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/9415153" target="_blank">IEEE Transactions on Pattern Analysis and Machine Intelligence</a>, 44, 5560-5571, 2022. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/351035522" target="_blank">RG</a>,
