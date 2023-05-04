@@ -207,7 +207,7 @@ a:active {
 <p style="line-height: 1;"></p>
   
 [5] Shenglong Zhou and Geoffrey Ye Li, FedGiA: An efficient hybrid algorithm for federated learning,
-  <a style="font-style: italic; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/10106001" target="_blank">IEEE Transactions on Signal Processing </a>, 2023.
+  <a style="font-style: italic; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/10106001" target="_blank">IEEE Transactions on Signal Processing </a>, 71,  1493-1508, 2023.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/360353524" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2205.01438" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/FedGiA" target="_blank">Code</a>
