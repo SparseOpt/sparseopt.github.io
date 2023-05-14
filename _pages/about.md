@@ -29,7 +29,10 @@ a:active {
 
 <b style="font-size:20px">Employment History</b>
 ---
-Research Fellow, 2021-present <br>
+Professor, 2023 - present <br>
+<a style="color:#8cd2d5" href='http://soms.bjtu.edu.cn/' target="_blank">School of Mathematics and Statistics </a>, <a style="color:#8cd2d5" href='https://www.bjtu.edu.cn/' target="_blank">Beijing Jiaotong University</a>, China 
+
+Research Fellow, 2021-2023 <br>
 <a href='https://www.imperial.ac.uk/electrical-engineering' target="_blank">Department of EEE</a>,
 <a style="color:#8cd2d5" href='https://www.imperial.ac.uk/' target="_blank">Imperial College London</a>, UK <br>
 <br>
@@ -45,7 +48,7 @@ PhD in  Operational Research, 2014-2017 <br>
 <br>
 MSc in Operational Research, 2011-2014 <br>
 BSc in Information and Computing Sciences, 2007-2011 <br>
-<a style="color:#8cd2d5" href='http://en.sci.njtu.edu.cn/Department/DepartmentofMathematics/index.htm' target="_blank">Department of Mathematics</a>, <a style="color:#8cd2d5" href='http://en.njtu.edu.cn/' target="_blank">Beijing Jiaotong University</a>, China 
+<a style="color:#8cd2d5" href='http://en.sci.njtu.edu.cn/Department/DepartmentofMathematics/index.htm' target="_blank">Department of Mathematics</a>, <a style="color:#8cd2d5" href='https://www.bjtu.edu.cn/' target="_blank">Beijing Jiaotong University</a>, China 
 
 
 
