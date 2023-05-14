@@ -38,13 +38,13 @@ Research Fellow, 2021-2023 <br>
 <br>
 Teaching Fellow, 2020-2021 <br>
 Research Fellow, 2017-2020 <br>
-School of Mathematics, University of Southampton, UK <br>
+<a style="color:#8cd2d5" href='https://www.southampton.ac.uk/maths' target="_blank">School of Mathematics</a>, <a style="color:#8cd2d5" href='https://www.southampton.ac.uk/' target="_blank">University of Southampton</a>, UK <br>
 
 
 <b style="font-size:20px">Education Background</b>
 ---
 PhD in  Operational Research, 2014-2017 <br>
-<a style="color:#8cd2d5" href='https://www.southampton.ac.uk/maths' target="_blank">School of Mathematics</a>, <a style="color:#8cd2d5" href='https://www.southampton.ac.uk/' target="_blank">University of Southampton</a>, UK <br>
+School of Mathematics, University of Southampton, UK <br>
 <br>
 MSc in Operational Research, 2011-2014 <br>
 BSc in Information and Computing Sciences, 2007-2011 <br>
