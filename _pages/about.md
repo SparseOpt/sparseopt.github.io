@@ -48,7 +48,7 @@ PhD in  Operational Research, 2014-2017 <br>
 <br>
 MSc in Operational Research, 2011-2014 <br>
 BSc in Information and Computing Sciences, 2007-2011 <br>
-<a style="color:#8cd2d5" href='http://en.sci.njtu.edu.cn/Department/DepartmentofMathematics/index.htm' target="_blank">Department of Mathematics</a>, <a style="color:#8cd2d5" href='https://www.bjtu.edu.cn/' target="_blank">Beijing Jiaotong University</a>, China 
+<a style="color:#8cd2d5" href='http://en.sci.njtu.edu.cn/Department/DepartmentofMathematics/index.htm' target="_blank">Department of Mathematics</a>, Beijing Jiaotong University, China 
 
 
 
