@@ -69,6 +69,13 @@ a:active {
 
 <font size=4> 
 <div style="text-align:justify">
+
+[18] Shenglong Zhou, Xianchao Xiu, Yingnan Wang, and Dingtao Peng, Revisiting Lq (0<=q<1) norm regularized optimization, 2023. 
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/371855733" target="_blank">RG</a>,
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2306.14394" target="_blank">ArXiv</a>,
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/PNPLq" target="_blank">Code</a> 
+<p style="line-height: 1;"></p>
+
 [17] Shenglong Zhou, Gradient projection newton pursuit for sparsity constrained optimization, 
 <a style="font-style: italic; color:#8cd2d5" href="https://doi.org/10.1016/j.acha.2022.06.002" target="_blank">Applied and Computational Harmonic Analysis</a>, 61, 75-100, 2022. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/360476606" target="_blank">RG</a>,
