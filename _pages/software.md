@@ -32,7 +32,7 @@ a:active {
 
   <font size=4> 
   <div style="text-align:justify"> 
-  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/CSpack" target="_blank">CSpack</a> offers four solvers to solve the compressive sensing problems.
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/CSpack" target="_blank">CSpack</a> offers 5 solvers to solve the compressive sensing problems.
   <p style="line-height: 1;"></p>
     
    <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/GPNP" target="_blank">GPNP</a> solves the sparsity constrained optimization including CS, Quadratic CS and etc. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://doi.org/10.1016/j.acha.2022.06.002" target="_blank">Article</a> 
