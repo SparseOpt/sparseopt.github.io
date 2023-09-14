@@ -232,7 +232,7 @@ a:active {
 <p style="line-height: 1;"></p>
   
 [3] Hui Zhang, Shenglong Zhou, Naihua Xiu, and Geoffrey Ye Li, 0/1 Deep neural networks via block coordinate descent, 2022.
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/348371863" target="_blank">RG</a>,
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/361411821" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2206.09379" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p> 
  
