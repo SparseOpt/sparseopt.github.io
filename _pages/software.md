@@ -43,10 +43,8 @@ a:active {
   
    <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/PSPN" target="_blank">PSNP</a> solves the sparsity regularized optimization including CS, LR, SVM, and etc. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://arxiv.org/abs/2306.14394" target="_blank">Article</a> 
   <p style="line-height: 1;"></p>  
-      
-
-    
-  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NL0R" target="_blank">NL0R</a> solves the L0 regularized optimization problems including CS, LR, and LCP. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://link.springer.com/article/10.1007%2Fs11075-021-01085-x" target="_blank">Article</a> 
+        
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NL0R" target="_blank">NL0R</a> solves the sparsity  regularized optimization problems including CS, LR, and LCP. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://link.springer.com/article/10.1007%2Fs11075-021-01085-x" target="_blank">Article</a> 
   <p style="line-height: 1;"></p>
 
    <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NSSVM" target="_blank">NSSVM</a> solves the sparity constrained SVM.  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/9415153" target="_blank">Article</a> 
