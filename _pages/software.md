@@ -47,7 +47,7 @@ a:active {
   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NL0R" target="_blank">NL0R</a> solves the L0 regularized optimization problems including CS, LR, and LCP. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://link.springer.com/article/10.1007%2Fs11075-021-01085-x" target="_blank">Article</a> 
   <p style="line-height: 1;"></p>
 
-   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NSSVM" target="_blank">NSSVM</a> solves SVM.  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/9415153" target="_blank">Article</a> 
+   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NSSVM" target="_blank">NSSVM</a> solves the sparity constrained SVM.  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/9415153" target="_blank">Article</a> 
   <p style="line-height: 1;"></p>
   
   <!--- <details>
@@ -65,7 +65,7 @@ a:active {
 
   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/ADMM" target="_blank">ADMM</a> solves the sparse and low-rank covariance matrix recovery problem.  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://link.springer.com/article/10.1007/s40305-014-0058-7" target="_blank">Article</a> <br><br>
  
-   Applications solved by the aforementioned solvers are summarized in following table:<br>
+   Applications solved by the solvers above are summarized in the following table:<br>
 
    <table border="2" width="0.5">
       <tr>
@@ -126,7 +126,7 @@ a:active {
           <td style="width:5%" align="center"> </td>
           <td style="width:5%" align="center"> </td>
           <td style="width:5%" align="center"> </td>
-          <td style="width:5%" align="center">$\surd$</td> 
+          <td style="width:5%" align="center"> </td> 
       </tr>
       </table> 
    </div> </font>
