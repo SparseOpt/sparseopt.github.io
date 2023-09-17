@@ -34,30 +34,33 @@ a:active {
   <div style="text-align:justify"> 
   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/CSpack" target="_blank">CSpack</a> offers 5 solvers to solve the compressive sensing problems.
   <p style="line-height: 1;"></p>
-    
-   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/GPNP" target="_blank">GPNP</a> solves the sparsity constrained optimization including CS, Quadratic CS and etc. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://doi.org/10.1016/j.acha.2022.06.002" target="_blank">Article</a> 
+
+   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/GPNP" target="_blank">GPNP</a> solves the sparsity constrained optimization including CS, Quadratic CS, and etc. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://doi.org/10.1016/j.acha.2022.06.002" target="_blank">Article</a> 
   <p style="line-height: 1;"></p>  
   
-  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">NHTP</a> solves the sparsity constrained optimization including CS, LR, LCP and etc. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://www.jmlr.org/papers/volume22/19-026/19-026.pdf" target="_blank">Article</a> 
+   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/PSPN" target="_blank">PSNP</a> solves the sparsity regularized optimization including CS, LR, SVM, and etc. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://arxiv.org/abs/2306.14394" target="_blank">Article</a> 
+  <p style="line-height: 1;"></p>  
+      
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">NHTP</a> solves the sparsity constrained optimization including CS, LR, LCP, and etc. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://www.jmlr.org/papers/volume22/19-026/19-026.pdf" target="_blank">Article</a> 
   <p style="line-height: 1;"></p>
     
-  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NL0R" target="_blank">NL0R</a> solves the L0 regularized optimization problems including CS, LR and LCP. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://link.springer.com/article/10.1007%2Fs11075-021-01085-x" target="_blank">Article</a> 
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NL0R" target="_blank">NL0R</a> solves the L0 regularized optimization problems including CS, LR, and LCP. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://link.springer.com/article/10.1007%2Fs11075-021-01085-x" target="_blank">Article</a> 
   <p style="line-height: 1;"></p>
 
-   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NSSVM" target="_blank">NSSVM</a> solves the sparse support vector machine.  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/9415153" target="_blank">Article</a> 
+   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NSSVM" target="_blank">NSSVM</a> solves SVM.  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/9415153" target="_blank">Article</a> 
   <p style="line-height: 1;"></p>
   
   <!--- <details>
   <summary><span style="color:#8cd2d5"><b style="font-size:16px">Click for more solvers</b></span></summary>
   <br> --->
 
-  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/IIHT" target="_blank">IIHT</a> solves the sparsity constrained optimization including CS, LR, LCP and etc. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p325.html" target="_blank">Article</a>  
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/IIHT" target="_blank">IIHT</a> solves the sparsity constrained optimization including CS, LR, LCP, and etc. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p325.html" target="_blank">Article</a>  
   <p style="line-height: 1;"></p>
  
   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/MIRL1" target="_blank">MIRL1</a> solves the reweighted L1 minimization.    <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://doi.org/10.1093/imaiai/iaw002" target="_blank">Article</a> 
   <p style="line-height: 1;"></p>
  
-  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/HTPCP" target="_blank">HTPCP</a> solves the sparse linear/nonlinear complementarity problems. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://link.springer.com/article/10.1007/s11590-014-0834-7" target="_blank">Article</a>  
+  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/HTPCP" target="_blank">HTPCP</a> solves the sparse LCP, non-LCP. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://link.springer.com/article/10.1007/s11590-014-0834-7" target="_blank">Article</a>  
   <p style="line-height: 1;"></p>
 
   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/ADMM" target="_blank">ADMM</a> solves the sparse and low-rank covariance matrix recovery problem.  <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://link.springer.com/article/10.1007/s40305-014-0058-7" target="_blank">Article</a> <br><br>
@@ -69,6 +72,7 @@ a:active {
         <td style="width:20%" align="center"> </td>
         <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://github.com/ShenglongZhou/NHTPver2" target="_blank">NHTP</a></td>
           <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://github.com/ShenglongZhou/GPNP" target="_blank">GPNP</a></td>
+         <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://github.com/ShenglongZhou/PSNP" target="_blank">PSNP</a></td>
         <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://github.com/ShenglongZhou/NL0R" target="_blank">NL0R</a></td>
         <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://github.com/ShenglongZhou/IIHT" target="_blank">IIHT</a></td>
         <td style="width:5%" align="center"><a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/MIRL1" target="_blank">MIRL1</a></td>
@@ -76,6 +80,7 @@ a:active {
       </tr>
        <tr>
           <td style="width:20%" align="left"><b>Compressed sensing (CS)</b></td>
+          <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
@@ -90,12 +95,14 @@ a:active {
           <td style="width:5%" align="center"></td>
           <td style="width:5%" align="center"></td>
           <td style="width:5%" align="center"></td>
+          <td style="width:5%" align="center"></td>
           <td style="width:5%" align="center"> </td> 
       </tr>
         <tr>
           <td style="width:20%" align="left"><b>Logistic regression (LR)</b></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center"> </td>
+          <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center"> </td> 
@@ -105,8 +112,19 @@ a:active {
           <td style="width:20%" align="left"><b>Linear complementarity problem (LCP)</b></td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center"> </td>
+          <td style="width:5%" align="center"> </td>
           <td style="width:5%" align="center">$\surd$</td>
           <td style="width:5%" align="center">$\surd$</td>
+          <td style="width:5%" align="center"> </td>
+          <td style="width:5%" align="center">$\surd$</td> 
+      </tr>
+      <tr>
+          <td style="width:20%" align="left"><b>Support vector machine (SVM)</b></td>
+          <td style="width:5%" align="center"></td>
+          <td style="width:5%" align="center"> </td>
+          <td style="width:5%" align="center">$\surd$</td>
+          <td style="width:5%" align="center"> </td>
+          <td style="width:5%" align="center"> </td>
           <td style="width:5%" align="center"> </td>
           <td style="width:5%" align="center">$\surd$</td> 
       </tr>
