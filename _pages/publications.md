@@ -252,7 +252,8 @@ a:active {
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/ICEADMM" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
   
-[1] Xinyu Wei, Biing-Hwang Fred Juang, Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, Accretionary learning with deep neural networks, 2021. 
+[1] Xinyu Wei, Biing-Hwang Fred Juang, Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, Accretionary learning with deep neural networks,
+ <a style="font-style: italic; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/10361279" target="_blank">IEEE Transactions on Cognitive Communications and Networking </a>, 2023.
  <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/340769764" target="_blank">RG</a>,
  <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2111.10857" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p>
