@@ -41,7 +41,7 @@ a:active {
   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/GPNP" target="_blank">GPNP</a> solves the sparsity constrained optimization including CS, Quadratic CS, and etc. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://doi.org/10.1016/j.acha.2022.06.002" target="_blank">Article</a> 
   <p style="line-height: 1;"></p>  
   
-   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/PSPN" target="_blank">PSNP</a> solves the sparsity regularized optimization including CS, LR, SVM, and etc. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://arxiv.org/abs/2306.14394" target="_blank">Article</a> 
+   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/PSNP" target="_blank">PSNP</a> solves the sparsity regularized optimization including CS, LR, SVM, and etc. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://arxiv.org/abs/2306.14394" target="_blank">Article</a> 
   <p style="line-height: 1;"></p>  
         
   <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://github.com/ShenglongZhou/NL0R" target="_blank">NL0R</a> solves the sparsity  regularized optimization problems including CS, LR, and LCP. <a style="font-size: 16px; font-weight: bold; color:#8cd2d5" href="https://link.springer.com/article/10.1007%2Fs11075-021-01085-x" target="_blank">Article</a> 
