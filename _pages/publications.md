@@ -317,7 +317,7 @@ a:active {
 <p style="line-height: 1;"></p>
 
 [2] Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, Effective adaptation into new environment with few shots: Applications to OFDM receiver design,
-<a style="font-style: italic; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/10437273/" target="_blank">2023 IEEE 33rd International Workshop on Machine Learning for Signal Processing (MLSP)</a>, 2023.
+<a style="font-style: italic; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/10437273/" target="_blank">2023 IEEE 33rd International Workshop on Machine Learning for Signal Processing (MLSP)</a>, 2023. (Top 5% Outstanding Paper)
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/374933177" target="_blank">RG</a>
 <p style="line-height: 1;"></p>
 
