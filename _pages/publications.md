@@ -212,7 +212,7 @@ a:active {
 <font size=4>
 <div style="text-align:justify"> 
 
-[8] Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, BADM: Batch ADMM for Deep Learning, 2024. 
+[8] Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, BADM: Batch ADMM for deep learning, 2024. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/381922655" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2407.01640" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p>
@@ -222,7 +222,7 @@ a:active {
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2310.12343" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p>
 
-[6] Kaidi Xu, Shenglong Zhou, and Geoffrey Ye Li, Federated Reinforcement Learning for Resource Allocation in V2X Networks, 2023.  
+[6] Kaidi Xu, Shenglong Zhou, and Geoffrey Ye Li, Federated reinforcement learning for resource allocation in V2X networks, 2023.  
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/374776375" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2310.09858" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p>
@@ -307,7 +307,7 @@ a:active {
 <font size=4> 
 <div style="text-align:justify"> 
 
-[4] Kaidi Xu, Shenglong Zhou, and Geoffrey Ye Li, Rescale-Invariant Federated Reinforcement Learning for Resource Allocation in V2X Networks, 2024.  
+[4] Kaidi Xu, Shenglong Zhou, and Geoffrey Ye Li, Rescale-invariant federated reinforcement learning for resource allocation in V2X networks, 2024.  
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2405.01961" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p>
  
@@ -316,12 +316,12 @@ a:active {
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2308.16671" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p>
 
-[2] Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, Effective Adaptation into New Environment with Few Shots: Applications to OFDM Receiver Design,
+[2] Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, Effective adaptation into new environment with few shots: Applications to OFDM receiver design,
 <a style="font-style: italic; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/10437273/" target="_blank">2023 IEEE 33rd International Workshop on Machine Learning for Signal Processing (MLSP)</a>, 2023.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/374933177" target="_blank">RG</a>
 <p style="line-height: 1;"></p>
 
-[1] Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, Few-Shot Learning for New Environment Adaptation,
+[1] Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, Few-shot learning for new environment adaptation,
 <a style="font-style: italic; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/10437273/" target="_blank">2023 IEEE Global Communications Conference</a>, 2023.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/378501268" target="_blank">RG</a>
 <p style="line-height: 1;"></p>
