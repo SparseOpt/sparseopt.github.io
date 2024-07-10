@@ -71,6 +71,11 @@ a:active {
 <font size=4> 
 <div style="text-align:justify">
 
+[19] Jun Fan, Jie Sun, Ailin Yan, and Shenglong Zhou, An oracle gradient regularized Newton method for quadratic measurements regression, 2024. 
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/358730474" target="_blank">RG</a>,
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2202.09651" target="_blank">ArXiv</a>
+<p style="line-height: 1;"></p>
+
 [18] Shenglong Zhou, Xianchao Xiu, Yingnan Wang, and Dingtao Peng, Revisiting Lq (0<=q<1) norm regularized optimization, 2023. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/371855733" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2306.14394" target="_blank">ArXiv</a>,
@@ -206,52 +211,59 @@ a:active {
 
 <font size=4>
 <div style="text-align:justify"> 
+
+[8] Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, BADM: Batch ADMM for Deep Learning, 2024. 
+ <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/381922655" target="_blank">RG</a>,
+ <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2407.01640" target="_blank">ArXiv</a>
+<p style="line-height: 1;"></p>
   
-[9] Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, New environment adaptation with few shots for OFDM receiver and mmWave beamforming, 2023. 
+[8] Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, New environment adaptation with few shots for OFDM receiver and mmWave beamforming, 2023. 
  <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/374845426" target="_blank">RG</a>,
  <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2310.12343" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p>
   
-[8] Kaidi Xu, Shenglong Zhou, and Geoffrey Ye Li, Federated reinforcement learning for resource allocation in V2X networks, 2023. 
+[7] Kaidi Xu, Shenglong Zhou, and Geoffrey Ye Li, Federated reinforcement learning for resource allocation in V2X networks, 2023. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/374776375" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2310.09858" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p>
  
-[7] Shenglong Zhou, Kaidi Xu, and Geoffrey Ye Li, Communication-efficient decentralized federated learning via one-bit compressive sensing, 2023. 
+[6] Shenglong Zhou, Kaidi Xu, and Geoffrey Ye Li, Communication-efficient decentralized federated learning via one-bit compressive sensing, 2023. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/373526540" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2308.16671" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p>
   
-[6] Shenglong Zhou and Geoffrey Ye Li, Federated learning via inexact ADMM,
+[5] Shenglong Zhou and Geoffrey Ye Li, Federated learning via inexact ADMM,
   <a style="font-style: italic; color:#8cd2d5"  href="https://ieeexplore.ieee.org/document/10040221" target="_blank">IEEE Transactions on Pattern Analysis and Machine Intelligence</a>, 45, 9699-9708, 2023. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/360164168" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2204.10607" target="_blank">ArXiv</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/FedADMM" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
   
-[5] Shenglong Zhou and Geoffrey Ye Li, FedGiA: An efficient hybrid algorithm for federated learning,
+[4] Shenglong Zhou and Geoffrey Ye Li, FedGiA: An efficient hybrid algorithm for federated learning,
   <a style="font-style: italic; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/10106001" target="_blank">IEEE Transactions on Signal Processing </a>, 71, 1493-1508, 2023.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/360353524" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2205.01438" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/FedGiA" target="_blank">Code</a>
 <p style="line-height: 1;"></p>  
   
-[4] Shenglong Zhou and Geoffrey Ye Li, Exact penalty method for federated learning, 2022. 
+[3] Shenglong Zhou and Geoffrey Ye Li, Exact penalty method for federated learning, 2022. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/362932026" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2208.11231" target="_blank">ArXiv</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/FedEPM" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
   
-[3] Hui Zhang, Shenglong Zhou, Naihua Xiu, and Geoffrey Ye Li, 0/1 Deep neural networks via block coordinate descent, 2022.
+[2] Hui Zhang, Shenglong Zhou, Naihua Xiu, and Geoffrey Ye Li, 0/1 Deep neural networks via block coordinate descent, 2022.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/361411821" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2206.09379" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p> 
- 
+
+ <!---
 [2] Shenglong Zhou and Geoffrey Ye Li, Communication-efficient ADMM-based federated learning, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/355730311" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2110.15318" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/ICEADMM" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
+--->
   
 [1] Xinyu Wei, Biing-Hwang Fred Juang, Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, Accretionary learning with deep neural networks,
  <a style="font-style: italic; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/10361279" target="_blank">IEEE Transactions on Cognitive Communications and Networking </a>, 2023.
