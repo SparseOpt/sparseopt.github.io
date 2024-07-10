@@ -192,7 +192,7 @@ a:active {
 
 <font size=4> 
 <div style="text-align:justify">   
-[3] Shenglong Zhou, Naihua Xiu, and Huoduo Qi, Robust euclidean embedding via EDM optimization,
+[3] Shenglong Zhou, Naihua Xiu, and Huoduo Qi, Robust Euclidean embedding via EDM optimization,
 <a style="font-style: italic; color:#8cd2d5"  href="https://link.springer.com/article/10.1007/s12532-019-00168-0" target="_blank">Mathematical Programming Computation</a>, 12, 337–387, 2019. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/PREEEDM" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
@@ -212,12 +212,17 @@ a:active {
 <font size=4>
 <div style="text-align:justify"> 
 
-[10] Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, BADM: Batch ADMM for Deep Learning, 2024. 
+[11] Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, BADM: Batch ADMM for Deep Learning, 2024. 
  <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/381922655" target="_blank">RG</a>,
  <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2407.01640" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p>
 
-[9] Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, Few-Shot Learning for New Environment Adaptation, 2024. 
+[10] Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, Effective Adaptation into New Environment with Few Shots: Applications to OFDM Receiver Design,
+ <a style="font-style: italic; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/10437273/" target="_blank">2023 IEEE 33rd International Workshop on Machine Learning for Signal Processing (MLSP)</a>, 2023.
+ <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/374933177" target="_blank">RG</a>
+<p style="line-height: 1;"></p>
+
+[9] Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, Few-Shot Learning for New Environment Adaptation,
  <a style="font-style: italic; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/10437273/" target="_blank">2023 IEEE Global Communications Conference</a>, 2023.
  <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/378501268" target="_blank">RG</a>
 <p style="line-height: 1;"></p>
