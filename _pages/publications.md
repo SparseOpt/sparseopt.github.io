@@ -212,9 +212,14 @@ a:active {
 <font size=4>
 <div style="text-align:justify"> 
 
-[8] Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, BADM: Batch ADMM for Deep Learning, 2024. 
+[10] Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, BADM: Batch ADMM for Deep Learning, 2024. 
  <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/381922655" target="_blank">RG</a>,
  <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2407.01640" target="_blank">ArXiv</a>
+<p style="line-height: 1;"></p>
+
+[9] Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, Few-Shot Learning for New Environment Adaptation, 2024. 
+ <a style="font-style: italic; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/10437273/" target="_blank">2023 IEEE Global Communications Conference</a>, 2023.
+ <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/378501268" target="_blank">RG</a>
 <p style="line-height: 1;"></p>
   
 [8] Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, New environment adaptation with few shots for OFDM receiver and mmWave beamforming, 2023. 
