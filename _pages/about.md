@@ -65,7 +65,13 @@ My research interests include the theory and methods of optimization in the fiel
 
 <font size=4>
 <div style="text-align:justify"> 
-  
+
+Shenglong Zhou, Lili Pan, Naihua Xiu, and Geoffrey Ye Li, 0/1 constrained optimization solving sample average approximation for chance constrained programming, accepted by <a style="font-style: italic; color:#8cd2d5" target="_blank">Mathematics of Operations Research</a>, 2024. 
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/364588009" target="_blank">RG</a>,
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2210.11889" target="_blank">ArXiv</a>,
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/SNSCO" target="_blank">Code</a>
+<p style="line-height: 1;"></p>
+
 Shenglong Zhou and Geoffrey Ye Li, Federated learning via inexact ADMM,
 <a style="font-style: italic; color:#8cd2d5"  href="https://ieeexplore.ieee.org/document/10040221" target="_blank">IEEE Transactions on Pattern Analysis and Machine Intelligence</a>, 45, 9699-9708, 2023. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/360164168" target="_blank">RG</a>,
