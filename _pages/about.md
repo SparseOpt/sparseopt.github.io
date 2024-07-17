@@ -62,6 +62,9 @@ My research interests include the theory and methods of optimization in the fiel
 <b style="font-size:20px">Selected Publications</b>
 ---
 
+Full list of publications can be found
+<a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://shenglongzhou.github.io/publications/" target="_blank">here</a>
+
 <font size=4>
 <div style="text-align:justify"> 
 
@@ -129,10 +132,7 @@ My research interests include the theory and methods of optimization in the fiel
 <a style="font-style: italic; color:#8cd2d5"   href="https://ieeexplore.ieee.org/document/8399531" target="_blank">IEEE Transactions on Signal Processing</a>, 66, 4331-4346, 2018. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/SQREDM" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
-  
-Full list of publications can be found
-<a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://shenglongzhou.github.io/publications/" target="_blank">here</a>
-  
+
 </div>
 </font> 
 
