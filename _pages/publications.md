@@ -310,7 +310,8 @@ a:active {
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2405.01961" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p>
  
-[3] Shenglong Zhou, Kaidi Xu, and Geoffrey Ye Li, Communication-efficient decentralized federated learning via one-bit compressive sensing, 2024. 
+[3] Shenglong Zhou, Kaidi Xu, and Geoffrey Ye Li, Communication-efficient decentralized federated learning via one-bit compressive sensing, 
+<a style="font-style: italic; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/10683577" target="_blank">2024 IEEE 99th Vehicular Technology Conference (VTC2024-Spring) </a>, 2024. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/373526540" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2308.16671" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p>
