@@ -212,7 +212,7 @@ a:active {
 <div style="text-align:justify"> 
   
 [9] Kaidi Xu, Shenglong Zhou, and Geoffrey Ye Li, Rescale-invariant federated reinforcement learning for resource allocation in V2X networks, 
-<a style="font-style: italic; color:#8cd2d5"  href="https://ieeexplore.ieee.org/document/10736393" target="_blank">IEEE Communications Letters</a>, 1-5, 2024.  
+<a style="font-style: italic; color:#8cd2d5"  href="https://ieeexplore.ieee.org/document/10736393" target="_blank">IEEE Communications Letters</a>, 1-5, 2024. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/385267344" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2405.01961" target="_blank">ArXiv</a>
 <p style="line-height: 1;"> 
