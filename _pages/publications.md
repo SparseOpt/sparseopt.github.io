@@ -185,27 +185,6 @@ a:active {
  
 </font>
 
-
-
-## <b style="font-size:20px">EDM Optimization</b>
-
-<font size=4> 
-<div style="text-align:justify">   
-[3] Shenglong Zhou, Naihua Xiu, and Huoduo Qi, Robust Euclidean embedding via EDM optimization,
-<a style="font-style: italic; color:#8cd2d5"  href="https://link.springer.com/article/10.1007/s12532-019-00168-0" target="_blank">Mathematical Programming Computation</a>, 12, 337–387, 2019. 
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/PREEEDM" target="_blank">Code</a> 
-<p style="line-height: 1;"></p>
-
-[2] Shenglong Zhou, Naihua Xiu, and Huoduo Qi, A fast matrix majorization-projection method for penalized stress minimization with box constraints, 
-<a style="font-style: italic; color:#8cd2d5"   href="https://ieeexplore.ieee.org/document/8399531" target="_blank">IEEE Transactions on Signal Processing</a>, 66, 4331-4346, 2018. 
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/SQREDM" target="_blank">Code</a>
-<p style="line-height: 1;"></p>
-
-[1] Shenglong Zhou, Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization,
-<a style="font-style: italic; color:#8cd2d5"  href="https://eprints.soton.ac.uk/429739/" target="_blank">PhD Thesis</a>,  University of Southampton, 2018. 
-</div></font>
-
-
 ## <b style="font-size:20px"> Machine Learning Related Optimization</b>
 
 <font size=4>
@@ -215,7 +194,7 @@ a:active {
 <a style="font-style: italic; color:#8cd2d5"  href="https://ieeexplore.ieee.org/document/10736393" target="_blank">IEEE Communications Letters</a>, 1-5, 2024. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/385267344" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2405.01961" target="_blank">ArXiv</a>
-<p style="line-height: 1;"> 
+<p style="line-height: 1;"></p> 
 
 [8] Ouya Wang, Shenglong Zhou, and Geoffrey Ye Li, BADM: Batch ADMM for deep learning, 2024. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/381922655" target="_blank">RG</a>,
@@ -273,6 +252,24 @@ a:active {
 
 </div>
 </font> 
+
+## <b style="font-size:20px">EDM Optimization</b>
+
+<font size=4> 
+<div style="text-align:justify">   
+[3] Shenglong Zhou, Naihua Xiu, and Huoduo Qi, Robust Euclidean embedding via EDM optimization,
+<a style="font-style: italic; color:#8cd2d5"  href="https://link.springer.com/article/10.1007/s12532-019-00168-0" target="_blank">Mathematical Programming Computation</a>, 12, 337–387, 2019. 
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/PREEEDM" target="_blank">Code</a> 
+<p style="line-height: 1;"></p>
+
+[2] Shenglong Zhou, Naihua Xiu, and Huoduo Qi, A fast matrix majorization-projection method for penalized stress minimization with box constraints, 
+<a style="font-style: italic; color:#8cd2d5"   href="https://ieeexplore.ieee.org/document/8399531" target="_blank">IEEE Transactions on Signal Processing</a>, 66, 4331-4346, 2018. 
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/SQREDM" target="_blank">Code</a>
+<p style="line-height: 1;"></p>
+
+[1] Shenglong Zhou, Majorization-projection methods for multidimensional scaling via Euclidean distance matrix optimization,
+<a style="font-style: italic; color:#8cd2d5"  href="https://eprints.soton.ac.uk/429739/" target="_blank">PhD Thesis</a>,  University of Southampton, 2018. 
+</div></font>
 
 
 ## <b style="font-size:20px">Bilevel Optimization</b>
