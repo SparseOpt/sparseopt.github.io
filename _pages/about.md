@@ -68,7 +68,7 @@ Full list of publications can be found
 <font size=4>
 <div style="text-align:justify"> 
 
-[10] Shenglong Zhou, Lili Pan, Naihua Xiu, and Geoffrey Ye Li, 0/1 constrained optimization solving sample average approximation for chance constrained programming, accepted by <a style="font-style: italic; color:#8cd2d5" href=" " target="_blank">Mathematics of Operations Research</a>, 2024. 
+[10] Shenglong Zhou, Lili Pan, Naihua Xiu, and Geoffrey Ye Li, 0/1 constrained optimization solving sample average approximation for chance constrained programming, accepted by <a style="font-style: italic; color:#8cd2d5" href="https://pubsonline.informs.org/doi/10.1287/moor.2023.0149" target="_blank">Mathematics of Operations Research</a>, 2024. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/364588009" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2210.11889" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/SNSCO" target="_blank">Code</a>
