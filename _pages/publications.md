@@ -285,14 +285,15 @@ a:active {
 
 <font size=4> 
 <div style="text-align:justify"> 
-[4] Joydeep Dutta, Lafhim Lahoussine, Alain B. Zemkoho, and Shenglong Zhou, Nonconvex quasi-variational inequalities: stability analysis and application to numerical optimization, 2022.
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/363835556" target="_blank">RG</a>,
+[4] Joydeep Dutta, Lafhim Lahoussine, Alain B. Zemkoho, and Shenglong Zhou, Nonconvex quasi-variational inequalities: stability analysis and application to numerical optimization, 
+<a style="font-style: italic; color:#8cd2d5" href="https://doi.org/10.1007/s10957-024-02582-4" target="_blank">Journal of Optimization Theory and Applications</a>, 204(16), 625-674, 2025.
+  <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/363835556" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2210.02531" target="_blank">ArXiv</a>,
 <p style="line-height: 1;"></p> 
   
 
 [3] Alain Zemkoho and   Shenglong Zhou, Theoretical and numerical comparison of the KKT and value function reformulations in bilevel optimization,
-<a style="font-style: italic; color:#8cd2d5" href="https://doi.org/10.1007/s10589-020-00250-7" target="_blank"> Computational Optimization and Application</a>, 78, 625-674, 2021. 
+<a style="font-style: italic; color:#8cd2d5" href="https://doi.org/10.1007/s10589-020-00250-7" target="_blank">Computational Optimization and Application</a>, 78, 625-674, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/340769764" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2004.10830" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p>
