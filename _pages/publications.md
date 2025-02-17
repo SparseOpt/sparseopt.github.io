@@ -198,7 +198,7 @@ a:active {
 <font size=4>
 <div style="text-align:justify"> 
   
-[9] Shenglong Zhou, Ouya Wang, Ziyan Luo, Yongxu Zhu, and Geoffrey Ye Li, Preconditioned Inexact Stochastic ADMM for Deep Models, 2025. 
+[10] Shenglong Zhou, Ouya Wang, Ziyan Luo, Yongxu Zhu, and Geoffrey Ye Li, Preconditioned Inexact Stochastic ADMM for Deep Models, 2025. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/389024585" target="_blank">RG</a>
 <p style="line-height: 1;"></p>
 
