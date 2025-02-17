@@ -197,6 +197,14 @@ a:active {
 
 <font size=4>
 <div style="text-align:justify"> 
+  
+[9] Shenglong Zhou, Ouya Wang, Ziyan Luo, Yongxu Zhu, and Geoffrey Ye Li, Preconditioned Inexact Stochastic ADMM for Deep Models, 2025. 
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/389024585" target="_blank">RG</a>
+<p style="line-height: 1;"></p>
+
+[9] Shan Sha, Shenglong Zhou, Lingchen Kong, and Geoffrey Ye Li, Sparse Decentralized Federated Learning, 2025. 
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/389056587" target="_blank">RG</a>
+<p style="line-height: 1;"></p>
 
 [8] Shenglong Zhou and Geoffrey Ye Li, Federated learning via inexact ADMM,
 <a style="font-style: italic; color:#8cd2d5"  href="https://ieeexplore.ieee.org/document/10040221" target="_blank">IEEE Transactions on Pattern Analysis and Machine Intelligence</a>, 45, 9699-9708, 2023. 
