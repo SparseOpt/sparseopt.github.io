@@ -2,7 +2,7 @@
 layout: archive
 title:  
 permalink: /presentations/
-author_profile: false
+author_profile: ture
 redirect_from:
   - /resume
 ---
