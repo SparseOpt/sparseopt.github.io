@@ -30,45 +30,49 @@ a:active {
 <font size=4>
 <div style="text-align:justify"> 
   
-[5] Shenglong Zhou, Lili Pan, Naihua Xiu, and Geoffrey Ye Li, 0/1 constrained optimization solving sample average approximation for chance constrained programming, <a style="font-style: italic; color:#8cd2d5" href="https://pubsonline.informs.org/doi/10.1287/moor.2023.0149" target="_blank">Mathematics of Operations Research</a>, 2024. 
+[6] Shenglong Zhou, Lili Pan, Naihua Xiu, and Geoffrey Ye Li, 0/1 constrained optimization solving sample average approximation for chance constrained programming, <a style="font-style: italic; color:#8cd2d5" href="https://pubsonline.informs.org/doi/10.1287/moor.2023.0149" target="_blank">Mathematics of Operations Research</a>, 2024. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/364588009" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2210.11889" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/SNSCO" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
   
-[4] Shenglong Zhou, Ziyan Luo, Naihua Xiu, and Geoffrey Ye Li, Computing one-bit compressive sensing via double-sparsity constrained optimization, 
+[5] Shenglong Zhou, Ziyan Luo, Naihua Xiu, and Geoffrey Ye Li, Computing one-bit compressive sensing via double-sparsity constrained optimization, 
 <a style="font-style: italic; color:#8cd2d5" href="https://ieeexplore.ieee.org/document/9729395" target="_blank">IEEE Transactions on Signal Processing</a>, 70, 1593-1608, 2022.
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/348371863" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2101.03599" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/GPSP" target="_blank">Code</a> 
 <p style="line-height: 1;"></p>
   
-[3] Shenglong Zhou, Lili Pan, Naihua Xiu, and Huoduo Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, 
+[4] Shenglong Zhou, Lili Pan, Naihua Xiu, and Huoduo Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, 
 <a style="font-style: italic; color:#8cd2d5" href="https://epubs.siam.org/doi/abs/10.1137/21M1409445" target="_blank">SIAM Journal on Optimization</a>, 31, 3184–3211, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/354744779" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2103.14987" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/ShenglongZhou/NM01" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
   
-[2] Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang, and Naihua Xiu, Support vector machine classifier via L0/1 soft-margin loss, 
+[3] Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang, and Naihua Xiu, Support vector machine classifier via L0/1 soft-margin loss, 
  <a style="font-style: italic; color:#8cd2d5" href="https://doi.org/10.1109/TPAMI.2021.3092177" target="_blank">IEEE Transactions on Pattern Analysis and Machine Intelligence</a>, 44, 7253-7265, 2022. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/338717629" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/1912.07418" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://github.com/Huajun-Wang/L01ADMM" target="_blank">Code</a>
 <p style="line-height: 1;"></p>
 
- <!---  
-[1] Shenglong Zhou, Lili Pan, and Naihua Xiu, Heaviside set constrained optimization: optimality and Newton method, 2020.
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/343362652" target="_blank">RG</a>,
-<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2007.15737" target="_blank">ArXiv</a>
-<p style="line-height: 1;"></p>
---->
-
-[1] Hui Zhang, Shenglong Zhou, Geoffrey Ye Li, Naihua Xiu, and Yiju Wang,  A step function based recursion method for 0/1 deep neural networks,
+<details>
+<summary><span style="color:#8cd2d5"><b style="font-size:16px">Click for more papers</b></span></summary>
+<p style="line-height: 1;"></p> 
+  
+[2] Hui Zhang, Shenglong Zhou, Geoffrey Ye Li, Naihua Xiu, and Yiju Wang,  A step function based recursion method for 0/1 deep neural networks,
  <a style="font-style: italic; color:#8cd2d5" href="https://doi.org/10.1016/j.amc.2024.129129" target="_blank">Applied Mathematics and Computation</a>, 488, 1-16, 2025. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/361411821" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2206.09379" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p> 
+
+[1] Shenglong Zhou, Lili Pan, and Naihua Xiu, Heaviside set constrained optimization: optimality and Newton method, 2020.
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/343362652" target="_blank">RG</a>,
+<a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2007.15737" target="_blank">ArXiv</a>
+<p style="line-height: 1;"></p>
+
+</details>
 
 </div>
 </font> 
