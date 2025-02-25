@@ -62,7 +62,7 @@ My research interests include the theory and methods of optimization in the fiel
 <b style="font-size:20px">Selected Publications</b>
 ---
 
-A full list of publications can be found --
+A full list of publications can be found here -
 <a style="font-size: 16px; font-weight: bold; color:#8cd2d5"  href="https://shenglongzhou.github.io/publications/" target="_blank">More Papers</a>
 
 <font size=4>
