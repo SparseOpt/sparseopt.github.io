@@ -10,8 +10,8 @@ main:
   - title: <span style="color:#8cd2d5"><b>Software</b></span>
     url: /software/
     
-  - title: <span style="color:#8cd2d5"><b>Presentations</b></span>
-    url: /presentations/  
+#  - title: <span style="color:#8cd2d5"><b>Presentations</b></span>
+#    url: /presentations/  
     
   - title: <span style="color:#8cd2d5"><b>Toolboxes</b></span>
     url: /Toolbox/  
