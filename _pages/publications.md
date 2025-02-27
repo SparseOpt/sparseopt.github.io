@@ -82,7 +82,7 @@ a:active {
 <font size=4> 
 <div style="text-align:justify">
 
-[19] Jun Fan, Jie Sun, Ailin Yan, and Shenglong Zhou, An oracle gradient regularized Newton method for quadratic measurements regression, 2024. 
+[19] Jun Fan, Jie Sun, Ailin Yan, and Shenglong Zhou, An oracle gradient regularized Newton method for quadratic measurements regression, revised by Applied and Computational Harmonic Analysis, 2024. 
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://www.researchgate.net/publication/358730474" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#8cd2d5" href="https://arxiv.org/abs/2202.09651" target="_blank">ArXiv</a>
 <p style="line-height: 1;"></p>
