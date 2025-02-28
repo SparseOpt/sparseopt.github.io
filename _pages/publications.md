@@ -32,8 +32,7 @@ a:active {
 [6] Shenglong Zhou, Lili Pan, Naihua Xiu, and Geoffrey Ye Li, 0/1 constrained optimization solving sample average approximation for chance constrained programming, <a style="font-style: italic; color:#015697" href="https://pubsonline.informs.org/doi/10.1287/moor.2023.0149" target="_blank">Mathematics of Operations Research</a>, 2024. 
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://www.researchgate.net/publication/364588009" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://arxiv.org/abs/2210.11889" target="_blank">ArXiv</a>,
-<a style="font-size: 16px; font-weight: bold;color:#015697" href="https://github.com/ShenglongZhou/SNSCO" target="_blank">Code</a>
-<p style="line-height: -5;">~</p>
+<a style="font-size: 16px; font-weight: bold;color:#015697; line-height:-1" href="https://github.com/ShenglongZhou/SNSCO" target="_blank">Code</a>
  
 [5] Shenglong Zhou, Ziyan Luo, Naihua Xiu, and Geoffrey Ye Li, Computing one-bit compressive sensing via double-sparsity constrained optimization, 
 <a style="font-style: italic; color:#015697" href="https://ieeexplore.ieee.org/document/9729395" target="_blank">IEEE Transactions on Signal Processing</a>, 70, 1593-1608, 2022.
