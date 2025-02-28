@@ -1,25 +1,25 @@
 # main links links
 
 main:
-  - title: <span style="color:#8cd2d5"><b>Home</b></span>
+  - title: <span style="color:#015697"><b>Home</b></span>
     url: /about/
     
-  - title: <span style="color:#8cd2d5"><b>Publications</b></span>
+  - title: <span style="color:#015697"><b>Publications</b></span>
     url: /publications/
     
-  - title: <span style="color:#8cd2d5"><b>Software</b></span>
+  - title: <span style="color:#015697"><b>Software</b></span>
     url: /software/
     
-#  - title: <span style="color:#8cd2d5"><b>Presentations</b></span>
+#  - title: <span style="color:#015697"><b>Presentations</b></span>
 #    url: /presentations/  
     
-  - title: <span style="color:#8cd2d5"><b>Toolboxes</b></span>
+  - title: <span style="color:#015697"><b>Toolboxes</b></span>
     url: /Toolbox/  
     
- # - title: <span style="color:#8cd2d5"><b>Talks</b></span>
+ # - title: <span style="color:#015697"><b>Talks</b></span>
  #   url: /talks/    
 
- # - title: <span style="color:#8cd2d5"><b>Teaching</b></span>
+ # - title: <span style="color:#015697"><b>Teaching</b></span>
  #   url: /teaching/    
    
   
