@@ -25,6 +25,9 @@ a:active {
   text-decoration: underline;
 }
 </style>
+
+<p style="line-height:-2;"> </p> 
+
 <b style="font-size:20px">Employment History</b>
 ---
 Professor, 2023 - present <br>
