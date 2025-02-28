@@ -54,7 +54,7 @@ a:active {
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://www.researchgate.net/publication/338717629" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://arxiv.org/abs/1912.07418" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://github.com/Huajun-Wang/L01ADMM" target="_blank">Code</a>
-<p style="line-height: 1;"></p>
+<p style="line-height: 0;"></p>
 
 <details>
 <summary><span style="color:#015697"><b style="font-size:16px">Click for more papers</b></span></summary>
