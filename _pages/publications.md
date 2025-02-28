@@ -39,14 +39,13 @@ a:active {
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://www.researchgate.net/publication/348371863" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://arxiv.org/abs/2101.03599" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://github.com/ShenglongZhou/GPSP" target="_blank">Code</a> 
-<p style="line-height: 1;"></p>
   
 [4] Shenglong Zhou, Lili Pan, Naihua Xiu, and Huoduo Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, 
 <a style="font-style: italic; color:#015697" href="https://epubs.siam.org/doi/abs/10.1137/21M1409445" target="_blank">SIAM Journal on Optimization</a>, 31, 3184–3211, 2021. 
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://www.researchgate.net/publication/354744779" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://arxiv.org/abs/2103.14987" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://github.com/ShenglongZhou/NM01" target="_blank">Code</a>
-<p style="line-height: 1;"></p>
+<p style="line-height: -0.25;"></p>
   
 [3] Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang, and Naihua Xiu, Support vector machine classifier via L0/1 soft-margin loss, 
  <a style="font-style: italic; color:#015697" href="https://doi.org/10.1109/TPAMI.2021.3092177" target="_blank">IEEE Transactions on Pattern Analysis and Machine Intelligence</a>, 44, 7253-7265, 2022. 
