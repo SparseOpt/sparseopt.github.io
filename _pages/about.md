@@ -57,7 +57,8 @@ Department of Mathematics, Beijing Jiaotong University, China
 ---
 
 <p><div style="text-align:justify;"> 
-My research interests focus on the theory and methods of optimization, particularly in sparse and low-rank optimization, 0/1 loss optimization, bilevel optimization, and machine learning-related optimization. </div></p> 
+My research interests encompass the theory and methods of optimization, including sparse and low-rank optimization, 0/1 loss optimization, and distributed optimization, with applications in artificial intelligence, signal processing, machine learning, etc.
+</div></p> 
 
 <b style="font-size:20px">Selected Publications</b>
 ---
