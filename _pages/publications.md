@@ -47,14 +47,14 @@ a:active {
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://www.researchgate.net/publication/354744779" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://arxiv.org/abs/2103.14987" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://github.com/ShenglongZhou/NM01" target="_blank">Code</a>
-<p style="line-height: 1;"></p>
+<p style="line-height: 0.5;"></p>
   
 [3] Huajun Wang, Yuanhai Shao,  Shenglong Zhou, Ce Zhang, and Naihua Xiu, Support vector machine classifier via L0/1 soft-margin loss, 
  <a style="font-style: italic; color:#015697" href="https://doi.org/10.1109/TPAMI.2021.3092177" target="_blank">IEEE Transactions on Pattern Analysis and Machine Intelligence</a>, 44, 7253-7265, 2022. 
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://www.researchgate.net/publication/338717629" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://arxiv.org/abs/1912.07418" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://github.com/Huajun-Wang/L01ADMM" target="_blank">Code</a>
-<p style="line-height: 1;"></p>
+<p style="line-height: 0.5;"></p>
 
 <details>
 <summary><span style="color:#015697"><b style="font-size:16px">Click for more papers</b></span></summary>
