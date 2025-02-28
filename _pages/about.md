@@ -26,7 +26,7 @@ a:active {
 }
 </style>
 
-<p style="line-height:-2;"> </p> 
+
 
 <b style="font-size:20px">Employment History</b>
 ---
