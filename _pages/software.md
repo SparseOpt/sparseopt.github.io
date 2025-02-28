@@ -156,10 +156,10 @@ a:active {
   
   <font size=4> 
   <div style="text-align:justify"> 
-  <a style="font-size: 16px; font-weight: bold; color:#015697" href="https://github.com/ShenglongZhou/SQREDM" target="_blank">SQREDM</a> solves MDS problems,  e.g.,  sensor network localization and molecular conformation.  <a style="font-size: 16px; font-weight: bold; color:#015697" href="https://ieeexplore.ieee.org/document/8399531" target="_blank">Article</a> 
+  <a style="font-size: 16px; font-weight: bold; color:#015697" href="https://github.com/ShenglongZhou/SQREDM" target="_blank">SQREDM</a> solves MDS problems, including sensor network localization, dimensional reduction, and molecular conformation.  <a style="font-size: 16px; font-weight: bold; color:#015697" href="https://ieeexplore.ieee.org/document/8399531" target="_blank">Article</a> 
   <p style="line-height: 1;"></p>
 
-  <a style="font-size: 16px; font-weight: bold; color:#015697" href="https://github.com/ShenglongZhou/PREEEDM" target="_blank">PREEEDM</a> solves MDS problems,  e.g.,  sensor network localization and molecular conformation.   <a style="font-size: 16px; font-weight: bold; color:#015697" href="https://doi.org/10.1007/s12532-019-00168-0" target="_blank">Article</a>  
+  <a style="font-size: 16px; font-weight: bold; color:#015697" href="https://github.com/ShenglongZhou/PREEEDM" target="_blank">PREEEDM</a> solves MDS problems, including sensor network localization, dimensional reduction, and molecular conformation.   <a style="font-size: 16px; font-weight: bold; color:#015697" href="https://doi.org/10.1007/s12532-019-00168-0" target="_blank">Article</a>  
   </div></font>
 
 
