@@ -23,7 +23,8 @@ a:active {
   text-decoration: underline;
 }
 </style>
- 
+
+<p style="line-height:-1;"></p> 
 
 ## <b style="font-size:20px"> 0/1 Loss Optimization</b>
 
