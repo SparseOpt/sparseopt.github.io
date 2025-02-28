@@ -25,7 +25,7 @@ a:active {
 }
 </style>
 
-<p style="line-height:-1;"></p> 
+<p style="line-height:-5;"> </p> 
 
 
 ## <b style="font-size:20px">Sparse  Optimization Solvers</b>
