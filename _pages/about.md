@@ -80,7 +80,7 @@ A full list of publications can be found here -
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://www.researchgate.net/publication/360164168" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://arxiv.org/abs/2204.10607" target="_blank">ArXiv</a>, 
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://github.com/ShenglongZhou/FedADMM" target="_blank">Code</a>
- <p style="line-height: 1;"></p>
+ <p style="line-height:-0.5em"></p>
   
 [8] Shenglong Zhou, Sparse SVM for sufficient data reduction, 
 <a style="font-style: italic; color:#015697" href="https://ieeexplore.ieee.org/document/9415153" target="_blank">IEEE Transactions on Pattern Analysis and Machine Intelligence</a>, 44, 5560-5571, 2022. 
