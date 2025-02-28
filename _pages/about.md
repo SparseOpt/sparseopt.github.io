@@ -73,7 +73,7 @@ A full list of publications can be found here -
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://www.researchgate.net/publication/364588009" target="_blank">RG</a>,
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://arxiv.org/abs/2210.11889" target="_blank">ArXiv</a>,
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://github.com/ShenglongZhou/SNSCO" target="_blank">Code</a>
-<p style="line-height: 1;"></p>
+<p style="line-height: -0.5em"></p>
 
 [9] Shenglong Zhou and Geoffrey Ye Li, Federated learning via inexact ADMM,
 <a style="font-style: italic; color:#015697"  href="https://ieeexplore.ieee.org/document/10040221" target="_blank">IEEE Transactions on Pattern Analysis and Machine Intelligence</a>, 45, 9699-9708, 2023. 
