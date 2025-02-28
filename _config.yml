@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Shenglong Zhou"
 title_separator          : "-"
-name                     : &name "Shenglong Zhou"
+name                     : &name "Shenglong Zhou (周声龙)"
 description              : #&description "Research Fellow at the University of Southampton"
 url                      : https://shenglongzhou.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
