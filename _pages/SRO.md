@@ -25,7 +25,7 @@ a:active {
 
  
 
-##  <span style="color:#777777"><b> Sparsity-regularized optimization solvers</b></span> 
+###  <span style="color:#777777"><b> Sparsity-regularized optimization solvers</b></span> 
 ---
 Sparsity-regularized optimization (SRO) takes the form of
 
