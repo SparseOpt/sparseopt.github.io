@@ -25,7 +25,7 @@ a:active {
 
  
 
-###  <span style="color:#A9A9A9"><b style="font-size:20px"> Sparsity-constrained optimization solvers</b></span> 
+###  <span style="color:#8C8C8C"><b style="font-size:20px"> Sparsity-constrained optimization solvers</b></span> 
 ---
 Sparsity-constrained optimization (SCO) takes the form of
 
@@ -37,7 +37,7 @@ Sparsity-constrained optimization (SCO) takes the form of
 where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice continuously differentiable function, $s\ll n$ is a given integer, and $\|\mathbf{x}\|_0$ denotes the so-called $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$.
 </div>
  
-### <span style="color:#A9A9A9"><b style="font-size:20px">The solver and its demonstration</b></span> 
+### <span style="color:#8C8C8C"><b style="font-size:20px">The solver and its demonstration</b></span> 
 ---
 
 <div style="text-align:justify;">
