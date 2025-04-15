@@ -32,9 +32,9 @@ a:active {
 <div style="text-align:justify">  
 
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SparseOpt</a> aims to accelerate the development of numerical toolboxes for sparse optimization and provides a platform on which users can test a wide range of sparse optimization problems by using the provided solvers and useful tools. Please see <a style="font-size: 16px; font-weight: bold;color:#015697" href="" target="_blank">menu-of-SparseOpt</a>  for more details. The current version of this toolbox is made up of four basic tools:
-- [1] a collection of practical tools, 
-- [2] both synthetic and real datasets, and 
-- [3] ten solvers tailored for a variety of sparse optimization problems, including compressive sensing, logistic regression, support vector machines, and quadratically constrained quadratic programming, among others. 
+- [x] a collection of practical tools, 
+- [x] both synthetic and real datasets, and 
+- [x] ten solvers tailored for a variety of sparse optimization problems, including compressive sensing, logistic regression, support vector machines, and quadratically constrained quadratic programming, among others. 
 
 </div></font>
 
