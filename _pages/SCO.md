@@ -30,7 +30,7 @@ a:active {
 Sparsity-constrained optimization (SCO) takes the form of
 
 \begin{equation}
-\min_{\mathbf{x}\in\mathbb{R}^{n}} ~~  f(\mathbf{x}),~~~~ \mbox{s.t.}~~ \parallel\mathbf{x}\parallel_0\leq s, \tag{SCO}
+\min_{\mathbf{x}\in\mathbb{R}^{n}} ~~  f(\mathbf{x}),~~~~ \mbox{s.t.}~~ \parallel\mathbf{x}\parallel_0\leq s  \tag{SCO}
 \end{equation}
 
 <div style="text-align:justify;">
