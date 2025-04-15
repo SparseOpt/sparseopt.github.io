@@ -82,7 +82,10 @@ analytics:
 author:
   name             : "SparseOpt Toolbox"
   avatar           : "zsl-new.jpg"
-  bio              : " <br />"
+  bio              :  "<a style='color:#007D98' href='https://shenglongzhou.github.io/'><b>Shenglong Zhou</b></a><br /> 
+                      Professor at <br /> Beijing Jiaotong University <br /><br /> 
+                      <a style='color:#007D98' href='https://faculty.bjtu.edu.cn/6336/'><b>Naihua Xiu</b></a><br /> 
+                      Professor at <br />  Beijing Jiaotong University "
   location         : #"Southampton, UK"
   employer         :
   pubmed           :  
