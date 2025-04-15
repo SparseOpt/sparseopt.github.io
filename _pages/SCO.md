@@ -25,7 +25,7 @@ a:active {
 
  
 
-###  <span style="color:#777777"><b> Sparsity-constrained optimization solvers</b></span> 
+###  <span style="color:#777777"><b style="font-size:20px"> Sparsity-constrained optimization solvers</b></span> 
 ---
 Sparsity-constrained optimization (SCO) takes the form of
 
