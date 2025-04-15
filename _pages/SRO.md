@@ -29,9 +29,9 @@ a:active {
 ---
 Sparsity-regularized optimization (SRO) takes the form of
 
-\begin{eqnarray*}
-\min_{\mathbf{x}\in\mathbb{R}^{n}} ~~  f(\mathbf{x}) + \lambda \parallel\mathbf{x}\parallel_q^q, \nonumber
-\end{eqnarray*}
+\begin{equation}
+\min_{\mathbf{x}\in\mathbb{R}^{n}} ~~  f(\mathbf{x}) + \lambda \parallel\mathbf{x}\parallel_q^q, \tag{SRO}
+\end{equation}
 
 <div style="text-align:justify;">
 where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice continuously differentiable function, $\lambda>0$ is a given scalar, and $\|\mathbf{x}\|_q^q=\sum_i |x_i|^q$ with $q\in[0,1)$ denotes the $\ell_q$-norm. In particular, when $q=0$,  $\|\mathbf{x}\|_0=\|\mathbf{x}\|_0^0$ is the so-called $\ell_0$-norm that counts the number of nonzero entries in $\mathbf{x}$.
