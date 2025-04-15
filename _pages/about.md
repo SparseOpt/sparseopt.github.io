@@ -30,7 +30,7 @@ a:active {
 
 <font size=4>
 <div style="text-align:justify">  
-<a style="font-size: 16px; font-weight: bold;color:#015697" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SparseOpt</a> aims to accelerate the development of numerical toolboxes for sparse optimization and provides a platform on which users can test a wide range of sparse optimization problems. Please see <a style="font-size: 16px; font-weight: bold;color:#015697" href="" target="_blank">menu-of-SparseOpt</a>  for more details. The current version of this toolbox is made up of the following solvers:
+<a style="font-size: 16px; font-weight: bold;color:#015697" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SparseOpt</a> is designed to accelerate the development of numerical toolboxes for sparse optimization and to provide a flexible platform for testing a broad range of sparse optimzaion applications. For more information, please refer to <a style="font-size: 16px; font-weight: bold;color:#015697" href="" target="_blank">menu-of-SparseOpt</a>.  The current version of the toolbox includes the following solvers:
 </div>
 </font>  
 
