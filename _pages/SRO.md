@@ -41,7 +41,7 @@ where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice conti
 ---
 
 <div style="text-align:justify;">
-<a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SROsolvers</a> provides two solvers:  <b style="font-size:14px;color:#777777">NL0R</b>.[^ZPX21] and <b style="font-size:14px;color:#777777">PSNP</b>[^ZXWP23] based on the algorithms developed in the following two papers:
+<a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SROsolvers</a> provides two solvers:  <b style="font-size:14px;color:#777777">NL0R</b>[^ZPX21] and <b style="font-size:14px;color:#777777">PSNP</b>[^ZXWP23] based on the algorithms developed in the following two papers:
 
 [^ZPX21]: S Zhou, L Pan, and N Xiu, Newton method for L0-regularized optimization, Numerical Algorithm, 2021.
 
