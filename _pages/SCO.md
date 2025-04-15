@@ -44,7 +44,9 @@ where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice conti
 <p style="line-height: 1;"></p>
  
 > S Zhou, N Xiu and H  Qi, [Global and quadratic convergence of Newton hard-thresholding pursuit](https://jmlr.org/papers/v22/19-026.html), *J Mach Learn Res*, 22(12):1−45, 2021.
+> 
 > S Zhou, [Gradient projection newton pursuit for sparsity constrained optimization](https://www.sciencedirect.com/science/article/pii/S1063520322000458), *Appl Comput Harmon Anal*,  61:75-100, 2022.
+> 
 > L Pan, S Zhou, N Xiu, and H Qi, [A convergent iterative hard thresholding for nonnegative sparsity optimization](http://www.yokohamapublishers.jp/online2/oppjo/vol13/p325.html), *Pac J Optim*, 13(2):325-353, 2017.
  
 
