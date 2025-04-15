@@ -34,12 +34,12 @@ a:active {
 </div>
 </font>  
 
-- [x] Sparsty-constrained optimization (SCO) solvers,
-- [x] Sparsity-regularized optimization (SRO) solvers,
-- [x] Sparse quadratically constrained quadratic programming (SQCQP) solver,
-- [x] Compressive sensing (CS) solers,
-- [x] Sparse support vector machine (SSVM) solvers,
-- [x] Step function-constrained optimization (SFCO) solvers,
-- [x] Step function-regularized optimization (SFRO) solvers.
+- Sparsty-constrained optimization (SCO) solvers,
+- Sparsity-regularized optimization (SRO) solvers,
+- Sparse quadratically constrained quadratic programming (SQCQP) solver,
+- Compressive sensing (CS) solers,
+- Sparse support vector machine (SSVM) solvers,
+- Step function-constrained optimization (SFCO) solvers,
+- Step function-regularized optimization (SFRO) solvers.
 
 
