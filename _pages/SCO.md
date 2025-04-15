@@ -5,10 +5,6 @@ permalink: /SCO/
 author_profile: true
 ---
 
-pre {
-  font-size: 100px !important;
-}
-
 <style>
 a:link {
   text-decoration: none;
