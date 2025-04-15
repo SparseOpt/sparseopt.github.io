@@ -3,7 +3,6 @@ layout: archive
 title: ""   
 permalink: /SCO/
 author_profile: true
-code-block-font-size: \small
 ---
 
 
@@ -24,6 +23,10 @@ a:active {
   text-decoration: underline;
 }
 </style>
+
+pre > code {
+  font-size: 100px;
+}
 
 ##  <span style="color:#015697"><b> Sparsity-constrained optimization solvers</b></span> 
 ---
