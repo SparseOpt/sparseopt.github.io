@@ -34,8 +34,9 @@ Sparsity-constrained optimization (SCO) takes the form of
 where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice continuously differentiable function, $s\ll n$ is a given integer, and $\|\mathbf{x}\|_0$ denotes the so-called $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$.
 </div>
  
-### <span style="color:#015697"><b style="font-size:20px">Demonstration of solvers</b></span> 
+### <span style="color:#015697"><b style="font-size:20px">The solver and its demonstration</b></span> 
 ---
+
 <div style="text-align:justify;">
 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SCOsolvers</a> provides three solvers:  <b style="font-size:16px">NHTP</b>, <b style="font-size:16px">GPNP</b>, and  <b style="font-size:16px">IIHT</b> based on the algorithms developed in the following three papers:
 </div>
@@ -44,9 +45,6 @@ where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice conti
 - S  Zhou, [Gradient projection newton pursuit for sparsity constrained optimization](https://www.sciencedirect.com/science/article/pii/S1063520322000458), Applied and Computational Harmonic Analysis, vol. 61, pp. 75-100, 2022.
 - L Pan, S Zhou, N Xiu, and H Qi, [A convergent iterative hard thresholding for nonnegative sparsity optimization](http://www.yokohamapublishers.jp/online2/oppjo/vol13/p325.html), Pacific Journal of Optimization, 13(2), 325-353, 2017.
 
-
-  
-### <span style="color:#015697"><b style="font-size:20px">Demonstrations</b></span> 
 
 <p style="line-height: 1;"></p>
 
