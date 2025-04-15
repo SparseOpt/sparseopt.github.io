@@ -40,7 +40,7 @@ where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice conti
 ---
 
 <div style="text-align:justify;">
-<a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SCOsolvers</a> provides three solvers:  <b style="font-size:16px;color:##555555">NHTP</b>, <b style="font-size:16px;color:##555555">GPNP</b>, and  <b style="font-size:16px;color:##555555">IIHT</b> based on the algorithms developed in the following three papers:
+<a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SCOsolvers</a> provides three solvers:  <b style="font-size:16px;color:#555555">NHTP</b>, <b style="font-size:16px;color:#555555">GPNP</b>, and  <b style="font-size:16px;color:#555555">IIHT</b> based on the algorithms developed in the following three papers:
 </div>
 
 <p style="line-height: 1;"></p>
@@ -53,7 +53,7 @@ S Zhou, Gradient projection newton pursuit for sparsity constrained optimization
 L Pan, S Zhou, N Xiu, and H Qi, A convergent iterative hard thresholding for nonnegative sparsity optimization, Pac J Optim, 13(2):325-353, 2017.
 ```
 
-<b style="font-size:16px">NHTP</b> and <b style="font-size:16px">GPNP</b> are second-order methods, which require both the gradient and Hessian of $f$. In contrast, <b style="font-size:16px">IIHT</b> is a first-order method that only requires the gradient of $f$. Below is a demonstration of how to define the gradient and Hessian for <b style="font-size:16px">NHTP</b> and <b style="font-size:16px">GPNP</b>.
+<b style="font-size:14px;color:#555555">NHTP</b> and <b style="font-size:14px;color:#555555">GPNP</b> are second-order methods, which require both the gradient and Hessian of $f$. In contrast, <b style="font-size:14px;color:#555555">IIHT</b> is a first-order method that only requires the gradient of $f$. Below is a demonstration of how to define the gradient and Hessian for <b style="font-size:14px;color:#555555">NHTP</b> and <b style="font-size:14px;color:#555555">GPNP</b>.
 
 <p style="line-height: 1;"></p>
 
