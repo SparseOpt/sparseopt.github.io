@@ -30,8 +30,10 @@ a:active {
 
 <font size=4>
 <div style="text-align:justify">  
-<a style="font-size: 16px; font-weight: bold;color:#015697" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SparseOpt</a> aims to accelerate the development of numerical toolboxes for sparse optimization and provides a platform on which users can test a wide range of sparse optimization problems. Please see <a style="font-size: 16px; font-weight: bold;color:#015697" href="" target="_blank">menu-of-SparseOpt</a>  for more details. The current version of this toolbox is made up of the following solers: </div>
-  
+<a style="font-size: 16px; font-weight: bold;color:#015697" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SparseOpt</a> aims to accelerate the development of numerical toolboxes for sparse optimization and provides a platform on which users can test a wide range of sparse optimization problems. Please see <a style="font-size: 16px; font-weight: bold;color:#015697" href="" target="_blank">menu-of-SparseOpt</a>  for more details. The current version of this toolbox is made up of the following solers:
+</div>
+</font>  
+
 - [x] Sparsty-constrained optimization (SCO) solvers,
 - [x] Sparsity-regularized optimization (SRO) solvers,
 - [x] Sparse quadratically constrained quadratic programming (SQCQP) solver,
@@ -40,4 +42,4 @@ a:active {
 - [x] Step function-constrained optimization (SFCO) solvers,
 - [x] Step function-regularized optimization (SFRO) solvers.
 
-</font>
+
