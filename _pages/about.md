@@ -28,12 +28,10 @@ a:active {
 
 ##  <span style="color:#006DB0"><b> Welcome to SparseOpt Toolbox</b></span> 
 
-<font size=4>
 <div style="text-align:justify">  
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SparseOpt</a> is designed to accelerate the development of numerical toolboxes for sparse optimization and to provide a flexible platform for testing a broad range of sparse optimzaion applications. For more information, please refer to <a style="font-size: 16px; font-weight: bold;color:#015697" href="" target="_blank">menu-of-SparseOpt</a>.  The current version of the toolbox includes the following solvers:
 </div>
-</font>  
-
+ 
 - Sparsty-constrained optimization (SCO) solvers.
 - Sparsity-regularized optimization (SRO) solvers.
 - Sparse quadratically constrained quadratic programming (SQCQP) solver.
@@ -41,5 +39,4 @@ a:active {
 - Sparse support vector machine (SSVM) solvers.
 - Step function-constrained optimization (SFCO) solvers.
 - Step function-regularized optimization (SFRO) solvers.
-
 
