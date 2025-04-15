@@ -25,22 +25,22 @@ a:active {
 
  
 
-##  <span style="color:#015697"><b> Sparsity-constrained optimization solvers</b></span> 
+##  <span style="color:##555555"><b> Sparsity-constrained optimization solvers</b></span> 
 ---
 Sparsity-constrained optimization (SCO) takes the form of
 
-\begin{eqnarray}\min_{\mathbf{x}} &&   f(x) \nonumber\\\\\\
+\begin{eqnarray}\min_{\mathbf{x}} &&   f(\mathbf{x}) \nonumber\\\\\\
 \mbox{s.t.} && \parallel\mathbf{x}\parallel_0\leq s,~\mathbf{x}\in\mathbb{R}^{n}, \nonumber
 \end{eqnarray}
 <div style="text-align:justify;">
 where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice continuously differentiable function, $s\ll n$ is a given integer, and $\|\mathbf{x}\|_0$ denotes the so-called $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$.
 </div>
  
-### <span style="color:#015697"><b style="font-size:20px">The solver and its demonstration</b></span> 
+### <span style="color:##555555"><b style="font-size:20px">The solver and its demonstration</b></span> 
 ---
 
 <div style="text-align:justify;">
-<a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SCOsolvers</a> provides three solvers:  <b style="font-size:16px">NHTP</b>, <b style="font-size:16px">GPNP</b>, and  <b style="font-size:16px">IIHT</b> based on the algorithms developed in the following three papers:
+<a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SCOsolvers</a> provides three solvers:  <b style="font-size:16px;color:##555555">NHTP</b>, <b style="font-size:16px;color:##555555">GPNP</b>, and  <b style="font-size:16px;color:##555555">IIHT</b> based on the algorithms developed in the following three papers:
 </div>
 
 <p style="line-height: 1;"></p>
