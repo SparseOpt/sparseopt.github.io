@@ -3,7 +3,7 @@ layout: archive
 title: ""   
 permalink: /SCO/
 author_profile: true
-code-block-font-size: \footnotesize
+code-block-font-size: \small
 ---
 
 
