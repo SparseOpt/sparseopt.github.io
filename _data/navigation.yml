@@ -4,17 +4,17 @@ main:
   - title: <span style="color:#015697"><b>Home</b></span>
     url: /about/
     
-  - title: <span style="color:#015697"><b>Publications</b></span>
+  - title: <span style="color:#015697"><b>Solvers</b></span>
     url: /publications/
     
-  - title: <span style="color:#015697"><b>Software</b></span>
+  - title: <span style="color:#015697"><b>Datasets</b></span>
     url: /software/
     
-#  - title: <span style="color:#015697"><b>Presentations</b></span>
-#    url: /presentations/  
+ #  - title: <span style="color:#015697"><b>Presentations</b></span>
+ #    url: /presentations/  
     
-  - title: <span style="color:#015697"><b>Toolboxes</b></span>
-    url: /Toolbox/  
+  - title: <span style="color:#015697"><b>Tools</b></span>
+     url: /Toolbox/  
     
  # - title: <span style="color:#015697"><b>Talks</b></span>
  #   url: /talks/    
