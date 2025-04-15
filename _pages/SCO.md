@@ -23,15 +23,15 @@ a:active {
 }
 </style>
 
-## <span style="color:#225675"><b style="font-size:20px">Bilevel optimization solvers</b></span> 
+##  <span style="color:#015697"><b> Sparsity-constrained optimization solvers</b></span> 
 ---
-Bilevel optimization has the form
+Sparsity-constrained optimization (SCO) takes the form of
 
-\begin{eqnarray}\min_{x,y} &&   F(x,y) \nonumber\\\\\\
-\mbox{s.t.} && G(x,y)\leq 0,~ y\in \mbox{argmin}_y~ \lbrace f(x,y)\mid g(x,y)\leq 0\rbrace, \nonumber
+\begin{eqnarray}\min_{\mathbf{x}} &&   f(x) \nonumber\\\\\\
+\mbox{s.t.} && \|\mathbf{x}\|_0\leq s,~\mathbf{x}\in\mathbb{R}^{n}, \nonumber
 \end{eqnarray}
 <div style="text-align:justify;">
-where  $F,f:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}$, $G:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}^{n_G}$ and $g:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}^{n_g}$.  A problem is linear if all involved functions are linear and nonlinear otherwise. We call a problem <i>a simple bilevel optimization</i> if there is no variable $x$ involved. This two level optimization can be transformed into a single-level version so that Semi-smooth Newton type method is able to be employed. 
+where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice continuously differentiable function, $s\ll n$ is a given integer, and $\|\mathbf{x}\|_0$ denotes the so-called $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$.
 </div>
  
 
