@@ -34,39 +34,6 @@ Sparsity-constrained optimization (SCO) takes the form of
 where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice continuously differentiable function, $s\ll n$ is a given integer, and $\|\mathbf{x}\|_0$ denotes the so-called $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$.
 </div>
  
-
-### <span style="color:#225675"><b style="font-size:20px">Bilevel optimization reformulations</b></span> 
----
-
-<div style="text-align:justify;">
-<span style="color:#007D98"><b style="font-size:16px">SNLLVF:</b></span> This approach is to transform the bilevel program into a single-level optimization problem by using
-the lower-level value function (LLVF) reformulation, namely,  $g(x,y)\leq 0, f(x,y) = \varphi(x) := \underset{z}\min\lbrace f(x,z) \mid g(x,z)\leq 0 \rbrace$. By doing so,  SNLLVF  aims at solving a partial penalization
-</div>
-\begin{eqnarray}\min_{x,y} && F(x,y) + \lambda (f(x,y) -\varphi(x)) \nonumber\\\\\\
-\mbox{ s.t. } &&  G(x,y)\leq 0,~ g(x,y)\leq 0. \nonumber
-\end{eqnarray}
- 
- 
-<div style="text-align:justify;">
-<span style="color:#007D98"><b style="font-size:16px">SNQVI:</b></span> This approach is to transform the bilevel program into a single-level optimization problem 
-by converting the lower-level problem to the quasi-variational inequality conditions: $ \langle \nabla_y f(x,y), z-y \rangle \geq0, \forall~z: g(x,z)\leq 0$ for any $y: g(x,y)\leq 0$. Let $\varphi(x,y) := \underset{z}\min\lbrace\nabla_y f(x,y)^\top z \mid g(x,z)\leq 0  \rbrace$.  By doing so,  SNQVI  aims at solving a partial penalization
-</div>
-\begin{eqnarray}\min_{x,y} && F(x,y)+ \lambda ( \nabla_y f(x,y)^\top y-\varphi(x,y) ) \nonumber\\\\\\
-\mbox{ s.t. } && G(x,y)\leq 0,  \ \   g(x,y)\leq 0. \nonumber
-\end{eqnarray}
-
-
- 
-<div style="text-align:justify;">
-<span style="color:#007D98"><b style="font-size:16px">SNKKT:</b></span> This approach is to transform the bilevel program into a single-level optimization problem 
-by converting the lower-level problem to the KKT conditions: $ \nabla_y f(x,y)-\nabla_y g(x,y)^\top z=0,~ g(x,y)\leq 0,~  z \leq 0,~   g(x,y)^\top z=0. $ By doing so, SNKKT   aims at solving a partial penalization
- </div>
-\begin{eqnarray}
-\min_{x,y,z}  && F(x,y)+ \lambda g(x,y)^\top z\nonumber\\\\\\
-\mbox{ s.t. } && G(x,y)\leq 0,  \   g(x,y)\leq 0,\ z \leq 0, \ \nabla_y f(x,y)-\nabla_y g(x,y)^\top z=0. \nonumber
-\end{eqnarray}  
-
-
 ### <span style="color:#225675"><b style="font-size:20px">Demonstration of solvers</b></span> 
 ---
 <div style="text-align:justify;">
