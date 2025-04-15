@@ -26,7 +26,7 @@ a:active {
 }
 </style>
 
-## <a style="font-size: 20px; color:#284379" > Welcome to SparseOpt Toolbox</a> 
+## <b style="font-size: 20px; color:#284379" > Welcome to SparseOpt Toolbox</b> 
 
  <font size=4>
 <div style="text-align:justify">  
