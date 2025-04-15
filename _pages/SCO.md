@@ -53,7 +53,6 @@ S Zhou, Gradient projection newton pursuit for sparsity constrained optimization
 L Pan, S Zhou, N Xiu, and H Qi, A convergent iterative hard thresholding for nonnegative sparsity optimization, Pac J Optim, 13(2):325-353, 2017.
 ```
 
-
 <b style="font-size:16px">NHTP</b> and <b style="font-size:16px">GPNP</b> are second-order methods, which require both the gradient and Hessian of $f$. In contrast, <b style="font-size:16px">IIHT</b> is a first-order method that only requires the gradient of $f$. Below is a demonstration of how to define the gradient and Hessian for <b style="font-size:16px">NHTP</b> and <b style="font-size:16px">GPNP</b>.
 
 <p style="line-height: 1;"></p>
@@ -82,7 +81,7 @@ Each solver has two required inputs: 'func' defining the example and 'dim' recor
 
 <p style="line-height: 1;"></p>
 
-```
+```ruby
 function w=DempeDutta2012Ex24(x,y,keyf,keyxy)
 % This file provides all functions defining DempeDutta2012Ex24 problem and their first and second order derivatives.
 % [dim_x dim_y dim_G dim_g] = [1 1 0 1]
