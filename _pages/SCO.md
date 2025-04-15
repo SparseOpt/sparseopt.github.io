@@ -58,21 +58,27 @@ L Pan, S Zhou, N Xiu, and H Qi, A convergent iterative hard thresholding for non
 <p style="line-height: 1;"></p>
 
 ```ruby
-clc; clear; close all; 
+function [out1,out2] = funCS(x,T1,T2,data)
 
-ExName     = 'DempeDutta2012Ex24'; 
-func       = str2func(ExName);
-dim        = [1 1 0 1];     % required
-pars.xy    = [1;1];         % optional
-
-pars.lam   = 1;             % optional
-pars.keep  = 0;             % optional 
-pars.check = 1;             % optional
-
-SolNo      = 1;     % choose a solver
-Solvers    = {'SNLLVF','SNQVI','SNKKT'}; 
-solver     = str2func(Solvers{SolNo});  
-Out1       = solver(func, dim,  pars);
+    if  isempty(T1) && isempty(T2) 
+        Tx   = find(x); 
+        Axb  = data.A(:,Tx)*x(Tx)-data.b;
+        out1 = norm(Axb,'fro')^2/2;               %objective 
+        if  nargout == 2
+            out2    = (Axb'*data.A)';             %gradient
+        end
+    else        
+        AT = data.A(:,T1); 
+        if  length(T1)<2000
+            out1 = AT'*AT;                        %subHessian containing T1 rows and T1 columns
+        else
+            out1 = @(v)( (AT*v)'*AT )';      
+        end       
+        if  nargout == 2
+            out2 = @(v)( (data.A(:,T2)*v)'*AT )'; %subHessian containing T1 rows and T2 columns
+        end       
+    end     
+end
 ```
 
 <div style="text-align:justify;">
