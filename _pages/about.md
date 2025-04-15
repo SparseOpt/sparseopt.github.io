@@ -26,10 +26,10 @@ a:active {
 }
 </style>
 
-## <b style="font-size:20px"> Welcome to SparseOpt Toolbox</b>
+## <a style="font-size: 20px; color:#284379" > Welcome to SparseOpt Toolbox</a> 
 
  <font size=4>
-<div style="text-align:justify">  
+<div style="text-align:justify">  #284379
 
 <a style="font-size: 16px; font-weight: bold;color:#015697" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SparseOpt</a> aims to accelerate the development of numerical toolboxes for sparse optimization and provides a platform on which users can test a wide range of sparse optimization problems by using the provided solvers and useful tools. Please see <a style="font-size: 16px; font-weight: bold;color:#015697" href="" target="_blank">menu-of-SparseOpt</a>  for more details. The current version of this toolbox is made up of four basic tools:
 - [x] a collection of practical tools, 
