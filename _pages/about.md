@@ -39,4 +39,3 @@ a:active {
 - [x] a collection of practical tools,  
 - [x] both synthetic and real datasets, and 
 - [x] a number of solvers tailored for a variety of sparse optimization problems, including compressive sensing, logistic regression, support vector machines, and quadratically constrained quadratic programming, among others. 
-
