@@ -44,8 +44,8 @@ where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice conti
 <a style="font-size: 16px; font-weight: bold; color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SROsolvers</a> provides two solvers:  <b style="font-size:14px;color:#777777">NL0R</b> and <b style="font-size:14px;color:#777777">PSNP</b> based on the algorithms developed in the following two papers:
 </div>
 
-- <a style="font-size:14px; color:#006DB0" href="https://link.springer.com/article/10.1007/s11075-021-01085-x" target="_blank"> S Zhou, L Pan, and N Xiu, Newton method for L0-regularized optimization, *Numerical Algorithm*, 88:1541–1570, 2021 .</a>
-- <a style="font-size:14px; color:#006DB0" href="https://arxiv.org/abs/2306.14394" target="_blank"> S Zhou, X Xiu, Y Wang, and D Peng, Revisiting Lq (0 <= q < 1) norm regularized optimization, *arXiv:2306.14394*, 2023.</a>
+- <a style="font-size:14px; color:#000000" href="https://link.springer.com/article/10.1007/s11075-021-01085-x" target="_blank"> S Zhou, L Pan, and N Xiu, Newton method for L0-regularized optimization, *Numerical Algorithm*, 88:1541–1570, 2021 .</a>
+- <a style="font-size:14px; color:#000000" href="https://arxiv.org/abs/2306.14394" target="_blank"> S Zhou, X Xiu, Y Wang, and D Peng, Revisiting Lq (0 <= q < 1) norm regularized optimization, *arXiv:2306.14394*, 2023.</a>
 
 
 
