@@ -82,9 +82,13 @@ analytics:
 author:
   name             : "SparseOpt Toolbox"
   avatar           : "spopt.png"
-  bio              :  "<a style='color:#007D98' href='https://shenglongzhou.github.io/'><b>Shenglong Zhou</b></a><br /> 
+  bio              :  "<a style='color:#007D98' href='https://shenglongzhou.github.io/'><b>Shenglong Zhou</b></a><br />
+                       Beijing Jiaotong University <br /><br />
                       <a style='color:#007D98' href='https://faculty.bjtu.edu.cn/6336/'><b>Naihua Xiu</b></a><br /> 
-                      Beijing Jiaotong University "
+                      Beijing Jiaotong University <br /><br />
+                      <a style='color:#007D98' href='https://www.polyu.edu.hk/ama/profile/hdqi/hdqi.html/'><b>Hou-Duo Qi</b></a><br /> 
+                      The Hong Kong Polytechnic University 
+                      "
   location         : #"Southampton, UK"
   employer         :
   pubmed           :  
