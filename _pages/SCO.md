@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""   
-permalink: /solvers/
+permalink: /SCO/
 author_profile: true
 ---
 
@@ -34,11 +34,22 @@ Sparsity-constrained optimization (SCO) takes the form of
 where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice continuously differentiable function, $s\ll n$ is a given integer, and $\|\mathbf{x}\|_0$ denotes the so-called $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$.
 </div>
  
-### <span style="color:#225675"><b style="font-size:20px">Demonstration of solvers</b></span> 
+### <span style="color:#015697"><b style="font-size:20px">Demonstration of solvers</b></span> 
 ---
 <div style="text-align:justify;">
-<a style="font-size: 16px; font-weight: bold; color:#007D98" href="https://biopt.github.io/solvers/" target="_blank">BiOpt-Solvers</a> provides three solvers:  <span style="color:#007D98"><b style="font-size:16px">SNLLVF</b></span>, <span style="color:#007D98"><b style="font-size:16px">SNQVI</b></span> and  <span style="color:#007D98"><b style="font-size:16px">SNKKT</b></span> based on the above three reformulations. Detailed instructions can be found in  the <a style="font-size: 16px; font-weight: bold; color:#007D98" href="\files\menu-of-BiOpt.pdf" target="_blank">menu-of-BiOpt</a>. Here we give a simple example to illustrate it:
-</div> 
+<a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SCOsolvers</a> provides three solvers:  <b style="font-size:16px">NHTP</b>, <b style="font-size:16px">GPNP</b>, and  <b style="font-size:16px">IIHT</b> based on the algorithms developed in the following three papers:
+</div>
+
+<p style="line-height: 1;"></p>
+
+```
+- S  Zhou, N  Xiu and H  Qi, [https://jmlr.org/papers/v22/19-026.html](Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit), Journal of Machine Learning Research, 22(12):1−45, 2021.
+- S  Zhou, [https://www.sciencedirect.com/science/article/pii/S1063520322000458](Gradient projection newton pursuit for sparsity constrained optimization), Applied and Computational Harmonic Analysis, vol. 61, pp. 75-100, 2022.
+- L Pan, S Zhou, N Xiu, and H Qi, [http://www.yokohamapublishers.jp/online2/oppjo/vol13/p325.html](A convergent iterative hard thresholding for nonnegative sparsity optimization), Pacific Journal of Optimization, 13(2), 325-353, 2017.
+
+``` 
+  
+### <span style="color:#015697"><b style="font-size:20px">Demonstrations</b></span> 
 
 <p style="line-height: 1;"></p>
 
