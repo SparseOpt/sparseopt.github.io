@@ -25,7 +25,7 @@ a:active {
 
  
 
-### <span style="color:#A9A9A9"><b style="font-size:20px">Sparsity-regularized optimization solvers</b></span> 
+### <span style="color:#8C8C8C"><b style="font-size:20px">Sparsity-regularized optimization solvers</b></span> 
 ---
 Sparsity-regularized optimization (SRO) takes the form of
 
@@ -37,7 +37,7 @@ Sparsity-regularized optimization (SRO) takes the form of
 where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice continuously differentiable function, $\lambda>0$ is a given scalar, and $\|\mathbf{x}\|_q^q=\sum_i |x_i|^q$ with $q\in[0,1)$ denotes the $\ell_q$-norm. In particular, when $q=0$,  $\|\mathbf{x}\|_0=\|\mathbf{x}\|_0^0$ is the so-called $\ell_0$-norm that counts the number of nonzero entries in $\mathbf{x}$.
 </div>
  
-### <span style="color:#A9A9A9"><b style="font-size:20px">The solver and its demonstration</b></span> 
+### <span style="color:#8C8C8C"><b style="font-size:20px">The solver and its demonstration</b></span> 
 ---
 
 <div style="text-align:justify;">
