@@ -46,9 +46,9 @@ where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice conti
 
 <p style="line-height: 1;"></p>
 
-- <a style="font-size: 14px" href="https://jmlr.org/papers/v22/19-026.html" target="_blank"> S Zhou, N Xiu and H  Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, J Mach Learn Res, 22(12):1−45, 2021.</a>
-- <a style="font-size: 14px" href="https://www.sciencedirect.com/science/article/pii/S1063520322000458" target="_blank"> S Zhou, Gradient projection newton pursuit for sparsity constrained optimization, Appl Comput Harmon Anal,  61:75-100, 2022.</a> 
-- <a style="font-size: 14px" href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p325.html" target="_blank"> L Pan, S Zhou, N Xiu, and H Qi, A convergent iterative hard thresholding for nonnegative sparsity optimization, Pac J Optim, 13(2):325-353, 2017.</a>
+- <a style="font-size: 14px;color:#000000" href="https://jmlr.org/papers/v22/19-026.html" target="_blank"> S Zhou, N Xiu and H  Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, J Mach Learn Res, 22(12):1−45, 2021.</a>
+- <a style="font-size: 14px;color:#000000" href="https://www.sciencedirect.com/science/article/pii/S1063520322000458" target="_blank"> S Zhou, Gradient projection newton pursuit for sparsity constrained optimization, Appl Comput Harmon Anal,  61:75-100, 2022.</a> 
+- <a style="font-size: 14px;color:#000000" href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p325.html" target="_blank"> L Pan, S Zhou, N Xiu, and H Qi, A convergent iterative hard thresholding for nonnegative sparsity optimization, Pac J Optim, 13(2):325-353, 2017.</a>
  
 
 <b style="font-size:14px;color:#777777">NHTP</b> and <b style="font-size:14px;color:#777777">GPNP</b> are second-order methods, which require both the gradient and Hessian of $f$. In contrast, <b style="font-size:14px;color:#777777">IIHT</b> is a first-order method that only requires the gradient of $f$. Below is a demonstration of how to define the gradient and Hessian for <b style="font-size:14px;color:#777777">NHTP</b> and <b style="font-size:14px;color:#777777">GPNP</b>.
