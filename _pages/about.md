@@ -37,7 +37,7 @@ a:active {
 - Sparsty-constrained optimization (SCO) solvers,
 - Sparsity-regularized optimization (SRO) solvers,
 - Sparse quadratically constrained quadratic programming (SQCQP) solver,
-- Compressive sensing (CS) solers,
+- Compressive sensing (CS) solvers,
 - Sparse support vector machine (SSVM) solvers,
 - Step function-constrained optimization (SFCO) solvers,
 - Step function-regularized optimization (SFRO) solvers.
