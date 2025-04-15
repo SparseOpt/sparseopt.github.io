@@ -41,10 +41,14 @@ where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice conti
 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SCOsolvers</a> provides three solvers:  <b style="font-size:16px">NHTP</b>, <b style="font-size:16px">GPNP</b>, and  <b style="font-size:16px">IIHT</b> based on the algorithms developed in the following three papers:
 </div>
 
+<p style="line-height: 1;"></p>
+```
 - S Zhou, N Xiu and H  Qi, [Global and quadratic convergence of Newton hard-thresholding pursuit](https://jmlr.org/papers/v22/19-026.html), *J Mach Learn Res*, 22(12):1−45, 2021.
 - S Zhou, [Gradient projection newton pursuit for sparsity constrained optimization](https://www.sciencedirect.com/science/article/pii/S1063520322000458), *Appl Comput Harmon Anal*,  61:75-100, 2022.
 - L Pan, S Zhou, N Xiu, and H Qi, [A convergent iterative hard thresholding for nonnegative sparsity optimization](http://www.yokohamapublishers.jp/online2/oppjo/vol13/p325.html), *Pac J Optim*, 13(2):325-353, 2017.
+```
 
+<b style="font-size:16px">NHTP</b> and <b style="font-size:16px">GPNP</b> are second-order methods, which require both the gradient and Hessian of $f$. In contrast, <b style="font-size:16px">IIHT</b> is a first-order method that only requires the gradient of $f$. Below is a demonstration of how to define the gradient and Hessian for <b style="font-size:16px">NHTP</b> and <b style="font-size:16px">GPNP</b>.
 
 <p style="line-height: 1;"></p>
 
