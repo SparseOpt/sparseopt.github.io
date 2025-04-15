@@ -10,16 +10,18 @@ main:
   - title: <span style="color:#015697"><b>Datasets</b></span>
     url: /software/
     
- #  - title: <span style="color:#015697"><b>Presentations</b></span>
- #    url: /presentations/  
+  - title: <span style="color:#015697"><b>Presentations</b></span>
+    url: /presentations/  
     
   - title: <span style="color:#015697"><b>Tools</b></span>
-     url: /Toolbox/  
-    
- # - title: <span style="color:#015697"><b>Talks</b></span>
- #   url: /talks/    
-
- - title: <span style="color:#015697"><b>Contact Us</b></span>
+    url: /Toolbox/  
+     
+  - title: <span style="color:#015697"><b>Contact Us</b></span>
     url: /teaching/    
+    
+# - title: <span style="color:#015697"><b>Talks</b></span>
+#   url: /talks/    
+
+  
    
   
