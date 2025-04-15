@@ -38,5 +38,5 @@ a:active {
 - [x]  Compressive sensing (CS) solvers.
 - [x]  Sparse support vector machine (SSVM) solvers.
 - [x]  Step function-constrained optimization (SFCO) solvers.
-- [x]  Step function-regularized optimization (SFRO) solvers.
+- []  Step function-regularized optimization (SFRO) solvers.
 
