@@ -38,16 +38,12 @@ where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice conti
 ---
 <div style="text-align:justify;">
 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SCOsolvers</a> provides three solvers:  <b style="font-size:16px">NHTP</b>, <b style="font-size:16px">GPNP</b>, and  <b style="font-size:16px">IIHT</b> based on the algorithms developed in the following three papers:
-</div>
 
-<p style="line-height: 1;"></p>
-
-```
 - S  Zhou, N  Xiu and H  Qi, [https://jmlr.org/papers/v22/19-026.html](Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit), Journal of Machine Learning Research, 22(12):1−45, 2021.
 - S  Zhou, [https://www.sciencedirect.com/science/article/pii/S1063520322000458](Gradient projection newton pursuit for sparsity constrained optimization), Applied and Computational Harmonic Analysis, vol. 61, pp. 75-100, 2022.
 - L Pan, S Zhou, N Xiu, and H Qi, [http://www.yokohamapublishers.jp/online2/oppjo/vol13/p325.html](A convergent iterative hard thresholding for nonnegative sparsity optimization), Pacific Journal of Optimization, 13(2), 325-353, 2017.
-
-``` 
+- 
+</div>
   
 ### <span style="color:#015697"><b style="font-size:20px">Demonstrations</b></span> 
 
