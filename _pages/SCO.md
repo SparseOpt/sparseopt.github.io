@@ -29,9 +29,10 @@ a:active {
 ---
 Sparsity-constrained optimization (SCO) takes the form of
 
-\begin{eqnarray}\min_{\mathbf{x}} &&   f(\mathbf{x}) \nonumber\\\\\\
-\mbox{s.t.} && \parallel\mathbf{x}\parallel_0\leq s,~\mathbf{x}\in\mathbb{R}^{n}, \nonumber
-\end{eqnarray}
+\begin{equation}
+\min_{\mathbf{x}\in\mathbb{R}^{n}} ~~  f(\mathbf{x}),~~~~ \mbox{s.t.}~~ \parallel\mathbf{x}\parallel_0\leq s, \tag{SCO}
+\end{equation}
+
 <div style="text-align:justify;">
 where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice continuously differentiable function, $s\ll n$ is a given integer, and $\|\mathbf{x}\|_0$ denotes the so-called $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$.
 </div>
