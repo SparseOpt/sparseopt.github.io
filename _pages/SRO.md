@@ -30,7 +30,7 @@ a:active {
 Sparsity-regularized optimization (SRO) takes the form of
 
 \begin{equation}
-\min_{\mathbf{x}\in\mathbb{R}^{n}} ~~  f(\mathbf{x}) + \lambda \parallel\mathbf{x}\parallel_q^q, \tag{SRO}
+\min_{\mathbf{x}\in\mathbb{R}^{n}} ~~  f(\mathbf{x}) + \lambda \parallel\mathbf{x}\parallel_q^q \tag{SRO}
 \end{equation}
 
 <div style="text-align:justify;">
