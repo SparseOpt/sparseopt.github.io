@@ -45,13 +45,13 @@ where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice conti
 
 <p style="line-height: 1;"></p>
 
-'''
+```
 S Zhou, N Xiu and H  Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, J Mach Learn Res, 22(12):1−45, 2021. 
 
 S Zhou, Gradient projection newton pursuit for sparsity constrained optimization, Appl Comput Harmon Anal,  61:75-100, 2022. 
 
 L Pan, S Zhou, N Xiu, and H Qi, A convergent iterative hard thresholding for nonnegative sparsity optimization, Pac J Optim, 13(2):325-353, 2017.
-'''
+```
 
 
 <b style="font-size:16px">NHTP</b> and <b style="font-size:16px">GPNP</b> are second-order methods, which require both the gradient and Hessian of $f$. In contrast, <b style="font-size:16px">IIHT</b> is a first-order method that only requires the gradient of $f$. Below is a demonstration of how to define the gradient and Hessian for <b style="font-size:16px">NHTP</b> and <b style="font-size:16px">GPNP</b>.
