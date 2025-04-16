@@ -25,8 +25,8 @@ a:active {
 
  
 
-##  <span style="color:#8C8C8C; font-size:20px"> Sparsity-constrained optimization solvers </span> 
----
+##  <span style="color:#8C8C8C"> Sparsity-constrained optimization solvers </span> 
+
 Sparsity-constrained optimization (SCO) takes the form of
 
 \begin{equation}
@@ -37,8 +37,8 @@ Sparsity-constrained optimization (SCO) takes the form of
 where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice continuously differentiable function, $s\ll n$ is a given integer, and $\|\mathbf{x}\|_0$ denotes the so-called $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$.
 </div>
  
-## <span style="color:#8C8C8C;font-size:20px"> The solver and its demonstration </span> 
----
+## <span style="color:#8C8C8C"> The solver and its demonstration </span> 
+
 
 <div style="text-align:justify;">
 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SCOsolvers</a> provides three solvers:  <b style="font-size:14px;color:#777777">NHTP</b>, <b style="font-size:14px;color:#777777">GPNP</b>, and  <b style="font-size:14px;color:#777777">IIHT</b> based on the algorithms developed in the following three papers:
