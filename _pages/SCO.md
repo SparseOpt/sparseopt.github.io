@@ -26,7 +26,7 @@ a:active {
  
 
 ##  <span style="color:#8C8C8C"> Sparsity-constrained optimization solvers </span> 
-
+---
 Sparsity-constrained optimization (SCO) takes the form of
 
 \begin{equation}
@@ -38,8 +38,7 @@ where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice conti
 </div>
  
 ## <span style="color:#8C8C8C"> The solver and its demonstration </span> 
-
-
+---
 <div style="text-align:justify;">
 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SCOsolvers</a> provides three solvers:  <b style="font-size:14px;color:#777777">NHTP</b>, <b style="font-size:14px;color:#777777">GPNP</b>, and  <b style="font-size:14px;color:#777777">IIHT</b> based on the algorithms developed in the following three papers:
 </div>
