@@ -8,15 +8,15 @@ div.highlighter-rouge, figure.highlight {
   padding: 1em;
   border: 1px solid $border-color;
   border-radius: $border-radius;
-  background-color: #eeeeee; /*$code-background-color;*/
-  box-shadow: #eeeeee; /*$box-shadow;*/
+  background-color: $code-background-color;
+  box-shadow: $box-shadow;*
 
   &:before {
     position: absolute;
     top: 0;
     right: 0;
     padding: 0.5em;
-    background-color: #eeeeee;
+    background-color: $lighter-gray;
     /*content: "\f121"*/;
     font-family: "fontawesome" !important;
     font-size: 0.8em; 
