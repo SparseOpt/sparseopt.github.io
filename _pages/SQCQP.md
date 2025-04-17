@@ -37,7 +37,7 @@ Sparse quadratically constrained quadratic programming (SQCQP) takes the form of
 &\mathbf{Aeq}\mathbf{x} = \mathbf{beq}\\
 & lb\leq x_i \leq ub,~i=1,2,\ldots,n\\
 &\parallel\mathbf{x}\parallel_0\leq s
-\begin{array} \tag{SCO}
+\end{array} \tag{SCO}
 \end{equation}
 
 where parameters are defined as follows
