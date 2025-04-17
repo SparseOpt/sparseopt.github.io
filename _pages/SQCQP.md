@@ -56,7 +56,9 @@ where parameters are defined as follows
 
 - <a style="font-size: 14px;color:#000000" href="https://arxiv.org/abs/2503.15109" target="_blank"> S Li, S  Zhou, Z  Luo, Sparse quadratically constrained quadratic programming via semismooth Newton method, *arXiv:2503.15109*, 2025.</a> 
 
-As shown below, inputs need to be specified to call the solver. Note that $\texttt{Qi}$ is a cell that include $Q_i, i=1,2,\ldots,k$ described in (SQCQP).
+<div style="text-align:justify;">
+As shown below, the solver inputs are described in details. Note that $\texttt{Qi}$ is a cell that include $Q_i, i=1,2,\ldots,k$ described in (SQCQP).
+</div>
 
 <p style="line-height: 1;"></p>
 
@@ -65,12 +67,12 @@ function Out = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars)
 
 % This code aims at solving the sparse QCQP in the form of
 %
-%         min             (1/2)(x'{Q_0}x)+q_0'x, 
-%         s.t. (1/2)x'*Qi{i}*x+qi(:,i)'*x+ci(i)<=0, i = 1,...,k,
-%                                 ineqA*x-ineqb<=0,
-%                                      eqA*x-eqb=0,
-%                                        lb<=x<=ub,
-%                                       ||x||_0<=s,
+%         min  (1/2)(x'{Q_0}x)+q_0'x  
+%         s.t. (1/2)x'*Qi{i}*x+qi(:,i)'*x+ci(i)<=0, i = 1,...,k 
+%                                 ineqA*x-ineqb<=0 
+%                                      eqA*x-eqb=0 
+%                                        lb<=x<=ub 
+%                                       ||x||_0<=s 
 % where Qi = {Qi{1},...,Qi{k}}, Qi{i} \in R^{n-by-n}, qi \in R^{n-by-k},  ci \in R^{k}
 %       ineqA \in R^{m1-by-n},  ineqb \in R^{m1} 
 %       eqA   \in R^{m2-by-n},  eqb   \in R^{m2}
