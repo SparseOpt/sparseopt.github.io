@@ -39,6 +39,7 @@ Sparse quadratically constrained quadratic programming (SQCQP) takes the form of
 &\parallel\mathbf{x}\parallel_0\leq s
 \begin{aligned} \tag{SCO}
 \end{equation}
+
 where parameters are defined as follows
 - $\mathbf{Q}_i\in\mathbb{R}^{n\times n}, \mathbf{q}_i\in\mathbb{R}^{n}, c_i\in\mathbb{R},~~i=0,1,\ldots,k$
 - $\mathbf{A}\in\mathbb{R}^{m_1\times n}$, $\mathbf{b}\in\mathbb{R}^{m_1}$
@@ -50,42 +51,72 @@ where parameters are defined as follows
 ## <span style="color:#8C8C8C"> The solver and its demonstration </span> 
 ---
 <div style="text-align:justify;">
-<a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SNSQP</a> was developed based on the algorithm developed in the following three papers:
+<a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/SNSQP" target="_blank">SNSQP</a> was developed based on the algorithm developed in the following paper:
 </div>
 
-<p style="line-height: 1;"></p>
-
-- <a style="font-size: 14px;color:#000000" href="https://jmlr.org/papers/v22/19-026.html" target="_blank"> S Zhou, N Xiu and H  Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, *J Mach Learn Res*, 22:1−45, 2021.</a>
-- <a style="font-size: 14px;color:#000000" href="https://www.sciencedirect.com/science/article/pii/S1063520322000458" target="_blank"> S Zhou, Gradient projection newton pursuit for sparsity constrained optimization, *Appl Comput Harmon Anal*, 61:75-100, 2022.</a> 
-- <a style="font-size: 14px;color:#000000" href="http://www.yokohamapublishers.jp/online2/oppjo/vol13/p325.html" target="_blank"> L Pan, S Zhou, N Xiu, and H Qi, A convergent iterative hard thresholding for nonnegative sparsity optimization, *Pac J Optim*, 13:325-353, 2017.</a>
- 
+- <a style="font-size: 14px;color:#000000" href="https://arxiv.org/abs/2503.15109" target="_blank"> S Li, S  Zhou, Z  Luo, Sparse quadratically constrained quadratic programming via semismooth Newton method, *arXiv:2503.15109*, 2025.</a> 
 
 <b style="font-size:14px;color:#777777">NHTP</b> and <b style="font-size:14px;color:#777777">GPNP</b> are second-order methods, which require both the gradient and Hessian of $f$. In contrast, <b style="font-size:14px;color:#777777">IIHT</b> is a first-order method that only requires the gradient of $f$. Below is a demonstration of how to define the gradient and Hessian for <b style="font-size:14px;color:#777777">NHTP</b>.
+
+As shown below, inputs need to be specified to call the solver. It is worth pointing out that \texttt{Qi} is a cell that include $Q_i, i=1,2,\ldots,k$ described in (SQCQP).
 
 <p style="line-height: 1;"></p>
 
 ```ruby
-function [out1,out2] = funCS(x,T1,T2,data)
+function Out = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars)
 
-    if  isempty(T1) && isempty(T2) 
-        Tx   = find(x); 
-        Axb  = data.A(:,Tx)*x(Tx)-data.b;
-        out1 = norm(Axb,'fro')^2/2;               %objective 
-        if  nargout == 2
-            out2    = (Axb'*data.A)';             %gradient
-        end
-    else        
-        AT = data.A(:,T1); 
-        if  length(T1)<2000
-            out1 = AT'*AT;                        %subHessian containing T1 rows and T1 columns
-        else
-            out1 = @(v)( (AT*v)'*AT )';      
-        end       
-        if  nargout == 2
-            out2 = @(v)( (data.A(:,T2)*v)'*AT )'; %subHessian containing T1 rows and T2 columns
-        end       
-    end     
-end
+% This code aims at solving the sparse QCQP in the form of
+%
+%         min             (1/2)(x'{Q_0}x)+q_0'x, 
+%         s.t. (1/2)x'*Qi{i}*x+qi(:,i)'*x+ci(i)<=0, i = 1,...,k,
+%                                 ineqA*x-ineqb<=0,
+%                                      eqA*x-eqb=0,
+%                                        lb<=x<=ub,
+%                                       ||x||_0<=s,
+% where Qi = {Qi{1},...,Qi{k}}, Qi{i} \in R^{n-by-n}, qi \in R^{n-by-k},  ci \in R^{k}
+%       ineqA \in R^{m1-by-n},  ineqb \in R^{m1} 
+%       eqA   \in R^{m2-by-n},  eqb   \in R^{m2}
+%       s << n
+
+%---------------------------------------------------------------------------------------------------           
+% Inputs:
+%     n:      Dimension of the solution x                                             (required)
+%     s:      Sparsity level of x, an integer between 1 and n-1                       (required)
+%     Q0:     The quadratic objective matrix in R^{n-by-n}                            (required)        
+%     q0:     The quadratic objective vector in R^n                                   (required)
+%     Qi:     The quadratic constraint matrix   
+%             MUST be a cell array or [], each entry is matrix in R^{n-by-n}          (optional)
+%     qi:     The quadratic constraint vector. MUST be a matrix in R^{n-by-k} or []   (optional)           
+%     ci:     The quadratic constraint constant in R, must be a vector or []          (optional)
+%     ineqA:  The linear inequality constraint matrix in R^{m1-by-n}   or []          (optional)
+%     ineqb:  The linear inequality constraint vector in R^{m1}        or []          (optional)
+%     eqA:    The linear equality constraint matrix in R^{m2-by-n}     or []          (optional)
+%     eqb:    The linear equality constraint vector in R^{m2}          or []          (optional)
+%     lb:     The lower bound of x                                                    (optional)
+%     ub:     The upper bound of x                                                    (optional)
+%             NOTE: 0 must in [lb ub]
+%     pars:   Parameters are all OPTIONAL
+%             pars.x0       -- Starting point of x                                    (default zeros(n,1))
+%             pars.dualquad -- Starting point of mu for quadratic constraint          (default zeros(k,1))
+%             pars.dualineq -- Starting point of dual variable for linear inequality  (default zeros(m1,1))
+%             pars.dualeq   -- Starting point of dual variable for linear equality    (default zeros(m2,1))
+%             pars.dualbd   -- Starting point of nu  for bound/box constraint         (default zeros(n,1))
+%             pars.tau      -- A positive scalar                                      (default 1)
+%                              NOTE: tuning a proper tau may yield better solutions     
+%             pars.itlser   -- Maximum nonumber of line search                        (default 5)
+%             pars.itmax    -- Maximum nonumber of iteration                          (default 10000)
+%             pars.show     -- Results shown at each iteration if pars.show=1         (default 1)
+%                              Results not shown at each iteration if pars.show=0
+%             pars.tol      -- Tolerance of the halting condition                    (default 1e-6)
+%
+% Outputs:
+%     Out.sol:           The sparse solution x
+%     Out.sparsity:      Sparsity level of Out.sol
+%     Out.error:         Error used to terminate this solver
+%     Out.time           CPU time
+%     Out.iter:          Number of iterations
+%     Out.obj:           Objective function value at Out.sol
+%---------------------------------------------------------------------------------------------------
 ```
 
 <div style="text-align:justify;">
