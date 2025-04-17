@@ -39,18 +39,19 @@ where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice conti
  
 ## <span style="color:#8C8C8C">The solver and its demonstration</span> 
 ---
+
+The package can be download here - <a style="font-size: 16px; font-weight: bold; color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SROsolvers</a>
+
 <div style="text-align:justify;">
-<a style="font-size: 16px; font-weight: bold; color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SROsolvers</a> provides two solvers:  <b style="font-size:14px;color:#777777">NL0R</b> and <b style="font-size:14px;color:#777777">PSNP</b> based on the algorithms developed in the following two papers:
+It provides two solvers:  <b style="font-size:14px;color:#777777">NL0R</b> and <b style="font-size:14px;color:#777777">PSNP</b> based on the algorithms developed in the following two papers:
 </div>
 
 - <a style="font-size:14px; color:#000000" href="https://link.springer.com/article/10.1007/s11075-021-01085-x" target="_blank"> S Zhou, L Pan, and N Xiu, Newton method for L0-regularized optimization, *Numerical Algorithm*, 88:1541–1570, 2021 .</a>
 - <a style="font-size:14px; color:#000000" href="https://arxiv.org/abs/2306.14394" target="_blank"> S Zhou, X Xiu, Y Wang, and D Peng, Revisiting Lq (0 <= q < 1) norm regularized optimization, *arXiv:2306.14394*, 2023.</a>
 
-
-
-<p style="line-height: 1;"></p>
-
+<div style="text-align:justify;">
 Both solvers are second-order methods, which require both the gradient and Hessian of $f$. Below is a demonstration of how to define the gradient and Hessian for <b style="font-size:14px;color:#777777">NL0R</b> and <b style="font-size:14px;color:#777777">PSNP</b>.
+</div>
 
 <p style="line-height: 1;"></p>
 
