@@ -56,7 +56,7 @@ where parameters are defined as follows
 
 - <a style="font-size: 14px;color:#000000" href="https://arxiv.org/abs/2503.15109" target="_blank"> S Li, S  Zhou, Z  Luo, Sparse quadratically constrained quadratic programming via semismooth Newton method, *arXiv:2503.15109*, 2025.</a> 
 
-As shown below, inputs need to be specified to call the solver. It is worth pointing out that \texttt{Qi} is a cell that include $Q_i, i=1,2,\ldots,k$ described in (SQCQP).
+As shown below, inputs need to be specified to call the solver. Note that $\texttt{Qi}$ is a cell that include $Q_i, i=1,2,\ldots,k$ described in (SQCQP).
 
 <p style="line-height: 1;"></p>
 
