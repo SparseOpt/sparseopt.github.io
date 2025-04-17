@@ -120,58 +120,38 @@ function Out = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars)
 ```
 
 <div style="text-align:justify;">
-Each solver has two required inputs: 'func' defining the example and 'dim' recording dimensions of the example and an optional input 'pars'. Please see the <a style="font-size: 16px; font-weight: bold; color:#007D98" href="\files\menu-of-BiOpt.pdf" target="_blank">menu-of-BiOpt</a> for more details of 'pars'. The chosen solver is <span style="color:#007D98"><b style="font-size:16px">SNLLVF</b></span> and solves one example 'DempeDutta2012Ex24' defined by the following Matlab m-file. This example is from <a style="font-size: 16px; font-weight: bold; color:#007D98"  href="https://biopt.github.io/bolib/" target="_blank">BOLIBver2</a>, where more examples are provided. The <a style="font-size: 16px; font-weight: bold; color:#007D98" href="\files\menu-of-BiOpt.pdf" target="_blank">menu-of-BiOpt</a> also presents other ways to define examples.
+Below is a demonstration of the solver applied to a sparse portfolio selection problem. The parameters in $\texttt{pars}$ are optional; however, specifying certain ones can enhance the solver's performance and solution quality.
 </div>
 
 <p style="line-height: 1;"></p>
 
 ```ruby
-function w=DempeDutta2012Ex24(x,y,keyf,keyxy)
-% This file provides all functions defining DempeDutta2012Ex24 problem and their first and second order derivatives.
-% [dim_x dim_y dim_G dim_g] = [1 1 0 1]
-if nargin<4 || isempty(keyxy)
-    switch keyf
-    case 'F'; w = (x-1)^2+y^2;
-    case 'G'; w = []; 
-    case 'f'; w = x^2*y;      
-    case 'g'; w = y^2; 
-    end    
-else
-    switch keyf
-    case 'F'
-        switch keyxy
-        case 'x' ; w = 2*(x-1);         
-        case 'y' ; w = 2*y;        
-        case 'xx'; w = 2;
-        case 'xy'; w = 0;
-        case 'yy'; w = 2;
-        end 
-    case 'G'  
-        switch keyxy
-        case 'x' ; w = [];    
-        case 'y' ; w = [];      
-        case 'xx'; w = [];
-        case 'xy'; w = [];
-        case 'yy'; w = [];
-        end           
-    case 'f'   
-        switch keyxy
-        case 'x' ; w = 2*x*y;    
-        case 'y' ; w = x^2;          
-        case 'xx'; w = 2*y;
-        case 'xy'; w = 2*x;
-        case 'yy'; w = 0;
-        end           
-    case 'g'   
-        switch keyxy
-        case 'x' ; w =   0;  
-        case 'y' ; w =   2*y;         
-        case 'xx'; w =   0;  
-        case 'xy'; w =   0;  
-        case 'yy'; w =   2; 
-        end        
-   end   
-end
-end
+% demon sparse portfolio selection problems
+clc; clear all; close all;  addpath(genpath(pwd));
+
+n     = 1000;
+s     = 10;
+
+B     = 0.01 * rand(ceil(n/4),n);
+D     = diag(0.01*rand(n,1));
+Q0    = 2*( B'*B + D);
+q0    = zeros(n,1); 
+Qi    = cell(1,1);
+Qi{1} = 2*D;
+qi    = zeros(n,1);
+ci    = -0.001;
+ineqA = -0.5*randn(1,n);
+ineqb = -0.002;
+eqA   = ones(1,n);
+eqb   = 1;
+lb    = 0;
+ub    = 0.3;
+    
+pars.x0       = ((lb+ub)/2).*ones(n,1);
+pars.tau      = 1; % decrease this value if the algorithm do not converge
+pars.dualquad = 0*ones(length(ci));
+pars.dualineq = 0.001*ones(length(ineqb)); 
+pars.dualeq   = 0.001*ones(length(eqb));
+Out           = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars);
 ```
  
