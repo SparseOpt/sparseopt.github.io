@@ -33,7 +33,8 @@ Sparse quadratically constrained quadratic programming (SQCQP) takes the form of
 \begin{array}{rl}
 \min\limits_{\mathbf{x}\in\mathbb{R}^{n}} &  \dfrac{1}{2}\mathbf{x}^{\top}\mathbf{Q}_0\mathbf{x}+\mathbf{q}_0^{\top}\mathbf{x}\\\\\\
 \mbox{s.t.} & \dfrac{1}{2}\mathbf{x}^{\top}\mathbf{Q}_i\mathbf{x}+\mathbf{q}^{\top}_i\mathbf{x}+c_i\leq0,~i=1,2,\ldots,k\\\\\\
-&\mathbf{A}\mathbf{x}\leq \mathbf{b},~~\mathbf{B}\mathbf{x} = \mathbf{d}\\\\\\
+&\mathbf{A}\mathbf{x}\leq \mathbf{b}\\\\\\
+\mathbf{B}\mathbf{x} = \mathbf{d}\\\\\\
 & l\leq x_i \leq u,~i=1,2,\ldots,n\\\\\\
 &\parallel\mathbf{x}\parallel_0\leq s
 \end{array} \tag{SQCQP}
