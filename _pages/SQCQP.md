@@ -45,7 +45,7 @@ where parameters are defined as follows
 - $\mathbf{A}\in\mathbb{R}^{m_1\times n}$, $\mathbf{b}\in\mathbb{R}^{m_1}$
 - $\mathbf{Aeq}\in\mathbb{R}^{m_2\times n}$, $\mathbf{beq}\in\mathbb{R}^{m_2}$
 - $lb$ and $ub$ are two scalars satisfying $0\in[lb, ub]$
-- $\|\mathbf{x}\|_0$ denotes the so-called $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$
+- $\parallel\mathbf{x}\parallel_0$ denotes the so-called $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$
 - $s\ll n$ is a given integer
          
 ## <span style="color:#8C8C8C"> The solver and its demonstration </span> 
@@ -55,8 +55,6 @@ where parameters are defined as follows
 </div>
 
 - <a style="font-size: 14px;color:#000000" href="https://arxiv.org/abs/2503.15109" target="_blank"> S Li, S  Zhou, Z  Luo, Sparse quadratically constrained quadratic programming via semismooth Newton method, *arXiv:2503.15109*, 2025.</a> 
-
-<b style="font-size:14px;color:#777777">NHTP</b> and <b style="font-size:14px;color:#777777">GPNP</b> are second-order methods, which require both the gradient and Hessian of $f$. In contrast, <b style="font-size:14px;color:#777777">IIHT</b> is a first-order method that only requires the gradient of $f$. Below is a demonstration of how to define the gradient and Hessian for <b style="font-size:14px;color:#777777">NHTP</b>.
 
 As shown below, inputs need to be specified to call the solver. It is worth pointing out that \texttt{Qi} is a cell that include $Q_i, i=1,2,\ldots,k$ described in (SQCQP).
 
