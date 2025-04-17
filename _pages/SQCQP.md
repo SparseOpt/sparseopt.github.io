@@ -31,20 +31,20 @@ Sparse quadratically constrained quadratic programming (SQCQP) takes the form of
 
 \begin{equation}
 \begin{array}{rl}
-\min_{\mathbf{x}\in\mathbb{R}^{n}} &  \dfrac{1}{2}\mathbf{x}^{\top}\mathbf{Q}_0\mathbf{x}+\mathbf{q}_0^{\top}\mathbf{x}\\\\\\
+\min\limits_{\mathbf{x}\in\mathbb{R}^{n}} &  \dfrac{1}{2}\mathbf{x}^{\top}\mathbf{Q}_0\mathbf{x}+\mathbf{q}_0^{\top}\mathbf{x}\\\\\\
 \mbox{s.t.} & \dfrac{1}{2}\mathbf{x}^{\top}\mathbf{Q}_i\mathbf{x}+\mathbf{q}^{\top}_i\mathbf{x}+c_i\leq0,~i=1,2,\ldots,k\\\\\\
 &\mathbf{A}\mathbf{x}\leq \mathbf{b}\\\\\\
-&\mathbf{Aeq}\mathbf{x} = \mathbf{beq}\\\\\\
-& lb\leq x_i \leq ub,~i=1,2,\ldots,n\\\\\\
+&\mathbf{B}\mathbf{x} = \mathbf{d}\\\\\\
+& l\leq x_i \leq u,~i=1,2,\ldots,n\\\\\\
 &\parallel\mathbf{x}\parallel_0\leq s
-\end{array} \tag{SCO}
+\end{array} \tag{SQCQP}
 \end{equation}
 
 where parameters are defined as follows
 - $\mathbf{Q}_i\in\mathbb{R}^{n\times n}, \mathbf{q}_i\in\mathbb{R}^{n}, c_i\in\mathbb{R},~~i=0,1,\ldots,k$
 - $\mathbf{A}\in\mathbb{R}^{m_1\times n}$, $\mathbf{b}\in\mathbb{R}^{m_1}$
-- $\mathbf{Aeq}\in\mathbb{R}^{m_2\times n}$, $\mathbf{beq}\in\mathbb{R}^{m_2}$
-- $lb$ and $ub$ are two scalars satisfying $0\in[lb, ub]$
+- $\mathbf{B}\in\mathbb{R}^{m_2\times n}$, $\mathbf{d}\in\mathbb{R}^{m_2}$
+- $l$ and $u$ are two scalars satisfying $0\in[l, u]$
 - $\parallel\mathbf{x}\parallel_0$ denotes the so-called $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$
 - $s\ll n$ is a given integer
          
