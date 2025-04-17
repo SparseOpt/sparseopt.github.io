@@ -83,8 +83,8 @@ function Out = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars)
 %     s:      Sparsity level of x, an integer between 1 and n-1                       (required)
 %     Q0:     The quadratic objective matrix in R^{n-by-n}                            (required)        
 %     q0:     The quadratic objective vector in R^n                                   (required)
-%     Qi:     The quadratic constraint matrix   
-%             MUST be a cell array or [], each entry is matrix in R^{n-by-n}          (optional)
+%     Qi:     The quadratic constraint matrix                                         (optional) 
+%             MUST be a cell array or [], each entry is matrix in R^{n-by-n}           
 %     qi:     The quadratic constraint vector. MUST be a matrix in R^{n-by-k} or []   (optional)           
 %     ci:     The quadratic constraint constant in R, must be a vector or []          (optional)
 %     ineqA:  The linear inequality constraint matrix in R^{m1-by-n}   or []          (optional)
@@ -95,18 +95,18 @@ function Out = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars)
 %     ub:     The upper bound of x                                                    (optional)
 %             NOTE: 0 must in [lb ub]
 %     pars:   Parameters are all OPTIONAL
-%             pars.x0       -- Starting point of x                                    (default zeros(n,1))
-%             pars.dualquad -- Starting point of mu for quadratic constraint          (default zeros(k,1))
-%             pars.dualineq -- Starting point of dual variable for linear inequality  (default zeros(m1,1))
-%             pars.dualeq   -- Starting point of dual variable for linear equality    (default zeros(m2,1))
-%             pars.dualbd   -- Starting point of nu  for bound/box constraint         (default zeros(n,1))
+%             pars.x0       -- Initial point of x                                     (default zeros(n,1))
+%             pars.dualquad -- Initial point of mu for quadratic constraints          (default zeros(k,1))
+%             pars.dualineq -- Initial point of dual variable for linear inequalities (default zeros(m1,1))
+%             pars.dualeq   -- Initial point of dual variable for linear equalities   (default zeros(m2,1))
+%             pars.dualbd   -- Initial point of nu  for bound/box constraints         (default zeros(n,1))
 %             pars.tau      -- A positive scalar                                      (default 1)
 %                              NOTE: tuning a proper tau may yield better solutions     
 %             pars.itlser   -- Maximum nonumber of line search                        (default 5)
 %             pars.itmax    -- Maximum nonumber of iteration                          (default 10000)
 %             pars.show     -- Results shown at each iteration if pars.show=1         (default 1)
 %                              Results not shown at each iteration if pars.show=0
-%             pars.tol      -- Tolerance of the halting condition                    (default 1e-6)
+%             pars.tol      -- Tolerance of the halting condition                     (default 1e-6)
 %
 % Outputs:
 %     Out.sol:           The sparse solution x
