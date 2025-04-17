@@ -50,9 +50,9 @@ where parameters are defined as follows
          
 ## <span style="color:#8C8C8C"> The solver and its demonstration </span> 
 ---
-<div style="text-align:justify;">
-<a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/SNSQP" target="_blank">SNSQP</a> was developed based on the algorithm developed in the following paper:
-</div>
+The solver can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/SNSQP" target="_blank">SNSQP</a>  
+
+It was developed based on the algorithm developed in the following paper:
 
 - <a style="font-size: 14px;color:#000000" href="https://arxiv.org/abs/2503.15109" target="_blank"> S Li, S  Zhou, Z  Luo, Sparse quadratically constrained quadratic programming via semismooth Newton method, *arXiv:2503.15109*, 2025.</a> 
 
