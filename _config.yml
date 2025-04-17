@@ -77,7 +77,6 @@ analytics:
   google:
     tracking_id          :
 
-
 # Site Author
 author:
   name             : "SparseOpt Toolbox"
