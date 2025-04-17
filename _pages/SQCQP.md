@@ -30,14 +30,14 @@ a:active {
 Sparse quadratically constrained quadratic programming (SQCQP) takes the form of
 
 \begin{equation}
-\begin{aligned}
-\min_{\mathbf{x}\in\mathbb{R}^{n}} &  \frac{1}{2}\mathbf{x}^{\top}\mathbf{Q}_0\mathbf{x}+\mathbf{q}_0^{\top}\mathbf{x}\\
-\mbox{s.t.} & \frac{1}{2}\mathbf{x}^{\top}\mathbf{Q}_i\mathbf{x}+\mathbf{q}^{\top}_i\mathbf{x}+c_i\leq0,~i=1,2,\ldots,k\\
+\begin{array}{rl}
+\min_{\mathbf{x}\in\mathbb{R}^{n}} &  \dfrac{1}{2}\mathbf{x}^{\top}\mathbf{Q}_0\mathbf{x}+\mathbf{q}_0^{\top}\mathbf{x}\\
+\mbox{s.t.} & \dfrac{1}{2}\mathbf{x}^{\top}\mathbf{Q}_i\mathbf{x}+\mathbf{q}^{\top}_i\mathbf{x}+c_i\leq0,~i=1,2,\ldots,k\\
 &\mathbf{A}\mathbf{x}\leq \mathbf{b}\\
 &\mathbf{Aeq}\mathbf{x} = \mathbf{beq}\\
 & lb\leq x_i \leq ub,~i=1,2,\ldots,n\\
 &\parallel\mathbf{x}\parallel_0\leq s
-\begin{aligned} \tag{SCO}
+\begin{array} \tag{SCO}
 \end{equation}
 
 where parameters are defined as follows
