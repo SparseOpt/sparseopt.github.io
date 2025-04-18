@@ -47,8 +47,8 @@ where parameters are defined as follows
 - $\parallel\mathbf{x}\parallel_0$ denotes the so-called $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$
 - $s\ll n$ is a given integer
          
-## <span style="color:#8C8C8C"> The solver and its demonstration </span> 
----
+<!--## <span style="color:#8C8C8C"> The solver and its demonstration </span> 
+--- -->
 <div style="text-align:justify;">
 The solver can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/SNSQP" target="_blank">SNSQP</a>, which  
 was developed from the following paper:</div>
