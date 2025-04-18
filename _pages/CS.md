@@ -54,7 +54,7 @@ It provides 6 solvers based on the algorithms developed in the following papers:
 
 > <b style="font-size:14px;color:#777777">IIHT</b> - <span style="font-size: 14px"> L Pan, S Zhou, N Xiu, and H Qi, A convergent iterative hard thresholding for nonnegative sparsity optimization, Pac J Optim, 13:325-353, 2017. </span>
 
-> <b style="font-size:14px;color:#777777">IIHT</b> - <span style="font-size: 14px"> S Zhou, N Xiu, et. al, A Null-space-based weighted l1 minimization approach to compressed sensing, 
+> <b style="font-size:14px;color:#777777">MIRL1</b> - <span style="font-size: 14px"> S Zhou, N Xiu, et. al, A Null-space-based weighted l1 minimization approach to compressed sensing, 
 Inf inference, 5:76-102, 2016. </span>
 
 <div style="text-align:justify;">
