@@ -123,7 +123,6 @@ Below is a demonstration of the solver applied to a sparse portfolio selection p
 </div>
 
 <p style="line-height: 1;"></p>
-
 ```ruby
 % demon sparse portfolio selection problems
 clc; clear all; close all;  addpath(genpath(pwd));
