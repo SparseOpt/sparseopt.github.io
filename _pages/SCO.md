@@ -25,10 +25,8 @@ a:active {
 
  
 
-##  <span style="color:#8C8C8C"> Sparsity-constrained optimization solvers </span> 
+##  <span style="color:#8C8C8C"> Sparsity-constrained optimization</span> 
 ---
-Sparsity-constrained optimization (SCO) takes the form of
-
 \begin{equation}
 \min_{\mathbf{x}\in\mathbb{R}^{n}} ~~  f(\mathbf{x}),~~~~ \mbox{s.t.}~~ \parallel\mathbf{x}\parallel_0\leq s  \tag{SCO}
 \end{equation}
