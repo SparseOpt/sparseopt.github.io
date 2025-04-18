@@ -39,11 +39,9 @@ where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice conti
  
 ## <span style="color:#8C8C8C">The solver and its demonstration</span> 
 ---
-
-The package can be download here - <a style="font-size: 16px; font-weight: bold; color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SROsolvers</a>
-
 <div style="text-align:justify;">
-It provides two solvers:  <b style="font-size:14px;color:#777777">NL0R</b> and <b style="font-size:14px;color:#777777">PSNP</b> based on the algorithms developed in the following two papers:
+The package can be download here - <a style="font-size: 16px; font-weight: bold; color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SROsolvers</a>,
+which provides 2 solvers from the following two papers:
 </div>
 
 > <b style="font-size:14px;color:#777777">PSNP</b> - <span style="font-size: 14px"> S Zhou, X Xiu, Y Wang, and D Peng, Revisiting Lq (0 <= q < 1) norm regularized optimization, arXiv:2306.14394, 2023. </span>
