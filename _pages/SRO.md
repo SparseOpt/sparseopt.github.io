@@ -27,7 +27,7 @@ a:active {
 
 ## <span style="color:#8C8C8C">Sparsity-regularized optimization solvers</span> 
 ---
-Sparsity-regularized optimization (SRO) takes the form of
+<p style="line-height: 1;"></p>
 
 \begin{equation}
 \min_{\mathbf{x}\in\mathbb{R}^{n}} ~~  f(\mathbf{x}) + \lambda \parallel\mathbf{x}\parallel_q^q \tag{SRO}
@@ -37,7 +37,7 @@ Sparsity-regularized optimization (SRO) takes the form of
 where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice continuously differentiable function, $\lambda>0$ is a given scalar, and $\|\mathbf{x}\|_q^q=\sum_i |x_i|^q$ with $q\in[0,1)$ denotes the $\ell_q$-norm. In particular, when $q=0$,  $\|\mathbf{x}\|_0=\|\mathbf{x}\|_0^0$ is the so-called $\ell_0$-norm that counts the number of nonzero entries in $\mathbf{x}$.
 </div>
  
-## <span style="color:#8C8C8C">The solver and its demonstration</span> 
+<!-- ## <span style="color:#8C8C8C">The solver and its demonstration</span> -->
 ---
 <div style="text-align:justify;">
 The package can be download here - <a style="font-size: 16px; font-weight: bold; color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SROsolvers</a>,
@@ -52,6 +52,7 @@ which provides 2 solvers from the following papers:
 - <a style="font-size:14px; color:#000000" href="https://arxiv.org/abs/2306.14394" target="_blank"> S Zhou, X Xiu, Y Wang, and D Peng, Revisiting Lq (0 <= q < 1) norm regularized optimization, *arXiv:2306.14394*, 2023.</a> 
 -->
 
+---
 <div style="text-align:justify;">
 Both solvers are second-order methods, which require both the gradient and Hessian of $f$. Below is a demonstration of how to define the gradient and Hessian for <b style="font-size:14px;color:#777777">NL0R</b> and <b style="font-size:14px;color:#777777">PSNP</b>.
 </div>
