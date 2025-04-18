@@ -41,7 +41,7 @@ where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice conti
 ---
 <div style="text-align:justify;">
 The package can be download here - <a style="font-size: 16px; font-weight: bold; color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SROsolvers</a>,
-which provides 2 solvers from the following two papers:
+which provides 2 solvers from the following papers:
 </div>
 
 > <b style="font-size:14px;color:#777777">PSNP</b> - <span style="font-size: 14px"> S Zhou, X Xiu, Y Wang, and D Peng, Revisiting Lq (0 <= q < 1) norm regularized optimization, arXiv:2306.14394, 2023. </span>
