@@ -40,7 +40,7 @@ where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice conti
 <!-- ## <span style="color:#8C8C8C">The solver and its demonstration</span> -->
 ---
 <div style="text-align:justify;">
-The package can be download here - <a style="font-size: 16px; font-weight: bold; color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SROsolvers</a>,
+The package can be download here - <a style="font-size: 16px; font-weight: bold; color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SROpack</a>,
 which provides 2 solvers from the following papers:
 </div>
 
