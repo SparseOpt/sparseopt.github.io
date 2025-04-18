@@ -44,7 +44,7 @@ The package can be download here - <a style="font-size: 16px; font-weight: bold;
 which provides 2 solvers from the following papers:
 </div>
 
-> <b style="font-size:14px;color:#777777">PSNP</b> - <span style="font-size: 14px"> S Zhou, X Xiu, Y Wang, and D Peng, Revisiting Lq (0 <= q < 1) norm regularized optimization, arXiv:2306.14394, 2023. </span>
+> <b style="font-size:14px;color:#777777">PSNP</b> - <span style="font-size: 14px"> S Zhou, X Xiu, Y Wang, and D Peng, Revisiting Lq ($0 \leq q < 1$) norm regularized optimization, arXiv:2306.14394, 2023. </span>
 <br><b style="font-size:14px;color:#777777">NL0R</b> - <span style="font-size: 14px"> S Zhou, L Pan, and N Xiu, Newton method for l0 regularized optimization, Numer Algorithms, 88:1541–1570, 2021. </span>
 
 <!--
