@@ -25,10 +25,8 @@ a:active {
 
  
 
-##  <span style="color:#8C8C8C"> Sparse quadratically constrained quadratic programming solver </span> 
+##  <span style="color:#8C8C8C"> Sparse quadratically constrained quadratic programming </span> 
 ---
-Sparse quadratically constrained quadratic programming (SQCQP) takes the form of
-
 \begin{equation}
 \begin{array}{rl}
 \min\limits_{\mathbf{x}\in\mathbb{R}^{n}} &  \dfrac{1}{2}\mathbf{x}^{\top}\mathbf{Q}_0\mathbf{x}+\mathbf{q}_0^{\top}\mathbf{x}\\\\\\
