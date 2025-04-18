@@ -25,7 +25,7 @@ a:active {
 
  
 
-## <span style="color:#8C8C8C">Sparsity-regularized optimization solvers</span> 
+## <span style="color:#8C8C8C">Sparsity-regularized optimization</span> 
 ---
 <p style="line-height: 1;"></p>
 
