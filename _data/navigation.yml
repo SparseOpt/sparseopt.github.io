@@ -16,18 +16,18 @@ main:
   - title: <span style="color:#015697"><b>CS</b></span>
     url: /CS/ 
     
-  - title: <span style="color:#015697"><b>Solvers</b></span>
-    url: /publications/
-    
-  - title: <span style="color:#015697"><b>Datasets</b></span>
-    url: /software/
-    
-  - title: <span style="color:#015697"><b>Tools</b></span>
-    url: /Toolbox/  
-     
   - title: <span style="color:#015697"><b>Contact Us</b></span>
-    url: /teaching/    
+    url: /teaching/   
     
+#  - title: <span style="color:#015697"><b>Solvers</b></span>
+#    url: /publications/
+    
+#  - title: <span style="color:#015697"><b>Datasets</b></span>
+#    url: /software/
+    
+#  - title: <span style="color:#015697"><b>Tools</b></span>
+#    url: /Toolbox/  
+         
 # - title: <span style="color:#015697"><b>Talks</b></span>
 #   url: /talks/    
 
