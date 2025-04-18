@@ -37,8 +37,9 @@ Sparsity-constrained optimization (SCO) takes the form of
 where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice continuously differentiable function, $s\ll n$ is a given integer, and $\|\mathbf{x}\|_0$ denotes the so-called $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$.
 </div>
  
-## <span style="color:#8C8C8C"> The solver and its demonstration </span> 
----
+<!-- ## <span style="color:#8C8C8C"> The solver and its demonstration </span> 
+--- -->
+
 <div style="text-align:justify;"> 
 The package can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SCOsolvers</a>,
 which provides 3 solvers from the following papers:
