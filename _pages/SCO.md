@@ -40,8 +40,8 @@ where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice conti
 ## <span style="color:#8C8C8C"> The solver and its demonstration </span> 
 ---
 <div style="text-align:justify;"> 
-The packages can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SCOsolvers</a>,
-which provides 3 solvers from the following three papers:
+The package can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SCOsolvers</a>,
+which provides 3 solvers from the following papers:
 </div>
 
 > <b style="font-size:14px;color:#777777">NHTP</b> - <span style="font-size: 14px"> S Zhou, N Xiu, and H Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, J Mach Learn Res, 22:1-45, 2021. </span>
