@@ -25,7 +25,7 @@ a:active {
 
  
 
-##  <span style="color:#8C8C8C"> Compressive sensing solvers </span> 
+##  <span style="color:#8C8C8C"> Compressive sensing</span> 
 ---
 <div style="text-align:justify;">
 Compressive sensing (CS) problems aim to recover a signal $\mathbf{x}^*\in\mathbb{R}^{n}$ from the following linear system,
@@ -39,7 +39,6 @@ Compressive sensing (CS) problems aim to recover a signal $\mathbf{x}^*\in\mathb
 where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, $\mathbf{b}\in\mathbb{R}^{m}$ is the observation, and $\boldsymbol{\epsilon}\in\mathbb{R}^{n}$ is the noise. 
 </div>      
 
-## <span style="color:#8C8C8C"> The solver and its demonstration </span> 
 ---
 <div style="text-align:justify;">
 The package can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">CSpack</a>, which provides 6 solvers from the following papers:</div>  
