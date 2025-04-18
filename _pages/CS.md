@@ -43,7 +43,10 @@ where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, $\mathbf{b}\i
 ---
 The solver can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">CSpack</a>  
 
-It was developed based on the algorithm developed in the following paper:
+It provides 6 solvers based on the algorithms developed in the following papers:
+
+
+> S Zhou, N Xiu, and H Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, J Mach Learn Res, 22:1-45, 2021.
 
 - <a style="font-size: 14px;color:#000000" href="https://arxiv.org/abs/2503.15109" target="_blank"> S Li, S  Zhou, Z  Luo, Sparse quadratically constrained quadratic programming via semismooth Newton method, *arXiv:2503.15109*, 2025.</a> 
 
