@@ -57,8 +57,6 @@ It provides 6 solvers based on the algorithms developed in the following papers:
 > <b style="font-size:14px;color:#777777">IIHT</b> - <span style="font-size: 14px"> S Zhou, N Xiu, et. al, A Null-space-based weighted l1 minimization approach to compressed sensing, 
 Inf inference, 5:76-102, 2016. </span>
 
-/* - <a style="font-size: 14px;color:#000000" href="https://arxiv.org/abs/2503.15109" target="_blank"> S Li, S  Zhou, Z  Luo, Sparse quadratically constrained quadratic programming via semismooth Newton method, *arXiv:2503.15109*, 2025.</a> */
-
 <div style="text-align:justify;">
 As shown below, the solver inputs are described in details. Note that input $\texttt{Qi}$ is a cell that include $Q_i, i=1,2,\ldots,k$ described in (SQCQP). If some constraints are absent, then just put them as an empty set, i.e.,  $\texttt{[ ]}$.
 </div>
