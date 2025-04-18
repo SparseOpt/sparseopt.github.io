@@ -27,7 +27,7 @@ a:active {
 
 ## <span style="color:#8C8C8C">Sparsity-regularized optimization</span> 
 ---
-<p style="line-height: 1;"></p>
+<p style="line-height: 2;"></p>
 
 \begin{equation}
 \min_{\mathbf{x}\in\mathbb{R}^{n}} ~~  f(\mathbf{x}) + \lambda \parallel\mathbf{x}\parallel_q^q \tag{SRO}
