@@ -73,7 +73,7 @@ The citation for CSpack is shown below. Here, inputs $(\texttt{A},\texttt{b},\te
 
 ```ruby
 function out = CSsolver(A,At,b,n,s,solver,pars)
-% =========================================================================
+% -------------------------------------------------------------------------
 % This solver solves compressive sensing (CS) in one of the following forms
 %
 % 1) The sparsity constrained compressive sensing (SCCS)
@@ -92,7 +92,7 @@ function out = CSsolver(A,At,b,n,s,solver,pars)
 %       A\in\R{m by n} the measurement matrix
 %       b\in\R{m by 1} the observation vector 
 %       W\in\R{n by n} is a diagonal matrix to be updated iteratively
-% =========================================================================
+% -------------------------------------------------------------------------
 % Inputs:
 %   A  :     The measurement matrix, A\in\R{m by n}              (REQUIRED)
 %   At :     The transpose of A and can be [] if A is a matrix   (REQUIRED)
@@ -132,7 +132,7 @@ function out = CSsolver(A,At,b,n,s,solver,pars)
 %           ----------------Particular for IIHT ---------------------------
 %           pars.neg    --  =0, Compute SCCS without x>=0       (default,0)
 %                           =1, Compute SCCS with x>=0
-% =========================================================================
+% -------------------------------------------------------------------------
 ```
 
 <div style="text-align:justify;">
