@@ -36,15 +36,21 @@ Compressive sensing (CS) problems aim to recover a signal $\mathbf{x}^*\in\mathb
 \end{equation} 
 
 <div style="text-align:justify;">
-where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, $\mathbf{b}\in\mathbb{R}^{m}$ is the observation, and $\boldsymbol{\epsilon}\in\mathbb{R}^{n}$ is the noise. T哦recover the signal, the folowing optimzation models are freguently explored:
+where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, $\mathbf{b}\in\mathbb{R}^{m}$ is the observation, and $\boldsymbol{\epsilon}\in\mathbb{R}^{n}$ is the noise. To recover the signal, the folowing optimzation models are freguently explored:
 </div>      
-
 - Sparsity contrained model
 \begin{equation}
-\min_{\mathbf{x}\in\mathbb{R}^{n}}~\mathbf{A}\mathbf{x}-\mathbf{b},~~~\textrm{s.t.}~\leq s \tag{CS}
+\min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2,~~~\textrm{s.t.}~ \parallel\mathbf{x} \parallel_0\leq s \tag{SCM}
 \end{equation}
-- Lq norm regularized model
+- $L_q (q\in[0,1))$ norm regularized model
+\begin{equation}
+\min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2+\lambda \parallel\mathbf{x} \parallel_q^q \tag{LqRM}
+\end{equation}
 - Weighted L1 norm regularized model
+\begin{equation}
+\min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2+\lambda \parallel \mathbf{W} \mathbf{x} \parallel_q^q \tag{ML1R}
+\end{equation}
+where $\|\mathbf{x}\|_0$ denotes the so-called $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$, $\|\mathbf{x}\|_q^q=\sum_i |x_i|^q$ denotes the so-called $\ell_q$-norm, $\lambda>0$ is the penalty parameter, and $\mathbf{W}$ is a diagonal matrix with positive diagonal entrices.
 
 ---
 <div style="text-align:justify;">
