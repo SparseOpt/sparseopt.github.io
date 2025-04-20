@@ -136,7 +136,7 @@ function out = CSsolver(A,At,b,n,s,solver,pars)
 ```
 
 <div style="text-align:justify;">
-Below is a demonstration of how CSpack can be used to solve the problem. You simply need to input the data $(\mathbf{A}, \mathbf{b}, n)$ (in some cases, you may need to use the transpose $\mathbf{A}^\top$ if $\mathbf{A}$ is a function handle), and select one solver from {'NHTP', 'GPNP', 'IIHT', 'PSNP', 'NL0R', 'MIRL1'}. If you choose one of the first three solvers, you will also need to specify the sparsity level $s$. The parameters in $\texttt{pars}$ are optional, but setting certain ones can improve the solver's performance and the quality of the solution.
+Below is a demonstration of how CSpack can be used to solve the problem. You simply need to input the data $(\texttt{A},\texttt{b},\texttt{n},\texttt{s})$  and select $\texttt{solver}$ from {'NHTP', 'GPNP', 'IIHT', 'PSNP', 'NL0R', 'MIRL1'}. The parameters in $\texttt{pars}$ are optional, but setting certain ones can improve the solver's performance and the quality of the solution.
 </div>
 
 <p style="line-height: 1;"></p>
