@@ -73,6 +73,7 @@ The citation for CSpack is shown below. Here, inputs $(\texttt{A},\texttt{b},n,\
 
 ```ruby
 function out = CSsolver(A,At,b,n,s,solver,pars)
+% =========================================================================
 % This solver solves compressive sensing (CS) in one of the following forms:
 %
 % 1) The sparsity constrained compressive sensing (SCCS): 
