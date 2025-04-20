@@ -66,101 +66,96 @@ The package can be download here - <a style="font-size: 16px; font-weight: bold;
 
 ---
 <div style="text-align:justify;">
-As shown below, the solver inputs are described in details. Note that input $\texttt{Qi}$ is a cell that include $Q_i, i=1,2,\ldots,k$ described in (SQCQP). If some constraints are absent, then just put them as an empty set, i.e.,  $\texttt{[ ]}$.
+As shown below, the solver inputs are described in details. If input $\texttt{At}$ or $s$ are absent, then just put them as an empty set, i.e.,  $\texttt{[ ]}$.
 </div>
 
 <p style="line-height: 1;"></p>
 
 ```ruby
-function Out = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars)
-
-% This code aims at solving the sparse QCQP in the form of
+function out = CSsolver(A,At,b,n,s,solver,pars)
+% This solver solves compressive sensing (CS) in one of the following forms:
 %
-%         min  (1/2)(x'{Q_0}x)+q_0'x  
-%         s.t. (1/2)x'*Qi{i}*x+qi(:,i)'*x+ci(i)<=0, i = 1,...,k 
-%                                 ineqA*x-ineqb<=0 
-%                                      eqA*x-eqb=0 
-%                                        lb<=x<=ub 
-%                                       ||x||_0<=s 
-% where Qi = {Qi{1},...,Qi{k}}, Qi{i} \in R^{n-by-n}, qi \in R^{n-by-k},  ci \in R^{k}
-%       ineqA \in R^{m1-by-n},  ineqb \in R^{m1} 
-%       eqA   \in R^{m2-by-n},  eqb   \in R^{m2}
-%       s << n
-
-%---------------------------------------------------------------------------------------------------           
+% 1) The sparsity constrained compressive sensing (SCCS): 
+%
+%         min_{x\in R^n} 0.5||Ax-b||^2  s.t. ||x||_0<=s
+%
+% 2) The L0 regularized compressive sensing (LqCS)
+%
+%         min_{x\in R^n} 0.5||Ax-b||^2 + lambda * ||x||_q^q,  0<=q<1 
+%
+% 3) The reweighted L1-regularized compressive sensing (RLCS)
+%
+%         min_{x\in R^n} 0.5||Ax-b||^2 + lambda||Wx||_1
+%
+% where s << n is the given sparsity and lambda>0 
+%       A\in\R{m by n} the measurement matrix
+%       b\in\R{m by 1} the observation vector 
+%       W\in\R{n by n} is a diagonal matrix to be updated iteratively
+% =========================================================================
 % Inputs:
-%     n:      Dimension of the solution x                                             (required)
-%     s:      Sparsity level of x, an integer between 1 and n-1                       (required)
-%     Q0:     The quadratic objective matrix in R^{n-by-n}                            (required)        
-%     q0:     The quadratic objective vector in R^n                                   (required)
-%     Qi:     The quadratic constraint matrix                                         (optional) 
-%             MUST be a cell array or [], each entry is matrix in R^{n-by-n}           
-%     qi:     The quadratic constraint vector. MUST be a matrix in R^{n-by-k} or []   (optional)           
-%     ci:     The quadratic constraint constant in R, must be a vector or []          (optional)
-%     ineqA:  The linear inequality constraint matrix in R^{m1-by-n}   or []          (optional)
-%     ineqb:  The linear inequality constraint vector in R^{m1}        or []          (optional)
-%     eqA:    The linear equality constraint matrix in R^{m2-by-n}     or []          (optional)
-%     eqb:    The linear equality constraint vector in R^{m2}          or []          (optional)
-%     lb:     The lower bound of x                                                    (optional)
-%     ub:     The upper bound of x                                                    (optional)
-%             NOTE: 0 must in [lb ub]
-%     pars:   Parameters are all OPTIONAL
-%             pars.x0       -- Initial point of x                                     (default zeros(n,1))
-%             pars.dualquad -- Initial point of mu for quadratic constraints          (default zeros(k,1))
-%             pars.dualineq -- Initial point of dual variable for linear inequalities (default zeros(m1,1))
-%             pars.dualeq   -- Initial point of dual variable for linear equalities   (default zeros(m2,1))
-%             pars.dualbd   -- Initial point of nu  for bound/box constraints         (default zeros(n,1))
-%             pars.tau      -- A positive scalar                                      (default 1)
-%                              NOTE: tuning a proper tau may yield better solutions     
-%             pars.itlser   -- Maximum nonumber of line search                        (default 5)
-%             pars.itmax    -- Maximum nonumber of iteration                          (default 10000)
-%             pars.show     -- Results shown at each iteration if pars.show=1         (default 1)
-%                              Results not shown at each iteration if pars.show=0
-%             pars.tol      -- Tolerance of the halting condition                     (default 1e-6)
-%
-% Outputs:
-%     Out.sol:           The sparse solution x
-%     Out.sparsity:      Sparsity level of Out.sol
-%     Out.error:         Error used to terminate this solver
-%     Out.time           CPU time
-%     Out.iter:          Number of iterations
-%     Out.obj:           Objective function value at Out.sol
-%---------------------------------------------------------------------------------------------------
+%   A  :     The measurement matrix, A\in\R{m by n}              (REQUIRED)
+%   At :     The transpose of A and can be [] if A is a matrix   (REQUIRED)
+%            But At is REQUIRED if A is a function handle 
+%            i.e., A*x = A(x); A'*y = At(y); 
+%   b:       The observation vector  b\in\R{m by 1}              (REQUIRED)
+%   n:       Dimension of the solution x,                        (REQUIRED)
+%   s:       The sparsity level, if unknown, put it as []        (REQUIRED)
+%   solver:  A text string, can be one of                        (REQUIRED)
+%            {'NHTP','GPNP','PSNP','NL0R','IIHT','MILR1'}
+%           --------------------------------------------------------------------------------
+%                    |  'NHTP'   |  'GPNP'   |  'PSNP'   |  'NL0R'   |  'IIHT'   |  'MIRL1'   
+%           --------------------------------------------------------------------------------
+%           Model    |   SCCS    |   SCCS    |   LqCS    |   L0CS    |   SCCS    |   RLCS     
+%           Method   | 2nd-order | 2nd-order | 2nd-order | 2nd-order | 1st-order | 1st-order  
+%           Sparsity | required  | required  |  no need  |  no need  | required  |  no need
+%           --------------------------------------------------------------------------------             
+%   pars  : pars.x0    --  Starting point of x (default, zeros(n,1))
+%           pars.eta   --  A positive scalar for 'NHTP'        (default, 1)                       
+%           pars.disp  --  Results of each step are showed or not (default,1)
+%           pars.maxit --  Maximum number of iterations       (default,2000) 
+%           pars.tol   --  Tolerance of the halting condition (default,1e-6)
+%           ------------------Particular for PSNP -------------------------
+%           pars.q     --  Decide Lq norm                   (default,  0.5)  
+%           pars.lambda--  An initial penalty parameter     (default,  0.1)
+%           pars.obj   --  A predefined lower bound of f(x),(default,1e-20)
+%           pars.rate  --  A positive scalar to adjust lam, (default,  0.5) 
+%           ------------------Particular for NL0R -------------------------
+%           pars.tau   --  A positive scalar for 'NL0R'     (default,    1)  
+%           pars.lambda--  An initial penalty parameter     (default,  0.1)
+%           pars.obj   --  A predefined lower bound of f(x),(default,1e-20)
+%           pars.rate  --  A positive scalar to adjust lam, (default,  0.5) 
+%           ------------------Particular for IIHT -------------------------
+%           pars.neg   --  Compute SCCS (default, 0)
+%                          Compute SCCS with a non-negative constraint,x>=0
+% =========================================================================
 ```
 
 <div style="text-align:justify;">
-Below is a demonstration of the solver applied to a sparse portfolio selection problem. The parameters in $\texttt{pars}$ are optional; however, specifying certain ones can enhance the solver's performance and solution quality.
+Below is a demonstration of how CSpack can be used to solve the problem. You simply need to input the data $(\mathbf{A}, \mathbf{b}, n)$ (in some cases, you may need to use the transpose $\mathbf{A}^\top$ if $\mathbf{A}$ is a function handle), and select one solver from {'NHTP', 'GPNP', 'IIHT', 'PSNP', 'NL0R', 'MIRL1'}. If you choose one of the first three solvers, you will also need to specify the sparsity level $s$. The parameters in $\texttt{pars}$ are optional, but setting certain ones can improve the solver's performance and the quality of the solution.
 </div>
 
 <p style="line-height: 1;"></p>
 
 ```ruby
-% demon sparse portfolio selection problems
-clc; clear all; close all;  addpath(genpath(pwd));
+clc; clear; close all; addpath(genpath(pwd));
 
-n     = 1000;
-s     = 10;
+n       = 10000;  
+m       = ceil(0.25*n); 
+s       = ceil(0.05*n); 
 
-B     = 0.01 * rand(ceil(n/4),n);
-D     = diag(0.01*rand(n,1));
-Q0    = 2*( B'*B + D);
-q0    = zeros(n,1); 
-Qi    = cell(1,1);
-Qi{1} = 2*D;
-qi    = zeros(n,1);
-ci    = -0.001;
-ineqA = -0.5*randn(1,n);
-ineqb = -0.002;
-eqA   = ones(1,n);
-eqb   = 1;
-lb    = 0;
-ub    = 0.3;
-    
-pars.x0       = ((lb+ub)/2).*ones(n,1);
-pars.tau      = 1; % decrease this value if the algorithm do not converge
-pars.dualquad = 0*ones(length(ci));
-pars.dualineq = 0.001*ones(length(ineqb)); 
-pars.dualeq   = 0.001*ones(length(eqb));
-Out           = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars);
+T       = randperm(n,s);  
+xopt    = zeros(n,1);
+xopt(T) = (0.1+rand(s,1)).*sign(randn(s,1));  
+A       = randn(m,n)/sqrt(m);   
+b       = A(:,T)*xopt(T)+0.01*randn(m,1);  
+
+t       = 2; 
+solver  = {'NHTP', 'GPNP', 'IIHT', 'PSNP', 'NL0R', 'MIRL1'};
+out     = CSsolver(A,[],b,n,s,solver{t}); 
+
+fprintf(' Objective of xopt:       %.2e\n', norm(A*xopt-b)^2/2);
+fprintf(' Objective of out.sol:    %.2e\n', out.obj);
+fprintf(' Sparsity of out.sol:     %2d\n', nnz(out.sol));
+fprintf(' Computational time:      %.3fsec\n',out.time); 
 ```
  
