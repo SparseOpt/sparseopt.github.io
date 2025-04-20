@@ -152,7 +152,7 @@ T       = randperm(n,s);
 xopt    = zeros(n,1);
 xopt(T) = (0.1+rand(s,1)).*sign(randn(s,1));  
 A       = randn(m,n)/sqrt(m);   
-b       = A(:,T)*xopt(T)+0.01*randn(m,1);  
+b       = A(:,T)*xopt(T)+0.00*randn(m,1);  
 
 t       = 2; 
 solver  = {'NHTP', 'GPNP', 'IIHT', 'PSNP', 'NL0R', 'MIRL1'};
