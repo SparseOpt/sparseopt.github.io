@@ -38,24 +38,24 @@ Compressive sensing (CS) problems aim to recover a signal $\mathbf{x}^*\in\mathb
 <div style="text-align:justify;">
 where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, $\mathbf{b}\in\mathbb{R}^{m}$ is the observation, and $\boldsymbol{\epsilon}\in\mathbb{R}^{n}$ is the noise. To recover the signal, the folowing optimzation models are freguently explored:
 </div>      
-- Sparsity constrained model
+- Sparsity constrained CS
 \begin{equation}
-\min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2,~~~\textrm{s.t.}~ \parallel\mathbf{x} \parallel_0\leq s \tag{SCM}
+\min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2,~~~\textrm{s.t.}~ \parallel\mathbf{x} \parallel_0\leq s \tag{SCCS}
 \end{equation}
-- $L_q (q\in[0,1))$ norm regularized model
+- $L_q (q\in[0,1))$ norm regularized CS
 \begin{equation}
-\min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2+\lambda \parallel\mathbf{x} \parallel_q^q \tag{LqRM}
+\min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2+\lambda \parallel\mathbf{x} \parallel_q^q \tag{LqRCS}
 \end{equation}
-- Weighted L1 norm regularized model
+- Reweighted L1 norm regularized CS
 \begin{equation}
-\min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2+\lambda \parallel \mathbf{W} \mathbf{x} \parallel_1 \tag{WL1R}
+\min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2+\lambda \parallel \mathbf{W} \mathbf{x} \parallel_1 \tag{RL1CS}
 \end{equation}
 <div style="text-align:justify;">
 where $\parallel\mathbf{x}\parallel_q^q=\sum_i |x_i|^q$ denotes the $\ell_q$-norm, in particular, $\parallel\mathbf{x}\parallel_0:=\parallel\mathbf{x}\parallel_0^0$ denotes the $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$,  $\lambda>0$ is the penalty parameter, and $\mathbf{W}$ is a diagonal matrix with positive diagonal entrices.
 </div> 
 ---
 <div style="text-align:justify;">
-The package can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\CSpack.zip" target="_blank">CSpack</a>, which provides 6 solvers from the following papers, where <b style="font-size:14px;color:#777777">NHTP</b>,<b style="font-size:14px;color:#777777">GPSP</b>, and <b style="font-size:14px;color:#777777">IIHT</b> are designed to solve (SCM), <b style="font-size:14px;color:#777777">PSNP</b> is designed to solve (LqRM) with  $q\in[0,1)$,  <b style="font-size:14px;color:#777777">NL0R</b> is designed to solve (L0RM) with  $q=0$, and <b style="font-size:14px;color:#777777">MIRL1</b> is designed to solve (WL1R).
+The package can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\CSpack.zip" target="_blank">CSpack</a>, which provides 6 solvers from the following papers, where <b style="font-size:14px;color:#777777">NHTP</b>,<b style="font-size:14px;color:#777777">GPSP</b>, and <b style="font-size:14px;color:#777777">IIHT</b> are designed to solve (SCCS), <b style="font-size:14px;color:#777777">PSNP</b> is designed to solve (LqRCS) with  $q\in[0,1)$,  <b style="font-size:14px;color:#777777">NL0R</b> is designed to solve (L0RCS) with  $q=0$, and <b style="font-size:14px;color:#777777">MIRL1</b> is designed to solve (RL1CS).
 </div>  
 > <b style="font-size:14px;color:#777777">NHTP</b> - <span style="font-size: 14px"> S Zhou, N Xiu, and H Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, J Mach Learn Res, 22:1-45, 2021. </span>
 <br><b style="font-size:14px;color:#777777">GPSP</b> - <span style="font-size: 14px"> S Zhou, Gradient projection Newton pursuit for sparsity constrained optimization, Appl Comput Harmon Anal, 61:75-100, 2022. </span>
@@ -83,7 +83,7 @@ function out = CSsolver(A,At,b,n,s,solver,pars)
 %
 %         min_{x\in R^n} 0.5||Ax-b||^2 + lambda * ||x||_q^q,  0<=q<1 
 %
-% 3) The reweighted L1-regularized compressive sensing (RLCS)
+% 3) The reweighted L1-regularized compressive sensing (RL1CS)
 %
 %         min_{x\in R^n} 0.5||Ax-b||^2 + lambda||Wx||_1
 %
@@ -102,31 +102,35 @@ function out = CSsolver(A,At,b,n,s,solver,pars)
 %   s:       The sparsity level, if unknown, put it as []        (REQUIRED)
 %   solver:  A text string, can be one of                        (REQUIRED)
 %            {'NHTP','GPNP','PSNP','NL0R','IIHT','MILR1'}
+%
 %           --------------------------------------------------------------------------------
 %                    |  'NHTP'   |  'GPNP'   |  'PSNP'   |  'NL0R'   |  'IIHT'   |  'MIRL1'   
 %           --------------------------------------------------------------------------------
-%           Model    |   SCCS    |   SCCS    |   LqCS    |   L0CS    |   SCCS    |   RLCS     
+%           Model    |   SCCS    |   SCCS    |   LqRCS   |   L0RCS   |   SCCS    |   RL1CS     
 %           Method   | 2nd-order | 2nd-order | 2nd-order | 2nd-order | 1st-order | 1st-order  
 %           Sparsity | required  | required  |  no need  |  no need  | required  |  no need
-%           --------------------------------------------------------------------------------             
-%   pars  : pars.x0    --  Starting point of x (default, zeros(n,1))
-%           pars.eta   --  A positive scalar for 'NHTP'        (default, 1)                       
-%           pars.disp  --  Results of each step are showed or not (default,1)
-%           pars.maxit --  Maximum number of iterations       (default,2000) 
-%           pars.tol   --  Tolerance of the halting condition (default,1e-6)
-%           ------------------Particular for PSNP -------------------------
-%           pars.q     --  Decide Lq norm                   (default,  0.5)  
-%           pars.lambda--  An initial penalty parameter     (default,  0.1)
-%           pars.obj   --  A predefined lower bound of f(x),(default,1e-20)
-%           pars.rate  --  A positive scalar to adjust lam, (default,  0.5) 
-%           ------------------Particular for NL0R -------------------------
-%           pars.tau   --  A positive scalar for 'NL0R'     (default,    1)  
-%           pars.lambda--  An initial penalty parameter     (default,  0.1)
-%           pars.obj   --  A predefined lower bound of f(x),(default,1e-20)
-%           pars.rate  --  A positive scalar to adjust lam, (default,  0.5) 
-%           ------------------Particular for IIHT -------------------------
-%           pars.neg   --  Compute SCCS (default, 0)
-%                          Compute SCCS with a non-negative constraint,x>=0
+%           --------------------------------------------------------------------------------  
+%
+%   pars  : ----------------For all solvers -------------------------------
+%           pars.x0     --  Starting point of x       (default, zeros(n,1))                     
+%           pars.disp   --  =1, show results for each step      (default,1)
+%                           =0, not show results for each step
+%           pars.maxit  --  Maximum number of iterations     (default, 2e3) 
+%           pars.tol    --  Tolerance of stopping criteria   (default,1e-6)
+%           ----------------Particular for NHTP ---------------------------
+%           pars.eta    --  A positive scalar for 'NHTP'       (default, 1)  
+%                           Tuning pars.eta may improve solution quality.
+%           ----------------Particular for PSNP ---------------------------
+%           pars.q      --  Decide Lq norm                  (default,  0.5)  
+%           pars.lambda --  An initial penalty parameter    (default,  0.1)
+%           pars.obj    --  A predefined lower bound of f(x)(default,1e-20)
+%           ----------------Particular for NL0R ---------------------------
+%           pars.tau    --  A positive scalar for 'NL0R'    (default,    1)  
+%           pars.lambda --  An initial penalty parameter    (default,  0.1)
+%           pars.obj    --  A predefined lower bound of f(x)(default,1e-20)
+%           ----------------Particular for IIHT ---------------------------
+%           pars.neg    --  =0, Compute SCCS without x>=0       (default,0)
+%                           =1, Compute SCCS with x>=0
 % =========================================================================
 ```
 
