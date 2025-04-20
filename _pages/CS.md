@@ -38,7 +38,7 @@ Compressive sensing (CS) problems aim to recover a signal $\mathbf{x}^*\in\mathb
 <div style="text-align:justify;">
 where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, $\mathbf{b}\in\mathbb{R}^{m}$ is the observation, and $\boldsymbol{\epsilon}\in\mathbb{R}^{n}$ is the noise. To recover the signal, the folowing optimzation models are freguently explored:
 </div>      
-- Sparsity contrained model
+- Sparsity constrained model
 \begin{equation}
 \min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2,~~~\textrm{s.t.}~ \parallel\mathbf{x} \parallel_0\leq s \tag{SCM}
 \end{equation}
