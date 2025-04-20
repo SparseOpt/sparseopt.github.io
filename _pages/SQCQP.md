@@ -63,7 +63,7 @@ As shown below, the solver inputs are described in details. Note that input $\te
 
 ```ruby
 function Out = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars)
-
+%---------------------------------------------------------------------------------------------------
 % This code aims at solving the sparse QCQP in the form of
 %
 %         min  (1/2)(x'{Q_0}x)+q_0'x  
