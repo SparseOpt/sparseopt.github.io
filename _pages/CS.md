@@ -32,12 +32,19 @@ Compressive sensing (CS) problems aim to recover a signal $\mathbf{x}^*\in\mathb
 </div>
 
 \begin{equation}
-\mathbf{b}=\mathbf{A}\mathbf{x} + \boldsymbol{\epsilon} \tag{CS}
-\end{equation}
+\mathbf{b} = \mathbf{A}\mathbf{x} + \boldsymbol{\epsilon} \tag{CS}
+\end{equation} 
 
 <div style="text-align:justify;">
-where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, $\mathbf{b}\in\mathbb{R}^{m}$ is the observation, and $\boldsymbol{\epsilon}\in\mathbb{R}^{n}$ is the noise. 
+where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, $\mathbf{b}\in\mathbb{R}^{m}$ is the observation, and $\boldsymbol{\epsilon}\in\mathbb{R}^{n}$ is the noise. T哦recover the signal, the folowing optimzation models are freguently explored:
 </div>      
+
+- Sparsity contrained model
+\begin{equation}
+\min_{\mathbf{x}\in\mathbb{R}^{n}}~\mathbf{A}\mathbf{x}-\mathbf{b},~~~\textrm{s.t.}~\leq s \tag{CS}
+\end{equation}
+- Lq norm regularized model
+- Weighted L1 norm regularized model
 
 ---
 <div style="text-align:justify;">
