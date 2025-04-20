@@ -163,4 +163,3 @@ fprintf(' Objective of out.sol:    %.2e\n', out.obj);
 fprintf(' Sparsity of out.sol:     %2d\n', nnz(out.sol));
 fprintf(' Computational time:      %.3fsec\n',out.time); 
 ```
- 
