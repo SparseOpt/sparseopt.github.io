@@ -33,12 +33,11 @@ a:active {
 <!--For more information, please refer to <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="" target="_blank">menu-of-SparseOpt</a>. -->
 The current version of the toolbox includes the following solvers:
 </div>
- 
 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io/SCO/" target="_blank">SCO</a> - Sparsity-constrained optimization solvers.
 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io/SRO/" target="_blank">SRO</a> - Sparsity-regularized optimization solvers.
 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io/SQCQP/" target="_blank">SQCQP</a> -Sparse quadratically constrained quadratic programming solver.
-- <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io/CS/" target="_blank">CS</a> -Compressive sensing solvers.
 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io/SFCO/" target="_blank">SFCO</a> -Step function-constrained optimization solvers.
 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io/SFRO/" target="_blank">SFRO</a> -Step function-regularized optimization solvers.
+- <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io/CS/" target="_blank">CS</a> -Compressive sensing solvers.
+- <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">1BCS</a> -One-bit compressive sensing solver.
 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io/SSVM/" target="_blank">SSVM</a> -Sparse support vector machine solvers.
-- <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">1BCS</a> -One-bit compressive sensing solvers.
