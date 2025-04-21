@@ -42,7 +42,7 @@ where $\boldsymbol{\Phi}\in\mathbb{R}^{m\times n}$ is the sensing matrix, both $
 \min_{\mathbf{x}\in\mathbb{R}^{n},\mathbf{y}\in\mathbb{R}^{m}}~  \parallel\mathbf{A}\mathbf{x}+\mathbf{y} -\epsilon \parallel^2 + \eta \parallel \mathbf{x} \parallel^2,~~~\textrm{s.t.}~ \parallel\mathbf{x} \parallel_0\leq s,~ \parallel \mathbf{y}_+\parallel_0\leq k \tag{DSCO}
 \end{equation}
 <div style="text-align:justify;">
-where $\mathbf{A} = \mathrm{Diag}(\mathbf{c}) \boldsymbol{\Phi}$, $\epsilon, \eta>0$ are two given scalar, and $\mathbf{y}_+=(\max\{0,y_1\},\ldots,\max\{0,y_m\})^\top$.
+where $\mathbf{A} = \mathrm{Diag}(\mathbf{c}) \boldsymbol{\Phi}$, $s\ll n$, $k\ll m$, $\epsilon>0$, $\eta>0$, and $\mathbf{y}_+=(\max\{0,y_1\},\ldots,\max\{0,y_m\})^\top$.
 </div> 
   
 ---
