@@ -25,18 +25,18 @@ a:active {
 
  
 
-##  <span style="color:#8C8C8C"> Compressive sensing</span> 
+##  <span style="color:#8C8C8C"> One-bit compressive sensing</span> 
 ---
 <div style="text-align:justify;">
-Compressive sensing (CS) problems aim to recover a signal $\mathbf{x}^*\in\mathbb{R}^{n}$ from the following linear system,
+One-bit compressive sensing (1BCS) problems aim to recover a signal $\mathbf{x}^*\in\mathbb{R}^{n}$ from the following linear system,
 </div>
 
 \begin{equation}
-\mathbf{b} = \mathbf{A}\mathbf{x} + \boldsymbol{\epsilon} \tag{CS}
+\mathbf{b} = \mathrm{sign}(\mathbf{A}\mathbf{x} + \boldsymbol{\epsilon}) \tag{1bCS}
 \end{equation} 
 
 <div style="text-align:justify;">
-where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, $\mathbf{b}\in\mathbb{R}^{m}$ is the observation, and $\boldsymbol{\epsilon}\in\mathbb{R}^{n}$ is the noise. To recover the signal, the folowing optimzation models are freguently explored:
+where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, $\mathbf{b}\in\{-1,1\}^{m}$ is the observation, $\boldsymbol{\epsilon}\in\mathbb{R}^{n}$ is the noise, $\mathrm{sign}(t)$ is the sign function of $t$ defined by $\mathrm{sign}(t)=1$ is $t>0$ and $\mathrm{sign}(t)=-1$ otherwise. Then $\mathrm{sign}(\mathbf{x})=(\mathrm{sign}(x_1),\ldots,\mathrm{sign}(x_n))^\top$. To recover the signal, the folowing optimzation models are freguently explored:
 </div>      
 - Sparsity constrained CS
 \begin{equation}
