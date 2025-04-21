@@ -36,7 +36,7 @@ One-bit compressive sensing (1BCS) problems aim to recover a signal $\mathbf{x}^
 \end{equation} 
 
 <div style="text-align:justify;">
-where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, $\mathbf{b}\in\{-1,1\}^{m}$ is the observation, $\boldsymbol{\epsilon}\in\mathbb{R}^{n}$ is the noise, $\mathrm{sign}(t)$ is the sign function of $t$ defined by $\mathrm{sign}(t)=1$ is $t>0$ and $\mathrm{sign}(t)=-1$ otherwise. Then $\mathrm{sign}(\mathbf{x})=(\mathrm{sign}(x_1),\ldots,\mathrm{sign}(x_n))^\top$. To recover the signal, the folowing optimzation models are freguently explored:
+where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, $\mathbf{b}\in\{-1,1\}^{m}$ is the observation, $\boldsymbol{\epsilon}\in\mathbb{R}^{n}$ is the noise, $\mathrm{sign}(t)$ is the sign function of $t$ defined by $\mathrm{sign}(t)=1$ if $t>0$ and $\mathrm{sign}(t)=-1$ otherwise. Then $\mathrm{sign}(\mathbf{x})=(\mathrm{sign}(x_1),\ldots,\mathrm{sign}(x_n))^\top$. To recover the signal, the folowing optimzation models are freguently explored:
 </div>      
 - Sparsity constrained CS
 \begin{equation}
