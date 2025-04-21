@@ -36,7 +36,7 @@ a:active {
 <div style="text-align:justify;">
 where  $f:\mathbb{R}^{K}\rightarrow \mathbb{R}$ and $\mathbf{G}:\mathbb{R}^{K}\rightarrow \mathbb{R}^{M \times N}$ are (preferably twice) continuously differentiable functions, $\Omega\subseteq\mathbb{R}^{K}$ is a closed
 and convex set, $s\ll N$ is an integer, and $\|\mathbf{Z}\|_0^+$ counts the number of columns in  $\mathbf{Z}$ with positive maximum values, namely, 
-  \begin{equation}\|\mathbf{Z}\|_0^+=\sum_{j=1}^N \ell_{0/1}(\max_{i=1,2,\ldots,M} Z_{ij})\nonumber\end{equation}
+  \begin{equation}\|\mathbf{Z}\|_0^+=\sum_{j=1}^N \ell_{0/1}\left(\max_{i=1,2,\ldots,M} Z_{ij}\right)\nonumber\end{equation}
   Here, $\ell_{0/1}(t)$ is the step function (or 0/1 loss function) defined by $\ell_{0/1}(t)=1$ if $t>0$ and $\ell_{0/1}(t)=0$ otherwise. 
 </div>
  
@@ -48,7 +48,7 @@ The solver can be download here - <a style="font-size: 16px; font-weight: bold;c
 which was developed from the following paper:
 </div>
 
-> <span style="font-size: 14px"> S Zhou, L Pan, N Xiu,  and G  Li, 0/1 constrained optimization solving sample average approximation for chance constrained programming,  Math Oper Res, 2024. </span>
+> <span style="font-size: 14px"> S Zhou, L Pan, N Xiu,  and G  Li, A 0/1 constrained optimization solving sample average approximation for chance constrained programming,  Math Oper Res, 2024. </span>
 
 <!--
 - <a style="font-size: 14px;color:#000000" href="https://jmlr.org/papers/v22/19-026.html" target="_blank"> S Zhou, N Xiu and H  Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, *J Mach Learn Res*, 22:1−45, 2021.</a>
