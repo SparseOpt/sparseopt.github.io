@@ -22,10 +22,10 @@ main:
   - title: <span style="color:#015697"><b>CS</b></span>
     url: /CS/ 
     
-   - title: <span style="color:#015697"><b>1BCS</b></span>
+  - title: <span style="color:#015697"><b>1BCS</b></span>
     url: /1BCS/   
     
-   - title: <span style="color:#015697"><b>SSVM</b></span>
+  - title: <span style="color:#015697"><b>SSVM</b></span>
     url: /SSVM/   
     
   - title: <span style="color:#015697"><b>Contact Us</b></span>
