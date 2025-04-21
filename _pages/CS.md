@@ -42,7 +42,7 @@ where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, $\mathbf{b}\i
 \begin{equation}
 \min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2,~~~\textrm{s.t.}~ \parallel\mathbf{x} \parallel_0\leq s \tag{SCCS}
 \end{equation}
-- $L_q (q\in[0,1))$ norm regularized CS
+- $L_q, 0\leq q <1$ norm regularized CS
 \begin{equation}
 \min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2+\lambda \parallel\mathbf{x} \parallel_q^q \tag{LqRCS}
 \end{equation}
