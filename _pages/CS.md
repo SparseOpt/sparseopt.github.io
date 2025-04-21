@@ -32,11 +32,11 @@ Compressive sensing (CS) problems aim to recover a sparse signal $\mathbf{x}^*\i
 </div>
 
 \begin{equation}
-\mathbf{b} = \mathbf{A}\mathbf{x} + \boldsymbol{\epsilon} \tag{CS}
+\mathbf{b} = \mathbf{A}\mathbf{x} + \boldsymbol{\varepsilon} \tag{CS}
 \end{equation} 
 
 <div style="text-align:justify;">
-where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, $\mathbf{b}\in\mathbb{R}^{m}$ is the observation, and $\boldsymbol{\epsilon}\in\mathbb{R}^{n}$ is the noise. To recover the signal, the folowing optimzation models are freguently explored:
+where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, $\mathbf{b}\in\mathbb{R}^{m}$ is the observation, and $\boldsymbol{\varepsilon}\in\mathbb{R}^{n}$ is the noise. To recover the signal, the folowing optimzation models are freguently explored:
 </div>      
 - Sparsity constrained CS
 \begin{equation}
