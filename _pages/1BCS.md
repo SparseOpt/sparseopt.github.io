@@ -53,11 +53,13 @@ where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, $\mathbf{b}\i
 <div style="text-align:justify;">
 where $\parallel\mathbf{x}\parallel_q^q=\sum_i |x_i|^q$ denotes the $\ell_q$-norm, in particular, $\parallel\mathbf{x}\parallel_0:=\parallel\mathbf{x}\parallel_0^0$ denotes the $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$,  $\lambda>0$ is the penalty parameter, and $\mathbf{W}$ is a diagonal matrix with positive diagonal entrices.
 </div> 
+  
 ---
 <div style="text-align:justify;">
 The solver can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/GPSP" target="_blank">GPSP</a>, which was developed from the following paper:
 </div>  
 >  <span style="font-size: 14px"> S Zhou, Z Luo, N Xiu, and G Li, Computing one-bit compressive sensing via double-sparsity constrained optimization, IEEE Tran Signal Process, 70:1593-1608, 2022. </span>
+  
 ---
 <div style="text-align:justify;">
 The citation for GPSP is shown below. Here, inputs $(\texttt{A},\texttt{b},\texttt{n},\texttt{solver})$ are required. If $\texttt{A}$ is a function handle, then $\texttt{At}$ is required. If $\texttt{A}$ is a matrix,  $\texttt{At}$ can be $\texttt{A}'$ or $\texttt{[]}$. If $\texttt{solver}$ is one of $\texttt{\{`NHTP',`GPNP',`IIHT'\}}$, then $\texttt{s}$ is required. If $\texttt{solver}$ is one of $\texttt{\{`PSNP',`NL0R',`MILR1'\}}$, then $\texttt{s}$ can be $\texttt{[]}$.
