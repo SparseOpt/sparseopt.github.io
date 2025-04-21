@@ -25,20 +25,17 @@ a:active {
 
  
 
-##  <span style="color:#8C8C8C"> Step function-constrained optimization</span> 
+##  <span style="color:#8C8C8C"> Step function-regularized optimization</span> 
 ---
 
 <p style="line-height: 1;"></p>
 \begin{equation}
-\min_{\mathbf{x}\in\mathbb{R}^{K}} ~~  f(\mathbf{x}),~~~~ \mbox{s.t.}~~ \parallel\mathbf{G}(\mathbf{x})\parallel_0^+\leq s,~\mathbf{x}\in \Omega  \tag{SFCO}
+\min_{\mathbf{x}\in\mathbb{R}^{n}} ~~  f(\mathbf{x}) + \lambda \parallel(\mathbf{A}\mathbf{x}+\mathbf{b})_+\parallel_0  \tag{SFRO}
 \end{equation}
 
 <div style="text-align:justify;">
-where  $f:\mathbb{R}^{K}\rightarrow \mathbb{R}$ and $\mathbf{G}:\mathbb{R}^{K}\rightarrow \mathbb{R}^{M \times N}$ are (preferably twice) continuously differentiable functions, $\Omega\subseteq\mathbb{R}^{K}$ is a closed
-and convex set, $s\ll N$ is an integer, and $\|\mathbf{Z}\|_0^+$ counts the number of columns in  $\mathbf{Z}$ with positive maximum values, namely, 
-  \begin{equation}\|\mathbf{Z}\|_0^+=\sum_{j=1}^N \ell_{0/1}\left(\max_{i=1,2,\ldots,M} Z_{ij}\right)\nonumber\end{equation}
-  Here, $\ell_{0/1}(t)$ is the step function (or 0/1 loss function) defined by $\ell_{0/1}(t)=1$ if $t>0$ and $\ell_{0/1}(t)=0$ otherwise. In particular, when $M=1$, it reduces to
-  \begin{equation}\|\mathbf{z}\|_0^+=\sum_{j=1}^N \ell_{0/1}\left(z_{j}\right)=\|\max\{\mathbf{0},\mathbf{z}\}\|_0\nonumber\end{equation}
+where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a twice continuously differentiable function,  $\mathbf{A}\in\mathbb{R}^{m\times n}$ is a matrix, $\mathbf{b}\in\mathbb{R}^{m}$ is a vector, $\lambda$ is a given scalar,  $(\mathbf{z})_+=(\max\{0,z_1\},\ldots,\max\{0,z_m\})^\top$, and  $\|\mathbf{z}\|_0$ is the so-called $\ell_0$ norm that counts the number of nonzero entries in $\mathbf{z}$. The regularization term is related to the step function (or 0/1 loss function) defined by $\ell_{0/1}(t)=1$ if $t>0$ and $\ell_{0/1}(t)=0$ otherwise. Therefore,
+  \begin{equation}\|\mathbf{z}\|_0^+=\sum_{i=1}^m \ell_{0/1}\left(z_{i}\right)=\|(\mathbf{z})_+\|_0\nonumber\end{equation}
 </div>
  
 <!-- ## <span style="color:#8C8C8C"> The solver and its demonstration </span> -->
