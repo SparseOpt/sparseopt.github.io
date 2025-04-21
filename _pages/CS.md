@@ -28,7 +28,7 @@ a:active {
 ##  <span style="color:#8C8C8C"> Compressive sensing</span> 
 ---
 <div style="text-align:justify;">
-Compressive sensing (CS) problems aim to recover a signal $\mathbf{x}^*\in\mathbb{R}^{n}$ from the following linear system,
+Compressive sensing (CS) problems aim to recover a sparse signal $\mathbf{x}^*\in\mathbb{R}^{n}$ from the following linear system,
 </div>
 
 \begin{equation}
