@@ -34,7 +34,7 @@ a:active {
 The current version of the toolbox includes the following solvers:
 </div>
  
-- Sparsty-constrained optimization (SCO) solvers.
+- Sparsity-constrained optimization (SCO) solvers.
 - Sparsity-regularized optimization (SRO) solvers.
 - Sparse quadratically constrained quadratic programming (SQCQP) solver.
 - Compressive sensing (CS) solvers.
