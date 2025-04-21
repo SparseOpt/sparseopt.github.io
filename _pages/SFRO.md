@@ -55,7 +55,7 @@ which was developed from the following paper:
 
 ---
 <div style="text-align:justify;">  
-Note that <b style="font-size:14px;color:#777777">NM01</b> is a second-order method, which require the gradient and Hessian of $f$. Below is a demonstration of how to define the gradient and Hessian for <b style="font-size:14px;color:#777777">NHTP</b>.
+Note that <b style="font-size:14px;color:#777777">NM01</b> is a second-order method, which require the gradient and Hessian of $f$. Below is a demonstration of how to define the gradient and Hessian for the solver.
 </div>
 
 <p style="line-height: 1;"></p>
