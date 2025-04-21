@@ -16,6 +16,9 @@ main:
   - title: <span style="color:#015697"><b>CS</b></span>
     url: /CS/ 
     
+  - title: <span style="color:#015697"><b>SFCO</b></span>
+    url: /SFCO/ 
+    
   - title: <span style="color:#015697"><b>Contact Us</b></span>
     url: /teaching/   
     
