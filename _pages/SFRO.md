@@ -35,7 +35,7 @@ a:active {
 
 <div style="text-align:justify;">
 where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a twice continuously differentiable function,  $\mathbf{A}\in\mathbb{R}^{m\times n}$ is a matrix, $\mathbf{b}\in\mathbb{R}^{m}$ is a vector, $\lambda$ is a given scalar,  $(\mathbf{z})_+=(\max\{0,z_1\},\ldots,\max\{0,z_m\})^\top$, and  $\|\mathbf{z}\|_0$ is the so-called $\ell_0$ norm that counts the number of nonzero entries in $\mathbf{z}$. The regularization term is related to the step function (or 0/1 loss function) defined by $\ell_{0/1}(t)=1$ if $t>0$ and $\ell_{0/1}(t)=0$ otherwise. Therefore,
-  \begin{equation}\|\mathbf{z}\|_0^+=\sum_{i=1}^m \ell_{0/1}\left(z_{i}\right)=\|(\mathbf{z})_+\|_0\nonumber\end{equation}
+  \begin{equation}\|(\mathbf{z})_+\|_0=\sum_{i=1}^m \ell_{0/1}\left(z_{i}\right)\nonumber\end{equation}
 </div>
  
 <!-- ## <span style="color:#8C8C8C"> The solver and its demonstration </span> -->
