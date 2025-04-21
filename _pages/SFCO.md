@@ -25,7 +25,7 @@ a:active {
 
  
 
-##  <span style="color:#8C8C8C"> Step function -constrained optimization</span> 
+##  <span style="color:#8C8C8C"> Step function-constrained optimization</span> 
 ---
 
 <p style="line-height: 1;"></p>
@@ -34,7 +34,8 @@ a:active {
 \end{equation}
 
 <div style="text-align:justify;">
-where  $f:\mathbb{R}^{K}\rightarrow \mathbb{R}$ and $\mathbf{G}:\mathbb{R}^{K}\rightarrow \mathbb{R}^{M \times N}$ (preferably twice) continuously differentiable, $s\ll N$ is a given integer, and $\|\mathbf{Z}\|_0^+$ counts the number of columns in  $\mathbf{Z}$ with positive maximum values..
+where  $f:\mathbb{R}^{K}\rightarrow \mathbb{R}$ and $\mathbf{G}:\mathbb{R}^{K}\rightarrow \mathbb{R}^{M \times N}$ (preferably twice) continuously differentiable, $\Omega\subseteq\mathbb{R}^{K}$ is a closed
+and convex set, $s\ll N$ is a given integer, and $\|\mathbf{Z}\|_0^+$ counts the number of columns in  $\mathbf{Z}$ with positive maximum values, namely, $\|\mathbf{Z}\|_0^+=\sum_{j=1}^N \ell_{0/1}(\max_{i=1,2,\ldots,M} Z_{ij})$. Here, $\ell_{0/1}(t)$ is the step function (or 0/1 loss function) which is defined by: $\ell_{0/1}(t)=1$ if $t>0$ and  $\ell_{0/1}(t)=0$ otherwise. 
 </div>
  
 <!-- ## <span style="color:#8C8C8C"> The solver and its demonstration </span> -->
