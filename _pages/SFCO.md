@@ -38,7 +38,7 @@ where  $f:\mathbb{R}^{K}\rightarrow \mathbb{R}$ and $\mathbf{G}:\mathbb{R}^{K}\r
 and convex set, $s\ll N$ is an integer, and $\|\mathbf{Z}\|_0^+$ counts the number of columns in  $\mathbf{Z}$ with positive maximum values, namely, 
   \begin{equation}\|\mathbf{Z}\|_0^+=\sum_{j=1}^N \ell_{0/1}\left(\max_{i=1,2,\ldots,M} Z_{ij}\right)\nonumber\end{equation}
   Here, $\ell_{0/1}(t)$ is the step function (or 0/1 loss function) defined by $\ell_{0/1}(t)=1$ if $t>0$ and $\ell_{0/1}(t)=0$ otherwise. In particular, when $M=1$, it reduces to
-  \begin{equation}\|\mathbf{z}\|_0^+=\sum_{j=1}^N \max\left\{z_{j},0\right\}=\|(\mathbf{z})_+\|_0\nonumber\end{equation}
+  \begin{equation}\|\mathbf{z}\|_0^+=\sum_{j=1}^N \ell_{0/1}\left(z_{j}\right)=\|(\mathbf{z})_+\|_0\nonumber\end{equation}
 </div>
  
 <!-- ## <span style="color:#8C8C8C"> The solver and its demonstration </span> -->
