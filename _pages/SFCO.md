@@ -34,8 +34,7 @@ a:active {
 \end{equation}
 
 <div style="text-align:justify;">
-where  $f:\mathbb{R}^{K}\rightarrow \mathbb{R}$ and $\mathbf{G}:\mathbb{R}^{K}\rightarrow \mathbb{R}^{M \times N}$ are (preferably twice) continuously differentiable functions, $\Omega\subseteq\mathbb{R}^{K}$ is a closed
-and convex set, $s\ll N$ is an integer, and $\|\mathbf{Z}\|_0^+$ counts the number of columns in  $\mathbf{Z}\in\mathbb{R}^{M \times N}$ having positive entries, i.e., 
+where $\mathbf{G}(\mathbf{x})=[G_{ij}(\mathbf{x})]_{1\leq i\leq M, 1\leq j \leq N}$, both $f:\mathbb{R}^{K}\rightarrow \mathbb{R}$ and $G_{ij}:\mathbb{R}^{K}\rightarrow \mathbb{R}$ are (preferably twice) continuously differentiable functions, $\Omega\subseteq\mathbb{R}^{K}$ is a closed and convex set, $s\ll N$ is an integer, and $\|\mathbf{Z}\|_0^+$ counts the number of columns in  $\mathbf{Z}\in\mathbb{R}^{M \times N}$ having positive entries, i.e., 
   \begin{equation}\|\mathbf{Z}\|_0^+=\sum_{j=1}^N \ell_{0/1}\left(\max_{i=1,2,\ldots,M} Z_{ij}\right)\nonumber\end{equation}
   Here, $\ell_{0/1}(t)$ is the step function (or 0/1 loss function) defined by $\ell_{0/1}(t)=1$ if $t>0$ and $\ell_{0/1}(t)=0$ otherwise. For the case of $M=1$, let $(\mathbf{z})_+=(\max\{0,z_1\},\ldots,\max\{0,z_N\})^\top$ and  $\parallel\mathbf{z}\parallel_0$ denote the $\ell_0$ norm that counts the number of nonzero entries in $\mathbf{z}$. One can observe that
   \begin{equation}\parallel\mathbf{z}\parallel_0^+=\sum_{j=1}^N \ell_{0/1}\left(z_{j}\right)=\parallel(\mathbf{z})_+\parallel_0\nonumber\end{equation}
