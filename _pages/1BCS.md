@@ -28,7 +28,7 @@ a:active {
 ##  <span style="color:#8C8C8C"> One-bit compressive sensing</span> 
 ---
 <div style="text-align:justify;">
-One-bit compressive sensing (1BCS) problems aim to recover a signal $\mathbf{x}^*\in\mathbb{R}^{n}$ from the following linear system,
+One-bit compressive sensing (1BCS) problems aim to recover a signal $\mathbf{x}^*\in\mathbb{R}^{n}$ from the following system,
 </div>
 
 \begin{equation}
