@@ -66,7 +66,7 @@ The package can be download here - <a style="font-size: 16px; font-weight: bold;
 
 ---
 <div style="text-align:justify;">
-The citation for CSpack is shown below. Here, inputs $(\texttt{A},\texttt{b},\texttt{n},\texttt{solver})$ are required. If $\texttt{A}$ is a function handle, then $\texttt{At}$ is required. If $\texttt{A}$ is a matrix,  $\texttt{At}$ can be $\texttt{A}'$ or $\texttt{[]}$. If $\texttt{solver}$ is one of $\texttt{\{'NHTP','GPNP','IIHT'\}}$, then $\texttt{s}$ is required. If $\texttt{solver}$ is one of $\texttt{\{'PSNP','NL0R','MILR1'\}}$, then $\texttt{s}$ can be $\texttt{[]}$.
+The citation for CSpack is shown below. Here, inputs $(\texttt{A},\texttt{b},\texttt{n},\texttt{solver})$ are required. If $\texttt{A}$ is a function handle, then $\texttt{At}$ is required. If $\texttt{A}$ is a matrix,  $\texttt{At}$ can be $\texttt{A}'$ or $\texttt{[]}$. If $\texttt{solver}$ is one of $\texttt{\{`NHTP',`GPNP',`IIHT'\}}$, then $\texttt{s}$ is required. If $\texttt{solver}$ is one of $\texttt{\{`PSNP',`NL0R',`MILR1'\}}$, then $\texttt{s}$ can be $\texttt{[]}$.
 </div>
 
 <p style="line-height: 1;"></p>
