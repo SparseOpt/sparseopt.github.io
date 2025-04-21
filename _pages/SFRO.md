@@ -42,11 +42,11 @@ where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a twice continuously differen
 
 ---
 <div style="text-align:justify;"> 
-The solver can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/SNSCO" target="_blank">SNSCO</a>,
+The solver can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/NM01" target="_blank">NM01</a>,
 which was developed from the following paper:
 </div>
 
-> <span style="font-size: 14px"> S Zhou, L Pan, N Xiu,  and G  Li, A 0/1 constrained optimization solving sample average approximation for chance constrained programming, Math Oper Res, 2024. </span>
+> <span style="font-size: 14px"> S Zhou, L Pan, N Xiu,  and H Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, SIAM J Optim, 31:3184–3211, 2021. </span>
 
 <!--
 - <a style="font-size: 14px;color:#000000" href="https://jmlr.org/papers/v22/19-026.html" target="_blank"> S Zhou, N Xiu and H  Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, *J Mach Learn Res*, 22:1−45, 2021.</a>
@@ -55,7 +55,7 @@ which was developed from the following paper:
 
 ---
 <div style="text-align:justify;">  
-Note that <b style="font-size:14px;color:#777777">NHTP</b> and <b style="font-size:14px;color:#777777">GPNP</b> are second-order methods, which require the gradient and Hessian of $f$. <b style="font-size:14px;color:#777777">IIHT</b> is a first-order method that only requires the gradient. Below is a demonstration of how to define the gradient and Hessian for <b style="font-size:14px;color:#777777">NHTP</b>.
+Note that <b style="font-size:14px;color:#777777">NM01</b> is a second-order method, which require the gradient and Hessian of $f$. Below is a demonstration of how to define the gradient and Hessian for <b style="font-size:14px;color:#777777">NHTP</b>.
 </div>
 
 <p style="line-height: 1;"></p>
