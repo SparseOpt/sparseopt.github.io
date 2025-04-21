@@ -32,26 +32,17 @@ One-bit compressive sensing (1BCS) problems aim to recover a signal $\mathbf{x}^
 </div>
 
 \begin{equation}
-\mathbf{b} = \mathrm{sign}(\mathbf{A}\mathbf{x} + \boldsymbol{\epsilon}) \tag{1bCS}
+\mathbf{c} = \mathrm{Diag}(\mathbf{h}) \mathrm{sign}(\boldsymbol{\Phi}\mathbf{x} + \boldsymbol{\varepsilon}) \tag{1bCS}
 \end{equation} 
 
 <div style="text-align:justify;">
-where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, $\mathbf{b}\in\{-1,1\}^{m}$ is the observation, $\boldsymbol{\epsilon}\in\mathbb{R}^{n}$ is the noise, $\mathrm{sign}(t)$ is the sign function of $t$ defined by $\mathrm{sign}(t)=1$ if $t>0$ and $\mathrm{sign}(t)=-1$ otherwise. Then $\mathrm{sign}(\mathbf{x})=(\mathrm{sign}(x_1),\ldots,\mathrm{sign}(x_n))^\top$. To recover the signal, the folowing optimzation models are freguently explored:
+where $\boldsymbol{\Phi}\in\mathbb{R}^{m\times n}$ is the sensing matrix, both $\mathbf{c}$ and $\mathbf{h}\in\{-1,1\}^{m}$, $\boldsymbol{\varepsilon}\in\mathbb{R}^{n}$ is the noise, $\mathrm{Diag}(\mathbf{h})$ denotes the diagonal matrix with diagonal entries formed by $\mathbf{h}$, and $\mathrm{sign}(t)$ is the sign function of $t$ defined by $\mathrm{sign}(t)=1$ if $t>0$ and $\mathrm{sign}(t)=-1$ otherwise. Then $\mathrm{sign}(\mathbf{x})=(\mathrm{sign}(x_1),\ldots,\mathrm{sign}(x_n))^\top$. Note that multiplying $\mathrm{Diag}(\mathbf{h})$ means that the sign flips occurs when observed $\mathbf{c}$, making the problem harder. In this model, we assume at most $k$ signs are flipped, namely, $\mathbf{h}$ satisfies $\parallel\mathbf{h}-1\parallel_0\leq k$, where $k$ is a given scalar $\parallel\mathbf{x}\parallel_0$ denotes the $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$. To recover the signal, the folowing double-sparsity constrained optimization (DSCO) model is solved, 
 </div>      
-- Sparsity constrained CS
 \begin{equation}
-\min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2,~~~\textrm{s.t.}~ \parallel\mathbf{x} \parallel_0\leq s \tag{SCCS}
-\end{equation}
-- $L_q, 0\leq q <1$ norm regularized CS
-\begin{equation}
-\min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2+\lambda \parallel\mathbf{x} \parallel_q^q \tag{LqRCS}
-\end{equation}
-- Reweighted L1 norm regularized CS
-\begin{equation}
-\min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2+\lambda \parallel \mathbf{W} \mathbf{x} \parallel_1 \tag{RL1CS}
+\min_{\mathbf{x}\in\mathbb{R}^{n},\mathbf{y}\in\mathbb{R}^{m}}~  \parallel\mathbf{A}\mathbf{x}+\mathbf{y} -\epsilon \parallel^2 + \eqa \parallel \mathbf{x} \parallel^2,~~~\textrm{s.t.}~ \parallel\mathbf{x} \parallel_0\leq s,~ \parallel \mathbf{y}_+\parallel_0\leq k \tag{DSCO}
 \end{equation}
 <div style="text-align:justify;">
-where $\parallel\mathbf{x}\parallel_q^q=\sum_i |x_i|^q$ denotes the $\ell_q$-norm, in particular, $\parallel\mathbf{x}\parallel_0:=\parallel\mathbf{x}\parallel_0^0$ denotes the $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$,  $\lambda>0$ is the penalty parameter, and $\mathbf{W}$ is a diagonal matrix with positive diagonal entrices.
+where $\mathbf{A} = \mathrm{Diag}(\mathbf{c}) \boldsymbol{\Phi}$, $\epsilon, \eta>0$ are two given scalar, and $\mathbf{y}_+=(\max\{0,y_1\},\ldots,\max\{0,y_m\})^\top$.
 </div> 
   
 ---
