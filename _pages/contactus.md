@@ -1,10 +1,8 @@
 ---
 layout: archive
-title:  
+title: ""   
 permalink: /contactus/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 <style>
@@ -27,6 +25,7 @@ a:active {
 
 
 ##  <span style="color:#777777"> Welcome to contact us </span> 
+---
  
 <div style="text-align:justify">  
 You are welcome to send your comments and suggestions to one of our members:
