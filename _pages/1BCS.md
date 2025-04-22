@@ -50,11 +50,11 @@ where $s\ll n$, $k\ll m$, $\epsilon>0$, $\eta>0$, and $\mathbf{y}_+=(\max\{0,y_1
 The package can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\1BCSpack.zip" target="_blank">OBCSpack</a>, which provides 2 solvers from the following papers, 
 </div>  
 >  <span style="font-size: 14px"> S Zhou, Z Luo, N Xiu, and G Li, Computing one-bit compressive sensing via double-sparsity constrained optimization, IEEE Tran Signal Process, 70:1593-1608, 2022. </span>
->  <span style="font-size: 14px"> S Zhou, L Pan, N Xiu, and H Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, SIAM J Optim, 31:3184–3211, 2021. </span>
+<br> <span style="font-size: 14px"> S Zhou, L Pan, N Xiu, and H Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, SIAM J Optim, 31:3184–3211, 2021. </span>
 
 ---
 <div style="text-align:justify;">
-The inputs and outputs of GPSP are detailed below, where $(\texttt{A},\texttt{b},\texttt{s},\texttt{k})$ are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
+The inputs and outputs of OBCSpack are detailed below, where $(\texttt{A},\texttt{b},\texttt{s},\texttt{k},\texttt{solver})$ are required. If choose $\texttt{solver=`NM01'}$, then one can set $\texttt{s}=[]$ and $ \texttt{k}=[]$ if they are unkown. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
 </div>
 
 <p style="line-height: 1;"></p>
@@ -111,7 +111,7 @@ function out = OBCSpack(A,b,s,k,solver,pars)
 ```
 
 <div style="text-align:justify;">
-Below is a demonstration of how GPSP can be used to solve the problem. You simply need to input the data $(\texttt{A},\texttt{b},\texttt{s},\texttt{k})$. 
+Below is a demonstration of how OBCSpack can be used to solve the problem. You simply need to input the data $(\texttt{A},\texttt{b},\texttt{s},\texttt{k})$ and then choose one solver from $\texttt{\{`GPSP',`NM01'\}}$. 
 </div>
 
 <p style="line-height: 1;"></p>
