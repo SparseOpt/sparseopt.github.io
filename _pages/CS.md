@@ -169,7 +169,7 @@ b       = A(:,T)*xopt(T)+0.00*randn(m,1);
 
 t       = 1; 
 solver  = {'NHTP', 'GPNP', 'IIHT', 'PSNP', 'NL0R', 'MIRL1'};
-out     = CSpackA,[],b,n,s,solver{t}); 
+out     = CSpack(A,[],b,n,s,solver{t}); 
 
 fprintf(' Objective of xopt:       %.2e\n', norm(A*xopt-b)^2/2);
 fprintf(' Objective of out.sol:    %.2e\n', out.obj);
