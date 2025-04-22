@@ -32,6 +32,7 @@ a:active {
 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SparseOpt</a> is designed to accelerate the development of numerical toolboxes for sparse optimization and to provide a flexible platform for testing a broad range of sparse optimzaion applications. 
 <!--For more information, please refer to <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="" target="_blank">menu-of-SparseOpt</a>. -->
 The current version of the toolbox includes the following solvers:
+</div>
 
 <p style="line-height: 2;"></p>
 
@@ -51,7 +52,6 @@ The current version of the toolbox includes the following solvers:
 
 ☑️ <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io/SSVM/" target="_blank">SSVM</a> - Sparse support vector machine solvers
 
-</div>
 
 <!--
 |<span style="color:#ffffff"> Package </span>|<span style="color:#ffffff"> Description </span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
