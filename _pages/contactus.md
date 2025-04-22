@@ -41,40 +41,42 @@ You are welcome to send your comments and suggestions to one of our members:
 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://profiles.imperial.ac.uk/geoffrey.li/" target="_blank">Geoffrey Ye Li</a> - Imperial College London, geoffrey.li@imperial.ac.u.
 -->
 
+<p style="line-height: 2;"></p>
+
    <table border="2" width="0.5">
       <tr>
         <td style="width:2%" align="left"> <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://shenglongzhou.github.io/" target="_blank">Shenglong Zhou</a> </td>
-        <td style="width:5%" align="left"> Beijing Jiaotong University </td>
-        <td style="width:5%" align="left"> slzhou2021@163.com </td> 
+        <td style="width:5%" align="left"> <span style="font-size: 16px"> Beijing Jiaotong University </span>  </td>
+        <td style="width:5%" align="left"> <span style="font-size: 16px"> slzhou2021@163.com </span> </td> 
       </tr>
       <tr>
         <td style="width:2%" align="left"> <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://faculty.bjtu.edu.cn/6336/" target="_blank">Naihua Xiu</a> </td>
-        <td style="width:5%" align="left"> Beijing Jiaotong University </td>
-        <td style="width:5%" align="left"> nhxiu@bjtu.edu.cn </td> 
+        <td style="width:5%" align="left"> <span style="font-size: 16px"> Beijing Jiaotong University </span> </td>
+        <td style="width:5%" align="left"> <span style="font-size: 16px"> nhxiu@bjtu.edu.cn </span> </td> 
       </tr>
       <tr>
         <td style="width:2%" align="left"> <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://www.polyu.edu.hk/ama/profile/hdqi/hdqi.html" target="_blank">Hou-Duo Qi</a> </td>
-        <td style="width:5%" align="left"> The Hong Kong Polytechnic University </td>
-        <td style="width:5%" align="left"> houduo.qi@polyu.edu.hk </td> 
+        <td style="width:5%" align="left"> <span style="font-size: 16px"> The Hong Kong Polytechnic University </span> </td>
+        <td style="width:5%" align="left"> <span style="font-size: 16px"> houduo.qi@polyu.edu.hk </span> </td> 
       </tr>
       <tr>
         <td style="width:2%" align="left"> <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://faculty.bjtu.edu.cn/8525/" target="_blank">Ziyan Luo</a> </td>
-        <td style="width:5%" align="left"> Beijing Jiaotong University </td>
-        <td style="width:5%" align="left"> zyluo@bjtu.edu.cn </td> 
+        <td style="width:5%" align="left"> <span style="font-size: 16px"> Beijing Jiaotong University </span> </td>
+        <td style="width:5%" align="left"> <span style="font-size: 16px"> zyluo@bjtu.edu.cn </span> </td> 
        </tr>
        <tr>
         <td style="width:2%" align="left"> <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sci.sdut.edu.cn/_t832/2018/1129/c5856a253869/page.htm" target="_blank">Lili Pan</a> </td>
-        <td style="width:5%" align="left"> Shandong University of Technology </td>
-        <td style="width:5%" align="left"> panlili1979@163.com </td> 
+        <td style="width:5%" align="left"> <span style="font-size: 16px"> Shandong University of Technology </span> </td>
+        <td style="width:5%" align="left"> <span style="font-size: 16px"> panlili1979@163.com </span> </td> 
       </tr>
       <tr>
         <td style="width:2%" align="left"> <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://faculty.bjtu.edu.cn/8316//" target="_blank">Lingchen Kong</a> </td>
-        <td style="width:5%" align="left"> Beijing Jiaotong University</td>
-        <td style="width:5%" align="left"> lchkong@bjtu.edu.cn </td> 
+        <td style="width:5%" align="left"> <span style="font-size: 16px"> Beijing Jiaotong University </span> </td>
+        <td style="width:5%" align="left"> <span style="font-size: 16px"> lchkong@bjtu.edu.cn </span> </td> 
       </tr>
       <tr>
         <td style="width:2%" align="left"> <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://profiles.imperial.ac.uk/geoffrey.li/" target="_blank">Geoffrey Ye Li</a> </td>
-        <td style="width:5%" align="left"> Imperial College London </td>
-        <td style="width:5%" align="left"> geoffrey.li@imperial.ac.u </td> 
+        <td style="width:5%" align="left"> <span style="font-size: 16px"> Imperial College London </span> </td>
+        <td style="width:5%" align="left"> <span style="font-size: 16px"> geoffrey.li@imperial.ac.u </span> </td> 
       </tr>
       </table> 
