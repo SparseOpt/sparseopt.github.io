@@ -64,6 +64,7 @@ The package can be download here - <a style="font-size: 16px; font-weight: bold;
 <br> <b style="font-size:14px;color:#777777">NM01</b> - <span style="font-size: 14px"> S Zhou, L Pan, N Xiu, and H Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, SIAM J Optim, 31:3184–3211, 2021. </span>
 
 ---
+
 <div style="text-align:justify;">
 The inputs and outputs of OBCSpack are detailed below, where inputs $(\texttt{A},\texttt{b},\texttt{s},\texttt{k},\texttt{solver})$ are required. If choose $\texttt{solver=`NM01'}$, then one can set $\texttt{s=[]}$ and $ \texttt{k=[]}$ if they are unkown. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
 </div>
