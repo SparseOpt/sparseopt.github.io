@@ -149,7 +149,7 @@ function out = CSsolver(A,At,b,n,s,solver,pars)
 ```
 
 <div style="text-align:justify;">
-Below is a demonstration of how CSpack can be used to solve the problem. You simply need to input the data $(\texttt{A},\texttt{b},\texttt{n},\texttt{s})$  and select $\texttt{solver}$ from $\texttt{\{`NHTP',`GPNP',`IIHT',`PSNP',`NL0R',`MILR1'\}}$. 
+Below is a demonstration of how CSpack can be used to solve the problem. You need to input data $(\texttt{A},\texttt{At},\texttt{b},\texttt{n},\texttt{s})$  and select $\texttt{solver}$ from $\texttt{\{`NHTP',`GPNP',`IIHT',`PSNP',`NL0R',`MILR1'\}}$. 
 </div>
 
 <p style="line-height: 1;"></p>
