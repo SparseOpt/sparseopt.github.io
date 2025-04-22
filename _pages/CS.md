@@ -37,20 +37,24 @@ Compressive sensing (CS) problems aim to recover a sparse signal $\mathbf{x}^*\i
 
 <div style="text-align:justify;">
 where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, $\mathbf{b}\in\mathbb{R}^{m}$ is the observation, and $\boldsymbol{\varepsilon}\in\mathbb{R}^{n}$ is the noise. To recover the signal, the folowing optimzation models are freguently explored:
-</div>      
-- Sparsity constrained CS
+</div>   
+<div style="text-align:justify;">
+◻️ Sparsity constrained CS
 \begin{equation}
 \min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2,~~~\textrm{s.t.}~ \parallel\mathbf{x} \parallel_0\leq s \tag{SCCS}
 \end{equation}
-- $L_q, 0\leq q <1$ norm regularized CS
+</div> 
+<div style="text-align:justify;">
+◻️ $L_q, 0\leq q <1$ norm regularized CS
 \begin{equation}
 \min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2+\lambda \parallel\mathbf{x} \parallel_q^q \tag{LqRCS}
 \end{equation}
-- Reweighted L1 norm regularized CS
+</div>   
+<div style="text-align:justify;">
+◻️ Reweighted L1 norm regularized CS
 \begin{equation}
 \min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2+\lambda \parallel \mathbf{W} \mathbf{x} \parallel_1 \tag{RL1CS}
-\end{equation}
-<div style="text-align:justify;">
+\end{equation} 
 where $\parallel\mathbf{x}\parallel_q^q=\sum_i |x_i|^q$ denotes the $\ell_q$-norm, in particular, $\parallel\mathbf{x}\parallel_0:=\parallel\mathbf{x}\parallel_0^0$ denotes the $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$,  $\lambda>0$ is the penalty parameter, and $\mathbf{W}$ is a diagonal matrix with positive diagonal entrices.
 </div> 
 ---
