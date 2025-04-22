@@ -38,6 +38,8 @@ Compressive sensing (CS) problems aim to recover a sparse signal $\mathbf{x}^*\i
 <div style="text-align:justify;">
 where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, $\mathbf{b}\in\mathbb{R}^{m}$ is the observation, and $\boldsymbol{\varepsilon}\in\mathbb{R}^{n}$ is the noise. To recover the signal, the folowing optimzation models are freguently explored:
 </div>   
+
+<p style="line-height: 1;"></p>
 <div style="text-align:justify;">
 ◻️ Sparsity constrained CS
 \begin{equation}
