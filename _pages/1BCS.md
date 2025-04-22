@@ -123,30 +123,36 @@ function out = CSsolver(A,At,b,n,s,solver,pars)
 ```
 
 <div style="text-align:justify;">
-Below is a demonstration of how CSpack can be used to solve the problem. You simply need to input the data $(\texttt{A},\texttt{b},\texttt{n},\texttt{s})$  and select $\texttt{solver}$ from $\texttt{\{`NHTP',`GPNP',`IIHT',`PSNP',`NL0R',`MILR1'\}}$. The parameters in $\texttt{pars}$ are optional, but setting certain ones can improve the solver's performance and the quality of the solution.
+Below is a demonstration of how GPSP can be used to solve the problem. You simply need to input the data $(\texttt{A},\texttt{b},\texttt{s},\texttt{k})$. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
 </div>
 
 <p style="line-height: 1;"></p>
 
 ```ruby
-clc; clear; close all; addpath(genpath(pwd));
+clc; close all; clear; addpath(genpath(pwd));
 
-n       = 10000;  
-m       = ceil(0.25*n); 
-s       = ceil(0.05*n); 
+n       = 2000;          % Signal dimension 
+m       = ceil(0.5*n);   % Number of measurements
+s       = ceil(0.01*n);  % Sparsity level
+nf      = 0.05;          % Noisy ratio
+r       = 0.02;          % Flipping ratio
+k       = ceil(r*m);
 
-T       = randperm(n,s);  
-xopt    = zeros(n,1);
-xopt(T) = (0.1+rand(s,1)).*sign(randn(s,1));  
-A       = randn(m,n)/sqrt(m);   
-b       = A(:,T)*xopt(T)+0.00*randn(m,1);  
+A       = randn(m,n);
+T       = randperm(n,s);
+xopt    = zeros(n,1);  
+xopt(T) = (0.5+rand(s,1)).*sign(randn(s,1));  
+xopt(T) = xopt(T)/norm(xopt(T));
+bo      = sign(A(:,T)*xopt(T)+nf*randn(m,1));
+h       = ones(m,1); 
+T       = randperm(m,k); 
+h(T)    = -h(T);
+b       = bo.*h; 
 
-t       = 2; 
-solver  = {'NHTP', 'GPNP', 'IIHT', 'PSNP', 'NL0R', 'MIRL1'};
-out     = CSsolver(A,[],b,n,s,solver{t}); 
-
-fprintf(' Objective of xopt:       %.2e\n', norm(A*xopt-b)^2/2);
-fprintf(' Objective of out.sol:    %.2e\n', out.obj);
-fprintf(' Sparsity of out.sol:     %2d\n', nnz(out.sol));
-fprintf(' Computational time:      %.3fsec\n',out.time); 
+out     = GPSP(A,b,s,k); 
+fprintf(' Time:                  %6.3f sec\n',out.time);
+fprintf(' Absolue error:         %6.3f %%\n', norm(xopt-out.x)*100);
+fprintf(' Signal-to-noise ratio: %6.2f\n',-10*log10(norm(xopt-out.x)^2));
+fprintf(' Hamming distence:      %6.3f\n',nnz(sign(A*out.x)-b)/m)
+fprintf(' Hamming error:         %6.3f\n',nnz(sign(A*out.x)-bo)/m)
 ```
