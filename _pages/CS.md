@@ -66,7 +66,7 @@ The package can be download here - <a style="font-size: 16px; font-weight: bold;
 
 ---
 <div style="text-align:justify;">
-The citation for CSpack is shown below. Here, inputs $(\texttt{A},\texttt{b},\texttt{n},\texttt{solver})$ are required. If $\texttt{A}$ is a function handle, then $\texttt{At}$ is required. If $\texttt{A}$ is a matrix,  $\texttt{At}$ can be $\texttt{A}'$ or $\texttt{[]}$. If $\texttt{solver}$ is one of $\texttt{\{`NHTP',`GPNP',`IIHT'\}}$, then $\texttt{s}$ is required. If $\texttt{solver}$ is one of $\texttt{\{`PSNP',`NL0R',`MILR1'\}}$, then $\texttt{s}$ can be $\texttt{[]}$.
+The citation for CSpack is shown below. Here, inputs $(\texttt{A},\texttt{b},\texttt{n},\texttt{solver})$ are required. If $\texttt{A}$ is a function handle, then $\texttt{At}$ is required. If $\texttt{A}$ is a matrix,  $\texttt{At}$ can be $\texttt{A}'$ or $\texttt{[]}$. If $\texttt{solver}$ is one of $\texttt{\{`NHTP',`GPNP',`IIHT'\}}$, then $\texttt{s}$ is required. If $\texttt{solver}$ is one of $\texttt{\{`PSNP',`NL0R',`MILR1'\}}$, then $\texttt{s}$ can be $\texttt{[]}$. The parameters in $\texttt{pars}$ are optional, but setting certain ones can improve the solver's performance and the quality of the solution.
 </div>
 
 <p style="line-height: 1;"></p>
@@ -143,7 +143,7 @@ function out = CSsolver(A,At,b,n,s,solver,pars)
 ```
 
 <div style="text-align:justify;">
-Below is a demonstration of how CSpack can be used to solve the problem. You simply need to input the data $(\texttt{A},\texttt{b},\texttt{n},\texttt{s})$  and select $\texttt{solver}$ from $\texttt{\{`NHTP',`GPNP',`IIHT',`PSNP',`NL0R',`MILR1'\}}$. The parameters in $\texttt{pars}$ are optional, but setting certain ones can improve the solver's performance and the quality of the solution.
+Below is a demonstration of how CSpack can be used to solve the problem. You simply need to input the data $(\texttt{A},\texttt{b},\texttt{n},\texttt{s})$  and select $\texttt{solver}$ from $\texttt{\{`NHTP',`GPNP',`IIHT',`PSNP',`NL0R',`MILR1'\}}$. 
 </div>
 
 <p style="line-height: 1;"></p>
