@@ -47,10 +47,11 @@ where $s\ll n$, $k\ll m$, $\epsilon>0$, $\eta>0$, and $\mathbf{y}_+=(\max\{0,y_1
   
 ---
 <div style="text-align:justify;">
-The solver can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\GPSP.zip" target="_blank">GPSP</a>, which was developed from the following paper:
+The package can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\1BCSpack.zip" target="_blank">OBCSpack</a>, which provides 2 solvers from the following papers, 
 </div>  
 >  <span style="font-size: 14px"> S Zhou, Z Luo, N Xiu, and G Li, Computing one-bit compressive sensing via double-sparsity constrained optimization, IEEE Tran Signal Process, 70:1593-1608, 2022. </span>
-  
+>  <span style="font-size: 14px"> S Zhou, L Pan, N Xiu, and H Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, SIAM J Optim, 31:3184–3211, 2021. </span>
+
 ---
 <div style="text-align:justify;">
 The inputs and outputs of GPSP are detailed below, where $(\texttt{A},\texttt{b},\texttt{s},\texttt{k})$ are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
@@ -59,40 +60,54 @@ The inputs and outputs of GPSP are detailed below, where $(\texttt{A},\texttt{b}
 <p style="line-height: 1;"></p>
 
 ```ruby
-function out = GPSP(A,b,s,k,pars)
+function out = OBCSpack(A,b,s,k,solver,pars)
 % -------------------------------------------------------------------------
-% One-bit compressed sensing problem is recovering sparse signal x from
+% One-bit compressed sensing problem aims to recovere sparse signal x from
 %
 %                b = Diag(h).*sign( A*x + noise )
 %
-% This code aims at solving one-bit compressed sensing 
-% via the double sparsity constrained optimization
+% 1) The double sparsity constrained optimization (DSCO)
 %
-%                min  ||Diag(b)*A*x+y-eps||^2 + eta||x||^2
-%                s.t. ||x||_0<=s, ||y_+||_0<=k
+%    min  ||Diag(b)*A*x+y-epsilon||^2 + eta||x||^2
+%    s.t. ||x||_0<=s, ||y_+||_0<=k
 %
-% where eps>0, eta>0, s\in[1,n], k\in[0,m] are given.
+% where (epsilon, eta)>0, s\in[1,n], k\in[0,m] are given.
+%
+% 2) The step function regularized optimization (SFRO)
+%
+%    min ||x.*x+vareps||^{q/2}_{q/2} + lam*||(epsilon - Diag(b)*A*x)_+||_0
+%
+% where (vareps, lam, epsilon)> 0, q\in(0,1).  
 % -------------------------------------------------------------------------
 % Inputs:
-%     A:    The sensing matrix \in R^{m-by-n},                   (REQUIRED)
-%     b:    The binary observation \in R^m, b_i\in{-1,1}         (REQUIRED)
-%     s:    Sparsity level of x, an integer \in[1,n]             (REQUIRED)      
-%     k:    Upper bound of sign flips of sign(A*x + noise)       (REQUIRED) 
-%           An integer in [0,m], e.g., k = ceil(0.01m)         
-%     pars: Parameters are all optional                          (OPTIONAL)
-%           pars.eps   -- The parameter in the model         (default,1e-4)
-%           pars.eta   -- The penalty parameter         (default,.01/ln(n))
-%           pars.acc   -- Acceleration is used if acc=1         (default,0)
-%           pars.big   -- Start with a bigger s if big=1        (default,1)
-%           pars.maxit -- Maximum number of iterations        (default,1e3) 
-%           pars.tol   -- Tolerance of halting condition     (default,1e-8)
-% Outputs:
-%     out.solx : The sparse solution with respect to x in \R^n
-%     out.soly : The solution with respect to y in \R^m
-%     out.time : CPU time
-%     out.iter : Number of iterations
-%     out.obj  : Objective function value at (out.solx, out.soly)
+%  A:       The sensing matrix \in R^{m-by-n},                   (REQUIRED)
+%  b:       The binary observation \in R^m, b_i\in{-1,1}         (REQUIRED)
+%  s:       Sparsity level of x, an integer \in[1,n]             (REQUIRED)      
+%  k:       An integer in [0,m], e.g., k = ceil(0.01m)           (REQUIRED)       
+%  solver:  A text string, can be one of {'GPSP','NM01'}         (REQUIRED)            
+%  pars:    Parameters are optional                              (OPTIONAL) 
+%           ------------- For GPSP solving (DSCO)--------------------------
+%           pars.eps     - The parameter in the model        (default,1e-4)
+%           pars.eta     - The penalty parameter       (default,0.01/ln(n))
+%           pars.acc     - Acceleration is used if acc=1        (default,0)
+%           pars.big     - Start with a bigger s if big=1       (default,1)
+%           pars.maxit   - Maximum number of iterations       (default,1e3) 
+%           pars.tol     - Tolerance of halting condition    (default,1e-8)
+%           -------------  For NM01 solving (SFRO)-------------------------
+%           pars.x0      - The initial point           (default,zeros(n,1))
+%           pars.q       - Parameter in the objective         (default,0.5)
+%           pars.vareps  - Parameter in the objective         (default,0.5)
+%           pars.epsilon - Parameter in the objective        (default,0.15)
+%           pars.lam     - The penalty parameter                (default,1)
+%           pars.tau     - A useful parameter                   (default,1) 
+%           pars.maxit   - Maximum number of iterations       (default,1e3)  
 % -------------------------------------------------------------------------
+% Outputs:
+%     out.sol:   The sparse solution x
+%     out.time:  CPU time
+%     out.iter:  Number of iterations
+%     out.obj:   Objective function value at out.sol 
+% ------------------------------------------------------------------------
 ```
 
 <div style="text-align:justify;">
@@ -102,7 +117,7 @@ Below is a demonstration of how GPSP can be used to solve the problem. You simpl
 <p style="line-height: 1;"></p>
 
 ```ruby
-clc; close all; clear;  addpath(genpath(pwd));
+clc; close all; clear; addpath(genpath(pwd));
 
 n     = 2000;          % Signal dimension 
 m     = ceil(0.5*n);   % Number of measurements
@@ -114,7 +129,7 @@ k     = ceil(r*m);
 A     = randn(m,n);
 T     = randperm(n,s);
 xo    = zeros(n,1);                      
-xo(T) = (0.5+rand(s,1)).*sign(randn(s,1));  
+xo(T) = (1+rand(s,1)).*sign(randn(s,1));  
 xo(T) = xo(T)/norm(xo(T));                 % True sparse solution
 bo    = sign(A(:,T)*xo(T)+nf*randn(m,1));
 h     = ones(m,1);                         % Flipping vector
@@ -122,11 +137,11 @@ T     = randperm(m,k);
 h(T)  = -h(T);
 b     = bo.*h; 
 
-out   = GPSP(A,b,s,k); 
+solver = {'GPSP','NM01'};
+out    = OBCSpack(A,b,s,k,solver{1});  
 fprintf(' Time:                  %6.3f sec\n',out.time);
-fprintf(' Absolue error:         %6.3f %%\n', norm(xo-out.solx)*100);
-fprintf(' Signal-to-noise ratio: %6.2f\n',-10*log10(norm(xo-out.solx)^2));
-fprintf(' Hamming distence:      %6.3f\n',nnz(sign(A*out.solx)-b)/m)
-fprintf(' Hamming error:         %6.3f\n',nnz(sign(A*out.solx)-bo)/m)
-RecoverShow(xo,out.solx,[1000 450 500 250])
+fprintf(' Absolue error:         %6.2f %%\n', norm(xo-out.sol)*100);
+fprintf(' Signal-to-noise ratio: %6.2f\n',-10*log10(norm(xo-out.sol)^2));
+fprintf(' Hamming distence:      %6.3f\n',nnz(sign(A*out.sol)-b)/m)
+fprintf(' Hamming error:         %6.3f\n',nnz(sign(A*out.sol)-bo)/m)
 ```
