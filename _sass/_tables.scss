@@ -6,9 +6,11 @@ table {
   margin-bottom: 4em;
   width: 100%;
   font-family: $global-font-family;
-  font-size: $type-size-6;
+  font-size: 0.75em; 
   border-collapse: collapse;
-  border: none; /*1px solid $light-gray;*/
+  border: none; 
+  /* font-size: $type-size-6; */
+  /* border: 1px solid $light-gray;*/
 
   & + table {
     margin-top: 1em;
