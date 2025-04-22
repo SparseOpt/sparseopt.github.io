@@ -38,7 +38,7 @@ You are welcome to send your comments and suggestions to one of our members:
 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://faculty.bjtu.edu.cn/8525/" target="_blank">Ziyan Luo</a> - Beijing Jiaotong University, zyluo@bjtu.edu.cn.
 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sci.sdut.edu.cn/_t832/2018/1129/c5856a253869/page.htm" target="_blank">Lili Pan</a> - Shandong University of Technology,  panlili1979@163.com.
 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://faculty.bjtu.edu.cn/8316//" target="_blank">Lingchen Kong</a> - Beijing Jiaotong University, lchkong@bjtu.edu.cn.
-- <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://profiles.imperial.ac.uk/geoffrey.li/" target="_blank">Geoffrey Ye Li</a> - Imperial College London, geoffrey.li@imperial.ac.u.
+- <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://profiles.imperial.ac.uk/geoffrey.li/" target="_blank">Geoffrey Ye Li</a> - Imperial College London, geoffrey.li@imperial.ac.uk.
 -->
 
 <p style="line-height: 2;"></p>
@@ -77,6 +77,6 @@ You are welcome to send your comments and suggestions to one of our members:
       <tr>
         <td style="width:2%" align="left"> <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://profiles.imperial.ac.uk/geoffrey.li/" target="_blank"> Geoffrey Ye Li</a> </td>
         <td style="width:5%" align="left"> <span style="font-size: 18px"> Imperial College London </span> </td>
-        <td style="width:5%" align="left"> <span style="font-size: 18px"> geoffrey.li@imperial.ac.u </span> </td> 
+        <td style="width:5%" align="left"> <span style="font-size: 18px"> geoffrey.li@imperial.ac.uk </span> </td> 
       </tr>
       </table> 
