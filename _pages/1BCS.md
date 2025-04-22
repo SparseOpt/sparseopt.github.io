@@ -36,13 +36,22 @@ One-bit compressive sensing (1BCS) problems aim to recover a sparse signal $\mat
 \end{equation} 
 
 <div style="text-align:justify;">
-where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, both $\mathbf{b}$ and $\mathbf{h}\in\{-1,1\}^{m}$, $\boldsymbol{\varepsilon}\in\mathbb{R}^{n}$ is the noise, $\mathrm{Diag}(\mathbf{h})$ denotes the diagonal matrix with diagonal entries formed by $\mathbf{h}$, and $\mathrm{sign}(t)$ is the sign function of $t$ defined by $\mathrm{sign}(t)=1$ if $t>0$ and $\mathrm{sign}(t)=-1$ otherwise. Then $\mathrm{sign}(\mathbf{x})=(\mathrm{sign}(x_1),\ldots,\mathrm{sign}(x_n))^\top$. Note that multiplying $\mathrm{Diag}(\mathbf{h})$ means that the sign flips occurs when observed $\mathbf{b}$, making the problem harder. In this model, we assume at most $k$ signs are flipped, namely, $\mathbf{h}$ satisfies $\parallel\mathbf{h}-1\parallel_0\leq k$, where $k$ is a given integer and $\parallel\mathbf{x}\parallel_0$ denotes the $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$. To recover the signal, the following double-sparsity constrained optimization (DSCO) model is solved, 
-</div>      
+where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, both $\mathbf{b}$ and $\mathbf{h}\in\{-1,1\}^{m}$, $\boldsymbol{\varepsilon}\in\mathbb{R}^{n}$ is the noise, $\mathrm{Diag}(\mathbf{h})$ denotes the diagonal matrix with diagonal entries formed by $\mathbf{h}$, and $\mathrm{sign}(t)$ is the sign function of $t$ defined by $\mathrm{sign}(t)=1$ if $t>0$ and $\mathrm{sign}(t)=-1$ otherwise. Then $\mathrm{sign}(\mathbf{x})=(\mathrm{sign}(x_1),\ldots,\mathrm{sign}(x_n))^\top$. Note that multiplying $\mathrm{Diag}(\mathbf{h})$ means that the sign flips occurs when observed $\mathbf{b}$, making the problem harder. In this model, we assume at most $k$ signs are flipped, namely, $\mathbf{h}$ satisfies $\parallel\mathbf{h}-1\parallel_0\leq k$, where $k$ is a given integer and $\parallel\mathbf{x}\parallel_0$ denotes the $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$. The following optimization models are solved to recover the signal.
+
+ <p style="line-height: 2;"></p>
+  
+◻️ Double-sparsity constrained optimization (DSCO)     
 \begin{equation}
-\min_{\mathbf{x}\in\mathbb{R}^{n},\mathbf{y}\in\mathbb{R}^{m}}~  \parallel \mathrm{Diag}(\mathbf{b}) \mathbf{A} \mathbf{x}+\mathbf{y} -\epsilon \parallel^2 + \eta \parallel \mathbf{x} \parallel^2,~~~\textrm{s.t.}~ \parallel\mathbf{x} \parallel_0\leq s,~ \parallel \mathbf{y}_+\parallel_0\leq k \tag{DSCO}
+\min_{\mathbf{x}\in\mathbb{R}^{n},\mathbf{y}\in\mathbb{R}^{m}}~  \parallel \parallel \mathbf{x} \mathrm{Diag}(\mathbf{b}) \mathbf{A} \mathbf{x}+\mathbf{y} -\epsilon \parallel^2 + \eta \parallel \mathbf{x} \parallel^2,~~~\textrm{s.t.}~ \parallel\mathbf{x} \parallel_0\leq s,~ \parallel \mathbf{y}_+\parallel_0\leq k \tag{DSCO}
 \end{equation}
+
+◻️ Step function-regularized optimization (SFRO)  
+\begin{equation}
+\min_{\mathbf{x}\in\mathbb{R}^{n}}~  \sum_{i=1}^n (x_i^2+\varepsilon)^{q/2}+\lambda \parallel (\epsilon- \mathrm{Diag}(\mathbf{b}) \mathbf{A} \mathbf{x})_+ \parallel_0 \tag{SFRO}
+\end{equation}
+
 <div style="text-align:justify;">
-where $s\ll n$, $k\ll m$, $\epsilon>0$, $\eta>0$, and $\mathbf{y}_+=(\max\{0,y_1\},\ldots,\max\{0,y_m\})^\top$.
+where $s\ll n$, $k\ll m$, $(\epsilon, \eta, \varepsilon, lambda)>0$, and $\mathbf{y}_+=(\max\{0,y_1\},\ldots,\max\{0,y_m\})^\top$.
 </div> 
   
 ---
@@ -54,7 +63,7 @@ The package can be download here - <a style="font-size: 16px; font-weight: bold;
 
 ---
 <div style="text-align:justify;">
-The inputs and outputs of OBCSpack are detailed below, where $(\texttt{A},\texttt{b},\texttt{s},\texttt{k},\texttt{solver})$ are required. If choose $\texttt{solver=`NM01'}$, then one can set $\texttt{s}=[]$ and $ \texttt{k}=[]$ if they are unkown. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
+The inputs and outputs of OBCSpack are detailed below, where inputs $(\texttt{A},\texttt{b},\texttt{s},\texttt{k},\texttt{solver})$ are required. If choose $\texttt{solver=`NM01'}$, then one can set $\texttt{s=[]}$ and $ \texttt{k=[]}$ if they are unkown. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
 </div>
 
 <p style="line-height: 1;"></p>
