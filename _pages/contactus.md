@@ -26,6 +26,7 @@ a:active {
 </style>
 
 
+##  <span style="color:#777777"> Welcome to contact us </span> 
  
 <div style="text-align:justify">  
 You are welcome to send your comments and suggestions to one of our members:
