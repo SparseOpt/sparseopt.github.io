@@ -42,7 +42,7 @@ where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, both $\mathbf
   
 ◻️ Double-sparsity constrained optimization (DSCO)     
 \begin{equation}
-\min_{\mathbf{x}\in\mathbb{R}^{n},\mathbf{y}\in\mathbb{R}^{m}}~  \parallel \parallel \mathbf{x} \mathrm{Diag}(\mathbf{b}) \mathbf{A} \mathbf{x}+\mathbf{y} -\epsilon \parallel^2 + \eta \parallel \mathbf{x} \parallel^2,~~~\textrm{s.t.}~ \parallel\mathbf{x} \parallel_0\leq s,~ \parallel \mathbf{y}_+\parallel_0\leq k \tag{DSCO}
+\min_{\mathbf{x}\in\mathbb{R}^{n},\mathbf{y}\in\mathbb{R}^{m}}~  \parallel  \mathrm{Diag}(\mathbf{b}) \mathbf{A} \mathbf{x}+\mathbf{y} -\epsilon \parallel^2 + \eta \parallel \mathbf{x} \parallel^2,~~~\textrm{s.t.}~ \parallel\mathbf{x} \parallel_0\leq s,~ \parallel \mathbf{y}_+\parallel_0\leq k \tag{DSCO}
 \end{equation}
 
 ◻️ Step function-regularized optimization (SFRO)  
@@ -51,13 +51,15 @@ where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, both $\mathbf
 \end{equation}
 
 <div style="text-align:justify;">
-where $s\ll n$, $k\ll m$, $(\epsilon, \eta, \varepsilon, lambda)>0$, and $\mathbf{y}_+=(\max\{0,y_1\},\ldots,\max\{0,y_m\})^\top$. One can observe that  model (SFRO) is a penalty version of model (DSCO).
+where $s\ll n$, $k\ll m$, $(\epsilon, \eta, \varepsilon, \lambda)>0$, and $\mathbf{y}_+=(\max\{0,y_1\},\ldots,\max\{0,y_m\})^\top$. One can observe that  model (SFRO) is a penalty version of model (DSCO).
 </div> 
   
 ---
+
 <div style="text-align:justify;">
 The package can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\1BCSpack.zip" target="_blank">OBCSpack</a>, which provides 2 solvers from the following papers, where <b style="font-size:14px;color:#777777">GPSP</b> and <b style="font-size:14px;color:#777777">NM01</b> are designed to solve  model (DSCO) and model (SFRO), respectively. 
 </div>  
+
 > <b style="font-size:14px;color:#777777">GPSP</b> - <span style="font-size: 14px"> S Zhou, Z Luo, N Xiu, and G Li, Computing one-bit compressive sensing via double-sparsity constrained optimization, IEEE Tran Signal Process, 70:1593-1608, 2022. </span>
 <br> <b style="font-size:14px;color:#777777">NM01</b> - <span style="font-size: 14px"> S Zhou, L Pan, N Xiu, and H Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, SIAM J Optim, 31:3184–3211, 2021. </span>
 
