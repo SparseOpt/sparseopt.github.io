@@ -45,7 +45,6 @@ The current version of the toolbox includes the following solvers:
 |📦 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">1BCS</a> |- One-bit compressive sensing solver|
 |📦 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io/SSVM/" target="_blank">SSVM</a> |- Sparse support vector machine solvers|
 
-- 
 <!--
 - 🧰 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io/SCO/" target="_blank">SCO</a> - Sparsity-constrained optimization solvers.
 - 🧰 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io/SRO/" target="_blank">SRO</a> - Sparsity-regularized optimization solvers.
