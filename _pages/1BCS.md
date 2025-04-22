@@ -53,12 +53,13 @@ The solver can be download here - <a style="font-size: 16px; font-weight: bold;c
   
 ---
 <div style="text-align:justify;">
-The citation for GPSP is shown below. Here, inputs $(\texttt{A},\texttt{b},\texttt{s},\texttt{k})$ are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
+Solver inputs are detailed below, where $(\texttt{A},\texttt{b},\texttt{s},\texttt{k})$ are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
 </div>
 
 <p style="line-height: 1;"></p>
 
 ```ruby
+function out = GPSP(A,b,s,k,pars)
 % -------------------------------------------------------------------------
 % One-bit compressed sensing problem is recovering sparse signal x from
 %
