@@ -7,6 +7,25 @@ redirect_from:
   - /resume
 ---
 
+<style>
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+</style>
+
+
  
 <div style="text-align:justify">  
 You are welcome to send your comments and suggestions to one of our members:
