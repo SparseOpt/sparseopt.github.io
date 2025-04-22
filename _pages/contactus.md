@@ -30,8 +30,6 @@ a:active {
 <div style="text-align:justify">  
 You are welcome to send your comments and suggestions to one of our members:
 </div>
-
-<p style="line-height: 2;"></p>
       
 <!--| People |  Affiliation  |  Email  |-->
 | &nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
