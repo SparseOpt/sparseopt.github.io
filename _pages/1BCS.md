@@ -47,7 +47,7 @@ where $s\ll n$, $k\ll m$, $\epsilon>0$, $\eta>0$, and $\mathbf{y}_+=(\max\{0,y_1
   
 ---
 <div style="text-align:justify;">
-The solver can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/GPSP" target="_blank">GPSP</a>, which was developed from the following paper:
+The solver can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\GPSP.zip" target="_blank">GPSP</a>, which was developed from the following paper:
 </div>  
 >  <span style="font-size: 14px"> S Zhou, Z Luo, N Xiu, and G Li, Computing one-bit compressive sensing via double-sparsity constrained optimization, IEEE Tran Signal Process, 70:1593-1608, 2022. </span>
   
