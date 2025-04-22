@@ -78,7 +78,7 @@ The inputs and outputs of CSpack are detailed below, where inputs $(\texttt{A},\
 <p style="line-height: 1;"></p>
 
 ```ruby
-function out = CSsolver(A,At,b,n,s,solver,pars)
+function out = CSpack(A,At,b,n,s,solver,pars)
 % -------------------------------------------------------------------------
 % This solver solves compressive sensing (CS) in one of the following forms
 %
@@ -167,9 +167,9 @@ xopt(T) = (0.1+rand(s,1)).*sign(randn(s,1));
 A       = randn(m,n)/sqrt(m);   
 b       = A(:,T)*xopt(T)+0.00*randn(m,1);  
 
-t       = 2; 
+t       = 1; 
 solver  = {'NHTP', 'GPNP', 'IIHT', 'PSNP', 'NL0R', 'MIRL1'};
-out     = CSsolver(A,[],b,n,s,solver{t}); 
+out     = CSpackA,[],b,n,s,solver{t}); 
 
 fprintf(' Objective of xopt:       %.2e\n', norm(A*xopt-b)^2/2);
 fprintf(' Objective of out.sol:    %.2e\n', out.obj);
