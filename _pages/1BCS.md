@@ -53,7 +53,7 @@ The solver can be download here - <a style="font-size: 16px; font-weight: bold;c
   
 ---
 <div style="text-align:justify;">
-Solver inputs are detailed below, where $(\texttt{A},\texttt{b},\texttt{s},\texttt{k})$ are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
+The inputs and outputs of GPSP are detailed below, where $(\texttt{A},\texttt{b},\texttt{s},\texttt{k})$ are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
 </div>
 
 <p style="line-height: 1;"></p>
