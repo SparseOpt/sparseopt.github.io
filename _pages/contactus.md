@@ -45,9 +45,9 @@ You are welcome to send your comments and suggestions to one of our members:
 
    <table border="2" width="0.5">
       <tr>
-        <td style="width:2%" align="left"> <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://shenglongzhou.github.io/" target="_blank"> :man: Shenglong Zhou</a> </td>
-        <td style="width:5%" align="left"> <span style="font-size: 16px"> :school: Beijing Jiaotong University </span>  </td>
-        <td style="width:5%" align="left"> <span style="font-size: 16px"> :e-mail: slzhou2021@163.com </span> </td> 
+        <td style="width:2%" align="left"> :man: <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://shenglongzhou.github.io/" target="_blank"> Shenglong Zhou</a> </td>
+        <td style="width:5%" align="left"> :school: <span style="font-size: 16px"> Beijing Jiaotong University </span>  </td>
+        <td style="width:5%" align="left"> :e-mail: <span style="font-size: 16px"> slzhou2021@163.com </span> </td> 
       </tr>
       <tr>
         <td style="width:2%" align="left"> <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://faculty.bjtu.edu.cn/6336/" target="_blank"> :man: Naihua Xiu</a> </td>
