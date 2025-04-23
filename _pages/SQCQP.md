@@ -102,8 +102,8 @@ function Out = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars)
 %             pars.dualbd   -- Initial point of nu  for bound/box constraints         (default zeros(n,1))
 %             pars.tau      -- A positive scalar                                      (default 1)
 %                              NOTE: tuning a proper tau may yield better solutions     
-%             pars.itlser   -- Maximum nonumber of line search                        (default 5)
-%             pars.itmax    -- Maximum nonumber of iteration                          (default 10000)
+%             pars.itlser   -- Maximum number of line search                        (default 5)
+%             pars.itmax    -- Maximum number of iteration                          (default 10000)
 %             pars.show     -- Results shown at each iteration if pars.show=1         (default 1)
 %                              Results not shown at each iteration if pars.show=0
 %             pars.tol      -- Tolerance of the halting condition                     (default 1e-6)
