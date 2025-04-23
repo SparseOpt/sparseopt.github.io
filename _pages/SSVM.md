@@ -46,7 +46,7 @@ where $\mathbf{A}=(\mathbf{a}_1,\ldots,\mathbf{a}_m)\in\mathbb{R}^{n\times m}$ i
 \min_{(\mathbf{w};b)\in\mathbb{R}^{n+1}}~\frac{1}{2}\parallel \mathbf{w} \parallel^2 + C \sum_{i=1}^m\ell_{0/1}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right) \tag{L01SVM}
 \end{equation} 
 <div style="text-align:justify;">
-where $\ell_{0/1}$ is the step function (or 0/1 loss function) defined by $\ell_{0/1}(t)=1$ if $t>0$ and $\ell_{0/1}(t)=0$ otherwise. By letting $\mathbf{z}_+=(\max\{0,z_1\},\ldots,\max\{0,z_m\})^\top$ and $\parallel\mathbf{x}\parallel_0$ denote the $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$, one can check that $ \sum_{i=1}^m\ell_{0/1}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right) = \parallel  (1-\mathbf{A}\mathbf{w}-b\mathbf{y} )_+ \parallel_0$. 
+where $\ell_{0/1}$ is the step function (or 0/1 loss function) defined by $\ell_{0/1}(t)=1$ if $t>0$ and $\ell_{0/1}(t)=0$ otherwise. By letting $\mathbf{z}_+=(\max\{0,z_1\},\ldots,\max\{0,z_m\})^\top$ and $\parallel\mathbf{x}\parallel_0$ denote the $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$, one can check that $ \sum_{i=1}^m\ell_{0/1}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right) = \|  (1-\mathbf{A}\mathbf{w}-b\mathbf{y} )_+ \|_0$. 
 </div>
 
 ◻️ $\ell_{cC}$ regularized  SVM
@@ -57,10 +57,10 @@ where $\ell_{0/1}$ is the step function (or 0/1 loss function) defined by $\ell_
 where  $\ell_{cC}(t)=Ct^2/2$ if $t>0$ and $\ell_{cC}(t)=ct^2/2$ otherwise with $C>c>0$. The dual problem of (LcCSVM) is 
 </div>  
 \begin{equation}
-\min_{(\mathbf{w};b)\in\mathbb{R}^{n+1}}~\frac{1}{2} \parallel \boldsymbol{\alpha}^\top \mathbf{Q} \boldsymbol{\alpha} +\frac{1}{2}\sum_{i=1}^m h_{cC}(\alpha_i) -\mathbf{e}^\top\boldsymbol{\alpha}, \mathrm{s.t.}~\mathbf{e}^\top\boldsymbol{\alpha}=1. 
+\min_{\boldsymbol{\alpha}\in\mathbb{R}^{m}}~\frac{1}{2} \parallel \boldsymbol{\alpha}^\top \mathbf{Q} \boldsymbol{\alpha} +\frac{1}{2}\sum_{i=1}^m h_{cC}(\alpha_i) -\mathbf{e}^\top\boldsymbol{\alpha}, ~~~~\mathrm{s.t.}~\mathbf{e}^\top\boldsymbol{\alpha}=1. 
 \end{equation} 
 <div style="text-align:justify;">
-where $\mathbf{Q}=(Q_{ij})_{1\leq i,j\leq m}$ with $Q_{ij}=y_iy_j\mathbf{a}_i^\top\mathbf{a}_j$, $\mathbf{e}=(1,\ldots,1)^\top$, and $h_{cC}$ is defined by $h_{cC}(t)=t^2/C$ if $t>0$ and $\ell_{cC}(t)=t^2/c$.
+where $\mathbf{Q}=(Q_{ij})_{1\leq i,j\leq m}$ with $Q_{ij}=y_iy_j\mathbf{a}_i^\top\mathbf{a}_j$, $\mathbf{e}=(1,\ldots,1)^\top$, and $h_{cC}(t)=t^2/C$ if $t>0$ and $\ell_{cC}(t)=t^2/c$.
 </div>  
 ---
 <div style="text-align:justify;">
