@@ -82,8 +82,8 @@ The package can be download here - <a style="font-size: 16px; font-weight: bold;
 </div>  
 
 > <div style="text-align:justify;"> <b style="font-size:14px;color:#777777">NM01</b>-<span style="font-size: 14px"> S Zhou, L Pan, N Xiu, and H Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, SIAM J Optim, 31:3184–3211, 2021. </span> </div>
-<br> <div style="text-align:justify;">  <b style="font-size:14px;color:#777777">NSSVM</b>-<span style="font-size: 14px"> S Zhou, Sparse SVM for sufficient data reduction, IEEE Trans Pattern Anal  Mach  Intell, 44:5560-5571, 2022. </span> </div>
-<br> <div style="text-align:justify;"> <b style="font-size:14px;color:#777777">L01ADMM</b>-<span style="font-size: 14px"> H Wang, Y Shao, S Zhou, C Zhang, and N Xiu, Support vector machine classifier via L0/1 soft-margin loss, IEEE Trans Pattern Anal  Mach  Intell, 44:7253-7265, 2022. </span> </div>
+> <div style="text-align:justify;">  <b style="font-size:14px;color:#777777">NSSVM</b>-<span style="font-size: 14px"> S Zhou, Sparse SVM for sufficient data reduction, IEEE Trans Pattern Anal  Mach  Intell, 44:5560-5571, 2022. </span> </div>
+> <div style="text-align:justify;"> <b style="font-size:14px;color:#777777">L01ADMM</b>-<span style="font-size: 14px"> H Wang, Y Shao, S Zhou, C Zhang, and N Xiu, Support vector machine classifier via L0/1 soft-margin loss, IEEE Trans Pattern Anal  Mach  Intell, 44:7253-7265, 2022. </span> </div>
 
 ---
 <div style="text-align:justify;">
