@@ -72,14 +72,11 @@ where $\mathbf{Q}=(Q_{ij})_{1\leq i,j\leq m}$ with $Q_{ij}=y_iy_j\mathbf{a}_i^\t
 \end{equation} 
 <div style="text-align:justify;">
 where $\mathbf{Q}\in\mathbb{R}^{m\times m}$ with $Q_{ij}=y_iy_j\mathbf{a}_i^\top\mathbf{a}_j$, $\mathbf{e}=(1,\ldots,1)^\top$, and $h_{cC}(t)=t^2/C$ if $t>0$ and $\ell_{cC}(t)=t^2/c$,  $C>c>0$, and $s\ll m$. In fact, model (SCSVM) without sparsity constraint $\parallel  \boldsymbol{\alpha} \parallel_0\leq s$ is the dual problem of model (SVM) with $\ell=\ell_{cC}$, where  $\ell_{cC}(t)=t^2/2$ if $t>0$ and $\ell_{cC}(t)=(c/C)t^2/2$ otherwise. 
-
-  
-According to the Representer Theorem,  primal otpimal soultion $\mathbf{w}^*$ and  otpimal soultion $\boldsymbol{\alpha}^*$ to the dual kernel-based SVM optimization have the following relationship
-\begin{equation}
-\mathbf{w}^* = \sum_{i=1}^m \alpha_i^* y_i \mathbf{a}_i
-\end{equation}   
-The training vectors $\mathbf{a}_i$ corresponding to nonzero $\alpha_i^*$ are known as support vectors. Therefore, both model (SFRSVM) and model (SCSVM) enable the reduction of support vectors.
 </div>  
+
+> According to the Representer Theorem,  primal otpimal soultion $\mathbf{w}^*$ and  otpimal soultion $\boldsymbol{\alpha}^*$ to the dual kernel-based SVM optimization have the following relationship
+$\mathbf{w}^* = \sum_{i=1}^m \alpha_i^* y_i \mathbf{a}_i$. The training vectors $\mathbf{a}_i$ corresponding to nonzero $\alpha_i^*$ are known as support vectors. Therefore, both model (SFRSVM) and model (SCSVM) enable the reduction of support vectors.
+
 ---
 <div style="text-align:justify;">
 The package can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\CSpack.zip" target="_blank">CSpack</a>, which provides 6 solvers from the following papers, where <b style="font-size:16px;color:#777777">NHTP</b>, <b style="font-size:16px;color:#777777">GPSP</b>, and <b style="font-size:16px;color:#777777">IIHT</b> are designed to solve (SCCS), <b style="font-size:16px;color:#777777">PSNP</b> is designed to solve (LqRCS) with  $0\leq q < 1$,  <b style="font-size:16px;color:#777777">NL0R</b> is designed to solve (L0RCS) with  $q=0$, and <b style="font-size:16px;color:#777777">MIRL1</b> is designed to solve (RL1CS).
