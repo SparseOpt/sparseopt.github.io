@@ -52,7 +52,7 @@ where $\ell_{0/1}$ is the step function (or 0/1 loss function) defined by $\ell_
 <!--
 ◻️ $\ell_{cC}$ regularized  SVM
 \begin{equation}
-\min_{(\mathbf{w};b)\in\mathbb{R}^{n+1}}~\frac{1}{2} \parallel  \mathbf{w} \parallel^2 + \sum_{i=1}^m\ell_{cC}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right) \tag{LcCSVM}
+\min_{(\mathbf{w};b)\in\mathbb{R}^{n+1}}~\frac{1}{2} \parallel  \mathbf{w} \parallel^2 + \sum_{i=1}^m\ell_{cC}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right) \tag{SFRSVM}
 \end{equation} 
 <div style="text-align:justify;">
 where  $\ell_{cC}(t)=Ct^2/2$ if $t>0$ and $\ell_{cC}(t)=ct^2/2$ otherwise with $C>c>0$. The dual problem of (LcCSVM) is the following quadratic kernel-based SVM problem
@@ -71,7 +71,7 @@ where $\mathbf{Q}=(Q_{ij})_{1\leq i,j\leq m}$ with $Q_{ij}=y_iy_j\mathbf{a}_i^\t
 \min_{\boldsymbol{\alpha}\in\mathbb{R}^{m}}~\frac{1}{2} \boldsymbol{\alpha}^\top \mathbf{Q} \boldsymbol{\alpha} +\frac{1}{2}\sum_{i=1}^m h_{cC}(\alpha_i) -\mathbf{e}^\top\boldsymbol{\alpha}, ~~~~ \text{s.t.} ~~\mathbf{y}^\top\boldsymbol{\alpha}=0,~\parallel  \boldsymbol{\alpha} \parallel_0\leq s \tag{SCSVM}
 \end{equation} 
 <div style="text-align:justify;">
-where $\mathbf{Q}=(Q_{ij})_{1\leq i,j\leq m}$ with $Q_{ij}=y_iy_j\mathbf{a}_i^\top\mathbf{a}_j$, $\mathbf{e}=(1,\ldots,1)^\top$, and $h_{cC}(t)=t^2/C$ if $t>0$ and $\ell_{cC}(t)=t^2/c$,  $C>c>0$, and $s\ll m$. In fact, model (SCSVM) without sparsity constraint $\parallel  \boldsymbol{\alpha} \parallel_0\leq s$ is the dual problem of model (SVM) with $\ell=\ell_{cC}$, where  $\ell_{cC}(t)=Ct^2/2$ if $t>0$ and $\ell_{cC}(t)=ct^2/2$ otherwise. 
+where $\mathbf{Q}\in\mathbb{R}^{m\times m}$ with $Q_{ij}=y_iy_j\mathbf{a}_i^\top\mathbf{a}_j$, $\mathbf{e}=(1,\ldots,1)^\top$, and $h_{cC}(t)=t^2/C$ if $t>0$ and $\ell_{cC}(t)=t^2/c$,  $C>c>0$, and $s\ll m$. In fact, model (SCSVM) without sparsity constraint $\parallel  \boldsymbol{\alpha} \parallel_0\leq s$ is the dual problem of model (SVM) with $\ell=\ell_{cC}$, where  $\ell_{cC}(t)=Ct^2/2$ if $t>0$ and $\ell_{cC}(t)=ct^2/2$ otherwise. 
 </div>  
 ---
 <div style="text-align:justify;">
