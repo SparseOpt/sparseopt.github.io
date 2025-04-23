@@ -38,18 +38,20 @@ a:active {
 <div style="text-align:justify;">
 where $\mathbf{A}=(\mathbf{a}_1,\ldots,\mathbf{a}_m)\in\mathbb{R}^{n\times m}$ is the sample matrix, $\mathbf{y}=(y_1,\ldots,y_m)^\top\in\mathbb{R}^{m}$ is the label vector, $C>0$ is the penalty parameter, and $\ell$ is a loss function. One popular loss function is the hinge loss defined by  $\ell_{h}(t)=\max\{t,0\}.$
 </div>      
-- Sparsity constrained CS
+
+<p style="line-height: 2;"></p>
+
+◻️ Step function regularied SVM
 \begin{equation}
-\min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2,~~~\textrm{s.t.}~ \parallel\mathbf{x} \parallel_0\leq s \tag{SCCS}
-\end{equation}
-- $L_q, 0\leq q <1$ norm regularized CS
+\min_{(\mathbf{w};b)\in\mathbb{R}^{n+1}}~\frac{1}{2}\parallel \mathbf{w} \parallel^2 + C \sum_{i=1}^m\ell_{0/1}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right) \tag{SFSVM}}
+\end{equation} 
+
+◻️  $\ell_{cC}$ regularized  SVM
 \begin{equation}
-\min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2+\lambda \parallel\mathbf{x} \parallel_q^q \tag{LqRCS}
-\end{equation}
-- Reweighted L1 norm regularized CS
-\begin{equation}
-\min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2+\lambda \parallel \mathbf{W} \mathbf{x} \parallel_1 \tag{RL1CS}
-\end{equation}
+\min_{(\mathbf{w};b)\in\mathbb{R}^{n+1}}~\frac{1}{2}\parallel \mathbf{w} \parallel^2 + \sum_{i=1}^m\ell_{cC}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right) \tag{SFSVM}}
+\end{equation} 
+
+
 <div style="text-align:justify;">
 where $\parallel\mathbf{x}\parallel_q^q=\sum_i |x_i|^q$ denotes the $\ell_q$-norm, in particular, $\parallel\mathbf{x}\parallel_0:=\parallel\mathbf{x}\parallel_0^0$ denotes the $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$,  $\lambda>0$ is the penalty parameter, and $\mathbf{W}$ is a diagonal matrix with positive diagonal entrices.
 </div> 
