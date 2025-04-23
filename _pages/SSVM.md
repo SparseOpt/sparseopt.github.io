@@ -25,7 +25,7 @@ a:active {
 
  
 
-##  <span style="color:#8C8C8C"> Sparse support vector mechine</span> 
+##  <span style="color:#8C8C8C"> Sparse support vector machine</span> 
 ---
 <div style="text-align:justify;">
   The  soft-margin support vector machine (SVM) takes the form of 
@@ -78,7 +78,7 @@ where $\mathbf{Q}\in\mathbb{R}^{m\times m}$ with each entry $Q_{ij}=y_iy_j\mathb
 
 ---
 <div style="text-align:justify;">
-The package can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href=" " target="_blank">SSVMpack</a>, which provides 3 solvers from the following 3 papers, where <b style="font-size:16px;color:#777777">L01ADMM</b> and <b style="font-size:16px;color:#777777">NM01</b>, and <b style="font-size:16px;color:#777777">IIHT</b> are designed to solve (SFRSVM), and <b style="font-size:16px;color:#777777">NSSVM</b> is designed to solve (SCSNM).
+The package can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href=" " target="_blank">SSVMpack</a>, which provides 3 solvers from the following 3 papers, where <b style="font-size:16px;color:#777777">NM01</b> and <b style="font-size:16px;color:#777777">L01ADMM</b> are designed to solve (SFRSVM), and <b style="font-size:16px;color:#777777">NSSVM</b> is designed to solve (SCSNM).
 </div>  
 
 > <div style="text-align:justify;"> <b style="font-size:14px;color:#777777">NM01</b> -<span style="font-size: 14px"> S Zhou, L Pan, N Xiu, and H Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, SIOPT, 31:3184-3211, 2021. </span> </div>
