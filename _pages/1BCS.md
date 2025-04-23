@@ -68,7 +68,7 @@ The package can be download here - <a style="font-size: 16px; font-weight: bold;
 ---
 
 <div style="text-align:justify;">
-The inputs and outputs of OBCSpack are detailed below, where inputs $(\texttt{A},\texttt{b},\texttt{s},\texttt{k},\texttt{solver})$ are required. If choose $\texttt{solver=`NM01'}$, then one can set $\texttt{s=[]}$ and $ \texttt{k=[]}$ if they are unkown. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
+The inputs and outputs of OBCSpack are detailed below, where inputs $(\texttt{A},\texttt{b},\texttt{s},\texttt{k},\texttt{solver})$ are required. If choose $\texttt{solver=`NM01'}$, then one can set $\texttt{s=[]}$ and $ \texttt{k=[]}$ if they are unknown. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
 </div>
 
 <p style="line-height: 1;"></p>
