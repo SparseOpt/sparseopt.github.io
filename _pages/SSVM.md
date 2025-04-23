@@ -43,18 +43,28 @@ where $\mathbf{A}=(\mathbf{a}_1,\ldots,\mathbf{a}_m)\in\mathbb{R}^{n\times m}$ i
 
 ◻️ Step function regularied SVM
 \begin{equation}
-\min_{(\mathbf{w};b)\in\mathbb{R}^{n+1}}~\frac{1}{2}\parallel \mathbf{w} \parallel^2 + C \sum_{i=1}^m\ell_{0/1}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right) \tag{SFSVM}}
+\min_{(\mathbf{w};b)\in\mathbb{R}^{n+1}}~\frac{1}{2}\parallel \mathbf{w} \parallel^2 + C \sum_{i=1}^m\ell_{0/1}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right) \tag{L01SVM}
 \end{equation} 
-
-◻️  $\ell_{cC}$ regularized  SVM
-\begin{equation}
-\min_{(\mathbf{w};b)\in\mathbb{R}^{n+1}}~\frac{1}{2}\parallel \mathbf{w} \parallel^2 + \sum_{i=1}^m\ell_{cC}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right) \tag{SFSVM}}
-\end{equation} 
-
-
 <div style="text-align:justify;">
-where $\parallel\mathbf{x}\parallel_q^q=\sum_i |x_i|^q$ denotes the $\ell_q$-norm, in particular, $\parallel\mathbf{x}\parallel_0:=\parallel\mathbf{x}\parallel_0^0$ denotes the $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$,  $\lambda>0$ is the penalty parameter, and $\mathbf{W}$ is a diagonal matrix with positive diagonal entrices.
+where $\ell_{0/1}$ is the step function (or 0/1 loss function) defined by $\ell_{0/1}(t)=1$ if $t>0$ and $\ell_{0/1}(t)=0$ otherwise. By letting $\mathbf{z}_+=(\max\{0,z_1\},\ldots,\max\{0,z_m\})^\top$, one can check that
 </div> 
+\begin{equation}
+ \sum_{i=1}^m\ell_{0/1}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right) = \parallel(1-\mathbf{A}\mathbf{w}-b\mathbf{y})_+\parallel_0
+\end{equation}  
+
+◻️ $\ell_{cC}$ regularized  SVM
+\begin{equation}
+\min_{(\mathbf{w};b)\in\mathbb{R}^{n+1}}~\frac{1}{2}\parallel \mathbf{w} \parallel^2 + \sum_{i=1}^m\ell_{cC}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right) \tag{LcCSVM}
+\end{equation} 
+<div style="text-align:justify;">
+where  $\ell_{cC}(t)=Ct^2/2$ if $t>0$ and $\ell_{cC}(t)=ct^2/2$ otherwise with $C>c>0$. One can check that the dual problem of (LcCSVM) is 
+</div>  
+\begin{equation}
+\min_{(\mathbf{w};b)\in\mathbb{R}^{n+1}}~\frac{1}{2} \parallel \boldsymbol{\alpha}^\top \mathbf{Q} \boldsymbol{\alpha} +\frac{1}{2}\sum_{i=1}^m h_{cC}(\alpha_i) -\mathbf{e}^\top\boldsymbol{\alpha}, \mathrm{s.t.}~\mathbf{e}^\top\boldsymbol{\alpha}=1. 
+\end{equation} 
+<div style="text-align:justify;">
+where $\mathbf{Q}=(Q_{ij})_{1\leq i,j\leq m}$ with $Q_{ij}=y_iy_j\mathbf{a}_i^\top\mathbf{a}_j$, $\mathbf{e}=(1,\ldots,1)^\top$, and $\h_{cC}$ is defined by $\h_{cC}(t)=t^2/C$ if $t>0$ and $\ell_{cC}(t)=t^2/c$.
+</div>  
 ---
 <div style="text-align:justify;">
 The package can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\CSpack.zip" target="_blank">CSpack</a>, which provides 6 solvers from the following papers, where <b style="font-size:16px;color:#777777">NHTP</b>, <b style="font-size:16px;color:#777777">GPSP</b>, and <b style="font-size:16px;color:#777777">IIHT</b> are designed to solve (SCCS), <b style="font-size:16px;color:#777777">PSNP</b> is designed to solve (LqRCS) with  $0\leq q < 1$,  <b style="font-size:16px;color:#777777">NL0R</b> is designed to solve (L0RCS) with  $q=0$, and <b style="font-size:16px;color:#777777">MIRL1</b> is designed to solve (RL1CS).
