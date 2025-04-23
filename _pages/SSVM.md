@@ -79,14 +79,11 @@ $\mathbf{w}^* = \sum_{i=1}^m \alpha_i^* y_i \mathbf{a}_i$. The training vectors 
 
 ---
 <div style="text-align:justify;">
-The package can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\CSpack.zip" target="_blank">CSpack</a>, which provides 6 solvers from the following papers, where <b style="font-size:16px;color:#777777">NHTP</b>, <b style="font-size:16px;color:#777777">GPSP</b>, and <b style="font-size:16px;color:#777777">IIHT</b> are designed to solve (SCCS), <b style="font-size:16px;color:#777777">PSNP</b> is designed to solve (LqRCS) with  $0\leq q < 1$,  <b style="font-size:16px;color:#777777">NL0R</b> is designed to solve (L0RCS) with  $q=0$, and <b style="font-size:16px;color:#777777">MIRL1</b> is designed to solve (RL1CS).
+The package can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href=" " target="_blank">SSVMpack</a>, which provides 3 solvers from the following 3 papers, where <b style="font-size:16px;color:#777777">L01ADMM</b> and <b style="font-size:16px;color:#777777">NM01</b>, and <b style="font-size:16px;color:#777777">IIHT</b> are designed to solve (SFRSVM), and <b style="font-size:16px;color:#777777">NSSVM</b> is designed to solve (SCSNM).
 </div>  
-> <b style="font-size:14px;color:#777777">NHTP</b> - <span style="font-size: 14px"> S Zhou, N Xiu, and H Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, J Mach Learn Res, 22:1-45, 2021. </span>
-<br><b style="font-size:14px;color:#777777">GPSP</b> - <span style="font-size: 14px"> S Zhou, Gradient projection Newton pursuit for sparsity constrained optimization, Appl Comput Harmon Anal, 61:75-100, 2022. </span>
-<br><b style="font-size:14px;color:#777777">PSNP</b> - <span style="font-size: 14px"> S Zhou, X Xiu, Y Wang, and D Peng, Revisiting Lq ( 0 ≤ q < 1 ) norm regularized optimization, arXiv:2306.14394, 2023. </span>
-<br><b style="font-size:14px;color:#777777">NL0R</b> - <span style="font-size: 14px"> S Zhou, L Pan, and N Xiu, Newton method for l0 regularized optimization, Numer Algorithms, 88:1541–1570, 2021. </span>
-<br><b style="font-size:14px;color:#777777">IIHT</b> - <span style="font-size: 14px"> L Pan, S Zhou, N Xiu, and H Qi, A convergent iterative hard thresholding for nonnegative sparsity optimization, Pac J Optim, 13:325-353, 2017. </span>
-<br><b style="font-size:14px;color:#777777">MIRL1</b> - <span style="font-size: 14px"> S Zhou, N Xiu, et. al, A Null-space-based weighted l1 minimization approach to compressed sensing, Inf inference, 5:76-102, 2016. </span>
+> <b style="font-size:14px;color:#777777">NM01</b> - <span style="font-size: 14px"> S Zhou, L Pan, N Xiu, and H Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, SIAM J Optim, 31:3184–3211, 2021. </span>
+<br> <b style="font-size:14px;color:#777777">NSSVM</b> - <span style="font-size: 14px"> Shenglong Zhou, Sparse SVM for sufficient data reduction, IEEE Trans Pattern Anal  Mach  Intell, 44:5560-5571, 2022. </span>
+<br> <b style="font-size:14px;color:#777777">L01ADMM</b> - <span style="font-size: 14px"> H Wang, Y Shao, S Zhou, C Zhang, and N Xiu, Support vector machine classifier via L0/1 soft-margin loss, IEEE Trans Pattern Anal  Mach  Intell, 44:7253-7265, 2022. </span>
 
 ---
 <div style="text-align:justify;">
