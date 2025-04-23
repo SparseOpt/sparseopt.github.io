@@ -80,10 +80,10 @@ where $\mathbf{Q}\in\mathbb{R}^{m\times m}$ with $Q_{ij}=y_iy_j\mathbf{a}_i^\top
 <div style="text-align:justify;">
 The package can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href=" " target="_blank">SSVMpack</a>, which provides 3 solvers from the following 3 papers, where <b style="font-size:16px;color:#777777">L01ADMM</b> and <b style="font-size:16px;color:#777777">NM01</b>, and <b style="font-size:16px;color:#777777">IIHT</b> are designed to solve (SFRSVM), and <b style="font-size:16px;color:#777777">NSSVM</b> is designed to solve (SCSNM).
 </div>  
-> <b style="font-size:14px;color:#777777">NM01</b>-<span style="font-size: 14px"> S Zhou, L Pan, N Xiu, and H Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, SIAM J Optim, 31:3184–3211, 2021. </span>
-<br> <b style="font-size:14px;color:#777777">NSSVM</b>-<span style="font-size: 14px"> Shenglong Zhou, Sparse SVM for sufficient data reduction, IEEE Trans Pattern Anal  Mach  Intell, 44:5560-5571, 2022. </span>
+> <div style="text-align:justify;"> <b style="font-size:14px;color:#777777">NM01</b>-<span style="font-size: 14px"> S Zhou, L Pan, N Xiu, and H Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, SIAM J Optim, 31:3184–3211, 2021. </span>
+<br> <b style="font-size:14px;color:#777777">NSSVM</b>-<span style="font-size: 14px"> S Zhou, Sparse SVM for sufficient data reduction, IEEE Trans Pattern Anal  Mach  Intell, 44:5560-5571, 2022. </span>
 <br> <b style="font-size:14px;color:#777777">L01ADMM</b>-<span style="font-size: 14px"> H Wang, Y Shao, S Zhou, C Zhang, and N Xiu, Support vector machine classifier via L0/1 soft-margin loss, IEEE Trans Pattern Anal  Mach  Intell, 44:7253-7265, 2022. </span>
-
+</div>
 ---
 <div style="text-align:justify;">
 The citation for CSpack is shown below. Here, inputs $(\texttt{A},\texttt{b},\texttt{n},\texttt{solver})$ are required. If $\texttt{A}$ is a function handle, then $\texttt{At}$ is required. If $\texttt{A}$ is a matrix,  $\texttt{At}$ can be $\texttt{A}'$ or $\texttt{[]}$. If $\texttt{solver}$ is one of $\texttt{\{`NHTP',`GPNP',`IIHT'\}}$, then $\texttt{s}$ is required. If $\texttt{solver}$ is one of $\texttt{\{`PSNP',`NL0R',`MILR1'\}}$, then $\texttt{s}$ can be $\texttt{[]}$.
