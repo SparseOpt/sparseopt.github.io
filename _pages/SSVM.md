@@ -28,15 +28,15 @@ a:active {
 ##  <span style="color:#8C8C8C"> Sparse support vector mechine</span> 
 ---
 <div style="text-align:justify;">
-Compressive sensing (CS) problems aim to recover a signal $\mathbf{x}^*\in\mathbb{R}^{n}$ from the following linear system,
+  The  soft-margin support vector mechine (sm-SVM) takes the form of 
 </div>
 
 \begin{equation}
-\mathbf{b} = \mathbf{A}\mathbf{x} + \boldsymbol{\epsilon} \tag{CS}
+\min_{(\mathbf{w};b)\in\mathbb{R}^{n+1}}~\frac{1}{2}\parallel \mathbf{w} \parallel^2 + C \sum_{i=1}^m\ell\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right) \tag{sm-SVM}
 \end{equation} 
 
 <div style="text-align:justify;">
-where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, $\mathbf{b}\in\mathbb{R}^{m}$ is the observation, and $\boldsymbol{\epsilon}\in\mathbb{R}^{n}$ is the noise. To recover the signal, the folowing optimzation models are freguently explored:
+where $\mathbf{A}=(\mathbf{a}_1,\ldots,\mathbf{a}_m)\in\mathbb{R}^{n\times m}$ is the sample matrix, $\mathbf{y}=(y_1,\ldots,y_m)^\top\in\mathbb{R}^{m}$ is the label vector, $C>0$ is the penalty parameter, and $\ell$ is a loss function. One popular loss function is the hinge loss defined by  $\ell_{h}(t)=\max\{t,0\}.$
 </div>      
 - Sparsity constrained CS
 \begin{equation}
