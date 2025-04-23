@@ -41,7 +41,7 @@ where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice conti
 
 ---
 <div style="text-align:justify;"> 
-The package can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/CSpack" target="_blank">SCOpack</a>,
+The package can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href=" " target="_blank">SCOpack</a>,
 which provides 3 solvers from the following papers:
 </div>
 
