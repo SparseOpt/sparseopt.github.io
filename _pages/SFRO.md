@@ -42,7 +42,7 @@ where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a twice continuously differen
 
 ---
 <div style="text-align:justify;"> 
-The solver can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/NM01" target="_blank">NM01</a>,
+The solver can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href=" " target="_blank">NM01</a>,
 which was developed from the following paper:
 </div>
 
