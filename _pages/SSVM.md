@@ -25,7 +25,7 @@ a:active {
 
  
 
-##  <span style="color:#8C8C8C"> Compressive sensing</span> 
+##  <span style="color:#8C8C8C"> Sparse support vector mechine</span> 
 ---
 <div style="text-align:justify;">
 Compressive sensing (CS) problems aim to recover a signal $\mathbf{x}^*\in\mathbb{R}^{n}$ from the following linear system,
