@@ -54,14 +54,19 @@ where $\ell_{0/1}$ is the step function (or 0/1 loss function) defined by $\ell_
 \min_{(\mathbf{w};b)\in\mathbb{R}^{n+1}}~\frac{1}{2} \parallel  \mathbf{w} \parallel^2 + \sum_{i=1}^m\ell_{cC}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right) \tag{LcCSVM}
 \end{equation} 
 <div style="text-align:justify;">
-where  $\ell_{cC}(t)=Ct^2/2$ if $t>0$ and $\ell_{cC}(t)=ct^2/2$ otherwise with $C>c>0$. The dual problem of (LcCSVM) is 
+where  $\ell_{cC}(t)=Ct^2/2$ if $t>0$ and $\ell_{cC}(t)=ct^2/2$ otherwise with $C>c>0$. The dual problem of (LcCSVM) is the following quadratic kernel-based SVM problem
 </div>  
 \begin{equation}
-\min_{\boldsymbol{\alpha}\in\mathbb{R}^{m}}~\frac{1}{2} \boldsymbol{\alpha}^\top \mathbf{Q} \boldsymbol{\alpha} +\frac{1}{2}\sum_{i=1}^m h_{cC}(\alpha_i) -\mathbf{e}^\top\boldsymbol{\alpha}, ~~~~\mathrm{s.t.}~\mathbf{e}^\top\boldsymbol{\alpha}=1. 
+\min_{\boldsymbol{\alpha}\in\mathbb{R}^{m}}~\frac{1}{2} \boldsymbol{\alpha}^\top \mathbf{Q} \boldsymbol{\alpha} +\frac{1}{2}\sum_{i=1}^m h_{cC}(\alpha_i) -\mathbf{e}^\top\boldsymbol{\alpha}, ~~~~\mathrm{s.t.}~~\mathbf{y}^\top\boldsymbol{\alpha}=0\tag{QKSVM}
 \end{equation} 
 <div style="text-align:justify;">
 where $\mathbf{Q}=(Q_{ij})_{1\leq i,j\leq m}$ with $Q_{ij}=y_iy_j\mathbf{a}_i^\top\mathbf{a}_j$, $\mathbf{e}=(1,\ldots,1)^\top$, and $h_{cC}(t)=t^2/C$ if $t>0$ and $\ell_{cC}(t)=t^2/c$.
 </div>  
+◻️ Sparsity constrained quadratic kernel-based SVM 
+\begin{equation}
+\min_{\boldsymbol{\alpha}\in\mathbb{R}^{m}}~\frac{1}{2} \boldsymbol{\alpha}^\top \mathbf{Q} \boldsymbol{\alpha} +\frac{1}{2}\sum_{i=1}^m h_{cC}(\alpha_i) -\mathbf{e}^\top\boldsymbol{\alpha}, ~~~~\mathrm{s.t.}~~\mathbf{y}^\top\boldsymbol{\alpha}=0,~\parallel  \boldsymbol{\alpha} \parallel_0\leq s \tag{SCSVM}
+\end{equation} 
+
 ---
 <div style="text-align:justify;">
 The package can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\CSpack.zip" target="_blank">CSpack</a>, which provides 6 solvers from the following papers, where <b style="font-size:16px;color:#777777">NHTP</b>, <b style="font-size:16px;color:#777777">GPSP</b>, and <b style="font-size:16px;color:#777777">IIHT</b> are designed to solve (SCCS), <b style="font-size:16px;color:#777777">PSNP</b> is designed to solve (LqRCS) with  $0\leq q < 1$,  <b style="font-size:16px;color:#777777">NL0R</b> is designed to solve (L0RCS) with  $q=0$, and <b style="font-size:16px;color:#777777">MIRL1</b> is designed to solve (RL1CS).
