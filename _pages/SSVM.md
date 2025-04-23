@@ -28,7 +28,7 @@ a:active {
 ##  <span style="color:#8C8C8C"> Sparse support vector mechine</span> 
 ---
 <div style="text-align:justify;">
-  The  soft-margin support vector mechine (sm-SVM) takes the form of 
+  The  soft-margin support vector machine (SVM) takes the form of 
 </div>
 
 \begin{equation}
@@ -41,7 +41,7 @@ where $\mathbf{A}=(\mathbf{a}_1,\ldots,\mathbf{a}_m)\in\mathbb{R}^{n\times m}$ i
 
 <p style="line-height: 2;"></p>
 
-◻️ Step function regularied SVM
+◻️ Step function regularized SVM
 \begin{equation}
 \min_{(\mathbf{w};b)\in\mathbb{R}^{n+1}}~\frac{1}{2}\parallel \mathbf{w} \parallel^2 + C \sum_{i=1}^m\ell_{0/1}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right) \tag{L01SVM}
 \end{equation} 
@@ -74,7 +74,7 @@ where $\mathbf{Q}=(Q_{ij})_{1\leq i,j\leq m}$ with $Q_{ij}=y_iy_j\mathbf{a}_i^\t
 where $\mathbf{Q}\in\mathbb{R}^{m\times m}$ with each entry $Q_{ij}=y_iy_j\mathbf{a}_i^\top\mathbf{a}_j$, $\mathbf{e}=(1,\ldots,1)^\top$, and $h_{cC}(t)=t^2/C$ if $t>0$ and $\ell_{cC}(t)=t^2/c$,  $C>c>0$, and $s\ll m$. In fact, model (SCSVM) without sparsity constraint $\parallel  \boldsymbol{\alpha} \parallel_0\leq s$ is the dual problem of model (SVM) with $\ell=\ell_{cC}$, where  $\ell_{cC}(t)=t^2/2$ if $t>0$ and $\ell_{cC}(t)=(c/C)t^2/2$ otherwise. 
 </div>  
 
-> <div style="text-align:justify;"> According to the Representer Theorem,  otpimal soultion $ \mathbf{w}^* $ to (SVM) and otpimal soultion $\boldsymbol{\alpha}^* $ to the dual SVM satisfy $ \mathbf{w}^* = \sum_{i=1}^m \alpha_i^* y_i \mathbf{a}_i $. The training vectors $ \mathbf{a}_i $ corresponding to nonzero $ \alpha_i^* $ are known as support vectors. Therefore, both model (SFRSVM) and model (SCSVM) enable the reduction of support vectors. </div> 
+> <div style="text-align:justify;"> According to the Representer Theorem,  optimal solution $ \mathbf{w}^* $ to (SVM) and optimal solution $\boldsymbol{\alpha}^* $ to the dual SVM satisfy $ \mathbf{w}^* = \sum_{i=1}^m \alpha_i^* y_i \mathbf{a}_i $. The training vectors $ \mathbf{a}_i $ corresponding to nonzero $ \alpha_i^* $ are known as support vectors. Therefore, both model (SFRSVM) and model (SCSVM) enable the reduction of support vectors. </div> 
 
 ---
 <div style="text-align:justify;">
