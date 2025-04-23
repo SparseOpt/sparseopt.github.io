@@ -52,7 +52,7 @@ where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, both $\mathbf
 \end{equation}
 </div> 
 <div style="text-align:justify;">
-where $s\ll n$, $k\ll m$, $(\epsilon, \eta, \varepsilon, \lambda)>0$, and $\mathbf{z}_+$=$(\max\{0,z_1\}$,$\ldots$,$\max\{0,z_m\})^\top$. One can observe that  model (SFRO) is a penalty version of model (DSCO) and term $\parallel \mathbf{z}_+\parallel_0$ is related to the step function (or 0/1 loss function) defined by $\ell_{0/1}(t)=1$ if $t>0$ and $\ell_{0/1}(t)=0$ otherwise, namely, 
+where $s\ll n$, $k\ll m$, $(\epsilon, \eta, \varepsilon, \lambda)>0$, and $\mathbf{z}_+$=$(\max\{0,z_1\}$,$\ldots$,$\max\{0,z_m\})^\top$. One can observe that  model (SFRO) is a penalty version of model (DSCO) and term $\parallel \mathbf{z}_+\parallel_0$ is related to the step (or 0/1 loss) function defined by $\ell_{0/1}(t)=1$ if $t>0$ and $\ell_{0/1}(t)=0$ otherwise, namely, 
   \begin{equation}\|\mathbf{z}_+\|_0=\sum_{i=1}^m \ell_{0/1}\left(z_{i}\right)\nonumber\end{equation}
 </div> 
   
