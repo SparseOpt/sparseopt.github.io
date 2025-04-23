@@ -74,8 +74,8 @@ where $\mathbf{Q}=(Q_{ij})_{1\leq i,j\leq m}$ with $Q_{ij}=y_iy_j\mathbf{a}_i^\t
 where $\mathbf{Q}\in\mathbb{R}^{m\times m}$ with $Q_{ij}=y_iy_j\mathbf{a}_i^\top\mathbf{a}_j$, $\mathbf{e}=(1,\ldots,1)^\top$, and $h_{cC}(t)=t^2/C$ if $t>0$ and $\ell_{cC}(t)=t^2/c$,  $C>c>0$, and $s\ll m$. In fact, model (SCSVM) without sparsity constraint $\parallel  \boldsymbol{\alpha} \parallel_0\leq s$ is the dual problem of model (SVM) with $\ell=\ell_{cC}$, where  $\ell_{cC}(t)=t^2/2$ if $t>0$ and $\ell_{cC}(t)=(c/C)t^2/2$ otherwise. 
 </div>  
 
-> According to the Representer Theorem,  primal otpimal soultion $\mathbf{w}^*$ and  otpimal soultion $\boldsymbol{\alpha}^*$ to the dual kernel-based SVM optimization have the following relationship
-$\mathbf{w}^* = \sum_{i=1}^m \alpha_i^* y_i \mathbf{a}_i$. The training vectors $\mathbf{a}_i$ corresponding to nonzero $\alpha_i^*$ are known as support vectors. Therefore, both model (SFRSVM) and model (SCSVM) enable the reduction of support vectors.
+> According to the Representer Theorem,  primal otpimal soultion $ \mathbf{w}^* $ and otpimal soultion $ \boldsymbol{\alpha}^* $ to the dual kernel-based SVM optimization have the following relationship
+$ \mathbf{w}^* = \sum_{i=1}^m \alpha_i^* y_i \mathbf{a}_i $. The training vectors $ \mathbf{a}_i $ corresponding to nonzero $ \alpha_i^* $ are known as support vectors. Therefore, both model (SFRSVM) and model (SCSVM) enable the reduction of support vectors.
 
 ---
 <div style="text-align:justify;">
