@@ -44,7 +44,7 @@ where $\mathbf{G}(\mathbf{x})=[G_{ij}(\mathbf{x})]_{1\leq i\leq M, 1\leq j \leq 
 
 ---
 <div style="text-align:justify;"> 
-The solver can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://github.com/ShenglongZhou/SNSCO" target="_blank">SNSCO</a>,
+The solver can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href=" " target="_blank">SNSCO</a>,
 which was developed from the following paper:
 </div>
 
