@@ -46,10 +46,10 @@ where $\mathbf{A}=(\mathbf{a}_1,\ldots,\mathbf{a}_m)\in\mathbb{R}^{n\times m}$ i
 \min_{(\mathbf{w};b)\in\mathbb{R}^{n+1}}~\frac{1}{2}\parallel \mathbf{w} \parallel^2 + C \sum_{i=1}^m\ell_{0/1}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right) \tag{L01SVM}
 \end{equation} 
 <div style="text-align:justify;">
-where $\ell_{0/1}$ is the step function (or 0/1 loss function) defined by $\ell_{0/1}(t)=1$ if $t>0$ and $\ell_{0/1}(t)=0$ otherwise. By letting $\mathbf{z}_+=(\max\{0,z_1\},\ldots,\max\{0,z_m\})^\top$, one can check that
+where $\ell_{0/1}$ is the step function (or 0/1 loss function) defined by $\ell_{0/1}(t)=1$ if $t>0$ and $\ell_{0/1}(t)=0$ otherwise. By letting $\mathbf{z}_+=(\max\{0,z_1\},\ldots,\max\{0,z_m\})^\top$ and $\parallel\mathbf{x}\parallel_0$ denote the $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$, one can check that
 </div> 
 \begin{equation}
- \sum_{i=1}^m\ell_{0/1}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right) = \parallel(1-\mathbf{A}\mathbf{w}-b\mathbf{y})_+\parallel_0
+ \sum_{i=1}^m\ell_{0/1}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right) = 
 \end{equation}  
 
 ◻️ $\ell_{cC}$ regularized  SVM
