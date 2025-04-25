@@ -87,6 +87,34 @@ The package can be download here - <a style="font-size: 16px; font-weight: bold;
 
 ---
 <div style="text-align:justify;">
+Below is a demonstration of how CSpack can be used to solve the problem. You simply need to input the data $(\texttt{A},\texttt{b},\texttt{n},\texttt{s})$  and select $\texttt{solver}$ from $\texttt{\{`NHTP',`GPNP',`IIHT',`PSNP',`NL0R',`MILR1'\}}$. The parameters in $\texttt{pars}$ are optional, but setting certain ones can improve the solver's performance and the quality of the solution.
+</div>
+
+<p style="line-height: 1;"></p>
+
+```ruby
+clc; clear; close all; addpath(genpath(pwd));
+
+n       = 10000;  
+m       = ceil(0.25*n); 
+s       = ceil(0.05*n); 
+
+T       = randperm(n,s);  
+xopt    = zeros(n,1);
+xopt(T) = (0.1+rand(s,1)).*sign(randn(s,1));  
+A       = randn(m,n)/sqrt(m);   
+b       = A(:,T)*xopt(T)+0.00*randn(m,1);  
+
+t       = 2; 
+solver  = {'NHTP', 'GPNP', 'IIHT', 'PSNP', 'NL0R', 'MIRL1'};
+out     = CSsolver(A,[],b,n,s,solver{t}); 
+
+fprintf(' Objective of xopt:       %.2e\n', norm(A*xopt-b)^2/2);
+fprintf(' Objective of out.sol:    %.2e\n', out.obj);
+fprintf(' Sparsity of out.sol:     %2d\n', nnz(out.sol));
+fprintf(' Computational time:      %.3fsec\n',out.time); 
+```
+<div style="text-align:justify;">
 The citation for CSpack is shown below. Here, inputs $(\texttt{A},\texttt{b},\texttt{n},\texttt{solver})$ are required. If $\texttt{A}$ is a function handle, then $\texttt{At}$ is required. If $\texttt{A}$ is a matrix,  $\texttt{At}$ can be $\texttt{A}'$ or $\texttt{[]}$. If $\texttt{solver}$ is one of $\texttt{\{`NHTP',`GPNP',`IIHT'\}}$, then $\texttt{s}$ is required. If $\texttt{solver}$ is one of $\texttt{\{`PSNP',`NL0R',`MILR1'\}}$, then $\texttt{s}$ can be $\texttt{[]}$.
 </div>
 
@@ -154,33 +182,4 @@ function out = CSsolver(A,At,b,n,s,solver,pars)
 %           pars.neg    --  =0, Compute SCCS without x>=0       (default,0)
 %                           =1, Compute SCCS with x>=0
 % -------------------------------------------------------------------------
-```
-
-<div style="text-align:justify;">
-Below is a demonstration of how CSpack can be used to solve the problem. You simply need to input the data $(\texttt{A},\texttt{b},\texttt{n},\texttt{s})$  and select $\texttt{solver}$ from $\texttt{\{`NHTP',`GPNP',`IIHT',`PSNP',`NL0R',`MILR1'\}}$. The parameters in $\texttt{pars}$ are optional, but setting certain ones can improve the solver's performance and the quality of the solution.
-</div>
-
-<p style="line-height: 1;"></p>
-
-```ruby
-clc; clear; close all; addpath(genpath(pwd));
-
-n       = 10000;  
-m       = ceil(0.25*n); 
-s       = ceil(0.05*n); 
-
-T       = randperm(n,s);  
-xopt    = zeros(n,1);
-xopt(T) = (0.1+rand(s,1)).*sign(randn(s,1));  
-A       = randn(m,n)/sqrt(m);   
-b       = A(:,T)*xopt(T)+0.00*randn(m,1);  
-
-t       = 2; 
-solver  = {'NHTP', 'GPNP', 'IIHT', 'PSNP', 'NL0R', 'MIRL1'};
-out     = CSsolver(A,[],b,n,s,solver{t}); 
-
-fprintf(' Objective of xopt:       %.2e\n', norm(A*xopt-b)^2/2);
-fprintf(' Objective of out.sol:    %.2e\n', out.obj);
-fprintf(' Sparsity of out.sol:     %2d\n', nnz(out.sol));
-fprintf(' Computational time:      %.3fsec\n',out.time); 
 ```
