@@ -120,7 +120,7 @@ function Out = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars)
 %     Q0:     The quadratic objective matrix in R^{n-by-n}                            (required)        
 %     q0:     The quadratic objective vector in R^n                                   (required)
 %     Qi:     The quadratic constraint matrix                                         (optional) 
-%             MUST be a cell array or [], each entry is matrix in R^{n-by-n}           
+%             MUST be a cell array or [], each entry is a matrix in R^{n-by-n}           
 %     qi:     The quadratic constraint vector. MUST be a matrix in R^{n-by-k} or []   (optional)           
 %     ci:     The quadratic constraint constant in R, must be a vector or []          (optional)
 %     ineqA:  The linear inequality constraint matrix in R^{m1-by-n}   or []          (optional)
