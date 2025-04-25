@@ -66,6 +66,39 @@ The package can be download here - <a style="font-size: 16px; font-weight: bold;
 <br> <b style="font-size:14px;color:#777777">NM01</b> -<span style="font-size: 14px"> S Zhou, L Pan, N Xiu, and H Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, SIOPT, 31:3184–3211, 2021. </span>
 
 ---
+<div style="text-align:justify;">
+Below is a demonstration of how OBCSpack can be used to solve the problem. You simply need to input the data $(\texttt{A},\texttt{b},\texttt{s},\texttt{k})$ and then choose one solver from $\texttt{\{`GPSP',`NM01'\}}$. 
+</div>
+
+<p style="line-height: 1;"></p>
+
+```ruby
+clc; close all; clear; addpath(genpath(pwd));
+
+n     = 2000;          % Signal dimension 
+m     = ceil(0.5*n);   % Number of measurements
+s     = ceil(0.01*n);  % Sparsity level
+nf    = 0.05;          % Noisy ratio
+r     = 0.02;          % Flipping ratio
+k     = ceil(r*m);
+
+A     = randn(m,n);
+T     = randperm(n,s);
+xo    = zeros(n,1);                      
+xo(T) = (1+rand(s,1)).*sign(randn(s,1));  
+xo(T) = xo(T)/norm(xo(T));                 % True sparse solution
+h     = ones(m,1);                         % Flipping vector
+T     = randperm(m,k); 
+h(T)  = -h(T);
+b     = h.*sign(A(:,T)*xo(T)+nf*randn(m,1));; 
+
+solver = {'GPSP','NM01'};
+out    = OBCSpack(A,b,s,k,solver{1});  
+fprintf(' Time:                  %6.3f sec\n',out.time);
+fprintf(' Absolue error:         %6.2f %%\n', norm(xo-out.sol)*100);
+fprintf(' Signal-to-noise ratio: %6.2f\n',-10*log10(norm(xo-out.sol)^2));
+fprintf(' Hamming distence:      %6.3f\n',nnz(sign(A*out.sol)-b)/m)
+```
 
 <div style="text-align:justify;">
 The inputs and outputs of OBCSpack are detailed below, where inputs $(\texttt{A},\texttt{b},\texttt{s},\texttt{k},\texttt{solver})$ are required. If choose $\texttt{solver=`NM01'}$, then one can set $\texttt{s=[]}$ and $ \texttt{k=[]}$ if they are unknown. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
@@ -122,38 +155,4 @@ function out = OBCSpack(A,b,s,k,solver,pars)
 %     out.iter:  Number of iterations
 %     out.obj:   Objective function value at out.sol 
 % ------------------------------------------------------------------------
-```
-
-<div style="text-align:justify;">
-Below is a demonstration of how OBCSpack can be used to solve the problem. You simply need to input the data $(\texttt{A},\texttt{b},\texttt{s},\texttt{k})$ and then choose one solver from $\texttt{\{`GPSP',`NM01'\}}$. 
-</div>
-
-<p style="line-height: 1;"></p>
-
-```ruby
-clc; close all; clear; addpath(genpath(pwd));
-
-n     = 2000;          % Signal dimension 
-m     = ceil(0.5*n);   % Number of measurements
-s     = ceil(0.01*n);  % Sparsity level
-nf    = 0.05;          % Noisy ratio
-r     = 0.02;          % Flipping ratio
-k     = ceil(r*m);
-
-A     = randn(m,n);
-T     = randperm(n,s);
-xo    = zeros(n,1);                      
-xo(T) = (1+rand(s,1)).*sign(randn(s,1));  
-xo(T) = xo(T)/norm(xo(T));                 % True sparse solution
-h     = ones(m,1);                         % Flipping vector
-T     = randperm(m,k); 
-h(T)  = -h(T);
-b     = h.*sign(A(:,T)*xo(T)+nf*randn(m,1));; 
-
-solver = {'GPSP','NM01'};
-out    = OBCSpack(A,b,s,k,solver{1});  
-fprintf(' Time:                  %6.3f sec\n',out.time);
-fprintf(' Absolue error:         %6.2f %%\n', norm(xo-out.sol)*100);
-fprintf(' Signal-to-noise ratio: %6.2f\n',-10*log10(norm(xo-out.sol)^2));
-fprintf(' Hamming distence:      %6.3f\n',nnz(sign(A*out.sol)-b)/m)
 ```
