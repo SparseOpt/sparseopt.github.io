@@ -56,7 +56,7 @@ was developed from the following paper:</div>
 
 ---
 <div style="text-align:justify;">
-Below is a demonstration of the solver applied to a sparse portfolio selection problem. 
+Below is a demonstration of the solver applied to a sparse portfolio selection problem. You need to specify inputs $\texttt{(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub)}$. If some inputs are unnecessary, then put them as $[ ]$.
 </div>
 
 <p style="line-height: 1;"></p>
