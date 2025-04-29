@@ -77,109 +77,92 @@ where $\mathbf{Q}\in\mathbb{R}^{m\times m}$ with each entry $Q_{ij}=y_iy_j\mathb
 > <div style="text-align:justify;"> According to the Representer Theorem,  optimal solution $ \mathbf{w}^* $ to (SVM) and optimal solution $\boldsymbol{\alpha}^* $ to the dual SVM satisfy $ \mathbf{w}^* = \sum_{i=1}^m \alpha_i^* y_i \mathbf{a}_i $. The training vectors $ \mathbf{a}_i $ corresponding to nonzero $ \alpha_i^* $ are known as support vectors. Therefore, both model (SFRSVM) and model (SCSVM) enable the reduction of support vectors. </div> 
 
 ---
-<div style="text-align:justify;">
-The package can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href=" " target="_blank">SSVMpack</a>, which provides 3 solvers from the following 3 papers, where <b style="font-size:16px;color:#777777">NM01</b> and <b style="font-size:16px;color:#777777">L01ADMM</b> are designed to solve (SFRSVM), and <b style="font-size:16px;color:#777777">NSSVM</b> is designed to solve (SCSNM).
+<div style="text-align:justify;"
+The package can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="files\SSVMpack-MATLAB.zip\" target="_blank">SSVMpack</a>, which provides 2 solvers from the following 2 papers, where <b style="font-size:16px;color:#777777">NM01</b> is designed to solve (SFRSVM), while <b style="font-size:16px;color:#777777">NSSVM</b> is designed to solve (SCSNM).
 </div>  
 
 > <div style="text-align:justify;"> <b style="font-size:14px;color:#777777">NM01</b> -<span style="font-size: 14px"> S Zhou, L Pan, N Xiu, and H Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, SIOPT, 31:3184-3211, 2021. </span> </div>
 > <div style="text-align:justify;">  <b style="font-size:14px;color:#777777">NSSVM</b> -<span style="font-size: 14px"> S Zhou, Sparse SVM for sufficient data reduction, IEEE TPAMI, 44:5560-5571, 2022. </span> </div>
-> <div style="text-align:justify;"> <b style="font-size:14px;color:#777777">L01ADMM</b> -<span style="font-size: 14px"> H Wang, Y Shao, S Zhou, C Zhang, and N Xiu, Support vector machine classifier via L0/1 soft-margin loss, IEEE TPAMI, 44:7253-7265, 2022. </span> </div>
 
 ---
 <div style="text-align:justify;">
-Below is a demonstration of how CSpack can be used to solve the problem. You simply need to input the data $(\texttt{A},\texttt{b},\texttt{n},\texttt{s})$  and select $\texttt{solver}$ from $\texttt{\{`NHTP',`GPNP',`IIHT',`PSNP',`NL0R',`MILR1'\}}$. The parameters in $\texttt{pars}$ are optional, but setting certain ones can improve the solver's performance and the quality of the solution.
+Below is a demonstration of how SSVMpack can be used to solve the problem. You simply need to input the data $(\texttt{A},\texttt{y})$  and select $\texttt{solver}$ from $\texttt{\{`NM01',`NSSVM'\}}$. The parameters in $\texttt{pars}$ are optional, but setting certain ones ( particularly, $\texttt{pars.C}$ and $\texttt{pars.s0}$ )  can improve the solver's performance and the quality of the solution.
 </div>
 
 <p style="line-height: 1;"></p>
 
 ```ruby
-clc; clear; close all; addpath(genpath(pwd));
+clc; close all; clear all; addpath(genpath(pwd));
+  
+load dhrb.mat; 
+load dhrbclass.mat;  
+[m0,n]  = size(A);         
+A       = normalization(A,2*(max(A(:))>1)); % normalize the data
+% Split the data into training and testing sets
+m       = ceil(0.9*m0);         
+Train   = randperm(m0,m);  
+Ttest   = setdiff(1:m0,Train);  
+Atrain  = A(Train,:);  
+ytrain  = y(Train,:); 
+Atest   = A(Ttest,:);  
+ytest   = y(Ttest);    
 
-n       = 10000;  
-m       = ceil(0.25*n); 
-s       = ceil(0.05*n); 
+pars.C  = 0.25;
+solver  = {'NM01','NSSVM'};
+out     = SSVMpack(Atrain,ytrain,solver{1},pars);
+acc     = accuracy(Atrain,out.w,ytrain);
+tacc    = accuracy(Atest,out.w,ytest);
 
-T       = randperm(n,s);  
-xopt    = zeros(n,1);
-xopt(T) = (0.1+rand(s,1)).*sign(randn(s,1));  
-A       = randn(m,n)/sqrt(m);   
-b       = A(:,T)*xopt(T)+0.00*randn(m,1);  
-
-t       = 2; 
-solver  = {'NHTP', 'GPNP', 'IIHT', 'PSNP', 'NL0R', 'MIRL1'};
-out     = CSsolver(A,[],b,n,s,solver{t}); 
-
-fprintf(' Objective of xopt:       %.2e\n', norm(A*xopt-b)^2/2);
-fprintf(' Objective of out.sol:    %.2e\n', out.obj);
-fprintf(' Sparsity of out.sol:     %2d\n', nnz(out.sol));
-fprintf(' Computational time:      %.3fsec\n',out.time); 
+fprintf(' Training  Time:             %5.3fsec\n',out.time);
+fprintf(' Training  Size:             %dx%d\n',size(Atrain,1),size(Atrain,2));
+fprintf(' Training  Accuracy:         %5.2f%%\n', acc*100);
+fprintf(' Testing   Size:             %dx%d\n',size(Atest,1),size(Atest,2));
+fprintf(' Testing   Accuracy:         %5.2f%%\n',tacc*100);
+fprintf(' Number of Support Vectors:  %d\n',out.sv); 
 ```
 <div style="text-align:justify;">
-The citation for CSpack is shown below. Here, inputs $(\texttt{A},\texttt{b},\texttt{n},\texttt{solver})$ are required. If $\texttt{A}$ is a function handle, then $\texttt{At}$ is required. If $\texttt{A}$ is a matrix,  $\texttt{At}$ can be $\texttt{A}'$ or $\texttt{[]}$. If $\texttt{solver}$ is one of $\texttt{\{`NHTP',`GPNP',`IIHT'\}}$, then $\texttt{s}$ is required. If $\texttt{solver}$ is one of $\texttt{\{`PSNP',`NL0R',`MILR1'\}}$, then $\texttt{s}$ can be $\texttt{[]}$.
+The citation for SSVMpack is shown below. Here, inputs $(\texttt{A},\texttt{y},\texttt{solver})$ are required.  If $\texttt{solver='NSSVM'}$, then set a proper $\texttt{pars.s0}$ can enhance solution quality.  
 </div>
 
 <p style="line-height: 1;"></p>
 
 ```ruby
-function out = CSsolver(A,At,b,n,s,solver,pars)
+function out = SSVMpack(A,y,solver,pars)
 % -------------------------------------------------------------------------
-% This solver solves compressive sensing (CS) in one of the following forms
-%
-% 1) The sparsity constrained compressive sensing (SCCS)
-%
-%         min_{x\in R^n} 0.5||Ax-b||^2  s.t. ||x||_0<=s
-%
-% 2) The L0 regularized compressive sensing (LqCS)
-%
-%         min_{x\in R^n} 0.5||Ax-b||^2 + lambda * ||x||_q^q,  0<=q<1 
-%
-% 3) The reweighted L1-regularized compressive sensing (RL1CS)
-%
-%         min_{x\in R^n} 0.5||Ax-b||^2 + lambda||Wx||_1
-%
-% where s << n is the given sparsity and lambda>0 
-%       A\in\R{m by n} the measurement matrix
-%       b\in\R{m by 1} the observation vector 
-%       W\in\R{n by n} is a diagonal matrix to be updated iteratively
-% -------------------------------------------------------------------------
+% This package aims to solve the binary classification problems
 % Inputs:
-%   A  :     The measurement matrix, A\in\R{m by n}              (REQUIRED)
-%   At :     The transpose of A and can be [] if A is a matrix   (REQUIRED)
-%            But At is REQUIRED if A is a function handle 
-%            i.e., A*x = A(x); A'*y = At(y); 
-%   b:       The observation vector  b\in\R{m by 1}              (REQUIRED)
-%   n:       Dimension of the solution x,                        (REQUIRED)
-%   s:       The sparsity level, if unknown, put it as []        (REQUIRED)
-%   solver:  A text string, can be one of                        (REQUIRED)
-%            {'NHTP','GPNP','PSNP','NL0R','IIHT','MILR1'}
-%
-%           --------------------------------------------------------------------------------
-%                    |  'NHTP'   |  'GPNP'   |  'PSNP'   |  'NL0R'   |  'IIHT'   |  'MIRL1'   
-%           --------------------------------------------------------------------------------
-%           Model    |   SCCS    |   SCCS    |   LqRCS   |   L0RCS   |   SCCS    |   RL1CS     
-%           Method   | 2nd-order | 2nd-order | 2nd-order | 2nd-order | 1st-order | 1st-order  
-%           Sparsity | required  | required  |  no need  |  no need  | required  |  no need
-%           --------------------------------------------------------------------------------  
-%
-%   pars  : ----------------For all solvers -------------------------------
-%           pars.x0     --  Starting point of x       (default, zeros(n,1))                     
-%           pars.disp   --  =1, show results for each step      (default,1)
-%                           =0, not show results for each step
-%           pars.maxit  --  Maximum number of iterations     (default, 2e3) 
-%           pars.tol    --  Tolerance of stopping criteria   (default,1e-6)
-%           ----------------Particular for NHTP ---------------------------
-%           pars.eta    --  A positive scalar for 'NHTP'       (default, 1)  
-%                           Tuning pars.eta may improve solution quality.
-%           ----------------Particular for PSNP ---------------------------
-%           pars.q      --  Decide Lq norm                  (default,  0.5)  
-%           pars.lambda --  An initial penalty parameter    (default,  0.1)
-%           pars.obj    --  A predefined lower bound of f(x)(default,1e-20)
-%           ----------------Particular for NL0R ---------------------------
-%           pars.tau    --  A positive scalar for 'NL0R'    (default,    1)  
-%           pars.lambda --  An initial penalty parameter    (default,  0.1)
-%           pars.obj    --  A predefined lower bound of f(x)(default,1e-20)
-%           ----------------Particular for IIHT ---------------------------
-%           pars.neg    --  =0, Compute SCCS without x>=0       (default,0)
-%                           =1, Compute SCCS with x>=0
+%  A:       The smaple matrix \in R^{m-by-n},                    (REQUIRED)
+%  y:       The binary label \in R^m, b_i\in{-1,1}               (REQUIRED)    
+%  solver:  A text string, can be one of {'NM01','NSSVM'}        (REQUIRED)            
+%  pars:    Parameters are optional                              (OPTIONAL) 
+%           ------------- For NSSVM solving (DSCO)-------------------------
+%           pars.alpha --  Starting point in \R^m       (default zeros(m,1))
+%           pars.s0    --  The initial sparsity    (default n(log(m/n))^2))
+%           pars.C     --  A positive scalar in (0,1]         (default 1/4)  
+%           pars.c     --  A positive scalar in (0,1]         (default 1/8)  
+%           pars.disp  --  Display results for each step        (default 1)  
+%                          Do not display results for each step 
+%           pars.tune  --  Tune the sparsity level              (default 0)
+%                          Do not tune the sparsity level 
+%           pars.maxit --  Maximum number of iterations      (default e000) 
+%           pars.tol   --  Tolerance of the halting criteria (default 1e-4) 
+%           -------------  For NM01 solving (SFRO)-------------------------
+%           pars.x0    --  The initial point           (default zeros(n,1))
+%           pars.C     --  The penalty parameter                (default 1)
+%           pars.tau   --  A useful paramter                    (default 5)
+%           pars.maxit --  Maximum number of iterations      (default 1000)  
+%           pars.tol   --  Tolerance of the halting criteria (default 1e-4) 
+%           pars.disp  --  Display results for each step        (default 1)  
+%                          Do not display results for each step 
+% -------------------------------------------------------------------------
+% Outputs:
+%     out.w:      The solution of the primal problem, i.e., the classifier
+%     out.sv:     Number of support vectors 
+%     out.time    CPU time
+%     out.iter:   Number of iterations
+%     Out.acc:    Classification accuracy
+% -------------------------------------------------------------------------
+% Send your comments and suggestions to <slzhou2021@163.com> 
+% Warning: Accuracy may not be guaranteed !!!!!! 
 % -------------------------------------------------------------------------
 ```
