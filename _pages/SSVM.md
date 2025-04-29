@@ -142,8 +142,8 @@ function out = SSVMpack(A,y,solver,pars)
 %           pars.c     --  A positive scalar in (0,1]         (default 1/8)  
 %           pars.disp  --  Display results for each step        (default 1)  
 %                          Do not display results for each step 
-%           pars.tune  --  Tune the sparsity level              (default 0)
-%                          Do not tune the sparsity level 
+%           pars.tune  --  Tune the sparsity level             
+%                          Do not tune the sparsity level       (default 0)
 %           pars.maxit --  Maximum number of iterations      (default e000) 
 %           pars.tol   --  Tolerance of the halting criteria (default 1e-4) 
 %           -------------  NM01 -------------------------------------------
