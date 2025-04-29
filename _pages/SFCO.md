@@ -44,7 +44,7 @@ where $\mathbf{G}(\mathbf{x})\in\mathbb{R}^{M \times N}$ with each entry being $
 
 ---
 <div style="text-align:justify;"> 
-The solver can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href=" " target="_blank">SNSCO</a>,
+The solver can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href=" " target="_blank">SNSCO</a>,
 which was developed from the following paper:
 </div>
 
