@@ -77,8 +77,8 @@ where $\mathbf{Q}\in\mathbb{R}^{m\times m}$ with each entry $Q_{ij}=y_iy_j\mathb
 > <div style="text-align:justify;"> According to the Representer Theorem,  optimal solution $ \mathbf{w}^* $ to (SVM) and optimal solution $\boldsymbol{\alpha}^* $ to the dual SVM satisfy $ \mathbf{w}^* = \sum_{i=1}^m \alpha_i^* y_i \mathbf{a}_i $. The training vectors $ \mathbf{a}_i $ corresponding to nonzero $ \alpha_i^* $ are known as support vectors. Therefore, both model (SFRSVM) and model (SCSVM) enable the reduction of support vectors. </div> 
 
 ---
-<div style="text-align:justify;"
-The package can be download here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SSVMpack-MATLAB.zip" target="_blank">SSVMpack</a>, which provides 2 solvers from the following 2 papers, where <b style="font-size:16px;color:#777777">NM01</b> is designed to solve (SFRSVM), while <b style="font-size:16px;color:#777777">NSSVM</b> is designed to solve (SCSNM).
+<div style="text-align:justify;">
+The package can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SSVMpack-MATLAB.zip" target="_blank">SSVMpack</a>, which provides 2 solvers from the following 2 papers, where <b style="font-size:16px;color:#777777">NM01</b> and <b style="font-size:16px;color:#777777">NSSVM</b> are designed to solve (SFRSVM) and (SCSNM), respectively.
 </div>  
 
 > <div style="text-align:justify;"> <b style="font-size:14px;color:#777777">NM01</b> -<span style="font-size: 14px"> S Zhou, L Pan, N Xiu, and H Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, SIOPT, 31:3184-3211, 2021. </span> </div>
@@ -121,7 +121,7 @@ fprintf(' Testing   Accuracy:         %5.2f%%\n',tacc*100);
 fprintf(' Number of Support Vectors:  %d\n',out.sv); 
 ```
 <div style="text-align:justify;">
-The citation for SSVMpack is shown below. Here, inputs $(\texttt{A},\texttt{y},\texttt{solver})$ are required, where $\texttt{solver} \in \{\texttt{`NM01'},\texttt{`NSSVM'} \}$.   If $\texttt{solver='NSSVM'}$, then set a proper $\texttt{pars.s0}$ can enhance solution quality.  Another important parameter is $\texttt{pars.C}$ which can be tuned using the Cross-validaton.
+The citation for SSVMpack is shown below. Inputs $(\texttt{A},\texttt{y},\texttt{solver})$ are required, $\texttt{solver}$ is chosen from $\{\texttt{`NM01'},\texttt{`NSSVM'} \}$.   If $\texttt{solver=`NSSVM'}$, then set a proper $\texttt{pars.s0}$ can enhance solution quality.  Another important parameter is $\texttt{pars.C}$ which can be tuned using the Cross-validaton.
 </div>
 
 <p style="line-height: 1;"></p>
