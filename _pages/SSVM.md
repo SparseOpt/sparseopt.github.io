@@ -121,7 +121,7 @@ fprintf(' Testing   Accuracy:         %5.2f%%\n',tacc*100);
 fprintf(' Number of Support Vectors:  %d\n',out.sv); 
 ```
 <div style="text-align:justify;">
-The citation for SSVMpack is shown below. Here, inputs $(\texttt{A},\texttt{y},\texttt{solver})$ are required.  If $\texttt{solver='NSSVM'}$, then set a proper $\texttt{pars.s0}$ can enhance solution quality.  
+The citation for SSVMpack is shown below. Here, inputs $(\texttt{A},\texttt{y},\texttt{solver})$ are required, where $\texttt{solver} \in \{\texttt{`NM01'},\texttt{`NSSVM'} \}$.   If $\texttt{solver='NSSVM'}$, then set a proper $\texttt{pars.s0}$ can enhance solution quality.  Another important parameter is $\texttt{pars.C}$ which can be tuned using the Cross-validaton.
 </div>
 
 <p style="line-height: 1;"></p>
@@ -135,7 +135,7 @@ function out = SSVMpack(A,y,solver,pars)
 %  y:       The binary label \in R^m, b_i\in{-1,1}               (REQUIRED)    
 %  solver:  A text string, can be one of {'NM01','NSSVM'}        (REQUIRED)            
 %  pars:    Parameters are optional                              (OPTIONAL) 
-%           ------------- For NSSVM solving (DSCO)-------------------------
+%           -------------  For NSSVM --------------------------------------
 %           pars.alpha --  Starting point in \R^m       (default zeros(m,1))
 %           pars.s0    --  The initial sparsity    (default n(log(m/n))^2))
 %           pars.C     --  A positive scalar in (0,1]         (default 1/4)  
@@ -146,7 +146,7 @@ function out = SSVMpack(A,y,solver,pars)
 %                          Do not tune the sparsity level 
 %           pars.maxit --  Maximum number of iterations      (default e000) 
 %           pars.tol   --  Tolerance of the halting criteria (default 1e-4) 
-%           -------------  For NM01 solving (SFRO)-------------------------
+%           -------------  NM01 -------------------------------------------
 %           pars.x0    --  The initial point           (default zeros(n,1))
 %           pars.C     --  The penalty parameter                (default 1)
 %           pars.tau   --  A useful paramter                    (default 5)
