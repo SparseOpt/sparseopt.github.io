@@ -57,6 +57,8 @@ which provides 2 solvers from the following papers:
 Both solvers are second-order methods, which require both the gradient and Hessian of $f$. Below is a demonstration of how to define the gradient and Hessian for <b style="font-size:14px;color:#777777">NL0R</b> and <b style="font-size:14px;color:#777777">PSNP</b>.
 </div>
 
+
+<!--
 <p style="line-height: 1;"></p>
 
 ```ruby
@@ -82,3 +84,4 @@ function [out1,out2] = funCS(x,T1,T2,data)
     end     
 end
 ```
+ -->
