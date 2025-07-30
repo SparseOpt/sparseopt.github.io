@@ -84,7 +84,7 @@ lb    = 0;
 ub    = 0.3;
     
 pars.x0       = ((lb+ub)/2).*ones(n,1);
-pars.tau      = 1; % decrease this value if the algorithm do not converge
+pars.tau      = 1; % decrease this value if the algorithm does not converge
 pars.dualquad = 0*ones(length(ci));
 pars.dualineq = 0.001*ones(length(ineqb)); 
 pars.dualeq   = 0.001*ones(length(eqb));
@@ -129,7 +129,7 @@ function Out = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars)
 %     eqb:    The linear equality constraint vector in R^{m2}          or []          (optional)
 %     lb:     The lower bound of x                                                    (optional)
 %     ub:     The upper bound of x                                                    (optional)
-%             NOTE: 0 must in [lb ub]
+%             NOTE: 0 must be in [lb ub]
 %     pars:   Parameters are all OPTIONAL
 %             pars.x0       -- Initial point of x                                     (default zeros(n,1))
 %             pars.dualquad -- Initial point of mu for quadratic constraints          (default zeros(k,1))
@@ -139,7 +139,7 @@ function Out = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars)
 %             pars.tau      -- A positive scalar                                      (default 1)
 %                              NOTE: tuning a proper tau may yield better solutions     
 %             pars.itlser   -- Maximum number of line search                          (default 5)
-%             pars.itmax    -- Maximum number of iteration                            (default 10000)
+%             pars.itmax    -- Maximum number of iterations                           (default 10000)
 %             pars.show     -- Results shown at each iteration if pars.show=1         (default 1)
 %                              Results not shown at each iteration if pars.show=0
 %             pars.tol      -- Tolerance of the halting condition                     (default 1e-6)
