@@ -51,7 +51,7 @@ which was developed from the following paper:
  
 ---
 <div style="text-align:justify;">  
-Note that <b style="font-size:14px;color:#777777">NM01</b> is a second-order method, which requires the gradient and Hessian of $f$. Below is a demonstration of how to define the gradient and Hessian for the solver when solving the 1-bit compressive sensing (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">1BCS</a>). The objective function $f(\mathbf{x})$ is defined in model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>). The source code to define $f(\mathbf{x})$ is given below, where $\texttt{x}$ and $\texttt{key}$ are two variables, and  $\texttt{eps}$, $\texttt{q}$, $\texttt{A}$, and $\texttt{c}$ are parameters and data, as shown in model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>). One can observe that $\texttt{key=`f'}$, $\texttt{key=`g'}$, and $\texttt{key=`h'}$ correspond to the computation of the objective function value, gradient, and Hessian matrix, respectively. When $\texttt{key=`a'}$, it computes an additional function. Here, it computes the accuracy for the 1-bit compressive sensing. Therefore, this allows users to monitor a personalized function. 
+Note that <b style="font-size:14px;color:#777777">NM01</b> is a second-order method, which requires the gradient and Hessian of $f$. Below is a demonstration of how to define the gradient and Hessian for the solver when solving the 1-bit compressive sensing (<a style="font-size: 16px; font-weight: bold; color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">1BCS</a>). The objective function $f(\mathbf{x})$ is defined in model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>). The source code to define $(f(\mathbf{x}), \nabla f(\mathbf{x}), \nabla^2 f(\mathbf{x}))$ is given below, where $\texttt{x}$ and $\texttt{key}$ are two variables, and  $\texttt{eps}$, $\texttt{q}$, $\texttt{A}$, and $\texttt{c}$ are parameters and data, as shown in model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>). One can observe that $\texttt{key=`f'}$, $\texttt{key=`g'}$, and $\texttt{key=`h'}$ correspond to the computation of the objective function value, gradient, and Hessian matrix, respectively. When $\texttt{key=`a'}$, it computes an additional function. Here, it computes the accuracy for <a style="font-size: 16px; font-weight: bold; color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">1BCS</a> problem. Therefore, this allows users to monitor a personalized function. 
 </div>
 
 ```ruby
@@ -67,7 +67,7 @@ end
 ```
 
 <div style="text-align:justify;">  
-If users do not need to compute an additional function, then they can define function $f(\mathbf{x})$ as follows, just by deleting the case of $\texttt{key=`a'}$.
+If users do not need to compute an additional function, then they can define $(f(\mathbf{x}), \nabla f(\mathbf{x}), \nabla^2 f(\mathbf{x}))$ as follows, just by deleting the case of $\texttt{key=`a'}$.
 </div>
 
 ```ruby
@@ -83,7 +83,7 @@ end
 
 ---
 <div style="text-align:justify;">
-Below is a demonstration of how <b style="font-size:14px;color:#777777">NM01</b> can be used to solve (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">1BCS</a>) problem. You simply need to specify $(\texttt{func}, \texttt{B}, \texttt{b}, \texttt{lam}, \texttt{pars})$ and then run the solver. 
+Below is a demonstration of how <b style="font-size:14px;color:#777777">NM01</b> can be used to solve 1BCS model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>). You simply need to specify $(\texttt{func}, \texttt{B}, \texttt{b}, \texttt{lam}, \texttt{pars})$ and then run the solver. 
 </div>
 
 <p style="line-height: 1;"></p>
@@ -127,7 +127,7 @@ function out = NM01(func,B,b,lam,pars)
 % -------------------------------------------------------------------------
 % This code aims at solving the support vector machine with form
 %
-%      min  f（x） + lam * ||(Bx+b)_+||_0
+%       min  f(x) + lam * ||(Bx+b)_+||_0
 %
 % where f is twice continuously differentiable
 % lam > 0, B\in\R^{m x n}, b\in\R^{m x 1}
