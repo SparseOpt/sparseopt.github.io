@@ -86,7 +86,7 @@ The package can be downloaded here - <a style="font-size: 16px; font-weight: bol
 
 ---
 <div style="text-align:justify;">
-Below is a demonstration of how <b style="font-size:16px;color:#777777">SSVMpack</b> can be used to solve the problem. You simply need to input the data $(\texttt{A},\texttt{y})$  and select $\texttt{solver}$ from $\texttt{\{`NM01',`NSSVM'\}}$. The parameters in $\texttt{pars}$ are optional, but setting certain ones ( particularly, $\texttt{pars.C}$ and $\texttt{pars.s0}$ )  can improve the solver's performance and the quality of the solution.
+Below is a demonstration of how <b style="font-size:16px;color:#777777">SSVMpack</b> can be used to solve the problem. You simply need to input the data $(\texttt{A},\texttt{y})$  and select $\texttt{solver}$ from {'$\texttt{NM01}$', '$\texttt{NSSVM}$'}. The parameters in $\texttt{pars}$ are optional, but setting certain ones (particularly, $\texttt{pars.C}$ and $\texttt{pars.s0}$)  can improve the solver's performance and the quality of the solution.
 </div>
 
 <p style="line-height: 1;"></p>
@@ -121,7 +121,7 @@ fprintf(' Testing   Accuracy:         %5.2f%%\n',tacc*100);
 fprintf(' Number of Support Vectors:  %d\n',out.sv); 
 ```
 <div style="text-align:justify;">
-The citation for <b style="font-size:16px;color:#777777">SSVMpack</b> is shown below. Inputs ($\texttt{A}$, $\texttt{y}$, $\texttt{solver}$) are required, $\texttt{solver}$ is chosen from {'$\texttt{NM01}$','$\texttt{NSSVM}$'}.   If $\texttt{solver}$='\texttt{NSSVM}$', then set a proper $\texttt{pars.s0}$ can enhance solution quality.  Another important parameter is $\texttt{pars.C}$, which can be tuned using the Cross-validation.
+The citation for <b style="font-size:16px;color:#777777">SSVMpack</b> is shown below. Inputs ($\texttt{A}$, $\texttt{y}$, $\texttt{solver}$) are required, $\texttt{solver}$ is chosen from {'$\texttt{NM01}$','$\texttt{NSSVM}$'}.   If $\texttt{solver}$='$\texttt{NSSVM}$', then set a proper $\texttt{pars.s0}$ can enhance solution quality.  Another important parameter is $\texttt{pars.C}$, which can be tuned using the Cross-validation.
 </div>
 
 <p style="line-height: 1;"></p>
