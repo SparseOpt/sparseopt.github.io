@@ -69,7 +69,7 @@ end
 ```
 
 <div style="text-align:justify;">  
-If no additional function is required, users can simply define ($f(\mathbf{x})$, $\nabla f(\mathbf{x})$, $\nabla^2 f(\mathbf{x})$) by omitting case $\texttt{key}$='$\texttt{a}$' as follows.
+If no additional function is required, users can simply define $(f(\mathbf{x})$, $\nabla f(\mathbf{x})$, $\nabla^2 f(\mathbf{x}))$ by omitting case $\texttt{key}$='$\texttt{a}$' as follows.
 </div>
 <p style="line-height: 1;"></p>
 
