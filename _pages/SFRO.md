@@ -54,6 +54,7 @@ which was developed from the following paper:
 Note that <b style="font-size:15px;color:#777777">NM01</b>  is a second-order method, requiring both the gradient and Hessian of $f$. Below is an example of how to define these for the solver in the context of the 1-bit compressive sensing (<a style="font-size: 16px; font-weight: bold; color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">1BCS</a>) problem, where objective function  $f(\mathbf{x})$ is given in model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>). The MATLAB codes below define $(f(\mathbf{x}), \nabla f(\mathbf{x}), \nabla^2 f(\mathbf{x}))$, where $\texttt{x}$ and $\texttt{key}$ are two variables, and  $\texttt{eps}$, $\texttt{q}$, $\texttt{A}$, and $\texttt{c}$ are parameters and data, as shown in model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>).  String variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{f}$' for the objective value, 
 $\texttt{key}$='$\texttt{g}$' for the gradient, and $\texttt{key}$='$\texttt{h}$' for the Hessian. When $\texttt{key}$='$\texttt{a}$', an additional user-defined function is evaluated. Here,  the accuracy is computed for the 1BCS problem. This allows users to monitor a customized metric during optimization.
 </div>
+<p style="line-height: 1;"></p>
 
 ```ruby
 function out = func1BCS(x,key,eps,q,A,c) 
@@ -70,6 +71,7 @@ end
 <div style="text-align:justify;">  
 If no additional function is required, users can simply define $(f(\mathbf{x}), \nabla f(\mathbf{x}), \nabla^2 f(\mathbf{x}))$ by omitting case $\texttt{key}$='$\texttt{a}$' as follows.
 </div>
+<p style="line-height: 1;"></p>
 
 ```ruby
 function out = func1BCS(x,key,eps,q,A,c) 
@@ -82,7 +84,6 @@ function out = func1BCS(x,key,eps,q,A,c)
 end
 ```
 
----
 <div style="text-align:justify;">
   Below is an example showing how <b style="font-size:15px;color:#777777">NM01</b> can be applied to solve the 1BCS problem using model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>). Users only need to specify $(\texttt{func}, \texttt{B}, \texttt{b}, \texttt{lam}, \texttt{pars})$ and then run the solver.
 </div>
