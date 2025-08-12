@@ -51,7 +51,7 @@ which was developed from the following paper:
  
 ---
 <div style="text-align:justify;">  
-Note that <b style="font-size:14px;color:#777777">NM01</b> is a second-order method, which requires the gradient and Hessian of $f$. Below is a demonstration of how to define the gradient and Hessian for the solver when solving the 1-bit compressive sensing. The objective function $f(\mathbf{x})$ is defined in model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>). The source code to define $f(\mathbf{x})$ is given below, where $\texttt{x}$ and $\texttt{key}$ are two variables, and  $\texttt{eps}$, $\texttt{q}$, $\texttt{A}$, and $\texttt{c}$ are parameters and data, as shown in model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>). One can observe that $\texttt{key=`f'}$, $\texttt{key=`g'}$, and $\texttt{key=`h'}$ correspond to the computation of the objective function value, gradient, and Hessian matrix, respectively. When $\texttt{key=`a'}$, it computes an additional function. Here, it computes the accuracy for the 1-bit compressive sensing. Therefore, this allows users to monitor a personalized function. 
+Note that <b style="font-size:14px;color:#777777">NM01</b> is a second-order method, which requires the gradient and Hessian of $f$. Below is a demonstration of how to define the gradient and Hessian for the solver when solving the 1-bit compressive sensing (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">1BCS</a>). The objective function $f(\mathbf{x})$ is defined in model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>). The source code to define $f(\mathbf{x})$ is given below, where $\texttt{x}$ and $\texttt{key}$ are two variables, and  $\texttt{eps}$, $\texttt{q}$, $\texttt{A}$, and $\texttt{c}$ are parameters and data, as shown in model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>). One can observe that $\texttt{key=`f'}$, $\texttt{key=`g'}$, and $\texttt{key=`h'}$ correspond to the computation of the objective function value, gradient, and Hessian matrix, respectively. When $\texttt{key=`a'}$, it computes an additional function. Here, it computes the accuracy for the 1-bit compressive sensing. Therefore, this allows users to monitor a personalized function. 
 </div>
 
 ```ruby
@@ -59,14 +59,13 @@ function out = func1BCS(x,key,eps,q,A,c)
     switch key   
         case 'f';  out = sum((x.^2+eps).^(q/2));
         case 'g';  out = q*x.*(x.^2+eps).^(q/2-1); 
-        case 'h';  x2  = x.*x;
-                   out = diag(( (x2+eps).^(q/2-2) ).*((q-1)*x2+eps) ); 
-        case 'a';  acc = @(var)nnz(sign(A*var)-c);
-                   out = 1-acc(x)/length(c);
+        case 'h';  x2  = x.*x; out = diag(( (x2+eps).^(q/2-2) ).*((q-1)*x2+eps) ); 
+        case 'a';  acc = @(var)nnz(sign(A*var)-c); out = 1-acc(x)/length(c);
         otherwise; out = []; % 'Otherwise' is REQIURED if no key='a'
     end    
 end
 ```
+
 <div style="text-align:justify;">  
 If users do not need to compute an additional function, then they can define function $f(\mathbf{x})$ as follows, just by deleting the case of $\texttt{key=`a'}$.
 </div>
@@ -76,8 +75,7 @@ function out = func1BCS(x,key,eps,q,A,c)
     switch key   
         case 'f';  out = sum((x.^2+eps).^(q/2));
         case 'g';  out = q*x.*(x.^2+eps).^(q/2-1); 
-        case 'h';  x2  = x.*x;
-                   out = diag(( (x2+eps).^(q/2-2) ).*((q-1)*x2+eps) ); 
+        case 'h';  x2  = x.*x; out = diag(( (x2+eps).^(q/2-2) ).*((q-1)*x2+eps) ); 
         otherwise; out = []; % 'Otherwise' is REQIURED if no key='a'
     end    
 end
@@ -85,7 +83,7 @@ end
 
 ---
 <div style="text-align:justify;">
-Below is a demonstration of how <b style="font-size:14px;color:#777777">NM01</b> can be used to solve the problem. You simply need to input the data $(\texttt{A},\texttt{b},\texttt{s},\texttt{k})$ and then choose one solver from $\texttt{\{`GPSP',`NM01'\}}$. 
+Below is a demonstration of how <b style="font-size:14px;color:#777777">NM01</b> can be used to solve (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">1BCS</a>) problem. You simply need to specify $(\texttt{func}, \texttt{B}, \texttt{b}, \texttt{lam}, \texttt{pars})$ and then run the solver. 
 </div>
 
 <p style="line-height: 1;"></p>
@@ -119,7 +117,7 @@ fprintf(' Hamming error:         %.3f\n',nnz(sign(A*x)-co)/m)
 ```
 
 <div style="text-align:justify;">
-The inputs and outputs of NM01 are detailed below, where inputs $(\texttt{A},\texttt{b},\texttt{s},\texttt{k},\texttt{solver})$ are required. If choose $\texttt{solver=`NM01'}$, then one can set $\texttt{s=[]}$ and $ \texttt{k=[]}$ if they are unknown. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
+The inputs and outputs of NM01 are detailed below, where inputs $(\texttt{func}, \texttt{B}, \texttt{b}, \texttt{lam})$ are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
 </div>
 
 <p style="line-height: 1;"></p>
