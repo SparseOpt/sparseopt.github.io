@@ -42,7 +42,7 @@ where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a twice continuously differen
 
 ---
 <div style="text-align:justify;"> 
-The solver can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href=" " target="_blank">NM01</a>,
+The solver can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\NM01.zip" target="_blank">NM01</a>,
 which was developed from the following paper:
 </div>
 
@@ -51,7 +51,7 @@ which was developed from the following paper:
  
 ---
 <div style="text-align:justify;">  
-Note that <b style="font-size:16px;color:#777777">NM01</b>  is a second-order method, requiring both the gradient and Hessian of $f$. Below is an example of how to define these for the solver in the context of the 1-bit compressive sensing (<a style="font-size: 16px; font-weight: bold; color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">1BCS</a>) problem, where objective function  $f(\mathbf{x})$ is given in model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>). The MATLAB codes below define $(f(\mathbf{x}), \nabla f(\mathbf{x}), \nabla^2 f(\mathbf{x}))$, where $\texttt{x}$ and $\texttt{key}$ are two variables, and  $\texttt{eps}$, $\texttt{q}$, $\texttt{A}$, and $\texttt{c}$ are parameters and data, as shown in model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>).  String variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{f}$' for the objective value, 
+Note that <b style="font-size:16px;color:#777777">NM01</b> is a second-order method, requiring both the gradient and Hessian of $f$. Below is an example of how to define these for the solver in the context of the 1-bit compressive sensing (<a style="font-size: 16px; font-weight: bold; color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">1BCS</a>) problem, where objective function  $f(\mathbf{x})$ is given in model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>). The MATLAB codes below define $(f(\mathbf{x}), \nabla f(\mathbf{x}), \nabla^2 f(\mathbf{x}))$, where $\texttt{x}$ and $\texttt{key}$ are two variables, and  $\texttt{eps}$, $\texttt{q}$, $\texttt{A}$, and $\texttt{c}$ are parameters and data, as shown in model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>).  String variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{f}$' for the objective value, 
 $\texttt{key}$='$\texttt{g}$' for the gradient, and $\texttt{key}$='$\texttt{h}$' for the Hessian. When $\texttt{key}$='$\texttt{a}$', an additional user-defined function is evaluated. Here,  the accuracy is computed for the 1BCS problem. This allows users to monitor a customized metric during optimization.
 </div>
 <p style="line-height: 1;"></p>
