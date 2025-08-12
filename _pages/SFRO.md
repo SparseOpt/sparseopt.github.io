@@ -30,11 +30,11 @@ a:active {
 
 <p style="line-height: 1;"></p>
 \begin{equation}
-\min_{\mathbf{x}\in\mathbb{R}^{n}} ~~  f(\mathbf{x}) + \lambda \parallel(\mathbf{A}\mathbf{x}+\mathbf{b})_+\parallel_0  \tag{SFRO}
+\min_{\mathbf{x}\in\mathbb{R}^{n}} ~~  f(\mathbf{x}) + \lambda \parallel(\mathbf{B}\mathbf{x}+\mathbf{b})_+\parallel_0  \tag{SFRO}
 \end{equation}
 
 <div style="text-align:justify;">
-where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a twice continuously differentiable function,  $\mathbf{A}\in\mathbb{R}^{m\times n}$ is a matrix, $\mathbf{b}\in\mathbb{R}^{m}$ is a vector, $\lambda$ is a given scalar,  $\mathbf{z}_+=(\max\{0,z_1\},\ldots,\max\{0,z_m\})^\top$, and  $\|\mathbf{z}\|_0$ is the so-called $\ell_0$ norm that counts the number of nonzero entries in $\mathbf{z}$. The regularization term is related to the step function (or 0/1 loss function) defined by $\ell_{0/1}(t)=1$ if $t>0$ and $\ell_{0/1}(t)=0$ otherwise. Therefore,
+where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a twice continuously differentiable function,  $\mathbf{B}\in\mathbb{R}^{m\times n}$ is a matrix, $\mathbf{b}\in\mathbb{R}^{m}$ is a vector, $\lambda$ is a given scalar,  $\mathbf{z}_+=(\max\{0,z_1\},\ldots,\max\{0,z_m\})^\top$, and  $\|\mathbf{z}\|_0$ is the so-called $\ell_0$ norm that counts the number of nonzero entries in $\mathbf{z}$. The regularization term is related to the step function (or 0/1 loss function) defined by $\ell_{0/1}(t)=1$ if $t>0$ and $\ell_{0/1}(t)=0$ otherwise. Therefore,
   \begin{equation}\|\mathbf{z}_+\|_0=\sum_{i=1}^m \ell_{0/1}\left(z_{i}\right)\nonumber\end{equation}
 </div>
  
@@ -48,22 +48,37 @@ which was developed from the following paper:
 
 > <span style="font-size: 14px"> S Zhou, L Pan, N Xiu,  and H Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, SIOPT, 31:3184–3211, 2021. </span>
 
-
+ 
 ---
 <div style="text-align:justify;">  
-Note that <b style="font-size:14px;color:#777777">NM01</b> is a second-order method, which requires the gradient and Hessian of $f$. Below is a demonstration of how to define the gradient and Hessian for the solver.
+Note that <b style="font-size:14px;color:#777777">NM01</b> is a second-order method, which requires the gradient and Hessian of $f$. Below is a demonstration of how to define the gradient and Hessian for the solver when solving the 1-bit compressive sensing. The objective function $f(\mathbf{x})$ is defined in model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>). The source code to define $f(\mathbf{x})$ is given below, where $\texttt{x}$ and $\texttt{key}$ are two variables, and  $\texttt{eps}$, $\texttt{q}$, $\texttt{A}$, and $\texttt{c}$ are parameters and data, as shown in model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>). One can observe that $\texttt{key=`f'}$, $\texttt{key=`g'}$, and $\texttt{key=`h'}$ correspond to the computation of the objective function value, gradient, and Hessian matrix, respectively. When $\texttt{key=`a'}$, it computes an additional function. Here, it computes the accuracy for the 1-bit compressive sensing. Therefore, this allows users to monitor a personalized function. 
 </div>
 
 ```ruby
-function out = funcSVM(x,key,w,A0,c)
-    n = length(x);
+function out = func1BCS(x,key,eps,q,A,c) 
     switch key   
-        case 'f';  out = norm(x,'fro')^2 - (1-w)*x(n)^2;
-        case 'g';  out = x;  out(n) = w*x(n);
-        case 'h';  out = speye(n); out(n,n) = w; 
-        case 'a';  acc = @(var)nnz( sign( (A0*var(1:n-1)+var(n)) )-c);
+        case 'f';  out = sum((x.^2+eps).^(q/2));
+        case 'g';  out = q*x.*(x.^2+eps).^(q/2-1); 
+        case 'h';  x2  = x.*x;
+                   out = diag(( (x2+eps).^(q/2-2) ).*((q-1)*x2+eps) ); 
+        case 'a';  acc = @(var)nnz(sign(A*var)-c);
                    out = 1-acc(x)/length(c);
-        otherwise; out = []; % 'Otherwise' is REQIURED
+        otherwise; out = []; % 'Otherwise' is REQIURED if no key='a'
+    end    
+end
+```
+<div style="text-align:justify;">  
+If users do not need to compute an additional function, then they can define function $f(\mathbf{x})$ as follows, just by deleting the case of $\texttt{key=`a'}$.
+</div>
+
+```ruby
+function out = func1BCS(x,key,eps,q,A,c) 
+    switch key   
+        case 'f';  out = sum((x.^2+eps).^(q/2));
+        case 'g';  out = q*x.*(x.^2+eps).^(q/2-1); 
+        case 'h';  x2  = x.*x;
+                   out = diag(( (x2+eps).^(q/2-2) ).*((q-1)*x2+eps) ); 
+        otherwise; out = []; % 'Otherwise' is REQIURED if no key='a'
     end    
 end
 ```
@@ -76,31 +91,31 @@ Below is a demonstration of how <b style="font-size:14px;color:#777777">NM01</b>
 <p style="line-height: 1;"></p>
 
 ```ruby
-% Solving support vector machine using four synthetic samples
-clc; close all; clear all;  addpath(genpath(pwd));
+% Solving 1 bit compressive sensing using randomly generated datasets
+clc; close all; clear all; addpath(genpath(pwd));
 
-a          = 10;
-A0          = [0 0; 0 1; 1 0; 1 a]; 
-c           = [-1 -1  1  1]';
-[m,n]       = size(A0);  
+n            = 1000; 
+m            = ceil(0.5*n);
+s            = ceil(0.01*m);                     % sparsity level
+r            = 0.01;                             % flipping ratio
+nf           = 0.1;                              % noisy ratio
+[A,c,co,xo]  = random1bcs('Ind',m,n,s,nf,r,0.5); % data generation
 
-func        = @(x,key)funcSVM(x,key,1e-4,A0,c);
-A           = (-c).*[A0 ones(m,1)];
-b           = ones(m,1);
-lam         = 10;
-pars.tau    = 1;
-pars.strict = 1;
-out         = NM01(func, A, b, lam, pars); 
-x           = out.sol;        
+func         = @(x,key)func1BCS(x,key,1e-5,0.5,A,c);
+B            = (-c).*A;
+b            = (n*4e-5)*ones(m,1);
+lam          = 10;
+pars.tau     = 1;
+pars.sp      = s;  
+pars.strict  =(n<=2000); 
+out          = NM01(func, B, b, lam, pars); 
+x            = refine(out.sol,s,A,c);
 
-figure('Renderer', 'painters', 'Position', [1000, 300,350 330])
-axes('Position', [0.08 0.08 0.88 0.88] );
-scatter([1;1],[0 a],80,'+','m'), hold on
-scatter([0;0],[0,1],80,'x','b'), hold on
-line([-x(3)/x(1) -x(3)/x(1)],[-1 1.1*a],'Color', 'r')
-axis([-.1 1.1 -1 1.1*a]),box on
-ld = strcat('NM01:',num2str(func(x,'a')*100,'%.0f%%'));
-legend('Positive','Negative',ld,'location','NorthWest')
+RecoverShow(xo,x,[950,500,450,220],1)
+fprintf(' Computational time:    %.3fsec\n',out.time);
+fprintf(' Signal-to-noise ratio: %.2f\n',-20*log10(norm(x-xo)));
+fprintf(' Hamming distance:      %.3f\n',nnz(sign(A*x)-c)/m)
+fprintf(' Hamming error:         %.3f\n',nnz(sign(A*x)-co)/m)
 ```
 
 <div style="text-align:justify;">
@@ -110,20 +125,20 @@ The inputs and outputs of NM01 are detailed below, where inputs $(\texttt{A},\te
 <p style="line-height: 1;"></p>
 
 ```ruby
-function out = NM01(func,A,b,lam,pars)
+function out = NM01(func,B,b,lam,pars)
 % -------------------------------------------------------------------------
 % This code aims at solving the support vector machine with form
 %
-%      min  f（x） + lam * ||(Ax+b)_+||_0
+%      min  f（x） + lam * ||(Bx+b)_+||_0
 %
 % where f is twice continuously differentiable
-% lam > 0, A\in\R^{m x n}, b\in\R^{m x 1}
+% lam > 0, B\in\R^{m x n}, b\in\R^{m x 1}
 % (z)_+ = (max{0,z_1},...,max{0,z_m})^T
 % ||(z)_+ ||_0 counts the number of positive entries of z
 % -------------------------------------------------------------------------
 % Inputs:
 %   func: A function handle defines (objective,gradient,Hessain) (REQUIRED)
-%   A   : A matrix \R^{m x n}                                    (REQUIRED)      
+%   B   : A matrix \R^{m x n}                                    (REQUIRED)      
 %   b   : A vector \R^{m x 1}                                    (REQUIRED)
 %   lam : The penalty parameter                                  (REQUIRED)
 %   pars: Parameters are all OPTIONAL
