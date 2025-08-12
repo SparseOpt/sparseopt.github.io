@@ -72,7 +72,7 @@ The package can be downloaded here - <a style="font-size: 16px; font-weight: bol
 
 ---
 <div style="text-align:justify;">
-Below is a demonstration of how <b style="font-size:16px;color:#777777">CSpack</b> can be used to solve the problem. You need to input data $(\texttt{A},\texttt{At},\texttt{b},\texttt{n},\texttt{s})$  and select $\texttt{solver}$ from {`$\texttt{NHTP}$',`$\texttt{GPNP}$',`$\texttt{IIHT}$',`$\texttt{PSNP}$',`$\texttt{NL0R}$',`$\texttt{MILR1}$'}. 
+Below is a demonstration of how <b style="font-size:16px;color:#777777">CSpack</b> can be used to solve the problem. You need to input data $(\texttt{A},\texttt{At},\texttt{b},\texttt{n},\texttt{s})$  and select $\texttt{solver}$ from {'$\texttt{NHTP}$','$\texttt{GPNP}$','$\texttt{IIHT}$','$\texttt{PSNP}$','$\texttt{NL0R}$','$\texttt{MILR1}$'}. 
 </div>
 
 <p style="line-height: 1;"></p>
@@ -100,7 +100,7 @@ fprintf(' Computational time:      %.3fsec\n',out.time);
 ```
 
 <div style="text-align:justify;">
-The inputs and outputs of <b style="font-size:16px;color:#777777">CSpack</b> are detailed below, where inputs $(\texttt{A},\texttt{At},\texttt{b},\texttt{n},\texttt{s},\texttt{solver})$ are required. If $\texttt{A}$ is a matrix,  $\texttt{At}$ can be $\texttt{A}$' or $\texttt{[]}$. If $\texttt{A}$ is a function handle, then $\texttt{At}$ must be provided. If $\texttt{solver}$ is one of {`$\texttt{PSNP}$',`$\texttt{NL0R}$',`$\texttt{MILR1}$'}, then $\texttt{s}$ can be $\texttt{[]}$.  If $\texttt{solver}$ is one of {`$\texttt{NHTP}$',`$\texttt{GPNP}$',`$\texttt{IIHT}$'}, then $\texttt{s}$ must be provided. The parameters in $\texttt{pars}$ are optional, but setting certain ones can improve the solver's performance and the quality of the solution.
+The inputs and outputs of <b style="font-size:16px;color:#777777">CSpack</b> are detailed below, where inputs $(\texttt{A},\texttt{At},\texttt{b},\texttt{n},\texttt{s},\texttt{solver})$ are required. If $\texttt{A}$ is a matrix,  $\texttt{At}$ can be $\texttt{A}$' or $\texttt{[]}$. If $\texttt{A}$ is a function handle, then $\texttt{At}$ must be provided. If $\texttt{solver}$ is one of {'$\texttt{PSNP}$','$\texttt{NL0R}$','$\texttt{MILR1}$'}, then $\texttt{s}$ can be $\texttt{[]}$.  If $\texttt{solver}$ is one of {'$\texttt{NHTP}$','$\texttt{GPNP}$','$\texttt{IIHT}$'}, then $\texttt{s}$ must be provided. The parameters in $\texttt{pars}$ are optional, but setting certain ones can improve the solver's performance and the quality of the solution.
 </div>
 
 <p style="line-height: 1;"></p>
