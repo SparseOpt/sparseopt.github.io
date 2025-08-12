@@ -74,7 +74,7 @@ If no additional function is required, users can simply define $(f(\mathbf{x}), 
 <p style="line-height: 1;"></p>
 
 ```ruby
-function out = func1BCS(x,key,eps,q,A,c) 
+function out = func1BCS(x,key,eps,q) 
     switch key   
         case 'f';  out = sum((x.^2+eps).^(q/2));
         case 'g';  out = q*x.*(x.^2+eps).^(q/2-1); 
