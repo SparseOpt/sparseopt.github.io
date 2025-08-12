@@ -67,7 +67,7 @@ The package can be downloaded here - <a style="font-size: 16px; font-weight: bol
 
 ---
 <div style="text-align:justify;">
-Below is a demonstration of how <b style="font-size:16px;color:#777777">OBCSpack</b> can be used to solve the problem. You simply need to input the data $(\texttt{A},\texttt{b},\texttt{s},\texttt{k})$ and then choose one solver from $\{`\texttt{GPSP}',`\texttt{NM01}'\}$. 
+Below is a demonstration of how <b style="font-size:16px;color:#777777">OBCSpack</b> can be used to solve the problem. You simply need to input the data $(\texttt{A},\texttt{b},\texttt{s},\texttt{k})$ and then choose one solver from {'$\texttt{GPSP}$','$\texttt{NM01}$'}. 
 </div>
 
 <p style="line-height: 1;"></p>
@@ -101,7 +101,7 @@ fprintf(' Hamming distence:      %6.3f\n',nnz(sign(A*out.sol)-b)/m)
 ```
 
 <div style="text-align:justify;">
-The inputs and outputs of <b style="font-size:16px;color:#777777">OBCSpack</b> are detailed below, where inputs $(\texttt{A},\texttt{b},\texttt{s},\texttt{k},\texttt{solver})$ are required. If choose $\texttt{solver}=`\texttt{NM01}'$, then one can set $\texttt{s}=\texttt{[]}$ and $\texttt{k}=\texttt{[]}$ if they are unknown. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
+The inputs and outputs of <b style="font-size:16px;color:#777777">OBCSpack</b> are detailed below, where inputs $(\texttt{A},\texttt{b},\texttt{s},\texttt{k},\texttt{solver})$ are required. If choose $\texttt{solver}$='$\texttt{NM01}$', then one can set $\texttt{s}$=$\texttt{[]}$ and $\texttt{k}$=$\texttt{[]}$ if they are unknown. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
 </div>
 
 <p style="line-height: 1;"></p>
