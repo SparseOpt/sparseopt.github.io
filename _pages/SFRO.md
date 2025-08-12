@@ -119,7 +119,7 @@ fprintf(' Hamming error:         %.3f\n',nnz(sign(A*x)-co)/m)
 ```
 
 <div style="text-align:justify;">
-The inputs and outputs of NM01 are detailed below, where inputs $(\texttt{func}, \texttt{B}, \texttt{b}, \texttt{lam})$ are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
+The inputs and outputs of <b style="font-size:15px;color:#777777">NM01</b> are detailed below, where inputs $(\texttt{func}, \texttt{B}, \texttt{b}, \texttt{lam})$ are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
 </div>
 
 <p style="line-height: 1;"></p>
