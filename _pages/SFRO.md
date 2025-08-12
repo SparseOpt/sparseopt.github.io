@@ -68,7 +68,7 @@ end
 ```
 
 <div style="text-align:justify;">  
-If users do not need to compute an additional function, then they can define $(f(\mathbf{x}), \nabla f(\mathbf{x}), \nabla^2 f(\mathbf{x}))$ as follows, just by deleting the case of $\texttt{key=`a'}$.
+If no additional function is required, users can simply define $(f(\mathbf{x}), \nabla f(\mathbf{x}), \nabla^2 f(\mathbf{x}))$ by omitting the case \texttt{key='a'} as follows.
 </div>
 
 ```ruby
