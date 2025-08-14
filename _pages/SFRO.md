@@ -34,7 +34,7 @@ a:active {
 \end{equation}
 
 <div style="text-align:justify;">
-where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a twice continuously differentiable function,  $\mathbf{B}\in\mathbb{R}^{m\times n}$ is a matrix, $\mathbf{b}\in\mathbb{R}^{m}$ is a vector, $\lambda$ is a penalty parameter,  $\mathbf{z}_+=(\max\{0,z_1\},\ldots,\max\{0,z_m\})^\top$, and  $\|\mathbf{z}\|_0$ is the so-called L0 norm that counts the number of nonzero entries in $\mathbf{z}$. Therefore, \|\mathbf{z}_+\|_0$ counts the number of positive entries in $\mathbf{z}$.  This term is related to the step function (or 0/1 loss function) defined by step(t)=1 if t>0 and step(t)=0 otherwise. As a result,  $\|\mathbf{z}_+\|_0= \mathrm{step}(z_1)+\cdots+\mathrm{step}(z_m)$.
+where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a twice continuously differentiable function,  $\mathbf{B}\in\mathbb{R}^{m\times n}$ is a matrix, $\mathbf{b}\in\mathbb{R}^{m}$ is a vector, $\lambda$ is a penalty parameter,  $\mathbf{z}_+=(\max\{0,z_1\},\ldots,\max\{0,z_m\})^\top$, and  $\|\mathbf{z}\|_0$ is the so-called L0 norm that counts the number of nonzero entries in $\mathbf{z}$. Therefore, $\|\mathbf{z}_+\|_0$ counts the number of positive entries in $\mathbf{z}$.  This term is related to the step function (or 0/1 loss function) defined by step(t)=1 if t>0 and step(t)=0 otherwise. As a result,  $\|\mathbf{z}_+\|_0= \mathrm{step}(z_1)+\cdots+\mathrm{step}(z_m)$.
 </div>
  
 <!-- ## <span style="color:#8C8C8C"> The solver and its demonstration </span> -->
