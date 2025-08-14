@@ -52,7 +52,7 @@ where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, both $\mathbf
 \end{equation}
 </div> 
 <div style="text-align:justify;">
-where $s\ll n$, $k\ll m$, $(\epsilon, \eta, \varepsilon, \lambda)>0$, and $\mathbf{z}_+=(\max\{0,z_1\},\cdots,\max\{0,z_m\})^\top$. One can observe that  model (SFRO) is a penalty version of model (DSCO), and term $\parallel \mathbf{z}_+\parallel_0$ is related to the step (or 0/1 loss) function defined by $\mathrm{step}(t)=1$ if $t>0$ and $\mathrm{step}(t)=0$ otherwise. Therefore, $\|\mathbf{z}_+\|_0=\mathrm{step}(z_1)+\cdots+\mathrm{step}(z_m)$, which counts the number of positve entries in $\mathbf{z}$.
+where $s\ll n$, $k\ll m$, $(\epsilon, \eta, \varepsilon, \lambda)>0$, and $\mathbf{z}_+=(\max\{0,z_1\},\cdots,\max\{0,z_m\})^\top$. Model (SFRO) is a penalty version of model (DSCO), and term $\parallel \mathbf{z}_+\parallel_0$ is related to the step (or 0/1 loss) function defined by $\mathrm{step}(t)=1$ if $t>0$ and $\mathrm{step}(t)=0$ otherwise. Therefore, $\|\mathbf{z}_+\|_0=\mathrm{step}(z_1)+\cdots+\mathrm{step}(z_m)$, which counts the number of positve entries in $\mathbf{z}$.
 </div> 
   
 ---
