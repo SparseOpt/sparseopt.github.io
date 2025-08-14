@@ -33,8 +33,8 @@ a:active {
 \min_{\mathbf{x}\in\mathbb{R}^{n}} ~~  f(\mathbf{x}) + \lambda \parallel\mathbf{x}\parallel_q^q \tag{SRO}
 \end{equation}
 
-<div style="text-align:justify;">
-where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice continuously differentiable function, $\lambda>0$ is a given scalar, and $\|\mathbf{x}\|_q^q=\sum_i |x_i|^q$ with $q\in[0,1)$ denotes the $\ell_q$-norm. In particular, when $q=0$,  $\|\mathbf{x}\|_0=\|\mathbf{x}\|_0^0$ is the so-called $\ell_0$-norm that counts the number of nonzero entries in $\mathbf{x}$.
+<div style="text-align:justify;"> 
+where $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice continuously differentiable function, $\lambda>0$ is the penalty parameter, and $\parallel\mathbf{x}\parallel_q^q=|x_1|^q+\cdots+|x_n|^q$ denotes the Lq norm with 0≤q≤1, in particular, $\parallel\mathbf{x}\parallel_0:=\parallel\mathbf{x}\parallel_0^0$ denotes the L0 norm, which counts the number of nonzero entries in $\mathbf{x}$.
 </div>
  
 <!-- ## <span style="color:#8C8C8C">The solver and its demonstration</span> -->
