@@ -34,7 +34,7 @@ a:active {
 \end{equation}
 
 <div style="text-align:justify;"> 
-where $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice continuously differentiable function, $\lambda>0$ is the penalty parameter, and $\parallel\mathbf{x}\parallel_q^q=|x_1|^q+\cdots+|x_n|^q$ denotes the Lq norm with 0≤q≤1, in particular, $\parallel\mathbf{x}\parallel_0:=\parallel\mathbf{x}\parallel_0^0$ denotes the L0 norm, which counts the number of nonzero entries in $\mathbf{x}$.
+where $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice continuously differentiable function, $\lambda>0$ is the penalty parameter, and $\parallel\mathbf{x}\parallel_q^q=|x_1|^q+\cdots+|x_n|^q$ denotes the Lq norm with 0≤q<1, in particular, $\parallel\mathbf{x}\parallel_0:=\parallel\mathbf{x}\parallel_0^0$ denotes the L0 norm, which counts the number of nonzero entries in $\mathbf{x}$.
 </div>
  
 <!-- ## <span style="color:#8C8C8C">The solver and its demonstration</span> -->
