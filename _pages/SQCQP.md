@@ -42,7 +42,7 @@ where parameters are defined as follows
 - $\mathbf{A}\in\mathbb{R}^{m_1\times n}$, $\mathbf{b}\in\mathbb{R}^{m_1}$
 - $\mathbf{B}\in\mathbb{R}^{m_2\times n}$, $\mathbf{d}\in\mathbb{R}^{m_2}$
 - $l$ and $u$ are two scalars satisfying $0\in[l, u]$
-- $\parallel\mathbf{x}\parallel_0$ denotes the so-called $\ell_0$-norm, which counts the number of nonzero entries in $\mathbf{x}$
+- $\parallel\mathbf{x}\parallel_0$ denotes the so-called L0 norm, which counts the number of nonzero entries in $\mathbf{x}$
 - $s\ll n$ is a given integer
          
 <!--## <span style="color:#8C8C8C"> The solver and its demonstration </span> -->
