@@ -43,10 +43,10 @@ where $\mathbf{A}=(\mathbf{a}_1,\ldots,\mathbf{a}_m)^\top\in\mathbb{R}^{m\times 
 
 ◻️ Step function regularized SVM
 \begin{equation}
-\min_{(\mathbf{w};b)\in\mathbb{R}^{n+1}}~\frac{1}{2}\parallel \mathbf{w} \parallel^2 + C \sum_{i=1}^m\ell_{0/1}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right) \tag{L01SVM}
+\min_{(\mathbf{w};b)\in\mathbb{R}^{n+1}}~\frac{1}{2}\parallel \mathbf{w} \parallel^2 + C \sum_{i=1}^m\mathrm{step}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right) \tag{L01SVM}
 \end{equation} 
 <div style="text-align:justify;">
-where $\ell_{0/1}$ is the step function (or 0/1 loss function) defined by $\ell_{0/1}(t)=1$ if $t>0$ and $\ell_{0/1}(t)=0$ otherwise. By letting $\parallel\mathbf{x}\parallel_0$ denote the $\ell_0$-norm (i.e., the number of nonzero entries) of $\mathbf{x}$ and $\mathbf{z}_+=(\max\{0,z_1\},\ldots,\max\{0,z_m\})^\top$, it follows $\sum_{i=1}^m\ell_{0/1}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right)$=$\| (1-\mathbf{A}\mathbf{w}-b\mathbf{y} )_+ \|_0$. 
+where $\mathrm{step}(t)$ is the step function (or 0/1 loss function) defined by $\mathrm{step}(t)=1$ if $t>0$ and $\mathrm{step}(t)=0$ otherwise. By letting $\parallel\mathbf{x}\parallel_0$ denote the L0 norm (i.e., the number of nonzero entries) of $\mathbf{x}$ and $\mathbf{z}_+=(\max\{0,z_1\},\ldots,\max\{0,z_m\})^\top$, it follows $\sum_{i=1}^m\mathrm{step}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right)$=$\| (1-\mathbf{A}\mathbf{w}-b\mathbf{y} )_+ \|_0$. 
 </div>
 
 <!--
