@@ -51,7 +51,7 @@ which provides 3 solvers from the following papers:
 
 ---
 <div style="text-align:justify;">  
-Note that <b style="font-size:16px;color:#777777">NHTP</b> and <b style="font-size:16px;color:#777777">GPNP</b> are two second-order methods, requiring both the gradient and Hessian of $f$. Below is an example of how to define these for three solvers in the context of (SCO) problems uniformly, where input $\texttt{x}$ is the variable, string variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{fg}$' for the objective value and the gradient, and $\texttt{key}$='$\texttt{h}$' for the Hessian, and $\texttt{T1}$ and $\texttt{T2}$ are two indices and only valid when $\texttt{key}$='$\texttt{h}$'. 
+Note that <b style="font-size:16px;color:#777777">NHTP</b> and <b style="font-size:16px;color:#777777">GPNP</b> are two second-order methods, requiring both the gradient and Hessian of $f$. Below is a simple SCO example of how to define these for three solvers uniformly, where input $\texttt{x}$ is the variable, string variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{fg}$' for the objective value and the gradient, and $\texttt{key}$='$\texttt{h}$' for the Hessian, and $\texttt{T1}$ and $\texttt{T2}$ are two indices and only valid when $\texttt{key}$='$\texttt{h}$'. 
 </div>
 <p style="line-height: 1;"></p>
 
@@ -100,7 +100,7 @@ fprintf(' Iterations:        %4d\n', out.iter);
 ```
 
 <div style="text-align:justify;">
-For other problems, users may define the function similarly by changing $\texttt{out1}$ and $\texttt{out2h}$ but keeping the structure of $\texttt{switch}$. For example, below is the definition of a sparse linear regression problem.
+For other problems, users may define the function similarly by changing $\texttt{out1}$ and $\texttt{out2}$ but keeping the structure of $\texttt{switch}$. For example, below is the definition of a sparse linear regression problem.
 </div>
 <p style="line-height: 1;"></p>
 
