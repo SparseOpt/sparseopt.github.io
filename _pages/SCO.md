@@ -79,7 +79,7 @@ end
 ```
 
 <div style="text-align:justify;">
-Below is an example showing how <b style="font-size:16px;color:#777777">SCOpack</b> can be applied to solve a simple (SCO) problem. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$) , choose a solver's name from  {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'} , and then run the solver.
+Below is an example showing how <b style="font-size:16px;color:#777777">SCOpack</b> can be applied to solve a simple (SCO) problem. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$), choose a solver's name from  {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, set some parameters in $\texttt{pars}$ if necessary, and then run the solver.
 </div>
 
 <p style="line-height: 1;"></p>
