@@ -58,7 +58,7 @@ where $s\ll n$, $k\ll m$, $(\epsilon, \eta, \varepsilon, \lambda)>0$, and $\math
 ---
 
 <div style="text-align:justify;">
-The package can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\1BCSpack.zip" target="_blank">OBCSpack</a>, which provides 2 solvers from the following papers, where <b style="font-size:16px;color:#777777">GPSP</b> and <b style="font-size:16px;color:#777777">NM01</b> are designed to solve  model (DSCO) and model (SFRO), respectively. 
+The package can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\OBCSpack.zip" target="_blank">OBCSpack</a>, which provides 2 solvers from the following papers, where <b style="font-size:16px;color:#777777">GPSP</b> and <b style="font-size:16px;color:#777777">NM01</b> are designed to solve  model (DSCO) and model (SFRO), respectively. 
 </div>  
 
 > <b style="font-size:14px;color:#777777">GPSP</b> -<span style="font-size: 13.5px"> S Zhou, Z Luo, N Xiu, and G Li, Computing one-bit compressive sensing via double-sparsity constrained optimization, IEEE TSP, 70:1593-1608, 2022. </span>
