@@ -78,7 +78,7 @@ where $\mathbf{Q}\in\mathbb{R}^{m\times m}$ with each entry $Q_{ij}=y_iy_j\mathb
 
 ---
 <div style="text-align:justify;">
-The package can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SSVMpack-MATLAB.zip" target="_blank">SSVMpack</a>, which provides 2 solvers from the following 2 papers, where <b style="font-size:16px;color:#777777">NM01</b> and <b style="font-size:16px;color:#777777">NSSVM</b> are designed to solve (SFRSVM) and (SCSNM), respectively.
+The package can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SSVMpack.zip" target="_blank">SSVMpack</a>, which provides 2 solvers from the following 2 papers, where <b style="font-size:16px;color:#777777">NM01</b> and <b style="font-size:16px;color:#777777">NSSVM</b> are designed to solve (SFRSVM) and (SCSNM), respectively.
 </div>  
 
 > <div style="text-align:justify;"> <b style="font-size:14px;color:#777777">NM01</b> -<span style="font-size: 14px"> S Zhou, L Pan, N Xiu, and H Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, SIOPT, 31:3184-3211, 2021. </span> </div>
