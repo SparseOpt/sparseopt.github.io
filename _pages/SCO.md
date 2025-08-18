@@ -79,7 +79,7 @@ end
 ```
 
 <div style="text-align:justify;">
-After defining the functions, one can call <b style="font-size:16px;color:#777777">SCOpack</b> to solve the target problem. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$), choose a solver's name from  {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following code demonstrates <b style="font-size:16px;color:#777777">SCOpack</b> to solve this simple SCO problem.
+After defining the functions for the simple SCO problem, one can call <b style="font-size:16px;color:#777777">SCOpack</b> to solve the target problem. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$), choose a solver's name from  {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following codes demonstrate <b style="font-size:16px;color:#777777">SCOpack</b> to solve this simple SCO problem.
 </div>
 <p style="line-height: 1;"></p>
 
@@ -128,7 +128,7 @@ function [out1,out2] = funcLinReg(x,key,T1,T2,A,b)
 end
 ```
 <div style="text-align:justify;">
-After defining the functions,  users can call <b style="font-size:16px;color:#777777">SCOpack</b> to solve the sparse linear regression problem as follows.
+After defining the functions for the sparse linear regression problem, users can call <b style="font-size:16px;color:#777777">SCOpack</b> to solve the problem as follows.
 </div>
 <p style="line-height: 1;"></p>
 
