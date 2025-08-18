@@ -166,7 +166,7 @@ function out = SCOpack(func,n,s,solvername,pars)
 %
 %         min_{x\in R^n} f(x),  s.t. ||x||_0<=s
 %
-% or sparsity and non-negative constrained optimization (SNCO):
+% or non-negative and sparsity constrained optimization (NSCO):
 %
 %         min_{x\in R^n} f(x),  s.t. ||x||_0<=s, x>=0 
 %
@@ -191,7 +191,7 @@ function out = SCOpack(func,n,s,solvername,pars)
 %                          Tuning it may improve solution quality 
 %           ---------------Particular for IIHT ----------------------------
 %           pars.neg   --  =0 for model (SCO)                   (default 1)
-%                          =1 for model (SNCO)
+%                          =1 for model (NSCO)
 %--------------------------------------------------------------------------
 % Outputs:
 %     out.sol :   The sparse solution x
