@@ -79,7 +79,7 @@ end
 ```
 
 <div style="text-align:justify;">
-Below is an example showing how <b style="font-size:16px;color:#777777">SCOpack</b> can be applied to solve a simple (SCO) problem. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$) , choose a solver from  {'$\texttt{NHTP}$','$\texttt{GPNP}$','$\texttt{IIHT}$'} , and then run the solver.
+Below is an example showing how <b style="font-size:16px;color:#777777">SCOpack</b> can be applied to solve a simple (SCO) problem. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$) , choose a solver's name from  {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'} , and then run the solver.
 </div>
 
 <p style="line-height: 1;"></p>
@@ -101,7 +101,7 @@ fprintf(' Iterations:        %4d\n', out.iter);
 ```
 
 <div style="text-align:justify;">
-The inputs and outputs of <b style="font-size:16px;color:#777777">SCOpack</b> are detailed below, where inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$, $\texttt{solvername}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
+The inputs and outputs of <b style="font-size:16px;color:#777777">SCOpack</b> are detailed below, where inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$, $\texttt{solvername}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the solution quality.
 </div>
 
 <p style="line-height: 1;"></p>
