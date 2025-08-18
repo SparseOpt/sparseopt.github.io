@@ -51,36 +51,30 @@ which provides 3 solvers from the following papers:
 
 ---
 <div style="text-align:justify;">  
-Note that <b style="font-size:16px;color:#777777">NHTP</b> and <b style="font-size:16px;color:#777777">GPNP</b> are two second-order methods, requiring both the gradient and Hessian of $f$. Below is an example of how to define these for these solvers in the context of (SCO) problems, where objective function  $f(\mathbf{x})$ is given in model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>). The MATLAB codes below define $(f(\mathbf{x}), \nabla f(\mathbf{x}), \nabla^2 f(\mathbf{x}))$, where $\texttt{x}$ and $\texttt{key}$ are two variables, and  $\texttt{eps}$, $\texttt{q}$, $\texttt{A}$, and $\texttt{c}$ are parameters and data, as shown in model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>).  String variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{f}$' for the objective value, 
-$\texttt{key}$='$\texttt{g}$' for the gradient, and $\texttt{key}$='$\texttt{h}$' for the Hessian. When $\texttt{key}$='$\texttt{a}$', an additional user-defined function is evaluated. Here,  the accuracy is computed for the 1BCS problem. This allows users to monitor a customized metric during optimization.
+Note that <b style="font-size:16px;color:#777777">NHTP</b> and <b style="font-size:16px;color:#777777">GPNP</b> are two second-order methods, requiring both the gradient and Hessian of $f$. Below is an example of how to define these for three solvers in the context of (SCO) problems uniformly, where input $\texttt{x}$ is the variable, string variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{fg}$' for the objective value and the gradient, and $\texttt{key}$='$\texttt{h}$' for the Hessian, and $\texttt{T1}$ and $\texttt{T2}$ are two indices and only valid when $\texttt{key}$='$\texttt{h}$'.
 </div>
 <p style="line-height: 1;"></p>
 
 ```ruby
-function out = func1BCS(x,key,eps,q,A,c) 
-    switch key   
-        case 'f';  out = sum((x.^2+eps).^(q/2));
-        case 'g';  out = q*x.*(x.^2+eps).^(q/2-1); 
-        case 'h';  x2  = x.*x; out = diag(((x2+eps).^(q/2-2)).*((q-1)*x2+eps)); 
-        case 'a';  acc = @(var)nnz(sign(A*var)-c); out = 1-acc(x)/length(c);
-        otherwise; out = []; % 'Otherwise' is REQIURED if no key='a'
-    end    
-end
-```
-
-<div style="text-align:justify;">  
-If no additional function is required, users can simply define $(f(\mathbf{x})$, $\nabla f(\mathbf{x})$, $\nabla^2 f(\mathbf{x}))$ by omitting case $\texttt{key}$='$\texttt{a}$' as follows.
-</div>
-<p style="line-height: 1;"></p>
-
-```ruby
-function out = func1BCS(x,key,eps,q) 
-    switch key   
-        case 'f';  out = sum((x.^2+eps).^(q/2));
-        case 'g';  out = q*x.*(x.^2+eps).^(q/2-1); 
-        case 'h';  x2  = x.*x; out = diag(((x2+eps).^(q/2-2)).*((q-1)*x2+eps)); 
-        otherwise; out = [];  
-    end    
+function [out1,out2] = funcSimpleEx(x,key,T1,T2)
+    % This code provides information for
+    %     min   x'*[6 5;5 8]*x+[1 9]*x-sqrt(x'*x+1) 
+    %     s.t. \|x\|_0<=s
+    % where n=2 and s=1   
+    a   = sqrt(sum(x.*x)+1);
+    switch key
+        case 'fg'    
+            out1 = x'*[6 5;5 8]*x+[1 9]*x-a;       % objective
+            if  nargout == 2 
+                out2 = 2*[6 5;5 8]*x+[1; 9]-x./a;  % gradient
+            end
+        case 'h'
+            H   = 2*[6 5;5 8]+(x*x'-a*eye(2))/a^3; % sub-Hessian on (T1 T1) 
+            out1 = H(T1,T1);
+            if  nargout == 2 
+                out2 = H(T1,T2);                   % sub-Hessian on (T1 T2) 
+            end
+    end
 end
 ```
 
