@@ -78,8 +78,36 @@ function [out1,out2] = funcSimpleEx(x,key,T1,T2)
 end
 ```
 
+For other problems, users may define the function similarly by changing $\texttt{out1}$ and $\texttt{out2h}$ but keeping the structure of $\texttt{switch}$. For example, below is the definition of a sparse linear regression problem
+</div>
+<p style="line-height: 1;"></p>
+
+```ruby
+function [out1,out2] = funcLinReg(x,key,T1,T2,A,b)
+    % This code provides information for
+    %     min   0.5*||Ax-b||^2 
+    %     s.t. \|x\|_0<=s
+    % where A in R^{m x n} and b in R^{m x 1}    
+    switch key
+        case 'fg'
+            Tx   = find(x~=0);
+            Axb  = A(:,Tx)*x(Tx)-b;
+            out1 = (Axb'*Axb)/2;      % objective 
+            if  nargout == 2 
+                out2 = (Axb'*A)';     % gradient 
+            end
+        case 'h'        
+            AT   = A(:,T1); 
+            out1 = AT'*AT;            %sub-Hessian formed by rows indexed by T1 and columns indexed by T1   
+            if  nargout == 2
+                out2 = AT'*A(:,T2);   %sub-Hessian formed by rows indexed by T1 and columns indexed by T2
+            end       
+    end
+end
+```
+
 <div style="text-align:justify;">
-Below is an example showing how <b style="font-size:16px;color:#777777">SCOpack</b> can be applied to solve a simple (SCO) problem. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$), choose a solver's name from  {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, set some parameters in $\texttt{pars}$ if necessary, and then run the solver.
+After defining the function, one can call <b style="font-size:16px;color:#777777">SCOpack</b> to solve the target problem. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$), choose a solver's name from  {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, set some parameters in $\texttt{pars}$ if necessary, and then run the solver. Below is the code to show <b style="font-size:16px;color:#777777">SCOpack</b> to solve the simple SCO problem. 
 </div>
 
 <p style="line-height: 1;"></p>
@@ -98,6 +126,27 @@ out      = SCOpack(func,n,s,solver{2},pars);
 fprintf(' Objective:      %.4f\n', out.obj); 
 fprintf(' CPU time:      %.3fsec\n', out.time);
 fprintf(' Iterations:        %4d\n', out.iter);
+```
+
+Below is the code to show <b style="font-size:16px;color:#777777">SCOpack</b> to solve the sparse linear regression problem. 
+```ruby
+% demon sparse linear regression problems 
+clc; close all; clear all; addpath(genpath(pwd));
+
+n        = 10000;  
+m        = ceil(0.25*n); 
+s        = ceil(0.025*n);
+
+Tx       = randperm(n,s);  
+xopt     = zeros(n,1);  
+xopt(Tx) = randn(s,1); 
+A        = randn(m,n)/sqrt(m); 
+b        = A*xopt;  
+
+func     = @(x,key,T1,T2)funcLinReg(x,key,T1,T2,A,b);
+pars.tol = 1e-6;
+solver   = {'NHTP','GPNP','IIHT'};
+out      = SCOpack(func,n,s,solver{2},pars); 
 ```
 
 <div style="text-align:justify;">
