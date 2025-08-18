@@ -51,7 +51,7 @@ which provides 3 solvers from the following papers:
 
 ---
 <div style="text-align:justify;">  
-Note that <b style="font-size:16px;color:#777777">NHTP</b> and <b style="font-size:16px;color:#777777">GPNP</b> are two second-order methods, requiring both the gradient and Hessian of $f$. Below is an example of how to define these for three solvers in the context of (SCO) problems uniformly, where input $\texttt{x}$ is the variable, string variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{fg}$' for the objective value and the gradient, and $\texttt{key}$='$\texttt{h}$' for the Hessian, and $\texttt{T1}$ and $\texttt{T2}$ are two indices and only valid when $\texttt{key}$='$\texttt{h}$'. For other problems, users may define the function similarly by changing $\texttt{out1}$ and $\texttt{out2h}$ but keeping the structure of $\texttt{switch}$.
+Note that <b style="font-size:16px;color:#777777">NHTP</b> and <b style="font-size:16px;color:#777777">GPNP</b> are two second-order methods, requiring both the gradient and Hessian of $f$. Below is an example of how to define these for three solvers in the context of (SCO) problems uniformly, where input $\texttt{x}$ is the variable, string variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{fg}$' for the objective value and the gradient, and $\texttt{key}$='$\texttt{h}$' for the Hessian, and $\texttt{T1}$ and $\texttt{T2}$ are two indices and only valid when $\texttt{key}$='$\texttt{h}$'. 
 </div>
 <p style="line-height: 1;"></p>
 
@@ -78,7 +78,29 @@ function [out1,out2] = funcSimpleEx(x,key,T1,T2)
 end
 ```
 
-For other problems, users may define the function similarly by changing $\texttt{out1}$ and $\texttt{out2h}$ but keeping the structure of $\texttt{switch}$. For example, below is the definition of a sparse linear regression problem
+<div style="text-align:justify;">
+After defining the function, one can call <b style="font-size:16px;color:#777777">SCOpack</b> to solve the target problem. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$), choose a solver's name from  {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, set some parameters in $\texttt{pars}$ if necessary, and then run the solver. Below is the code to show <b style="font-size:16px;color:#777777">SCOpack</b> to solve this simple SCO problem. 
+</div>
+<p style="line-height: 1;"></p>
+
+```ruby
+% demon a simple sparsity constrained problem
+clc; close all; clear all;  addpath(genpath(pwd));
+
+n        = 2;
+s        = 1; 
+func     = @funcSimpleEx;
+solver   = {'NHTP','GPNP','IIHT'};
+pars.eta = 0.1; % useful for 'NHTP'
+out      = SCOpack(func,n,s,solver{2},pars); 
+
+fprintf(' Objective:      %.4f\n', out.obj); 
+fprintf(' CPU time:      %.3fsec\n', out.time);
+fprintf(' Iterations:        %4d\n', out.iter);
+```
+
+<div style="text-align:justify;">
+For other problems, users may define the function similarly by changing $\texttt{out1}$ and $\texttt{out2h}$ but keeping the structure of $\texttt{switch}$. For example, below is the definition of a sparse linear regression problem.
 </div>
 <p style="line-height: 1;"></p>
 
@@ -105,30 +127,11 @@ function [out1,out2] = funcLinReg(x,key,T1,T2,A,b)
     end
 end
 ```
-
 <div style="text-align:justify;">
-After defining the function, one can call <b style="font-size:16px;color:#777777">SCOpack</b> to solve the target problem. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$), choose a solver's name from  {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, set some parameters in $\texttt{pars}$ if necessary, and then run the solver. Below is the code to show <b style="font-size:16px;color:#777777">SCOpack</b> to solve the simple SCO problem. 
+After defining the function,  users can call <b style="font-size:16px;color:#777777">SCOpack</b> to solve the sparse linear regression problem as follows.
 </div>
-
 <p style="line-height: 1;"></p>
 
-```ruby
-% demon a simple sparsity constrained problem
-clc; close all; clear all;  addpath(genpath(pwd));
-
-n        = 2;
-s        = 1; 
-func     = @funcSimpleEx;
-solver   = {'NHTP','GPNP','IIHT'};
-pars.eta = 0.1; % useful for 'NHTP'
-out      = SCOpack(func,n,s,solver{2},pars); 
-
-fprintf(' Objective:      %.4f\n', out.obj); 
-fprintf(' CPU time:      %.3fsec\n', out.time);
-fprintf(' Iterations:        %4d\n', out.iter);
-```
-
-Below is the code to show <b style="font-size:16px;color:#777777">SCOpack</b> to solve the sparse linear regression problem. 
 ```ruby
 % demon sparse linear regression problems 
 clc; close all; clear all; addpath(genpath(pwd));
@@ -149,6 +152,7 @@ solver   = {'NHTP','GPNP','IIHT'};
 out      = SCOpack(func,n,s,solver{2},pars); 
 ```
 
+---
 <div style="text-align:justify;">
 The inputs and outputs of <b style="font-size:16px;color:#777777">SCOpack</b> are detailed below, where inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$, $\texttt{solvername}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the solution quality.
 </div>
