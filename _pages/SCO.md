@@ -79,7 +79,7 @@ end
 ```
 
 <div style="text-align:justify;">
-After defining the function, one can call <b style="font-size:16px;color:#777777">SCOpack</b> to solve the target problem. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$), choose a solver's name from  {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, set some parameters in $\texttt{pars}$ if necessary, and then run the solver. Below is the code to show <b style="font-size:16px;color:#777777">SCOpack</b> to solve this simple SCO problem. 
+After defining the functions, one can call <b style="font-size:16px;color:#777777">SCOpack</b> to solve the target problem. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$), choose a solver's name from  {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following code demonstrates <b style="font-size:16px;color:#777777">SCOpack</b> to solve this simple SCO problem.
 </div>
 <p style="line-height: 1;"></p>
 
@@ -100,7 +100,7 @@ fprintf(' Iterations:        %4d\n', out.iter);
 ```
 
 <div style="text-align:justify;">
-For other problems, users may define the function similarly by changing $\texttt{out1}$ and $\texttt{out2}$ but keeping the structure of $\texttt{switch}$. For example, below is the definition of a sparse linear regression problem.
+For other problems, users can define the functions in a similar manner by modifying $\texttt{out1}$ and $\texttt{out2}$ while preserving the overall structure of $\texttt{switch}$. As an illustration, the following codes define the functions of a sparse linear regression problem.
 </div>
 <p style="line-height: 1;"></p>
 
@@ -128,7 +128,7 @@ function [out1,out2] = funcLinReg(x,key,T1,T2,A,b)
 end
 ```
 <div style="text-align:justify;">
-After defining the function,  users can call <b style="font-size:16px;color:#777777">SCOpack</b> to solve the sparse linear regression problem as follows.
+After defining the functions,  users can call <b style="font-size:16px;color:#777777">SCOpack</b> to solve the sparse linear regression problem as follows.
 </div>
 <p style="line-height: 1;"></p>
 
