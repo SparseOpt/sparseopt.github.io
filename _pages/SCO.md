@@ -100,7 +100,7 @@ fprintf(' Iterations:        %4d\n', out.iter);
 ```
 
 <div style="text-align:justify;">
-For other problems, users can define the functions in a similar manner by modifying $\texttt{out1}$ and $\texttt{out2}$ while preserving the overall structure of $\texttt{switch}$. As an illustration, the following codes define the functions of a sparse linear regression problem.
+For other problems, users can similarly define the functions by modifying $\texttt{out1}$ and $\texttt{out2}$ while preserving the overall structure of $\texttt{switch}$. As an illustration, the following codes define the functions of a sparse linear regression problem.
 </div>
 <p style="line-height: 1;"></p>
 
@@ -128,7 +128,7 @@ function [out1,out2] = funcLinReg(x,key,T1,T2,A,b)
 end
 ```
 <div style="text-align:justify;">
-After defining the functions for the sparse linear regression problem, users can call <b style="font-size:16px;color:#777777">SCOpack</b> to solve the problem as follows.
+After defining the functions of the sparse linear regression problem, we call <b style="font-size:16px;color:#777777">SCOpack</b> to solve the problem as follows.
 </div>
 <p style="line-height: 1;"></p>
 
