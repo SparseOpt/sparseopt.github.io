@@ -79,79 +79,74 @@ end
 ```
 
 <div style="text-align:justify;">
-  Below is an example showing how <b style="font-size:16px;color:#777777">NM01</b> can be applied to solve the 1BCS problem using model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>). Users only need to specify ($\texttt{func}$, $\texttt{B}$, $\texttt{b}$, $\texttt{lam}$, $\texttt{pars}$) and then run the solver.
+Below is an example showing how <b style="font-size:16px;color:#777777">SCOpack</b> can be applied to solve a simple (SCO) problem. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$) , choose a solver from  {'$\texttt{NHTP}$','$\texttt{GPNP}$','$\texttt{IIHT}$'} , and then run the solver.
 </div>
 
 <p style="line-height: 1;"></p>
 
 ```ruby
-% Solving 1-bit compressive sensing using randomly generated datasets
-clc; close all; clear all; addpath(genpath(pwd));
+% demon a simple sparsity constrained problem
+clc; close all; clear all;  addpath(genpath(pwd));
 
-n            = 1000; 
-m            = ceil(0.5*n);
-s            = ceil(0.01*m);                     % sparsity level
-r            = 0.01;                             % flipping ratio
-nf           = 0.1;                              % noisy ratio
-[A,c,co,xo]  = random1bcs('Ind',m,n,s,nf,r,0.5); % data generation
+n        = 2;
+s        = 1; 
+func     = @funcSimpleEx;
+solver   = {'NHTP','GPNP','IIHT'};
+pars.eta = 0.1; % useful for 'NHTP'
+out      = SCOpack(func,n,s,solver{2},pars); 
 
-func         = @(x,key)func1BCS(x,key,1e-5,0.5,A,c);
-B            = (-c).*A;
-b            = (n*4e-5)*ones(m,1);
-lam          = 10;
-pars.tau     = 1;
-pars.sp      = s;  
-pars.strict  =(n<=2000); 
-out          = NM01(func, B, b, lam, pars); 
-x            = refine(out.sol,s,A,c);
-
-RecoverShow(xo,x,[950,500,450,220],1)
-fprintf(' Computational time:    %.3fsec\n',out.time);
-fprintf(' Signal-to-noise ratio: %.2f\n',-20*log10(norm(x-xo)));
-fprintf(' Hamming distance:      %.3f\n',nnz(sign(A*x)-c)/m)
-fprintf(' Hamming error:         %.3f\n',nnz(sign(A*x)-co)/m)
+fprintf(' Objective:      %.4f\n', out.obj); 
+fprintf(' CPU time:      %.3fsec\n', out.time);
+fprintf(' Iterations:        %4d\n', out.iter);
 ```
 
 <div style="text-align:justify;">
-The inputs and outputs of <b style="font-size:16px;color:#777777">NM01</b> are detailed below, where inputs ($\texttt{func}$, $\texttt{B}$, $\texttt{b}$, $\texttt{lam}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
+The inputs and outputs of <b style="font-size:16px;color:#777777">SCOpack</b> are detailed below, where inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$, $\texttt{solvername}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
 </div>
 
 <p style="line-height: 1;"></p>
 
 ```ruby
-function out = NM01(func,B,b,lam,pars)
-% -------------------------------------------------------------------------
-% This code aims at solving the support vector machine with form
+function out = SCOpack(func,n,s,solvername,pars)
+%--------------------------------------------------------------------------
+% This code aims at solving the sparsity constrained optimization (SCO),
 %
-%       min  f(x) + lam * ||(Bx+b)_+||_0
+%         min_{x\in R^n} f(x),  s.t. ||x||_0<=s
 %
-% where f is twice continuously differentiable
-% lam > 0, B\in\R^{m x n}, b\in\R^{m x 1}
-% (z)_+ = (max{0,z_1},...,max{0,z_m})^T
-% ||(z)_+ ||_0 counts the number of positive entries of z
-% -------------------------------------------------------------------------
+% or sparsity and non-negative constrained optimization (SNCO):
+%
+%         min_{x\in R^n} f(x),  s.t. ||x||_0<=s, x>=0 
+%
+% where f: R^n->R and s<<n is an integer.
+%--------------------------------------------------------------------------
 % Inputs:
-%   func: A function handle defines (objective,gradient,Hessain) (REQUIRED)
-%   B   : A matrix \R^{m x n}                                    (REQUIRED)      
-%   b   : A vector \R^{m x 1}                                    (REQUIRED)
-%   lam : The penalty parameter                                  (REQUIRED)
-%   pars: Parameters are all OPTIONAL
-%         pars.x0     -- The initial point             (default zeros(n,1))
-%         pars.tau    -- A useful paramter                   (default 1.00)
-%         pars.mu0    -- A smoothing parameter               (default 0.01)
-%         pars.maxit  -- Maximum number of iterations        (default 1000)  
-%         pars.tol    -- Tolerance of halting conditions   (1e-7*sqrt(n*m)) 
-%         pars.strict -- = 0, loosely meets halting conditions  (default 0)
-%                        = 1, strictly meets halting conditions  
-%                        pars.strict=1 is useful for low dimensions                           
-% -------------------------------------------------------------------------
+%   func:   A function handle defines                            (REQUIRED)
+%                    (objective,gradient,sub-Hessain)
+%   n:      Dimension of the solution x                          (REQUIRED)
+%   s:      Sparsity level of x, an integer between 1 and n-1    (REQUIRED)
+%   solver: A text string, can be one of {'NHTP','GPNP','IIHT'}  (REQUIRED)
+%   pars  : ---------------For all solvers --------------------------------
+%           pars.x0    --  Starting point of x         (default zeros(n,1))
+%           pars.disp  --  =1 show results for each step        (default 1)
+%                          =0 not show results for each step
+%           pars.maxit --  Maximum number of iterations      (default  2e3) 
+%           pars.tol   --  Tolerance of halting conditions   (default 1e-6)
+%           pars.uppf  --  An upper bound of final objective (default -Inf)
+%                          Useful for noisy case
+%           ---------------Particular for NHTP ----------------------------
+%           pars.eta   --  A positive scalar                    (default 1)  
+%                          Tuning it may improve solution quality 
+%           ---------------Particular for IIHT ----------------------------
+%           pars.neg   --  =0 for model (SCO)                   (default 1)
+%                          =1 for model (SNCO)
+%--------------------------------------------------------------------------
 % Outputs:
-%   out.sol:  The solution 
-%   out.obj:  The objective function value
-%   out.time: CPU time
-%   out.iter: Number of iterations
-% -------------------------------------------------------------------------
-% Send your comments and suggestions to <<< slzhou2021@163.com >>>                                  
+%     out.sol :   The sparse solution x
+%     out.obj :   Objective function value at out.sol 
+%     out.iter:   Number of iterations
+%     out.time:   CPU time
+%--------------------------------------------------------------------------
+% Send your comments and suggestions to <<< slzhou2021@163.com >>>   
 % WARNING: Accuracy may not be guaranteed!!!!!  
-% -------------------------------------------------------------------------
+%--------------------------------------------------------------------------
 ```
