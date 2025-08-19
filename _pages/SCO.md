@@ -79,7 +79,7 @@ end
 ```
 
 <div style="text-align:justify;">
-After defining the functions for the simple SCO problem, one can call <b style="font-size:16px;color:#777777">SCOpack</b> to solve the target problem. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$), choose a solver name from  {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following codes demonstrate <b style="font-size:16px;color:#777777">SCOpack</b> to solve this simple SCO problem.
+After defining the functions for the simple SCO problem, one can call <b style="font-size:16px;color:#777777">SCOpack</b> to solve it. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$), choose a solver name from  {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following codes demonstrate <b style="font-size:16px;color:#777777">SCOpack</b> to solve this simple SCO problem.
 </div>
 <p style="line-height: 1;"></p>
 
@@ -152,9 +152,9 @@ solver   = {'NHTP','GPNP','IIHT'};
 out      = SCOpack(func,n,s,solver{2},pars); 
 ```
 
----
+
 <div style="text-align:justify;">
-The inputs and outputs of <b style="font-size:16px;color:#777777">SCOpack</b> are detailed below, where inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$, $\texttt{solvername}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the solution quality.
+The inputs and outputs of <b style="font-size:16px;color:#777777">SCOpack</b> are detailed below, where inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$, $\texttt{solvername}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the solution quality. For example, if solver $\texttt{NHTP}$ is chosen, then tuning a proper $\texttt{pars.eta}$ may significantly improve the solver performance in terms of convergence speed and accuracy.
 </div>
 
 <p style="line-height: 1;"></p>
