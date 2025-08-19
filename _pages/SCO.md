@@ -51,7 +51,7 @@ which provides 3 solvers from the following papers:
 
 ---
 <div style="text-align:justify;">  
-Note that <b style="font-size:16px;color:#777777">NHTP</b> and <b style="font-size:16px;color:#777777">GPNP</b> are two second-order methods, requiring the objective, gradient, and sub-Hessian of $f$. Below is an example of how to uniformly define functions for three solvers to solve a simple SCO problem, where input $\texttt{x}$ is the variable, string variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{fg}$' for the objective value and the gradient, and $\texttt{key}$='$\texttt{h}$' for the Hessian, and $\texttt{T1}$ and $\texttt{T2}$ are two indices and only valid when $\texttt{key}$='$\texttt{h}$'. 
+Note that <b style="font-size:16px;color:#777777">NHTP</b> and <b style="font-size:16px;color:#777777">GPNP</b> are two second-order methods, requiring the objective, gradient, and sub-Hessian of $f$, while <b style="font-size:16px;color:#777777">IIHT</b> is a first-order method, requiring the objective and gradient of $f$. Below is an example of how to uniformly define functions for three solvers to solve a simple SCO problem, where input $\texttt{x}$ is the variable, string variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{fg}$' for the objective value and the gradient, and $\texttt{key}$='$\texttt{h}$' for the Hessian, and $\texttt{T1}$ and $\texttt{T2}$ are two indices and only valid when $\texttt{key}$='$\texttt{h}$'. 
 </div>
 <p style="line-height: 1;"></p>
 
@@ -79,7 +79,7 @@ end
 ```
 
 <div style="text-align:justify;">
-After defining the functions for the simple SCO problem, one can call <b style="font-size:16px;color:#777777">SCOpack</b> to solve the target problem. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$), choose a solver's name from  {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following codes demonstrate <b style="font-size:16px;color:#777777">SCOpack</b> to solve this simple SCO problem.
+After defining the functions for the simple SCO problem, one can call <b style="font-size:16px;color:#777777">SCOpack</b> to solve the target problem. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$), choose a solver name from  {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following codes demonstrate <b style="font-size:16px;color:#777777">SCOpack</b> to solve this simple SCO problem.
 </div>
 <p style="line-height: 1;"></p>
 
