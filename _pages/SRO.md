@@ -143,7 +143,7 @@ out      = NL0R(func,n,lambda,pars);
 ```
 
 <div style="text-align:justify;">
-The inputs and outputs of <b style="font-size:16px;color:#777777">NL0R</b> are detailed below, where inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{lambda}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the solution quality. For example, if solver $\texttt{NHTP}$ is chosen, then tuning a proper $\texttt{pars.eta}$ may significantly improve the solver performance in terms of convergence speed and accuracy. Moreover, solver $\texttt{IIHT}$ enables addressing the SCO problems with non-negative constraints. To do so, just set $\texttt{pars.neg}$=1. 
+The inputs and outputs of <b style="font-size:16px;color:#777777">NL0R</b> are detailed below, where inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{lambda}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the solution quality. For example, tuning a proper $\texttt{pars.eta}$ may significantly improve the solver performance in terms of convergence speed and accuracy.
 </div>
 
 <p style="line-height: 1;"></p>
