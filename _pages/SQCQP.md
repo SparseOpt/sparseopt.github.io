@@ -99,7 +99,7 @@ The inputs and outputs of SNSQP are detailed below. Note that input $\texttt{Qi}
 
 ```ruby
 function Out = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars)
-%---------------------------------------------------------------------------------------------------
+% --------------------------------------------------------------------------------------------------
 % This code aims at solving the sparse QCQP in the form of
 %
 %         min  (1/2)(x'{Q_0}x)+q_0'x  
@@ -113,22 +113,22 @@ function Out = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars)
 %       eqA   \in R^{m2-by-n},  eqb   \in R^{m2}
 %       s << n
 
-%---------------------------------------------------------------------------------------------------           
+% --------------------------------------------------------------------------------------------------           
 % Inputs:
-%     n:      Dimension of the solution x                                             (required)
-%     s:      Sparsity level of x, an integer between 1 and n-1                       (required)
-%     Q0:     The quadratic objective matrix in R^{n-by-n}                            (required)        
-%     q0:     The quadratic objective vector in R^n                                   (required)
-%     Qi:     The quadratic constraint matrix                                         (optional) 
+%     n:      Dimension of the solution x                                                 (REQUIRED)
+%     s:      Sparsity level of x, an integer between 1 and n-1                           (REQUIRED)
+%     Q0:     The quadratic objective matrix in R^{n-by-n}                                (REQUIRED)        
+%     q0:     The quadratic objective vector in R^n                                       (REQUIRED)
+%     Qi:     The quadratic constraint matrix                                             (OPTIONAL) 
 %             MUST be a cell array or [], each entry is a matrix in R^{n-by-n}           
-%     qi:     The quadratic constraint vector. MUST be a matrix in R^{n-by-k} or []   (optional)           
-%     ci:     The quadratic constraint constant in R, must be a vector or []          (optional)
-%     ineqA:  The linear inequality constraint matrix in R^{m1-by-n}   or []          (optional)
-%     ineqb:  The linear inequality constraint vector in R^{m1}        or []          (optional)
-%     eqA:    The linear equality constraint matrix in R^{m2-by-n}     or []          (optional)
-%     eqb:    The linear equality constraint vector in R^{m2}          or []          (optional)
-%     lb:     The lower bound of x                                                    (optional)
-%     ub:     The upper bound of x                                                    (optional)
+%     qi:     The quadratic constraint vector. MUST be a matrix in R^{n-by-k} or []       (OPTIONAL)           
+%     ci:     The quadratic constraint constant in R, must be a vector or []              (OPTIONAL)
+%     ineqA:  The linear inequality constraint matrix in R^{m1-by-n}   or []              (OPTIONAL)
+%     ineqb:  The linear inequality constraint vector in R^{m1}        or []              (OPTIONAL)
+%     eqA:    The linear equality constraint matrix in R^{m2-by-n}     or []              (OPTIONAL)
+%     eqb:    The linear equality constraint vector in R^{m2}          or []              (OPTIONAL)
+%     lb:     The lower bound of x                                                        (OPTIONAL)
+%     ub:     The upper bound of x                                                        (OPTIONAL)
 %             NOTE: 0 must be in [lb ub]
 %     pars:   Parameters are all OPTIONAL
 %             pars.x0       -- Initial point of x                                     (default zeros(n,1))
@@ -137,13 +137,13 @@ function Out = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars)
 %             pars.dualeq   -- Initial point of dual variable for linear equalities   (default zeros(m2,1))
 %             pars.dualbd   -- Initial point of nu  for bound/box constraints         (default zeros(n,1))
 %             pars.tau      -- A positive scalar                                      (default 1)
-%                              NOTE: tuning a proper tau may yield better solutions     
+%                              NOTE: Tuning a proper tau may yield better solutions     
 %             pars.itlser   -- Maximum number of line search                          (default 5)
 %             pars.itmax    -- Maximum number of iterations                           (default 10000)
 %             pars.show     -- Results shown at each iteration if pars.show=1         (default 1)
 %                              Results not shown at each iteration if pars.show=0
 %             pars.tol      -- Tolerance of the halting condition                     (default 1e-6)
-%
+% --------------------------------------------------------------------------------------------------
 % Outputs:
 %     Out.sol:           The sparse solution x
 %     Out.sparsity:      Sparsity level of Out.sol
@@ -151,5 +151,5 @@ function Out = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars)
 %     Out.time           CPU time
 %     Out.iter:          Number of iterations
 %     Out.obj:           Objective function value at Out.sol
-%---------------------------------------------------------------------------------------------------
+% --------------------------------------------------------------------------------------------------
 ```
