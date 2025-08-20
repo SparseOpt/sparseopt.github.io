@@ -30,58 +30,159 @@ a:active {
 <p style="line-height: 2;"></p>
 
 \begin{equation}
-\min_{\mathbf{x}\in\mathbb{R}^{n}} ~~  f(\mathbf{x}) + \lambda \parallel\mathbf{x}\parallel_q^q \tag{SRO}
+\min_{\mathbf{x}\in\mathbb{R}^{n}} ~~  f(\mathbf{x}) + \lambda \parallel\mathbf{x}\parallel_0 \tag{SRO}
 \end{equation}
 
 <div style="text-align:justify;"> 
-where $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice continuously differentiable function, $\lambda>0$ is the penalty parameter, and $\parallel\mathbf{x}\parallel_{\mathrm{q}}^{\mathrm{q}}\mathrm{=|x_1|^q+\cdots+|x_n|^q}$ denotes the Lq norm with $\mathrm{0≤q<1}$, in particular, $\parallel\mathbf{x}\parallel_0:=\parallel\mathbf{x}\parallel_0^0$ denotes the L0 norm, which counts the number of nonzero entries in $\mathbf{x}$.
+where $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice continuously differentiable function, $\lambda>0$ is the penalty parameter, and   $\parallel\mathbf{x}\parallel_0$ denotes the L0 norm, which counts the number of nonzero entries in $\mathbf{x}$.
 </div>
  
-<!-- ## <span style="color:#8C8C8C">The solver and its demonstration</span> -->
 ---
 <div style="text-align:justify;">
-The package can be downloaded here - <a style="font-size: 16px; font-weight: bold; color:#006DB0" href=" " target="_blank">SROpack</a>,
-which provides 2 solvers from the following papers:
+The package can be downloaded here - <a style="font-size: 16px; font-weight: bold; color:#006DB0" href="\files\SROpack.zip" target="_blank">NL0R</a>, which is developed based on the algorithm proposed in the following paper:
 </div>
 
-> <b style="font-size:14px;color:#777777">PSNP</b> - <span style="font-size: 14px"> S Zhou, X Xiu, Y Wang, and D Peng, Revisiting Lq (0 ≤ q < 1) norm regularized optimization, arXiv:2306.14394, 2023. </span>
-<br><b style="font-size:14px;color:#777777">NL0R</b> - <span style="font-size: 14px"> S Zhou, L Pan, and N Xiu, Newton method for l0 regularized optimization, Numer Algorithms, 88:1541–1570, 2021. </span>
+> <b style="font-size:14px;color:#777777">NL0R</b> - <span style="font-size: 14px"> S Zhou, L Pan, and N Xiu, Newton method for l0 regularized optimization, Numer Algorithms, 88:1541–1570, 2021. </span>
 
-<!--
-- <a style="font-size:14px; color:#000000" href="https://link.springer.com/article/10.1007/s11075-021-01085-x" target="_blank"> S Zhou, L Pan, and N Xiu, Newton method for L0-regularized optimization, *Numerical Algorithm*, 88:1541–1570, 2021 .</a>
-- <a style="font-size:14px; color:#000000" href="https://arxiv.org/abs/2306.14394" target="_blank"> S Zhou, X Xiu, Y Wang, and D Peng, Revisiting Lq (0 <= q < 1) norm regularized optimization, *arXiv:2306.14394*, 2023.</a> 
--->
 
 ---
-<div style="text-align:justify;">
-Both solvers are second-order methods, which require both the gradient and Hessian of $f$. Below is a demonstration of how to define the gradient and Hessian for <b style="font-size:14px;color:#777777">NL0R</b> and <b style="font-size:14px;color:#777777">PSNP</b>.
+<div style="text-align:justify;">  
+Note that <b style="font-size:16px;color:#777777">NL0R</b> is a second-order method, requiring the objective, gradient, and sub-Hessian of $f$. Below is an example of how to uniformly define functions for three solvers to solve a simple SRO problem, where input $\texttt{x}$ is the variable, string variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{fg}$' for the objective value and the gradient, and $\texttt{key}$='$\texttt{h}$' for the Hessian, and $\texttt{T1}$ and $\texttt{T2}$ are two indices and only valid when $\texttt{key}$='$\texttt{h}$'. 
 </div>
-
-
-<!--
 <p style="line-height: 1;"></p>
 
 ```ruby
-function [out1,out2] = funCS(x,T1,T2,data)
-
-    if  isempty(T1) && isempty(T2) 
-        Tx   = find(x); 
-        Axb  = data.A(:,Tx)*x(Tx)-data.b;
-        out1 = norm(Axb,'fro')^2/2;               %objective 
-        if  nargout == 2
-            out2    = (Axb'*data.A)';             %gradient
-        end
-    else        
-        AT = data.A(:,T1); 
-        if  length(T1)<2000
-            out1 = AT'*AT;                        %subHessian containing T1 rows and T1 columns
-        else
-            out1 = @(v)( (AT*v)'*AT )';      
-        end       
-        if  nargout == 2
-            out2 = @(v)( (data.A(:,T2)*v)'*AT )'; %subHessian containing T1 rows and T2 columns
-        end       
-    end     
+function [out1,out2] = funcSimpleEx(x,key,T1,T2)
+    % This code provides information for
+    %     min   x'*[6 5;5 8]*x+[1 9]*x-sqrt(x'*x+1)  
+    a   = sqrt(sum(x.*x)+1);
+    switch key
+        case 'fg'    
+            out1 = x'*[6 5;5 8]*x+[1 9]*x-a;       % objective
+            if  nargout == 2 
+                out2 = 2*[6 5;5 8]*x+[1; 9]-x./a;  % gradient
+            end
+        case 'h'
+            H   = 2*[6 5;5 8]+(x*x'-a*eye(2))/a^3; % sub-Hessian formed by rows indexed by T1 and columns indexed by T1
+            out1 = H(T1,T1);
+            if  nargout == 2 
+                out2 = H(T1,T2);                   % sub-Hessian formed by rows indexed by T1 and columns indexed by T2
+            end
+    end
 end
 ```
- -->
+
+<div style="text-align:justify;">
+After defining the functions for the simple SRO problem, one can call <b style="font-size:16px;color:#777777">NL0R</b> to solve it. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$), set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following codes demonstrate <b style="font-size:16px;color:#777777">NL0R</b> to solve this simple SRO problem.
+</div>
+<p style="line-height: 1;"></p>
+
+```ruby
+% demon a simple SRO problem
+clc; close all; clear all;  addpath(genpath(pwd));
+
+n        = 2;
+lambda   = 0.5;
+pars.eta = 0.1;
+out      = NL0R(@funcSimpleEx,n,lambda,pars); 
+fprintf(' Objective:      %.4f\n', out.obj); 
+fprintf(' CPU time:      %.3fsec\n', out.time);
+fprintf(' Iterations:        %4d\n', out.iter);
+```
+
+<div style="text-align:justify;">
+For other problems, users can similarly define the functions by modifying $\texttt{out1}$ and $\texttt{out2}$ while preserving the overall structure of $\texttt{switch}$. As an illustration, the following codes define the functions of a sparse linear regression problem.
+</div>
+<p style="line-height: 1;"></p>
+
+```ruby
+function [out1,out2] = funcLinReg(x,key,T1,T2,A,b)
+    % This code provides information for
+    %     min   0.5*||Ax-b||^2 
+    % where A in R^{m x n} and b in R^{m x 1}    
+    switch key
+        case 'fg'
+            Tx   = find(x~=0);
+            Axb  = A(:,Tx)*x(Tx)-b;
+            out1 = (Axb'*Axb)/2;      % objective 
+            if  nargout == 2 
+                out2 = (Axb'*A)';     % gradient 
+            end
+        case 'h'        
+            AT   = A(:,T1); 
+            out1 = AT'*AT;            %sub-Hessian formed by rows indexed by T1 and columns indexed by T1   
+            if  nargout == 2
+                out2 = AT'*A(:,T2);   %sub-Hessian formed by rows indexed by T1 and columns indexed by T2
+            end       
+    end
+end
+```
+<div style="text-align:justify;">
+After defining the functions of the sparse linear regression problem, we call <b style="font-size:16px;color:#777777">NL0R</b> to solve the problem as follows.
+</div>
+<p style="line-height: 1;"></p>
+
+```ruby
+% demon sparse linear regression problems 
+clc; close all; clear all; addpath(genpath(pwd));
+
+n        = 2000;  
+m        = ceil(0.25*n); 
+s        = ceil(0.05*n);
+
+Tx       = randperm(n,s);  
+xopt     = zeros(n,1);  
+xopt(Tx) = (0.25+rand(s,1)).*sign(randn(s,1)); 
+A        = randn(m,n)/sqrt(m); 
+b        = A*xopt;  
+func     = @(x,key,T1,T2)funcLinReg(x,key,T1,T2,A,b);
+
+lambda   = 0.01;
+pars.eta = 1.0;
+out      = NL0R(func,n,lambda,pars); 
+```
+
+<div style="text-align:justify;">
+The inputs and outputs of <b style="font-size:16px;color:#777777">NL0R</b> are detailed below, where inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{lambda}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the solution quality. For example, if solver $\texttt{NHTP}$ is chosen, then tuning a proper $\texttt{pars.eta}$ may significantly improve the solver performance in terms of convergence speed and accuracy. Moreover, solver $\texttt{IIHT}$ enables addressing the SCO problems with non-negative constraints. To do so, just set $\texttt{pars.neg}$=1. 
+</div>
+
+<p style="line-height: 1;"></p>
+
+```ruby
+function out = NL0R(func,n,lambda,pars)
+%--------------------------------------------------------------------------
+% This code aims at solving the L0 norm regularized optimization 
+%
+%         min_{x\in R^n} f(x) + lambda*||x||_0^0
+%
+% where f: R^n->R, lambda>0
+% ||x||_0^0 counts the number of non-zero entries
+%--------------------------------------------------------------------------
+% Inputs:
+%   func:   A function handle defines                            (REQUIRED)
+%                    (objective, gradient, sub-Hessian)
+%   n:      Dimension of the solution x                          (REQUIRED) 
+%   lambda: The penalty parameter                                (REQUIRED)  
+%   pars  : All parameters are OPTIONAL
+%           pars.x0     -- Starting point of x         (default zeros(n,1))
+%           pars.tol    -- Tolerance of halting conditions   (default 1e-6)
+%           pars.maxit  -- Maximum number of iterations      (default  2e3) 
+%           pars.uppf   -- An upper bound of final objective (default -Inf)
+%                          Useful for noisy case 
+%           pars.eta    -- A positive scalar                    (default 1)  
+%                          Tuning it may improve solution quality
+%           pars.update -- =1 update penalty parameter lambda   (default 1)
+%                          =0 fix penalty parameter lambda
+%           pars.disp   -- =1 show results for each step        (default 1)
+%                          =0 not show results for each step
+%--------------------------------------------------------------------------
+% Outputs:
+%   out.sol :  The sparse solution x
+%   out.obj :  Objective function value at out.sol 
+%   out.iter:  Number of iterations
+%   out.time:  CPU time
+%--------------------------------------------------------------------------
+% Send your comments and suggestions to <<< slzhou2021@163.com >>>   
+% WARNING: Accuracy may not be guaranteed!!!!!  
+%--------------------------------------------------------------------------
+```
