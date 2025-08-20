@@ -161,7 +161,7 @@ The inputs and outputs of <b style="font-size:16px;color:#777777">SCOpack</b> ar
 
 ```ruby
 function out = SCOpack(func,n,s,solvername,pars)
-%--------------------------------------------------------------------------
+% -------------------------------------------------------------------------
 % This code aims at solving the sparsity constrained optimization (SCO),
 %
 %         min_{x\in R^n} f(x),  s.t. ||x||_0<=s
@@ -171,7 +171,7 @@ function out = SCOpack(func,n,s,solvername,pars)
 %         min_{x\in R^n} f(x),  s.t. ||x||_0<=s, x>=0 
 %
 % where f: R^n->R and s<<n is an integer.
-%--------------------------------------------------------------------------
+% -------------------------------------------------------------------------
 % Inputs:
 %   func:   A function handle defines                            (REQUIRED)
 %                    (objective, gradient, sub-Hessian)
@@ -192,14 +192,14 @@ function out = SCOpack(func,n,s,solvername,pars)
 %           ---------------Particular for IIHT ----------------------------
 %           pars.neg   --  =0 for model (SCO)                   (default 1)
 %                          =1 for model (NSCO)
-%--------------------------------------------------------------------------
+% -------------------------------------------------------------------------
 % Outputs:
 %     out.sol :   The sparse solution x
 %     out.obj :   Objective function value at out.sol 
 %     out.iter:   Number of iterations
 %     out.time:   CPU time
-%--------------------------------------------------------------------------
+% -------------------------------------------------------------------------
 % Send your comments and suggestions to <<< slzhou2021@163.com >>>   
 % WARNING: Accuracy may not be guaranteed!!!!!  
-%--------------------------------------------------------------------------
+% -------------------------------------------------------------------------
 ```
