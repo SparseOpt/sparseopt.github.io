@@ -146,7 +146,8 @@ function out = CSpack(A,At,b,n,s,solver,pars)
 %           Sparsity | required  | required  |  no need  |  no need  | required  |  no need
 %           --------------------------------------------------------------------------------  
 %
-%   pars  : ----------------For all solvers -------------------------------
+%   pars:   All parameters are optional                          (OPTIONAL)
+%           ----------------For all solvers -------------------------------
 %           pars.x0     --  Starting point of x       (default, zeros(n,1))                     
 %           pars.disp   --  =1, show results for each step      (default,1)
 %                           =0, not show results for each step
