@@ -44,7 +44,6 @@ The package can be downloaded here - <a style="font-size: 16px; font-weight: bol
 
 > <b style="font-size:14px;color:#777777">NL0R</b> - <span style="font-size: 14px"> S Zhou, L Pan, and N Xiu, Newton method for l0 regularized optimization, Numer Algorithms, 88:1541–1570, 2021. </span>
 
-
 ---
 <div style="text-align:justify;">  
 Note that <b style="font-size:16px;color:#777777">NL0R</b> is a second-order method, requiring the objective, gradient, and sub-Hessian of $f$. Below is an example of how to define functions for the solver to solve a simple SRO problem, where input $\texttt{x}$ is the variable, string variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{fg}$' for the objective value and the gradient, and $\texttt{key}$='$\texttt{h}$' for the Hessian, and $\texttt{T1}$ and $\texttt{T2}$ are two indices and only valid when $\texttt{key}$='$\texttt{h}$'. 
