@@ -72,7 +72,7 @@ end
 ```
 
 <div style="text-align:justify;">
-After defining the functions for the simple SRO problem, one can call <b style="font-size:16px;color:#777777">NL0R</b> to solve it. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$), set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following codes demonstrate <b style="font-size:16px;color:#777777">NL0R</b> to solve this simple SRO problem.
+After defining the functions for the simple SRO problem, one can call <b style="font-size:16px;color:#777777">NL0R</b> to solve it. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{lambda}$), set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following codes demonstrate <b style="font-size:16px;color:#777777">NL0R</b> to solve this simple SRO problem.
 </div>
 <p style="line-height: 1;"></p>
 
