@@ -166,7 +166,7 @@ function out = CSpack(A,At,b,n,s,solver,pars)
 %           ----------------Particular for IIHT ---------------------------
 %           pars.neg    --  =0, Compute SCCS without x>=0       (default,0)
 %                           =1, Compute SCCS with x>=0
-%
+% -------------------------------------------------------------------------
 % Outputs:
 %     out.sol:   The sparse solution x
 %     out.sp:    Sparsity level of out.sol
