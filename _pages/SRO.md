@@ -150,14 +150,14 @@ The inputs and outputs of <b style="font-size:16px;color:#777777">NL0R</b> are d
 
 ```ruby
 function out = NL0R(func,n,lambda,pars)
-%--------------------------------------------------------------------------
+% -------------------------------------------------------------------------
 % This code aims at solving the L0 norm regularized optimization 
 %
 %         min_{x\in R^n} f(x) + lambda*||x||_0^0
 %
 % where f: R^n->R, lambda>0
 % ||x||_0^0 counts the number of non-zero entries
-%--------------------------------------------------------------------------
+% -------------------------------------------------------------------------
 % Inputs:
 %   func:   A function handle defines                            (REQUIRED)
 %                    (objective, gradient, sub-Hessian)
@@ -175,14 +175,14 @@ function out = NL0R(func,n,lambda,pars)
 %                          =0 fix penalty parameter lambda
 %           pars.disp   -- =1 show results for each step        (default 1)
 %                          =0 not show results for each step
-%--------------------------------------------------------------------------
+% -------------------------------------------------------------------------
 % Outputs:
 %   out.sol :  The sparse solution x
 %   out.obj :  Objective function value at out.sol 
 %   out.iter:  Number of iterations
 %   out.time:  CPU time
-%--------------------------------------------------------------------------
+% -------------------------------------------------------------------------
 % Send your comments and suggestions to <<< slzhou2021@163.com >>>   
 % WARNING: Accuracy may not be guaranteed!!!!!  
-%--------------------------------------------------------------------------
+% -------------------------------------------------------------------------
 ```
