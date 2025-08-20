@@ -116,6 +116,7 @@ function [out1,out2] = funcLinReg(x,key,T1,T2,A,b)
     end
 end
 ```
+
 <div style="text-align:justify;">
 After defining the functions of the sparse linear regression problem, we call <b style="font-size:16px;color:#777777">NL0R</b> to solve the problem as follows.
 </div>
