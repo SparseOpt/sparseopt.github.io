@@ -74,22 +74,22 @@ Below is a demonstration of how <b style="font-size:16px;color:#777777">OBCSpack
 ```ruby
 clc; close all; clear; addpath(genpath(pwd));
 
-n     = 2000;          % Signal dimension 
-m     = ceil(0.5*n);   % Number of measurements
-s     = ceil(0.01*n);  % Sparsity level
-nf    = 0.05;          % Noisy ratio
-r     = 0.02;          % Flipping ratio
-k     = ceil(r*m);
+n      = 2000;                             % Signal dimension 
+m      = ceil(0.5*n);                      % Number of measurements
+s      = ceil(0.01*n);                     % Sparsity level
+nf     = 0.05;                             % Noisy ratio
+r      = 0.02;                             % Flipping ratio
+k      = ceil(r*m);
 
-A     = randn(m,n);
-T     = randperm(n,s);
-xo    = zeros(n,1);                      
-xo(T) = (1+rand(s,1)).*sign(randn(s,1));  
-xo(T) = xo(T)/norm(xo(T));                 % True sparse solution
-h     = ones(m,1);                         % Flipping vector
-T     = randperm(m,k); 
-h(T)  = -h(T);
-b     = h.*sign(A(:,T)*xo(T)+nf*randn(m,1));; 
+A      = randn(m,n);
+T      = randperm(n,s);
+xo     = zeros(n,1);                      
+xo(T)  = (1+rand(s,1)).*sign(randn(s,1));  
+xo(T)  = xo(T)/norm(xo(T));                % True sparse solution
+h      = ones(m,1);                        % Flipping vector
+T      = randperm(m,k); 
+h(T)   = -h(T);
+b      = h.*sign(A(:,T)*xo(T)+nf*randn(m,1));; 
 
 solver = {'GPSP','NM01'};
 out    = OBCSpack(A,b,s,k,solver{1});  
