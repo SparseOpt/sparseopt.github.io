@@ -139,11 +139,11 @@ function out = SSVMpack(A,y,solver,pars)
 %           -------------  For NSSVM --------------------------------------
 %           pars.alpha --  Starting point in \R^m       (default zeros(m,1))
 %           pars.s0    --  The initial sparsity    (default n(log(m/n))^2))
-%           pars.C     --  A positive scalar in (0,1]         (default 1/4)  
-%           pars.c     --  A positive scalar in (0,1]         (default 1/8)  
+%           pars.C     --  A positive scalar in (0,1]        (default  1/4)  
+%           pars.c     --  A positive scalar in (0,1]        (default 1/40)  
 %           pars.tune  --  Tune the sparsity level              
 %                          Do not tune the sparsity level       (default 0)
-%           pars.maxit --  Maximum number of iterations      (default e000) 
+%           pars.maxit --  Maximum number of iterations      (default 1000) 
 %           pars.tol   --  Tolerance of the halting criteria (default 1e-4) 
 %           pars.disp  --  Display results for each step        (default 1)  
 %                          Do not display results for each step 
