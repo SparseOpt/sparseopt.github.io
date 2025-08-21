@@ -94,11 +94,13 @@ Below is a demonstration of how <b style="font-size:16px;color:#777777">SSVMpack
 ```ruby
 clc; close all; clear all; addpath(genpath(pwd));
   
-load dhrb.mat;  load dhrbclass.mat;  
+load dhrb.mat;  
+load dhrbclass.mat;  
+
 [m0,n]    = size(A);         
-A         = normalization(A,2*(max(A(:))>1)); % data normalization 
-m         = ceil(0.9*m0);        
-Train     = randperm(m0,m);                   % data splition
+A         = normalization(A,2); % data normalization 
+m         = ceil(0.9*m0);       % data splition 
+Train     = randperm(m0,m); 
 Ttest     = setdiff(1:m0,Train); 
 Atrain    = A(Train,:);     
 Atest     = A(Ttest,:);
