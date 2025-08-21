@@ -112,7 +112,6 @@ function Out = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars)
 %       ineqA \in R^{m1-by-n},  ineqb \in R^{m1} 
 %       eqA   \in R^{m2-by-n},  eqb   \in R^{m2}
 %       s << n
-
 % --------------------------------------------------------------------------------------------------           
 % Inputs:
 %     n:      Dimension of the solution x                                                 (REQUIRED)
