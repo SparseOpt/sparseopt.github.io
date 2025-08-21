@@ -94,24 +94,23 @@ Below is a demonstration of how <b style="font-size:16px;color:#777777">SSVMpack
 ```ruby
 clc; close all; clear all; addpath(genpath(pwd));
   
-load dhrb.mat; 
-load dhrbclass.mat;  
-[m0,n]  = size(A);         
-A       = normalization(A,2*(max(A(:))>1)); % normalize the data
-% Split the data into training and testing sets
-m       = ceil(0.9*m0);         
-Train   = randperm(m0,m);  
-Ttest   = setdiff(1:m0,Train);  
-Atrain  = A(Train,:);  
-ytrain  = y(Train,:); 
-Atest   = A(Ttest,:);  
-ytest   = y(Ttest);    
+load dhrb.mat;  load dhrbclass.mat;  
+[m0,n]    = size(A);         
+A         = normalization(A,2*(max(A(:))>1)); % data normalization 
+m         = ceil(0.9*m0);        
+Train     = randperm(m0,m);                   % data splition
+Ttest     = setdiff(1:m0,Train); 
+Atrain    = A(Train,:);     
+Atest     = A(Ttest,:);
+ytrain    = y(Train,:);     
+ytest     = y(Ttest);    
 
-pars.C  = 0.25;
-solver  = {'NM01','NSSVM'};
-out     = SSVMpack(Atrain,ytrain,solver{1},pars);
-acc     = accuracy(Atrain,out.w,ytrain);
-tacc    = accuracy(Atest,out.w,ytest);
+t         = 1;
+pars.C    = 0.25;
+solver    = {'NM01','NSSVM'};
+out       = SSVMpack(Atrain,ytrain,solver{t},pars);
+acc       = accuracy(Atrain,out.w,ytrain);
+tacc      = accuracy(Atest,out.w,ytest);
 
 fprintf(' Training  Time:             %5.3fsec\n',out.time);
 fprintf(' Training  Size:             %dx%d\n',size(Atrain,1),size(Atrain,2));
