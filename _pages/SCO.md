@@ -136,7 +136,7 @@ After defining the functions of the sparse linear regression problem, we call <b
 % demon sparse linear regression problems 
 clc; close all; clear all; addpath(genpath(pwd));
 
-n        = 10000;  
+n        = 20000;  
 m        = ceil(0.25*n); 
 s        = ceil(0.025*n);
 
@@ -149,9 +149,9 @@ b        = A*xopt;
 func     = @(x,key,T1,T2)funcLinReg(x,key,T1,T2,A,b);
 pars.tol = 1e-6;
 solver   = {'NHTP','GPNP','IIHT'};
-out      = SCOpack(func,n,s,solver{2},pars); 
+out      = SCOpack(func,n,s,solver{2},pars);
+PlotRecovery(xopt,out.sol,[900,500,500,250],1)
 ```
-
 
 <div style="text-align:justify;">
 The inputs and outputs of <b style="font-size:16px;color:#777777">SCOpack</b> are detailed below, where inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$, $\texttt{solvername}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the solution quality. For example, if solver $\texttt{NHTP}$ is chosen, then tuning a proper $\texttt{pars.eta}$ may significantly improve the solver performance in terms of convergence speed and accuracy. Moreover, solver $\texttt{IIHT}$ enables addressing the SCO problems with non-negative constraints. To do so, just set $\texttt{pars.neg}$=1. 
