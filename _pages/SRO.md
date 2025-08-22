@@ -190,5 +190,3 @@ function out = NL0R(func,n,lambda,pars)
 % WARNING: Accuracy may not be guaranteed!!!!!  
 % -------------------------------------------------------------------------
 ```
-<p style="line-height: 4;"></p>
-<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=006db0&w=200&t=tt&d=Ee0PzO2KMZPil7SqQKnP0vxXONSVC_FtIuwrk8EMrE4&co=ffffff&ct=006db0&cmo=3acc3a&cmn=ff5353'></script>
