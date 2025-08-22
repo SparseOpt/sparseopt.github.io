@@ -333,3 +333,11 @@
     bottom: -5em;
     right: -0.5em;
 }
+.top-right-container {
+    position: relative; /* Or a parent element needs this */
+}
+.top-right-content {
+    position: absolute;
+    top: 0em;
+    right: -0.5em;
+}
