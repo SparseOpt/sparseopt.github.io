@@ -30,7 +30,7 @@ a:active {
 <div class="top-right-container">
     <!-- Your Markdown content here -->
     <div class="top-right-content">
-        <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=777777&w=150&t=tt&d=HPcu2PQQVqpyclUxmAqbL9iwvLM8SXHaoaSE5UQQZL4&co=ffffff&ct=777777'></script>
+        <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=150&t=tt&d=HPcu2PQQVqpyclUxmAqbL9iwvLM8SXHaoaSE5UQQZL4&co=ffffff&ct=2d78ad&cmo=ffffff&cmn=ffffff'></script>
     </div>
 </div>
 
