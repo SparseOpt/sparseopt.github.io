@@ -49,6 +49,6 @@ The current release of the toolbox encompasses the following solvers:
 <div class="bottom-right-container">
     <!-- Your Markdown content here -->
     <div class="bottom-right-content">
-        <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=777777&w=200&t=tt&d=HPcu2PQQVqpyclUxmAqbL9iwvLM8SXHaoaSE5UQQZL4&co=ffffff&ct=006db0'></script>
+        <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=777777&w=200&t=tt&d=HPcu2PQQVqpyclUxmAqbL9iwvLM8SXHaoaSE5UQQZL4&co=ffffff&ct=777777'></script>
     </div>
 </div>
