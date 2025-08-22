@@ -46,8 +46,9 @@ The current release of the toolbox encompasses the following solvers:
 <div style="text-align:justify"> ✅ <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io/SSVM/" target="_blank">SSVM</a> - Sparse support vector machine solvers</div>
 
 <p style="line-height: 4;"></p>
-
+<div style="text-align: right">
 <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=006db0&w=250&t=tt&d=HPcu2PQQVqpyclUxmAqbL9iwvLM8SXHaoaSE5UQQZL4&co=ffffff&ct=006db0'></script>
+</div>
 
 <!--
 |<span style="color:#ffffff"> Package </span>|<span style="color:#ffffff"> Description </span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
