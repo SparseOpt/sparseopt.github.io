@@ -330,7 +330,7 @@
 }
 .bottom-right-content {
     position: absolute;
-    bottom: -5em;
+    bottom: -7em;
     right: -0.5em;
 }
 .top-right-container {
@@ -338,6 +338,6 @@
 }
 .top-right-content {
     position: absolute;
-    top: 0em;
-    right: -0.5em;
+    top: -4em;
+    right: -1em;
 }
