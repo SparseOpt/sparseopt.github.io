@@ -23,9 +23,8 @@ a:active {
 }
 </style>
 
-<div class="bottom-right-container">
-    <!-- Your Markdown content here -->
-    <div class="bottom-right-content">
+<div class="top-right-container">
+    <div class="top-right-content">
         <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=150&t=tt&d=wg6tBv3ueLL_u1uLQ7aaJA-zSwZokNFJcr7dF0yFPBo&ct=777777&co=ffffff&cmo=ffffff&cmn=ffffff'></script>
     </div>
 </div>
