@@ -44,7 +44,6 @@ You are welcome to send your comments and suggestions to one of our members:
 |👨 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://faculty.bjtu.edu.cn/8316/" target="_blank"> Lingchen Kong</a> | 🏫 Beijing Jiaotong University | 📧 lchkong@bjtu.edu.cn |
 |👨<a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://profiles.imperial.ac.uk/geoffrey.li/" target="_blank"> Geoffrey Ye Li</a> | 🏫 Imperial College London | 📧 geoffrey.li@imperial.ac.uk |
 
-
 <!--
 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://shenglongzhou.github.io/" target="_blank">Shenglong Zhou</a> - Beijing Jiaotong University, slzhou2021@163.com.
 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://faculty.bjtu.edu.cn/6336/" target="_blank">Naihua Xiu</a> -  Beijing Jiaotong University, nhxiu@bjtu.edu.cn.
