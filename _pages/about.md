@@ -26,6 +26,14 @@ a:active {
 }
 </style>
 
+ 
+<div class="top-right-container">
+    <!-- Your Markdown content here -->
+    <div class="top-right-content">
+        <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=777777&w=150&t=tt&d=HPcu2PQQVqpyclUxmAqbL9iwvLM8SXHaoaSE5UQQZL4&co=ffffff&ct=777777'></script>
+    </div>
+</div>
+
 ##  <span style="color:#777777"> Welcome to SparseOpt Toolbox </span> 
 
 <div style="text-align:justify">  
@@ -44,11 +52,3 @@ The current release of the toolbox encompasses the following solvers:
 <div style="text-align:justify"> ✅ <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io/CS/" target="_blank">CS</a> - Compressive sensing solvers</div>
 <div style="text-align:justify"> ✅ <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">1BCS</a> - One-bit compressive sensing solvers</div>
 <div style="text-align:justify"> ✅ <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io/SSVM/" target="_blank">SSVM</a> - Sparse support vector machine solvers</div>
-
-<p style="line-height: 4;"></p>
-<div class="bottom-right-container">
-    <!-- Your Markdown content here -->
-    <div class="bottom-right-content">
-        <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=777777&w=200&t=tt&d=HPcu2PQQVqpyclUxmAqbL9iwvLM8SXHaoaSE5UQQZL4&co=ffffff&ct=777777'></script>
-    </div>
-</div>
