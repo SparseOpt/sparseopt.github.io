@@ -26,16 +26,6 @@ a:active {
 }
 </style>
 
-.bottom-right-container {
-    position: relative; /* Or a parent element needs this */
-}
-
-.bottom-right-content {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
 ##  <span style="color:#777777"> Welcome to SparseOpt Toolbox </span> 
 
 <div style="text-align:justify">  
