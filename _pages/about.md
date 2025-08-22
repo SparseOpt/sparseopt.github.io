@@ -29,7 +29,7 @@ a:active {
 ##  <span style="color:#777777"> Welcome to SparseOpt Toolbox </span> 
 
 <div style="text-align:justify">  
-<b style="font-size:16px;color:#999999">SparseOpt</b> is designed to accelerate the development of numerical toolboxes for sparse optimization and to provide a flexible platform for testing a wide range of sparse optimization applications. 
+<b style="font-size:16px;color:#111111">SparseOpt</b> is designed to accelerate the development of numerical toolboxes for sparse optimization and to provide a flexible platform for testing a wide range of sparse optimization applications. 
 <!--For more information, please refer to <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="" target="_blank">menu-of-SparseOpt</a>. -->
 The current release of the toolbox encompasses the following solvers:
 </div>
