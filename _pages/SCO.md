@@ -26,7 +26,7 @@ a:active {
 
 <div class="top-right-container"> 
     <div class="top-right-content">
-        <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=777777&w=200&t=tt&d=uncdxLulnvUVtbpOt7VS9cZjz3se665ZjfWyA-3MGUk&co=ffffff&ct=777777'></script>
+        <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=777777&w=150&t=tt&d=uncdxLulnvUVtbpOt7VS9cZjz3se665ZjfWyA-3MGUk&co=ffffff&ct=777777'></script>
     </div>
 </div>
  
