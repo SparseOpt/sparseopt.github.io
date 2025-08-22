@@ -23,8 +23,13 @@ a:active {
 }
 </style>
 
- 
 
+<div class="top-right-container"> 
+    <div class="top-right-content">
+        <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=777777&w=200&t=tt&d=uncdxLulnvUVtbpOt7VS9cZjz3se665ZjfWyA-3MGUk&co=ffffff&ct=777777'></script>
+    </div>
+</div>
+ 
 ##  <span style="color:#8C8C8C"> Sparsity-constrained optimization</span> 
 ---
 
@@ -203,6 +208,3 @@ function out = SCOpack(func,n,s,solvername,pars)
 % WARNING: Accuracy may not be guaranteed!!!!!  
 % -------------------------------------------------------------------------
 ```
-
-<p style="line-height: 5;"></p>
-<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=777777&w=200&t=tt&d=uncdxLulnvUVtbpOt7VS9cZjz3se665ZjfWyA-3MGUk&co=ffffff&ct=777777'></script>
