@@ -46,7 +46,7 @@ a:active {
 \end{equation}
 </div> 
 <div style="text-align:justify;">
-◻️ L0 和 Lq $(0<q<1)$ 范数正则 CS 模型
+◻️ L0 和 Lq 范数正则 CS 模型
 \begin{equation}
 \min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2+\lambda \parallel\mathbf{x} \parallel_q^q \tag{Lq-RCS}
 \end{equation}
