@@ -42,8 +42,7 @@ a:active {
 
 ---
 <div style="text-align:justify;"> 
-The solver can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href=" " target="_blank">SNSCO</a>,
-which was developed from the following paper:
+程序包 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href=" " target="_blank">SNSCO</a>（点击可直接下载）提供了 1 个求解器，其核心算法来自以下文章：
 </div>
 
 > <span style="font-size: 14px"> S Zhou, L Pan, N Xiu,  and G  Li, A 0/1 constrained optimization solving sample average approximation for chance constrained programming, MOR, 2024. </span>
