@@ -24,7 +24,7 @@ a:active {
 </style>
 
 
-##  <span style="color:#8C8C8C"> Step function-regularized optimization</span> 
+##  阶梯函数正则优化
 ---
 
 <p style="line-height: 1;"></p>
