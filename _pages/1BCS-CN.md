@@ -35,25 +35,25 @@ a:active {
 \end{equation} 
 
 <div style="text-align:justify;">
-其中，采样矩阵 $\mathbf{A}\in\mathbb{R}^{m\times n}$，观测向量 $\mathbf{b}$ 和符号翻转向量 $\mathbf{h}\in{-1,1}^{m}$，噪声 $\boldsymbol{\varepsilon}\in\mathbb{R}^{n}$，对角矩阵 $\mathrm{Diag}(\mathbf{h})$ 的对角元由  $\mathbf{h}$ 组成，符号函数 $\mathrm{sign}$ 定义为 $\mathrm{sign}(t)=1$ 当 $t>0$，否则 $\mathrm{sign}(t)=-1$。向量情形下，$\mathrm{sign}(\mathbf{x})=(\mathrm{sign}(x_1),\cdots,\mathrm{sign}(x_n))^\top$。值得一提的是，观测 $\mathbf{b}$ 是符号翻转后得到的，因而，问题更具挑战性。在该模型中，假设最多有 $k$ 个符号被翻转，即 $\mathbf{h}$ 满足 $\parallel\mathbf{h}-1\parallel_0\leq k$，其中 $k$ 为给定整数，零范数 $\parallel\mathbf{x}\parallel_0$ 表示 $\mathbf{x}$ 中非零元个数。为恢复信号，可求解以下优化模型。
+其中，采样矩阵 $\mathbf{A}\in\mathbb{R}^{m\times n}$，观测向量 $\mathbf{b}$ 和符号翻转向量 $\mathbf{h}\in\{-1,1\}^{m}$，噪声 $\boldsymbol{\varepsilon}\in\mathbb{R}^{n}$，对角矩阵 $\mathrm{Diag}(\mathbf{h})$ 的对角元由  $\mathbf{h}$ 组成，符号函数 $\mathrm{sign}$ 定义为 $\mathrm{sign}(t)=1$ 当 $t>0$，否则 $\mathrm{sign}(t)=-1$。向量情形下，$\mathrm{sign}(\mathbf{x})=(\mathrm{sign}(x_1),\cdots,\mathrm{sign}(x_n))^\top$。值得一提的是，观测 $\mathbf{b}$ 是符号翻转后得到的，因而，问题更具挑战性。在该模型中，假设最多有 $k$ 个符号被翻转，即 $\mathbf{h}$ 满足 $\parallel\mathbf{h}-1\parallel_0\leq k$，其中 $k$ 为给定整数，零范数 $\parallel\mathbf{x}\parallel_0$ 表示 $\mathbf{x}$ 中非零元个数。为恢复信号，可求解以下优化模型。
 </div> 
  <p style="line-height: 2;"></p>
  <div style="text-align:justify;"> 
-◻️ Double-sparsity constrained optimization (DSCO)     
+◻️ 双稀疏约束优化模型     
 \begin{equation}
 \min_{\mathbf{x}\in\mathbb{R}^{n},\mathbf{z}\in\mathbb{R}^{m}}~  \parallel  \mathrm{Diag}(\mathbf{b}) \mathbf{A} \mathbf{x}+\mathbf{z} -\epsilon \parallel^2 + \eta \parallel \mathbf{x} \parallel^2,~~~\textrm{s.t.}~ \parallel\mathbf{x} \parallel_0\leq s,~ \parallel \mathbf{z}_+\parallel_0\leq k \tag{DSCO}
 \end{equation}
 <div style="text-align:justify;"> 
 </div> 
-◻️ Step function-regularized optimization (SFRO)  
+◻️ 阶梯函数正则优化模型
 \begin{equation}
 \min_{\mathbf{x}\in\mathbb{R}^{n}}~  \sum_{i=1}^n (x_i^2+\varepsilon)^{q/2}+\lambda \parallel (\epsilon- \mathrm{Diag}(\mathbf{b}) \mathbf{A} \mathbf{x})_+ \parallel_0 \tag{SFRO}
 \end{equation}
 </div> 
 <div style="text-align:justify;">
-where $s\ll n$, $k\ll m$, $(\epsilon, \eta, \varepsilon, \lambda)>0$, and $\mathbf{z}_+=(\max\{0,z_1\},\cdots,\max\{0,z_m\})^\top$. Model (SFRO) is a penalty version of model (DSCO), and term $\parallel \mathbf{z}_+\parallel_0$ is related to the step (or 0/1 loss) function defined by $\mathrm{step}(t)=1$ if $t>0$ and $\mathrm{step}(t)=0$ otherwise. Therefore, $\|\mathbf{z}_+\|_0=\mathrm{step}(z_1)+\cdots+\mathrm{step}(z_m)$, which counts the number of positve entries in $\mathbf{z}$.
+其中， $s\ll n$，$k\ll m$，$(\epsilon，\eta，\varepsilon，\lambda)>0$ 且 $\mathbf{z}+=(\max\{0,z_1\},\cdots,\max\{0,z_m\})^\top$。函数 $\parallel \mathbf{z}+\parallel_0$ 与阶跃函数（又称 0/1 损失函数）相关，该函数定义为 $\mathrm{step}(t)=1$ 当 $t>0$，否则 $\mathrm{step}(t)=0$。因此，$\|\mathbf{z}_+\|_0=\mathrm{step}(z_1)+\cdots+\mathrm{step}(z_m)$ 表示 $\mathbf{z}$ 中正元素的个数。
 </div> 
-  
+
 ---
 
 <div style="text-align:justify;">
