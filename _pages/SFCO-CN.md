@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""   
-permalink: /SFCO/
+permalink: /SFCO-CN/
 author_profile: true
 ---
 
