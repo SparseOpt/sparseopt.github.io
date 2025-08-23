@@ -45,7 +45,7 @@ a:active {
 
 ---
 <div style="text-align:justify;">  
-求解器 $\texttt{NL0R}$ 是二阶算法, 所以需要目标函数、梯度以及海瑟矩阵子块。下面给出一个示例，展示如何定义函数来解决一个简单的稀疏约束优化（SCO）问题。其中，句柄函数 $\texttt{funcSimpleEx}$ 的输入中，$\texttt{x}$ 是自变量，$\texttt{key}$ 是字符串变量， $\texttt{T1}$ 和 $\texttt{T2}$ 为两个索引指标集。这里，$\texttt{key}$ 用于指定计算内容：当 $\texttt{key}$='$\texttt{fg}$' 时表示计算目标函数值和梯度，此时，如果只有一个输出，则输出目标函数值，如果有两个输出，则第一个输出为目标函数值，第二个输出为梯度；当 $\texttt{key}$='$\texttt{h}$' 时表示计算海瑟矩阵子块，此时，海瑟矩阵子块由两个索引指标集 $\texttt{T1}$ 和 $\texttt{T2}$ 定义，如果只有一个输出，则输出的子块包含海瑟矩阵的 $\texttt{T1}$ 行和 $\texttt{T1}$ 列，如果有两个输出，那么第一个输出子块包含海瑟矩阵的 $\texttt{T1}$ 行和 $\texttt{T1}$ 列，第二个输出子块包含海瑟矩阵的 $\texttt{T1}$ 行和 $\texttt{T2}$ 列。
+求解器 $\texttt{NL0R}$ 是二阶算法, 所以需要目标函数、梯度以及海瑟矩阵子块。下面给出一个示例，展示如何定义函数来解决一个简单的稀疏约束优化（SCO）问题。其中，句柄函数 $\texttt{funcSimpleEx}$ 的输入中，$\texttt{x}$ 是自变量，$\texttt{key}$ 是字符串变量，$\texttt{T1}$ 和 $\texttt{T2}$ 为两个索引指标集。这里，$\texttt{key}$ 用于指定计算内容：当 $\texttt{key}$='$\texttt{fg}$' 时表示计算目标函数值和梯度，此时，若只有一个输出，则输出目标函数值，若有两个输出，则第一个输出为目标函数值，第二个输出为梯度；当 $\texttt{key}$='$\texttt{h}$' 时表示计算海瑟矩阵子块，此时，海瑟矩阵子块由两个索引指标集 $\texttt{T1}$ 和 $\texttt{T2}$ 定义，若只有一个输出，则输出的子块包含海瑟矩阵的 $\texttt{T1}$ 行和 $\texttt{T1}$ 列，若有两个输出，则第一个输出子块包含海瑟矩阵的 $\texttt{T1}$ 行和 $\texttt{T1}$ 列，第二个输出子块包含海瑟矩阵的 $\texttt{T1}$ 行和 $\texttt{T2}$ 列。
 </div>
 <p style="line-height: 1;"></p>
 
