@@ -65,7 +65,7 @@ end
 ```
 
 <div style="text-align:justify;">  
-如果不需要额外的函数，用户只需定义目标函数值、梯度和海瑟矩阵，然后省略情况 $\texttt{key}$='$\texttt{a}$'，如下所示。注意，当情况 $\texttt{key}$='$\texttt{a}$' 被省略时，用户必须保留 $\texttt{otherwise; out = [];}$。
+如果不需要额外的函数，用户只需定义目标函数值、梯度和海瑟矩阵，然后省略情况 $\texttt{key}$='$\texttt{a}$'，如下所示。注意，当情况 $\texttt{key}$='$\texttt{a}$' 被省略时，用户必须保留情况 $\texttt{otherwise; out = [];}$。
 </div>
 <p style="line-height: 1;"></p>
 
@@ -81,7 +81,7 @@ end
 ```
 
 <div style="text-align:justify;">
-下面给出一个示例，展示如何使用 $\texttt{NM01}$ 利用模型（<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>）求解 1BCS 问题。用户只需指定 ($\texttt{func}$, $\texttt{B}$, $\texttt{b}$, $\texttt{lam}$, $\texttt{pars}$)，然后运行求解器即可。
+下面给出一个示例，展示如何使用 $\texttt{NM01}$ 求解 1BCS 模型（<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>）。用户只需指定 ($\texttt{func}$, $\texttt{B}$, $\texttt{b}$, $\texttt{lam}$, $\texttt{pars}$)，然后运行求解器即可。
 </div>
 
 <p style="line-height: 1;"></p>
