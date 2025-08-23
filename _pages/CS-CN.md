@@ -24,10 +24,10 @@ a:active {
 </style>
 
 
-##  <span style="color:#8C8C8C"> Compressive sensing</span> 
+## 压缩感知
 ---
 <div style="text-align:justify;">
-Compressive sensing (CS) problems aim to recover a sparse signal $\mathbf{x}^*\in\mathbb{R}^{n}$ from the following linear system,
+压缩感知（Compressive sensing，CS）问题旨在从如下线性系统中恢复出稀疏信号 $\mathbf{x}^*\in\mathbb{R}^{n}$，
 </div>
 
 \begin{equation}
@@ -35,32 +35,32 @@ Compressive sensing (CS) problems aim to recover a sparse signal $\mathbf{x}^*\i
 \end{equation} 
 
 <div style="text-align:justify;">
-where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, $\mathbf{b}\in\mathbb{R}^{m}$ is the observation, and $\boldsymbol{\varepsilon}\in\mathbb{R}^{n}$ is the noise. To recover the signal, the following optimization models are frequently explored:
+其中，采样矩阵 $\mathbf{A}\in\mathbb{R}^{m\times n}$，观测向量 $\mathbf{b}\in\mathbb{R}^{m}$， 噪音 $\boldsymbol{\varepsilon}\in\mathbb{R}^{n}$。 为了恢复信号，常用的优化模型包括：
 </div>   
 
 <p style="line-height: 2;"></p>
 <div style="text-align:justify;">
-◻️ Sparsity constrained CS
+◻️ 稀疏约束 CS 模型
 \begin{equation}
 \min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2,~~~\textrm{s.t.}~ \parallel\mathbf{x} \parallel_0\leq s \tag{SCCS}
 \end{equation}
 </div> 
 <div style="text-align:justify;">
-◻️ L0 and Lq (0<q<1) norm regularized CS
+◻️ L0 和 Lq (0<q<1) 范数正则 CS 模型
 \begin{equation}
 \min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2+\lambda \parallel\mathbf{x} \parallel_q^q \tag{Lq-RCS}
 \end{equation}
 </div>   
 <div style="text-align:justify;">
-◻️ Reweighted L1 norm regularized CS
+◻️ 加权 L1 范数正则 CS 模型
 \begin{equation}
 \min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2+\lambda \parallel \mathbf{W} \mathbf{x} \parallel_1 \tag{RL1CS}
 \end{equation} 
-where $\parallel\mathbf{x}\parallel_q^q=|x_1|^q+\cdots+|x_n|^q$ denotes the Lq norm with 0≤q≤1, in particular, $\parallel\mathbf{x}\parallel_0:=\parallel\mathbf{x}\parallel_0^0$ denotes the L0 norm, which counts the number of nonzero entries in $\mathbf{x}$,  $\lambda>0$ is the penalty parameter, and $\mathbf{W}$ is a diagonal matrix with positive diagonal entrices.
+其中，$\parallel\mathbf{x}\parallel_q^q=|x_1|^q+\cdots+|x_n|^q$ 表示 $L_q$ 范数， $0 \leq q \leq 1$，特别地，$\parallel\mathbf{x}\parallel_0:=\parallel\mathbf{x}\parallel_0^0$ 表示零范数，即计算 $\mathbf{x}$ 中非零元素的个数，罚参数 $\lambda>0$，对角矩阵 $\mathbf{W}$ 的对角元都为正数。
 </div> 
 ---
 <div style="text-align:justify;">
-The package can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\CSpack.zip" target="_blank">CSpack</a>, which provides 6 solvers from the following papers, where <b style="font-size:16px;color:#777777">NHTP</b>, <b style="font-size:16px;color:#777777">GPSP</b>, and <b style="font-size:16px;color:#777777">IIHT</b> are designed to solve (SCCS), <b style="font-size:16px;color:#777777">PSNP</b> is designed to solve (L0-RCS) and  (Lq-RCS) with 0<q<1,  <b style="font-size:16px;color:#777777">NL0R</b> is designed to solve (L0-RCS), and <b style="font-size:16px;color:#777777">MIRL1</b> is designed to solve (RL1CS).
+程序包 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\CSpack.zip" target="_blank">CSpack</a>（点击可直接下载）提供了 6 个求解器。其核心算法分别来自以下 6 篇文章，其中，求解器 $\texttt{NHTP}$、  $\texttt{GPSP}$ 和 $\texttt{IIHT}$ 用来求解模型 (SCCS)，求解器 $\texttt{PSNP}$ 用来求解模型 (L0-RCS) 和 (Lq-RCS) (0<q<1)，求解器  $\texttt{NL0R}$ 用来求解模型 (L0-RCS)，求解器  $\texttt{MIRL1}$ 用来求解模型 (RL1CS).
 </div>  
 > <b style="font-size:14px;color:#777777">NHTP</b> - <span style="font-size: 14px"> S Zhou, N Xiu, and H Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, JMLR, 22:1-45, 2021. </span>
 <br><b style="font-size:14px;color:#777777">GPSP</b> - <span style="font-size: 14px"> S Zhou, Gradient projection Newton pursuit for sparsity constrained optimization, ACHA, 61:75-100, 2022. </span>
@@ -71,7 +71,7 @@ The package can be downloaded here - <a style="font-size: 16px; font-weight: bol
 
 ---
 <div style="text-align:justify;">
-Below is a demonstration of how <b style="font-size:16px;color:#777777">CSpack</b> can be used to solve the problem. You need to input data ($\texttt{A}$, $\texttt{At}$, $\texttt{b}$, $\texttt{n}$, $\texttt{s}$)  and select $\texttt{solver}$ from {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$', '$\texttt{PSNP}$', '$\texttt{NL0R}$', '$\texttt{MILR1}$'}. 
+以下代码展示了如何使用 $\texttt{CSpack}$ 来求解 CS 问题。用户需要输入数据 ($\texttt{A}$, $\texttt{At}$, $\texttt{b}$, $\texttt{n}$, $\texttt{s}$) 并从 {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$', '$\texttt{PSNP}$', '$\texttt{NL0R}$', '$\texttt{MILR1}$'} 中选择一个作为求解器，然后运行求解。 
 </div>
 
 <p style="line-height: 1;"></p>
@@ -99,7 +99,7 @@ fprintf(' Computational time:      %.3fsec\n',out.time);
 ```
 
 <div style="text-align:justify;">
-The inputs and outputs of <b style="font-size:16px;color:#777777">CSpack</b> are detailed below, where inputs ($\texttt{A}$, $\texttt{At}$, $\texttt{b}$, $\texttt{n}$, $\texttt{s}$, $\texttt{solver}$) are required. If $\texttt{A}$ is a matrix,  $\texttt{At}$ can be $\texttt{A}$' or $\texttt{[]}$. If $\texttt{A}$ is a function handle, then $\texttt{At}$ must be provided. If $\texttt{solver}$ is one of {'$\texttt{PSNP}$', '$\texttt{NL0R}$', '$\texttt{MILR1}$'}, then $\texttt{s}$ can be $\texttt{[]}$.  If $\texttt{solver}$ is one of {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, then $\texttt{s}$ must be provided. The parameters in $\texttt{pars}$ are optional, but setting certain ones can improve the solver's performance and the quality of the solution.
+程序包 $\texttt{CSpack}$ 的输入和输出如下所示，其中输入 ($\texttt{A}$，$\texttt{At}$，$\texttt{b}$，$\texttt{n}$，$\texttt{s}$，$\texttt{solver}$) 为必需项。如果 $\texttt{A}$ 是一个矩阵，则 $\texttt{At}$ 可以为其转置 $\texttt{A}'$ 也可以为空 $\texttt{[]}$。 如果 $\texttt{A}$ 是函数句柄，则必须提供 $\texttt{At}$。如果 $\texttt{solver}$ 为 {'$\texttt{PSNP}$'，'$\texttt{NL0R}$'，'$\texttt{MILR1}$'} 之一，则 $\texttt{s}$ 可设置为 $\texttt{[]}$。 如果 $\texttt{solver}$ 为 {'$\texttt{NHTP}$'，'$\texttt{GPNP}$'，'$\texttt{IIHT}$'} 之一，则必须提供 $\texttt{s}$。参数 $\texttt{pars}$ 是可选的，但设置其中的一些参数可以提升求解器的性能和解的质量。
 </div>
 
 <p style="line-height: 1;"></p>
