@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""   
-permalink: /SRO/
+permalink: /SRO-CN/
 author_profile: true
 ---
 
@@ -24,7 +24,7 @@ a:active {
 </style>
 
 
-## 稀疏正则优化</span> 
+## 稀疏正则优化
 ---
 <p style="line-height: 2;"></p>
 
@@ -45,8 +45,6 @@ a:active {
 
 ---
 <div style="text-align:justify;">  
-Note that <b style="font-size:16px;color:#777777">NL0R</b> is a second-order method, requiring the objective, gradient, and sub-Hessian of $f$. Below is an example of how to define functions for the solver to solve a simple SRO problem, where input $\texttt{x}$ is the variable, string variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{fg}$' for the objective value and the gradient, and $\texttt{key}$='$\texttt{h}$' for the Hessian, and $\texttt{T1}$ and $\texttt{T2}$ are two indices and only valid when $\texttt{key}$='$\texttt{h}$'. 
-
 求解器 <b>NL0R</b> 是二阶算法, 所以需要目标函数、梯度以及二阶海瑟矩阵子块。下面给出一个示例，展示如何定义函数来解决一个简单的稀疏约束优化（SCO）问题。其中，输入 $\texttt{x}$ 是变量，字符串变量 $\texttt{key}$ 用于指定计算内容：当 $\texttt{key}$='$\texttt{fg}$' 时表示计算目标函数值和梯度；当 $\texttt{key}$='$\texttt{h}$' 时表示计算海瑟矩阵子块，此时，海瑟矩阵子块由两个索引指标集 $\texttt{T1}$ 和 $\texttt{T2}$ 定义；如果只有一个输出，那么输出的子块包含了海瑟矩阵的 $\texttt{T1}$ 行和 $\texttt{T1}$ 列； 如果有两个输出，那么第一个输出子块包含了海瑟矩阵的 $\texttt{T1}$ 行和 $\texttt{T1}$ 列，第二个输出子块包含了海瑟矩阵的 $\texttt{T1}$ 行和 $\texttt{T2}$ 列。
 </div>
 <p style="line-height: 1;"></p>
