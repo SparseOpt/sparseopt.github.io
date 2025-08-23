@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""   
-permalink: /SSVM/
+permalink: /SSVM-CN/
 author_profile: true
 ---
 
