@@ -24,7 +24,7 @@ a:active {
 </style>
 
 
-##  <span style="color:#8C8C8C"> Sparse quadratically constrained quadratic programming </span> 
+## Sparse quadratically constrained quadratic programming
 ---
 \begin{equation}
 \begin{array}{rl}
@@ -44,14 +44,12 @@ where parameters are defined as follows
 - $\parallel\mathbf{x}\parallel_0$ denotes the so-called L0 norm, which counts the number of nonzero entries in $\mathbf{x}$
 - $s\ll n$ is a given integer
          
-<!--## <span style="color:#8C8C8C"> The solver and its demonstration </span> -->
 --- 
 <div style="text-align:justify;">
 The solver can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SQCQP.zip" target="_blank">SNSQP</a>, which  
 was developed from the following paper:</div>
 > <b style="font-size:14px;color:#777777">SNSQP</b> - <span style="font-size: 14px"> S Li, S  Zhou, Z  Luo, Sparse quadratically constrained quadratic programming via semismooth Newton method, arXiv:2503.15109, 2025. </span>
 
-<!-- <a style="font-size: 14px;color:#000000" href="https://arxiv.org/abs/2503.15109" target="_blank"> S Li, S  Zhou, Z  Luo, Sparse quadratically constrained quadratic programming via semismooth Newton method, *arXiv:2503.15109*, 2025.</a> -->
 
 ---
 <div style="text-align:justify;">
@@ -91,7 +89,7 @@ Out           = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars);
 ```
 
 <div style="text-align:justify;">
-The inputs and outputs of SNSQP are detailed below. Note that input $\texttt{Qi}$ is a cell that include $Q_i, i=1,2,\ldots,k$ described in (SQCQP). If some constraints are absent, then just put them as an empty set, i.e.,  $\texttt{[ ]}$. The parameters in $\texttt{pars}$ are optional; however, specifying certain ones can enhance the solver's performance and solution quality.
+The inputs and outputs of <b>SNSQP</b> are detailed below. Note that input $\texttt{Qi}$ is a cell that include $Q_i, i=1,2,\ldots,k$ described in (SQCQP). If some constraints are absent, then just put them as an empty set, i.e.,  $\texttt{[ ]}$. The parameters in $\texttt{pars}$ are optional; however, specifying certain ones can enhance the solver's performance and solution quality.
 </div>
 
 <p style="line-height: 1;"></p>
