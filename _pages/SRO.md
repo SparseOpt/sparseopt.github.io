@@ -24,7 +24,7 @@ a:active {
 </style>
 
 
-## <span style="color:#8C8C8C">Sparsity-regularized optimization</span> 
+## Sparsity-regularized optimization
 ---
 <p style="line-height: 2;"></p>
 
@@ -45,7 +45,7 @@ The package can be downloaded here - <a style="font-size: 16px; font-weight: bol
 
 ---
 <div style="text-align:justify;">  
-Note that <b style="font-size:16px;color:#777777">NL0R</b> is a second-order method, requiring the objective, gradient, and sub-Hessian of $f$. Below is an example of how to define functions for the solver to solve a simple SRO problem, where input $\texttt{x}$ is the variable, string variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{fg}$' for the objective value and the gradient, and $\texttt{key}$='$\texttt{h}$' for the Hessian, and $\texttt{T1}$ and $\texttt{T2}$ are two indices and only valid when $\texttt{key}$='$\texttt{h}$'. 
+Note that <b>NL0R</b> is a second-order method, requiring the objective, gradient, and sub-Hessian of $f$. Below is an example of how to define functions for the solver to solve a simple SRO problem, where input $\texttt{x}$ is the variable, string variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{fg}$' for the objective value and the gradient, and $\texttt{key}$='$\texttt{h}$' for the Hessian, and $\texttt{T1}$ and $\texttt{T2}$ are two indices and only valid when $\texttt{key}$='$\texttt{h}$'. 
 </div>
 <p style="line-height: 1;"></p>
 
@@ -71,7 +71,7 @@ end
 ```
 
 <div style="text-align:justify;">
-After defining the functions for the simple SRO problem, one can call <b style="font-size:16px;color:#777777">NL0R</b> to solve it. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{lambda}$), set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following codes demonstrate <b style="font-size:16px;color:#777777">NL0R</b> to solve this simple SRO problem.
+After defining the functions for the simple SRO problem, one can call <b>NL0R</b> to solve it. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{lambda}$), set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following codes demonstrate <b style="font-size:16px;color:#777777">NL0R</b> to solve this simple SRO problem.
 </div>
 <p style="line-height: 1;"></p>
 
@@ -117,7 +117,7 @@ end
 ```
 
 <div style="text-align:justify;">
-After defining the functions of the sparse linear regression problem, we call <b style="font-size:16px;color:#777777">NL0R</b> to solve the problem as follows.
+After defining the functions of the sparse linear regression problem, we call <b>NL0R</b> to solve the problem as follows.
 </div>
 <p style="line-height: 1;"></p>
 
@@ -142,7 +142,7 @@ out      = NL0R(func,n,lambda,pars);
 ```
 
 <div style="text-align:justify;">
-The inputs and outputs of <b style="font-size:16px;color:#777777">NL0R</b> are detailed below, where inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{lambda}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the solution quality. For example, tuning a proper $\texttt{pars.eta}$ may significantly improve the solver performance in terms of convergence speed and accuracy.
+The inputs and outputs of <b>NL0R</b> are detailed below, where inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{lambda}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the solution quality. For example, tuning a proper $\texttt{pars.eta}$ may significantly improve the solver performance in terms of convergence speed and accuracy.
 </div>
 
 <p style="line-height: 1;"></p>
