@@ -26,7 +26,6 @@ a:active {
 }
 </style>
 
-
 ##  欢迎访问 SparseOpt Toolbox 中文版
 
 <div style="text-align:justify">  
