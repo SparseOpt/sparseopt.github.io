@@ -24,7 +24,7 @@ a:active {
 </style>
 
 
-##  <span style="color:#8C8C8C"> One-bit compressive sensing</span> 
+## One-bit compressive sensing 
 ---
 <div style="text-align:justify;">
 One-bit compressive sensing (1BCS) problems aim to recover a sparse signal $\mathbf{x}^*\in\mathbb{R}^{n}$ from the following system,
@@ -57,7 +57,7 @@ where $s\ll n$, $k\ll m$, $(\epsilon, \eta, \varepsilon, \lambda)>0$, and $\math
 ---
 
 <div style="text-align:justify;">
-The package can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\OBCSpack.zip" target="_blank">OBCSpack</a>, which provides 2 solvers from the following papers, where <b style="font-size:16px;color:#777777">GPSP</b> and <b style="font-size:16px;color:#777777">NM01</b> are designed to solve  model (DSCO) and model (SFRO), respectively. 
+The package can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\OBCSpack.zip" target="_blank">OBCSpack</a>, which provides 2 solvers from the following papers, where <b>GPSP</b> and <b>NM01</b> are designed to solve  model (DSCO) and model (SFRO), respectively. 
 </div>  
 
 > <b style="font-size:14px;color:#777777">GPSP</b> -<span style="font-size: 13.5px"> S Zhou, Z Luo, N Xiu, and G Li, Computing one-bit compressive sensing via double-sparsity constrained optimization, IEEE TSP, 70:1593-1608, 2022. </span>
@@ -65,7 +65,7 @@ The package can be downloaded here - <a style="font-size: 16px; font-weight: bol
 
 ---
 <div style="text-align:justify;">
-Below is a demonstration of how <b style="font-size:16px;color:#777777">OBCSpack</b> can be used to solve the problem. You simply need to input the data ($\texttt{A}$, $\texttt{b}$, $\texttt{s}$, $\texttt{k}$) and then choose one solver from {'$\texttt{GPSP}$', '$\texttt{NM01}$'}. 
+Below is a demonstration of how <b>OBCSpack</b> can be used to solve the problem. You simply need to input the data ($\texttt{A}$, $\texttt{b}$, $\texttt{s}$, $\texttt{k}$) and then choose one solver from {'$\texttt{GPSP}$', '$\texttt{NM01}$'}. 
 </div>
 
 <p style="line-height: 1;"></p>
@@ -99,7 +99,7 @@ fprintf(' Hamming distence:      %6.3f\n',nnz(sign(A*out.sol)-b)/m)
 ```
 
 <div style="text-align:justify;">
-The inputs and outputs of <b style="font-size:16px;color:#777777">OBCSpack</b> are detailed below, where inputs ($\texttt{A}$, $\texttt{b}$, $\texttt{s}$, $\texttt{k}$, $\texttt{solver}$) are required. If choose $\texttt{solver}$='$\texttt{NM01}$', then one can set $\texttt{s}$=$\texttt{[]}$ and $\texttt{k}$=$\texttt{[]}$ if they are unknown. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
+The inputs and outputs of <b>OBCSpack</b> are detailed below, where inputs ($\texttt{A}$, $\texttt{b}$, $\texttt{s}$, $\texttt{k}$, $\texttt{solver}$) are required. If choose $\texttt{solver}$='$\texttt{NM01}$', then one can set $\texttt{s}$=$\texttt{[]}$ and $\texttt{k}$=$\texttt{[]}$ if they are unknown. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
 </div>
 
 <p style="line-height: 1;"></p>
