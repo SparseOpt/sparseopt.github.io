@@ -27,7 +27,7 @@ a:active {
 </style>
 
 
-##  <span style="color:#777777"> 欢迎访问 SparseOpt Toolbox </span> 
+##  <span style="color:#777777"> 欢迎访问 SparseOpt Toolbox 中文版</span> 
 
 <div style="text-align:justify">  
 <b style="color:#777777">SparseOpt</b> 旨在促进稀疏优化数值工具的开发与发展，同时提供一个相对灵活的平台，用于测试各类稀疏优化应用。该工具箱当前版本包含以下求解器：
@@ -46,5 +46,5 @@ a:active {
 
 <p style="line-height: 2;"></p>
 <div style="text-align:justify">  
-欢迎访问<a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io" target="_blank">SparseOpt-英文版</a>
+欢迎访问 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io" target="_blank">SparseOpt Toolbox-英文版</a>
 </div>
