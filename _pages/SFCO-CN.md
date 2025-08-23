@@ -23,7 +23,7 @@ a:active {
 }
 </style>
 
-##  <span style="color:#8C8C8C"> Step function-constrained optimization</span> 
+## 阶梯函数约束优化
 ---
 
 <p style="line-height: 1;"></p>
