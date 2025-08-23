@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""   
-permalink: /1BCS/
+permalink: /1BCS-CN/
 author_profile: true
 ---
 
