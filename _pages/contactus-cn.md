@@ -39,7 +39,7 @@ a:active {
 |👩 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sci.sdut.edu.cn/_t832/2018/1129/c5856a253869/page.htm" target="_blank"> 潘丽丽</a> | 🏫 山东理工大学 | 📧 panlili1979@163.com|
 |👨 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://shuaili2025.github.io/" target="_blank"> 李 帅</a> | 🏫 北京交通大学 | 📧  24110488@bjtu.edu.cn |
 |👨 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://faculty.bjtu.edu.cn/8316/" target="_blank"> 孔令臣</a> | 🏫 北京交通大学 | 📧 lchkong@bjtu.edu.cn |
-|👨<a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://profiles.imperial.ac.uk/geoffrey.li/" target="_blank"> 李 烨</a> | 🏫 伦敦帝国理工 | 📧 geoffrey.li@imperial.ac.uk |
+|👨<a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://profiles.imperial.ac.uk/geoffrey.li/" target="_blank"> 李 烨</a> | 🏫 帝国理工学院 | 📧 geoffrey.li@imperial.ac.uk |
 
 <!--
 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://shenglongzhou.github.io/" target="_blank">Shenglong Zhou</a> - Beijing Jiaotong University, slzhou2021@163.com.
