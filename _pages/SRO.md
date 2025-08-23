@@ -23,11 +23,6 @@ a:active {
 }
 </style>
 
-<div class="top-right-container"> 
-    <div class="top-right-content">
-        <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=150&t=tt&d=Ee0PzO2KMZPil7SqQKnP0vxXONSVC_FtIuwrk8EMrE4&co=ffffff&cmo=ffffff&cmn=ffffff&ct=006db0'></script>
-    </div>
-</div> 
 
 ## <span style="color:#8C8C8C">Sparsity-regularized optimization</span> 
 ---
