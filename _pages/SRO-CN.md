@@ -33,7 +33,7 @@ a:active {
 \end{equation}
 
 <div style="text-align:justify;"> 
-其中，函数 $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ 二次连续可微, $\lambda>0$ 是罚参数, $\parallel\mathbf{x}\parallel_0$ 为 $\mathbf{x}$ 的零范数，计算 $\mathbf{x}$ 中非零元个数。
+其中，函数 $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ 二次连续可微，罚参数 $\lambda>0$，零范数 $\parallel\mathbf{x}\parallel_0$ 计算 $\mathbf{x}$ 中非零元个数。
 </div>
  
 ---
@@ -71,7 +71,7 @@ end
 ```
 
 <div style="text-align:justify;">
-对于以上简单的 SCO 问题，定义好函数后，就可以调用求解器 $\texttt{NL0R}$ 来求解该问题. 用户需要指定 ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$)，必要时在 $\texttt{pars}$ 中设置一些参数，然后运行求解器。下面的代码展示了如何使用求解器 $\texttt{NL0R}$ 来求解该简单的 SCO 问题。
+对于以上简单的 SCO 问题，定义好函数后，就可以调用求解器 $\texttt{NL0R}$ 来求解该问题。用户需指定 ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$)，必要时在 $\texttt{pars}$ 中设置一些参数，然后运行求解器。下面的代码展示了如何使用求解器 $\texttt{NL0R}$ 来求解该简单的 SCO 问题。
 </div>
 <p style="line-height: 1;"></p>
 
