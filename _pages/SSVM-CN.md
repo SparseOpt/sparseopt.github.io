@@ -50,7 +50,7 @@ a:active {
 
 ◻️ 稀疏约束二次核 SVM 模型
 \begin{equation}
-\min_{\boldsymbol{\alpha}\in\mathbb{R}^{m}}~\frac{1}{2} \boldsymbol{\alpha}^\top \mathbf{Q} \boldsymbol{\alpha} +\frac{1}{2}\sum_{i=1}^m h_{cC}(\alpha_i) -\mathbf{e}^\top\boldsymbol{\alpha}, ~~~~ \text{s.t.} ~~\mathbf{y}^\top\boldsymbol{\alpha}=0,~\parallel  \boldsymbol{\alpha} \parallel_0\leq s \tag{SCSVM}
+\min_{\boldsymbol{\alpha}\in\mathbb{R}^{m}}~\frac{1}{2} \boldsymbol{\alpha}^\top \mathbf{Q} \boldsymbol{\alpha} + \sum_{i=1}^m h_{cC}(\alpha_i) -\mathbf{e}^\top\boldsymbol{\alpha}, ~~~~ \text{s.t.} ~~\mathbf{y}^\top\boldsymbol{\alpha}=0,~\parallel  \boldsymbol{\alpha} \parallel_0\leq s \tag{SCSVM}
 \end{equation} 
 <div style="text-align:justify;">
 其中，核矩阵 $\mathbf{Q}\in\mathbb{R}^{m\times m}$ 的第 $(i,j)$ 个元素为 $Q_{ij}=y_iy_j\mathbf{a}_i^\top\mathbf{a}_j$，$\mathbf{e}=(1 \ldots 1)^\top$，正整数 $s\ll m$，参数 $C>c>0$；损失函数 $h_{cC}$ 定义为：$h_{cC}(t)=t^2/(2C)$ 当 $t>0$，否则 $h_{cC}(t)=t^2/(2c)$。实际上，若模型 (SCSVM) 中不含稀疏约束 $\parallel \boldsymbol{\alpha} \parallel_0\leq s$，则它是模型 (SCSVM) 在取 $\ell=\ell_{cC}$ 时的对偶问题，其中，$\ell_{cC}$ 定义为：$\ell_{cC}(t)=t^2/2$ 当 $t>0$，否则 $\ell_{cC}(t)=(c/C)t^2/2$。
