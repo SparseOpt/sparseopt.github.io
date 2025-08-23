@@ -56,7 +56,7 @@ a:active {
 \begin{equation}
 \min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2+\lambda \parallel \mathbf{W} \mathbf{x} \parallel_1 \tag{RL1CS}
 \end{equation} 
-其中，$\parallel\mathbf{x}\parallel_q^q=|x_1|^q+\cdots+|x_n|^q$ 表示 $L_q$ 范数， $0 \leq q \leq 1$，特别地，$\parallel\mathbf{x}\parallel_0:=\parallel\mathbf{x}\parallel_0^0$ 表示零范数，即计算 $\mathbf{x}$ 中非零元素的个数，罚参数 $\lambda>0$，对角矩阵 $\mathbf{W}$ 的对角元都为正数。
+其中，L0 (零）范数 $\parallel\mathbf{x}\parallel_0$ 计算 $\mathbf{x}$ 中非零元素的个数，$L_q$ 范数 $\parallel\mathbf{x}\parallel_q^q=|x_1|^q+\cdots+|x_n|^q$，q$\in$(0,1)，罚参数 $\lambda>0$，对角矩阵 $\mathbf{W}$ 的对角元都为正数。
 </div> 
 ---
 <div style="text-align:justify;">
