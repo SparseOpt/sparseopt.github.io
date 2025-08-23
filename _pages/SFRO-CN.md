@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""   
-permalink: /SFRO/
+permalink: /SFRO-CN/
 author_profile: true
 ---
 
