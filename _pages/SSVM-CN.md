@@ -35,7 +35,7 @@ a:active {
 \end{equation} 
 
 <div style="text-align:justify;">
-其中，样本矩阵 $\mathbf{A}$=$(\mathbf{a}_1$,$\ldots$,$\mathbf{a}_m)^\top$ $\in\mathbb{R}^{m\times n}$，标签向量 $\mathbf{y}$=$(y_1$,$\ldots$,$y_m)^\top$ $\in\mathbb{R}^{m}$，罚参数 $C>0$，$\ell$ 为损失函数。一种常用的损失函数是合页损失（hinge loss），其定义为 $\ell_{h}(t)=\max\{t,0\}$。下面考虑两种基于不同损失函数的 SVM 模型。 
+其中，样本矩阵 $\mathbf{A}=(\mathbf{a}_1$ $\ldots$ $\mathbf{a}_m)^\top$ $\in\mathbb{R}^{m\times n}$，标签向量 $\mathbf{y}=(y_1$ $\ldots$ $y_m)^\top$ $\in\mathbb{R}^{m}$，罚参数 $C>0$，$\ell$ 为损失函数。一种常用的损失函数是合页损失（hinge loss），其定义为 $\ell_{h}(t)=\max\{t,0\}$。下面考虑两种基于不同损失函数的 SVM 模型。 
 </div>      
 
 <p style="line-height: 2;"></p>
@@ -45,7 +45,7 @@ a:active {
 \min_{(\mathbf{w};b)\in\mathbb{R}^{n+1}}~\frac{1}{2}\parallel \mathbf{w} \parallel^2 + C \sum_{i=1}^m\mathrm{step}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right) \tag{L01SVM}
 \end{equation} 
 <div style="text-align:justify;">
-其中，$\mathrm{step}(t)$ 是阶梯函数（或 0/1 损失函数），定义为 $\mathrm{step}(t)=1$ 当 $t>0$，否则 $\mathrm{step}(t)=0$。令 $\mathbf{z}_+$=$(\max\{0,z_1\}$,$\ldots$,$\max\{0,z_m\})^\top$ 和零范数 $\parallel\mathbf{x}\parallel_0$ 表示 $\mathbf{x}$ 中非零元的个数，则有 $\sum_{i=1}^m\mathrm{step}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right)$=$\| (1-\mathbf{A}\mathbf{w}-b\mathbf{y} )_+ \|_0$。 
+其中，$\mathrm{step}(t)$ 是阶梯函数（或 0/1 损失函数），定义为 $\mathrm{step}(t)=1$ 当 $t>0$，否则 $\mathrm{step}(t)=0$。令 $\mathbf{z}_+=(\max\{0,z_1\}$ $\ldots$ $\max\{0,z_m\})^\top$ 和零范数 $\parallel\mathbf{x}\parallel_0$ 表示 $\mathbf{x}$ 中非零元的个数，则有 $\sum_{i=1}^m\mathrm{step}\left(1-y_i(b+  \mathbf{a}_i^\top\mathbf{w})\right)$ $=\| (1-\mathbf{A}\mathbf{w}-b\mathbf{y} )_+ \|_0$。 
 </div>
 
 ◻️ 稀疏约束二次核 SVM 模型
@@ -53,7 +53,7 @@ a:active {
 \min_{\boldsymbol{\alpha}\in\mathbb{R}^{m}}~\frac{1}{2} \boldsymbol{\alpha}^\top \mathbf{Q} \boldsymbol{\alpha} +\frac{1}{2}\sum_{i=1}^m h_{cC}(\alpha_i) -\mathbf{e}^\top\boldsymbol{\alpha}, ~~~~ \text{s.t.} ~~\mathbf{y}^\top\boldsymbol{\alpha}=0,~\parallel  \boldsymbol{\alpha} \parallel_0\leq s \tag{SCSVM}
 \end{equation} 
 <div style="text-align:justify;">
-其中，核矩阵 $\mathbf{Q}\in\mathbb{R}^{m\times m}$ 的每个元素为 $Q_{ij}=y_iy_j\mathbf{a}_i^\top\mathbf{a}_j$，$\mathbf{e}=(1,\ldots,1)^\top$，正整数 $s\ll m$，对于给定的 $C>c>0$，损失函数 $h_{cC}$ 定义为：$h_{cC}(t)=t^2/(2C)$ 当 $t>0$，否则 $h_{cC}(t)=t^2/(2c)$。实际上，若模型 (SCSVM) 中不含稀疏约束 $\parallel \boldsymbol{\alpha} \parallel_0\leq s$，则它是模型 (SCSVM) 在取 $\ell=\ell_{cC}$ 时的对偶问题，其中，$\ell_{cC}$ 定义为：$\ell_{cC}(t)=t^2/2$ 当 $t>0$，否则 $\ell_{cC}(t)=(c/C)t^2/2$。
+其中，核矩阵 $\mathbf{Q}\in\mathbb{R}^{m\times m}$ 的第 $(i,j)$ 个元素为 $Q_{ij}=y_iy_j\mathbf{a}_i^\top\mathbf{a}_j$，$\mathbf{e}=(1 \ldots 1)^\top$，正整数 $s\ll m$，对于给定的 $C>c>0$，损失函数 $h_{cC}$ 定义为：$h_{cC}(t)=t^2/(2C)$ 当 $t>0$，否则 $h_{cC}(t)=t^2/(2c)$。实际上，若模型 (SCSVM) 中不含稀疏约束 $\parallel \boldsymbol{\alpha} \parallel_0\leq s$，则它是模型 (SCSVM) 在取 $\ell=\ell_{cC}$ 时的对偶问题，其中，$\ell_{cC}$ 定义为：$\ell_{cC}(t)=t^2/2$ 当 $t>0$，否则 $\ell_{cC}(t)=(c/C)t^2/2$。
 </div>  
 
 > <div style="text-align:justify;"> 
