@@ -23,11 +23,6 @@ a:active {
 }
 </style>
 
-<div class="top-right-container">
-    <div class="top-right-content">
-        <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=150&t=tt&d=wg6tBv3ueLL_u1uLQ7aaJA-zSwZokNFJcr7dF0yFPBo&ct=006DB0&co=ffffff&cmo=ffffff&cmn=ffffff'></script>
-    </div>
-</div>
 
 ##  <span style="color:#8C8C8C"> Step function-regularized optimization</span> 
 ---
