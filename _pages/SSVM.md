@@ -50,7 +50,7 @@ where $\mathrm{step}(t)$ is the step function (or 0/1 loss function) defined by 
 
 ◻️ Sparsity constrained quadratic kernel-based SVM 
 \begin{equation}
-\min_{\boldsymbol{\alpha}\in\mathbb{R}^{m}}~\frac{1}{2} \boldsymbol{\alpha}^\top \mathbf{Q} \boldsymbol{\alpha} +\frac{1}{2}\sum_{i=1}^m h_{cC}(\alpha_i) -\mathbf{e}^\top\boldsymbol{\alpha}, ~~~~ \text{s.t.} ~~\mathbf{y}^\top\boldsymbol{\alpha}=0,~\parallel  \boldsymbol{\alpha} \parallel_0\leq s \tag{SCSVM}
+\min_{\boldsymbol{\alpha}\in\mathbb{R}^{m}}~\frac{1}{2} \boldsymbol{\alpha}^\top \mathbf{Q} \boldsymbol{\alpha} + \sum_{i=1}^m h_{cC}(\alpha_i) -\mathbf{e}^\top\boldsymbol{\alpha}, ~~~~ \text{s.t.} ~~\mathbf{y}^\top\boldsymbol{\alpha}=0,~\parallel  \boldsymbol{\alpha} \parallel_0\leq s \tag{SCSVM}
 \end{equation} 
 <div style="text-align:justify;">
 where $\mathbf{Q}\in\mathbb{R}^{m\times m}$ with each entry $Q_{ij}=y_iy_j\mathbf{a}_i^\top\mathbf{a}_j$, $\mathbf{e}=(1,\ldots,1)^\top$, and $h_{cC}(t)=t^2/C$ if $t>0$ and $h_{cC}(t)=t^2/c$,  $C>c>0$, and $s\ll m$. In fact, model (SCSVM) without sparsity constraint $\parallel  \boldsymbol{\alpha} \parallel_0\leq s$ is the dual problem of model (SVM) with $\ell=\ell_{cC}$, where  $\ell_{cC}(t)=t^2/2$ if $t>0$ and $\ell_{cC}(t)=(c/C)t^2/2$ otherwise. 
