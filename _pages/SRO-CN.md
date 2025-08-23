@@ -45,7 +45,7 @@ a:active {
 
 ---
 <div style="text-align:justify;">  
-求解器 <b>NL0R</b> 是二阶算法, 所以需要目标函数、梯度以及二阶海瑟矩阵子块。下面给出一个示例，展示如何定义函数来解决一个简单的稀疏约束优化（SCO）问题。其中，输入 $\texttt{x}$ 是变量，字符串变量 $\texttt{key}$ 用于指定计算内容：当 $\texttt{key}$='$\texttt{fg}$' 时表示计算目标函数值和梯度；当 $\texttt{key}$='$\texttt{h}$' 时表示计算海瑟矩阵子块，此时，海瑟矩阵子块由两个索引指标集 $\texttt{T1}$ 和 $\texttt{T2}$ 定义；如果只有一个输出，那么输出的子块包含了海瑟矩阵的 $\texttt{T1}$ 行和 $\texttt{T1}$ 列； 如果有两个输出，那么第一个输出子块包含了海瑟矩阵的 $\texttt{T1}$ 行和 $\texttt{T1}$ 列，第二个输出子块包含了海瑟矩阵的 $\texttt{T1}$ 行和 $\texttt{T2}$ 列。
+求解器 NL0R 是二阶算法, 所以需要目标函数、梯度以及二阶海瑟矩阵子块。下面给出一个示例，展示如何定义函数来解决一个简单的稀疏约束优化（SCO）问题。其中，输入 $\texttt{x}$ 是变量，字符串变量 $\texttt{key}$ 用于指定计算内容：当 $\texttt{key}$='$\texttt{fg}$' 时表示计算目标函数值和梯度；当 $\texttt{key}$='$\texttt{h}$' 时表示计算海瑟矩阵子块，此时，海瑟矩阵子块由两个索引指标集 $\texttt{T1}$ 和 $\texttt{T2}$ 定义；如果只有一个输出，那么输出的子块包含了海瑟矩阵的 $\texttt{T1}$ 行和 $\texttt{T1}$ 列； 如果有两个输出，那么第一个输出子块包含了海瑟矩阵的 $\texttt{T1}$ 行和 $\texttt{T1}$ 列，第二个输出子块包含了海瑟矩阵的 $\texttt{T1}$ 行和 $\texttt{T2}$ 列。
 </div>
 <p style="line-height: 1;"></p>
 
@@ -71,7 +71,7 @@ end
 ```
 
 <div style="text-align:justify;">
-对于以上简单的SCO问题，定义好函数后，就可以调用求解器 <b>NL0R</b> 来求解该问题. 用户需要指定 ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$)，必要时在 $\texttt{pars}$ 中设置一些参数，然后运行求解器。下面的代码展示了如何使用求解器 <b>NL0R</b> 来求解该简单的 SCO 问题。
+对于以上简单的 SCO 问题，定义好函数后，就可以调用求解器 NL0R 来求解该问题. 用户需要指定 ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$)，必要时在 $\texttt{pars}$ 中设置一些参数，然后运行求解器。下面的代码展示了如何使用求解器 <b>NL0R</b> 来求解该简单的 SCO 问题。
 </div>
 <p style="line-height: 1;"></p>
 
@@ -117,7 +117,7 @@ end
 ```
 
 <div style="text-align:justify;">
-在定义好稀疏线性回归问题的函数后，我们可以如下调用求解器 <b>NL0R</b> 来求解该问题。
+在定义好稀疏线性回归问题的函数后，我们可以如下调用求解器 NL0R 来求解该问题。
 </div>
 <p style="line-height: 1;"></p>
 
@@ -142,7 +142,7 @@ out      = NL0R(func,n,lambda,pars);
 ```
 
 <div style="text-align:justify;">
-求解器 <b>NL0R</b> 的输入与输出说明如下，其中输入参数 ($\texttt{func}$, $\texttt{n}$, $\texttt{lambda}$) 为必需项。$\texttt{pars}$ 中的参数为可选项，但设置某些参数可能会提升求解器的性能和解的质量。例如，调节合适的 $\texttt{pars.eta}$ 能显著改善求解器在收敛速度和精度方面的表现。
+求解器 NL0R 的输入与输出说明如下，其中输入参数 ($\texttt{func}$, $\texttt{n}$, $\texttt{lambda}$) 为必需项。$\texttt{pars}$ 中的参数为可选项，但设置某些参数可能会提升求解器的性能和解的质量。例如，调节合适的 $\texttt{pars.eta}$ 能显著改善求解器在收敛速度和精度方面的表现。
 </div>
 
 <p style="line-height: 1;"></p>
