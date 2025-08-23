@@ -22,9 +22,6 @@ a:active {
   text-decoration: underline;
 }
 
-.spectrum-Table-cell {
-  height: 20px !important;
-}
 </style>
 
 
