@@ -24,10 +24,10 @@ a:active {
 </style>
 
 
-##  <span style="color:#8C8C8C"> Sparse support vector machine</span> 
+## 稀疏支持向量机
 ---
 <div style="text-align:justify;">
-  The  soft-margin support vector machine (SVM) takes the form of 
+经典的软阈值支持向量机（Support vector machine，SVM）模型为
 </div>
 
 \begin{equation}
@@ -35,7 +35,7 @@ a:active {
 \end{equation} 
 
 <div style="text-align:justify;">
-where $\mathbf{A}=(\mathbf{a}_1,\ldots,\mathbf{a}_m)^\top\in\mathbb{R}^{m\times n}$ is the sample matrix, $\mathbf{y}=(y_1,\ldots,y_m)^\top\in\mathbb{R}^{m}$ is the label vector, $C>0$ is the penalty parameter, and $\ell$ is a loss function. One popular loss function is the hinge loss defined by  $\ell_{h}(t)=\max\{t,0\}.$ Two loss functions are considered below, resulting in two SVM models.
+其中，样本矩阵 $\mathbf{A}$=$(\mathbf{a}_1$,$\ldots$,$\mathbf{a}_m)^\top$ $\in\mathbb{R}^{m\times n}$，标签向量 $\mathbf{y}$=$(y_1$,$\ldots$,$y_m)^\top$ $\in\mathbb{R}^{m}$，罚参数 $C>0$，$\ell$ 为损失函数。一种常用的损失函数是合页损失（hinge loss），其定义为 $\ell{h}(t)=\max\{t,0\}$。下面考虑两种不同的损失函数，从而得到两种 SVM 模型。 
 </div>      
 
 <p style="line-height: 2;"></p>
