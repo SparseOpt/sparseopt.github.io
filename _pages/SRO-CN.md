@@ -33,7 +33,7 @@ a:active {
 \end{equation}
 
 <div style="text-align:justify;"> 
-其中，函数 $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ 二次连续可微, $\lambda>0$ 是罚参数, $\parallel\mathbf{x}\parallel_0$ 代表了 $\mathbf{x}$ 的零范数，也即，计算 $\mathbf{x}$ 中非零元素个数。
+其中，函数 $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ 二次连续可微, $\lambda>0$ 是罚参数, $\parallel\mathbf{x}\parallel_0$ 为 $\mathbf{x}$ 的零范数，计算 $\mathbf{x}$ 中非零元个数。
 </div>
  
 ---
