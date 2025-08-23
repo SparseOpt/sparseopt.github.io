@@ -65,7 +65,7 @@ The package can be downloaded here - <a style="font-size: 16px; font-weight: bol
 
 ---
 <div style="text-align:justify;">
-Below is a demonstration of how $\texttt{OBCSpack}$ can be used to solve the problem. You simply need to input the data ($\texttt{A}$, $\texttt{b}$, $\texttt{s}$, $\texttt{k}$) and then choose one solver from {'$\texttt{GPSP}$', '$\texttt{NM01}$'}. 
+Below is a demonstration of how $\texttt{OBCSpack}$ can be used to solve the problem. Users need to input the data ($\texttt{A}$, $\texttt{b}$, $\texttt{s}$, $\texttt{k}$) and then choose one solver from {'$\texttt{GPSP}$', '$\texttt{NM01}$'}. 
 </div>
 
 <p style="line-height: 1;"></p>
