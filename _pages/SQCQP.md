@@ -37,12 +37,12 @@ a:active {
 \end{equation}
 
 where parameters are defined as follows
-- $\mathbf{Q}_i\in\mathbb{R}^{n\times n}, \mathbf{q}_i\in\mathbb{R}^{n}, c_i\in\mathbb{R},~~i=0,1,\ldots,k$
-- $\mathbf{A}\in\mathbb{R}^{m_1\times n}$, $\mathbf{b}\in\mathbb{R}^{m_1}$
-- $\mathbf{B}\in\mathbb{R}^{m_2\times n}$, $\mathbf{d}\in\mathbb{R}^{m_2}$
-- $l$ and $u$ are two scalars satisfying $0\in[l, u]$
-- $\parallel\mathbf{x}\parallel_0$ denotes the so-called L0 norm, which counts the number of nonzero entries in $\mathbf{x}$
-- $s\ll n$ is a given integer
+- Matrix $\mathbf{Q}_i\in\mathbb{R}^{n\times n}$, vector $\mathbf{q}_i\in\mathbb{R}^{n}$, scalar $c_i\in\mathbb{R},~~i=0,1,\ldots,k$
+- Matrix $\mathbf{A}\in\mathbb{R}^{m_1\times n}$, vector $\mathbf{b}\in\mathbb{R}^{m_1}$
+- Matrix $\mathbf{B}\in\mathbb{R}^{m_2\times n}$, vector $\mathbf{d}\in\mathbb{R}^{m_2}$
+- Lower bound $l$ and upper bound $u$ satisfying $l \leq 0 \leq u$
+- L0 norm $\parallel\mathbf{x}\parallel_0$ counts the number of nonzero entries in $\mathbf{x}$
+- Integer $s\ll n$ 
          
 --- 
 <div style="text-align:justify;">
