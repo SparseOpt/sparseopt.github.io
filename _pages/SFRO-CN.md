@@ -33,15 +33,14 @@ a:active {
 \end{equation}
 
 <div style="text-align:justify;">
-where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a twice continuously differentiable function,  $\mathbf{B}\in\mathbb{R}^{m\times n}$ is a matrix, $\mathbf{b}\in\mathbb{R}^{m}$ is a vector, $\lambda$ is a penalty parameter,  $\mathbf{z}_+=(\max\{0,z_1\},\ldots,\max\{0,z_m\})^\top$, and  $\|\mathbf{z}\|_0$ is the L0 norm that counts the number of nonzero entries in $\mathbf{z}$. Therefore, $\|\mathbf{z}_+\|_0$ counts the number of positive entries in $\mathbf{z}$.  This term is related to the step (or 0/1 loss) function defined by $\mathrm{step}(t)=1$ if $t>0$ and $\mathrm{step}(t)=0$ otherwise. As a result,  $\|\mathbf{z}_+\|_0= \mathrm{step}(z_1)+\cdots+\mathrm{step}(z_m).$
+其中，函数 $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ 二次连续可微，$\mathbf{B}\in\mathbb{R}^{m\times n}$ 是一个矩阵，$\mathbf{b}\in\mathbb{R}^{m}$ 是一个向量，$\lambda>0$ 是罚参数，$\mathbf{z}_+=(\max{0,z_1},\ldots,\max{0,z_m})^\top$，$\|\mathbf{z}\|0$ 为 $\mathbf{z}$ 的零范数，即计算 $\mathbf{z}$ 中非零元的个数。因此，$\|\mathbf{z}_+\|_0$ 表示 $\mathbf{z}$ 中正元素的个数。该项与阶梯函数（或称 0/1 损失函数）相关，其定义为： $\mathrm{step}(t)=1$ 当 $t>0$，否则 $\mathrm{step}(t)=0$。因此，$\|\mathbf{z}_+\|_0= \mathrm{step}(z_1)+\cdots+\mathrm{step}(z_m)$。  
 </div>
  
 <!-- ## <span style="color:#8C8C8C"> The solver and its demonstration </span> -->
 
 ---
 <div style="text-align:justify;"> 
-The solver can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SFROpack.zip" target="_blank">NM01</a>,
-which was developed from the following paper:
+程序包 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SFROpack.zip" target="_blank">NM01</a>（点击可直接下载）提供了 1 个求解器，其核心算法来自以下文章：  
 </div>
 
 > <span style="font-size: 14px"> S Zhou, L Pan, N Xiu,  and H Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, SIOPT, 31:3184–3211, 2021. </span>
@@ -49,8 +48,7 @@ which was developed from the following paper:
  
 ---
 <div style="text-align:justify;">  
-Note that <b style="font-size:16px;color:#777777">NM01</b> is a second-order method, requiring both the gradient and Hessian of $f$. Below is an example of how to define these for the solver in the context of the 1-bit compressive sensing (<a style="font-size: 16px; font-weight: bold; color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">1BCS</a>) problem, where objective function  $f(\mathbf{x})$ is given in model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>). The MATLAB codes below define $(f(\mathbf{x}), \nabla f(\mathbf{x}), \nabla^2 f(\mathbf{x}))$, where $\texttt{x}$ and $\texttt{key}$ are two variables, and  $\texttt{eps}$, $\texttt{q}$, $\texttt{A}$, and $\texttt{c}$ are parameters and data, as shown in model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>).  String variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{f}$' for the objective value, 
-$\texttt{key}$='$\texttt{g}$' for the gradient, and $\texttt{key}$='$\texttt{h}$' for the Hessian. When $\texttt{key}$='$\texttt{a}$', an additional user-defined function is evaluated. Here,  the accuracy is computed for the 1BCS problem. This allows users to monitor a customized metric during optimization.
+求解器 $\texttt{NM01}$ 是一种二阶方法，需要用到函数值，梯度和海瑟矩阵。下面用1-比特压缩感知（<a style="font-size: 16px; color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">1BCS</a>）作为示例，展示如何为该求解器定义函数值，梯度和海瑟矩阵。 该问题的目标函数 $f(\mathbf{x})$ 可以参考 <a style="font-size: 16px; font-weight: bold; color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">1BCS</a> 页面中的模型（<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>）。下面的 MATLAB 代码定义了 $(f(\mathbf{x}), \nabla f(\mathbf{x}), \nabla^2 f(\mathbf{x}))$，其中，函数句柄中的输入 $\texttt{x}$ 和 $\texttt{key}$ 为两个变量，其他输入 $\texttt{eps}$、$\texttt{q}$、$\texttt{A}$ 和 $\texttt{c}$ 为模型（<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>）中给定的参数和数据。这里，字符串变量 $\texttt{key}$ 用于指定计算内容：当 $\texttt{key}$='$\texttt{f}$' 时计算目标函数值；当 $\texttt{key}$='$\texttt{g}$' 时计算梯度；当 $\texttt{key}$='$\texttt{h}$' 时计算海瑟矩阵。当 $\texttt{key}$='$\texttt{a}$' 时，会额外计算一个用户自定义函数。在此示例中，计算的是 1BCS 问题的准确率。这使得用户能够在优化过程中监控自定义指标。  
 </div>
 <p style="line-height: 1;"></p>
 
@@ -67,7 +65,7 @@ end
 ```
 
 <div style="text-align:justify;">  
-If no additional function is required, users can simply define $(f(\mathbf{x})$, $\nabla f(\mathbf{x})$, $\nabla^2 f(\mathbf{x}))$ by omitting case $\texttt{key}$='$\texttt{a}$' as follows.
+如果不需要额外的函数，用户只需定义 $(f(\mathbf{x})$, $\nabla f(\mathbf{x})$ 和 $\nabla^2 f(\mathbf{x}))$，然后省略 $\texttt{key}$='$\texttt{a}$'，如下所示。注意，当没有 $\texttt{key}$='$\texttt{a}$' 这一情况时，用户必须保留 $\texttt{otherwise; out = [];}$。
 </div>
 <p style="line-height: 1;"></p>
 
@@ -83,7 +81,7 @@ end
 ```
 
 <div style="text-align:justify;">
-  Below is an example showing how <b style="font-size:16px;color:#777777">NM01</b> can be applied to solve the 1BCS problem using model (<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>). Users only need to specify ($\texttt{func}$, $\texttt{B}$, $\texttt{b}$, $\texttt{lam}$, $\texttt{pars}$) and then run the solver.
+下面给出一个示例，展示如何使用 $\texttt{NM01}$ 利用模型（<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>）求解 1BCS 问题。用户只需指定 ($\texttt{func}$, $\texttt{B}$, $\texttt{b}$, $\texttt{lam}$, $\texttt{pars}$)，然后运行求解器即可。
 </div>
 
 <p style="line-height: 1;"></p>
@@ -116,7 +114,7 @@ fprintf(' Hamming error:         %.3f\n',nnz(sign(A*x)-co)/m)
 ```
 
 <div style="text-align:justify;">
-The inputs and outputs of <b style="font-size:16px;color:#777777">NM01</b> are detailed below, where inputs ($\texttt{func}$, $\texttt{B}$, $\texttt{b}$, $\texttt{lam}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
+求解器 $\texttt{NM01}$ 的输入与输出说明如下，其中输入参数 ($\texttt{func}$, $\texttt{B}$, $\texttt{b}$, $\texttt{lam}$) 为必需项。$\texttt{pars}$ 中的参数为可选项，但设置某些参数可能会提升求解器的性能和解的质量。 
 </div>
 
 <p style="line-height: 1;"></p>
