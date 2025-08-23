@@ -24,7 +24,7 @@ a:active {
 </style>
 
 
-##  <span style="color:#8C8C8C"> Sparse support vector machine</span> 
+## Sparse support vector machine
 ---
 <div style="text-align:justify;">
   The  soft-margin support vector machine (SVM) takes the form of 
@@ -77,7 +77,7 @@ where $\mathbf{Q}\in\mathbb{R}^{m\times m}$ with each entry $Q_{ij}=y_iy_j\mathb
 
 ---
 <div style="text-align:justify;">
-The package can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SSVMpack.zip" target="_blank">SSVMpack</a>, which provides 2 solvers from the following 2 papers, where <b style="font-size:16px;color:#777777">NM01</b> and <b style="font-size:16px;color:#777777">NSSVM</b> are designed to solve (SFRSVM) and (SCSNM), respectively.
+The package can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SSVMpack.zip" target="_blank">SSVMpack</a>, which provides 2 solvers from the following 2 papers, where <b>NM01</b> and <b>NSSVM</b> are designed to solve (SFRSVM) and (SCSNM), respectively.
 </div>  
 
 > <div style="text-align:justify;"> <b style="font-size:14px;color:#777777">NM01</b> -<span style="font-size: 14px"> S Zhou, L Pan, N Xiu, and H Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, SIOPT, 31:3184-3211, 2021. </span> </div>
@@ -85,7 +85,7 @@ The package can be downloaded here - <a style="font-size: 16px; font-weight: bol
 
 ---
 <div style="text-align:justify;">
-Below is a demonstration of how <b style="font-size:16px;color:#777777">SSVMpack</b> can be used to solve the problem. You simply need to input the data ($\texttt{A}$, $\texttt{y}$) and select $\texttt{solver}$ from {'$\texttt{NM01}$', '$\texttt{NSSVM}$'}. The parameters in $\texttt{pars}$ are optional, but setting certain ones (particularly, $\texttt{pars.C}$ and $\texttt{pars.s0}$)  can improve the solver's performance and the quality of the solution.
+Below is a demonstration of how <b>SSVMpack</b> can be used to solve the problem. You simply need to input the data ($\texttt{A}$, $\texttt{y}$) and select $\texttt{solver}$ from {'$\texttt{NM01}$', '$\texttt{NSSVM}$'}. The parameters in $\texttt{pars}$ are optional, but setting certain ones (particularly, $\texttt{pars.C}$ and $\texttt{pars.s0}$)  can improve the solver's performance and the quality of the solution.
 </div>
 
 <p style="line-height: 1;"></p>
@@ -121,7 +121,7 @@ fprintf(' Testing   Accuracy:         %5.2f%%\n',tacc*100);
 fprintf(' Number of Support Vectors:  %d\n',out.sv); 
 ```
 <div style="text-align:justify;">
-The citation for <b style="font-size:16px;color:#777777">SSVMpack</b> is shown below. Inputs ($\texttt{A}$, $\texttt{y}$, $\texttt{solver}$) are required, $\texttt{solver}$ is chosen from {'$\texttt{NM01}$', '$\texttt{NSSVM}$'}.   If $\texttt{solver}$='$\texttt{NSSVM}$', then set a proper $\texttt{pars.s0}$ can enhance solution quality.  Another important parameter is $\texttt{pars.C}$, which can be tuned using the Cross-validation.
+The citation for <b>SSVMpack</b> is shown below. Inputs ($\texttt{A}$, $\texttt{y}$, $\texttt{solver}$) are required, $\texttt{solver}$ is chosen from {'$\texttt{NM01}$', '$\texttt{NSSVM}$'}.   If $\texttt{solver}$='$\texttt{NSSVM}$', then set a proper $\texttt{pars.s0}$ can enhance solution quality.  Another important parameter is $\texttt{pars.C}$, which can be tuned using the Cross-validation.
 </div>
 
 <p style="line-height: 1;"></p>
