@@ -49,7 +49,7 @@ which provides 3 solvers from the following papers:
 
 ---
 <div style="text-align:justify;">  
-Note that NHTP and GPNP are two second-order methods, requiring the objective, gradient, and sub-Hessian of $f$, while IIHT is a first-order method, requiring the objective and gradient of $f$. Below is an example of how to uniformly define functions for three solvers to solve a simple SCO problem, where input $\texttt{x}$ is the variable, string variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{fg}$' for the objective value and the gradient, and $\texttt{key}$='$\texttt{h}$' for the Hessian, and $\texttt{T1}$ and $\texttt{T2}$ are two indices and only valid when $\texttt{key}$='$\texttt{h}$'. 
+Note that $\texttt{NHTP}$ and $\texttt{GPNP}$ are two second-order methods, requiring the objective, gradient, and sub-Hessian of $f$, while $\texttt{IIHT}$ is a first-order method, requiring the objective and gradient of $f$. Below is an example of how to uniformly define functions for three solvers to solve a simple SCO problem, where input $\texttt{x}$ is the variable, string variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{fg}$' for the objective value and the gradient, and $\texttt{key}$='$\texttt{h}$' for the Hessian, and $\texttt{T1}$ and $\texttt{T2}$ are two indices and only valid when $\texttt{key}$='$\texttt{h}$'. 
 </div>
 <p style="line-height: 1;"></p>
 
@@ -77,7 +77,7 @@ end
 ```
 
 <div style="text-align:justify;">
-After defining the functions for the simple SCO problem, one can call SCOpack to solve it. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$), choose a solver name from  {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following codes demonstrate SCOpack to solve this simple SCO problem.
+After defining the functions for the simple SCO problem, one can call $\texttt{SCOpack}$ to solve it. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$), choose a solver name from  {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following codes demonstrate $\texttt{SCOpack}$ to solve this simple SCO problem.
 </div>
 <p style="line-height: 1;"></p>
 
@@ -126,7 +126,7 @@ function [out1,out2] = funcLinReg(x,key,T1,T2,A,b)
 end
 ```
 <div style="text-align:justify;">
-After defining the functions of the sparse linear regression problem, we call SCOpack to solve the problem as follows.
+After defining the functions of the sparse linear regression problem, we call $\texttt{SCOpack}$ to solve the problem as follows.
 </div>
 <p style="line-height: 1;"></p>
 
@@ -152,7 +152,7 @@ PlotRecovery(xopt,out.sol,[900,500,500,250],1)
 ```
 
 <div style="text-align:justify;">
-The inputs and outputs of SCOpack are detailed below, where inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$, $\texttt{solvername}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the solution quality. For example, if solver $\texttt{NHTP}$ is chosen, then tuning a proper $\texttt{pars.eta}$ may significantly improve the solver performance in terms of convergence speed and accuracy. Moreover, solver $\texttt{IIHT}$ enables addressing the SCO problems with non-negative constraints. To do so, just set $\texttt{pars.neg}$=1. 
+The inputs and outputs of $\texttt{SCOpack}$ are detailed below, where inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$, $\texttt{solvername}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the solution quality. For example, if solver $\texttt{NHTP}$ is chosen, then tuning a proper $\texttt{pars.eta}$ may significantly improve the solver performance in terms of convergence speed and accuracy. Moreover, solver $\texttt{IIHT}$ enables addressing the SCO problems with non-negative constraints. To do so, just set $\texttt{pars.neg}$=1. 
 </div>
 
 <p style="line-height: 1;"></p>
