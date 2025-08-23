@@ -99,7 +99,7 @@ fprintf(' Hamming distence:      %6.3f\n',nnz(sign(A*out.sol)-b)/m)
 ```
 
 <div style="text-align:justify;">
-程序包 $\texttt{OBCSpack}$ 的输入和输出如下所示，其中输入 ($\texttt{A}$，$\texttt{b}$，$\texttt{s}$，$\texttt{k}$，$\texttt{solver}$) 为必需项。因为， $\texttt{NM01}$ 求解模型 (SFRO)，所以不需要参数 $\texttt{s}$ 和 $\texttt{k}$。因此，如果选择 $\texttt{solver}$='$\texttt{NM01}$'，则当 $\texttt{s}$ 和 $\texttt{k}$ 未知时，可以将它们设为 $\texttt{[]}$。参数 $\texttt{pars}$ 是可选的，但设置其中的一些参数可以提升求解器的性能和解的质量。
+程序包 $\texttt{OBCSpack}$ 的输入和输出如下所示，其中输入 ($\texttt{A}$，$\texttt{b}$，$\texttt{s}$，$\texttt{k}$，$\texttt{solver}$) 为必需项。因为 $\texttt{NM01}$ 求解模型 (SFRO)，所以无需参数 $\texttt{s}$ 和 $\texttt{k}$。因此，如果选择 $\texttt{solver}$='$\texttt{NM01}$'，则当 $\texttt{s}$ 和 $\texttt{k}$ 未知时，可以将它们设置为 $\texttt{[]}$。参数 $\texttt{pars}$ 是可选的，但设置其中的一些参数可以提升求解器的性能和解的质量。
 </div>
 
 <p style="line-height: 1;"></p>
