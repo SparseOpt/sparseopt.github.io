@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""   
-permalink: /CS/
+permalink: /CS-CN/
 author_profile: true
 ---
 
