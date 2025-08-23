@@ -35,7 +35,7 @@ One-bit compressive sensing (1BCS) problems aim to recover a sparse signal $\mat
 \end{equation} 
 
 <div style="text-align:justify;">
-where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, both $\mathbf{b}$ and $\mathbf{h}\in\{-1,1\}^{m}$, $\boldsymbol{\varepsilon}\in\mathbb{R}^{n}$ is the noise, $\mathrm{Diag}(\mathbf{h})$ denotes the diagonal matrix with diagonal entries formed by $\mathbf{h}$, and $\mathrm{sign}$ is the sign function defined by $\mathrm{sign}(t)=1$ if $t>0$ and $\mathrm{sign}(t)=-1$ otherwise. Then $\mathrm{sign}(\mathbf{x})=(\mathrm{sign}(x_1),\cdots,\mathrm{sign}(x_n))^\top$. Note that multiplying $\mathrm{Diag}(\mathbf{h})$ means that the sign flip occurs when observing $\mathbf{b}$, making the problem harder. In this model, we assume at most $k$ signs are flipped, namely, $\mathbf{h}$ satisfies $\parallel\mathbf{h}-1\parallel_0\leq k$, where $k$ is a given integer and $\parallel\mathbf{x}\parallel_0$ denotes the  L0 norm that counts the number of nonzero entries in $\mathbf{x}$. The following optimization models are solved to recover the signal.
+where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, both $\mathbf{b}$ and $\mathbf{h}\in\{-1,1\}^{m}$, $\boldsymbol{\varepsilon}\in\mathbb{R}^{n}$ is the noise, $\mathrm{Diag}(\mathbf{h})$ denotes the diagonal matrix with diagonal entries formed by $\mathbf{h}$, and $\mathrm{sign}$ is the sign function defined by $\mathrm{sign}(t)=1$ if $t>0$ and $\mathrm{sign}(t)=-1$ otherwise. Then $\mathrm{sign}(\mathbf{x})=$ $(\mathrm{sign}(x_1)$ $\cdots$ $\mathrm{sign}(x_n))^\top$. Note that multiplying $\mathrm{Diag}(\mathbf{h})$ means that the sign flip occurs when observing $\mathbf{b}$, making the problem harder. In this model, we assume at most $k$ signs are flipped, namely, $\mathbf{h}$ satisfies $\parallel\mathbf{h}-1\parallel_0\leq k$, where $k$ is a given integer and $\parallel\mathbf{x}\parallel_0$ denotes the  L0 norm that counts the number of nonzero entries in $\mathbf{x}$. The following optimization models are solved to recover the signal.
 </div> 
  <p style="line-height: 2;"></p>
  <div style="text-align:justify;"> 
@@ -51,7 +51,7 @@ where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, both $\mathbf
 \end{equation}
 </div> 
 <div style="text-align:justify;">
-where $s\ll n$, $k\ll m$, $(\epsilon, \eta, \varepsilon, \lambda)>0$, and $\mathbf{z}_+=(\max\{0,z_1\},\cdots,\max\{0,z_m\})^\top$. Model (SFRO) is a penalty version of model (DSCO), and term $\parallel \mathbf{z}_+\parallel_0$ is related to the step (or 0/1 loss) function defined by $\mathrm{step}(t)=1$ if $t>0$ and $\mathrm{step}(t)=0$ otherwise. Therefore, $\|\mathbf{z}_+\|_0=\mathrm{step}(z_1)+\cdots+\mathrm{step}(z_m)$, which counts the number of positve entries in $\mathbf{z}$.
+where two integers $s\ll n$ and $k\ll m$, $(\epsilon, \eta, \varepsilon, \lambda)>0$, and $\mathbf{z}_+=$ $(\max\{0,z_1\}$ $\cdots$ $\max\{0,z_m\})^\top$. Model (SFRO) is a penalty version of model (DSCO). Metric $\parallel \mathbf{z}_+\parallel_0$ counts the number of positive entries in $\mathbf{z}$. It is related to the step (or 0/1 loss) function defined by $\mathrm{step}(t)=1$ if $t>0$ and $\mathrm{step}(t)=0$ otherwise. Therefore, $\|\mathbf{z}_+\|_0=$ $\mathrm{step}(z_1)$ $+\cdots+$ $\mathrm{step}(z_m)$.
 </div> 
   
 ---
