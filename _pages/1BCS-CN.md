@@ -65,7 +65,7 @@ a:active {
 
 ---
 <div style="text-align:justify;">
-下面代码展示了如何使用 $\texttt{OBCSpack}$ 来求解 1BCS 问题。用户需输入数据 ($\texttt{A}$，$\texttt{b}$，$\texttt{s}$，$\texttt{k}$)，然后从 {'$\texttt{GPSP}$'，'$\texttt{NM01}$'} 中选择一个求解器进行求解。
+下面代码展示了如何使用 $\texttt{OBCSpack}$ 求解 1BCS 问题。用户需输入数据 ($\texttt{A}$，$\texttt{b}$，$\texttt{s}$，$\texttt{k}$)，然后从 {'$\texttt{GPSP}$'，'$\texttt{NM01}$'} 中选择一个求解器进行求解。
 </div>
 
 <p style="line-height: 1;"></p>
