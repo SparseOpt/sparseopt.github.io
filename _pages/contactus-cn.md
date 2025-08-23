@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""   
-permalink: /contactus/
+permalink: /contactus-cn/
 author_profile: true
 ---
 
