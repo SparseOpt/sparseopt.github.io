@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""   
-permalink: /SQCQP/
+permalink: /SQCQP-CN/
 author_profile: true
 ---
 
