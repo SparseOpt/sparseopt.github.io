@@ -24,7 +24,7 @@ a:active {
 </style>
 
 
-##  <span style="color:#8C8C8C"> Sparse quadratically constrained quadratic programming </span> 
+## 稀疏二次约束二次规划
 ---
 \begin{equation}
 \begin{array}{rl}
@@ -40,7 +40,7 @@ a:active {
 - $\mathbf{Q}_i\in\mathbb{R}^{n\times n}, \mathbf{q}_i\in\mathbb{R}^{n}, c_i\in\mathbb{R},~~i=0,1,\ldots,k$
 - $\mathbf{A}\in\mathbb{R}^{m_1\times n}$, $\mathbf{b}\in\mathbb{R}^{m_1}$
 - $\mathbf{B}\in\mathbb{R}^{m_2\times n}$, $\mathbf{d}\in\mathbb{R}^{m_2}$
-- $l$ 和 $u$ 是两个数且满足 $0\in[l, u]$
+- $l$ 和 $u$ 是上下界且满足 $l \leq 0 \leq u$
 - $\parallel\mathbf{x}\parallel_0$ 表示零范数，计算 $\mathbf{x}$ 中非零元个数
 - $s$ 是一个远小于 $n$ 的正整数
          
@@ -54,7 +54,7 @@ a:active {
 
 ---
 <div style="text-align:justify;">
-下面展示了该求解器在稀疏投资组合选择问题中的一个应用示例。用户需要指定输入 $\texttt{(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub)}$。如果某个输入不需要，则将其设置为 $\texttt{[ ]}$。
+下面展示了该求解器在稀疏投资组合选择问题中的一个应用示例。用户需要指定输入 ($\texttt{n}$, $\texttt{s}$, $\texttt{Q0}$, $\texttt{q0}$, $\texttt{Qi}$, $\texttt{qi}$, $\texttt{ci}$, $\texttt{ineqA}$, $\texttt{ineqb}$, $\texttt{eqA}$, $\texttt{eqb}$, $\texttt{lb}$, $\texttt{ub}$)。如果某个输入不需要，则将其设置为 $\texttt{[ ]}$。
 </div>
 
 <p style="line-height: 1;"></p>
@@ -90,7 +90,7 @@ Out           = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars);
 ```
 
 <div style="text-align:justify;">
-求解器 $\texttt{SNSQP}$ 的输入和输出如下所示。注意，输入 $\texttt{Qi}$ 是一个单元，包含了 (SQCQP) 中所有的 $Q_i, i=1,2,\ldots,k$。如果某些约束不存在，则将其设置为空，即 $\texttt{[ ]}$。参数 $\texttt{pars}$ 是可选的；但是，指定其中的一些参数可以提升求解器的性能和解的质量。  
+求解器 $\texttt{SNSQP}$ 的输入和输出如下所示。注意，输入 $\texttt{Qi}$ 是一个单元，包含了 (SQCQP) 中所有的 $(Q_1,\ldots,Q_k)$。如果某些约束不存在，则将其设置为 $\texttt{[ ]}$。参数 $\texttt{pars}$ 是可选的；但是，指定其中的一些参数可以提升求解器的性能和解的质量。  
 </div>
 
 <p style="line-height: 1;"></p>
