@@ -32,9 +32,9 @@ a:active {
 \end{equation}
 
 <div style="text-align:justify;">
-where $\mathbf{G}(\mathbf{x})\in\mathbb{R}^{M \times N}$ with each entry being $G_{ij}(\mathbf{x})$, $1\leq i\leq M$, $1\leq j \leq N$, functions $f:\mathbb{R}^{K}\rightarrow \mathbb{R}$ and $G_{ij}:\mathbb{R}^{K}\rightarrow \mathbb{R}$ are (preferably twice) continuously differentiable, $\Omega\subseteq\mathbb{R}^{K}$ is a closed and convex set, and $s\ll N$ is an integer. For a matrix $\mathbf{Z}\in\mathbb{R}^{M \times N}$,  measure $\|\mathbf{Z}\|_0^+$ counts the number of its columns that have positive entries, i.e., 
+其中， $\mathbf{G}(\mathbf{x})\in\mathbb{R}^{M \times N}$ 是一个 $M \times N$ 维矩阵，每一个元素为 $G_{ij}(\mathbf{x})$, $1\leq i\leq M$, $1\leq j \leq N$, 函数 $f:\mathbb{R}^{K}\rightarrow \mathbb{R}$ 和 $G_{ij}:\mathbb{R}^{K}\rightarrow \mathbb{R}$ 连续可微，最好是二次连续可微, $\Omega\subseteq\mathbb{R}^{K}$ 是一个闭凸集, $s$ 是一个远小于 $n$ 的正整数。 对于矩阵 $\mathbf{Z}\in\mathbb{R}^{M \times N}$，$\|\mathbf{Z}\|_0^+$ 计算$\mathbf{Z}$ 中含有正元素的列的个数，即
   \begin{equation}\|\mathbf{Z}\|_0^+= \mathrm{step}\Big(\max_{i=1,\ldots,M} Z_{i1}\Big)+\cdots+\mathrm{step}\Big(\max_{i=1,\ldots,M} Z_{iN}\Big)\nonumber\end{equation}
-  Here, $\mathrm{step}(t)$ is the step function (or 0/1 loss function) defined by $\mathrm{step}(t)=1$ if $t>0$ and $\mathrm{step}(t)=0$ otherwise. In particular, when $M=1$, for a vector $\mathbf{z}\in\mathbb{R}^{N}$, let $\mathbf{z}_+=(\max\{0,z_1\},\ldots,\max\{0,z_N\})^\top$ and  $\parallel\mathbf{z}\parallel_0$ denote its L0 norm that counts the number of its nonzero entries. As a result,  
+这里, $\mathrm{step}(t)$ 是阶梯函数，又称作 0/1 损失函数。它的定义为：如果 $t>0$， 则 $\mathrm{step}(t)=1$； 如果 $t\leq0$，则 $\mathrm{step}(t)=0$。 特别地，当 $M=1$, 矩阵 $\mathbf{Z}$ 退化成向量 $\mathbf{z}\in\mathbb{R}^{N}$, 如果记 $\mathbf{z}_+=(\max\{0,z_1\},\ldots,\max\{0,z_N\})^\top$ 以及  $\parallel\mathbf{z}\parallel_0$ 表示 $\mathbf{z}$ 的零范数，也就是 $\mathbf{z}$ 中非零元个数，则有  
   \begin{equation*}\|\mathbf{z}\|_0^+= \mathrm{step}(z_1)+\cdots+\mathrm{step}(z_N)=\|\mathbf{z}_+\|_0\end{equation*}
 </div>
  
