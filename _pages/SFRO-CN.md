@@ -65,7 +65,7 @@ end
 ```
 
 <div style="text-align:justify;">  
-如果不需要额外的函数，用户只需定义目标函数值、梯度和海瑟矩阵，然后省略 $\texttt{key}$='$\texttt{a}$'，如下所示。注意，当没有 $\texttt{key}$='$\texttt{a}$' 这一情况时，用户必须保留 $\texttt{otherwise; out = [];}$。
+如果不需要额外的函数，用户只需定义目标函数值、梯度和海瑟矩阵，然后省略情况 $\texttt{key}$='$\texttt{a}$'，如下所示。注意，当情况 $\texttt{key}$='$\texttt{a}$' 被省略时，用户必须保留 $\texttt{otherwise; out = [];}$。
 </div>
 <p style="line-height: 1;"></p>
 
