@@ -26,13 +26,6 @@ a:active {
 }
 </style>
 
- 
-<div class="top-right-container">
-    <!-- Your Markdown content here -->
-    <div class="top-right-content">
-        <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=150&t=tt&d=HPcu2PQQVqpyclUxmAqbL9iwvLM8SXHaoaSE5UQQZL4&co=ffffff&ct=006DB0&cmo=ffffff&cmn=ffffff'></script>
-    </div>
-</div>
 
 ##  <span style="color:#777777"> Welcome to SparseOpt Toolbox </span> 
 
