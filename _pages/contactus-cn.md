@@ -35,14 +35,14 @@ You are welcome to send your comments and suggestions to one of our members:
 
 | <span style="color:#ffffff"> People  People People</span> &nbsp; |<span style="color:#ffffff"> Affiliation Affiliation Affiliation Affiliat</span>| <span style="color:#ffffff"> Email Email Email Email Email Email Email Email  Email Email </span>|
 | :---   |   :---       |  :--- |
-|👨 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://shenglongzhou.github.io/" target="_blank"> Shenglong Zhou</a> | 🏫 Beijing Jiaotong University  | 📧 slzhou2021@163.com |
-|👨 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://faculty.bjtu.edu.cn/6336/" target="_blank"> Naihua Xiu</a> | 🏫 Beijing Jiaotong University | 📧 nhxiu@bjtu.edu.cn |
-|👨 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://www.polyu.edu.hk/ama/profile/hdqi/hdqi.html" target="_blank"> Hou-Duo Qi</a> | 🏫 The Hong Kong Polytechnic University | 📧 houduo.qi@polyu.edu.hk |
-|👩 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://faculty.bjtu.edu.cn/8525/" target="_blank"> Ziyan Luo</a> | 🏫 Beijing Jiaotong University | 📧 zyluo@bjtu.edu.cn |
-|👩 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sci.sdut.edu.cn/_t832/2018/1129/c5856a253869/page.htm" target="_blank"> Lili Pan</a> | 🏫 Shandong University of Technology | 📧 panlili1979@163.com|
-|👨 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://shuaili2025.github.io/" target="_blank"> Shuai Li</a> | 🏫 Beijing Jiaotong University | 📧  24110488@bjtu.edu.cn |
-|👨 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://faculty.bjtu.edu.cn/8316/" target="_blank"> Lingchen Kong</a> | 🏫 Beijing Jiaotong University | 📧 lchkong@bjtu.edu.cn |
-|👨<a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://profiles.imperial.ac.uk/geoffrey.li/" target="_blank"> Geoffrey Ye Li</a> | 🏫 Imperial College London | 📧 geoffrey.li@imperial.ac.uk |
+|👨 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://shenglongzhou.github.io/" target="_blank"> 周声龙</a> | 🏫 北京交通大学  | 📧 slzhou2021@163.com |
+|👨 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://faculty.bjtu.edu.cn/6336/" target="_blank"> 修乃华</a> | 🏫 北京交通大学 | 📧 nhxiu@bjtu.edu.cn |
+|👨 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://www.polyu.edu.hk/ama/profile/hdqi/hdqi.html" target="_blank">戚厚铎</a> | 🏫 香港理工大学 | 📧 houduo.qi@polyu.edu.hk |
+|👩 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://faculty.bjtu.edu.cn/8525/" target="_blank"> 罗自炎</a> | 🏫 北京交通大学 | 📧 zyluo@bjtu.edu.cn |
+|👩 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sci.sdut.edu.cn/_t832/2018/1129/c5856a253869/page.htm" target="_blank"> 潘丽丽</a> | 🏫 山东理工大学 | 📧 panlili1979@163.com|
+|👨 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://shuaili2025.github.io/" target="_blank"> 李&nbsp &nbsp帅</a> | 🏫 北京交通大学 | 📧  24110488@bjtu.edu.cn |
+|👨 <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://faculty.bjtu.edu.cn/8316/" target="_blank"> 孔令臣</a> | 🏫 北京交通大学 | 📧 lchkong@bjtu.edu.cn |
+|👨<a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://profiles.imperial.ac.uk/geoffrey.li/" target="_blank"> 李&nbsp &nbsp烨</a> | 🏫 伦敦帝国理工 | 📧 geoffrey.li@imperial.ac.uk |
 
 <!--
 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://shenglongzhou.github.io/" target="_blank">Shenglong Zhou</a> - Beijing Jiaotong University, slzhou2021@163.com.
