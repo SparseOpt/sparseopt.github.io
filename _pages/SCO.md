@@ -33,14 +33,14 @@ a:active {
 \end{equation}
 
 <div style="text-align:justify;">
-其中，函数 $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ 连续可微（最好是二次连续可微）， $s$ 是一个远小于 $n$ 的正整数, $\|\mathbf{x}\|_0$ 代表了 $\mathbf{x}$ 的零范数， 也即，计算 $\mathbf{x}$ 中非零元素个数.
+其中，函数 $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ 连续可微（最好是二次连续可微），$s$ 是一个远小于 $n$ 的正整数, $\|\mathbf{x}\|_0$ 代表了 $\mathbf{x}$ 的零范数，也即，计算 $\mathbf{x}$ 中非零元素个数.
 </div>
  
 <!-- ## <span style="color:#8C8C8C"> The solver and its demonstration </span> -->
 
 ---
 <div style="text-align:justify;"> 
-程序包 -<a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SCOpack.zip" target="_blank">SCOpack</a> （点击可直接下载）提供了 3 个求解器。其核心算法分别来自以下3篇文章：
+程序包 -<a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SCOpack.zip" target="_blank">SCOpack</a>（点击可直接下载）提供了 3 个求解器。其核心算法分别来自以下 3 篇文章：
 
 </div>
 
@@ -50,7 +50,7 @@ a:active {
 
 ---
 <div style="text-align:justify;">  
-求解器 <b>NHTP</b> and <b style="font-size:16px;color:#777777">GPNP</b> 是二阶算法, 所以需要目标函数、梯度以及二阶海瑟矩阵子块，而求解器 <b>IIHT</b> 是一种一阶方法，仅需要目标函数和梯度。下面给出一个示例，展示如何以统一的方式为三个求解器定义函数来解决一个简单的稀疏约束优化（SCO）问题。其中，输入 $\texttt{x}$ 是变量，字符串变量 $\texttt{key}$ 用于指定计算内容：当 $\texttt{key}$='$\texttt{fg}$' 时表示计算目标函数值和梯度；当 $\texttt{key}$='$\texttt{h}$' 时表示计算海瑟矩阵子块，此时，海瑟矩阵子块由两个索引指标集 $\texttt{T1}$ 和 $\texttt{T2}$ 定义，如果只有一个输出，那么输出的是海瑟矩阵对应于 $\texttt{T1}$ 行和 $\texttt{T1}$ 列子块； 如果有两个输出，第一个输出为海瑟矩阵对应于 $\texttt{T1}$ 行和 $\texttt{T1}$ 列子块，第二个输出为海瑟矩阵对应于 $\texttt{T1}$ 行和  $\texttt{T2}$ 列子块。
+求解器 <b>NHTP</b> and <b>GPNP</b> 是二阶算法, 所以需要目标函数、梯度以及二阶海瑟矩阵子块，而求解器 <b>IIHT</b> 是一阶方法，仅需要目标函数和梯度。下面给出一个示例，展示如何以统一的方式为三个求解器定义函数来解决一个简单的稀疏约束优化（SCO）问题。其中，输入 $\texttt{x}$ 是变量，字符串变量 $\texttt{key}$ 用于指定计算内容：当 $\texttt{key}$='$\texttt{fg}$' 时表示计算目标函数值和梯度；当 $\texttt{key}$='$\texttt{h}$' 时表示计算海瑟矩阵子块，此时，海瑟矩阵子块由两个索引指标集 $\texttt{T1}$ 和 $\texttt{T2}$ 定义，如果只有一个输出，那么输出的是海瑟矩阵对应于 $\texttt{T1}$ 行和 $\texttt{T1}$ 列子块； 如果有两个输出，第一个输出为海瑟矩阵对应于 $\texttt{T1}$ 行和 $\texttt{T1}$ 列子块，第二个输出为海瑟矩阵对应于 $\texttt{T1}$ 行和  $\texttt{T2}$ 列子块。
 </div>
 <p style="line-height: 1;"></p>
 
