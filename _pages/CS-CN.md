@@ -48,7 +48,7 @@ a:active {
 </div> 
 
 <div style="text-align:justify;">
-◻️ L0 和 Lq 范数正则 CS 模型
+◻️ L0 和 Lq (0<q<1) 范数正则 CS 模型
 \begin{equation}
 \min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2+\lambda \parallel\mathbf{x} \parallel_q^q \tag{Lq-RCS}
 \end{equation}
@@ -59,11 +59,11 @@ a:active {
 \begin{equation}
 \min_{\mathbf{x}\in\mathbb{R}^{n}}~ \frac{1}{2}\parallel\mathbf{A}\mathbf{x}-\mathbf{b} \parallel^2+\lambda \parallel \mathbf{W} \mathbf{x} \parallel_1 \tag{RL1CS}
 \end{equation} 
-其中，L0 (零）范数 $\parallel\mathbf{x}\parallel_0$ 计算 $\mathbf{x}$ 中非零元素的个数，$L_q$ 范数 $\parallel\mathbf{x}\parallel_q^q=|x_1|^q+\cdots+|x_n|^q$，q$\in$(0,1)，罚参数 $\lambda>0$，对角矩阵 $\mathbf{W}$ 的对角元都为正数。
+其中，L0 (零）范数 $\parallel\mathbf{x}\parallel_0$ 计算 $\mathbf{x}$ 中非零元素的个数，Lq 范数 $\parallel\mathbf{x}\parallel_q^q=|x_1|^q+\cdots+|x_n|^q$，0<q<1，罚参数 $\lambda>0$，对角矩阵 $\mathbf{W}$ 的对角元都为正数。
 </div> 
 ---
 <div style="text-align:justify;">
-程序包 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\CSpack.zip" target="_blank">CSpack</a>（点击可直接下载）提供了 6 个求解器。其核心算法分别来自以下 6 篇文章，其中，求解器 $\texttt{NHTP}$、  $\texttt{GPSP}$ 和 $\texttt{IIHT}$ 用来求解模型 (SCCS)，求解器 $\texttt{PSNP}$ 用来求解模型 (L0-RCS) 和 (Lq-RCS) (0<q<1)，求解器 $\texttt{NL0R}$ 用来求解模型 (L0-RCS)，求解器 $\texttt{MIRL1}$ 用来求解模型 (RL1CS).
+程序包 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\CSpack.zip" target="_blank">CSpack</a>（点击可直接下载）提供了 6 个求解器。其核心算法分别来自以下 6 篇文章，其中，$\texttt{NHTP}$、  $\texttt{GPSP}$ 和 $\texttt{IIHT}$ 用来求解模型 (SCCS)，$\texttt{PSNP}$ 用来求解模型 (L0-RCS) 和 (Lq-RCS) (0<q<1)，$\texttt{NL0R}$ 用来求解模型 (L0-RCS)，$\texttt{MIRL1}$ 用来求解模型 (RL1CS)。
 </div>  
 > <b style="font-size:14px;color:#777777">NHTP</b> - <span style="font-size: 14px"> S Zhou, N Xiu, and H Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, JMLR, 22:1-45, 2021. </span>
 <br><b style="font-size:14px;color:#777777">GPSP</b> - <span style="font-size: 14px"> S Zhou, Gradient projection Newton pursuit for sparsity constrained optimization, ACHA, 61:75-100, 2022. </span>
