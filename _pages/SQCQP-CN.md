@@ -37,7 +37,7 @@ a:active {
 \end{equation}
 
 其中参数定义如下：
-- 矩阵 $\mathbf{Q}_i\in\mathbb{R}^{n\times n}，向量 \mathbf{q}_i\in\mathbb{R}^{n}，数 c_i\in\mathbb{R},~~i=0,1,\ldots,k$
+- 矩阵 $\mathbf{Q}_i\in\mathbb{R}^{n\times n}$，向量 $\mathbf{q}_i\in\mathbb{R}^{n}$，数 $c_i\in\mathbb{R}$，$i=0,1,\ldots,k$
 - 矩阵 $\mathbf{A}\in\mathbb{R}^{m_1\times n}$，向量 $\mathbf{b}\in\mathbb{R}^{m_1}$
 - 矩阵 $\mathbf{B}\in\mathbb{R}^{m_2\times n}$，向量 $\mathbf{d}\in\mathbb{R}^{m_2}$
 - 下界 $l$ 和 上界 $u$ 满足 $l \leq 0 \leq u$
