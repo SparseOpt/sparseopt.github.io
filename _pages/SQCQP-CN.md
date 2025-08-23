@@ -37,12 +37,12 @@ a:active {
 \end{equation}
 
 其中参数定义如下：
-- $\mathbf{Q}_i\in\mathbb{R}^{n\times n}, \mathbf{q}_i\in\mathbb{R}^{n}, c_i\in\mathbb{R},~~i=0,1,\ldots,k$
-- $\mathbf{A}\in\mathbb{R}^{m_1\times n}$, $\mathbf{b}\in\mathbb{R}^{m_1}$
-- $\mathbf{B}\in\mathbb{R}^{m_2\times n}$, $\mathbf{d}\in\mathbb{R}^{m_2}$
-- $l$ 和 $u$ 是上下界且满足 $l \leq 0 \leq u$
-- $\parallel\mathbf{x}\parallel_0$ 表示零范数，计算 $\mathbf{x}$ 中非零元个数
-- $s$ 是一个远小于 $n$ 的正整数
+- 矩阵 $\mathbf{Q}_i\in\mathbb{R}^{n\times n}，向量 \mathbf{q}_i\in\mathbb{R}^{n}，数 c_i\in\mathbb{R},~~i=0,1,\ldots,k$
+- 矩阵 $\mathbf{A}\in\mathbb{R}^{m_1\times n}$，向量 $\mathbf{b}\in\mathbb{R}^{m_1}$
+- 矩阵 $\mathbf{B}\in\mathbb{R}^{m_2\times n}$，向量 $\mathbf{d}\in\mathbb{R}^{m_2}$
+- 下界 $l$ 和 上界 $u$ 满足 $l \leq 0 \leq u$
+- 零范数 $\parallel\mathbf{x}\parallel_0$ 计算 $\mathbf{x}$ 中非零元个数
+- 正整数 $s\ll n$
          
 <!--## <span style="color:#8C8C8C"> The solver and its demonstration </span> -->
 --- 
