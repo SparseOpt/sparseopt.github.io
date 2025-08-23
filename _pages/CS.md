@@ -60,7 +60,7 @@ where $\parallel\mathbf{x}\parallel_q^q=|x_1|^q+\cdots+|x_n|^q$ denotes the Lq n
 </div> 
 ---
 <div style="text-align:justify;">
-The package can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\CSpack.zip" target="_blank">CSpack</a>, which provides 6 solvers from the following papers, where <b>NHTP</b>, <b>GPSP</b>, and <b>IIHT</b> are designed to solve (SCCS), <b>PSNP</b> is designed to solve (L0-RCS) and  (Lq-RCS) with 0<q<1,  <b>NL0R</b> is designed to solve (L0-RCS), and <b>MIRL1</b> is designed to solve (RL1CS).
+The package can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\CSpack.zip" target="_blank">CSpack</a>, which provides 6 solvers from the following papers, where NHTP, GPSP, and  IIH are designed to solve (SCCS),  PSNP is designed to solve (L0-RCS) and (Lq-RCS) with $0<q<1$,  NL0R is designed to solve (L0-RCS), and MIRL1 is designed to solve (RL1CS).
 </div>  
 > <b style="font-size:14px;color:#777777">NHTP</b> - <span style="font-size: 14px"> S Zhou, N Xiu, and H Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, JMLR, 22:1-45, 2021. </span>
 <br><b style="font-size:14px;color:#777777">GPSP</b> - <span style="font-size: 14px"> S Zhou, Gradient projection Newton pursuit for sparsity constrained optimization, ACHA, 61:75-100, 2022. </span>
@@ -71,7 +71,7 @@ The package can be downloaded here - <a style="font-size: 16px; font-weight: bol
 
 ---
 <div style="text-align:justify;">
-Below is a demonstration of how <b>CSpack</b> can be used to solve the problem. You need to input data ($\texttt{A}$, $\texttt{At}$, $\texttt{b}$, $\texttt{n}$, $\texttt{s}$)  and select $\texttt{solver}$ from {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$', '$\texttt{PSNP}$', '$\texttt{NL0R}$', '$\texttt{MILR1}$'}. 
+Below is a demonstration of how CSpack can be used to solve the problem. You need to input data ($\texttt{A}$, $\texttt{At}$, $\texttt{b}$, $\texttt{n}$, $\texttt{s}$)  and select $\texttt{solver}$ from {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$', '$\texttt{PSNP}$', '$\texttt{NL0R}$', '$\texttt{MILR1}$'}. 
 </div>
 
 <p style="line-height: 1;"></p>
@@ -99,7 +99,7 @@ fprintf(' Computational time:      %.3fsec\n',out.time);
 ```
 
 <div style="text-align:justify;">
-The inputs and outputs of <b>CSpack</b> are detailed below, where inputs ($\texttt{A}$, $\texttt{At}$, $\texttt{b}$, $\texttt{n}$, $\texttt{s}$, $\texttt{solver}$) are required. If $\texttt{A}$ is a matrix,  $\texttt{At}$ can be $\texttt{A}$' or $\texttt{[]}$. If $\texttt{A}$ is a function handle, then $\texttt{At}$ must be provided. If $\texttt{solver}$ is one of {'$\texttt{PSNP}$', '$\texttt{NL0R}$', '$\texttt{MILR1}$'}, then $\texttt{s}$ can be $\texttt{[]}$.  If $\texttt{solver}$ is one of {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, then $\texttt{s}$ must be provided. The parameters in $\texttt{pars}$ are optional, but setting certain ones can improve the solver's performance and the quality of the solution.
+The inputs and outputs of CSpack are detailed below, where inputs ($\texttt{A}$, $\texttt{At}$, $\texttt{b}$, $\texttt{n}$, $\texttt{s}$, $\texttt{solver}$) are required. If $\texttt{A}$ is a matrix,  $\texttt{At}$ can be $\texttt{A}$' or $\texttt{[]}$. If $\texttt{A}$ is a function handle, then $\texttt{At}$ must be provided. If $\texttt{solver}$ is one of {'$\texttt{PSNP}$', '$\texttt{NL0R}$', '$\texttt{MILR1}$'}, then $\texttt{s}$ can be $\texttt{[]}$.  If $\texttt{solver}$ is one of {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, then $\texttt{s}$ must be provided. The parameters in $\texttt{pars}$ are optional, but setting certain ones can improve the solver's performance and the quality of the solution.
 </div>
 
 <p style="line-height: 1;"></p>
