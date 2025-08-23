@@ -5,10 +5,10 @@ main:
     url: /about/
     
   - title: <span style="color:#015697"><b>SCO</b></span>
-    url: /SCO/
+    url: /SCO-CN/
     
   - title: <span style="color:#015697"><b>SRO</b></span>
-    url: /SRO/
+    url: /SRO-CN/
     
   - title: <span style="color:#015697"><b>SFCO</b></span>
     url: /SFCO/ 
