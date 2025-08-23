@@ -35,8 +35,8 @@ a:active {
 
 <p style="line-height: 2;"></p>
 
-✅ <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt-cn.github.io/SCO/" target="_blank">SCO</a> &nbsp&nbsp- 稀疏约束优化求解器
-✅ <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt-cn.github.io/SRO/" target="_blank">SRO</a> &nbsp&nbsp- 稀疏正则优化求解器
+✅ <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt-cn.github.io/SCO/" target="_blank">SCO</a> &nbsp&nbsp- 稀疏约束优化求解器<br>
+✅ <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt-cn.github.io/SRO/" target="_blank">SRO</a> &nbsp&nbsp- 稀疏正则优化求解器<br>
 <div style="text-align:justify"> ✅ <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt-cn.github.io/SFCO/" target="_blank">SFCO</a> &nbsp- 阶梯函数约束优化求解器</div>
 <div style="text-align:justify"> ✅ <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt-cn.github.io/SFRO/" target="_blank">SFRO</a> &nbsp- 阶梯函数正则优化求解器</div>
 <div style="text-align:justify"> ✅ <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt-cn.github.io/SQCQP/" target="_blank">SQCQP</a> - 稀疏二次约束二次规划求解器</div>
