@@ -24,10 +24,10 @@ a:active {
 </style>
 
 
-##  <span style="color:#8C8C8C"> One-bit compressive sensing</span> 
+## 1比特压缩感知
 ---
 <div style="text-align:justify;">
-One-bit compressive sensing (1BCS) problems aim to recover a sparse signal $\mathbf{x}^*\in\mathbb{R}^{n}$ from the following system,
+1比特压缩感知（One-bit compressive sensing，1BCS）旨在从以下系统中恢复出稀疏信号 $\mathbf{x}^*\in\mathbb{R}^{n}$，
 </div>
 
 \begin{equation}
@@ -35,7 +35,7 @@ One-bit compressive sensing (1BCS) problems aim to recover a sparse signal $\mat
 \end{equation} 
 
 <div style="text-align:justify;">
-where $\mathbf{A}\in\mathbb{R}^{m\times n}$ is the sensing matrix, both $\mathbf{b}$ and $\mathbf{h}\in\{-1,1\}^{m}$, $\boldsymbol{\varepsilon}\in\mathbb{R}^{n}$ is the noise, $\mathrm{Diag}(\mathbf{h})$ denotes the diagonal matrix with diagonal entries formed by $\mathbf{h}$, and $\mathrm{sign}$ is the sign function defined by $\mathrm{sign}(t)=1$ if $t>0$ and $\mathrm{sign}(t)=-1$ otherwise. Then $\mathrm{sign}(\mathbf{x})=(\mathrm{sign}(x_1),\cdots,\mathrm{sign}(x_n))^\top$. Note that multiplying $\mathrm{Diag}(\mathbf{h})$ means that the sign flip occurs when observing $\mathbf{b}$, making the problem harder. In this model, we assume at most $k$ signs are flipped, namely, $\mathbf{h}$ satisfies $\parallel\mathbf{h}-1\parallel_0\leq k$, where $k$ is a given integer and $\parallel\mathbf{x}\parallel_0$ denotes the  L0 norm that counts the number of nonzero entries in $\mathbf{x}$. The following optimization models are solved to recover the signal.
+其中，采样矩阵 $\mathbf{A}\in\mathbb{R}^{m\times n}$，观测向量 $\mathbf{b}$ 和符号翻转向量 $\mathbf{h}\in{-1,1}^{m}$，噪声 $\boldsymbol{\varepsilon}\in\mathbb{R}^{n}$，对角矩阵 $\mathrm{Diag}(\mathbf{h})$ 的对角元由  $\mathbf{h}$ 组成，符号函数 $\mathrm{sign}$ 定义为 $\mathrm{sign}(t)=1$ 当 $t>0$，否则 $\mathrm{sign}(t)=-1$。向量情形下，$\mathrm{sign}(\mathbf{x})=(\mathrm{sign}(x_1),\cdots,\mathrm{sign}(x_n))^\top$。值得一提的是，观测 $\mathbf{b}$ 是符号翻转后得到的，因而，问题更具挑战性。在该模型中，假设最多有 $k$ 个符号被翻转，即 $\mathbf{h}$ 满足 $\parallel\mathbf{h}-1\parallel_0\leq k$，其中 $k$ 为给定整数，零范数 $\parallel\mathbf{x}\parallel_0$ 表示 $\mathbf{x}$ 中非零元个数。为恢复信号，可求解以下优化模型。
 </div> 
  <p style="line-height: 2;"></p>
  <div style="text-align:justify;"> 
