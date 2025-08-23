@@ -23,11 +23,6 @@ a:active {
 }
 </style>
 
-<div class="top-right-container"> 
-    <div class="top-right-content">
-        <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=150&t=tt&d=rP3QU4_l0oz0AI4nQF2hzWbFXrvxbk1CTQf-Lw4BOsY&co=ffffff&cmo=ffffff&cmn=ffffff&ct=006DB0'></script> 
-    </div>
-</div>     
 
 ##  <span style="color:#8C8C8C"> Sparse support vector machine</span> 
 ---
