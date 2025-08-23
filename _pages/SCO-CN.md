@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""   
-permalink: /SCO/
+permalink: /SCO-CN/
 author_profile: true
 ---
 
