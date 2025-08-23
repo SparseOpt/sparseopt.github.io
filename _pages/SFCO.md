@@ -23,7 +23,7 @@ a:active {
 }
 </style>
 
-##  <span style="color:#8C8C8C"> Step function-constrained optimization</span> 
+## Step function-constrained optimization
 ---
 
 <p style="line-height: 1;"></p>
