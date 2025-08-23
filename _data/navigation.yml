@@ -1,7 +1,7 @@
 # main links links
 
 main:
-  - title: <span style="color:#015697"><b>Home</b></span>
+  - title: <span style="color:#015697"><b>主页</b></span>
     url: /about-cn/
     
   - title: <span style="color:#015697"><b>SCO</b></span>
@@ -28,7 +28,7 @@ main:
   - title: <span style="color:#015697"><b>SSVM</b></span>
     url: /SSVM-CN/   
     
-  - title: <span style="color:#015697"><b>Contact Us</b></span>
+  - title: <span style="color:#015697"><b>联系方式</b></span>
     url: /contactus-cn/   
     
 #  - title: <span style="color:#015697"><b>Solvers</b></span>
