@@ -2,7 +2,7 @@
 
 main:
   - title: <span style="color:#015697"><b>Home</b></span>
-    url: /about/
+    url: /about-cn/
     
   - title: <span style="color:#015697"><b>SCO</b></span>
     url: /SCO-CN/
@@ -11,25 +11,25 @@ main:
     url: /SRO-CN/
     
   - title: <span style="color:#015697"><b>SFCO</b></span>
-    url: /SFCO/ 
+    url: /SFCO-CN/ 
     
   - title: <span style="color:#015697"><b>SFRO</b></span>
-    url: /SFRO/ 
+    url: /SFRO-CN/ 
     
   - title: <span style="color:#015697"><b>SQCQP</b></span>
-    url: /SQCQP/  
+    url: /SQCQP-CN/  
     
   - title: <span style="color:#015697"><b>CS</b></span>
-    url: /CS/ 
+    url: /CS-CN/ 
     
   - title: <span style="color:#015697"><b>1BCS</b></span>
-    url: /1BCS/   
+    url: /1BCS-CN/   
     
   - title: <span style="color:#015697"><b>SSVM</b></span>
-    url: /SSVM/   
+    url: /SSVM-CN/   
     
   - title: <span style="color:#015697"><b>Contact Us</b></span>
-    url: /contactus/   
+    url: /contactus-cn/   
     
 #  - title: <span style="color:#015697"><b>Solvers</b></span>
 #    url: /publications/
