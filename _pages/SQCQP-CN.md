@@ -36,26 +36,25 @@ a:active {
 \end{array} \tag{SQCQP}
 \end{equation}
 
-where parameters are defined as follows
+其中参数定义如下：
 - $\mathbf{Q}_i\in\mathbb{R}^{n\times n}, \mathbf{q}_i\in\mathbb{R}^{n}, c_i\in\mathbb{R},~~i=0,1,\ldots,k$
 - $\mathbf{A}\in\mathbb{R}^{m_1\times n}$, $\mathbf{b}\in\mathbb{R}^{m_1}$
 - $\mathbf{B}\in\mathbb{R}^{m_2\times n}$, $\mathbf{d}\in\mathbb{R}^{m_2}$
-- $l$ and $u$ are two scalars satisfying $0\in[l, u]$
-- $\parallel\mathbf{x}\parallel_0$ denotes the so-called L0 norm, which counts the number of nonzero entries in $\mathbf{x}$
-- $s\ll n$ is a given integer
+- $l$ 和 $u$ 是两个数且满足 $0\in[l, u]$
+- $\parallel\mathbf{x}\parallel_0$ 表示零范数，计算 $\mathbf{x}$ 中非零元个数
+- $s$ 是一个远小于 $n$ 的正整数
          
 <!--## <span style="color:#8C8C8C"> The solver and its demonstration </span> -->
 --- 
 <div style="text-align:justify;">
-The solver can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SQCQP.zip" target="_blank">SNSQP</a>, which  
-was developed from the following paper:</div>
-> <b style="font-size:14px;color:#777777">SNSQP</b> - <span style="font-size: 14px"> S Li, S  Zhou, Z  Luo, Sparse quadratically constrained quadratic programming via semismooth Newton method, arXiv:2503.15109, 2025. </span>
+程序包 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SQCQP.zip" target="_blank">SNSQP</a>（点击可直接下载）提供了 1 个求解器，其核心算法来自以下文章：
+</div>
 
-<!-- <a style="font-size: 14px;color:#000000" href="https://arxiv.org/abs/2503.15109" target="_blank"> S Li, S  Zhou, Z  Luo, Sparse quadratically constrained quadratic programming via semismooth Newton method, *arXiv:2503.15109*, 2025.</a> -->
+> <b style="font-size:14px;color:#777777">SNSQP</b> - <span style="font-size: 14px"> S Li, S  Zhou, Z  Luo, Sparse quadratically constrained quadratic programming via semismooth Newton method, arXiv:2503.15109, 2025. </span>
 
 ---
 <div style="text-align:justify;">
-Below is a demonstration of the solver applied to a sparse portfolio selection problem. You need to specify inputs $\texttt{(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub)}$. If an input is unnecessary, then put it as $\texttt{[ ]}$.
+下面展示了该求解器在稀疏投资组合选择问题中的一个应用示例。用户需要指定输入 $\texttt{(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub)}$。如果某个输入不需要，则将其设置为 $\texttt{[ ]}$。
 </div>
 
 <p style="line-height: 1;"></p>
@@ -91,7 +90,7 @@ Out           = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars);
 ```
 
 <div style="text-align:justify;">
-The inputs and outputs of SNSQP are detailed below. Note that input $\texttt{Qi}$ is a cell that include $Q_i, i=1,2,\ldots,k$ described in (SQCQP). If some constraints are absent, then just put them as an empty set, i.e.,  $\texttt{[ ]}$. The parameters in $\texttt{pars}$ are optional; however, specifying certain ones can enhance the solver's performance and solution quality.
+求解器 $\texttt{SNSQP}$ 的输入和输出如下所示。注意，输入 $\texttt{Qi}$ 是一个单元，包含了 (SQCQP) 中所有的 $Q_i, i=1,2,\ldots,k$。如果某些约束不存在，则将其设置为空，即 $\texttt{[ ]}$。参数 $\texttt{pars}$ 是可选的；但是，指定其中的一些参数可以提升求解器的性能和解的质量。  
 </div>
 
 <p style="line-height: 1;"></p>
