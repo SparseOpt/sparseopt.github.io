@@ -33,7 +33,7 @@ a:active {
 \end{equation}
 
 <div style="text-align:justify;">
-其中，函数 $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ 二次连续可微，$\mathbf{B}\in\mathbb{R}^{m\times n}$ 是一个矩阵，$\mathbf{b}\in\mathbb{R}^{m}$ 是一个向量，$\lambda>0$ 是罚参数，$\mathbf{z}_+=(\max{0,z_1},\ldots,\max{0,z_m})^\top$，$\|\mathbf{z}\|0$ 为 $\mathbf{z}$ 的零范数，即计算 $\mathbf{z}$ 中非零元的个数。因此，$\|\mathbf{z}_+\|_0$ 表示 $\mathbf{z}$ 中正元素的个数。该项与阶梯函数（或称 0/1 损失函数）相关，其定义为： $\mathrm{step}(t)=1$ 当 $t>0$，否则 $\mathrm{step}(t)=0$。因此，$\|\mathbf{z}_+\|_0= \mathrm{step}(z_1)+\cdots+\mathrm{step}(z_m)$。  
+其中，函数 $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ 二次连续可微，矩阵 $\mathbf{B}\in\mathbb{R}^{m\times n}$，向量 $\mathbf{b}\in\mathbb{R}^{m}$，罚参数 $\lambda>0$，$\mathbf{z}_+=(\max{0,z_1},\ldots,\max{0,z_m})^\top$，零范数 $\|\mathbf{z}\|0$ 计算 $\mathbf{z}$ 中非零元的个数。因此，$\|\mathbf{z}_+\|_0$ 表示 $\mathbf{z}$ 中正元素的个数。该项与阶梯函数（或称 0/1 损失函数）相关，其定义为： $\mathrm{step}(t)=1$ 当 $t>0$，否则 $\mathrm{step}(t)=0$。因此，$\|\mathbf{z}_+\|_0= \mathrm{step}(z_1)+\cdots+\mathrm{step}(z_m)$。  
 </div>
  
 <!-- ## <span style="color:#8C8C8C"> The solver and its demonstration </span> -->
