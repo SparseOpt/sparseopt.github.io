@@ -33,7 +33,7 @@ a:active {
 \end{equation}
 
 <div style="text-align:justify;">
-其中，函数 $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ 连续可微，最好是二次连续可微，正整数 $s\ll n$, 零范数 $\|\mathbf{x}\|_0$ 计算 $\mathbf{x}$ 中非零元个数。
+其中，函数 $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ 连续可微，最好是二次连续可微，正整数 $s\ll n$，零范数 $\|\mathbf{x}\|_0$ 计算 $\mathbf{x}$ 中非零元个数。
 </div>
  
 <!-- ## <span style="color:#8C8C8C"> The solver and its demonstration </span> -->
