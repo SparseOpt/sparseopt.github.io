@@ -57,8 +57,9 @@ a:active {
 </div>  
 
 > <div style="text-align:justify;"> 
-  根据表示定理（Representer Theorem），模型 (SVM) 的最优解 $\mathbf{w}$ 与对偶 SVM 的最优解 $\boldsymbol{\alpha}$ 满足 $ \mathbf{w} = \sum_{i=1}^m \alpha_i y_i \mathbf{a}_i $。
-  此时，对应非零 $\alpha_i$ 的训练向量 $\mathbf{a}_i$ 被称为支持向量（support vectors）。因此，模型 (SFRSVM) 和 (SCSVM) 都能够减少支持向量的数量。 </div> 
+  根据表示定理（Representer Theorem），模型 (SVM) 的最优解 $\mathbf{w}$ 与对偶 SVM 的最优解 $\boldsymbol{\alpha}$ 满足 $\mathbf{w} = \sum_{i=1}^m \alpha_i y_i \mathbf{a}_i$。
+  此时，对应于 $\boldsymbol{\alpha}$ 非零分量 $\alpha_i$ 的训练向量 $\mathbf{a}_i$ 被称为支持向量（support vectors）。因此，模型 (SFRSVM) 和 (SCSVM) 都能够减少支持向量的数量。 
+  </div> 
 
 ---
 <div style="text-align:justify;">
