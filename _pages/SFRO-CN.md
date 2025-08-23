@@ -33,7 +33,7 @@ a:active {
 \end{equation}
 
 <div style="text-align:justify;">
-其中，函数 $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ 二次连续可微，矩阵 $\mathbf{B}\in\mathbb{R}^{m\times n}$，向量 $\mathbf{b}\in\mathbb{R}^{m}$，罚参数 $\lambda>0$，$\mathbf{z}_+=(\max{0,z_1},\ldots,\max{0,z_m})^\top$，零范数 $\|\mathbf{z}\|0$ 计算 $\mathbf{z}$ 中非零元的个数。因此，$\|\mathbf{z}_+\|_0$ 表示 $\mathbf{z}$ 中正元素的个数。该项与阶梯函数（或称 0/1 损失函数）相关，其定义为： $\mathrm{step}(t)=1$ 当 $t>0$，否则 $\mathrm{step}(t)=0$。因此，$\|\mathbf{z}_+\|_0= \mathrm{step}(z_1)+\cdots+\mathrm{step}(z_m)$。  
+其中，函数 $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ 二次连续可微，矩阵 $\mathbf{B}\in\mathbb{R}^{m\times n}$，向量 $\mathbf{b}\in\mathbb{R}^{m}$，罚参数 $\lambda>0$，$\mathbf{z}_+=(\max{0,z_1},\ldots,\max{0,z_m})^\top$，零范数 $\|\mathbf{z}\|_0$ 计算 $\mathbf{z}$ 中非零元的个数。因此，$\|\mathbf{z}_+\|_0$ 表示 $\mathbf{z}$ 中正元素的个数。该项与阶梯函数（或称 0/1 损失函数）相关，其定义为： $\mathrm{step}(t)=1$ 当 $t>0$，否则 $\mathrm{step}(t)=0$。因此，$\|\mathbf{z}_+\|_0= \mathrm{step}(z_1)+\cdots+\mathrm{step}(z_m)$。  
 </div>
  
 <!-- ## <span style="color:#8C8C8C"> The solver and its demonstration </span> -->
@@ -48,7 +48,7 @@ a:active {
  
 ---
 <div style="text-align:justify;">  
-求解器 $\texttt{NM01}$ 是一种二阶方法，需要用到函数值，梯度和海瑟矩阵。下面用1-比特压缩感知（<a style="font-size: 16px; color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">1BCS</a>）作为示例，展示如何为该求解器定义函数值，梯度和海瑟矩阵。 该问题的目标函数 $f(\mathbf{x})$ 可以参考 <a style="font-size: 16px; font-weight: bold; color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">1BCS</a> 页面中的模型（<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>）。下面的 MATLAB 代码定义了 $(f(\mathbf{x}), \nabla f(\mathbf{x}), \nabla^2 f(\mathbf{x}))$，其中，函数句柄中的输入 $\texttt{x}$ 和 $\texttt{key}$ 为两个变量，其他输入 $\texttt{eps}$、$\texttt{q}$、$\texttt{A}$ 和 $\texttt{c}$ 为模型（<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>）中给定的参数和数据。这里，字符串变量 $\texttt{key}$ 用于指定计算内容：当 $\texttt{key}$='$\texttt{f}$' 时计算目标函数值；当 $\texttt{key}$='$\texttt{g}$' 时计算梯度；当 $\texttt{key}$='$\texttt{h}$' 时计算海瑟矩阵。当 $\texttt{key}$='$\texttt{a}$' 时，会额外计算一个用户自定义函数。在此示例中，计算的是 1BCS 问题的准确率。这使得用户能够在优化过程中监控自定义指标。  
+求解器 $\texttt{NM01}$ 是二阶方法，需要用到函数值、梯度和海瑟矩阵。下面用1-比特压缩感知（1BCS）作为示例，展示如何为该求解器定义这些内容。 1BCS 问题的目标函数 $f(\mathbf{x})$ 可以参考 <a style="font-size: 16px; font-weight: bold; color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">1BCS</a> 页面中的模型（<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>）。下面的 MATLAB 代码定义了模型中目标函数值、梯度和海瑟矩阵，其中，函数句柄 $\texttt{func1BCS}$ 中的输入 $\texttt{x}$ 和 $\texttt{key}$ 为两个变量，其他输入 $\texttt{eps}$、$\texttt{q}$、$\texttt{A}$ 和 $\texttt{c}$ 为模型（<a style="font-size: 16px;color:#006DB0" href="https://sparseopt.github.io/1BCS/" target="_blank">SFRO</a>）中给定的参数和数据。这里，字符串变量 $\texttt{key}$ 用于指定计算内容：当 $\texttt{key}$='$\texttt{f}$' 时计算目标函数值；当 $\texttt{key}$='$\texttt{g}$' 时计算梯度；当 $\texttt{key}$='$\texttt{h}$' 时计算海瑟矩阵。当 $\texttt{key}$='$\texttt{a}$' 时，会额外计算一个用户自定义函数。在此示例中，计算的是 1BCS 问题的准确率。这使得用户能够在优化过程中监控自定义指标。  
 </div>
 <p style="line-height: 1;"></p>
 
@@ -65,7 +65,7 @@ end
 ```
 
 <div style="text-align:justify;">  
-如果不需要额外的函数，用户只需定义 $(f(\mathbf{x})$, $\nabla f(\mathbf{x})$ 和 $\nabla^2 f(\mathbf{x}))$，然后省略 $\texttt{key}$='$\texttt{a}$'，如下所示。注意，当没有 $\texttt{key}$='$\texttt{a}$' 这一情况时，用户必须保留 $\texttt{otherwise; out = [];}$。
+如果不需要额外的函数，用户只需定义目标函数值、梯度和海瑟矩阵，然后省略 $\texttt{key}$='$\texttt{a}$'，如下所示。注意，当没有 $\texttt{key}$='$\texttt{a}$' 这一情况时，用户必须保留 $\texttt{otherwise; out = [];}$。
 </div>
 <p style="line-height: 1;"></p>
 
