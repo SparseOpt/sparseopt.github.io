@@ -32,9 +32,9 @@ a:active {
 \end{equation}
 
 <div style="text-align:justify;">
-其中， 矩阵 $\mathbf{G}(\mathbf{x})\in\mathbb{R}^{M \times N}$ 的每一个元素为 $G_{ij}(\mathbf{x})$，$1\leq i\leq M$，$1\leq j \leq N$，函数 $f:\mathbb{R}^{K}\rightarrow \mathbb{R}$ 和 $G_{ij}:\mathbb{R}^{K}\rightarrow \mathbb{R}$ 连续可微，最好是二次连续可微，集合 $\Omega\subseteq\mathbb{R}^{K}$ 闭凸，正整数 $s\ll n$。 度量 $\|\mathbf{Z}\|_0^+$ 计算该矩阵 $\mathbf{Z}\in\mathbb{R}^{M \times N}$ 中含有正元素的列的个数，即
+其中， 矩阵 $\mathbf{G}(\mathbf{x})\in\mathbb{R}^{M \times N}$ 的第 $(i,j)$ 个元素为 $G_{ij}(\mathbf{x})$，函数 $f:\mathbb{R}^{K}\rightarrow \mathbb{R}$ 和 $G_{ij}:\mathbb{R}^{K}\rightarrow \mathbb{R}$ 连续可微，最好二次连续可微，集合 $\Omega\subseteq\mathbb{R}^{K}$ 闭凸，正整数 $s\ll n$。 度量 $\|\mathbf{Z}\|_0^+$ 计算矩阵 $\mathbf{Z}\in\mathbb{R}^{M \times N}$ 中含有正元素的列的个数，即
   \begin{equation}\|\mathbf{Z}\|_0^+= \mathrm{step}\Big(\max_{i=1,\ldots,M} Z_{i1}\Big)+\cdots+\mathrm{step}\Big(\max_{i=1,\ldots,M} Z_{iN}\Big)\nonumber\end{equation}
-这里，$\mathrm{step}(t)$ 是阶梯函数，又称作 0/1 损失函数，定义为：如果 $t>0$，则 $\mathrm{step}(t)=1$；如果 $t\leq0$，则 $\mathrm{step}(t)=0$。特别地，当 $M=1$，矩阵 $\mathbf{Z}$ 退化成向量 $\mathbf{z}\in\mathbb{R}^{N}$，如果令 $\mathbf{z}_+=(\max\{0,z_1\},\ldots,\max\{0,z_N\})^\top$ 以及零范数 $\parallel\mathbf{z}\parallel_0$ 计算 $\mathbf{z}$ 中非零元个数，则有  
+这里，$\mathrm{step}(t)$ 是阶梯函数，又称作 0/1 损失函数，定义为：如果 $t>0$，则 $\mathrm{step}(t)=1$；如果 $t\leq0$，则 $\mathrm{step}(t)=0$。特别地，当 $M=1$，矩阵 $\mathbf{Z}$ 退化成向量 $\mathbf{z}\in\mathbb{R}^{N}$，如果令 $\mathbf{z}_+$=$(\max\{0,z_1\}$ $\ldots$ $\max\{0,z_N\})^\top$ 以及零范数 $\parallel\mathbf{z}\parallel_0$ 计算 $\mathbf{z}$ 中非零元个数，则有  
   \begin{equation*}\|\mathbf{z}\|_0^+= \mathrm{step}(z_1)+\cdots+\mathrm{step}(z_N)=\|\mathbf{z}_+\|_0\end{equation*}
 </div>
  
