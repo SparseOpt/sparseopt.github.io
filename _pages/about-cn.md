@@ -29,7 +29,7 @@ a:active {
 ##  欢迎访问 SparseOpt Toolbox 中文版
 
 <div style="text-align:justify">  
-<b>SparseOpt</b> 旨在促进稀疏优化数值工具的开发与发展，同时提供一个相对灵活的平台，用于测试各类稀疏优化应用。该工具箱当前版本包含以下求解器：
+<b>SparseOpt Toolbox</b> 旨在促进稀疏优化数值计算的发展，并提供一个针对性的平台，以支持测试各类稀疏优化应用。当前版本提供以下求解器：
 </div>
 
 <p style="line-height: 2;"></p>
