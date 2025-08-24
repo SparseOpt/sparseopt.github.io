@@ -30,9 +30,7 @@ a:active {
 ## Welcome to SparseOpt Toolbox
 
 <div style="text-align:justify">  
-<b>SparseOpt</b> is designed to accelerate the development of numerical toolboxes for sparse optimization and to provide a flexible platform for testing a wide range of sparse optimization applications. 
-<!--For more information, please refer to <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="" target="_blank">menu-of-SparseOpt</a>. -->
-The current release of the toolbox encompasses the following solvers:
+<b>SparseOpt Toolbox</b> is designed to advance numerical computation in sparse optimization and to provide a dedicated platform that integrates multiple solvers for addressing various sparse optimization applications. The current release of the toolbox encompasses the following solvers:
 </div>
 
 <p style="line-height: 2;"></p>
