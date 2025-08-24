@@ -27,7 +27,7 @@ a:active {
 ## One-bit compressive sensing 
 ---
 <div style="text-align:justify;">
-One-bit compressive sensing (1BCS) problems aim to recover a sparse signal $\mathbf{x}^*\in\mathbb{R}^{n}$ from the following system,
+One-bit compressive sensing (1BCS) problems aim to recover a sparse signal $\mathbf{x}\in\mathbb{R}^{n}$ from the following system,
 </div>
 
 \begin{equation}
