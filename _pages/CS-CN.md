@@ -27,7 +27,7 @@ a:active {
 ## 压缩感知
 ---
 <div style="text-align:justify;">
-压缩感知（Compressive sensing，CS）问题旨在从如下线性系统中恢复出稀疏信号 $\mathbf{x}^*\in\mathbb{R}^{n}$，
+压缩感知（Compressive sensing，CS）问题旨在从如下线性系统中恢复出稀疏信号 $\mathbf{x}\in\mathbb{R}^{n}$，
 </div>
 
 \begin{equation}
@@ -63,7 +63,7 @@ a:active {
 </div> 
 ---
 <div style="text-align:justify;">
-程序包 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\CSpack.zip" target="_blank">CSpack</a>（点击可直接下载）提供了 6 个求解器。其核心算法分别来自以下 6 篇文章，其中，$\texttt{NHTP}$、  $\texttt{GPSP}$ 和 $\texttt{IIHT}$ 用来求解模型 (SCCS)，$\texttt{PSNP}$ 用来求解模型 (L0-RCS) 和 (Lq-RCS) (0<q<1)，$\texttt{NL0R}$ 用来求解模型 (L0-RCS)，$\texttt{MIRL1}$ 用来求解模型 (RL1CS)。
+程序包 - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\CSpack.zip" target="_blank">CSpack</a>（点击可直接下载）提供了 6 个求解器。其核心算法分别来自以下 6 篇文章，其中，$\texttt{NHTP}$、  $\texttt{GPSP}$ 和 $\texttt{IIHT}$ 适用于模型 (SCCS)，$\texttt{PSNP}$ 适用于模型 (L0-RCS) 和 (Lq-RCS) (0<q<1)，$\texttt{NL0R}$ 适用于模型 (L0-RCS)，$\texttt{MIRL1}$ 适用于模型 (RL1CS)。
 </div>  
 > <b style="font-size:14px;color:#777777">NHTP</b> - <span style="font-size: 14px"> S Zhou, N Xiu, and H Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, JMLR, 22:1-45, 2021. </span>
 <br><b style="font-size:14px;color:#777777">GPSP</b> - <span style="font-size: 14px"> S Zhou, Gradient projection Newton pursuit for sparsity constrained optimization, ACHA, 61:75-100, 2022. </span>
@@ -102,7 +102,7 @@ fprintf(' Computational time:      %.3fsec\n',out.time);
 ```
 
 <div style="text-align:justify;">
-程序包 $\texttt{CSpack}$ 的输入和输出如下所示，其中输入 ($\texttt{A}$，$\texttt{At}$，$\texttt{b}$，$\texttt{n}$，$\texttt{s}$，$\texttt{solver}$) 为必需项。如果 $\texttt{A}$ 是一个矩阵，则 $\texttt{At}$ 可以为其转置 $\texttt{A}'$ 也可以为空 $\texttt{[]}$。 如果 $\texttt{A}$ 是函数句柄，则必须提供 $\texttt{At}$。如果 $\texttt{solver}$ 为 {'$\texttt{PSNP}$'，'$\texttt{NL0R}$'，'$\texttt{MILR1}$'} 之一，则 $\texttt{s}$ 可设置为 $\texttt{[]}$。 如果 $\texttt{solver}$ 为 {'$\texttt{NHTP}$'，'$\texttt{GPNP}$'，'$\texttt{IIHT}$'} 之一，则必须提供 $\texttt{s}$。参数 $\texttt{pars}$ 是可选的，但设置其中的一些参数可以提升求解器的性能和解的质量。
+程序包 $\texttt{CSpack}$ 的输入和输出如下所示，其中输入 ($\texttt{A}$，$\texttt{At}$，$\texttt{b}$，$\texttt{n}$，$\texttt{s}$，$\texttt{solver}$) 为必需项。如果 $\texttt{A}$ 是一个矩阵，则 $\texttt{At}$ 可以为其转置 $\texttt{A}'$ 也可以为空 $\texttt{[]}$。 如果 $\texttt{A}$ 是函数句柄，则必须提供 $\texttt{At}$。如果 $\texttt{solver}$ 为 {'$\texttt{PSNP}$'，'$\texttt{NL0R}$'，'$\texttt{MILR1}$'} 之一，则 $\texttt{s}$ 可设置为 $\texttt{[]}$。 如果 $\texttt{solver}$ 为 {'$\texttt{NHTP}$'，'$\texttt{GPNP}$'，'$\texttt{IIHT}$'} 之一，则必须提供 $\texttt{s}$。结构体 $\texttt{pars}$ 中的参数是可选的，但设置其中的一些参数可以提升求解器的性能和解的质量。
 </div>
 
 <p style="line-height: 1;"></p>
