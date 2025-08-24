@@ -27,7 +27,7 @@ a:active {
 ## 1比特压缩感知
 ---
 <div style="text-align:justify;">
-1比特压缩感知（One-bit compressive sensing，1BCS）旨在从以下系统中恢复出稀疏信号 $\mathbf{x}^*\in\mathbb{R}^{n}$，
+1比特压缩感知（One-bit compressive sensing，1BCS）旨在从以下系统中恢复出稀疏信号 $\mathbf{x}\in\mathbb{R}^{n}$，
 </div>
 
 \begin{equation}
