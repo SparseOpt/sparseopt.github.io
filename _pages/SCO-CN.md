@@ -33,7 +33,7 @@ a:active {
 \end{equation}
 
 <div style="text-align:justify;">
-其中，函数 $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ 连续可微，最好是二次连续可微，正整数 $s\ll n$，零范数 $\|\mathbf{x}\|_0$ 计算 $\mathbf{x}$ 中非零元个数。
+其中，函数 $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ 连续可微，最好二次连续可微，正整数 $s\ll n$，零范数 $\|\mathbf{x}\|_0$ 计算 $\mathbf{x}$ 中非零元个数。
 </div>
  
 <!-- ## <span style="color:#8C8C8C"> The solver and its demonstration </span> -->
@@ -50,7 +50,7 @@ a:active {
 
 ---
 <div style="text-align:justify;">  
-求解器 $\texttt{NHTP}$ 和 $\texttt{GPNP}$ 是二阶算法, 所以需要目标函数、梯度以及海瑟矩阵子块，而求解器 $\texttt{IIHT}$ 是一阶方法，仅需要目标函数和梯度。下面给出一个示例，展示如何以统一的方式为三个求解器定义函数来求解一个简单的稀疏约束优化（SCO）问题。其中，句柄函数 $\texttt{funcSimpleEx}$ 的输入中，$\texttt{x}$ 是自变量，$\texttt{key}$ 是字符串变量，$\texttt{T1}$ 和 $\texttt{T2}$ 为两个索引指标集。这里，$\texttt{key}$ 用于指定计算内容：当 $\texttt{key}$='$\texttt{fg}$' 时表示计算目标函数值和梯度，此时，若只有一个输出，则输出目标函数值，若有两个输出，则第一个输出为目标函数值，第二个输出为梯度；当 $\texttt{key}$='$\texttt{h}$' 时表示计算海瑟矩阵子块，此时，海瑟矩阵子块由两个索引指标集 $\texttt{T1}$ 和 $\texttt{T2}$ 定义，若只有一个输出，则输出的子块包含海瑟矩阵的 $\texttt{T1}$ 行和 $\texttt{T1}$ 列，若有两个输出，则第一个输出子块包含海瑟矩阵的 $\texttt{T1}$ 行和 $\texttt{T1}$ 列，第二个输出子块包含海瑟矩阵的 $\texttt{T1}$ 行和 $\texttt{T2}$ 列。
+求解器 $\texttt{NHTP}$ 和 $\texttt{GPNP}$ 是基于二阶算法开发的, 所以需要目标函数、梯度以及海瑟矩阵子块，而 $\texttt{IIHT}$ 属于一阶方法，仅需要目标函数和梯度。下面给出一个示例，展示如何以统一的方式为三个求解器定义函数来求解一个简单的稀疏约束优化（SCO）问题。其中，句柄函数 $\texttt{funcSimpleEx}$ 的输入中，$\texttt{x}$ 是自变量，$\texttt{key}$ 是字符串变量，$\texttt{T1}$ 和 $\texttt{T2}$ 为两个索引指标集。这里，$\texttt{key}$ 用于指定计算内容：当 $\texttt{key}$='$\texttt{fg}$' 时表示计算目标函数值和梯度，此时，若只有一个输出，则输出目标函数值，若有两个输出，则第一个输出为目标函数值，第二个输出为梯度；当 $\texttt{key}$='$\texttt{h}$' 时表示计算海瑟矩阵子块，此时，海瑟矩阵子块由两个索引指标集 $\texttt{T1}$ 和 $\texttt{T2}$ 定义，若只有一个输出，则输出的子块包含海瑟矩阵的 $\texttt{T1}$ 行和 $\texttt{T1}$ 列，若有两个输出，则第一个输出子块包含海瑟矩阵的 $\texttt{T1}$ 行和 $\texttt{T1}$ 列，第二个输出子块包含海瑟矩阵的 $\texttt{T1}$ 行和 $\texttt{T2}$ 列。
 </div>
 <p style="line-height: 1;"></p>
 
@@ -78,7 +78,7 @@ end
 ```
 
 <div style="text-align:justify;">
-对于以上一个简单的 SCO 问题，定义好函数后，就可以调用程序包 $\texttt{SCOpack}$ 来求解该问题. 用户需要指定 ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$)，再从三个求解器 {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'} 中选择一个求解器名称，必要时在 $\texttt{pars}$ 中设置一些参数，然后运行求解器。下面的代码展示了如何使用 $\texttt{COpack}$ 来求解该简单的 SCO 问题。
+对于以上一个简单的 SCO 问题，定义好函数后，就可以调用程序包 $\texttt{SCOpack}$ 来求解该问题。用户需指定 ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$)，再从 {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'} 中选择一个求解器名称，必要时在 $\texttt{pars}$ 中设置一些参数，然后运行求解器。下面的代码展示了如何使用 $\texttt{COpack}$ 来求解该简单的 SCO 问题。
 </div>
 <p style="line-height: 1;"></p>
 
