@@ -39,7 +39,7 @@ where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice conti
 
 ---
 <div style="text-align:justify;"> 
-The package can be downloaded here -<a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SCOpack.zip" target="_blank">SCOpack</a>,
+The package can be downloaded here -<a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SCOpack-Matlab.zip" target="_blank">SCOpack-Matlab</a>,
 which provides 3 solvers from the following papers:
 </div>
 
@@ -49,7 +49,7 @@ which provides 3 solvers from the following papers:
 
 ---
 <div style="text-align:justify;">  
-Note that $\texttt{NHTP}$ and $\texttt{GPNP}$ are two second-order methods, requiring the objective, gradient, and sub-Hessian of $f$, while $\texttt{IIHT}$ is a first-order method, requiring the objective and gradient of $f$. Below is an example of how to uniformly define functions for three solvers to solve a simple SCO problem, where input $\texttt{x}$ is the variable, string variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{fg}$' for the objective value and the gradient, and $\texttt{key}$='$\texttt{h}$' for the sub-Hessian decided by two indix sets $\texttt{T1}$ and $\texttt{T2}$. 
+Note that $\texttt{NHTP}$ and $\texttt{GPNP}$ are two second-order methods, requiring the objective, gradient, and sub-Hessian of $f$, while $\texttt{IIHT}$ is a first-order method, requiring the objective and gradient of $f$. Based on MATLAB syntax (with a similar structure in Python), below is an example of how to uniformly define functions for three solvers to solve a simple SCO problem, where input $\texttt{x}$ is the variable, string variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{fg}$' for the objective value and the gradient, and $\texttt{key}$='$\texttt{h}$' for the sub-Hessian decided by two indix sets $\texttt{T1}$ and $\texttt{T2}$. 
 
 Specifically, when $\texttt{key}$ = '$\texttt{fg}$', if there is only one output, it returns the objective function value; if there are two outputs, the first is the objective function value and the second is the gradient. When $\texttt{key}$ = '$\texttt{h}$', if there is only one output, it returns the sub-Hessian containing the $\texttt{T1}$ rows and $\texttt{T1}$ columns of the Hessian; if there are two outputs, the first corresponds to the sub-Hessian containing the $\texttt{T1}$ rows and $\texttt{T1}$ columns of the Hessian, and the second corresponds to the sub-Hessian containing the $\texttt{T1}$ rows and $\texttt{T2}$ columns of the Hessian.
 </div>
@@ -79,7 +79,7 @@ end
 ```
 
 <div style="text-align:justify;">
-After defining the functions for the simple SCO problem, one can call $\texttt{SCOpack}$ to solve it. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$), choose a solver name from  {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following codes demonstrate $\texttt{SCOpack}$ to solve this simple SCO problem.
+After defining the functions for the simple SCO problem, one can call $\texttt{SCOpack}$ to solve it. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$), choose a solver name from  {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following Matlab codes demonstrate $\texttt{SCOpack}$ to solve this simple SCO problem.
 </div>
 <p style="line-height: 1;"></p>
 
@@ -100,7 +100,7 @@ fprintf(' Iterations:        %4d\n', out.iter);
 ```
 
 <div style="text-align:justify;">
-For other problems, users can similarly define the functions by modifying $\texttt{out1}$ and $\texttt{out2}$ while preserving the overall structure of $\texttt{switch}$. As an illustration, the following codes define the functions of a sparse linear regression problem.
+For other problems, users can similarly define the functions by modifying $\texttt{out1}$ and $\texttt{out2}$ while preserving the overall structure of $\texttt{switch}$. As an illustration, the following Matlab codes define the functions of a sparse linear regression problem.
 </div>
 <p style="line-height: 1;"></p>
 
@@ -154,7 +154,7 @@ PlotRecovery(xopt,out.sol,[900,500,500,250],1)
 ```
 
 <div style="text-align:justify;">
-The inputs and outputs of $\texttt{SCOpack}$ are detailed below, where inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$, $\texttt{solvername}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the solution quality. For example, if solver $\texttt{NHTP}$ is chosen, then tuning a proper $\texttt{pars.eta}$ may significantly improve the solver performance in terms of convergence speed and accuracy. Moreover, solver $\texttt{IIHT}$ enables addressing the SCO problems with non-negative constraints. To do so, just set $\texttt{pars.neg}$=1. 
+The inputs and outputs of the MATLAB version of $\texttt{SCOpack}$ are described below, with analogous specifications for the Python version, where inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$, $\texttt{solvername}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the solution quality. For example, if solver $\texttt{NHTP}$ is chosen, then tuning a proper $\texttt{pars.eta}$ may significantly improve the solver performance in terms of convergence speed and accuracy. Moreover, solver $\texttt{IIHT}$ enables addressing the SCO problems with non-negative constraints. To do so, just set $\texttt{pars.neg}$=1. 
 </div>
 
 <p style="line-height: 1;"></p>
