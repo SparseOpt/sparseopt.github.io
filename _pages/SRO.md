@@ -38,14 +38,14 @@ where $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice contin
  
 ---
 <div style="text-align:justify;">
-The package can be downloaded here - <a style="font-size: 16px; font-weight: bold; color:#006DB0" href="\files\SROpack.zip" target="_blank">NL0R</a>, which is developed based on the algorithm proposed in the following paper:
+The package can be downloaded here - <a style="font-size: 16px; font-weight: bold; color:#006DB0" href="\files\SROpack-Matlab.zip" target="_blank">SROpack-Matlab</a>, which provides 1 solver $\texttt{NL0R}$ from the following paper: 
 </div>
 
 > <b style="font-size:14px;color:#777777">NL0R</b> - <span style="font-size: 14px"> S Zhou, L Pan, and N Xiu, Newton method for l0 regularized optimization, Numer Algorithms, 88:1541–1570, 2021. </span>
 
 ---
 <div style="text-align:justify;">  
-Note that $\texttt{NL0R}$ is a second-order method, requiring the objective, gradient, and sub-Hessian of $f$. Below is an example of how to define these functions for the solver to solve a simple problem, where input $\texttt{x}$ is the variable, string variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{fg}$' for the objective value and the gradient, and $\texttt{key}$='$\texttt{h}$' for the sub-Hessian decided by two indix sets $\texttt{T1}$ and $\texttt{T2}$.  Specifically, when $\texttt{key}$ = '$\texttt{fg}$', if there is only one output, it returns the objective function value; if there are two outputs, the first is the objective function value and the second is the gradient. When $\texttt{key}$ = '$\texttt{h}$', if there is only one output, it returns the sub-Hessian containing the $\texttt{T1}$ rows and $\texttt{T1}$ columns of the Hessian; if there are two outputs, the first corresponds to the sub-Hessian containing the $\texttt{T1}$ rows and $\texttt{T1}$ columns of the Hessian, and the second corresponds to the sub-Hessian containing the $\texttt{T1}$ rows and $\texttt{T2}$ columns of the Hessian.
+Note that $\texttt{NL0R}$ is a second-order method, requiring the objective, gradient, and sub-Hessian of $f$. Based on Matlab syntax (with a similar structure in Python), below is an example of how to define these functions for the solver to solve a simple problem, where input $\texttt{x}$ is the variable, string variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{fg}$' for the objective value and the gradient, and $\texttt{key}$='$\texttt{h}$' for the sub-Hessian decided by two indix sets $\texttt{T1}$ and $\texttt{T2}$.  Specifically, when $\texttt{key}$ = '$\texttt{fg}$', if there is only one output, it returns the objective function value; if there are two outputs, the first is the objective function value and the second is the gradient. When $\texttt{key}$ = '$\texttt{h}$', if there is only one output, it returns the sub-Hessian containing the $\texttt{T1}$ rows and $\texttt{T1}$ columns of the Hessian; if there are two outputs, the first corresponds to the sub-Hessian containing the $\texttt{T1}$ rows and $\texttt{T1}$ columns of the Hessian, and the second corresponds to the sub-Hessian containing the $\texttt{T1}$ rows and $\texttt{T2}$ columns of the Hessian.
 </div>
 <p style="line-height: 1;"></p>
 
@@ -71,7 +71,7 @@ end
 ```
 
 <div style="text-align:justify;">
-After defining the functions for the simple problem, one can call $\texttt{NL0R}$ to solve it. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{lambda}$), set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following codes demonstrate $\texttt{NL0R}$ to solve this simple problem.
+After defining the functions for the simple problem, one can call $\texttt{NL0R}$ to solve it. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{lambda}$), set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following Matlab codes demonstrate $\texttt{NL0R}$ to solve this simple problem.
 </div>
 <p style="line-height: 1;"></p>
 
@@ -89,7 +89,7 @@ fprintf(' Iterations:        %4d\n', out.iter);
 ```
 
 <div style="text-align:justify;">
-For other problems, users can similarly define the functions by modifying $\texttt{out1}$ and $\texttt{out2}$ while preserving the overall structure of $\texttt{switch}$. As an illustration, the following codes define the functions of a sparse linear regression problem.
+For other problems, users can similarly define the functions by modifying $\texttt{out1}$ and $\texttt{out2}$ while preserving the overall structure of $\texttt{switch}$. As an illustration, the following Matlab codes define the functions of a sparse linear regression problem.
 </div>
 <p style="line-height: 1;"></p>
 
@@ -142,7 +142,7 @@ out      = NL0R(func,n,lambda,pars);
 ```
 
 <div style="text-align:justify;">
-The inputs and outputs of $\texttt{NL0R}$ are detailed below, where inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{lambda}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the solution quality. For example, tuning a proper $\texttt{pars.eta}$ may significantly improve the solver performance in terms of convergence speed and accuracy.
+The inputs and outputs of the Matlab version of $\texttt{NL0R}$ are detailed below, with analogous specifications for the Python version, where inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{lambda}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the solution quality. For example, tuning a proper $\texttt{pars.eta}$ may significantly improve the solver performance in terms of convergence speed and accuracy.
 </div>
 
 <p style="line-height: 1;"></p>
