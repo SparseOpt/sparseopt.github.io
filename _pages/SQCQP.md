@@ -52,7 +52,7 @@ Package - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\fil
 
 ---
 <div style="text-align:justify;">
-The following Matlab codes (similar to Python codes) demonstrate the solver applied to a sparse portfolio selection problem. You need to specify inputs $\texttt{(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub)}$. If an input is unnecessary, then put it as $\texttt{[ ]}$.
+The following Matlab codes (similar to Python codes) demonstrate the solver to address a sparse portfolio selection problem. You need to specify inputs $\texttt{(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub)}$. If an input is unnecessary, then set it as $\texttt{[ ]}$.
 </div>
 
 <p style="line-height: 1;"></p>
