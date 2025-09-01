@@ -57,7 +57,7 @@ where two integers $s\ll n$ and $k\ll m$, $(\epsilon, \eta, \varepsilon, \lambda
 ---
 
 <div style="text-align:justify;">
-The package can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\OBCSpack.zip" target="_blank">OBCSpack</a>, which provides 2 solvers from the following papers, where $\texttt{GPSP}$ and $\texttt{NM01}$ are designed to solve  model (DSCO) and model (SFRO), respectively. 
+Package - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\OBCSpack-Matlab.zip" target="_blank">OBCSpack-Matlab</a> provides 2 solvers from the following papers, where $\texttt{GPSP}$ and $\texttt{NM01}$ are designed to solve  model (DSCO) and model (SFRO), respectively. 
 </div>  
 
 > <b style="font-size:14px;color:#777777">GPSP</b> -<span style="font-size: 13.5px"> S Zhou, Z Luo, N Xiu, and G Li, Computing one-bit compressive sensing via double-sparsity constrained optimization, IEEE TSP, 70:1593-1608, 2022. </span>
@@ -65,7 +65,7 @@ The package can be downloaded here - <a style="font-size: 16px; font-weight: bol
 
 ---
 <div style="text-align:justify;">
-Below is a demonstration of how $\texttt{OBCSpack}$ can be used to solve the problem. Users need to input the data ($\texttt{A}$, $\texttt{b}$, $\texttt{s}$, $\texttt{k}$) and then choose one solver from {'$\texttt{GPSP}$', '$\texttt{NM01}$'}. 
+The following Matlab codes (similar to Python codes) demonstrate $\texttt{OBCSpack}$ to solve the problem. Users need to input the data ($\texttt{A}$, $\texttt{b}$, $\texttt{s}$, $\texttt{k}$) and then choose one solver from {'$\texttt{GPSP}$', '$\texttt{NM01}$'}. 
 </div>
 
 <p style="line-height: 1;"></p>
@@ -99,7 +99,7 @@ fprintf(' Hamming distence:      %6.3f\n',nnz(sign(A*out.sol)-b)/m)
 ```
 
 <div style="text-align:justify;">
-The inputs and outputs of $\texttt{OBCSpack}$ are detailed below, where inputs ($\texttt{A}$, $\texttt{b}$, $\texttt{s}$, $\texttt{k}$, $\texttt{solver}$) are required. If choose $\texttt{solver}$='$\texttt{NM01}$', then one can set $\texttt{s}$=$\texttt{[]}$ and $\texttt{k}$=$\texttt{[]}$ if they are unknown. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
+The inputs and outputs of the Matlab version of $\texttt{OBCSpack}$ are described below, with analogous specifications for the Python version. Inputs ($\texttt{A}$, $\texttt{b}$, $\texttt{s}$, $\texttt{k}$, $\texttt{solver}$) are required. If choose $\texttt{solver}$='$\texttt{NM01}$', then one can set $\texttt{s}$=$\texttt{[]}$ and $\texttt{k}$=$\texttt{[]}$ if they are unknown. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the quality of the solution.
 </div>
 
 <p style="line-height: 1;"></p>
