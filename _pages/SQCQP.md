@@ -46,14 +46,13 @@ where parameters are defined as follows
          
 --- 
 <div style="text-align:justify;">
-The solver can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SQCQP.zip" target="_blank">SNSQP</a>, which  
-was developed from the following paper:</div>
-> <b style="font-size:14px;color:#777777">SNSQP</b> - <span style="font-size: 14px"> S Li, S  Zhou, Z  Luo, Sparse quadratically constrained quadratic programming via semismooth Newton method, arXiv:2503.15109, 2025. </span>
+Package - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SQCQP-Matlab.zip" target="_blank">SQCQP-Matlab</a> (click to download) provides 1 solver from the following paper:</div>
 
+> <b style="font-size:14px;color:#777777">SNSQP</b> - <span style="font-size: 14px"> S Li, S  Zhou, Z  Luo, Sparse quadratically constrained quadratic programming via semismooth Newton method, arXiv:2503.15109, 2025. </span>
 
 ---
 <div style="text-align:justify;">
-Below is a demonstration of the solver applied to a sparse portfolio selection problem. You need to specify inputs $\texttt{(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub)}$. If an input is unnecessary, then put it as $\texttt{[ ]}$.
+The following Matlab codes (similar to Python codes) demonstrate the solver applied to a sparse portfolio selection problem. You need to specify inputs $\texttt{(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub)}$. If an input is unnecessary, then put it as $\texttt{[ ]}$.
 </div>
 
 <p style="line-height: 1;"></p>
@@ -89,7 +88,7 @@ Out           = SNSQP(n,s,Q0,q0,Qi,qi,ci,ineqA,ineqb,eqA,eqb,lb,ub,pars);
 ```
 
 <div style="text-align:justify;">
-The inputs and outputs of $\texttt{SNSQP}$ are detailed below. Note that input $\texttt{Qi}$ is a cell that include $Q_i, i=1,2,\ldots,k$ described in (SQCQP). If some constraints are absent, then just put them as an empty set, i.e.,  $\texttt{[ ]}$. The parameters in $\texttt{pars}$ are optional; however, specifying certain ones can enhance the solver's performance and solution quality.
+The inputs and outputs of the Matlab version of $\texttt{SNSQP}$ are described below, with analogous specifications for the Python version. Note that input $\texttt{Qi}$ is a cell that include $Q_i, i=1,2,\ldots,k$ described in (SQCQP). If some constraints are absent, then just put them as an empty set, i.e.,  $\texttt{[ ]}$. The parameters in $\texttt{pars}$ are optional; however, specifying certain ones can enhance the solver's performance and solution quality.
 </div>
 
 <p style="line-height: 1;"></p>
