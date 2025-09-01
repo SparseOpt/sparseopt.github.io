@@ -153,7 +153,7 @@ PlotRecovery(xopt,out.sol,[900,500,500,250],1)
 ```
 
 <div style="text-align:justify;">
-The inputs and outputs of the MATLAB version of $\texttt{SCOpack}$ are described below, with analogous specifications for the Python version, where inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$, $\texttt{solvername}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the solution quality. For example, if solver $\texttt{NHTP}$ is chosen, then tuning $\texttt{pars.eta}$ may significantly improve the solver performance in terms of convergence speed and accuracy. Moreover, solver $\texttt{IIHT}$ enables addressing the SCO problems with non-negative constraints. To do so, just set $\texttt{pars.neg}$=1. 
+The inputs and outputs of the MATLAB version of $\texttt{SCOpack}$ are described below, with analogous specifications for the Python version. Inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$, $\texttt{solvername}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the solution quality. For example, if solver $\texttt{NHTP}$ is chosen, then tuning a proper $\texttt{pars.eta}$ may improve the solver performance in terms of convergence speed and accuracy. Moreover, solver $\texttt{IIHT}$ can process the SCO problems with non-negative constraints. To do so, just set $\texttt{pars.neg}$=1. 
 </div>
 
 <p style="line-height: 1;"></p>
