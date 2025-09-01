@@ -38,7 +38,7 @@ where $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice contin
  
 ---
 <div style="text-align:justify;">
-The package can be downloaded here - <a style="font-size: 16px; font-weight: bold; color:#006DB0" href="\files\SROpack-Matlab.zip" target="_blank">SROpack-Matlab</a>, which provides 1 solver $\texttt{NL0R}$ from the following paper: 
+Package - <a style="font-size: 16px; font-weight: bold; color:#006DB0" href="\files\SROpack-Matlab.zip" target="_blank">SROpack-Matlab</a> (click to download) provides 1 solver from the following paper: 
 </div>
 
 > <b style="font-size:14px;color:#777777">NL0R</b> - <span style="font-size: 14px"> S Zhou, L Pan, and N Xiu, Newton method for l0 regularized optimization, Numer Algorithms, 88:1541–1570, 2021. </span>
