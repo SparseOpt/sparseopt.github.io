@@ -60,7 +60,7 @@ where $\mathbf{Q}\in\mathbb{R}^{m\times m}$ with each entry $Q_{ij}=y_iy_j\mathb
 
 ---
 <div style="text-align:justify;">
-The package can be downloaded here - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SSVMpack.zip" target="_blank">SSVMpack</a>, which provides 2 solvers from the following 2 papers, where $\texttt{NM01}$ and $\texttt{NSSVM}$ are designed to solve (SFRSVM) and (SCSNM), respectively.
+Package - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SSVMpack-Matlab.zip" target="_blank">SSVMpack-Matlab</a> provides 2 solvers from the following 2 papers, where $\texttt{NM01}$ and $\texttt{NSSVM}$ are designed to solve (SFRSVM) and (SCSNM), respectively.
 </div>  
 
 > <div style="text-align:justify;"> <b style="font-size:14px;color:#777777">NM01</b> -<span style="font-size: 14px"> S Zhou, L Pan, N Xiu, and H Qi, Quadratic convergence of smoothing Newton's method for 0/1 loss optimization, SIOPT, 31:3184-3211, 2021. </span> </div>
@@ -68,7 +68,7 @@ The package can be downloaded here - <a style="font-size: 16px; font-weight: bol
 
 ---
 <div style="text-align:justify;">
-Below is a demonstration of how $\texttt{SSVMpack}$ can be used to solve the problem. User need to input the data ($\texttt{A}$, $\texttt{y}$), select $\texttt{solver}$ from {'$\texttt{NM01}$', '$\texttt{NSSVM}$'}, and then run the solver. 
+The following Matlab codes (similar to Python codes) demonstrate $\texttt{SSVMpack}$ to solve the problem. User need to input the data ($\texttt{A}$, $\texttt{y}$), select $\texttt{solver}$ from {'$\texttt{NM01}$', '$\texttt{NSSVM}$'}, and then run the solver. 
 </div>
 
 <p style="line-height: 1;"></p>
@@ -104,7 +104,7 @@ fprintf(' Testing   Accuracy:         %5.2f%%\n',tacc*100);
 fprintf(' Number of Support Vectors:  %d\n',out.sv); 
 ```
 <div style="text-align:justify;">
-The citation for $\texttt{SSVMpack}$ is shown below. Inputs ($\texttt{A}$, $\texttt{y}$, $\texttt{solver}$) are required, $\texttt{solver}$ is chosen from {'$\texttt{NM01}$', '$\texttt{NSSVM}$'}. The parameters in $\texttt{pars}$ are optional, but setting certain ones (particularly, $\texttt{pars.C}$ and $\texttt{pars.s0}$)  can improve the solver's performance and the quality of the solution. For example, if $\texttt{solver}$='$\texttt{NSSVM}$', then set a proper $\texttt{pars.s0}$ can enhance solution quality.  Another important parameter is $\texttt{pars.C}$, which can be tuned using the Cross-validation.
+The inputs and outputs of the Matlab version of $\texttt{SSVMpack}$ are described below, with analogous specifications for the Python version. Inputs ($\texttt{A}$, $\texttt{y}$, $\texttt{solver}$) are required, $\texttt{solver}$ is chosen from {'$\texttt{NM01}$', '$\texttt{NSSVM}$'}. The parameters in $\texttt{pars}$ are optional, but setting certain ones (particularly, $\texttt{pars.C}$ and $\texttt{pars.s0}$)  can improve the solver's performance and the quality of the solution. For example, if $\texttt{solver}$='$\texttt{NSSVM}$', then set a proper $\texttt{pars.s0}$ can enhance solution quality.  Another important parameter is $\texttt{pars.C}$, which can be tuned using the Cross-validation.
 </div>
 
 <p style="line-height: 1;"></p>
