@@ -57,7 +57,7 @@ where two integers $s\ll n$ and $k\ll m$, $(\epsilon, \eta, \varepsilon, \lambda
 ---
 
 <div style="text-align:justify;">
-Package - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\OBCSpack-Matlab.zip" target="_blank">OBCSpack-Matlab</a> provides 2 solvers from the following papers, where $\texttt{GPSP}$ and $\texttt{NM01}$ are designed to solve  model (DSCO) and model (SFRO), respectively. 
+Package - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\OBCSpack-Matlab.zip" target="_blank">OBCSpack-Matlab</a> (click to download) provides 2 solvers from the following papers, where $\texttt{GPSP}$ and $\texttt{NM01}$ are designed to solve  model (DSCO) and model (SFRO), respectively. 
 </div>  
 
 > <b style="font-size:14px;color:#777777">GPSP</b> -<span style="font-size: 13.5px"> S Zhou, Z Luo, N Xiu, and G Li, Computing one-bit compressive sensing via double-sparsity constrained optimization, IEEE TSP, 70:1593-1608, 2022. </span>
