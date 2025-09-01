@@ -33,7 +33,7 @@ a:active {
 \end{equation}
 
 <div style="text-align:justify;"> 
-where $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice continuously differentiable function, $\lambda>0$ is the penalty parameter, and   $\parallel\mathbf{x}\parallel_0$ denotes the L0 norm, which counts the number of nonzero entries in $\mathbf{x}$.
+where $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice continuously differentiable function, $\lambda>0$ is the penalty parameter, and $\parallel\mathbf{x}\parallel_0$ denotes the L0 norm, which counts the number of nonzero entries in $\mathbf{x}$.
 </div>
  
 ---
@@ -142,7 +142,7 @@ out      = NL0R(func,n,lambda,pars);
 ```
 
 <div style="text-align:justify;">
-The inputs and outputs of the Matlab version of $\texttt{NL0R}$ are detailed below, with analogous specifications for the Python version, where inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{lambda}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the solution quality. For example, tuning a proper $\texttt{pars.eta}$ may significantly improve the solver performance in terms of convergence speed and accuracy.
+The inputs and outputs of the Matlab version of $\texttt{NL0R}$ are detailed below, with analogous specifications for the Python version. Inputs ($\texttt{func}$, $\texttt{n}$, $\texttt{lambda}$) are required. The parameters in $\texttt{pars}$ are optional, but setting certain ones may improve the solver's performance and the solution quality. For example, tuning a proper $\texttt{pars.eta}$ may significantly improve the solver performance in terms of convergence speed and accuracy.
 </div>
 
 <p style="line-height: 1;"></p>
