@@ -46,7 +46,7 @@ where parameters are defined as follows
          
 --- 
 <div style="text-align:justify;">
-Package - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SQCQP-Matlab.zip" target="_blank">SQCQP-Matlab</a> (click to download) provides 1 solver from the following paper:</div>
+Package - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SQCQP-Matlab.zip" target="_blank">SQCQPpack-Matlab</a> (click to download) provides 1 solver from the following paper:</div>
 
 > <b style="font-size:14px;color:#777777">SNSQP</b> - <span style="font-size: 14px"> S Li, S  Zhou, Z  Luo, Sparse quadratically constrained quadratic programming via semismooth Newton method, arXiv:2503.15109, 2025. </span>
 
