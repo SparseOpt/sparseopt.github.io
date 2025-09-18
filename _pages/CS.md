@@ -71,7 +71,7 @@ Package - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\fil
 
 ---
 <div style="text-align:justify;">
-The following Matlab codes (similar to Python codes) demonstrate $\texttt{CSpack}$ to solve the problem. Users need to input data ($\texttt{A}$, $\texttt{At}$, $\texttt{b}$, $\texttt{n}$, $\texttt{s}$)  and select $\texttt{solver}$ from {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$', '$\texttt{PSNP}$', '$\texttt{NL0R}$', '$\texttt{MILR1}$'}. 
+The following Matlab code (similar to Python code) demonstrates $\texttt{CSpack}$ to solve the problem. Users need to input data ($\texttt{A}$, $\texttt{At}$, $\texttt{b}$, $\texttt{n}$, $\texttt{s}$)  and select $\texttt{solver}$ from {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$', '$\texttt{PSNP}$', '$\texttt{NL0R}$', '$\texttt{MILR1}$'}. 
 </div>
 
 <p style="line-height: 1;"></p>
