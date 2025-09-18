@@ -68,7 +68,7 @@ Package - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\fil
 
 ---
 <div style="text-align:justify;">
-The following Matlab codes (similar to Python codes) demonstrate $\texttt{SSVMpack}$ to solve the problem. User need to input the data ($\texttt{A}$, $\texttt{y}$), select $\texttt{solver}$ from {'$\texttt{NM01}$', '$\texttt{NSSVM}$'}, and then run the solver. 
+The following Matlab code (similar to Python code) demonstrates $\texttt{SSVMpack}$ to solve the problem. User need to input the data ($\texttt{A}$, $\texttt{y}$), select $\texttt{solver}$ from {'$\texttt{NM01}$', '$\texttt{NSSVM}$'}, and then run the solver. 
 </div>
 
 <p style="line-height: 1;"></p>
