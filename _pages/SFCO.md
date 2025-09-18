@@ -33,8 +33,12 @@ a:active {
 
 <div style="text-align:justify;">
 where $\mathbf{G}(\mathbf{x})\in\mathbb{R}^{M \times N}$ with each the ($i,j$)th entry being $G_{ij}(\mathbf{x})$, functions $f:\mathbb{R}^{K}\rightarrow \mathbb{R}$ and $G_{ij}:\mathbb{R}^{K}\rightarrow \mathbb{R}$ are (preferably twice) continuously differentiable, $s\ll N$ is an integer, and $\Omega\subseteq\mathbb{R}^{K}$ is a closed and convex set. In particular, it can be one of the following sets:
-  
-  
+- A non-negative cone: $\{\mathbf{x}: x_i \geq 0, i=1,\ldots,K\}$ 
+- A box with a lower bound $l$ and upper bound $u$:  $\{\mathbf{x}: l\leq x_i \leq u, i=1,\ldots,K\}$ 
+- A sphare with a radius $r>0$: $\{\mathbf{x}: \|\mathbf{x}\|^2\leq r\}$ 
+- A halfspace: $\{\mathbf{x}: \mathbf{a}^T\mathbf{x}\leq b\}$, where $\mathbf{a}\in\mathbb{R}^{K}$ and $b\in\mathbb{R}$
+- A hyperplane: $\{\mathbf{x}: \mathbf{A} \mathbf{x}=  \mathbf{b}\}$, where $\mathbf{A}\in\mathbb{R}^{S\times K}$ and $ \mathbf{b}\in\mathbb{R}^{S}$
+
   For a matrix $\mathbf{Z}\in\mathbb{R}^{M \times N}$,  measure $\|\mathbf{Z}\|_0^+$ counts the number of its columns that have positive entries, namely, 
   \begin{equation}\|\mathbf{Z}\|_0^+= \mathrm{step}\Big(\max_{i=1,\ldots,M} Z_{i1}\Big)+\cdots+\mathrm{step}\Big(\max_{i=1,\ldots,M} Z_{iN}\Big)\nonumber\end{equation}
   Here, $\mathrm{step}(t)$ is the step function (or 0/1 loss function) defined by $\mathrm{step}(t)=1$ if $t>0$ and $\mathrm{step}(t)=0$ otherwise. When $M=1$, matrix $\mathbf{Z}$ reduces to a vector $\mathbf{z}\in\mathbb{R}^{N}$, let $\mathbf{z}_+=$ $(\max\{0,z_1\}$ $\ldots$ $\max\{0,z_N\})^\top$ and  $\parallel\mathbf{z}\parallel_0$ denote its L0 norm that counts the number of its nonzero entries. As a result,  
