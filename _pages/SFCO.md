@@ -35,11 +35,11 @@ a:active {
 where $\mathbf{G}(\mathbf{x})\in\mathbb{R}^{M \times N}$ with each the ($i,j$)th entry being $G_{ij}(\mathbf{x})$, functions $f:\mathbb{R}^{K}\rightarrow \mathbb{R}$ and $G_{ij}:\mathbb{R}^{K}\rightarrow \mathbb{R}$ are (preferably twice) continuously differentiable, $s\ll N$ is an integer, and $\Omega\subseteq\mathbb{R}^{K}$ is a closed and convex set. In particular, it can be one of the following sets:
 </div>
   
-- A non-negative cone: $\{\mathbf{x}: x_i \geq 0, i=1,\ldots,K\}$ 
-- A box with a lower bound $l$ and upper bound $u$:  $\{\mathbf{x}: l\leq x_i \leq u, i=1,\ldots,K\}$ 
-- A sphare with a radius $r>0$: $\{\mathbf{x}: \|\mathbf{x}\|^2\leq r\}$ 
-- A halfspace: $\{\mathbf{x}: \mathbf{a}^T\mathbf{x}\leq b\}$, where $\mathbf{a}\in\mathbb{R}^{K}$ and $b\in\mathbb{R}$
-- A hyperplane: $\{\mathbf{x}: \mathbf{A} \mathbf{x}=  \mathbf{b}\}$, where $\mathbf{A}\in\mathbb{R}^{S\times K}$ and $ \mathbf{b}\in\mathbb{R}^{S}$
+- A non-negative cone: $\lbrace\mathbf{x}: x_i \geq 0, i=1,\ldots,K\rbrace$ 
+- A box with a lower bound $l$ and upper bound $u$:  $\lbrace\mathbf{x}: l\leq x_i \leq u, i=1,\ldots,K\rbrace$ 
+- A sphare with a radius $r>0$: $\lbrace\mathbf{x}: \|\mathbf{x}\|^2\leq r\rbrace$ 
+- A halfspace: $\lbrace\mathbf{x}: \mathbf{a}^T\mathbf{x}\leq b\rbrace$, where $\mathbf{a}\in\mathbb{R}^{K}$ and $b\in\mathbb{R}$
+- A hyperplane: $\lbrace\mathbf{x}: \mathbf{A} \mathbf{x}=  \mathbf{b}\rbrace$, where $\mathbf{A}\in\mathbb{R}^{S\times K}$ and $ \mathbf{b}\in\mathbb{R}^{S}$
 
 <div style="text-align:justify;">
   For a matrix $\mathbf{Z}\in\mathbb{R}^{M \times N}$,  measure $\|\mathbf{Z}\|_0^+$ counts the number of its columns that have positive entries, namely, 
