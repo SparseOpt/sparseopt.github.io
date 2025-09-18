@@ -48,9 +48,7 @@ Package - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\fil
 
 ---
 <div style="text-align:justify;">  
-Note that $\texttt{NHTP}$ and $\texttt{GPNP}$ are two second-order methods, requiring the objective, gradient, and sub-Hessian of $f$, while $\texttt{IIHT}$ is a first-order method, requiring the objective and gradient of $f$. Based on Matlab syntax (similar to Python syntax), below is an example of how to uniformly define functions for three solvers to solve a simple SCO problem, where input $\texttt{x}$ is the variable, $\texttt{key}$ is a string variable, and $\texttt{T1}$ and $\texttt{T2}$ are two index sets $\texttt{T1}$ and $\texttt{T2}$.  
-
-Here, $\texttt{key}$ is used to specify the computation: when $\texttt{key}$ = '$\texttt{f}$', output the objective function value; when $\texttt{key}$ = '$\texttt{g}$', output the gradient; when $\texttt{key}$ = '$\texttt{h}$', output the sub-Hessian containing the $\texttt{T1}$ rows and $\texttt{T1}$ columns of the Hessian. 
+Note that $\texttt{NHTP}$ and $\texttt{GPNP}$ are two second-order methods, requiring the objective, gradient, and sub-Hessian of $f$, while $\texttt{IIHT}$ is a first-order method, requiring the objective and gradient of $f$. Based on Matlab syntax (similar to Python syntax), below is an example of how to uniformly define functions for three solvers to solve a simple SCO problem, where input $\texttt{x}$ is the variable, $\texttt{key}$ is a string variable, and $\texttt{T1}$ and $\texttt{T2}$ are two index sets.  Here, $\texttt{key}$ is used to specify the computation: when $\texttt{key}$ = '$\texttt{f}$', output the objective function value; when $\texttt{key}$ = '$\texttt{g}$', output the gradient; when $\texttt{key}$ = '$\texttt{h}$', output the sub-Hessian containing the $\texttt{T1}$ rows and $\texttt{T1}$ columns of the Hessian. 
 </div>
 <p style="line-height: 1;"></p>
 
@@ -94,7 +92,7 @@ fprintf(' Iterations:        %4d\n', out.iter);
 ```
 
 <div style="text-align:justify;">
-For other problems, users can similarly define the functions by modifying $\texttt{out1}$ and $\texttt{out2}$ while preserving the overall structure of $\texttt{switch}$. For example, the following Matlab codes define functions for a sparse linear regression problem.
+For other problems, users can similarly define the functions by modifying $\texttt{out1}$ and $\texttt{out2}$ while preserving the overall structure of $\texttt{switch}$. For example, the following Matlab code defines functions for a sparse linear regression problem.
 </div>
 <p style="line-height: 1;"></p>
 
