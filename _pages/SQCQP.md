@@ -52,7 +52,7 @@ Package - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\fil
 
 ---
 <div style="text-align:justify;">
-The following Matlab codes (similar to Python codes) demonstrate the solver to address a sparse portfolio selection problem. Users need to specify inputs ($\texttt{n}$, $\texttt{s}$, $\texttt{Q0}$, $\texttt{q0}$, $\texttt{Qi}$, $\texttt{qi}$, $\texttt{ci}$, $\texttt{ineqA}$, $\texttt{ineqb}$, $\texttt{eqA}$, $\texttt{eqb}$, $\texttt{lb}$, $\texttt{ub}$). If an input is unnecessary, then set it as $\texttt{[ ]}$.
+The following Matlab code (similar to Python code) demonstrates the solver to address a sparse portfolio selection problem. Users need to specify inputs ($\texttt{n}$, $\texttt{s}$, $\texttt{Q0}$, $\texttt{q0}$, $\texttt{Qi}$, $\texttt{qi}$, $\texttt{ci}$, $\texttt{ineqA}$, $\texttt{ineqb}$, $\texttt{eqA}$, $\texttt{eqb}$, $\texttt{lb}$, $\texttt{ub}$). If an input is unnecessary, then set it as $\texttt{[ ]}$.
 </div>
 
 <p style="line-height: 1;"></p>
