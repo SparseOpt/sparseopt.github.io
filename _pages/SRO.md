@@ -45,7 +45,7 @@ Package - <a style="font-size: 16px; font-weight: bold; color:#006DB0" href="\fi
 
 ---
 <div style="text-align:justify;">  
-Note that $\texttt{NL0R}$ is a second-order method, requiring the objective, gradient, and sub-Hessian of $f$. Based on Matlab syntax  (similar to Python syntax), below is an example of how to define these functions for the solver to solve a simple problem, where input $\texttt{x}$ is the variable, $\texttt{key}$ is a string variable, and $\texttt{T1}$ and $\texttt{T2}$ are two index sets.  Here, $\texttt{key}$ is used to specify the computation: when $\texttt{key}$ = '$\texttt{f}$', output the objective function value; when $\texttt{key}$ = '$\texttt{g}$', output the gradient; when $\texttt{key}$ = '$\texttt{h}$', output the sub-Hessian containing the $\texttt{T1}$ rows and $\texttt{T1}$ columns of the Hessian. 
+Note that $\texttt{NL0R}$ is a second-order method, requiring the objective, gradient, and sub-Hessian of $f$. Based on Matlab syntax  (similar to Python syntax), below is an example of how to define these functions for the solver to solve a simple problem, where input $\texttt{x}$ is the variable, $\texttt{key}$ is a string variable, and $\texttt{T1}$ and $\texttt{T2}$ are two index sets.  Here, $\texttt{key}$ is used to specify the computation: when $\texttt{key}$ = '$\texttt{f}$', output the objective function value; when $\texttt{key}$ = '$\texttt{g}$', output the gradient; when $\texttt{key}$ = '$\texttt{h}$', output the sub-Hessian containing the $\texttt{T1}$ rows and $\texttt{T2}$ columns of the Hessian. 
 </div>
 <p style="line-height: 1;"></p>
 
