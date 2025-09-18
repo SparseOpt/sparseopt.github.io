@@ -48,32 +48,27 @@ Package - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\fil
 
 ---
 <div style="text-align:justify;">  
-Note that $\texttt{NHTP}$ and $\texttt{GPNP}$ are two second-order methods, requiring the objective, gradient, and sub-Hessian of $f$, while $\texttt{IIHT}$ is a first-order method, requiring the objective and gradient of $f$. Based on Matlab syntax (similar to Python syntax), below is an example of how to uniformly define functions for three solvers to solve a simple SCO problem, where input $\texttt{x}$ is the variable, string variable $\texttt{key}$ specifies the computation: $\texttt{key}$='$\texttt{fg}$' for the objective value and the gradient, and $\texttt{key}$='$\texttt{h}$' for the sub-Hessian decided by two indix sets $\texttt{T1}$ and $\texttt{T2}$. 
+Note that $\texttt{NHTP}$ and $\texttt{GPNP}$ are two second-order methods, requiring the objective, gradient, and sub-Hessian of $f$, while $\texttt{IIHT}$ is a first-order method, requiring the objective and gradient of $f$. Based on Matlab syntax (similar to Python syntax), below is an example of how to uniformly define functions for three solvers to solve a simple SCO problem, where input $\texttt{x}$ is the variable, $\texttt{key}$ is a string variable, and $\texttt{T1}$ and $\texttt{T2}$ are two index sets $\texttt{T1}$ and $\texttt{T2}$.  
 
-Specifically, when $\texttt{key}$ = '$\texttt{fg}$', if there is only one output, it returns the objective function value; if there are two outputs, the first is the objective function value and the second is the gradient. When $\texttt{key}$ = '$\texttt{h}$', if there is only one output, it returns the sub-Hessian containing the $\texttt{T1}$ rows and $\texttt{T1}$ columns of the Hessian; if there are two outputs, the first corresponds to the sub-Hessian containing the $\texttt{T1}$ rows and $\texttt{T1}$ columns of the Hessian, and the second corresponds to the sub-Hessian containing the $\texttt{T1}$ rows and $\texttt{T2}$ columns of the Hessian.
+Here, $\texttt{key}$ is used to specify the computation: when $\texttt{key}$ = '$\texttt{f}$', output the objective function value; when $\texttt{key}$ = '$\texttt{g}$', output the gradient; when $\texttt{key}$ = '$\texttt{h}$', output the sub-Hessian containing the $\texttt{T1}$ rows and $\texttt{T1}$ columns of the Hessian. 
 </div>
 <p style="line-height: 1;"></p>
 
 ```ruby
-function [out1,out2] = funcSimpleEx(x,key,T1,T2)
+function  out = funcSimpleEx(x,key,T1,T2)
     % This code provides information for
     %     min   x'*[6 5;5 8]*x+[1 9]*x-sqrt(x'*x+1) 
-    %     s.t. \|x\|_0<=s
-    % where n=2 and s=1   
     a   = sqrt(sum(x.*x)+1);
     switch key
-        case 'fg'    
-            out1 = x'*[6 5;5 8]*x+[1 9]*x-a;       % objective
-            if  nargout == 2 
-                out2 = 2*[6 5;5 8]*x+[1; 9]-x./a;  % gradient
-            end
+        case 'f'    
+            out = x'*[6 5;5 8]*x+[1 9]*x-a;         % objective
+        case 'g'    
+            out = 2*[6 5;5 8]*x+[1; 9]-x./a;        % gradient
         case 'h'
-            H   = 2*[6 5;5 8]+(x*x'-a*eye(2))/a^3; % sub-Hessian formed by rows indexed by T1 and columns indexed by T1
-            out1 = H(T1,T1);
-            if  nargout == 2 
-                out2 = H(T1,T2);                   % sub-Hessian formed by rows indexed by T1 and columns indexed by T2
-            end
+            H   = 2*[6 5;5 8]+(x*x'-a*eye(2))/a^3;  % sub-Hessian indexed by T1 and T2 
+            out = H(T1,T2);
     end
+end
 end
 ```
 
@@ -99,32 +94,25 @@ fprintf(' Iterations:        %4d\n', out.iter);
 ```
 
 <div style="text-align:justify;">
-For other problems, users can similarly define the functions by modifying $\texttt{out1}$ and $\texttt{out2}$ while preserving the overall structure of $\texttt{switch}$. For example, the following Matlab codes define the functions of a sparse linear regression problem.
+For other problems, users can similarly define the functions by modifying $\texttt{out1}$ and $\texttt{out2}$ while preserving the overall structure of $\texttt{switch}$. For example, the following Matlab codes define functions for a sparse linear regression problem.
 </div>
 <p style="line-height: 1;"></p>
 
 ```ruby
-function [out1,out2] = funcLinReg(x,key,T1,T2,A,b)
+function out = funcLinReg(x,key,T1,T2,A,b)
     % This code provides information for
     %     min   0.5*||Ax-b||^2 
-    %     s.t. \|x\|_0<=s
     % where A in R^{m x n} and b in R^{m x 1}    
     switch key
-        case 'fg'
+        case 'f'
             Tx   = find(x~=0);
             Axb  = A(:,Tx)*x(Tx)-b;
-            out1 = (Axb'*Axb)/2;      % objective 
-            if  nargout == 2 
-                out2 = (Axb'*A)';     % gradient 
-            end
+            out  = (Axb'*Axb)/2;             % objective  
+        case 'g'
+            Tx   = find(x~=0); 
+            out  = ((A(:,Tx)*x(Tx)-b)'*A)';  % gradient   
         case 'h'        
-            AT   = A(:,T1); 
-            out1 = AT'*AT;            %sub-Hessian formed by rows indexed by T1 and columns indexed by T1   
-            if  nargout == 2
-                out2 = AT'*A(:,T2);   %sub-Hessian formed by rows indexed by T1 and columns indexed by T2
-            end       
-    end
-end
+            out  = A(:,T1)'*A(:,T2);         % sub-Hessian indexed by T1 and T2       
 ```
 <div style="text-align:justify;">
 After defining the functions of the sparse linear regression problem, we call $\texttt{SCOpack}$ to solve the problem as follows.
