@@ -71,7 +71,7 @@ end
 ```
 
 <div style="text-align:justify;">
-After defining the functions for the simple SCO problem, one can call $\texttt{SCOpack}$ to solve it. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$), choose a solver name from  {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following Matlab codes demonstrate $\texttt{SCOpack}$ to solve this simple SCO problem.
+After defining the functions for the simple SCO problem, one can call $\texttt{SCOpack}$ to solve it. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{s}$), choose a solver name from  {'$\texttt{NHTP}$', '$\texttt{GPNP}$', '$\texttt{IIHT}$'}, set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following Matlab code demonstrates $\texttt{SCOpack}$ to solve this simple SCO problem.
 </div>
 <p style="line-height: 1;"></p>
 
