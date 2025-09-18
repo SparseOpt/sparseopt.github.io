@@ -71,7 +71,7 @@ end
 ```
 
 <div style="text-align:justify;">
-After defining the functions for the simple problem, one can call $\texttt{NL0R}$ to solve it. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{lambda}$), set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following Matlab codes demonstrate $\texttt{NL0R}$ to solve this simple problem.
+After defining the functions for the simple problem, one can call $\texttt{NL0R}$ to solve it. Users need to specify ($\texttt{func}$, $\texttt{n}$, $\texttt{lambda}$), set some parameters in $\texttt{pars}$ if necessary, and then run the solver. The following Matlab code demonstrates $\texttt{NL0R}$ to solve this simple problem.
 </div>
 <p style="line-height: 1;"></p>
 
