@@ -65,7 +65,7 @@ Package - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\fil
 
 ---
 <div style="text-align:justify;">
-The following Matlab codes (similar to Python codes) demonstrate $\texttt{OBCSpack}$ to solve the problem. Users need to input the data ($\texttt{A}$, $\texttt{b}$, $\texttt{s}$, $\texttt{k}$) and then choose one solver from {'$\texttt{GPSP}$', '$\texttt{NM01}$'}. 
+The following Matlab code (similar to Python codes) demonstrates $\texttt{OBCSpack}$ to solve the problem. Users need to input the data ($\texttt{A}$, $\texttt{b}$, $\texttt{s}$, $\texttt{k}$) and then choose one solver from {'$\texttt{GPSP}$', '$\texttt{NM01}$'}. 
 </div>
 
 <p style="line-height: 1;"></p>
