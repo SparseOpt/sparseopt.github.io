@@ -37,7 +37,7 @@ where $\mathbf{G}(\mathbf{x})\in\mathbb{R}^{M \times N}$ with each the ($i,j$)th
   
 - A non-negative cone: $\lbrace\mathbf{x}: x_i \geq 0, i=1,\ldots,K\rbrace$ 
 - A box:  $\lbrace\mathbf{x}: l\leq x_i \leq u, i=1,\ldots,K\rbrace$, where  $u \geq l\in\mathbb{R}$ 
-- A sphare: $\lbrace\mathbf{x}: \parallel\mathbf{x}\parallel^2\leq r\rbrace$ where $r>0$: 
+- A sphare: $\lbrace\mathbf{x}: \parallel\mathbf{x}\parallel^2\leq r\rbrace$, where $r>0$: 
 - A halfspace: $\lbrace\mathbf{x}: \mathbf{a}^T\mathbf{x}\leq b\rbrace$, where $\mathbf{a}\in\mathbb{R}^{K}$ and $b\in\mathbb{R}$
 - A hyperplane: $\lbrace\mathbf{x}: \mathbf{A} \mathbf{x}=  \mathbf{b}\rbrace$, where $\mathbf{A}\in\mathbb{R}^{S\times K}$ and $ \mathbf{b}\in\mathbb{R}^{S}$
 
