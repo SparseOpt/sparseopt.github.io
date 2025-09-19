@@ -60,7 +60,7 @@ where $\parallel\mathbf{x}\parallel_q^q=$ $|x_1|^q$ $+\cdots+$ $|x_n|^q$ denotes
 </div> 
 ---
 <div style="text-align:justify;">
-Package - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\CSpack-Matlab.zip" target="_blank">CSpack-Matlab</a> (click to download) provides 6 solvers from the following papers, where $\texttt{NHTP}$, $\texttt{GPSP}$, and  $\texttt{IIHT}$ are designed to solve (SCCS),  $\texttt{PSNP}$ is designed to solve (L0-RCS) and (Lq-RCS) with $0<q<1$,  $\texttt{NL0R}$ is designed to solve (L0-RCS), and $\texttt{MIRL1}$ is designed to solve (RL1CS).
+Package - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\CSpack-Matlab.zip" target="_blank">CSpack-Matlab</a> and <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\CSpack-Python.zip" target="_blank">CSpack-Python</a> (click to download) provides 6 solvers from the following papers, where $\texttt{NHTP}$, $\texttt{GPSP}$, and  $\texttt{IIHT}$ are designed to solve (SCCS),  $\texttt{PSNP}$ is designed to solve (L0-RCS) and (Lq-RCS) with $0<q<1$,  $\texttt{NL0R}$ is designed to solve (L0-RCS), and $\texttt{MIRL1}$ is designed to solve (RL1CS).
 </div>  
 > <b style="font-size:14px;color:#777777">NHTP</b> - <span style="font-size: 14px"> S Zhou, N Xiu, and H Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, JMLR, 22:1-45, 2021. </span>
 <br><b style="font-size:14px;color:#777777">GPSP</b> - <span style="font-size: 14px"> S Zhou, Gradient projection Newton pursuit for sparsity constrained optimization, ACHA, 61:75-100, 2022. </span>
