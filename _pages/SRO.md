@@ -50,22 +50,18 @@ Note that $\texttt{NL0R}$ is a second-order method, requiring the objective, gra
 <p style="line-height: 1;"></p>
 
 ```ruby
-function [out1,out2] = funcSimpleEx(x,key,T1,T2)
+function  out = funcSimpleEx(x,key,T1,T2)
     % This code provides information for
-    %     min   x'*[6 5;5 8]*x+[1 9]*x-sqrt(x'*x+1)  
+    %     min   x'*[6 5;5 8]*x+[1 9]*x-sqrt(x'*x+1) 
     a   = sqrt(sum(x.*x)+1);
     switch key
-        case 'fg'    
-            out1 = x'*[6 5;5 8]*x+[1 9]*x-a;       % objective
-            if  nargout == 2 
-                out2 = 2*[6 5;5 8]*x+[1; 9]-x./a;  % gradient
-            end
+        case 'f'    
+            out = x'*[6 5;5 8]*x+[1 9]*x-a;         % objective
+        case 'g'    
+            out = 2*[6 5;5 8]*x+[1; 9]-x./a;        % gradient
         case 'h'
-            H   = 2*[6 5;5 8]+(x*x'-a*eye(2))/a^3; % sub-Hessian formed by rows indexed by T1 and columns indexed by T1
-            out1 = H(T1,T1);
-            if  nargout == 2 
-                out2 = H(T1,T2);                   % sub-Hessian formed by rows indexed by T1 and columns indexed by T2
-            end
+            H   = 2*[6 5;5 8]+(x*x'-a*eye(2))/a^3;  % sub-Hessian indexed by T1 and T2 
+            out = H(T1,T2);
     end
 end
 ```
@@ -94,26 +90,21 @@ For other problems, users can similarly define the functions by modifying $\text
 <p style="line-height: 1;"></p>
 
 ```ruby
-function [out1,out2] = funcLinReg(x,key,T1,T2,A,b)
+function out = funcLinReg(x,key,T1,T2,A,b)
     % This code provides information for
     %     min   0.5*||Ax-b||^2 
     % where A in R^{m x n} and b in R^{m x 1}    
     switch key
-        case 'fg'
+        case 'f'
             Tx   = find(x~=0);
             Axb  = A(:,Tx)*x(Tx)-b;
-            out1 = (Axb'*Axb)/2;      % objective 
-            if  nargout == 2 
-                out2 = (Axb'*A)';     % gradient 
-            end
+            out  = (Axb'*Axb)/2;             % objective  
+        case 'g'
+            Tx   = find(x~=0); 
+            out  = ((A(:,Tx)*x(Tx)-b)'*A)';  % gradient   
         case 'h'        
-            AT   = A(:,T1); 
-            out1 = AT'*AT;            %sub-Hessian formed by rows indexed by T1 and columns indexed by T1   
-            if  nargout == 2
-                out2 = AT'*A(:,T2);   %sub-Hessian formed by rows indexed by T1 and columns indexed by T2
-            end       
-    end
-end
+            out  = A(:,T1)'*A(:,T2);         % sub-Hessian indexed by T1 and T2
+end    
 ```
 
 <div style="text-align:justify;">
