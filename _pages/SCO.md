@@ -39,7 +39,7 @@ where  $f:\mathbb{R}^{n}\rightarrow \mathbb{R}$ is a continuously or twice conti
 
 ---
 <div style="text-align:justify;"> 
-Package - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SCOpack-Matlab.zip" target="_blank">SCOpack-Matlab</a> (click to download) provides 3 solvers from the following papers:
+Package - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SCOpack-Matlab.zip" target="_blank">SCOpack-Matlab</a> and <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SCOpack-Python.zip" target="_blank">SCOpack-Python</a> (click to download) provides 3 solvers from the following papers:
 </div>
 
 > <b style="font-size:14px;color:#777777">NHTP</b> - <span style="font-size: 14px"> S Zhou, N Xiu, and H Qi, Global and quadratic convergence of Newton hard-thresholding pursuit, JMLR, 22:1-45, 2021. </span>
