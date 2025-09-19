@@ -67,7 +67,6 @@ function  out = funcSimpleEx(x,key,T1,T2)
             out = H(T1,T2);
     end
 end
-end
 ```
 
 <div style="text-align:justify;">
