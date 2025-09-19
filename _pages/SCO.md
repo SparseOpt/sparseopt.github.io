@@ -109,7 +109,8 @@ function out = funcLinReg(x,key,T1,T2,A,b)
             Tx   = find(x~=0); 
             out  = ((A(:,Tx)*x(Tx)-b)'*A)';  % gradient   
         case 'h'        
-            out  = A(:,T1)'*A(:,T2);         % sub-Hessian indexed by T1 and T2       
+            out  = A(:,T1)'*A(:,T2);         % sub-Hessian indexed by T1 and T2
+end    
 ```
 <div style="text-align:justify;">
 After defining the functions of the sparse linear regression problem, we call $\texttt{SCOpack}$ to solve the problem as follows.
