@@ -47,7 +47,7 @@ In the present package, $\Omega$ can be one of the following sets:
 
 ---
 <div style="text-align:justify;"> 
-Package - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href=" " target="_blank">SFCOpack-Matlab</a> or <a style="font-size: 16px; font-weight: bold;color:#006DB0" href=" " target="_blank">SFCOpack-Python</a>  provides 1 solver from the following paper:
+Package - <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SFCOpack-Matlab.zip" target="_blank">SFCOpack-Matlab</a> or <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="\files\SFCOpack-Python.zip" target="_blank">SFCOpack-Python</a>  provides 1 solver from the following paper:
 </div>
 
 > <b style="font-size:14px;color:#777777">SNSCO</b> - <span style="font-size: 14px"> S Zhou, L Pan, N Xiu,  and G  Li, A 0/1 constrained optimization solving sample average approximation for chance constrained programming, MOR, 2024. </span>
