@@ -35,7 +35,6 @@ a:active {
 where $\mathbf{G}(\mathbf{x})\in\mathbb{R}^{M \times N}$ with each the ($i,j$)th entry being $G_{ij}(\mathbf{x})$, functions $f:\mathbb{R}^{K}\rightarrow \mathbb{R}$ and $G_{ij}:\mathbb{R}^{K}\rightarrow \mathbb{R}$ are (preferably twice) continuously differentiable, $s\ll N$ is an integer, and $\Omega\subseteq\mathbb{R}^{K}$ is a closed and convex set. In particular, it can be one of the following sets:
 </div>
   
-- A non-negative cone: $\lbrace\mathbf{x}: x_i \geq 0, i=1,\ldots,K\rbrace$ 
 - A sphare: $\lbrace\mathbf{x}: \parallel\mathbf{x}\parallel^2\leq r\rbrace$, where $r>0$: 
 - A halfspace: $\lbrace\mathbf{x}: \mathbf{a}^T\mathbf{x}\leq b\rbrace$, where $\mathbf{a}\in\mathbb{R}^{K}$ and $b\in\mathbb{R}$
 - A hyperplane: $\lbrace\mathbf{x}: \mathbf{A} \mathbf{x}=  \mathbf{b}\rbrace$, where $\mathbf{A}\in\mathbb{R}^{S\times K}$ and $ \mathbf{b}\in\mathbb{R}^{S}$
