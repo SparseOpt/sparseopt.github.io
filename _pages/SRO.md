@@ -85,7 +85,7 @@ fprintf(' Iterations:        %4d\n', out.iter);
 ```
 
 <div style="text-align:justify;">
-For other problems, users can similarly define the functions by modifying $\texttt{out1}$ and $\texttt{out2}$ while preserving the overall structure of $\texttt{switch}$. For example, the following Matlab code defines functions for a sparse linear regression problem.
+For other problems, users can similarly define the functions by modifying $\texttt{out1}$ and $\texttt{out2}$ while preserving the overall structure of $\texttt{switch}$. For example, the following Matlab code defines functions for a sparse linear regression problem. Similarly, in the inputs of function $\texttt{funcLinReg}$, ($\texttt{x}$, $\texttt{key}$, $\texttt{T1}$, $\texttt{T2}$) are variables, while ($\texttt{A}$, $\texttt{b}$) are data. When calling function $\texttt{funcLinReg}$, users need to define these data.
 </div>
 <p style="line-height: 1;"></p>
 
