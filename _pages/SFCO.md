@@ -37,13 +37,12 @@ where $\mathbf{G}(\mathbf{x})\in\mathbb{R}^{M \times N}$ with each the ($i,j$)th
   Here, $\mathrm{step}(t)$ is the step function (or 0/1 loss function) defined by $\mathrm{step}(t)=1$ if $t>0$ and $\mathrm{step}(t)=0$ otherwise. When $M=1$, matrix $\mathbf{Z}$ reduces to a vector $\mathbf{z}\in\mathbb{R}^{N}$, let $\mathbf{z}_+=$ $(\max\{0,z_1\}$ $\ldots$ $\max\{0,z_N\})^\top$ and  $\parallel\mathbf{z}\parallel_0$ denote its L0 norm that counts the number of its nonzero entries. As a result,  
   \begin{equation*}\|\mathbf{z}\|_0^+= \mathrm{step}(z_1)+\cdots+\mathrm{step}(z_N)=\|\mathbf{z}_+\|_0\end{equation*}
 In the present package, $\Omega$ can be one of the following sets:
-  
+</div>  
+
 - A sphare: $\lbrace\mathbf{x}: \parallel\mathbf{x}\parallel^2\leq r\rbrace$, where $r>0$: 
 - A halfspace: $\lbrace\mathbf{x}: \mathbf{a}^T\mathbf{x}\leq b\rbrace$, where $\mathbf{a}\in\mathbb{R}^{K}$ and $b\in\mathbb{R}$
 - A hyperplane: $\lbrace\mathbf{x}: \mathbf{A} \mathbf{x}=  \mathbf{b}\rbrace$, where $\mathbf{A}\in\mathbb{R}^{S\times K}$ and $ \mathbf{b}\in\mathbb{R}^{S}$
 - A box:  $\lbrace\mathbf{x}: l\leq x_i \leq u, i=1,\ldots,K\rbrace$, where  $l \leq u$ can be $-\infty$ and $+\infty$. Hence, when $l=-\infty$ and $u=+\infty$, set $\Omega=\mathbb{R}^{K}$, which means no such constraint;  when $l=0$ and $u=+\infty$, set $\Omega$ is a non-negative cone
-
-</div>
  
 <!-- ## <span style="color:#8C8C8C"> The solver and its demonstration </span> -->
 
