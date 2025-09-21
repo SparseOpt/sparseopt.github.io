@@ -45,4 +45,4 @@ a:active {
 ✅ <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io/SSVM/" target="_blank">SSVM</a> - Sparse support vector machine solvers<br>
 
 <p style="line-height: 2;"></p>
-Welcome to <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt-cn.github.io" target="_blank">SparseOpt Toolbox（中文版）</a>
+Welcome to <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt-cn.github.io" target="_blank">SparseOpt Toolbox (中文版)</a>
