@@ -30,7 +30,7 @@ a:active {
 ## Welcome to SparseOpt Toolbox
 
 <div style="text-align:justify">  
-<b>SparseOpt Toolbox</b> is designed to advance numerical computation in sparse optimization and to provide a dedicated platform that integrates multiple solvers for addressing various sparse optimization applications. The current release of the toolbox encompasses the following packages, each available in both MATLAB and Python versions.
+<b>SparseOpt Toolbox</b> is designed to advance numerical computation in sparse optimization and to provide a dedicated platform that integrates multiple solvers for addressing various sparse optimization applications. The current release of the toolbox encompasses the following packages, each available in both Matlab and Python versions.
 </div>
 
 <p style="line-height: 2;"></p>
