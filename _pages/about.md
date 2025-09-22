@@ -30,7 +30,7 @@ a:active {
 ## Welcome to SparseOpt
 
 <div style="text-align:justify">  
-<b>SparseOpt</b> is a specialized computational platform for sparse and step optimization. The current release encompasses the following solvers, each available in both Matlab and Python implementations, to support various related optimization applications.
+<b>SparseOpt</b> is a specialized computational platform for sparse and step optimization. The current release provides the following solvers, each available in both Matlab and Python implementations, to support various related optimization applications.
 </div>
 
 <p style="line-height: 2;"></p>
