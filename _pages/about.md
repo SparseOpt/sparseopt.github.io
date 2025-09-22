@@ -27,10 +27,10 @@ a:active {
 </style>
 
 
-## Welcome to SparseOpt Toolbox
+## Welcome to SparseOpt
 
 <div style="text-align:justify">  
-<b>SparseOpt Toolbox</b> is designed to advance numerical computation in sparse optimization and to provide a dedicated platform that integrates multiple solvers for addressing various sparse optimization applications. The current release of the toolbox encompasses the following packages, each available in both Matlab and Python versions.
+<b>SparseOpt</b> is a specialized computational platform for sparse and step optimization. The current release encompasses the following solvers, each available in both Matlab and Python implementations, to support various related optimization applications.
 </div>
 
 <p style="line-height: 2;"></p>
@@ -45,4 +45,4 @@ a:active {
 ✅ <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt.github.io/SSVM/" target="_blank">SSVM</a> - Sparse support vector machine solvers<br>
 
 <p style="line-height: 2;"></p>
-Welcome to <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt-cn.github.io" target="_blank">SparseOpt Toolbox (中文版)</a>
+Welcome to <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt-cn.github.io" target="_blank">SparseOpt (中文版)</a>
