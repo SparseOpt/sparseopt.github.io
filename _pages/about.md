@@ -49,7 +49,7 @@ Welcome to <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="htt
 
 <hr style="margin-top: 0em;">
 
-<div id="footer" style="text-align: left; font-size: 0.9em; color: #666;">
+<div id="footer" style="text-align: right; font-size: 0.9em; color: #666;">
   <div id="footer-text"></div>
 
   <span style="color: #888;">
