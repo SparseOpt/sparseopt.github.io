@@ -47,7 +47,7 @@ a:active {
 <p style="line-height: 2;"></p>
 Welcome to <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt-cn.github.io" target="_blank">SparseOpt (中文版)</a>
 
-<hr style="margin-top: 3em;">
+<hr style="margin-top: 0em;">
 
 <div id="footer" style="text-align: center; font-size: 0.9em; color: #666;">
   <div id="footer-text"></div>
