@@ -46,3 +46,26 @@ a:active {
 
 <p style="line-height: 2;"></p>
 Welcome to <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="https://sparseopt-cn.github.io" target="_blank">SparseOpt (中文版)</a>
+
+<hr style="margin-top: 3em;">
+
+<div id="footer" style="text-align: center; font-size: 0.9em; color: #666;">
+  <div id="footer-text"></div>
+
+  <span style="color: #888;">
+    Total Views: <span id="busuanzi_value_site_pv"></span> | 
+    Unique Visitors: <span id="busuanzi_value_site_uv"></span>
+  </span>
+  
+  <br><br>
+
+  <a href="https://clustrmaps.com/site/1blbh" title="Visit tracker">
+    <img 
+      src="//www.clustrmaps.com/map_v2.png?d=Z8dyJa5Yjz2Z_i_LEAbfY0-TbrPurcZYl5i6ii_5Xbw&cl=ffffff"
+      alt="Visitor Map"
+      style="width: 300px; border-radius: 8px;"
+    />
+  </a>
+</div>
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
