@@ -53,7 +53,7 @@ Welcome to <a style="font-size: 16px; font-weight: bold;color:#006DB0" href="htt
   <div id="footer-text"></div>
 
   <span style="color: #888;">
-    Total Views: <span id="busuanzi_value_site_pv"></span> &emsp;| &emsp;
+    Total Views: <span id="busuanzi_value_site_pv"></span> &ensp;| &ensp;
     Unique Visitors: <span id="busuanzi_value_site_uv"></span>
   </span>
   
